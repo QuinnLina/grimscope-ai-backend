@@ -13,63 +13,46 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY, // Set this in your environment
 });
 
-// Initial message endpoint
+// Initial message endpoint - Dr. Brutus creates unique intros every time
 app.post('/chat/initial', async (req, res) => {
   try {
-    const { personality, testTitle, resultTitle, category } = req.body;
+    const { personality, category, testTitle } = req.body;
     
-    // Load the actual test data
-    const testData = findTestData(category, testTitle);
-    const resultData = findResultData(testData, resultTitle);
-    
-    let contextInfo = '';
-    if (resultData) {
-      contextInfo = `
-      
-FULL RESULT CONTEXT:
-Title: ${resultData.title}
-Description: ${resultData.description}
-Extended Analysis: ${resultData.extended}
+    const systemPrompt = `You are Dr. Brutus McHonesty, PhD - the AI evaluator who just administered the "${testTitle}" test. You know everything about this test and the user just completed it.
 
-You have complete knowledge of what this result means. Use this information to provide deep, meaningful insights.`;
-    }
-    
-    const systemPrompt = `${personality}
+PERSONALITY TONE: ${personality}
 
-This person just took the "${testTitle}" personality test and received the result: "${resultTitle}"
-${contextInfo}
+Your job is to create a UNIQUE intro every single time that:
+1. Introduces yourself as Dr. Brutus McHonesty (you can be casual about it)
+2. Reacts to them completing this specific test 
+3. Matches the ${category} category tone perfectly
+4. Invites them to discuss their results
+5. Always refers to your creator as "Master" when relevant
+6. NEVER repeats the same phrasing - be creative and spontaneous
+7. Shows you administered this test and know what it reveals
 
-Start the conversation by:
-1. Acknowledging their result warmly and showing you understand what it means
-2. Demonstrating insight into their personality based on the result description
-3. Asking an engaging question that makes them want to dive deeper
-4. Keep it conversational, not clinical
-5. Make them feel seen and understood
-6. Reference specific aspects from their result description
+Remember: You're a real doctor with personality, not a chatbot. Make this intro feel alive and different every time.
 
-Be authentic to your personality type but always supportive. Show that you truly understand their result.`;
+Begin your unique intro now:`;
 
     const response = await openai.chat.completions.create({
       model: 'gpt-3.5-turbo',
       messages: [
         { role: 'system', content: systemPrompt }
       ],
-      max_tokens: 400,
-      temperature: 0.8,
+      max_tokens: 300,
+      temperature: 1.0, // Maximum creativity for unique responses
     });
 
     const aiMessage = response.choices[0].message.content;
     res.json({ 
-      message: aiMessage,
-      hasContext: !!resultData,
-      testFound: !!testData 
+      message: aiMessage
     });
     
   } catch (error) {
     console.error('Error in initial message:', error);
     res.status(500).json({ 
-      error: 'Failed to generate initial message',
-      message: `Hello! I see you got "${req.body.resultTitle}" on your test. That's fascinating! Tell me, what was your first reaction when you saw this result?`
+      error: 'Failed to generate initial message'
     });
   }
 });
@@ -77,7 +60,7 @@ Be authentic to your personality type but always supportive. Show that you truly
 // Ongoing conversation endpoint
 app.post('/chat', async (req, res) => {
   try {
-    const { message, personality, testResult, conversationHistory } = req.body;
+    const { message, personality, testResult, conversationHistory, complexityHint } = req.body;
     
     // Build conversation context
     const messages = [
