@@ -119,6 +119,30 @@ app.get('/health', (req, res) => {
   res.json({ status: 'healthy', timestamp: new Date().toISOString() });
 });
 
+// Simple test endpoint
+app.get('/test-openai', async (req, res) => {
+  try {
+    console.log('Testing OpenAI...');
+    const response = await openai.chat.completions.create({
+      model: 'gpt-3.5-turbo',
+      messages: [{ role: 'user', content: 'Say "Hello from Dr. Brutus"' }],
+      max_tokens: 20,
+    });
+    res.json({ 
+      success: true,
+      message: response.choices[0].message.content 
+    });
+  } catch (error) {
+    res.json({ 
+      success: false,
+      error: error.message,
+      details: error.response?.data || 'No additional details'
+    });
+  }
+});
+
+
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
