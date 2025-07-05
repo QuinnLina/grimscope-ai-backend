@@ -1,0 +1,691 @@
+{
+  "testId": "unspoken_rituals",
+  "title": "Unspoken Rituals",
+  "description": "The strange habits that define your true self",
+  "backgroundImage": "assets/images/identity/bg11.png",
+  "backgroundMusic": "assets/audio/identity-bg-music.mp3",
+  "questions": [
+    {
+      "id": 1,
+      "question": "When you enter any new room, what is your immediate, unconscious first action?",
+      "options": [
+        {
+          "text": "Mentally map all exits and escape routes before focusing on anything else",
+          "weights": {"paranoid": 5, "observer": 2, "survivor": 4, "ghost": 1, "cipher": 0}
+        },
+        {
+          "text": "Touch the doorframe exactly three times with my fingertips",
+          "weights": {"paranoid": 2, "observer": 0, "survivor": 1, "ghost": 2, "cipher": 5}
+        },
+        {
+          "text": "Scan faces to see who's watching me and analyzing my behavior",
+          "weights": {"paranoid": 5, "observer": 4, "survivor": 2, "ghost": 1, "cipher": 0}
+        },
+        {
+          "text": "Find the darkest corner or most defensible position to claim as mine",
+          "weights": {"paranoid": 3, "observer": 1, "survivor": 5, "ghost": 3, "cipher": 0}
+        },
+        {
+          "text": "Become hyperaware of how I'm being perceived and adjust my entire presence",
+          "weights": {"paranoid": 1, "observer": 5, "survivor": 1, "ghost": 4, "cipher": 1}
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Your morning routine absolutely must include which non-negotiable ritual?",
+      "options": [
+        {
+          "text": "Checking that nothing in my environment has been moved or disturbed overnight",
+          "weights": {"paranoid": 5, "observer": 3, "survivor": 3, "ghost": 1, "cipher": 0}
+        },
+        {
+          "text": "Performing every task in the exact same sequence - any deviation ruins everything",
+          "weights": {"paranoid": 2, "observer": 1, "survivor": 2, "ghost": 0, "cipher": 5}
+        },
+        {
+          "text": "Avoiding all mirrors until I'm fully awake and can control what I see",
+          "weights": {"paranoid": 1, "observer": 0, "survivor": 1, "ghost": 5, "cipher": 3}
+        },
+        {
+          "text": "Testing whether yesterday actually happened or if I dreamed it all",
+          "weights": {"paranoid": 3, "observer": 2, "survivor": 0, "ghost": 5, "cipher": 2}
+        },
+        {
+          "text": "Rehearsing which version of myself I need to be today",
+          "weights": {"paranoid": 0, "observer": 5, "survivor": 1, "ghost": 4, "cipher": 2}
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "When walking alone on the street, you unconsciously:",
+      "options": [
+        {
+          "text": "Match my footsteps to sidewalk cracks in perfect mathematical patterns",
+          "weights": {"paranoid": 1, "observer": 2, "survivor": 0, "ghost": 1, "cipher": 5}
+        },
+        {
+          "text": "Walk as if I'm being filmed for a documentary about my life",
+          "weights": {"paranoid": 1, "observer": 5, "survivor": 1, "ghost": 3, "cipher": 0}
+        },
+        {
+          "text": "Constantly change routes and patterns to confuse anyone following me",
+          "weights": {"paranoid": 5, "observer": 1, "survivor": 4, "ghost": 0, "cipher": 2}
+        },
+        {
+          "text": "Count my breaths or steps to stay anchored to reality",
+          "weights": {"paranoid": 2, "observer": 0, "survivor": 3, "ghost": 2, "cipher": 4}
+        },
+        {
+          "text": "Practice becoming invisible by moving like I don't exist",
+          "weights": {"paranoid": 0, "observer": 2, "survivor": 1, "ghost": 5, "cipher": 2}
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Before sleep, you always perform which secret ritual?",
+      "options": [
+        {
+          "text": "Check under the bed and in closets exactly three times in specific order",
+          "weights": {"paranoid": 5, "observer": 1, "survivor": 4, "ghost": 2, "cipher": 0}
+        },
+        {
+          "text": "Arrange all objects to face away from me so they can't watch while I sleep",
+          "weights": {"paranoid": 3, "observer": 1, "survivor": 1, "ghost": 5, "cipher": 2}
+        },
+        {
+          "text": "Create mental backup copies of my memories in case I don't wake up as me",
+          "weights": {"paranoid": 1, "observer": 3, "survivor": 2, "ghost": 2, "cipher": 5}
+        },
+        {
+          "text": "Whisper goodbye to all the different versions of myself from today",
+          "weights": {"paranoid": 0, "observer": 4, "survivor": 1, "ghost": 5, "cipher": 3}
+        },
+        {
+          "text": "Test all door locks and window latches multiple times",
+          "weights": {"paranoid": 5, "observer": 0, "survivor": 5, "ghost": 0, "cipher": 1}
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Your most private bathroom ritual involves:",
+      "options": [
+        {
+          "text": "Never making eye contact with my reflection after midnight",
+          "weights": {"paranoid": 2, "observer": 0, "survivor": 1, "ghost": 5, "cipher": 3}
+        },
+        {
+          "text": "Running water to mask any sounds that might reveal my location",
+          "weights": {"paranoid": 5, "observer": 1, "survivor": 4, "ghost": 0, "cipher": 2}
+        },
+        {
+          "text": "Counting tiles, fixtures, or toothbrush strokes in specific numbers",
+          "weights": {"paranoid": 1, "observer": 2, "survivor": 0, "ghost": 1, "cipher": 5}
+        },
+        {
+          "text": "Practicing different facial expressions for tomorrow's social interactions",
+          "weights": {"paranoid": 0, "observer": 5, "survivor": 1, "ghost": 3, "cipher": 1}
+        },
+        {
+          "text": "Speaking to my reflection as if it's a separate person who needs instructions",
+          "weights": {"paranoid": 1, "observer": 3, "survivor": 0, "ghost": 5, "cipher": 2}
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When eating alone, you unconsciously:",
+      "options": [
+        {
+          "text": "Sit facing away from windows to avoid being observed while vulnerable",
+          "weights": {"paranoid": 4, "observer": 0, "survivor": 3, "ghost": 3, "cipher": 1}
+        },
+        {
+          "text": "Eat foods in specific patterns or arrangements on the plate",
+          "weights": {"paranoid": 1, "observer": 2, "survivor": 0, "ghost": 1, "cipher": 5}
+        },
+        {
+          "text": "Keep one hand completely free and ready for defensive action",
+          "weights": {"paranoid": 3, "observer": 0, "survivor": 5, "ghost": 0, "cipher": 1}
+        },
+        {
+          "text": "Pretend I'm someone else eating this meal in this life",
+          "weights": {"paranoid": 0, "observer": 4, "survivor": 1, "ghost": 5, "cipher": 2}
+        },
+        {
+          "text": "Eat while standing or pacing to stay alert and mobile",
+          "weights": {"paranoid": 4, "observer": 1, "survivor": 5, "ghost": 1, "cipher": 0}
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Your phone and digital device rituals include:",
+      "options": [
+        {
+          "text": "Immediately deleting messages after reading them twice",
+          "weights": {"paranoid": 5, "observer": 2, "survivor": 3, "ghost": 1, "cipher": 0}
+        },
+        {
+          "text": "Refreshing the same app exactly seven times before moving to the next",
+          "weights": {"paranoid": 1, "observer": 1, "survivor": 0, "ghost": 2, "cipher": 5}
+        },
+        {
+          "text": "Never saving contacts under their real names - everyone gets a code",
+          "weights": {"paranoid": 5, "observer": 1, "survivor": 3, "ghost": 0, "cipher": 3}
+        },
+        {
+          "text": "Typing long messages to people that I'll never actually send",
+          "weights": {"paranoid": 0, "observer": 3, "survivor": 1, "ghost": 5, "cipher": 2}
+        },
+        {
+          "text": "Curating my online presence to show only approved versions of myself",
+          "weights": {"paranoid": 2, "observer": 5, "survivor": 2, "ghost": 2, "cipher": 1}
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "In elevators, you compulsively:",
+      "options": [
+        {
+          "text": "Press your floor button exactly three times to ensure it registered",
+          "weights": {"paranoid": 2, "observer": 0, "survivor": 1, "ghost": 1, "cipher": 5}
+        },
+        {
+          "text": "Position yourself in the mathematical center of the elevator car",
+          "weights": {"paranoid": 1, "observer": 2, "survivor": 2, "ghost": 0, "cipher": 5}
+        },
+        {
+          "text": "Face the corner instead of the doors to avoid unwanted interaction",
+          "weights": {"paranoid": 3, "observer": 0, "survivor": 2, "ghost": 5, "cipher": 1}
+        },
+        {
+          "text": "Hold my breath between floors to mark the transition",
+          "weights": {"paranoid": 2, "observer": 1, "survivor": 3, "ghost": 3, "cipher": 2}
+        },
+        {
+          "text": "Study other passengers' micro-expressions and body language",
+          "weights": {"paranoid": 3, "observer": 5, "survivor": 2, "ghost": 0, "cipher": 0}
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Your clothing and appearance rituals involve:",
+      "options": [
+        {
+          "text": "Wearing at least one item inside-out or backwards for protection",
+          "weights": {"paranoid": 3, "observer": 0, "survivor": 2, "ghost": 2, "cipher": 5}
+        },
+        {
+          "text": "Never wearing the same outfit twice in the same social context",
+          "weights": {"paranoid": 2, "observer": 5, "survivor": 1, "ghost": 3, "cipher": 0}
+        },
+        {
+          "text": "Obsessively checking and rechecking all pockets for important items",
+          "weights": {"paranoid": 5, "observer": 2, "survivor": 4, "ghost": 0, "cipher": 1}
+        },
+        {
+          "text": "Dressing as different characters depending on where I'm going",
+          "weights": {"paranoid": 0, "observer": 5, "survivor": 1, "ghost": 4, "cipher": 2}
+        },
+        {
+          "text": "Choosing clothes that help me blend into backgrounds and disappear",
+          "weights": {"paranoid": 3, "observer": 1, "survivor": 3, "ghost": 5, "cipher": 0}
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "When passing mirrors, you consistently:",
+      "options": [
+        {
+          "text": "Look away immediately to prevent stealing pieces of my soul",
+          "weights": {"paranoid": 2, "observer": 0, "survivor": 1, "ghost": 5, "cipher": 3}
+        },
+        {
+          "text": "Check if my reflection is following my movements correctly",
+          "weights": {"paranoid": 5, "observer": 3, "survivor": 2, "ghost": 2, "cipher": 0}
+        },
+        {
+          "text": "Make the exact same gesture or expression every single time",
+          "weights": {"paranoid": 1, "observer": 2, "survivor": 0, "ghost": 1, "cipher": 5}
+        },
+        {
+          "text": "Practice being someone else and test how convincing I look",
+          "weights": {"paranoid": 0, "observer": 5, "survivor": 1, "ghost": 3, "cipher": 2}
+        },
+        {
+          "text": "Check if the person in the mirror recognizes me today",
+          "weights": {"paranoid": 1, "observer": 2, "survivor": 0, "ghost": 5, "cipher": 3}
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Your workspace or study area must have:",
+      "options": [
+        {
+          "text": "Objects arranged in specific protective patterns and formations",
+          "weights": {"paranoid": 4, "observer": 1, "survivor": 2, "ghost": 2, "cipher": 4}
+        },
+        {
+          "text": "Multiple planned escape routes and emergency protocols",
+          "weights": {"paranoid": 4, "observer": 2, "survivor": 5, "ghost": 0, "cipher": 1}
+        },
+        {
+          "text": "Everything positioned to face specific cardinal directions",
+          "weights": {"paranoid": 2, "observer": 1, "survivor": 0, "ghost": 1, "cipher": 5}
+        },
+        {
+          "text": "Hidden backup copies of important items in secret locations",
+          "weights": {"paranoid": 3, "observer": 2, "survivor": 4, "ghost": 1, "cipher": 4}
+        },
+        {
+          "text": "Props and materials for different versions of myself",
+          "weights": {"paranoid": 0, "observer": 5, "survivor": 1, "ghost": 4, "cipher": 2}
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "During conversations with others, you unconsciously:",
+      "options": [
+        {
+          "text": "Count their blinks and eye movements for signs of deception",
+          "weights": {"paranoid": 5, "observer": 3, "survivor": 2, "ghost": 0, "cipher": 2}
+        },
+        {
+          "text": "Mirror their body language and speech patterns exactly",
+          "weights": {"paranoid": 1, "observer": 5, "survivor": 2, "ghost": 3, "cipher": 0}
+        },
+        {
+          "text": "Continuously track exits and potential escape routes",
+          "weights": {"paranoid": 3, "observer": 1, "survivor": 5, "ghost": 0, "cipher": 2}
+        },
+        {
+          "text": "Watch myself from outside as if I'm observing a performance",
+          "weights": {"paranoid": 0, "observer": 4, "survivor": 1, "ghost": 5, "cipher": 2}
+        },
+        {
+          "text": "Count words or syllables in patterns to stay grounded",
+          "weights": {"paranoid": 2, "observer": 1, "survivor": 2, "ghost": 1, "cipher": 5}
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Your shower and bathing rituals include:",
+      "options": [
+        {
+          "text": "Never fully closing my eyes - always maintaining partial vision",
+          "weights": {"paranoid": 5, "observer": 1, "survivor": 4, "ghost": 2, "cipher": 0}
+        },
+        {
+          "text": "Washing every body part in the exact same order every time",
+          "weights": {"paranoid": 1, "observer": 0, "survivor": 2, "ghost": 0, "cipher": 5}
+        },
+        {
+          "text": "Keeping the shower curtain or door partially open for quick escape",
+          "weights": {"paranoid": 3, "observer": 2, "survivor": 5, "ghost": 1, "cipher": 0}
+        },
+        {
+          "text": "Having entire conversations with people who aren't there",
+          "weights": {"paranoid": 0, "observer": 3, "survivor": 1, "ghost": 5, "cipher": 2}
+        },
+        {
+          "text": "Timing everything precisely - 30 seconds here, 45 seconds there",
+          "weights": {"paranoid": 2, "observer": 1, "survivor": 2, "ghost": 0, "cipher": 5}
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Before entering your own home, you always:",
+      "options": [
+        {
+          "text": "Listen at the door for 30+ seconds to detect any changes inside",
+          "weights": {"paranoid": 5, "observer": 3, "survivor": 4, "ghost": 1, "cipher": 0}
+        },
+        {
+          "text": "Touch the doorknob or frame exactly three times before turning",
+          "weights": {"paranoid": 2, "observer": 0, "survivor": 1, "ghost": 2, "cipher": 5}
+        },
+        {
+          "text": "Mentally prepare and rehearse my 'home personality'",
+          "weights": {"paranoid": 0, "observer": 5, "survivor": 2, "ghost": 3, "cipher": 1}
+        },
+        {
+          "text": "Scan for anything that looks different or out of place",
+          "weights": {"paranoid": 5, "observer": 2, "survivor": 4, "ghost": 0, "cipher": 1}
+        },
+        {
+          "text": "Take a moment to remember who I'm supposed to be here",
+          "weights": {"paranoid": 1, "observer": 4, "survivor": 1, "ghost": 5, "cipher": 1}
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Your secret eating and food rituals involve:",
+      "options": [
+        {
+          "text": "Tasting everything in clockwise order around the plate",
+          "weights": {"paranoid": 1, "observer": 2, "survivor": 0, "ghost": 1, "cipher": 5}
+        },
+        {
+          "text": "Never finishing the very last bite of anything",
+          "weights": {"paranoid": 2, "observer": 1, "survivor": 3, "ghost": 5, "cipher": 0}
+        },
+        {
+          "text": "Eating while standing guard, ready to flee at any moment",
+          "weights": {"paranoid": 4, "observer": 1, "survivor": 5, "ghost": 0, "cipher": 1}
+        },
+        {
+          "text": "Pretending the food chose me instead of me choosing it",
+          "weights": {"paranoid": 0, "observer": 2, "survivor": 1, "ghost": 5, "cipher": 3}
+        },
+        {
+          "text": "Arranging food into mathematical patterns before eating",
+          "weights": {"paranoid": 1, "observer": 1, "survivor": 0, "ghost": 0, "cipher": 5}
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "When completely alone at home, you:",
+      "options": [
+        {
+          "text": "Check every room twice to confirm you're truly alone",
+          "weights": {"paranoid": 5, "observer": 2, "survivor": 4, "ghost": 1, "cipher": 0}
+        },
+        {
+          "text": "Perform secret movements and gestures that no one else knows",
+          "weights": {"paranoid": 1, "observer": 3, "survivor": 0, "ghost": 2, "cipher": 5}
+        },
+        {
+          "text": "Keep all doors either completely open or completely closed",
+          "weights": {"paranoid": 3, "observer": 1, "survivor": 2, "ghost": 0, "cipher": 5}
+        },
+        {
+          "text": "Practice being your authentic self without any masks",
+          "weights": {"paranoid": 0, "observer": 4, "survivor": 1, "ghost": 5, "cipher": 2}
+        },
+        {
+          "text": "Talk to yourself as multiple different people",
+          "weights": {"paranoid": 1, "observer": 3, "survivor": 0, "ghost": 5, "cipher": 3}
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Your hand and finger rituals involve:",
+      "options": [
+        {
+          "text": "Cracking knuckles in a specific mathematical sequence",
+          "weights": {"paranoid": 1, "observer": 2, "survivor": 0, "ghost": 1, "cipher": 5}
+        },
+        {
+          "text": "Never showing the palms of my hands to strangers",
+          "weights": {"paranoid": 5, "observer": 1, "survivor": 3, "ghost": 2, "cipher": 0}
+        },
+        {
+          "text": "Keeping hands partially clenched and ready for action",
+          "weights": {"paranoid": 3, "observer": 0, "survivor": 5, "ghost": 1, "cipher": 2}
+        },
+        {
+          "text": "Touching objects to make them feel real and grounded",
+          "weights": {"paranoid": 2, "observer": 3, "survivor": 1, "ghost": 5, "cipher": 0}
+        },
+        {
+          "text": "Making specific gestures that ward off negative energy",
+          "weights": {"paranoid": 2, "observer": 0, "survivor": 1, "ghost": 3, "cipher": 5}
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "In waiting rooms or public spaces, you must:",
+      "options": [
+        {
+          "text": "Sit where you can observe everyone while controlling access to yourself",
+          "weights": {"paranoid": 5, "observer": 3, "survivor": 4, "ghost": 0, "cipher": 1}
+        },
+        {
+          "text": "Count ceiling tiles, floor patterns, or other repetitive elements",
+          "weights": {"paranoid": 1, "observer": 2, "survivor": 0, "ghost": 1, "cipher": 5}
+        },
+        {
+          "text": "Never sit in the same spot twice in the same location",
+          "weights": {"paranoid": 3, "observer": 2, "survivor": 3, "ghost": 1, "cipher": 3}
+        },
+        {
+          "text": "Practice becoming invisible and unnoticeable",
+          "weights": {"paranoid": 0, "observer": 1, "survivor": 2, "ghost": 5, "cipher": 3}
+        },
+        {
+          "text": "Study other people to collect data on normal human behavior",
+          "weights": {"paranoid": 2, "observer": 5, "survivor": 1, "ghost": 2, "cipher": 0}
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Your breathing patterns when anxious or stressed:",
+      "options": [
+        {
+          "text": "Follow strict mathematical counts: four in, hold seven, eight out",
+          "weights": {"paranoid": 2, "observer": 1, "survivor": 4, "ghost": 0, "cipher": 4}
+        },
+        {
+          "text": "Match the breathing patterns of others to blend in seamlessly",
+          "weights": {"paranoid": 1, "observer": 5, "survivor": 2, "ghost": 3, "cipher": 0}
+        },
+        {
+          "text": "Become deliberately shallow to maintain hypervigilance",
+          "weights": {"paranoid": 5, "observer": 2, "survivor": 4, "ghost": 1, "cipher": 0}
+        },
+        {
+          "text": "Breathe for all my different selves to keep them alive",
+          "weights": {"paranoid": 0, "observer": 2, "survivor": 1, "ghost": 5, "cipher": 3}
+        },
+        {
+          "text": "Create specific rhythmic patterns that unlock calm states",
+          "weights": {"paranoid": 1, "observer": 1, "survivor": 3, "ghost": 1, "cipher": 5}
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Your memory and information storage rituals include:",
+      "options": [
+        {
+          "text": "Writing important things exactly three times to ensure retention",
+          "weights": {"paranoid": 2, "observer": 3, "survivor": 1, "ghost": 0, "cipher": 5}
+        },
+        {
+          "text": "Creating false memories as decoys for real information",
+          "weights": {"paranoid": 5, "observer": 2, "survivor": 3, "ghost": 1, "cipher": 3}
+        },
+        {
+          "text": "Memorizing exits and escape routes before anything else",
+          "weights": {"paranoid": 3, "observer": 1, "survivor": 5, "ghost": 0, "cipher": 2}
+        },
+        {
+          "text": "Storing memories in imaginary rooms and locations in my mind",
+          "weights": {"paranoid": 0, "observer": 3, "survivor": 1, "ghost": 4, "cipher": 3}
+        },
+        {
+          "text": "Compartmentalizing information so no single version of me knows everything",
+          "weights": {"paranoid": 2, "observer": 4, "survivor": 2, "ghost": 3, "cipher": 2}
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "Before any important event or meeting, you:",
+      "options": [
+        {
+          "text": "Rehearse every possible scenario and contingency plan",
+          "weights": {"paranoid": 4, "observer": 3, "survivor": 4, "ghost": 1, "cipher": 0}
+        },
+        {
+          "text": "Perform your personal protection ritual sequence",
+          "weights": {"paranoid": 3, "observer": 0, "survivor": 2, "ghost": 2, "cipher": 5}
+        },
+        {
+          "text": "Choose which version of yourself to send while the real you stays safe",
+          "weights": {"paranoid": 0, "observer": 5, "survivor": 1, "ghost": 4, "cipher": 2}
+        },
+        {
+          "text": "Accept that you might not return as the same person",
+          "weights": {"paranoid": 2, "observer": 2, "survivor": 3, "ghost": 5, "cipher": 0}
+        },
+        {
+          "text": "Create detailed mental maps of the location and all variables",
+          "weights": {"paranoid": 4, "observer": 2, "survivor": 5, "ghost": 0, "cipher": 1}
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "Your walking and movement rituals include:",
+      "options": [
+        {
+          "text": "Never stepping on cracks, lines, or specific patterns",
+          "weights": {"paranoid": 2, "observer": 1, "survivor": 0, "ghost": 1, "cipher": 5}
+        },
+        {
+          "text": "Varying speed and direction to confuse potential followers",
+          "weights": {"paranoid": 5, "observer": 2, "survivor": 4, "ghost": 0, "cipher": 1}
+        },
+        {
+          "text": "Walking as if I'm channeling someone else's movement style",
+          "weights": {"paranoid": 0, "observer": 5, "survivor": 1, "ghost": 4, "cipher": 2}
+        },
+        {
+          "text": "Counting steps in multiples of personally significant numbers",
+          "weights": {"paranoid": 3, "observer": 1, "survivor": 2, "ghost": 0, "cipher": 5}
+        },
+        {
+          "text": "Moving like I'm trying to leave no trace of my passage",
+          "weights": {"paranoid": 2, "observer": 1, "survivor": 3, "ghost": 5, "cipher": 0}
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "Your nighttime security check always includes:",
+      "options": [
+        {
+          "text": "Testing whether objects have moved on their own during the day",
+          "weights": {"paranoid": 5, "observer": 3, "survivor": 2, "ghost": 2, "cipher": 0}
+        },
+        {
+          "text": "Making sure all versions of yourself have returned home safely",
+          "weights": {"paranoid": 0, "observer": 2, "survivor": 1, "ghost": 5, "cipher": 3}
+        },
+        {
+          "text": "Securing all possible entry points and invasion routes",
+          "weights": {"paranoid": 3, "observer": 1, "survivor": 5, "ghost": 0, "cipher": 2}
+        },
+        {
+          "text": "Arranging objects in protective geometric formations",
+          "weights": {"paranoid": 2, "observer": 0, "survivor": 2, "ghost": 2, "cipher": 5}
+        },
+        {
+          "text": "Confirming that today actually happened and wasn't imagined",
+          "weights": {"paranoid": 1, "observer": 2, "survivor": 0, "ghost": 5, "cipher": 3}
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "Your social media and online presence rituals involve:",
+      "options": [
+        {
+          "text": "Checking the same profiles in exactly the same order every time",
+          "weights": {"paranoid": 2, "observer": 3, "survivor": 0, "ghost": 1, "cipher": 5}
+        },
+        {
+          "text": "Never posting your real thoughts, only carefully curated content",
+          "weights": {"paranoid": 5, "observer": 2, "survivor": 3, "ghost": 1, "cipher": 0}
+        },
+        {
+          "text": "Creating false patterns and data to mislead anyone watching",
+          "weights": {"paranoid": 4, "observer": 1, "survivor": 2, "ghost": 0, "cipher": 4}
+        },
+        {
+          "text": "Studying others to learn how to behave like a normal human",
+          "weights": {"paranoid": 0, "observer": 5, "survivor": 1, "ghost": 3, "cipher": 2}
+        },
+        {
+          "text": "Maintaining multiple accounts for different versions of yourself",
+          "weights": {"paranoid": 2, "observer": 4, "survivor": 1, "ghost": 4, "cipher": 1}
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "question": "Your deepest, most secret ritual that nobody else knows involves:",
+      "options": [
+        {
+          "text": "Speaking to inanimate objects as if they're conscious entities watching you",
+          "weights": {"paranoid": 1, "observer": 2, "survivor": 0, "ghost": 5, "cipher": 3}
+        },
+        {
+          "text": "Creating backup plans for your backup plans, nested infinitely deep",
+          "weights": {"paranoid": 4, "observer": 2, "survivor": 5, "ghost": 0, "cipher": 1}
+        },
+        {
+          "text": "Performing small magical acts to protect yourself from unseen forces",
+          "weights": {"paranoid": 2, "observer": 0, "survivor": 1, "ghost": 3, "cipher": 5}
+        },
+        {
+          "text": "Practicing dying and returning to prepare for the inevitable",
+          "weights": {"paranoid": 3, "observer": 1, "survivor": 3, "ghost": 5, "cipher": 0}
+        },
+        {
+          "text": "Testing whether reality responds consistently to your private commands",
+          "weights": {"paranoid": 1, "observer": 2, "survivor": 0, "ghost": 3, "cipher": 5}
+        }
+      ]
+    }
+  ],
+  "traits": [
+    {
+      "id": "paranoid",
+      "title": "The Paranoid Ritualist",
+      "description": "Your rituals are sophisticated defense mechanisms against a world that's constantly monitoring you. Every pattern is protection, every repetition a ward against chaos. You've built an elaborate behavioral firewall that keeps the darkness at bay - or at least makes you feel in control.",
+      "scoreRange": [85, 100]
+    },
+    {
+      "id": "observer",
+      "title": "The Observer Ritualist", 
+      "description": "Your rituals are research protocols for studying human behavior. You perform the sacred acts of 'normalcy' like an anthropologist studying an alien species - which, in a way, you are. Every gesture is calculated, every routine a performance based on careful observation.",
+      "scoreRange": [70, 84]
+    },
+    {
+      "id": "survivor",
+      "title": "The Survivor Ritualist",
+      "description": "Your rituals are battle-tested survival mechanisms honed by years of threat assessment. Every behavior serves a tactical purpose: stay alert, stay ready, stay alive. You've turned existence into a series of defensive maneuvers, each ritual a checkpoint in your ongoing battle against chaos.",
+      "scoreRange": [55, 69]
+    },
+    {
+      "id": "ghost",
+      "title": "The Ghost Ritualist",
+      "description": "Your rituals are desperate attempts to prove you exist in a world that seems to look right through you. Each repetitive action is an anchor to reality, a way to leave marks on a universe that treats you as optional. You perform ceremonies not for protection but for presence.",
+      "scoreRange": [40, 54]
+    },
+    {
+      "id": "cipher",
+      "title": "The Cipher Ritualist",
+      "description": "Your rituals are an elaborate encryption system that only you can decode. Each behavior is part of a complex algorithm that transforms chaos into pattern, randomness into meaning. You've created your own reality with its own operational syntax, and your rituals are the programming language.",
+      "scoreRange": [0, 39]
+    }
+  ]
+}

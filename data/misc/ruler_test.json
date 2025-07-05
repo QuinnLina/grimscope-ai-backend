@@ -1,0 +1,358 @@
+{
+  "testId": "ruler-type",
+  "title": "👑 What Type of Ruler Are You?",
+  "description": "Discover your true leadership style and ruling philosophy",
+  "emoji": "👑",
+  "color": "#FFD700",
+  "backgroundImage": "assets/images/misc/golden-throne.png",
+  "backgroundMusic": "assets/audio/royal-orchestral.mp3",
+  "questions": [
+    {
+      "id": 1,
+      "question": "When faced with a major crisis threatening your domain, what is your immediate instinct?",
+      "answers": [
+        {"text": "Gather my most trusted advisors for an emergency council meeting", "traits": ["wise_council", "diplomatic"]},
+        {"text": "Take decisive action immediately, even if it means making enemies", "traits": ["iron_fist", "decisive"]},
+        {"text": "Rally the people with an inspiring speech about overcoming together", "traits": ["beloved_leader", "charismatic"]},
+        {"text": "Carefully analyze all information before making any moves", "traits": ["strategic_mind", "cautious"]},
+        {"text": "Personally lead from the front lines to show I share their burden", "traits": ["warrior_king", "sacrificial"]}
+      ]
+    },
+    {
+      "id": 2,
+      "question": "A wealthy merchant offers you a substantial bribe to overlook their tax evasion. Your response reveals your core as a leader:",
+      "answers": [
+        {"text": "Refuse completely - my integrity is worth more than any amount", "traits": ["just_ruler", "principled"]},
+        {"text": "Accept it but use the money for public works projects", "traits": ["pragmatic", "cunning"]},
+        {"text": "Expose them publicly as an example to others", "traits": ["iron_fist", "authoritarian"]},
+        {"text": "Negotiate a fair settlement that serves justice and the realm", "traits": ["diplomatic", "wise_council"]},
+        {"text": "Have them contribute to charity instead of paying the bribe", "traits": ["benevolent", "creative"]}
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Your closest friend betrays your trust for personal gain. This cuts deeper than any political betrayal. How do you handle this wound?",
+      "answers": [
+        {"text": "Banish them immediately - betrayal cannot be tolerated from anyone", "traits": ["iron_fist", "unforgiving"]},
+        {"text": "Confront them privately, seeking to understand why they did it", "traits": ["wise_council", "empathetic"]},
+        {"text": "Publicly forgive them but never trust them again", "traits": ["political_mind", "calculating"]},
+        {"text": "Feel deeply hurt but try to find a path to genuine reconciliation", "traits": ["benevolent", "hopeful"]},
+        {"text": "Use this as a lesson to trust no one but yourself going forward", "traits": ["paranoid_tyrant", "isolated"]}
+      ]
+    },
+    {
+      "id": 4,
+      "question": "When you envision your ideal kingdom, what brings you the most satisfaction in this vision?",
+      "answers": [
+        {"text": "Citizens who are genuinely happy and prosperous in their daily lives", "traits": ["beloved_leader", "people_focused"]},
+        {"text": "A perfectly ordered society where everything functions efficiently", "traits": ["systematic", "controlling"]},
+        {"text": "A realm that is respected and feared by neighboring kingdoms", "traits": ["conqueror", "ambitious"]},
+        {"text": "A legacy of wisdom and justice that will outlast my lifetime", "traits": ["philosopher_king", "legacy_focused"]},
+        {"text": "The knowledge that I've maximized prosperity and minimized suffering", "traits": ["utilitarian", "analytical"]}
+      ]
+    },
+    {
+      "id": 5,
+      "question": "A famine strikes your lands. Resources are limited and difficult choices must be made. What weighs heaviest on your mind?",
+      "answers": [
+        {"text": "Ensuring the most vulnerable - children and elderly - are fed first", "traits": ["protective", "sacrificial"]},
+        {"text": "Maintaining order so that panic doesn't make the situation worse", "traits": ["authoritarian", "controlling"]},
+        {"text": "Finding innovative solutions that others haven't considered", "traits": ["creative", "innovative"]},
+        {"text": "Distributing resources as fairly as mathematically possible", "traits": ["just_ruler", "systematic"]},
+        {"text": "Taking responsibility personally and sharing in the suffering", "traits": ["martyr_leader", "empathetic"]}
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Your advisors are split on a crucial decision that could define your reign. Deep down, what guides your final choice?",
+      "answers": [
+        {"text": "The option that best serves the greatest number of people", "traits": ["utilitarian", "people_focused"]},
+        {"text": "What my gut instinct tells me is right, regardless of logic", "traits": ["intuitive", "bold"]},
+        {"text": "The choice that aligns with my core moral principles", "traits": ["principled", "unwavering"]},
+        {"text": "The decision that offers the best long-term strategic advantage", "traits": ["strategic_mind", "calculating"]},
+        {"text": "Whatever option has the least risk of causing harm", "traits": ["cautious", "protective"]}
+      ]
+    },
+    {
+      "id": 7,
+      "question": "How do you want your subjects to truly feel when they see you in person?",
+      "answers": [
+        {"text": "Safe and protected, knowing I will defend them", "traits": ["guardian", "protective"]},
+        {"text": "Inspired to be better versions of themselves", "traits": ["visionary", "charismatic"]},
+        {"text": "Respected for my wisdom and fair judgment", "traits": ["wise_council", "respected"]},
+        {"text": "Confident that their needs and concerns are heard", "traits": ["accessible", "empathetic"]},
+        {"text": "Certain that order and stability will be maintained", "traits": ["authoritarian", "controlling"]}
+      ]
+    },
+    {
+      "id": 8,
+      "question": "A neighboring kingdom proposes an alliance through marriage to your heir. Your personal feelings about this arrangement reveal:",
+      "answers": [
+        {"text": "I'm torn between duty to the realm and my child's happiness", "traits": ["conflicted", "family_focused"]},
+        {"text": "Political alliances must sometimes require personal sacrifice", "traits": ["pragmatic", "duty_bound"]},
+        {"text": "I would never force my child into a loveless marriage", "traits": ["progressive", "empathetic"]},
+        {"text": "This is an excellent opportunity to strengthen our position", "traits": ["strategic_mind", "ambitious"]},
+        {"text": "I need to carefully evaluate if this partner is worthy of my heir", "traits": ["protective", "cautious"]}
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Late at night, alone with your thoughts, what fear about your rule keeps you awake?",
+      "answers": [
+        {"text": "That I might make a decision that causes unnecessary suffering", "traits": ["empathetic", "burden_bearer"]},
+        {"text": "That history will judge me as a failure or tyrant", "traits": ["legacy_focused", "insecure"]},
+        {"text": "That I'm not strong enough to protect those who depend on me", "traits": ["self_doubting", "protective"]},
+        {"text": "That the power is corrupting me in ways I can't see", "traits": ["self_aware", "principled"]},
+        {"text": "That my enemies are plotting against me while I sleep", "traits": ["paranoid", "vigilant"]}
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Your most trusted general questions your military strategy in front of other commanders. Your reaction shows:",
+      "answers": [
+        {"text": "I welcome the challenge - better strategies come from debate", "traits": ["open_minded", "collaborative"]},
+        {"text": "I'm offended by the public disrespect and address it privately", "traits": ["pride_focused", "diplomatic"]},
+        {"text": "I demonstrate why my strategy is superior with detailed explanation", "traits": ["intellectual", "confident"]},
+        {"text": "I immediately assert my authority to maintain chain of command", "traits": ["authoritarian", "hierarchy_focused"]},
+        {"text": "I'm genuinely concerned I might be wrong and reconsider", "traits": ["humble", "adaptive"]}
+      ]
+    },
+    {
+      "id": 11,
+      "question": "When you imagine the stories told about your reign centuries from now, what do you hope they emphasize?",
+      "answers": [
+        {"text": "How I transformed my kingdom into something magnificent", "traits": ["visionary", "ambitious"]},
+        {"text": "The peace and prosperity my people enjoyed under my rule", "traits": ["beloved_leader", "peace_maker"]},
+        {"text": "How I upheld justice even when it was difficult", "traits": ["just_ruler", "principled"]},
+        {"text": "The wise decisions I made during crucial moments", "traits": ["wise_council", "thoughtful"]},
+        {"text": "How I protected my people from those who would harm them", "traits": ["guardian", "defensive"]}
+      ]
+    },
+    {
+      "id": 12,
+      "question": "A plague threatens your kingdom and you must choose who receives the limited medicine first. This impossible choice reveals:",
+      "answers": [
+        {"text": "I would establish a fair system based on medical need, not status", "traits": ["egalitarian", "systematic"]},
+        {"text": "Essential workers and leaders must be prioritized for the greater good", "traits": ["pragmatic", "utilitarian"]},
+        {"text": "I would give my own portion to the most vulnerable", "traits": ["sacrificial", "noble"]},
+        {"text": "Random selection is the only truly fair method", "traits": ["democratic", "impartial"]},
+        {"text": "I would exhaust every option to find more medicine before choosing", "traits": ["resourceful", "determined"]}
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Your heir disagrees with your fundamental approach to ruling and wants to change everything when they inherit. How do you feel?",
+      "answers": [
+        {"text": "Proud that they have the courage to forge their own path", "traits": ["progressive", "supportive"]},
+        {"text": "Concerned that they'll undo everything I've worked to build", "traits": ["legacy_focused", "controlling"]},
+        {"text": "Hopeful that they might actually improve upon my methods", "traits": ["humble", "growth_minded"]},
+        {"text": "Worried that they don't understand the complexities of leadership yet", "traits": ["experienced", "protective"]},
+        {"text": "Determined to guide them toward better decisions", "traits": ["mentoring", "influential"]}
+      ]
+    },
+    {
+      "id": 14,
+      "question": "A group of rebels claims you've become disconnected from the common people's struggles. This accusation hits you because:",
+      "answers": [
+        {"text": "It might be true and I need to reconnect with my people immediately", "traits": ["self_reflective", "adaptive"]},
+        {"text": "It shows how ungrateful people can be despite all I've done for them", "traits": ["bitter", "defensive"]},
+        {"text": "It reveals a failure in my communication, not my policies", "traits": ["communication_focused", "analytical"]},
+        {"text": "It suggests I need better advisors who understand the people", "traits": ["delegate_focused", "wise_council"]},
+        {"text": "It's likely enemy propaganda designed to undermine my authority", "traits": ["suspicious", "paranoid"]}
+      ]
+    },
+    {
+      "id": 15,
+      "question": "If you could possess one supernatural power to aid your rule, what would serve your deepest purpose as a leader?",
+      "answers": [
+        {"text": "The ability to know if someone is lying to me", "traits": ["truth_seeker", "trust_issues"]},
+        {"text": "The power to see the long-term consequences of my decisions", "traits": ["strategic_mind", "cautious"]},
+        {"text": "The ability to feel the emotions and pain of my subjects", "traits": ["empathetic", "burden_bearer"]},
+        {"text": "The power to inspire unwavering loyalty in others", "traits": ["charismatic", "influence_focused"]},
+        {"text": "The ability to be in multiple places at once to serve everyone", "traits": ["service_oriented", "overwhelmed"]}
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Your kingdom faces economic collapse and you must choose between raising taxes on the wealthy or cutting services to the poor. Your choice reflects:",
+      "answers": [
+        {"text": "Tax the wealthy - they can afford to contribute more", "traits": ["redistributive", "egalitarian"]},
+        {"text": "Cut services temporarily while finding alternative solutions", "traits": ["pragmatic", "solution_focused"]},
+        {"text": "Find a creative third option that doesn't hurt either group", "traits": ["innovative", "diplomatic"]},
+        {"text": "Make personal sacrifices first before asking others to sacrifice", "traits": ["self_sacrificing", "leading_by_example"]},
+        {"text": "Choose whatever option creates the least social unrest", "traits": ["stability_focused", "cautious"]}
+      ]
+    },
+    {
+      "id": 17,
+      "question": "When you must deliver terrible news to your people, what approach feels most authentic to who you are?",
+      "answers": [
+        {"text": "Tell them directly and honestly, trusting them to handle the truth", "traits": ["transparent", "respectful"]},
+        {"text": "Frame it with hope and concrete plans for moving forward", "traits": ["optimistic", "solution_focused"]},
+        {"text": "Take full responsibility and explain exactly what I'm doing about it", "traits": ["accountable", "action_oriented"]},
+        {"text": "Deliver it privately to leaders first, then carefully to the public", "traits": ["strategic", "controlled"]},
+        {"text": "Share my own emotions about it so they know I care deeply", "traits": ["vulnerable", "emotional"]}
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Your greatest military victory is won, but at a terrible cost in lives. How do you process this internal conflict?",
+      "answers": [
+        {"text": "Honor the fallen by ensuring their sacrifice achieved lasting peace", "traits": ["memorial_minded", "purpose_driven"]},
+        {"text": "Question whether any victory is worth such a price", "traits": ["pacifist", "remorseful"]},
+        {"text": "Accept that leadership sometimes requires making horrible choices", "traits": ["realistic", "burden_bearer"]},
+        {"text": "Vow to find ways to avoid such costs in future conflicts", "traits": ["learning_focused", "adaptive"]},
+        {"text": "Celebrate the victory while privately mourning the cost", "traits": ["compartmentalizing", "complex"]}
+      ]
+    },
+    {
+      "id": 19,
+      "question": "A wise prophet offers you knowledge of your exact death date and circumstances. Your response reveals your relationship with mortality and legacy:",
+      "answers": [
+        {"text": "I would want to know so I can prepare my kingdom properly", "traits": ["preparation_focused", "responsible"]},
+        {"text": "I would refuse - some knowledge is too heavy to bear", "traits": ["wisdom_seeking", "protective_of_self"]},
+        {"text": "I would ask instead for knowledge of my greatest mistake to avoid it", "traits": ["improvement_focused", "humble"]},
+        {"text": "I would want to know if my death brings peace or chaos", "traits": ["legacy_focused", "kingdom_first"]},
+        {"text": "I would ask how to ensure my people prosper after I'm gone", "traits": ["selfless", "successor_focused"]}
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Your most beloved advisor, who has served faithfully for decades, is slowly losing their mental faculties. This painful situation tests:",
+      "answers": [
+        {"text": "My loyalty - I will care for them as they cared for the kingdom", "traits": ["loyal", "grateful"]},
+        {"text": "My pragmatism - the kingdom needs sharp minds in crucial positions", "traits": ["duty_first", "difficult_decisions"]},
+        {"text": "My creativity - I'll find meaningful roles they can still fulfill", "traits": ["adaptive", "compassionate"]},
+        {"text": "My honesty - I must gently help them understand the situation", "traits": ["truthful", "kind"]},
+        {"text": "My heart - watching their decline is one of leadership's cruelest aspects", "traits": ["emotional", "human"]}
+      ]
+    },
+    {
+      "id": 21,
+      "question": "If you could go back and live a completely different life, never having become a ruler, what alternative life calls to you?",
+      "answers": [
+        {"text": "A simple life focused on family and personal relationships", "traits": ["family_focused", "relationship_valued"]},
+        {"text": "A life of learning and study, perhaps as a scholar or philosopher", "traits": ["intellectual", "knowledge_seeking"]},
+        {"text": "An adventurous life exploring the world and its mysteries", "traits": ["adventurous", "freedom_loving"]},
+        {"text": "A life serving others in a different way, perhaps as a healer", "traits": ["service_oriented", "helping_focused"]},
+        {"text": "I wouldn't change anything - ruling is my calling and purpose", "traits": ["destiny_accepting", "purpose_driven"]}
+      ]
+    },
+    {
+      "id": 22,
+      "question": "Your enemies spread false rumors that you are weak and losing control. The way this affects you personally shows:",
+      "answers": [
+        {"text": "It angers me because it undermines the stability my people need", "traits": ["stability_focused", "protective"]},
+        {"text": "It hurts because I work so hard to be worthy of their trust", "traits": ["validation_seeking", "earnest"]},
+        {"text": "It motivates me to prove them wrong through decisive action", "traits": ["competitive", "driven"]},
+        {"text": "It makes me examine whether there's any truth to their claims", "traits": ["self_examining", "growth_minded"]},
+        {"text": "It reminds me that perception is often more important than reality", "traits": ["politically_aware", "image_conscious"]}
+      ]
+    },
+    {
+      "id": 23,
+      "question": "You discover that a law you championed years ago is now causing unintended harm to innocent people. Your response reflects your core character:",
+      "answers": [
+        {"text": "Immediately work to change the law, regardless of how it looks politically", "traits": ["adaptable", "principle_over_image"]},
+        {"text": "Study the situation thoroughly before making any changes", "traits": ["careful", "analytical"]},
+        {"text": "Take public responsibility for the oversight and fix it transparently", "traits": ["accountable", "humble"]},
+        {"text": "Quietly modify the law's implementation to reduce harm", "traits": ["practical", "behind_scenes"]},
+        {"text": "Feel personally devastated that my good intentions led to suffering", "traits": ["guilt_prone", "empathetic"]}
+      ]
+    },
+    {
+      "id": 24,
+      "question": "As your reign nears its end, what would make you feel your life had true meaning and value?",
+      "answers": [
+        {"text": "Knowing my people lived better lives because of my leadership", "traits": ["impact_focused", "service_oriented"]},
+        {"text": "Seeing that I remained true to my values despite every pressure", "traits": ["integrity_focused", "authentic"]},
+        {"text": "Having built something lasting that will benefit future generations", "traits": ["legacy_builder", "long_term_thinking"]},
+        {"text": "Being remembered with genuine love rather than mere respect", "traits": ["relationship_focused", "love_seeking"]},
+        {"text": "Knowing I gave everything I had to serve something greater than myself", "traits": ["self_sacrificing", "devotional"]}
+      ]
+    },
+    {
+      "id": 25,
+      "question": "In your most honest moment, what do you believe makes someone truly worthy of ruling over others?",
+      "answers": [
+        {"text": "The willingness to sacrifice their own happiness for others' wellbeing", "traits": ["sacrificial", "selfless"]},
+        {"text": "The wisdom to make difficult decisions with limited information", "traits": ["wise", "decisive"]},
+        {"text": "The strength to bear the weight of others' lives and choices", "traits": ["strong", "burden_bearer"]},
+        {"text": "The humility to recognize they may be wrong and change course", "traits": ["humble", "adaptive"]},
+        {"text": "The genuine love for people that transcends personal ambition", "traits": ["loving", "people_first"]}
+      ]
+    }
+  ],
+  "ruler_types": [
+    {
+      "id": "wise_council",
+      "name": "The Wise Council",
+      "emoji": "🧙‍♂️",
+      "short_description": "You rule through wisdom, collaboration, and careful deliberation.",
+      "detailed_description": "You are the Wise Council - a ruler who understands that true leadership comes not from commanding others, but from bringing together the best minds and hearts to serve the greater good. Your throne room is not a place of intimidation, but a sanctuary of learning where advisors feel safe to speak truth to power. You've learned that the heaviest crown is worn lightest by those who share its weight with others.\n\nYour approach to leadership is marked by patience, deep listening, and the rare gift of synthesizing different viewpoints into solutions that serve everyone. You see rulership as a sacred trust, not a personal privilege. When others rush to judgment, you pause to consider consequences three generations into the future. Your people may not always understand your caution, but they sleep peacefully knowing that their lives are guided by thoughtful deliberation rather than impulsive decree.\n\nYour greatest strength lies in creating systems and traditions that outlast any individual ruler. You build councils, establish customs of consultation, and ensure that wisdom flows both up and down through your kingdom. Even your enemies respect your fairness, and many conflicts are resolved simply because people trust your process of seeking truth.\n\nYour rule is remembered not for dramatic moments, but for the steady accumulation of wise choices that, over time, created a realm where justice and prosperity flourished. You understand that the best leaders are those who make themselves dispensable by empowering others to carry on the work of good governance. Your legacy is not monuments to your glory, but institutions that continue to serve long after your name has faded from common memory."
+    },
+    {
+      "id": "iron_fist",
+      "name": "The Iron Fist",
+      "emoji": "⚔️",
+      "short_description": "You rule through strength, decisiveness, and unwavering authority.",
+      "detailed_description": "You are the Iron Fist - a ruler who believes that true peace comes only through strength, and that decisive action saves more lives than endless deliberation. Your throne is both sanctuary and fortress, and your word is law not because you demand it, but because your people have learned that when you speak, chaos ends and order returns. You carry the burden of making the hard choices that others cannot or will not make.\n\nYour leadership style is characterized by swift justice, clear consequences, and an unwavering commitment to maintaining stability. You understand that sometimes being feared is more merciful than being loved, because fear of just punishment prevents the greater suffering that comes from lawlessness. When crisis strikes, people look to you not for comfort, but for the strength to endure and overcome.\n\nYou've learned that half-measures often lead to greater suffering than firm action. Your decisions may be harsh, but they are consistent and fair. Corruption withers under your gaze, crime retreats from your justice, and enemies think twice before threatening your people. You may not win popularity contests, but you win the deeper respect that comes from protecting those who cannot protect themselves.\n\nYour reign is marked by periods of remarkable peace and prosperity, precisely because potential troublemakers know that disorder will be met with immediate and proportional response. You understand that the leader who never has to use their strength is often the strongest of all. Your legacy is a kingdom where the weak are protected by your strength, and where justice is swift and certain."
+    },
+    {
+      "id": "beloved_leader",
+      "name": "The Beloved Leader",
+      "emoji": "💖",
+      "short_description": "You rule through love, inspiration, and genuine connection with your people.",
+      "detailed_description": "You are the Beloved Leader - a ruler whose greatest strength lies not in armies or treasuries, but in the genuine affection and loyalty of your people. Your throne room doors are always open, and peasants feel as welcome as nobles in your presence. You rule not because you must, but because your people cannot imagine following anyone else. Your crown sits lightly on your head because it rests heavily on your heart.\n\nYour approach to leadership is deeply personal and profoundly human. You remember names, celebrate achievements, and mourn losses alongside your subjects. When you walk through your kingdom, faces light up not with the fear of authority, but with the joy of recognition. You've mastered the art of making each person feel seen, heard, and valued, and in return, they would move mountains to serve your vision.\n\nYour greatest strength is your ability to inspire others to be their best selves. Your people work harder, dream bigger, and sacrifice more willingly because they believe in you and the future you're building together. Conflicts resolve more easily because disputants trust your fairness and care for all involved. Even your enemies struggle to maintain their opposition when faced with your genuine desire for their wellbeing.\n\nYour rule is characterized by festivals, celebrations, and a general sense that life is better because you are leading. Your people defend your kingdom not out of obligation, but out of love for the community you've helped them build. Your legacy is not written in stone monuments, but in the hearts of generations who remember how it felt to be truly cared for by their leader."
+    },
+    {
+      "id": "strategic_mind",
+      "name": "The Strategic Mind",
+      "emoji": "♟️",
+      "short_description": "You rule through careful planning, long-term thinking, and calculated moves.",
+      "detailed_description": "You are the Strategic Mind - a ruler who sees the kingdom as a vast chess board where every move creates ripples across time and space. Your throne room is lined with maps, charts, and models that help you visualize the complex interactions between decisions made today and their consequences years from now. You understand that true victory often requires appearing to lose in the short term, and you have the patience to play the longest game.\n\nYour leadership style is characterized by meticulous planning, careful resource allocation, and an almost supernatural ability to anticipate problems before they arise. While others react to crises, you prevent them. While others celebrate immediate victories, you're already planning how to consolidate gains and prepare for the next challenge. Your people may not always understand your moves, but they've learned to trust your vision.\n\nYou excel at building alliances, managing complex negotiations, and finding solutions that serve multiple objectives simultaneously. Your enemies often find themselves outmaneuvered by strategies they didn't see coming, not because you're deceptive, but because you think several steps ahead. You understand that sustainable power comes not from force, but from creating situations where cooperation serves everyone's interests.\n\nYour reign is marked by steady progress, avoided conflicts, and a general sense that the kingdom is always prepared for whatever challenges arise. Your legacy is a realm that runs like clockwork, with systems and contingencies that continue to function smoothly long after your death. Future rulers study your decisions not for their drama, but for their elegant efficiency in achieving lasting results."
+    },
+    {
+      "id": "warrior_king",
+      "name": "The Warrior King",
+      "emoji": "🛡️",
+      "short_description": "You rule by leading from the front and sharing every danger with your people.",
+      "detailed_description": "You are the Warrior King - a ruler who earns loyalty not through birthright or political maneuvering, but by standing in the places of greatest danger and sharing every hardship with those you lead. Your throne bears the scars of battles fought, and your crown sits on a head that has known the weight of both helmet and responsibility. You understand that those who ask others to sacrifice must be willing to sacrifice everything themselves.\n\nYour leadership style is defined by personal courage, shared struggle, and an unshakeable commitment to never asking your people to face dangers you wouldn't face yourself. When plague strikes, you work in the hospitals. When famine comes, you eat the same rations as your subjects. When war threatens, you stand in the front lines. Your people follow you not because they must, but because they've seen your blood, sweat, and tears alongside their own.\n\nYou've learned that respect must be earned daily through action, not maintained through ceremony or protocol. Your court is filled with veterans who've fought beside you, advisors who've seen you at your lowest, and servants who know you'll share your last meal if necessary. This authenticity creates a bond between ruler and ruled that transcends typical loyalty - it becomes family.\n\nYour reign is remembered for moments of incredible hardship overcome through shared sacrifice and mutual support. Your legacy is not in the battles won or lost, but in the example you set of leadership through service. Future generations speak your name with the kind of reverence reserved for those who proved that true nobility comes not from what you take, but from what you give."
+    },
+    {
+      "id": "philosopher_king",
+      "name": "The Philosopher King",
+      "emoji": "📚",
+      "short_description": "You rule through wisdom, justice, and the pursuit of deeper truth.",
+      "detailed_description": "You are the Philosopher King - a ruler who understands that true leadership requires not just making decisions, but understanding the deeper principles that should guide those decisions. Your throne room doubles as a library, and your court attracts the greatest minds of your age who come to engage in the kind of deep thinking that shapes civilizations. You rule not just over territory and people, but over ideas and ideals.\n\nYour approach to leadership is grounded in rigorous self-examination, ethical reasoning, and a genuine commitment to discovering what justice truly means in practical application. You spend as much time questioning your own motives as you do questioning your advisors' counsel. Your people trust you not because you're infallible, but because they know you care more about being right than being seen as right.\n\nYou excel at creating laws and institutions that reflect deeper moral truths rather than mere expedience. Your judgments are sought not just within your kingdom, but by neighboring rulers who recognize your reputation for wisdom. You understand that power corrupts only when it's pursued for its own sake, and you've dedicated yourself to using authority as a tool for discovering and implementing justice.\n\nYour reign is characterized by legal reforms, educational advancement, and a general sense that moral progress is possible. Your people may debate your decisions, but they never question your motives or your commitment to their wellbeing. Your legacy is a kingdom where wisdom is valued over wealth, where truth is pursued even when it's uncomfortable, and where future leaders are judged not by their power, but by their wisdom."
+    },
+    {
+      "id": "benevolent_guardian",
+      "name": "The Benevolent Guardian",
+      "emoji": "🛡️💚",
+      "short_description": "You rule as a protector, focusing on the welfare and safety of your people.",
+      "detailed_description": "You are the Benevolent Guardian - a ruler whose every decision is filtered through a simple but profound question: 'Will this protect and nurture my people?' Your throne is less a seat of power than a watchtower from which you scan constantly for threats to those under your care. You understand that true strength lies not in conquering others, but in creating a realm where your people can flourish safely.\n\nYour leadership style is deeply protective and nurturing, characterized by policies that prioritize public welfare, safety, and the common good. You see yourself not as a master, but as a shepherd whose flock's wellbeing is your sacred responsibility. Your happiness is directly tied to your people's prosperity, and their suffering causes you genuine pain. This emotional investment in their welfare makes you both a fierce protector and a gentle caregiver.\n\nYou excel at creating systems that support the vulnerable, prevent exploitation, and ensure that everyone has access to basic necessities. Your kingdom becomes known as a refuge for those fleeing injustice elsewhere, and your reputation for protection attracts good people while deterring those who would prey on the innocent. Your strength is never used for conquest, but always for defense.\n\nYour reign is marked by decreasing poverty, increasing literacy, and a general sense of security that allows arts and culture to flourish. Your people don't just respect you - they feel genuinely cared for in a way that transcends politics. Your legacy is a kingdom that serves as a model for how societies can nurture their members, and your name becomes synonymous with the kind of leadership that puts people first."
+    },
+    {
+      "id": "visionary_reformer",
+      "name": "The Visionary Reformer",
+      "emoji": "🌟",
+      "short_description": "You rule by imagining and building a better future for everyone.",
+      "detailed_description": "You are the Visionary Reformer - a ruler who sees not just what is, but what could be, and has the courage to bridge that gap even when others call you crazy. Your throne room is filled with plans, prototypes, and dreams of a future that seems impossible until you make it real. You understand that true leadership means taking people to places they couldn't imagine going, and helping them become better than they ever thought they could be.\n\nYour leadership style is characterized by bold innovation, systematic reform, and an unshakeable belief that progress is possible if people are willing to work for it. You challenge traditional ways of doing things not out of rebellion, but out of love for what your people could become. Your enthusiasm for positive change is infectious, and you have a gift for helping others see possibilities they never considered.\n\nYou excel at identifying problems that others have accepted as 'just the way things are' and finding creative solutions that benefit everyone. Your reforms may be controversial at first, but time tends to vindicate your vision as people experience the benefits of positive change. You understand that resistance to change is natural, and you've learned to be patient with those who need time to adapt.\n\nYour reign is marked by remarkable transformations that seemed impossible when you began. Your people learn to dream bigger and expect better because you've shown them that improvement is possible. Your legacy is a kingdom that continues to evolve and improve long after your death, because you taught your people to never settle for 'good enough' when 'better' is possible."
+    },
+    {
+      "id": "diplomatic_peacemaker",
+      "name": "The Diplomatic Peacemaker",
+      "emoji": "🕊️",
+      "short_description": "You rule through negotiation, compromise, and building bridges between opposing sides.",
+      "detailed_description": "You are the Diplomatic Peacemaker - a ruler who understands that the greatest victories are achieved not through conquest, but through finding ways for former enemies to become allies. Your throne room is designed to make everyone feel welcome and heard, and your greatest skill lies in helping people find common ground even when they enter your presence believing they have nothing in common. You rule through the profound understanding that lasting peace requires justice for all parties.\n\nYour leadership style is characterized by patient listening, creative problem-solving, and an almost supernatural ability to see situations from multiple perspectives simultaneously. You've mastered the art of helping people feel heard and respected even when you can't give them everything they want. Your negotiations are legendary not because you always win, but because you usually find solutions where everyone wins something meaningful.\n\nYou excel at preventing conflicts before they begin, and when conflicts do arise, you're sought out as a mediator by parties who trust your fairness and wisdom. Your kingdom becomes a center of diplomacy and trade because people know they can conduct business safely and fairly under your rule. Your strength lies not in your armies, but in your ability to make enemies prefer negotiation to conflict.\n\nYour reign is marked by an unusual absence of wars, despite being surrounded by conflict. Your people prosper through trade and cultural exchange rather than conquest and exploitation. Your legacy is a kingdom that serves as a model for how different peoples can live together in harmony, and your methods are studied by future generations seeking alternatives to violence."
+    },
+    {
+      "id": "servant_leader",
+      "name": "The Servant Leader",
+      "emoji": "🙏",
+      "short_description": "You rule by serving others and putting the needs of your people before your own.",
+      "detailed_description": "You are the Servant Leader - a ruler who has inverted the traditional relationship between power and service, understanding that true authority comes from dedicating yourself completely to the welfare of others. Your throne is the humblest seat in your palace, and your crown feels heaviest when your people are suffering. You've learned that the leader who serves is the leader who is truly followed, not just obeyed.\n\nYour leadership style is defined by self-sacrifice, deep empathy, and an unwavering commitment to putting your people's needs before your own comfort or glory. You eat last, sleep least, and worry most because you've accepted that leadership means carrying burdens that others cannot bear. Your happiness is entirely dependent on your people's wellbeing, and their struggles become your personal mission.\n\nYou excel at creating policies and systems that serve the common good, even when they require personal sacrifice on your part. Your people trust you completely because they know you would give up anything - including your life - for their benefit. This trust creates a bond that transcends normal political relationships and becomes something approaching the sacred.\n\nYour reign is marked by unprecedented equality, where the gap between ruler and ruled becomes smaller each year. Your people don't just respect you - they love you with the kind of devotion usually reserved for family members. Your legacy is a transformation in how people think about power and leadership, proving that those who serve can achieve more than those who seek to be served."
+    }
+  ]
+}

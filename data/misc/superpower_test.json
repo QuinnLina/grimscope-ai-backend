@@ -1,0 +1,1200 @@
+{
+  "title": "What Superpower Would You Rather Have?",
+  "description": "Face impossible situations and discover which superpower your soul truly craves",
+  "questions": [
+    {
+      "id": 1,
+      "question": "You're trapped in a burning building on the 20th floor with no way down. How do you escape?",
+      "choices": [
+        {
+          "text": "Teleport instantly to safety outside the building",
+          "traits": {
+            "teleportation": 3,
+            "escape_artist": 2,
+            "instant_solver": 2
+          }
+        },
+        {
+          "text": "Turn invisible and phase through the walls to get out unseen",
+          "traits": {
+            "invisibility": 3,
+            "stealth_master": 2,
+            "avoidance": 2
+          }
+        },
+        {
+          "text": "Fly out the window like it's no big deal",
+          "traits": {
+            "flight": 3,
+            "freedom_seeker": 2,
+            "show_off": 1
+          }
+        },
+        {
+          "text": "Use super strength to punch through the floor to the level below",
+          "traits": {
+            "super_strength": 3,
+            "direct_action": 2,
+            "destroyer": 2
+          }
+        },
+        {
+          "text": "Read the minds of the firefighters outside to coordinate the perfect rescue",
+          "traits": {
+            "mind_reading": 3,
+            "strategist": 2,
+            "team_player": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Your boss calls you into their office to fire you for something you didn't do. What's your move?",
+      "choices": [
+        {
+          "text": "Read their mind to find out who really did it and expose the truth",
+          "traits": {
+            "mind_reading": 3,
+            "truth_seeker": 2,
+            "detective": 2
+          }
+        },
+        {
+          "text": "Turn back time to prevent whatever happened from occurring",
+          "traits": {
+            "time_control": 3,
+            "perfectionist": 2,
+            "second_chances": 2
+          }
+        },
+        {
+          "text": "Become invisible and sneak into their computer to find evidence",
+          "traits": {
+            "invisibility": 3,
+            "sneaky": 2,
+            "investigator": 2
+          }
+        },
+        {
+          "text": "Use super speed to gather evidence from around the office in seconds",
+          "traits": {
+            "super_speed": 3,
+            "efficient": 2,
+            "action_oriented": 2
+          }
+        },
+        {
+          "text": "Teleport them to a deserted island until they admit their mistake",
+          "traits": {
+            "teleportation": 2,
+            "revenge_seeker": 3,
+            "dramatic": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "You're on a first date and it's going TERRIBLY. They won't stop talking about their ex. How do you salvage this?",
+      "choices": [
+        {
+          "text": "Read their mind to understand what they actually want to talk about",
+          "traits": {
+            "mind_reading": 3,
+            "empathetic": 2,
+            "people_pleaser": 1
+          }
+        },
+        {
+          "text": "Turn invisible and just... leave. Ghost them literally.",
+          "traits": {
+            "invisibility": 3,
+            "avoidance": 3,
+            "escape_artist": 2
+          }
+        },
+        {
+          "text": "Rewind time to before you agreed to this date",
+          "traits": {
+            "time_control": 3,
+            "regret_manager": 2,
+            "second_guesser": 2
+          }
+        },
+        {
+          "text": "Use super speed to eat your food and get out of there in 2 seconds",
+          "traits": {
+            "super_speed": 3,
+            "efficient": 2,
+            "practical": 2
+          }
+        },
+        {
+          "text": "Teleport their ex to the restaurant so they can talk to them instead",
+          "traits": {
+            "teleportation": 2,
+            "problem_solver": 2,
+            "chaos_creator": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "You witness a bank robbery in progress. The robbers have hostages. What's your approach?",
+      "choices": [
+        {
+          "text": "Turn invisible, sneak in, and disarm them one by one without anyone knowing",
+          "traits": {
+            "invisibility": 3,
+            "stealth_master": 3,
+            "tactical": 2
+          }
+        },
+        {
+          "text": "Use super strength to rip the bank vault door off and throw it at them",
+          "traits": {
+            "super_strength": 3,
+            "direct_action": 3,
+            "intimidator": 2
+          }
+        },
+        {
+          "text": "Read their minds to predict their next moves and stay one step ahead",
+          "traits": {
+            "mind_reading": 3,
+            "strategist": 3,
+            "chess_master": 2
+          }
+        },
+        {
+          "text": "Use super speed to evacuate all hostages before the robbers even notice",
+          "traits": {
+            "super_speed": 3,
+            "protector": 3,
+            "rescuer": 2
+          }
+        },
+        {
+          "text": "Teleport the robbers into a jail cell and call it a day",
+          "traits": {
+            "teleportation": 3,
+            "instant_justice": 2,
+            "efficient": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "You're stuck in traffic for 3 hours and you're already 2 hours late for your best friend's wedding. Panic mode activated!",
+      "choices": [
+        {
+          "text": "Teleport directly to the wedding venue and pretend you were there all along",
+          "traits": {
+            "teleportation": 3,
+            "problem_solver": 2,
+            "liar": 1
+          }
+        },
+        {
+          "text": "Fly over all the traffic like the cars are toys",
+          "traits": {
+            "flight": 3,
+            "freedom_seeker": 2,
+            "show_off": 2
+          }
+        },
+        {
+          "text": "Use super speed to run there faster than any car could drive",
+          "traits": {
+            "super_speed": 3,
+            "determined": 2,
+            "athletic": 2
+          }
+        },
+        {
+          "text": "Turn back time to before you left so you can leave earlier",
+          "traits": {
+            "time_control": 3,
+            "perfectionist": 2,
+            "planner": 2
+          }
+        },
+        {
+          "text": "Read the minds of other drivers to find the fastest route through the chaos",
+          "traits": {
+            "mind_reading": 3,
+            "strategic": 2,
+            "networker": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "You walk into the wrong college exam room and realize you have no idea what subject this is. The professor is handing out tests. HELP!",
+      "choices": [
+        {
+          "text": "Read the mind of the smartest-looking student and copy their knowledge",
+          "traits": {
+            "mind_reading": 3,
+            "cheater": 2,
+            "opportunist": 2
+          }
+        },
+        {
+          "text": "Turn invisible and sneak out of there before anyone notices",
+          "traits": {
+            "invisibility": 3,
+            "avoidance": 3,
+            "stealth_master": 2
+          }
+        },
+        {
+          "text": "Use super speed to research the entire subject on your phone in 30 seconds",
+          "traits": {
+            "super_speed": 3,
+            "learner": 2,
+            "adaptive": 2
+          }
+        },
+        {
+          "text": "Rewind time to when you were walking down the hallway so you can find the right room",
+          "traits": {
+            "time_control": 3,
+            "careful": 2,
+            "second_chances": 2
+          }
+        },
+        {
+          "text": "Teleport to the library, learn everything about the subject, then teleport back",
+          "traits": {
+            "teleportation": 2,
+            "dedicated": 2,
+            "overachiever": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Your phone dies right when you're about to send a crucial text that could save your relationship. The person is about to board a plane forever!",
+      "choices": [
+        {
+          "text": "Use super speed to run to the airport and tell them in person",
+          "traits": {
+            "super_speed": 3,
+            "romantic": 3,
+            "determined": 2
+          }
+        },
+        {
+          "text": "Turn back time to when your phone was still charged",
+          "traits": {
+            "time_control": 3,
+            "regret_manager": 3,
+            "perfectionist": 2
+          }
+        },
+        {
+          "text": "Teleport directly onto their plane (hopefully they won't question it)",
+          "traits": {
+            "teleportation": 3,
+            "dramatic": 3,
+            "risk_taker": 2
+          }
+        },
+        {
+          "text": "Read their mind from a distance to see if they still love you anyway",
+          "traits": {
+            "mind_reading": 3,
+            "insecure": 2,
+            "truth_seeker": 2
+          }
+        },
+        {
+          "text": "Use super strength to power the phone with your own electricity somehow",
+          "traits": {
+            "super_strength": 2,
+            "creative": 3,
+            "desperate": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "You accidentally sent a very private text to your family group chat instead of your best friend. Everyone has seen it. The shame is real.",
+      "choices": [
+        {
+          "text": "Rewind time to before you sent it and send it to the right person",
+          "traits": {
+            "time_control": 3,
+            "embarrassment_avoider": 3,
+            "perfectionist": 2
+          }
+        },
+        {
+          "text": "Read everyone's minds to see exactly how horrified they are",
+          "traits": {
+            "mind_reading": 3,
+            "masochist": 2,
+            "curious": 2
+          }
+        },
+        {
+          "text": "Turn invisible and avoid your family for the next decade",
+          "traits": {
+            "invisibility": 3,
+            "avoidance": 3,
+            "hermit": 2
+          }
+        },
+        {
+          "text": "Use super speed to personally visit each family member and explain before they can react",
+          "traits": {
+            "super_speed": 3,
+            "damage_control": 3,
+            "communicator": 2
+          }
+        },
+        {
+          "text": "Teleport their phones to a different dimension so the text never existed",
+          "traits": {
+            "teleportation": 3,
+            "problem_eliminator": 3,
+            "dramatic": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "You're at a job interview and you realize you lied on your resume about speaking 5 languages fluently. They want to test you. NOW.",
+      "choices": [
+        {
+          "text": "Read the interviewer's mind to see what they expect you to say in each language",
+          "traits": {
+            "mind_reading": 3,
+            "adaptive": 2,
+            "cheater": 2
+          }
+        },
+        {
+          "text": "Use super speed to learn all 5 languages during their bathroom break",
+          "traits": {
+            "super_speed": 3,
+            "overachiever": 3,
+            "crammer": 2
+          }
+        },
+        {
+          "text": "Turn back time to before you submitted the resume and be honest this time",
+          "traits": {
+            "time_control": 3,
+            "honest": 2,
+            "regret_manager": 2
+          }
+        },
+        {
+          "text": "Turn invisible and escape through the window in shame",
+          "traits": {
+            "invisibility": 3,
+            "coward": 3,
+            "escape_artist": 2
+          }
+        },
+        {
+          "text": "Teleport native speakers of each language into the room to help you",
+          "traits": {
+            "teleportation": 3,
+            "creative": 3,
+            "team_builder": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "You're home alone and hear footsteps in your attic at 3 AM. Horror movie vibes are STRONG. What do you do?",
+      "choices": [
+        {
+          "text": "Turn invisible and sneak up there to see what's going on without being detected",
+          "traits": {
+            "invisibility": 3,
+            "brave": 2,
+            "investigator": 2
+          }
+        },
+        {
+          "text": "Use super strength to rip the ceiling open and confront whatever's up there",
+          "traits": {
+            "super_strength": 3,
+            "confrontational": 3,
+            "fearless": 2
+          }
+        },
+        {
+          "text": "Read minds to see if there are any thoughts coming from up there",
+          "traits": {
+            "mind_reading": 3,
+            "cautious": 2,
+            "detective": 2
+          }
+        },
+        {
+          "text": "Use super speed to check every corner of the attic in 0.5 seconds",
+          "traits": {
+            "super_speed": 3,
+            "efficient": 2,
+            "thorough": 2
+          }
+        },
+        {
+          "text": "Teleport to a hotel and deal with it in the morning like a normal person",
+          "traits": {
+            "teleportation": 3,
+            "practical": 3,
+            "self_preservation": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "You're giving a presentation to 500 people and your pants split wide open right as you start talking. Everyone can see your underwear.",
+      "choices": [
+        {
+          "text": "Turn invisible until you can figure out how to fix this disaster",
+          "traits": {
+            "invisibility": 3,
+            "embarrassment_avoider": 3,
+            "problem_solver": 2
+          }
+        },
+        {
+          "text": "Use super speed to run home, change, and get back before anyone notices you left",
+          "traits": {
+            "super_speed": 3,
+            "quick_thinker": 2,
+            "professional": 2
+          }
+        },
+        {
+          "text": "Rewind time to before you got dressed and choose different pants",
+          "traits": {
+            "time_control": 3,
+            "perfectionist": 3,
+            "careful": 2
+          }
+        },
+        {
+          "text": "Read the audience's minds to see if they're judging you or actually sympathetic",
+          "traits": {
+            "mind_reading": 3,
+            "anxious": 2,
+            "people_pleaser": 2
+          }
+        },
+        {
+          "text": "Use teleportation to bring a new pair of pants to you instantly",
+          "traits": {
+            "teleportation": 3,
+            "resourceful": 2,
+            "prepared": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Your neighbor's house is on fire and you can hear someone screaming for help inside, but the firefighters aren't here yet.",
+      "choices": [
+        {
+          "text": "Use super strength to tear through the wall and create a safe exit path",
+          "traits": {
+            "super_strength": 3,
+            "hero": 3,
+            "direct_action": 2
+          }
+        },
+        {
+          "text": "Teleport inside, grab the person, and teleport them to safety",
+          "traits": {
+            "teleportation": 3,
+            "rescuer": 3,
+            "efficient": 2
+          }
+        },
+        {
+          "text": "Use super speed to get them out before the fire spreads any further",
+          "traits": {
+            "super_speed": 3,
+            "lifesaver": 3,
+            "urgent": 2
+          }
+        },
+        {
+          "text": "Turn invisible, go inside to assess the situation without adding to the danger",
+          "traits": {
+            "invisibility": 3,
+            "tactical": 2,
+            "careful": 2
+          }
+        },
+        {
+          "text": "Read their mind to know exactly where they are and the safest way to reach them",
+          "traits": {
+            "mind_reading": 3,
+            "strategic": 2,
+            "prepared": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "You're in an elevator with 8 strangers when it breaks down between floors. You've been stuck for 6 hours and people are getting panicky.",
+      "choices": [
+        {
+          "text": "Use super strength to pry open the doors and create an escape route",
+          "traits": {
+            "super_strength": 3,
+            "leader": 2,
+            "problem_solver": 2
+          }
+        },
+        {
+          "text": "Teleport everyone out one by one to safety",
+          "traits": {
+            "teleportation": 3,
+            "savior": 3,
+            "helpful": 2
+          }
+        },
+        {
+          "text": "Read everyone's minds to keep them calm by knowing exactly what they need to hear",
+          "traits": {
+            "mind_reading": 3,
+            "counselor": 2,
+            "empathetic": 2
+          }
+        },
+        {
+          "text": "Use super speed to run for help faster than any emergency service could respond",
+          "traits": {
+            "super_speed": 3,
+            "action_oriented": 2,
+            "reliable": 2
+          }
+        },
+        {
+          "text": "Turn back time to before you got in the elevator and take the stairs instead",
+          "traits": {
+            "time_control": 3,
+            "self_preservation": 3,
+            "regret_manager": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "You're at a casino and accidentally bet your life savings on red. The wheel is spinning. Your heart is about to explode.",
+      "choices": [
+        {
+          "text": "Use super speed to stop the wheel on red before it lands elsewhere",
+          "traits": {
+            "super_speed": 3,
+            "cheater": 3,
+            "desperate": 2
+          }
+        },
+        {
+          "text": "Read the mind of the dealer to see if they know where it's going to land",
+          "traits": {
+            "mind_reading": 3,
+            "opportunist": 2,
+            "anxious": 2
+          }
+        },
+        {
+          "text": "Turn back time to before you made the bet and walk away",
+          "traits": {
+            "time_control": 3,
+            "wise": 3,
+            "self_control": 2
+          }
+        },
+        {
+          "text": "Turn invisible and try to nudge the ball toward red without anyone seeing",
+          "traits": {
+            "invisibility": 3,
+            "sneaky": 3,
+            "cheater": 2
+          }
+        },
+        {
+          "text": "Use teleportation to move the ball to a red spot at the last second",
+          "traits": {
+            "teleportation": 3,
+            "precise": 2,
+            "risk_taker": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "You're on a plane that's about to crash. The pilot has passed out. This is it - hero time or panic time?",
+      "choices": [
+        {
+          "text": "Use super strength to manually control the plane and land it safely",
+          "traits": {
+            "super_strength": 3,
+            "hero": 3,
+            "confident": 2
+          }
+        },
+        {
+          "text": "Teleport everyone off the plane to safety on the ground",
+          "traits": {
+            "teleportation": 3,
+            "savior": 3,
+            "mass_rescuer": 2
+          }
+        },
+        {
+          "text": "Read the pilot's mind to access their flying knowledge and land the plane",
+          "traits": {
+            "mind_reading": 3,
+            "smart": 3,
+            "resourceful": 2
+          }
+        },
+        {
+          "text": "Use super speed to learn how to fly the plane from the manual in 10 seconds",
+          "traits": {
+            "super_speed": 3,
+            "learner": 3,
+            "adaptive": 2
+          }
+        },
+        {
+          "text": "Turn back time to before the pilot passed out and prevent it from happening",
+          "traits": {
+            "time_control": 3,
+            "preventative": 3,
+            "protective": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "You're babysitting your 5-year-old nephew who just swallowed a LEGO. He's choking and you're home alone. Panic level: MAXIMUM.",
+      "choices": [
+        {
+          "text": "Use super speed to rush him to the hospital faster than an ambulance",
+          "traits": {
+            "super_speed": 3,
+            "protector": 3,
+            "family_first": 2
+          }
+        },
+        {
+          "text": "Teleport him directly to the emergency room",
+          "traits": {
+            "teleportation": 3,
+            "efficient": 3,
+            "lifesaver": 2
+          }
+        },
+        {
+          "text": "Turn back time to prevent him from swallowing the LEGO in the first place",
+          "traits": {
+            "time_control": 3,
+            "preventative": 3,
+            "careful": 2
+          }
+        },
+        {
+          "text": "Read his mind to understand exactly how he's feeling and what's happening",
+          "traits": {
+            "mind_reading": 3,
+            "empathetic": 2,
+            "diagnostic": 2
+          }
+        },
+        {
+          "text": "Use precise super strength to carefully remove the LEGO",
+          "traits": {
+            "super_strength": 3,
+            "precise": 3,
+            "medical": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "You're at your high school reunion and your biggest rival just announced they're a millionaire CEO. Everyone's looking at you expectantly. Time to respond!",
+      "choices": [
+        {
+          "text": "Read their mind to find out if they're actually happy or just compensating",
+          "traits": {
+            "mind_reading": 3,
+            "competitive": 2,
+            "curious": 2
+          }
+        },
+        {
+          "text": "Turn invisible and disappear from this awkward situation",
+          "traits": {
+            "invisibility": 3,
+            "avoidance": 3,
+            "insecure": 2
+          }
+        },
+        {
+          "text": "Use super speed to start and build a successful business during their speech",
+          "traits": {
+            "super_speed": 3,
+            "competitive": 3,
+            "ambitious": 2
+          }
+        },
+        {
+          "text": "Go back in time and become successful first",
+          "traits": {
+            "time_control": 3,
+            "competitive": 3,
+            "cheater": 2
+          }
+        },
+        {
+          "text": "Teleport a briefcase full of money to yourself and pretend you're even richer",
+          "traits": {
+            "teleportation": 3,
+            "liar": 3,
+            "show_off": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "You're grocery shopping when you witness someone shoplifting baby formula. They look desperate. Security is coming. What do you do?",
+      "choices": [
+        {
+          "text": "Read their mind to understand their situation and decide how to help",
+          "traits": {
+            "mind_reading": 3,
+            "empathetic": 3,
+            "judge": 2
+          }
+        },
+        {
+          "text": "Turn invisible and slip money into their pocket without them knowing",
+          "traits": {
+            "invisibility": 3,
+            "anonymous_helper": 3,
+            "kind": 2
+          }
+        },
+        {
+          "text": "Use super speed to pay for their groceries before security arrives",
+          "traits": {
+            "super_speed": 3,
+            "generous": 3,
+            "quick_thinker": 2
+          }
+        },
+        {
+          "text": "Teleport them away from the store to avoid the confrontation",
+          "traits": {
+            "teleportation": 3,
+            "protector": 2,
+            "rule_bender": 2
+          }
+        },
+        {
+          "text": "Go back in time and prevent them from needing to steal in the first place",
+          "traits": {
+            "time_control": 3,
+            "preventative": 3,
+            "life_changer": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "You're on a first day at a new job and you walk into the wrong meeting room. It's clearly a top-secret discussion about firing half the company, including you.",
+      "choices": [
+        {
+          "text": "Turn invisible and stay to gather intel about what's really happening",
+          "traits": {
+            "invisibility": 3,
+            "spy": 3,
+            "information_gatherer": 2
+          }
+        },
+        {
+          "text": "Read everyone's minds to see who's safe and who's not",
+          "traits": {
+            "mind_reading": 3,
+            "strategic": 2,
+            "self_preservation": 2
+          }
+        },
+        {
+          "text": "Use super speed to sneak back out before anyone notices you were there",
+          "traits": {
+            "super_speed": 3,
+            "escape_artist": 2,
+            "cautious": 2
+          }
+        },
+        {
+          "text": "Go back in time and enter the correct meeting room instead",
+          "traits": {
+            "time_control": 3,
+            "careful": 3,
+            "mistake_avoider": 2
+          }
+        },
+        {
+          "text": "Teleport all the fired employees to better jobs before they know what hit them",
+          "traits": {
+            "teleportation": 3,
+            "helper": 3,
+            "life_changer": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "You're at a restaurant and the waiter brings you a $200 steak dinner that you didn't order. The mistake is clearly in your favor, but your card only has $50.",
+      "choices": [
+        {
+          "text": "Read the waiter's mind to see if they'll get in trouble for the mistake",
+          "traits": {
+            "mind_reading": 3,
+            "empathetic": 2,
+            "considerate": 2
+          }
+        },
+        {
+          "text": "Turn invisible and leave before anyone notices the problem",
+          "traits": {
+            "invisibility": 3,
+            "avoider": 3,
+            "opportunist": 2
+          }
+        },
+        {
+          "text": "Use super speed to work a quick job and earn the money to pay for it",
+          "traits": {
+            "super_speed": 3,
+            "honest": 3,
+            "hardworking": 2
+          }
+        },
+        {
+          "text": "Go back in time and order the steak properly so you can afford it",
+          "traits": {
+            "time_control": 3,
+            "planner": 2,
+            "careful": 2
+          }
+        },
+        {
+          "text": "Teleport the exact amount of money you need from your bank account at home",
+          "traits": {
+            "teleportation": 3,
+            "resourceful": 2,
+            "honest": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "You're driving and witness a hit-and-run accident. The victim is injured and the perpetrator is speeding away. You have seconds to act.",
+      "choices": [
+        {
+          "text": "Use super speed to chase down the hit-and-run driver and bring them back",
+          "traits": {
+            "super_speed": 3,
+            "justice_seeker": 3,
+            "pursuer": 2
+          }
+        },
+        {
+          "text": "Teleport the injured person to the hospital immediately",
+          "traits": {
+            "teleportation": 3,
+            "lifesaver": 3,
+            "prioritizer": 2
+          }
+        },
+        {
+          "text": "Read the driver's mind to get their license plate and personal info for police",
+          "traits": {
+            "mind_reading": 3,
+            "detective": 3,
+            "methodical": 2
+          }
+        },
+        {
+          "text": "Use super strength to stop the fleeing car without hurting anyone",
+          "traits": {
+            "super_strength": 3,
+            "protective": 2,
+            "controlled": 2
+          }
+        },
+        {
+          "text": "Turn back time to prevent the accident from happening at all",
+          "traits": {
+            "time_control": 3,
+            "preventative": 3,
+            "life_saver": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "You're in a crowded subway when someone grabs your wallet and runs. They're getting away and disappearing into the crowd.",
+      "choices": [
+        {
+          "text": "Use super speed to catch them before they escape",
+          "traits": {
+            "super_speed": 3,
+            "determined": 2,
+            "justice_seeker": 2
+          }
+        },
+        {
+          "text": "Read minds in the crowd to track which direction they went",
+          "traits": {
+            "mind_reading": 3,
+            "detective": 2,
+            "strategic": 2
+          }
+        },
+        {
+          "text": "Turn invisible and follow them to see where they go",
+          "traits": {
+            "invisibility": 3,
+            "tracker": 2,
+            "patient": 2
+          }
+        },
+        {
+          "text": "Teleport your wallet back to your pocket from wherever they are",
+          "traits": {
+            "teleportation": 3,
+            "efficient": 2,
+            "smart": 2
+          }
+        },
+        {
+          "text": "Go back in time and avoid getting on that subway car",
+          "traits": {
+            "time_control": 3,
+            "preventative": 2,
+            "cautious": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "You're at a wedding and the bride asks you to hold her ring during photos. You drop it and it rolls into a storm drain. The ceremony starts in 5 minutes.",
+      "choices": [
+        {
+          "text": "Use super strength to lift the entire storm drain cover and retrieve it",
+          "traits": {
+            "super_strength": 3,
+            "problem_solver": 3,
+            "determined": 2
+          }
+        },
+        {
+          "text": "Teleport down into the drain, grab the ring, and teleport back",
+          "traits": {
+            "teleportation": 3,
+            "brave": 2,
+            "efficient": 2
+          }
+        },
+        {
+          "text": "Use super speed to find a replacement ring that looks identical",
+          "traits": {
+            "super_speed": 3,
+            "resourceful": 2,
+            "substitute": 2
+          }
+        },
+        {
+          "text": "Turn back time to before you dropped it and be more careful",
+          "traits": {
+            "time_control": 3,
+            "perfectionist": 3,
+            "regret_manager": 2
+          }
+        },
+        {
+          "text": "Read the bride's mind to see how devastated she'll be, then decide what to do",
+          "traits": {
+            "mind_reading": 3,
+            "empathetic": 2,
+            "decision_maker": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "You're home alone at night when your power goes out during a thunderstorm. You hear someone trying to break into your house.",
+      "choices": [
+        {
+          "text": "Turn invisible and assess the threat without being detected",
+          "traits": {
+            "invisibility": 3,
+            "tactical": 3,
+            "careful": 2
+          }
+        },
+        {
+          "text": "Use super strength to barricade all entrances and make your house a fortress",
+          "traits": {
+            "super_strength": 3,
+            "defensive": 3,
+            "protective": 2
+          }
+        },
+        {
+          "text": "Read their mind to understand their intentions and plan accordingly",
+          "traits": {
+            "mind_reading": 3,
+            "strategic": 2,
+            "prepared": 2
+          }
+        },
+        {
+          "text": "Use super speed to call for help and secure the house in seconds",
+          "traits": {
+            "super_speed": 3,
+            "efficient": 2,
+            "practical": 2
+          }
+        },
+        {
+          "text": "Teleport them to the nearest police station before they can break in",
+          "traits": {
+            "teleportation": 3,
+            "preemptive": 2,
+            "justice_seeker": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "question": "You're on your dream vacation when you get a call that your family member is in the hospital across the country. You need to be there NOW.",
+      "choices": [
+        {
+          "text": "Teleport to the hospital immediately to be by their side",
+          "traits": {
+            "teleportation": 3,
+            "family_first": 3,
+            "loyal": 2
+          }
+        },
+        {
+          "text": "Use super speed to get there faster than any plane could fly",
+          "traits": {
+            "super_speed": 3,
+            "determined": 3,
+            "family_oriented": 2
+          }
+        },
+        {
+          "text": "Read their mind from a distance to see how they're really doing",
+          "traits": {
+            "mind_reading": 3,
+            "long_distance_care": 2,
+            "worried": 2
+          }
+        },
+        {
+          "text": "Turn back time to before they got hurt and prevent it somehow",
+          "traits": {
+            "time_control": 3,
+            "protective": 3,
+            "preventative": 2
+          }
+        },
+        {
+          "text": "Use flight to soar across the country and be there as fast as possible",
+          "traits": {
+            "flight": 3,
+            "devoted": 2,
+            "family_first": 2
+          }
+        }
+      ]
+    }
+  ],
+  "traits": {
+    "teleportation": {
+      "name": "The Master of Teleportation",
+      "short_description": "You crave the ultimate freedom - the ability to be anywhere, anytime, instantly. No traffic, no delays, just pure possibility.",
+      "detailed_description": "Your soul yearns for the power of teleportation because you value efficiency, freedom, and the ability to solve problems instantly. You're someone who gets frustrated by limitations and delays - whether it's being stuck in traffic, waiting for elevators, or feeling trapped in difficult situations. Teleportation represents your desire to transcend physical boundaries and have ultimate control over your environment. You're likely someone who thinks strategically and values being able to respond quickly to emergencies or opportunities. The idea of helping others by instantly transporting them to safety or bringing resources where they're needed most appeals to your practical problem-solving nature.",
+      "in_depth_analysis": "Teleportation as your preferred superpower reveals deep psychological drives around autonomy, efficiency, and your relationship with space and time. You likely experience the world as full of unnecessary obstacles and delays that prevent you from achieving your goals or helping others effectively. This power represents your desire to transcend the mundane limitations that frustrate you daily - from commutes and travel time to being physically separated from people you care about during emergencies.\n\nYour choice suggests you're someone who thinks in terms of solutions rather than problems. When faced with difficulties, your instinct is to find the most direct path to resolution, even if it seems impossible to others. You probably have little patience for bureaucracy, long processes, or situations where you feel powerless to act. Teleportation would give you the ultimate agency - the ability to be exactly where you need to be, when you need to be there.\n\nThis power also speaks to your deep connections with others and your desire to be helpful. Many of your teleportation choices likely involved rescuing people, solving their problems, or bringing them what they needed instantly. You may feel burdened by your inability to help everyone who needs it, and teleportation would remove the barriers that currently limit your ability to make a difference in the world.\n\nInterestingly, teleportation also reveals a possible tendency toward avoidance or escape when situations become uncomfortable. While this can be healthy self-preservation, it might also indicate a pattern of removing yourself from difficult conversations or challenging personal growth opportunities. The key is learning when to teleport toward something meaningful rather than always teleporting away from discomfort."
+    },
+    "super_speed": {
+      "name": "The Speedster Supreme",
+      "short_description": "You desire the power to outrun time itself - to accomplish in seconds what takes others hours, and never be late for life again.",
+      "detailed_description": "Your attraction to super speed reveals someone who feels constantly pressed for time and frustrated by the pace of the world around you. You're likely highly productive, ambitious, and always thinking about how to do things more efficiently. Super speed appeals to you because it would allow you to finally match your internal pace with your external capabilities. You probably find yourself thinking 'if only I could move faster' or 'there's not enough time in the day' regularly. This power would let you learn new skills instantly, help more people, accomplish your goals, and still have time for everything important to you. You value productivity, hate being late, and believe that speed is often the difference between success and failure.",
+      "in_depth_analysis": "Your preference for super speed reveals a complex relationship with time, productivity, and your own sense of urgency about life. You likely experience the world as moving too slowly for your mind, which probably races ahead to solutions, next steps, and future possibilities while your body is stuck dealing with the mundane pace of reality. This can create a constant sense of internal frustration - you can see what needs to be done and how to do it, but you're limited by the same 24 hours everyone else has.\n\nYour speedster choices probably revealed someone who jumps into action immediately when problems arise. You're not one to overthink or hesitate when someone needs help or when a situation demands immediate response. This reflects an admirable bias toward action and a strong sense of responsibility for others. You likely feel that with great speed would come great ability to prevent suffering and solve problems before they escalate.\n\nHowever, your desire for super speed might also indicate some underlying anxiety about time and productivity. You may put enormous pressure on yourself to accomplish everything and be everywhere for everyone. This can lead to burnout and a feeling that you're never doing enough, even when you're already doing more than most people. The fantasy of super speed might represent a desire to finally feel caught up with your own expectations.\n\nThe key insight is that super speed won't solve the deeper issue if it stems from perfectionism or an inability to prioritize. Even with unlimited speed, there would still be infinite things you could be doing. Learning to be selective about where you direct your energy and accepting that some things simply take time (like relationships, healing, and personal growth) might be more valuable than moving faster through life."
+    },
+    "mind_reading": {
+      "name": "The Telepathic Truth-Seeker",
+      "short_description": "You crave the ultimate insight - the ability to understand what people really think, feel, and want beneath their words and actions.",
+      "detailed_description": "Your desire for mind reading reveals someone who is deeply curious about human nature and frustrated by miscommunication and hidden agendas. You're likely highly empathetic and intuitive already, but you want to take that understanding to the next level. Mind reading appeals to you because it would eliminate guesswork in relationships, help you respond to people's real needs rather than what they claim to want, and give you the information needed to truly help others. You probably find yourself constantly wondering 'what are they really thinking?' and believe that most problems stem from misunderstandings that could be avoided with perfect communication. This power would make you incredibly effective at negotiation, counseling, and building genuine connections with others.",
+      "in_depth_analysis": "Your attraction to telepathy reveals a deep drive to understand and connect with others on the most fundamental level possible. You're someone who likely spends a lot of mental energy trying to read between the lines, interpret body language, and understand the motivations behind people's actions. This suggests both high emotional intelligence and possibly some anxiety around social situations - you want to know what people really think so you can respond appropriately and avoid misunderstandings.\n\nYour mind reading choices probably showed someone who wants to use this power ethically - to help people, solve problems, and create better outcomes for everyone involved. This indicates strong moral reasoning and a genuine desire to make the world better through understanding. You likely believe that most conflicts arise from miscommunication and that perfect information would lead to perfect solutions.\n\nHowever, the desire for mind reading might also reveal some trust issues or fear of being deceived. You may have been hurt in the past by people who said one thing but meant another, or you might struggle with feeling like you never really know where you stand with others. The fantasy of telepathy could represent a desire for emotional security through perfect information.\n\nThe deeper insight is that while mind reading might satisfy your curiosity and reduce uncertainty, it could also create new problems. Knowing everyone's unfiltered thoughts might be overwhelming and could actually damage relationships rather than improve them. Sometimes the gap between what people think and what they say exists for good reasons - it allows for politeness, privacy, and the natural evolution of feelings. Learning to tolerate uncertainty and trust people's expressed intentions, while developing your already strong intuitive abilities, might serve you better than perfect telepathic knowledge."
+    },
+    "invisibility": {
+      "name": "The Invisible Observer",
+      "short_description": "You desire the power to move through the world unseen - to observe, escape, and act without the weight of others' judgment or expectations.",
+      "detailed_description": "Your preference for invisibility reveals someone who values privacy, observation, and the freedom to act without social pressure. You're likely introverted or highly sensitive to others' opinions and reactions. Invisibility appeals to you because it would allow you to help people without recognition, escape uncomfortable situations gracefully, and observe the world as it really is when people think no one is watching. You probably feel burdened by social expectations and would love the relief of being able to move through life without constant performance pressure. This power would let you be yourself completely, help others anonymously, and gather information without the complications that come with being seen and judged.",
+      "in_depth_analysis": "Your attraction to invisibility speaks to a complex relationship with visibility, social pressure, and your own sense of agency in the world. You likely experience being 'seen' as both a need and a burden - you want to be understood and accepted, but you also feel exhausted by the constant performance that social interaction seems to require. Invisibility represents the ultimate freedom from judgment and the ability to act purely from your authentic motivations without worrying about how others will perceive you.\n\nYour invisibility choices probably revealed someone who prefers to help from behind the scenes and values genuine impact over recognition. This suggests humility and a pure motivation to make things better without needing credit. You may be someone who does a lot of unnoticed emotional labor or support work in your relationships and would appreciate the ability to help even more effectively without the complications that come with visibility.\n\nHowever, the strong appeal of invisibility might also indicate some avoidance patterns or fear of authentic visibility. You may have learned that it's safer to hide parts of yourself rather than risk rejection or criticism. While this is understandable and sometimes wise, it can also prevent you from forming the deep connections you likely crave and from receiving the support and appreciation you deserve.\n\nThe key insight is that while invisibility would solve some problems, it might also amplify feelings of isolation and disconnection. True fulfillment often comes from being seen and accepted for who you really are, not from being able to hide perfectly. The challenge is finding safe spaces and relationships where you can be visible without the negative consequences you fear, while also developing tolerance for the discomfort that comes with authentic visibility."
+    },
+    "super_strength": {
+      "name": "The Unstoppable Force",
+      "short_description": "You crave raw power - the ability to break through any obstacle, protect anyone who needs it, and never feel helpless again.",
+      "detailed_description": "Your desire for super strength reveals someone who has felt powerless in important situations and never wants to experience that helplessness again. You're likely protective of others and frustrated when you can't solve problems through sheer determination and effort. Super strength appeals to you because it represents the ultimate agency - the ability to change any situation through direct action. You probably value honesty, directness, and taking action over talking about problems. This power would allow you to protect everyone you care about, remove obstacles that seem impossible to others, and ensure that you never have to stand by helplessly while bad things happen. You believe that most problems can be solved with enough force applied in the right direction.",
+      "in_depth_analysis": "Your preference for super strength reveals deep psychological drives around power, protection, and your response to feeling vulnerable or helpless. You likely have a strong protective instinct and may have experienced situations where you felt unable to help someone important to you, or where you yourself felt powerless against circumstances beyond your control. Super strength represents the fantasy of never being in that position again - of always having enough power to change outcomes through direct action.\n\nYour strength-based choices probably showed someone who prefers confronting problems head-on rather than finding workarounds or compromises. This reflects confidence, courage, and a belief that most obstacles are just barriers waiting to be broken down. You're likely someone others turn to in crisis situations because you project competence and determination even when facing seemingly impossible challenges.\n\nHowever, the strong appeal of super strength might also indicate some discomfort with subtlety, patience, or situations that can't be solved through force. You may sometimes try to power through problems that actually require finesse, time, or emotional intelligence to resolve. The fantasy of unlimited physical power could represent frustration with the limitations of what pure effort and determination can accomplish in complex interpersonal or systemic situations.\n\nThe deeper insight is that while super strength would give you the power to change external circumstances, many of life's most important challenges - relationships, personal growth, healing from trauma, finding meaning - can't be solved through force alone. Learning to appreciate and develop your capacity for patience, emotional intelligence, and collaborative problem-solving might ultimately make you more powerful than any amount of physical strength could."
+    },
+    "time_control": {
+      "name": "The Time Master",
+      "short_description": "You desire ultimate control over your biggest enemy: time itself. The power to undo mistakes, prevent disasters, and perfect every moment.",
+      "detailed_description": "Your attraction to time control reveals someone who struggles with regret, perfectionism, and the irreversible nature of mistakes. You're likely detail-oriented and think carefully about consequences, but you also carry the weight of past decisions heavily. Time manipulation appeals to you because it would allow you to optimize outcomes, prevent suffering, and ensure that everything happens exactly as it should. You probably replay scenarios in your mind, thinking about how things could have gone differently, and you're frustrated by the inability to fix past mistakes or prevent future problems you can see coming. This power would let you be the ultimate problem-preventer and mistake-corrector, ensuring optimal outcomes for yourself and everyone you care about.",
+      "in_depth_analysis": "Your desire for time control reveals a complex relationship with perfectionism, regret, and acceptance of life's inherent uncertainty and irreversibility. You likely experience intense frustration with the linear nature of time and the way that single moments or decisions can have lasting consequences that can't be undone. This suggests someone who thinks deeply about cause and effect and may carry significant guilt or regret about past choices.\n\nYour time-based choices probably revealed someone who wants to use this power altruistically - to prevent accidents, save relationships, and optimize outcomes for others as well as yourself. This indicates strong empathy and a genuine desire to reduce suffering in the world. You may feel burdened by your ability to see potential problems coming but your inability to prevent them with current human limitations.\n\nHowever, the strong appeal of time control might also indicate difficulty accepting imperfection, uncertainty, and the natural consequences of actions. You may spend excessive mental energy on regret and 'what if' scenarios, or feel paralyzed by the fear of making irreversible mistakes. The fantasy of time manipulation could represent an attempt to escape the anxiety that comes with accepting that life is inherently unpredictable and that mistakes are inevitable.\n\nThe key insight is that while time control might eliminate regret and optimize outcomes, it could also prevent the growth that comes from learning to live with uncertainty and imperfection. Many of life's most meaningful experiences - love, growth, resilience - emerge from accepting and working with limitations rather than controlling every variable. Learning to make peace with imperfection and find meaning in the unrepeatable, irreversible nature of each moment might ultimately be more fulfilling than achieving perfect control over time."
+    },
+    "flight": {
+      "name": "The Sky Sovereign",
+      "short_description": "You dream of ultimate freedom - the power to soar above limitations, see the bigger picture, and never feel trapped again.",
+      "detailed_description": "Your desire for flight reveals someone who craves freedom, perspective, and the ability to rise above life's limitations. You likely feel constrained by conventional paths and expectations, and you're drawn to the idea of literally and figuratively rising above obstacles. Flight appeals to you because it represents independence, the ability to see situations from a higher perspective, and freedom from the gridlock and limitations that keep others stuck. You probably value adventure, hate feeling trapped, and believe that most problems look smaller when viewed from above. This power would give you the ultimate escape route and the ability to help others by providing rescue and transportation, while also satisfying your need for freedom and adventure.",
+      "in_depth_analysis": "Your attraction to flight speaks to deep psychological needs around freedom, perspective, and transcendence of limitations. You likely experience the world as full of artificial constraints - traffic, bureaucracy, social expectations, geographic barriers - that prevent you from living as freely as you'd like. Flight represents the ultimate liberation from these earthbound limitations and the ability to move through life on your own terms.\n\nYour flight choices probably revealed someone who values independence highly and may feel claustrophobic in overly structured or restrictive environments. You likely have a strong need for autonomy and may struggle with situations where you feel controlled or limited by others' rules or expectations. The ability to fly would give you the ultimate autonomy - no one could trap you or force you to stay somewhere you don't want to be.\n\nThe appeal of flight also suggests someone who values perspective and may naturally think in terms of 'big picture' rather than getting caught up in immediate details. You probably believe that many problems would be easier to solve if people could just step back and see the larger context, and flight would literally give you that elevated viewpoint.\n\nHowever, the strong desire for flight might also indicate some tendency toward escapism or difficulty with commitment and follow-through. While the ability to leave any situation is liberating, it might also prevent you from developing the persistence and resilience that comes from working through difficult circumstances rather than rising above them. The challenge is learning when to use your natural gift for seeing the bigger picture to solve problems versus when to stay grounded and work through challenges step by step."
+    }
+  }
+}

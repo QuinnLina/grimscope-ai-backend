@@ -1,0 +1,708 @@
+{
+  "testId": "soulmate",
+  "title": "Soulmate Compatibility Test",
+  "description": "Discover your romantic destiny and soulmate potential through deep soul analysis",
+  "traits": {
+    "emotional_security": "Seeks deep emotional safety and unwavering trust",
+    "passionate_intensity": "Craves fiery, all-consuming romantic connection",
+    "intellectual_compatibility": "Needs mental stimulation and deep conversations",
+    "romantic_idealism": "Believes in fairytale love and magical connections",
+    "mysterious_allure": "Drawn to enigmatic partners with hidden depths",
+    "spiritual_connection": "Seeks soul-level recognition and transcendent bond",
+    "creative_expression": "Values artistic collaboration and aesthetic beauty",
+    "loyalty_devotion": "Prioritizes unwavering commitment and dedication",
+    "physical_chemistry": "Requires intense physical attraction and compatibility",
+    "emotional_complexity": "Appreciates psychological depth and nuanced feelings",
+    "unconditional_acceptance": "Needs complete acceptance of authentic self",
+    "emotional_stability": "Values consistent emotional equilibrium and balance"
+  },
+  "questions": [
+    {
+      "question": "When you close your eyes and imagine your perfect soulmate, what feeling overwhelms you first?",
+      "answers": [
+        {
+          "text": "A warm, safe feeling like coming home after years of wandering",
+          "traits": {"emotional_security": 5, "loyalty_devotion": 4, "spiritual_connection": 3, "romantic_idealism": 2, "passionate_intensity": 1}
+        },
+        {
+          "text": "An electric surge of passion that makes your heart race uncontrollably",
+          "traits": {"passionate_intensity": 5, "physical_chemistry": 4, "romantic_idealism": 3, "emotional_complexity": 2, "mysterious_allure": 1}
+        },
+        {
+          "text": "A profound sense of being truly understood for the first time in your life",
+          "traits": {"spiritual_connection": 5, "intellectual_compatibility": 4, "emotional_complexity": 3, "mysterious_allure": 2, "emotional_security": 1}
+        },
+        {
+          "text": "A romantic fairytale feeling where everything becomes magical and beautiful",
+          "traits": {"romantic_idealism": 5, "creative_expression": 4, "emotional_stability": 3, "spiritual_connection": 2, "passionate_intensity": 1}
+        },
+        {
+          "text": "An intoxicating mystery that draws you deeper into their hidden depths",
+          "traits": {"mysterious_allure": 5, "emotional_complexity": 4, "passionate_intensity": 3, "intellectual_compatibility": 2, "emotional_security": 1}
+        }
+      ]
+    },
+    {
+      "question": "At a crowded party, your eyes meet a stranger's across the room. What happens next in your ideal scenario?",
+      "answers": [
+        {
+          "text": "Time stops and you both smile knowingly, as if you've been waiting for each other your whole lives",
+          "traits": {"romantic_idealism": 5, "spiritual_connection": 4, "emotional_stability": 3, "mysterious_allure": 2, "loyalty_devotion": 1}
+        },
+        {
+          "text": "Instant magnetic pull draws you together through the crowd, unable to look away",
+          "traits": {"passionate_intensity": 5, "physical_chemistry": 4, "emotional_complexity": 3, "romantic_idealism": 2, "mysterious_allure": 1}
+        },
+        {
+          "text": "A comfortable warmth spreads through you, like recognizing an old friend",
+          "traits": {"emotional_security": 5, "loyalty_devotion": 4, "intellectual_compatibility": 3, "emotional_stability": 2, "spiritual_connection": 1}
+        },
+        {
+          "text": "You sense hidden depths behind their eyes that you desperately want to explore",
+          "traits": {"mysterious_allure": 5, "emotional_complexity": 4, "intellectual_compatibility": 3, "passionate_intensity": 2, "creative_expression": 1}
+        },
+        {
+          "text": "You feel an immediate intellectual curiosity about who they are and what they think",
+          "traits": {"intellectual_compatibility": 5, "spiritual_connection": 4, "creative_expression": 3, "emotional_security": 2, "unconditional_acceptance": 1}
+        }
+      ]
+    },
+    {
+      "question": "What's the most romantic gesture your soulmate could make?",
+      "answers": [
+        {
+          "text": "Something deeply personal that shows they've been paying attention to your soul",
+          "traits": {"unconditional_acceptance": 5, "intellectual_compatibility": 4, "mysterious_allure": 3, "emotional_security": 2, "spiritual_connection": 1}
+        },
+        {
+          "text": "A grand romantic gesture straight out of your favorite love story",
+          "traits": {"romantic_idealism": 5, "creative_expression": 4, "passionate_intensity": 3, "emotional_stability": 2, "spiritual_connection": 1}
+        },
+        {
+          "text": "Simply being there consistently, proving their love through reliability",
+          "traits": {"loyalty_devotion": 5, "emotional_security": 4, "emotional_stability": 3, "unconditional_acceptance": 2, "intellectual_compatibility": 1}
+        },
+        {
+          "text": "Sweeping you off your feet with spontaneous passion and intensity",
+          "traits": {"passionate_intensity": 5, "physical_chemistry": 4, "romantic_idealism": 3, "emotional_complexity": 2, "mysterious_allure": 1}
+        },
+        {
+          "text": "Something mysterious and unexpected that reveals a new side of them",
+          "traits": {"mysterious_allure": 5, "emotional_complexity": 4, "creative_expression": 3, "intellectual_compatibility": 2, "passionate_intensity": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you envision handling jealousy in your soulmate relationship?",
+      "answers": [
+        {
+          "text": "There wouldn't be any - you trust each other completely and unconditionally",
+          "traits": {"emotional_security": 5, "loyalty_devotion": 4, "unconditional_acceptance": 3, "emotional_stability": 2, "spiritual_connection": 1}
+        },
+        {
+          "text": "It would fuel passionate discussions that ultimately bring you closer",
+          "traits": {"passionate_intensity": 5, "emotional_complexity": 4, "physical_chemistry": 3, "mysterious_allure": 2, "romantic_idealism": 1}
+        },
+        {
+          "text": "You'd talk through it intellectually until you both understand the root causes",
+          "traits": {"intellectual_compatibility": 5, "emotional_stability": 4, "spiritual_connection": 3, "unconditional_acceptance": 2, "emotional_security": 1}
+        },
+        {
+          "text": "You'd channel it into creative expression that deepens your connection",
+          "traits": {"creative_expression": 5, "romantic_idealism": 4, "intellectual_compatibility": 3, "emotional_stability": 2, "passionate_intensity": 1}
+        },
+        {
+          "text": "It would add an exciting edge to your relationship's mysterious dynamics",
+          "traits": {"mysterious_allure": 5, "emotional_complexity": 4, "passionate_intensity": 3, "creative_expression": 2, "intellectual_compatibility": 1}
+        }
+      ]
+    },
+    {
+      "question": "What would make you absolutely certain you've found your soulmate?",
+      "answers": [
+        {
+          "text": "When loving them feels as natural and necessary as breathing",
+          "traits": {"spiritual_connection": 5, "emotional_security": 4, "unconditional_acceptance": 3, "emotional_stability": 2, "intellectual_compatibility": 1}
+        },
+        {
+          "text": "When you can't imagine your life story without them as the central character",
+          "traits": {"romantic_idealism": 5, "passionate_intensity": 4, "creative_expression": 3, "spiritual_connection": 2, "loyalty_devotion": 1}
+        },
+        {
+          "text": "When the chemistry between you is so intense it feels otherworldly",
+          "traits": {"passionate_intensity": 5, "physical_chemistry": 4, "spiritual_connection": 3, "mysterious_allure": 2, "emotional_complexity": 1}
+        },
+        {
+          "text": "When they challenge and inspire your mind in ways no one else ever has",
+          "traits": {"intellectual_compatibility": 5, "creative_expression": 4, "spiritual_connection": 3, "mysterious_allure": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "When you realize they see and love parts of you that you've kept hidden from everyone",
+          "traits": {"unconditional_acceptance": 5, "mysterious_allure": 4, "emotional_complexity": 3, "spiritual_connection": 2, "emotional_security": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you want your love to change you as a person?",
+      "answers": [
+        {
+          "text": "By making you braver and more willing to be vulnerable and authentic",
+          "traits": {"unconditional_acceptance": 5, "emotional_security": 4, "spiritual_connection": 3, "passionate_intensity": 2, "intellectual_compatibility": 1}
+        },
+        {
+          "text": "By inspiring you to create and express yourself in ways you never imagined",
+          "traits": {"creative_expression": 5, "romantic_idealism": 4, "intellectual_compatibility": 3, "spiritual_connection": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "By making you more stable and grounded while maintaining your passionate nature",
+          "traits": {"emotional_stability": 5, "loyalty_devotion": 4, "emotional_security": 3, "passionate_intensity": 2, "spiritual_connection": 1}
+        },
+        {
+          "text": "By awakening parts of your personality that you didn't know existed",
+          "traits": {"mysterious_allure": 5, "emotional_complexity": 4, "passionate_intensity": 3, "intellectual_compatibility": 2, "creative_expression": 1}
+        },
+        {
+          "text": "By pushing you to question everything and grow intellectually and spiritually",
+          "traits": {"intellectual_compatibility": 5, "spiritual_connection": 4, "creative_expression": 3, "mysterious_allure": 2, "emotional_stability": 1}
+        }
+      ]
+    },
+    {
+      "question": "What legacy do you want your soulmate relationship to leave?",
+      "answers": [
+        {
+          "text": "A love so deep and true that it inspires others to believe in soulmates",
+          "traits": {"romantic_idealism": 5, "spiritual_connection": 4, "creative_expression": 3, "passionate_intensity": 2, "loyalty_devotion": 1}
+        },
+        {
+          "text": "A partnership so stable and supportive that it becomes a model for others",
+          "traits": {"emotional_security": 5, "loyalty_devotion": 4, "emotional_stability": 3, "unconditional_acceptance": 2, "intellectual_compatibility": 1}
+        },
+        {
+          "text": "A passionate love story that proves great love is worth any sacrifice",
+          "traits": {"passionate_intensity": 5, "romantic_idealism": 4, "physical_chemistry": 3, "emotional_complexity": 2, "mysterious_allure": 1}
+        },
+        {
+          "text": "A meeting of minds that creates something beautiful and meaningful for the world",
+          "traits": {"intellectual_compatibility": 5, "creative_expression": 4, "spiritual_connection": 3, "romantic_idealism": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "A mysterious love that people will wonder about and try to understand for generations",
+          "traits": {"mysterious_allure": 5, "emotional_complexity": 4, "passionate_intensity": 3, "creative_expression": 2, "intellectual_compatibility": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle conflict with someone you're falling in love with?",
+      "answers": [
+        {
+          "text": "You dive deep into raw honesty, even if it's emotionally exhausting",
+          "traits": {"passionate_intensity": 5, "emotional_complexity": 4, "unconditional_acceptance": 3, "intellectual_compatibility": 2, "mysterious_allure": 1}
+        },
+        {
+          "text": "You step back and analyze the situation logically before responding",
+          "traits": {"intellectual_compatibility": 5, "emotional_stability": 4, "spiritual_connection": 3, "emotional_security": 2, "loyalty_devotion": 1}
+        },
+        {
+          "text": "You focus on preserving the relationship above being right",
+          "traits": {"emotional_security": 5, "loyalty_devotion": 4, "unconditional_acceptance": 3, "emotional_stability": 2, "spiritual_connection": 1}
+        },
+        {
+          "text": "You turn the tension into passionate connection and deeper intimacy",
+          "traits": {"passionate_intensity": 5, "physical_chemistry": 4, "emotional_complexity": 3, "romantic_idealism": 2, "mysterious_allure": 1}
+        },
+        {
+          "text": "You withdraw to process your feelings before discussing them",
+          "traits": {"mysterious_allure": 5, "emotional_complexity": 4, "intellectual_compatibility": 3, "emotional_stability": 2, "creative_expression": 1}
+        }
+      ]
+    },
+    {
+      "question": "What's your biggest fear about finding true love?",
+      "answers": [
+        {
+          "text": "That the intensity might consume you both and burn everything down",
+          "traits": {"passionate_intensity": 5, "emotional_complexity": 4, "mysterious_allure": 3, "physical_chemistry": 2, "romantic_idealism": 1}
+        },
+        {
+          "text": "That they might see through all your masks and not like who you really are",
+          "traits": {"unconditional_acceptance": 5, "mysterious_allure": 4, "emotional_complexity": 3, "emotional_security": 2, "spiritual_connection": 1}
+        },
+        {
+          "text": "That real love might not live up to your romantic dreams and expectations",
+          "traits": {"romantic_idealism": 5, "creative_expression": 4, "spiritual_connection": 3, "passionate_intensity": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "That you might lose yourself completely in loving them",
+          "traits": {"emotional_complexity": 5, "passionate_intensity": 4, "mysterious_allure": 3, "unconditional_acceptance": 2, "intellectual_compatibility": 1}
+        },
+        {
+          "text": "That after all your searching, you might not be enough for them",
+          "traits": {"emotional_security": 5, "unconditional_acceptance": 4, "loyalty_devotion": 3, "emotional_stability": 2, "spiritual_connection": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you express love when words aren't enough?",
+      "answers": [
+        {
+          "text": "Through creative expressions like art, music, or poetry that capture your feelings",
+          "traits": {"creative_expression": 5, "romantic_idealism": 4, "intellectual_compatibility": 3, "spiritual_connection": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "Through physical touch that communicates what your heart can't say",
+          "traits": {"physical_chemistry": 5, "passionate_intensity": 4, "romantic_idealism": 3, "emotional_security": 2, "spiritual_connection": 1}
+        },
+        {
+          "text": "Through consistent actions that prove your devotion day after day",
+          "traits": {"loyalty_devotion": 5, "emotional_stability": 4, "emotional_security": 3, "unconditional_acceptance": 2, "intellectual_compatibility": 1}
+        },
+        {
+          "text": "Through moments of profound silence where your souls communicate directly",
+          "traits": {"spiritual_connection": 5, "mysterious_allure": 4, "intellectual_compatibility": 3, "unconditional_acceptance": 2, "emotional_complexity": 1}
+        },
+        {
+          "text": "Through unexpected surprises that show how deeply you understand them",
+          "traits": {"mysterious_allure": 5, "intellectual_compatibility": 4, "creative_expression": 3, "emotional_complexity": 2, "romantic_idealism": 1}
+        }
+      ]
+    },
+    {
+      "question": "What would make you willing to risk everything for love?",
+      "answers": [
+        {
+          "text": "Meeting someone whose soul recognizes yours from past lifetimes",
+          "traits": {"spiritual_connection": 5, "mysterious_allure": 4, "romantic_idealism": 3, "passionate_intensity": 2, "intellectual_compatibility": 1}
+        },
+        {
+          "text": "Finding someone who makes you feel completely safe to be vulnerable",
+          "traits": {"emotional_security": 5, "unconditional_acceptance": 4, "loyalty_devotion": 3, "emotional_stability": 2, "spiritual_connection": 1}
+        },
+        {
+          "text": "Experiencing a connection so intense it feels like you're becoming one person",
+          "traits": {"passionate_intensity": 5, "physical_chemistry": 4, "spiritual_connection": 3, "romantic_idealism": 2, "emotional_complexity": 1}
+        },
+        {
+          "text": "Finding someone whose mind works in perfect harmony with yours",
+          "traits": {"intellectual_compatibility": 5, "spiritual_connection": 4, "mysterious_allure": 3, "creative_expression": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "Meeting someone who embodies everything you've ever dreamed love could be",
+          "traits": {"romantic_idealism": 5, "creative_expression": 4, "spiritual_connection": 3, "passionate_intensity": 2, "emotional_stability": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you know when someone truly 'gets' you?",
+      "answers": [
+        {
+          "text": "When they can predict your needs before you even know what they are",
+          "traits": {"intellectual_compatibility": 5, "spiritual_connection": 4, "mysterious_allure": 3, "unconditional_acceptance": 2, "emotional_security": 1}
+        },
+        {
+          "text": "When they love your quirks instead of just tolerating them",
+          "traits": {"unconditional_acceptance": 5, "emotional_security": 4, "creative_expression": 3, "loyalty_devotion": 2, "romantic_idealism": 1}
+        },
+        {
+          "text": "When they can match your emotional intensity without being overwhelmed",
+          "traits": {"passionate_intensity": 5, "emotional_complexity": 4, "physical_chemistry": 3, "spiritual_connection": 2, "mysterious_allure": 1}
+        },
+        {
+          "text": "When they see the poetry in your soul and inspire you to create beauty",
+          "traits": {"creative_expression": 5, "romantic_idealism": 4, "spiritual_connection": 3, "intellectual_compatibility": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "When they're intrigued by your complexity instead of frustrated by it",
+          "traits": {"emotional_complexity": 5, "mysterious_allure": 4, "intellectual_compatibility": 3, "passionate_intensity": 2, "unconditional_acceptance": 1}
+        }
+      ]
+    },
+    {
+      "question": "What role does physical attraction play in finding your soulmate?",
+      "answers": [
+        {
+          "text": "It's the spark that ignites everything else - without it, there's no fire",
+          "traits": {"physical_chemistry": 5, "passionate_intensity": 4, "romantic_idealism": 3, "emotional_complexity": 2, "mysterious_allure": 1}
+        },
+        {
+          "text": "It grows naturally when you connect with someone's mind and soul",
+          "traits": {"intellectual_compatibility": 5, "spiritual_connection": 4, "emotional_security": 3, "unconditional_acceptance": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "It's about feeling beautiful and desired in their eyes, regardless of conventional standards",
+          "traits": {"emotional_security": 5, "unconditional_acceptance": 4, "romantic_idealism": 3, "loyalty_devotion": 2, "creative_expression": 1}
+        },
+        {
+          "text": "It's an artistic appreciation - being drawn to their unique beauty and energy",
+          "traits": {"creative_expression": 5, "romantic_idealism": 4, "mysterious_allure": 3, "spiritual_connection": 2, "intellectual_compatibility": 1}
+        },
+        {
+          "text": "It's mysterious and unexplainable - you're drawn to them in ways you can't understand",
+          "traits": {"mysterious_allure": 5, "passionate_intensity": 4, "emotional_complexity": 3, "physical_chemistry": 2, "spiritual_connection": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you imagine your soulmate meeting your family, what concerns you most?",
+      "answers": [
+        {
+          "text": "That they might not understand your soulmate's intense or mysterious nature",
+          "traits": {"mysterious_allure": 5, "emotional_complexity": 4, "passionate_intensity": 3, "intellectual_compatibility": 2, "creative_expression": 1}
+        },
+        {
+          "text": "That your soulmate might feel overwhelmed by having to perform or be 'on'",
+          "traits": {"emotional_security": 5, "unconditional_acceptance": 4, "emotional_complexity": 3, "intellectual_compatibility": 2, "loyalty_devotion": 1}
+        },
+        {
+          "text": "That your family might not see how perfectly you complement each other",
+          "traits": {"intellectual_compatibility": 5, "spiritual_connection": 4, "romantic_idealism": 3, "mysterious_allure": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "That your passionate relationship might seem too intense for others to understand",
+          "traits": {"passionate_intensity": 5, "physical_chemistry": 4, "emotional_complexity": 3, "romantic_idealism": 2, "creative_expression": 1}
+        },
+        {
+          "text": "Nothing - you're confident they'll love your soulmate as much as you do",
+          "traits": {"emotional_security": 5, "loyalty_devotion": 4, "emotional_stability": 3, "unconditional_acceptance": 2, "romantic_idealism": 1}
+        }
+      ]
+    },
+    {
+      "question": "What's your biggest hope for your soulmate relationship?",
+      "answers": [
+        {
+          "text": "That you'll inspire each other to become the best versions of yourselves",
+          "traits": {"spiritual_connection": 5, "intellectual_compatibility": 4, "creative_expression": 3, "romantic_idealism": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "That your love will be a safe haven where you can always be completely yourself",
+          "traits": {"emotional_security": 5, "unconditional_acceptance": 4, "loyalty_devotion": 3, "emotional_stability": 2, "spiritual_connection": 1}
+        },
+        {
+          "text": "That your passion will never fade, no matter how many years pass",
+          "traits": {"passionate_intensity": 5, "physical_chemistry": 4, "romantic_idealism": 3, "emotional_complexity": 2, "mysterious_allure": 1}
+        },
+        {
+          "text": "That you'll create a love story so beautiful it could inspire others",
+          "traits": {"romantic_idealism": 5, "creative_expression": 4, "spiritual_connection": 3, "passionate_intensity": 2, "intellectual_compatibility": 1}
+        },
+        {
+          "text": "That you'll never stop discovering new depths and mysteries in each other",
+          "traits": {"mysterious_allure": 5, "emotional_complexity": 4, "intellectual_compatibility": 3, "spiritual_connection": 2, "creative_expression": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you want to support your soulmate through their darkest moments?",
+      "answers": [
+        {
+          "text": "By being their unwavering strength when they can't be strong for themselves",
+          "traits": {"loyalty_devotion": 5, "emotional_security": 4, "emotional_stability": 3, "unconditional_acceptance": 2, "spiritual_connection": 1}
+        },
+        {
+          "text": "By diving into the darkness with them so they know they're not alone",
+          "traits": {"passionate_intensity": 5, "emotional_complexity": 4, "unconditional_acceptance": 3, "mysterious_allure": 2, "spiritual_connection": 1}
+        },
+        {
+          "text": "By helping them find meaning and lessons in their struggles",
+          "traits": {"intellectual_compatibility": 5, "spiritual_connection": 4, "emotional_stability": 3, "creative_expression": 2, "romantic_idealism": 1}
+        },
+        {
+          "text": "By creating beautiful moments to remind them that life is still magical",
+          "traits": {"creative_expression": 5, "romantic_idealism": 4, "emotional_stability": 3, "spiritual_connection": 2, "passionate_intensity": 1}
+        },
+        {
+          "text": "By respecting their need to process alone while staying close enough to catch them",
+          "traits": {"emotional_complexity": 5, "mysterious_allure": 4, "emotional_security": 3, "unconditional_acceptance": 2, "intellectual_compatibility": 1}
+        }
+      ]
+    },
+    {
+      "question": "What type of conversations do you crave most with your soulmate?",
+      "answers": [
+        {
+          "text": "Deep philosophical discussions about the meaning of life and existence",
+          "traits": {"intellectual_compatibility": 5, "spiritual_connection": 4, "mysterious_allure": 3, "creative_expression": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "Intimate sharing of your deepest fears and wildest dreams",
+          "traits": {"emotional_security": 5, "unconditional_acceptance": 4, "passionate_intensity": 3, "spiritual_connection": 2, "loyalty_devotion": 1}
+        },
+        {
+          "text": "Passionate debates that turn into even more passionate reconciliations",
+          "traits": {"passionate_intensity": 5, "emotional_complexity": 4, "physical_chemistry": 3, "intellectual_compatibility": 2, "mysterious_allure": 1}
+        },
+        {
+          "text": "Creative brainstorming about beautiful things you want to create together",
+          "traits": {"creative_expression": 5, "romantic_idealism": 4, "intellectual_compatibility": 3, "spiritual_connection": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "Conversations that seem to have hidden meanings and layers beneath the surface",
+          "traits": {"mysterious_allure": 5, "emotional_complexity": 4, "intellectual_compatibility": 3, "passionate_intensity": 2, "spiritual_connection": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you imagine growing old with your soulmate?",
+      "answers": [
+        {
+          "text": "Still discovering new things about each other after decades together",
+          "traits": {"mysterious_allure": 5, "intellectual_compatibility": 4, "emotional_complexity": 3, "spiritual_connection": 2, "creative_expression": 1}
+        },
+        {
+          "text": "With the same comfortable security you've always felt in their arms",
+          "traits": {"emotional_security": 5, "loyalty_devotion": 4, "emotional_stability": 3, "unconditional_acceptance": 2, "spiritual_connection": 1}
+        },
+        {
+          "text": "Still feeling butterflies when they look at you a certain way",
+          "traits": {"romantic_idealism": 5, "passionate_intensity": 4, "physical_chemistry": 3, "creative_expression": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "With a love that has deepened into something transcendent and sacred",
+          "traits": {"spiritual_connection": 5, "unconditional_acceptance": 4, "intellectual_compatibility": 3, "romantic_idealism": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "Having weathered passionate storms that only made your bond stronger",
+          "traits": {"passionate_intensity": 5, "emotional_complexity": 4, "loyalty_devotion": 3, "emotional_security": 2, "mysterious_allure": 1}
+        }
+      ]
+    },
+    {
+      "question": "What would be your ideal way to resolve a serious conflict with your soulmate?",
+      "answers": [
+        {
+          "text": "Through raw, honest conversation that leaves you both emotionally drained but closer",
+          "traits": {"passionate_intensity": 5, "emotional_complexity": 4, "unconditional_acceptance": 3, "intellectual_compatibility": 2, "mysterious_allure": 1}
+        },
+        {
+          "text": "By talking through every angle until you both understand each other completely",
+          "traits": {"intellectual_compatibility": 5, "emotional_stability": 4, "spiritual_connection": 3, "emotional_security": 2, "unconditional_acceptance": 1}
+        },
+        {
+          "text": "With patience and understanding, knowing your love is stronger than any disagreement",
+          "traits": {"emotional_security": 5, "loyalty_devotion": 4, "unconditional_acceptance": 3, "emotional_stability": 2, "spiritual_connection": 1}
+        },
+        {
+          "text": "Through a romantic gesture that reminds you both why you fell in love",
+          "traits": {"romantic_idealism": 5, "creative_expression": 4, "passionate_intensity": 3, "spiritual_connection": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "By giving each other space to process before coming back together stronger",
+          "traits": {"emotional_complexity": 5, "mysterious_allure": 4, "intellectual_compatibility": 3, "emotional_stability": 2, "unconditional_acceptance": 1}
+        }
+      ]
+    },
+    {
+      "question": "What kind of love story do you want yours to be?",
+      "answers": [
+        {
+          "text": "An epic tale of two souls finding each other against all odds",
+          "traits": {"romantic_idealism": 5, "spiritual_connection": 4, "passionate_intensity": 3, "creative_expression": 2, "mysterious_allure": 1}
+        },
+        {
+          "text": "A passionate romance that burns bright enough to light up the world",
+          "traits": {"passionate_intensity": 5, "physical_chemistry": 4, "romantic_idealism": 3, "emotional_complexity": 2, "creative_expression": 1}
+        },
+        {
+          "text": "A steady love that grows deeper and more beautiful with each passing year",
+          "traits": {"emotional_security": 5, "loyalty_devotion": 4, "emotional_stability": 3, "unconditional_acceptance": 2, "spiritual_connection": 1}
+        },
+        {
+          "text": "A mysterious love affair that no one else fully understands but you two",
+          "traits": {"mysterious_allure": 5, "emotional_complexity": 4, "passionate_intensity": 3, "intellectual_compatibility": 2, "spiritual_connection": 1}
+        },
+        {
+          "text": "An intellectual and emotional journey of two minds becoming one",
+          "traits": {"intellectual_compatibility": 5, "spiritual_connection": 4, "creative_expression": 3, "mysterious_allure": 2, "emotional_stability": 1}
+        }
+      ]
+    },
+    {
+      "question": "What scares you most about finding your true soulmate?",
+      "answers": [
+        {
+          "text": "That the intensity might consume you both and burn everything down",
+          "traits": {"passionate_intensity": 5, "emotional_complexity": 4, "mysterious_allure": 3, "physical_chemistry": 2, "romantic_idealism": 1}
+        },
+        {
+          "text": "That they might see through all your masks and not like who you really are",
+          "traits": {"unconditional_acceptance": 5, "mysterious_allure": 4, "emotional_complexity": 3, "emotional_security": 2, "spiritual_connection": 1}
+        },
+        {
+          "text": "That real love might not live up to your romantic dreams and expectations",
+          "traits": {"romantic_idealism": 5, "creative_expression": 4, "spiritual_connection": 3, "passionate_intensity": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "That you might lose yourself completely in loving them",
+          "traits": {"emotional_complexity": 5, "passionate_intensity": 4, "mysterious_allure": 3, "unconditional_acceptance": 2, "intellectual_compatibility": 1}
+        },
+        {
+          "text": "That after all your searching, you might not be enough for them",
+          "traits": {"emotional_security": 5, "unconditional_acceptance": 4, "loyalty_devotion": 3, "emotional_stability": 2, "spiritual_connection": 1}
+        }
+      ]
+    },
+    {
+      "question": "What's the most important thing your soulmate could teach you?",
+      "answers": [
+        {
+          "text": "How to love yourself as completely as they love you",
+          "traits": {"unconditional_acceptance": 5, "emotional_security": 4, "spiritual_connection": 3, "romantic_idealism": 2, "loyalty_devotion": 1}
+        },
+        {
+          "text": "How to embrace the full spectrum of your emotions without fear",
+          "traits": {"emotional_complexity": 5, "passionate_intensity": 4, "mysterious_allure": 3, "intellectual_compatibility": 2, "creative_expression": 1}
+        },
+        {
+          "text": "How to see the world through eyes of wonder and possibility",
+          "traits": {"creative_expression": 5, "romantic_idealism": 4, "spiritual_connection": 3, "intellectual_compatibility": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "How to find peace and stillness in the midst of life's chaos",
+          "traits": {"emotional_stability": 5, "spiritual_connection": 4, "emotional_security": 3, "intellectual_compatibility": 2, "unconditional_acceptance": 1}
+        },
+        {
+          "text": "How to think about existence in completely new and profound ways",
+          "traits": {"intellectual_compatibility": 5, "spiritual_connection": 4, "mysterious_allure": 3, "creative_expression": 2, "emotional_complexity": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you hope your soulmate will remember you if you're apart?",
+      "answers": [
+        {
+          "text": "As the one person who truly understood the depths of their soul",
+          "traits": {"spiritual_connection": 5, "intellectual_compatibility": 4, "mysterious_allure": 3, "unconditional_acceptance": 2, "emotional_complexity": 1}
+        },
+        {
+          "text": "As their safe harbor in every storm life brought them",
+          "traits": {"emotional_security": 5, "loyalty_devotion": 4, "unconditional_acceptance": 3, "emotional_stability": 2, "spiritual_connection": 1}
+        },
+        {
+          "text": "As the great passion that set their heart on fire",
+          "traits": {"passionate_intensity": 5, "physical_chemistry": 4, "romantic_idealism": 3, "emotional_complexity": 2, "mysterious_allure": 1}
+        },
+        {
+          "text": "As the beautiful dream that made their life feel like poetry",
+          "traits": {"romantic_idealism": 5, "creative_expression": 4, "spiritual_connection": 3, "passionate_intensity": 2, "intellectual_compatibility": 1}
+        },
+        {
+          "text": "As the fascinating mystery they never fully solved",
+          "traits": {"mysterious_allure": 5, "emotional_complexity": 4, "intellectual_compatibility": 3, "passionate_intensity": 2, "creative_expression": 1}
+        }
+      ]
+    },
+    {
+      "question": "What final quality would seal your certainty that someone is your soulmate?",
+      "answers": [
+        {
+          "text": "When being with them feels like the most natural thing in the universe",
+          "traits": {"spiritual_connection": 5, "emotional_security": 4, "unconditional_acceptance": 3, "emotional_stability": 2, "intellectual_compatibility": 1}
+        },
+        {
+          "text": "When you realize you'd rather argue with them than be peaceful with anyone else",
+          "traits": {"passionate_intensity": 5, "emotional_complexity": 4, "intellectual_compatibility": 3, "mysterious_allure": 2, "romantic_idealism": 1}
+        },
+        {
+          "text": "When you trust them completely with your most vulnerable truths",
+          "traits": {"emotional_security": 5, "unconditional_acceptance": 4, "loyalty_devotion": 3, "spiritual_connection": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "When loving them feels like participating in something sacred and eternal",
+          "traits": {"romantic_idealism": 5, "spiritual_connection": 4, "creative_expression": 3, "passionate_intensity": 2, "intellectual_compatibility": 1}
+        },
+        {
+          "text": "When you realize there are infinite layers to discover and you have forever to explore them",
+          "traits": {"mysterious_allure": 5, "intellectual_compatibility": 4, "emotional_complexity": 3, "spiritual_connection": 2, "creative_expression": 1}
+        }
+      ]
+    },
+    {
+      "question": "What do you believe is the true purpose of finding your soulmate?",
+      "answers": [
+        {
+          "text": "To have someone who will love and accept you exactly as you are forever",
+          "traits": {"unconditional_acceptance": 5, "emotional_security": 4, "loyalty_devotion": 3, "spiritual_connection": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "To experience love so intense it transforms you into your highest self",
+          "traits": {"passionate_intensity": 5, "spiritual_connection": 4, "romantic_idealism": 3, "emotional_complexity": 2, "creative_expression": 1}
+        },
+        {
+          "text": "To find someone whose mind challenges and expands your understanding of everything",
+          "traits": {"intellectual_compatibility": 5, "spiritual_connection": 4, "mysterious_allure": 3, "creative_expression": 2, "emotional_stability": 1}
+        },
+        {
+          "text": "To create a love story so beautiful it becomes a work of art",
+          "traits": {"romantic_idealism": 5, "creative_expression": 4, "spiritual_connection": 3, "passionate_intensity": 2, "intellectual_compatibility": 1}
+        },
+        {
+          "text": "To discover all the hidden depths of love and yourself through another person",
+          "traits": {"mysterious_allure": 5, "emotional_complexity": 4, "spiritual_connection": 3, "unconditional_acceptance": 2, "passionate_intensity": 1}
+        }
+      ]
+    }
+  ],
+  "results": {
+    "emotional_security": {
+      "title": "The Safe Harbor Soulmate",
+      "description": "You crave a love that feels like coming home. Your ideal soulmate creates unshakeable emotional safety where you can be completely vulnerable without fear.",
+      "extended": "Your deepest desire in love is to find someone who creates an emotional sanctuary where your soul can rest. You've likely experienced enough uncertainty in relationships to understand the profound value of feeling truly safe with another person. Your ideal soulmate doesn't just love your strengths; they embrace your vulnerabilities and see them as opportunities to love you more deeply.\n\nYou're drawn to partners who demonstrate consistency through actions, not just words. Your love language often involves quality time and acts of service - those small, daily choices that say 'I choose you' over and over again. You believe that real intimacy comes from accumulated trust built through countless moments where your partner proves their reliability.\n\nYour greatest relationship strength is your ability to create emotional safety for others, making you an incredibly nurturing and supportive partner. You help others feel secure enough to show their authentic selves. However, you may sometimes struggle with partners who need more excitement or unpredictability in their relationships.\n\nTo find your soulmate, look for someone whose actions consistently match their words, who communicates openly about their feelings, and who demonstrates reliability in both significant and small ways. Your perfect match will see your need for security not as neediness, but as your deep capacity for devoted, lasting love that grows stronger with time."
+    },
+    "passionate_intensity": {
+      "title": "The Wildfire Soulmate", 
+      "description": "You need a love that burns bright and consuming. Your soulmate must match your emotional intensity, creating a connection so powerful it feels almost dangerous.",
+      "extended": "Your soul craves the kind of love that poets write about and that changes you at a cellular level. You're not interested in lukewarm affection or safe relationships; you want someone who will dive into the depths of emotion with you, exploring every high and low with fearless intensity. Your ideal relationship feels more like a spiritual awakening than a simple partnership.\n\nYou're drawn to partners who aren't intimidated by your emotional complexity and who can match your capacity for both ecstasy and depth. You believe that real love should transform you, challenge you, and sometimes even rebuild you from the ground up. Your relationships tend to be all-consuming, with an almost addictive quality that makes ordinary life pale in comparison.\n\nYour greatest gift in love is your ability to love with your entire being, holding nothing back. You inspire partners to access depths of feeling they didn't know they possessed. You create relationships where both people feel truly alive and awakened. However, you may sometimes struggle with the practical aspects of daily life or with partners who prefer more emotional equilibrium.\n\nTo find your soulmate, seek someone who isn't frightened by your emotional fire and who has their own inner flame that burns just as brightly. Look for someone who understands that great love requires great courage and who is willing to risk everything for the chance at a once-in-a-lifetime connection that transforms both of your lives forever."
+    },
+    "intellectual_compatibility": {
+      "title": "The Mind-Meld Soulmate",
+      "description": "You seek a soulmate whose mind harmonizes perfectly with yours, creating intellectual intimacy that transcends ordinary connection through endless fascinating conversations.",
+      "extended": "Your ideal soulmate relationship is characterized by conversations that flow effortlessly from profound philosophical discussions to silly inside jokes that only you two understand. You're attracted to intelligence not just as an intellectual exercise, but as a form of intimacy - sharing thoughts and ideas feels as vulnerable and connecting as physical touch.\n\nYou believe that true compatibility comes from alignment of values, perspectives, and the way you both process the world around you. Your ideal relationship involves growing together intellectually, challenging each other's assumptions, and building a shared understanding that becomes richer and more nuanced over time. You're drawn to partners who are lifelong learners and who see every experience as an opportunity for growth.\n\nYour strength in relationships is your ability to truly see and understand your partner's inner world, offering insights that help them understand themselves better. You create emotional intimacy through mental connection, and your partners often feel that you know them better than they know themselves. However, you may sometimes struggle with partners who prefer emotional expression over analytical discussion.\n\nTo find your soulmate, look for someone who lights up when discussing ideas, who asks thoughtful questions about your perspectives, and who shares your curiosity about the world. Your perfect match will appreciate both your analytical mind and your emotional depth, seeing them as complementary rather than conflicting aspects of who you are."
+    },
+    "romantic_idealism": {
+      "title": "The Fairytale Soulmate",
+      "description": "You believe in magical, transformative love. Your soulmate will share your vision of romance as something beautiful, meaningful, and worthy of the greatest love stories.",
+      "extended": "Your approach to love is deeply influenced by your belief that true love should be extraordinary, beautiful, and transformative. You're not content with ordinary relationships; you want a love that feels like art, that inspires creativity and brings beauty into everyday moments. Your ideal partner appreciates grand gestures as much as small romantic details.\n\nYou see love as something sacred and special, deserving of celebration, creativity, and constant nurturing. Your relationships often feel like collaborative art projects, where you and your partner create a shared world of special traditions and meaningful rituals. You're drawn to partners who appreciate the aesthetic aspects of love - who notice beautiful moments and understand that romance is a language unto itself.\n\nYour greatest gift in love is your ability to see and create beauty in your relationship, making your partner feel cherished in ways they've never experienced before. You bring magic to ordinary moments and help your loved ones see the world through rose-colored glasses. However, you may sometimes struggle when reality doesn't match your romantic ideals.\n\nTo find your soulmate, seek someone who shares your appreciation for beauty, who makes an effort to keep romance alive, and who understands that love is something to be celebrated and nurtured rather than taken for granted. Your perfect match will join you in creating a love story that feels worthy of being remembered forever."
+    },
+    "mysterious_allure": {
+      "title": "The Enigmatic Soulmate",
+      "description": "You crave a love with endless mystery and depth. Your soulmate will have hidden layers and complexity that keeps you constantly fascinated and intrigued.",
+      "extended": "Your soul is attracted to complexity, depth, and the delicious tension of ongoing discovery. You're fascinated by partners who have rich inner worlds, who reveal themselves slowly over time, and who maintain an air of mystery that keeps your interest perpetually piqued. You believe the best relationships are those where you're still learning new things about your partner years into the connection.\n\nYou're drawn to people who have lived interesting lives, who have layers of experience and emotion that create depth and complexity. Your ideal relationship feels like an ongoing exploration, where you're both archaeologists of each other's souls, carefully uncovering treasures that have been buried beneath the surface. You appreciate partners who understand the erotic power of emotional and intellectual mystery.\n\nYour strength in relationships is your ability to remain intrigued and interesting over time, bringing depth and complexity that prevents your partnerships from becoming boring or stagnant. You inspire your partners to explore their own mysterious aspects and to embrace the parts of themselves that others might find complicated. However, you may sometimes struggle with partners who prefer complete transparency.\n\nTo find your soulmate, look for someone who has depth beneath their surface, who seems to carry secrets and stories that would take a lifetime to fully understand. Your perfect match will appreciate your own complexity and will enjoy the ongoing dance of revelation and discovery that characterizes your ideal relationship."
+    },
+    "spiritual_connection": {
+      "title": "The Soul Recognition Soulmate",
+      "description": "You seek love that transcends the physical realm. Your soulmate will feel like recognition rather than discovery - a destined connection that feels sacred.",
+      "extended": "Your understanding of soulmate love goes beyond personality compatibility or shared interests - you're looking for someone whose soul resonates with yours at a frequency that feels almost supernatural. You believe in the possibility of predestined love, of souls that have agreed to find each other in this lifetime to learn, grow, and evolve together.\n\nYou're attracted to partners who share your sense that love can be a spiritual practice, a way of connecting not just with each other but with something greater than yourselves. Your relationships often involve deep discussions about meaning, purpose, and the nature of existence. You believe that true soulmates help each other become the highest versions of themselves.\n\nYour gift in relationships is your ability to see and connect with the essential essence of your partner, loving them not just for who they are but for who they're becoming. You create sacred space in your relationships where both souls can explore their deepest truths and highest potentials. However, you may sometimes struggle with partners who are more focused on practical matters.\n\nTo find your soulmate, trust your intuition and look for someone whose presence feels both familiar and transformative. Your perfect match will share your belief that love is a sacred opportunity for mutual evolution and will join you in creating a relationship that serves both your individual and collective spiritual growth."
+    },
+    "creative_expression": {
+      "title": "The Artistic Soulmate",
+      "description": "You need a partner who appreciates and inspires your creative spirit. Together, you want to create a relationship that is itself a beautiful work of art.",
+      "extended": "Your approach to love is inherently creative - you see relationships as collaborative masterpieces where both partners contribute their unique talents and perspectives to create something beautiful together. You're drawn to partners who appreciate aesthetics, who notice beauty in unexpected places, and who understand that creativity isn't just a hobby but a way of being in the world.\n\nYou express love through creative means - perhaps through music, writing, visual arts, or simply through the creative way you approach everyday moments. Your partnerships often involve shared creative projects, appreciation for beauty, and a mutual understanding that art and love are intimately connected. You need a partner who either participates in or deeply supports your creative expression.\n\nYour strength in relationships is your ability to bring beauty, creativity, and artistic perspective to your partnership, helping your loved one see the world through more colorful and imaginative eyes. You inspire others to tap into their own creative potential and to approach life with more wonder and aesthetic appreciation. However, you may sometimes struggle with very practical partners.\n\nTo find your soulmate, seek someone who is either creatively inclined themselves or who shows genuine appreciation for artistic expression. Look for partners who notice beauty, who support your creative endeavors, and who understand that your artistic nature is an essential part of what makes you who you are."
+    },
+    "loyalty_devotion": {
+      "title": "The Steadfast Soulmate",
+      "description": "You're destined for unwavering commitment. Your soulmate chooses you every day, creating a bond that grows stronger through every challenge and triumph.",
+      "extended": "Your vision of soulmate love centers around the beautiful certainty of mutual commitment and the peace that comes from knowing your partner is completely devoted to your relationship. You understand that true love isn't just a feeling but a daily choice to prioritize your partner and your shared life together.\n\nYou're attracted to partners who demonstrate loyalty through actions, not just words - people who show up when they say they will, who remember what's important to you, and who make your relationship a priority in their life. You believe that the most romantic thing someone can do is choose you again and again, especially when it's difficult. Your love grows deeper through shared experiences and weathered challenges.\n\nYour greatest strength in relationships is your ability to create a sense of permanence and security that allows both you and your partner to flourish. You're the type of partner people can count on, and you inspire reciprocal loyalty through your own consistent devotion. However, you may sometimes struggle with partners who need more independence.\n\nTo find your soulmate, look for someone whose actions consistently align with their words, who demonstrates reliability in small daily choices, and who shares your vision of love as a committed partnership rather than just a passionate romance. Your perfect match will appreciate your steadfast nature and will reciprocate with their own unwavering devotion."
+    },
+    "physical_chemistry": {
+      "title": "The Electric Soulmate",
+      "description": "Physical chemistry is your gateway to deeper connection. You need magnetic attraction that enhances and amplifies every other aspect of your relationship.",
+      "extended": "For you, physical chemistry isn't separate from emotional connection - it's the foundation upon which deeper intimacy is built. You believe that true soulmates share a physical compatibility that enhances and amplifies every other aspect of their relationship. Your ideal partner is someone whose touch feels electric, whose presence makes you aware of your own body in new ways.\n\nYou're drawn to partners who appreciate the importance of physical connection and who understand that maintaining physical chemistry requires ongoing attention and effort. Your relationships are characterized by frequent touch, physical affection, and an appreciation for the ways that bodies can express what words cannot. You need a partner who sees physical intimacy as an ongoing conversation.\n\nYour strength in relationships is your ability to create and maintain physical intimacy that deepens over time rather than fading. You understand how to use touch, affection, and physical presence to communicate love, comfort, and desire. Your partners often feel more connected to their own bodies and sexuality because of your influence. However, you may struggle with partners who have different physical needs.\n\nTo find your soulmate, trust your body's response when you meet potential partners. Look for someone whose presence creates pleasant physical sensations, who enjoys physical affection, and who shares your belief that physical chemistry is an essential component of lasting love. Your perfect match will appreciate and reciprocate your physically expressive nature."
+    },
+    "emotional_complexity": {
+      "title": "The Layered Soulmate",
+      "description": "You need someone who appreciates emotional sophistication. Your soulmate sees your multifaceted nature as fascinating rather than difficult to understand.",
+      "extended": "Your emotional landscape is rich, complex, and beautifully nuanced, and you need a soulmate who not only appreciates this complexity but who possesses their own emotional sophistication. You're attracted to people who understand that human beings are wonderfully complicated, that emotions can be contradictory and multilayered.\n\nYou thrive with partners who don't try to simplify or fix your emotional nature but who instead find beauty in the intricacy of your feelings and responses. Your ideal relationship involves deep emotional exploration, where both partners feel free to express the full range of human emotion without judgment. You need someone who sees emotional intensity and complexity as gifts.\n\nYour strength in relationships is your ability to hold space for the full spectrum of human emotion, both in yourself and in your partner. You help your loved ones explore and understand their own emotional depths, and you create relationships where both people can be authentically complex. However, you may sometimes struggle with partners who prefer emotional simplicity.\n\nTo find your soulmate, seek someone who demonstrates emotional intelligence, who isn't afraid of difficult feelings, and who shows appreciation for psychological depth and complexity. Your perfect match will see your emotional sophistication as one of your most attractive qualities and will bring their own rich inner world to share with you."
+    },
+    "unconditional_acceptance": {
+      "title": "The True Acceptance Soulmate",
+      "description": "You crave being loved for exactly who you are. Your soulmate will embrace all your quirks, flaws, and authentic self without trying to change you.",
+      "extended": "Your deepest desire in love is to find someone who sees all of you - your strengths, weaknesses, quirks, and contradictions - and chooses to love every part. You've likely experienced relationships where you felt you had to hide or modify aspects of yourself to be acceptable, and now you crave the freedom of being completely authentic.\n\nYou're drawn to partners who demonstrate acceptance through their actions, who don't try to fix or improve you, and who actually seem to delight in the things that make you uniquely you. Your ideal relationship is one where you never have to wonder if you're too much or not enough - you just get to be yourself and be celebrated for it.\n\nYour strength in relationships is your ability to offer the same unconditional acceptance you seek, creating safe spaces where others can be authentically themselves. You have a gift for seeing the beauty in people's imperfections and helping them embrace their own uniqueness. However, you may sometimes struggle with partners who are highly critical or who try to mold you.\n\nTo find your soulmate, look for someone who shows genuine appreciation for your quirks and differences, who doesn't try to change you, and who demonstrates consistent acceptance even when you're not at your best. Your perfect match will love you not despite your imperfections, but because of the complete, complex, beautiful human being you are."
+    },
+    "emotional_stability": {
+      "title": "The Balanced Harmony Soulmate",
+      "description": "You value emotional equilibrium and consistent connection. Your soulmate provides steady, reliable emotional presence while still maintaining depth and passion.",
+      "extended": "You seek a love that provides emotional consistency and balance, where both partners can depend on a stable foundation while still experiencing depth and growth. You appreciate partners who can manage their emotions maturely and who contribute to a sense of overall harmony in the relationship.\n\nYou're attracted to people who demonstrate emotional regulation, who can navigate conflicts calmly, and who provide a sense of stability that allows both of you to flourish. Your ideal relationship has a steady rhythm - passionate when appropriate, calm when needed, but always emotionally reliable and secure.\n\nYour strength in relationships is your ability to create and maintain emotional equilibrium, helping to stabilize the relationship during turbulent times while still allowing for authentic emotional expression. You're often the grounding force that helps both partners feel secure and balanced. However, you may sometimes struggle with partners who thrive on emotional drama.\n\nTo find your soulmate, look for someone who demonstrates emotional maturity, who can communicate about feelings without becoming overwhelmed, and who values harmony while still being willing to work through challenges. Your perfect match will appreciate your stabilizing presence and will contribute their own emotional reliability to create a beautifully balanced partnership."
+    }
+  }
+}

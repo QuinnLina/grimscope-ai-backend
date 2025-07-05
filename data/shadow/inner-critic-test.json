@@ -1,0 +1,708 @@
+{
+  "testId": "inner-critic",
+  "title": "Inner Critic Analysis",
+  "description": "How harsh is the voice inside your head really?",
+  "traits": {
+    "brutal_critic": "Uses the most vicious, cruel language imaginable to attack your every move",
+    "abusive_critic": "Has crossed into genuine psychological abuse and torment",
+    "perfectionist_critic": "Holds you to standards that no human being could ever possibly meet",
+    "comparison_critic": "Constantly measures you against others, and you always fall short",
+    "shame_based_critic": "Attacks your fundamental worth as a human being, not just your actions",
+    "self_saboteur": "Becomes loudest exactly when things start going well in your life",
+    "imposter_critic": "Convinced you're a fake and constantly fears exposure",
+    "parental_critic": "Sounds like a harsh parent or caregiver from your past",
+    "protective_critic": "Believes it's keeping you safe through cruelty and limitation",
+    "destructive_critic": "Seems intent on completely destroying your sense of self-worth",
+    "constructive": "Offers constructive feedback without cruelty or destruction",
+    "balanced": "Maintains healthy perspective and proportionate responses"
+  },
+  "questions": [
+    {
+      "question": "When you make even a small mistake, the voice in your head immediately says:",
+      "answers": [
+        {
+          "text": "You're such an idiot, how could you be so pathetically stupid?",
+          "traits": {"brutal_critic": 5, "abusive_critic": 4, "destructive_critic": 3, "shame_based_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Of course you messed up, you always do - you never learn",
+          "traits": {"parental_critic": 4, "destructive_critic": 4, "comparison_critic": 3, "shame_based_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Everyone noticed and they're all silently judging you",
+          "traits": {"shame_based_critic": 5, "comparison_critic": 4, "protective_critic": 3, "imposter_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "This proves you're not as competent as you pretend to be",
+          "traits": {"imposter_critic": 5, "comparison_critic": 4, "shame_based_critic": 3, "self_saboteur": 2, "balanced": 0}
+        },
+        {
+          "text": "It's okay, everyone makes mistakes - this is how you learn",
+          "traits": {"constructive": 5, "balanced": 4, "protective_critic": 1, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "When you look in the mirror, your very first thought is usually:",
+      "answers": [
+        {
+          "text": "Immediately cataloging everything wrong with your appearance",
+          "traits": {"perfectionist_critic": 5, "comparison_critic": 4, "shame_based_critic": 3, "brutal_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Comparing yourself unfavorably to everyone more attractive",
+          "traits": {"comparison_critic": 5, "shame_based_critic": 4, "perfectionist_critic": 3, "protective_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "You're disgusting/ugly/gross and always will be",
+          "traits": {"abusive_critic": 5, "brutal_critic": 5, "destructive_critic": 4, "shame_based_critic": 3, "constructive": 0}
+        },
+        {
+          "text": "No one could ever genuinely find you attractive",
+          "traits": {"destructive_critic": 4, "shame_based_critic": 4, "comparison_critic": 3, "self_saboteur": 2, "balanced": 0}
+        },
+        {
+          "text": "You look fine today, maybe a little tired",
+          "traits": {"balanced": 5, "constructive": 4, "protective_critic": 1, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "When someone gives you a genuine compliment, your inner critic:",
+      "answers": [
+        {
+          "text": "They're just being polite - they don't actually mean it",
+          "traits": {"protective_critic": 4, "imposter_critic": 4, "comparison_critic": 3, "self_saboteur": 2, "constructive": 0}
+        },
+        {
+          "text": "They obviously want something from you or they're manipulating",
+          "traits": {"protective_critic": 5, "parental_critic": 4, "imposter_critic": 3, "shame_based_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "If they really knew the real you, they'd never say that",
+          "traits": {"imposter_critic": 5, "shame_based_critic": 4, "self_saboteur": 3, "protective_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Immediately lists all the reasons why the compliment is wrong",
+          "traits": {"perfectionist_critic": 4, "comparison_critic": 4, "brutal_critic": 3, "protective_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Allows you to receive it gracefully and feel good",
+          "traits": {"constructive": 5, "balanced": 4, "protective_critic": 1, "shame_based_critic": 0, "brutal_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your inner critic becomes loudest and most vicious when you:",
+      "answers": [
+        {
+          "text": "Try something new or step outside your comfort zone",
+          "traits": {"protective_critic": 5, "self_saboteur": 4, "parental_critic": 3, "comparison_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Actually succeed at something important to you",
+          "traits": {"self_saboteur": 5, "destructive_critic": 4, "imposter_critic": 3, "protective_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Need to be emotionally vulnerable with someone",
+          "traits": {"protective_critic": 4, "shame_based_critic": 4, "imposter_critic": 3, "self_saboteur": 2, "constructive": 0}
+        },
+        {
+          "text": "Have to make any decision, big or small",
+          "traits": {"perfectionist_critic": 4, "protective_critic": 4, "parental_critic": 3, "comparison_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Actually fail or make a genuine mistake",
+          "traits": {"balanced": 4, "constructive": 3, "brutal_critic": 2, "parental_critic": 2, "protective_critic": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your internal dialogue about your intelligence typically sounds like:",
+      "answers": [
+        {
+          "text": "You're not smart enough for this - you're out of your league",
+          "traits": {"comparison_critic": 4, "protective_critic": 4, "imposter_critic": 3, "shame_based_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Everyone can see you're just faking intelligence",
+          "traits": {"imposter_critic": 5, "shame_based_critic": 4, "comparison_critic": 3, "self_saboteur": 2, "balanced": 0}
+        },
+        {
+          "text": "You're definitely the dumbest person in this room",
+          "traits": {"comparison_critic": 5, "shame_based_critic": 4, "brutal_critic": 3, "destructive_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Why even try? You'll just embarrass yourself spectacularly",
+          "traits": {"destructive_critic": 4, "self_saboteur": 4, "protective_critic": 3, "shame_based_critic": 3, "balanced": 0}
+        },
+        {
+          "text": "You have intellectual strengths and weaknesses like everyone",
+          "traits": {"balanced": 5, "constructive": 4, "comparison_critic": 1, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "When you're genuinely struggling with something difficult, your inner voice:",
+      "answers": [
+        {
+          "text": "Brutally berates you for being weak and pathetic",
+          "traits": {"brutal_critic": 5, "abusive_critic": 4, "destructive_critic": 4, "shame_based_critic": 3, "constructive": 0}
+        },
+        {
+          "text": "Compares you to others who have it worse and dismisses your pain",
+          "traits": {"comparison_critic": 4, "parental_critic": 4, "protective_critic": 3, "brutal_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Tells you that you deserve to suffer for your failures",
+          "traits": {"destructive_critic": 5, "abusive_critic": 4, "brutal_critic": 4, "shame_based_critic": 3, "constructive": 0}
+        },
+        {
+          "text": "Accuses you of being overly dramatic and attention-seeking",
+          "traits": {"parental_critic": 4, "shame_based_critic": 4, "comparison_critic": 3, "protective_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Offers gentle comfort and realistic encouragement",
+          "traits": {"constructive": 5, "balanced": 4, "protective_critic": 2, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your inner critic's favorite psychological weapon is:",
+      "answers": [
+        {
+          "text": "Bringing up every past failure in vivid, painful detail",
+          "traits": {"destructive_critic": 4, "brutal_critic": 4, "parental_critic": 3, "shame_based_critic": 3, "constructive": 0}
+        },
+        {
+          "text": "Predicting catastrophic future disasters and humiliations",
+          "traits": {"protective_critic": 4, "self_saboteur": 4, "destructive_critic": 3, "comparison_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Constantly comparing you to everyone who's doing better",
+          "traits": {"comparison_critic": 5, "perfectionist_critic": 4, "shame_based_critic": 3, "brutal_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Using the cruelest names and most vicious insults",
+          "traits": {"abusive_critic": 5, "brutal_critic": 5, "destructive_critic": 4, "shame_based_critic": 3, "balanced": 0}
+        },
+        {
+          "text": "Offering gentle reality checks when you actually need them",
+          "traits": {"constructive": 5, "balanced": 4, "protective_critic": 2, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "About your relationships and love life, your inner critic insists:",
+      "answers": [
+        {
+          "text": "They'll inevitably leave once they really know who you are",
+          "traits": {"shame_based_critic": 4, "protective_critic": 4, "imposter_critic": 3, "self_saboteur": 3, "constructive": 0}
+        },
+        {
+          "text": "You fundamentally don't deserve love or genuine care",
+          "traits": {"destructive_critic": 5, "shame_based_critic": 5, "abusive_critic": 4, "brutal_critic": 3, "balanced": 0}
+        },
+        {
+          "text": "You're simultaneously too much and not enough for anyone",
+          "traits": {"shame_based_critic": 4, "comparison_critic": 4, "perfectionist_critic": 3, "self_saboteur": 2, "constructive": 0}
+        },
+        {
+          "text": "You'll sabotage and ruin this like you always do",
+          "traits": {"self_saboteur": 5, "destructive_critic": 4, "parental_critic": 3, "protective_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Healthy relationships naturally have ups and downs",
+          "traits": {"balanced": 5, "constructive": 4, "protective_critic": 1, "shame_based_critic": 0, "brutal_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "When you try to rest, relax, or take a break, your inner critic:",
+      "answers": [
+        {
+          "text": "Viciously calls you lazy, worthless, and unproductive",
+          "traits": {"brutal_critic": 4, "abusive_critic": 4, "parental_critic": 3, "shame_based_critic": 3, "constructive": 0}
+        },
+        {
+          "text": "Immediately lists everything you should be doing instead",
+          "traits": {"perfectionist_critic": 4, "parental_critic": 4, "comparison_critic": 3, "protective_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Insists you haven't earned or don't deserve rest",
+          "traits": {"shame_based_critic": 4, "destructive_critic": 4, "perfectionist_critic": 3, "parental_critic": 3, "constructive": 0}
+        },
+        {
+          "text": "Points out how much more productive others are being",
+          "traits": {"comparison_critic": 5, "perfectionist_critic": 4, "parental_critic": 3, "shame_based_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Agrees that you need and deserve regular rest",
+          "traits": {"constructive": 5, "balanced": 4, "protective_critic": 2, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "The overall tone of your inner critic is most similar to:",
+      "answers": [
+        {
+          "text": "An abusive parent who never showed love or approval",
+          "traits": {"parental_critic": 5, "abusive_critic": 4, "destructive_critic": 4, "shame_based_critic": 3, "constructive": 0}
+        },
+        {
+          "text": "A relentless school bully who targeted your insecurities",
+          "traits": {"abusive_critic": 4, "brutal_critic": 4, "shame_based_critic": 4, "destructive_critic": 3, "balanced": 0}
+        },
+        {
+          "text": "A perpetually disappointed authority figure",
+          "traits": {"parental_critic": 4, "perfectionist_critic": 4, "shame_based_critic": 3, "comparison_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Your absolute worst enemy who knows all your weaknesses",
+          "traits": {"destructive_critic": 5, "abusive_critic": 4, "brutal_critic": 4, "shame_based_critic": 4, "balanced": 0}
+        },
+        {
+          "text": "A concerned friend who wants you to succeed",
+          "traits": {"constructive": 5, "balanced": 4, "protective_critic": 2, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "About your physical body and appearance, your inner critic:",
+      "answers": [
+        {
+          "text": "Obsessively points out every single flaw and imperfection",
+          "traits": {"perfectionist_critic": 5, "brutal_critic": 4, "comparison_critic": 3, "shame_based_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Compares you to impossible beauty standards constantly",
+          "traits": {"comparison_critic": 5, "perfectionist_critic": 4, "protective_critic": 3, "shame_based_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Uses the most cruel and hateful language about your body",
+          "traits": {"abusive_critic": 5, "brutal_critic": 5, "destructive_critic": 4, "shame_based_critic": 3, "constructive": 0}
+        },
+        {
+          "text": "Makes you feel genuinely disgusting and repulsive",
+          "traits": {"destructive_critic": 5, "abusive_critic": 4, "shame_based_critic": 4, "brutal_critic": 3, "balanced": 0}
+        },
+        {
+          "text": "Encourages health and self-care over physical perfection",
+          "traits": {"constructive": 5, "balanced": 4, "protective_critic": 2, "perfectionist_critic": 0, "brutal_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "When you actually succeed at something important, your inner critic:",
+      "answers": [
+        {
+          "text": "Immediately minimizes and dismisses the achievement",
+          "traits": {"self_saboteur": 5, "protective_critic": 4, "comparison_critic": 3, "perfectionist_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Insists it was purely luck and you don't deserve credit",
+          "traits": {"imposter_critic": 5, "self_saboteur": 4, "shame_based_critic": 3, "protective_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Immediately points out how others did much better",
+          "traits": {"comparison_critic": 5, "perfectionist_critic": 4, "self_saboteur": 3, "brutal_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Warns you that you'll definitely fail catastrophically next time",
+          "traits": {"protective_critic": 4, "self_saboteur": 4, "destructive_critic": 3, "parental_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Actually celebrates your hard work and achievement",
+          "traits": {"constructive": 5, "balanced": 4, "protective_critic": 1, "self_saboteur": 0, "brutal_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your inner critic's harsh voice originally learned its cruelty from:",
+      "answers": [
+        {
+          "text": "Hypercritical parents or caregivers who were never satisfied",
+          "traits": {"parental_critic": 5, "perfectionist_critic": 4, "shame_based_critic": 3, "comparison_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Bullies, abusers, or people who deliberately hurt you",
+          "traits": {"abusive_critic": 5, "brutal_critic": 4, "destructive_critic": 4, "shame_based_critic": 3, "balanced": 0}
+        },
+        {
+          "text": "Impossible perfectionist expectations from yourself or others",
+          "traits": {"perfectionist_critic": 5, "comparison_critic": 4, "parental_critic": 3, "protective_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Years and years of practiced self-hatred and self-attack",
+          "traits": {"destructive_critic": 5, "brutal_critic": 4, "abusive_critic": 4, "self_saboteur": 3, "balanced": 0}
+        },
+        {
+          "text": "Normal life experiences and reasonable feedback",
+          "traits": {"balanced": 5, "constructive": 4, "protective_critic": 1, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your inner critic's underlying goal and purpose seems to be:",
+      "answers": [
+        {
+          "text": "To systematically destroy your self-esteem and make you hate yourself",
+          "traits": {"destructive_critic": 5, "abusive_critic": 4, "brutal_critic": 4, "shame_based_critic": 3, "constructive": 0}
+        },
+        {
+          "text": "To keep you small, scared, and 'safe' from risk or growth",
+          "traits": {"protective_critic": 5, "self_saboteur": 4, "parental_critic": 3, "comparison_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "To punish you for existing and being human",
+          "traits": {"destructive_critic": 5, "abusive_critic": 5, "shame_based_critic": 4, "brutal_critic": 3, "constructive": 0}
+        },
+        {
+          "text": "To prevent you from ever experiencing genuine happiness",
+          "traits": {"destructive_critic": 4, "self_saboteur": 4, "abusive_critic": 3, "protective_critic": 3, "balanced": 0}
+        },
+        {
+          "text": "To help you grow and improve in reasonable, healthy ways",
+          "traits": {"constructive": 5, "balanced": 4, "protective_critic": 2, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "About your dreams, aspirations, and goals, your inner critic says:",
+      "answers": [
+        {
+          "text": "You're completely delusional for even dreaming of those things",
+          "traits": {"destructive_critic": 4, "brutal_critic": 4, "protective_critic": 3, "comparison_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "People like you from your background don't get those things",
+          "traits": {"shame_based_critic": 4, "parental_critic": 4, "comparison_critic": 3, "protective_critic": 3, "balanced": 0}
+        },
+        {
+          "text": "You'll just embarrass yourself publicly if you try",
+          "traits": {"protective_critic": 4, "shame_based_critic": 4, "self_saboteur": 3, "comparison_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Why even bother trying? You'll just fail miserably anyway",
+          "traits": {"destructive_critic": 4, "self_saboteur": 4, "protective_critic": 3, "parental_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Go for your dreams, but stay grounded and realistic",
+          "traits": {"balanced": 5, "constructive": 4, "protective_critic": 2, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your inner critic is most active and loudest during:",
+      "answers": [
+        {
+          "text": "Literally every single waking moment of every day",
+          "traits": {"abusive_critic": 4, "destructive_critic": 4, "brutal_critic": 4, "shame_based_critic": 3, "constructive": 0}
+        },
+        {
+          "text": "Whenever you start to feel good about yourself or life",
+          "traits": {"self_saboteur": 5, "destructive_critic": 4, "protective_critic": 3, "comparison_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "In social situations where you might be judged",
+          "traits": {"protective_critic": 4, "shame_based_critic": 4, "comparison_critic": 3, "imposter_critic": 3, "constructive": 0}
+        },
+        {
+          "text": "When you're already feeling down and vulnerable",
+          "traits": {"abusive_critic": 4, "brutal_critic": 4, "destructive_critic": 4, "shame_based_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Only during actual mistakes or when feedback is needed",
+          "traits": {"balanced": 5, "constructive": 4, "protective_critic": 2, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "The volume and intensity of your inner critic is:",
+      "answers": [
+        {
+          "text": "Screaming at maximum volume constantly, never stopping",
+          "traits": {"abusive_critic": 5, "brutal_critic": 4, "destructive_critic": 4, "shame_based_critic": 3, "constructive": 0}
+        },
+        {
+          "text": "A constant harsh whisper that never goes quiet",
+          "traits": {"destructive_critic": 4, "abusive_critic": 4, "protective_critic": 3, "parental_critic": 3, "balanced": 0}
+        },
+        {
+          "text": "Louder and more dominant than any other thought",
+          "traits": {"brutal_critic": 4, "destructive_critic": 4, "abusive_critic": 3, "self_saboteur": 3, "constructive": 0}
+        },
+        {
+          "text": "The only voice in your head - it's silenced all others",
+          "traits": {"destructive_critic": 5, "abusive_critic": 4, "brutal_critic": 3, "shame_based_critic": 3, "balanced": 0}
+        },
+        {
+          "text": "One balanced voice among many different internal perspectives",
+          "traits": {"balanced": 5, "constructive": 4, "protective_critic": 1, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "If your inner critic was actually a real person in your life, you would:",
+      "answers": [
+        {
+          "text": "Immediately get a restraining order for harassment and abuse",
+          "traits": {"abusive_critic": 5, "brutal_critic": 4, "destructive_critic": 4, "shame_based_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Cut off all contact and never speak to them again",
+          "traits": {"destructive_critic": 4, "abusive_critic": 4, "brutal_critic": 3, "protective_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Report them to authorities for psychological harassment",
+          "traits": {"abusive_critic": 4, "brutal_critic": 4, "destructive_critic": 3, "parental_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Need serious therapy to recover from their psychological damage",
+          "traits": {"destructive_critic": 4, "abusive_critic": 4, "shame_based_critic": 3, "brutal_critic": 3, "balanced": 0}
+        },
+        {
+          "text": "Have a normal, balanced relationship with them",
+          "traits": {"balanced": 5, "constructive": 4, "protective_critic": 1, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "Overall, your inner critic makes you feel:",
+      "answers": [
+        {
+          "text": "Completely worthless, hopeless, and fundamentally broken",
+          "traits": {"destructive_critic": 5, "abusive_critic": 4, "shame_based_critic": 4, "brutal_critic": 3, "constructive": 0}
+        },
+        {
+          "text": "Constantly anxious, inadequate, and never good enough",
+          "traits": {"perfectionist_critic": 4, "comparison_critic": 4, "shame_based_critic": 3, "protective_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Trapped, angry, and frustrated with no escape",
+          "traits": {"abusive_critic": 4, "destructive_critic": 4, "brutal_critic": 3, "self_saboteur": 2, "constructive": 0}
+        },
+        {
+          "text": "Exhausted, defeated, and completely drained of energy",
+          "traits": {"destructive_critic": 4, "abusive_critic": 3, "brutal_critic": 3, "shame_based_critic": 3, "balanced": 0}
+        },
+        {
+          "text": "Motivated to grow and improve in healthy ways",
+          "traits": {"constructive": 5, "balanced": 4, "protective_critic": 2, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "The deeper truth about your relationship with your inner critic is:",
+      "answers": [
+        {
+          "text": "It's actively trying to destroy me and enjoys my suffering",
+          "traits": {"destructive_critic": 5, "abusive_critic": 5, "brutal_critic": 4, "shame_based_critic": 3, "constructive": 0}
+        },
+        {
+          "text": "It's trying to protect me through cruelty, but it's deeply misguided",
+          "traits": {"protective_critic": 5, "parental_critic": 4, "self_saboteur": 3, "comparison_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "It has completely become my identity - I don't know who I am without it",
+          "traits": {"destructive_critic": 4, "abusive_critic": 4, "shame_based_critic": 4, "parental_critic": 3, "constructive": 0}
+        },
+        {
+          "text": "It's currently stronger and louder than my capacity for self-love",
+          "traits": {"brutal_critic": 4, "destructive_critic": 4, "self_saboteur": 3, "protective_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "It's just one part of my mind that I can learn to work with",
+          "traits": {"balanced": 5, "constructive": 4, "protective_critic": 2, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "When you try to be kind to yourself, your inner critic:",
+      "answers": [
+        {
+          "text": "Immediately attacks you for being weak and self-indulgent",
+          "traits": {"brutal_critic": 4, "abusive_critic": 4, "parental_critic": 3, "shame_based_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Tells you that you don't deserve kindness or care",
+          "traits": {"shame_based_critic": 5, "destructive_critic": 4, "abusive_critic": 3, "brutal_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Lists all the reasons why you should be harder on yourself",
+          "traits": {"perfectionist_critic": 4, "parental_critic": 4, "brutal_critic": 3, "comparison_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Becomes even more vicious to counteract any self-love",
+          "traits": {"destructive_critic": 4, "abusive_critic": 4, "self_saboteur": 3, "brutal_critic": 3, "balanced": 0}
+        },
+        {
+          "text": "Supports your efforts to treat yourself with compassion",
+          "traits": {"constructive": 5, "balanced": 4, "protective_critic": 2, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your inner critic's favorite time to attack is:",
+      "answers": [
+        {
+          "text": "Right before you fall asleep, reviewing all your failures",
+          "traits": {"destructive_critic": 4, "abusive_critic": 4, "brutal_critic": 3, "parental_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "The moment you wake up, setting a negative tone for the day",
+          "traits": {"destructive_critic": 4, "self_saboteur": 4, "abusive_critic": 3, "protective_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "During quiet moments when you might actually enjoy peace",
+          "traits": {"self_saboteur": 4, "destructive_critic": 4, "abusive_critic": 3, "protective_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Right after something good happens to ruin the joy",
+          "traits": {"self_saboteur": 5, "destructive_critic": 4, "protective_critic": 3, "abusive_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Only when constructive feedback would actually be helpful",
+          "traits": {"constructive": 5, "balanced": 4, "protective_critic": 2, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "When others criticize you, your inner critic:",
+      "answers": [
+        {
+          "text": "Joins in enthusiastically, adding its own harsh commentary",
+          "traits": {"abusive_critic": 4, "brutal_critic": 4, "destructive_critic": 3, "shame_based_critic": 3, "constructive": 0}
+        },
+        {
+          "text": "Uses their criticism as ammunition for future attacks",
+          "traits": {"destructive_critic": 4, "brutal_critic": 4, "parental_critic": 3, "protective_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Says 'See? I told you that you were terrible'",
+          "traits": {"parental_critic": 4, "shame_based_critic": 4, "comparison_critic": 3, "self_saboteur": 2, "constructive": 0}
+        },
+        {
+          "text": "Magnifies their criticism into something catastrophic",
+          "traits": {"perfectionist_critic": 4, "protective_critic": 4, "comparison_critic": 3, "brutal_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Helps you evaluate whether the criticism is fair and useful",
+          "traits": {"constructive": 5, "balanced": 4, "protective_critic": 2, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "If your inner critic could be silenced for just one day, you imagine you would feel:",
+      "answers": [
+        {
+          "text": "Completely lost and confused about who you are without it",
+          "traits": {"destructive_critic": 4, "abusive_critic": 4, "parental_critic": 3, "shame_based_critic": 3, "constructive": 0}
+        },
+        {
+          "text": "Terrified that you'd become lazy and accomplish nothing",
+          "traits": {"perfectionist_critic": 4, "parental_critic": 4, "protective_critic": 3, "comparison_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Worried that you'd make terrible decisions without its 'guidance'",
+          "traits": {"protective_critic": 5, "parental_critic": 4, "imposter_critic": 3, "comparison_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "Anxious that you'd become too confident and make mistakes",
+          "traits": {"self_saboteur": 4, "protective_critic": 4, "perfectionist_critic": 3, "imposter_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "Incredibly peaceful, free, and genuinely happy",
+          "traits": {"balanced": 5, "constructive": 4, "protective_critic": 1, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    },
+    {
+      "question": "The most accurate description of your inner critic is:",
+      "answers": [
+        {
+          "text": "A vicious dictator that has taken over my mind completely",
+          "traits": {"destructive_critic": 5, "abusive_critic": 4, "brutal_critic": 4, "shame_based_critic": 2, "constructive": 0}
+        },
+        {
+          "text": "A wounded child lashing out from its own pain and fear",
+          "traits": {"protective_critic": 4, "parental_critic": 4, "shame_based_critic": 3, "self_saboteur": 2, "balanced": 0}
+        },
+        {
+          "text": "An internalized abuser that continues the cycle of harm",
+          "traits": {"abusive_critic": 5, "destructive_critic": 4, "parental_critic": 3, "brutal_critic": 3, "constructive": 0}
+        },
+        {
+          "text": "A malfunctioning security system that sees danger everywhere",
+          "traits": {"protective_critic": 5, "perfectionist_critic": 3, "comparison_critic": 3, "imposter_critic": 2, "balanced": 0}
+        },
+        {
+          "text": "A balanced advisor that offers constructive feedback when needed",
+          "traits": {"constructive": 5, "balanced": 5, "protective_critic": 2, "brutal_critic": 0, "abusive_critic": 0}
+        }
+      ]
+    }
+  ],
+  "results": {
+    "brutal_critic": {
+      "title": "The Brutal Destroyer",
+      "description": "Your inner critic isn't just harsh - it's absolutely brutal. The voice in your head speaks to you with a cruelty you wouldn't tolerate from your worst enemy. It uses the most vicious language, attacks your deepest insecurities, and seems intent on breaking you down completely.",
+      "extended": "Your inner critic operates with a level of brutality that would be considered psychological abuse if it came from another person. This voice doesn't offer constructive feedback or gentle course corrections - it launches vicious attacks designed to devastate your self-esteem and crush your spirit. Every mistake becomes evidence of your fundamental worthlessness, every flaw becomes proof that you're disgusting and unlovable. The language it uses is so cruel that you would be horrified if someone spoke to a child this way, yet you allow it to torture you daily.\n\nThis brutal internal voice likely learned its cruelty from severe criticism, abuse, or trauma in your past. Perhaps you had caregivers who used similarly harsh language, or you experienced bullying, neglect, or other forms of psychological violence. Your mind internalized these attacks and now continues the abuse long after the original perpetrators are gone. What started as external cruelty has become a self-perpetuating cycle of internal violence that may be even worse than what you originally endured.\n\nThe impact of living with such a brutal inner critic is devastating. You may experience chronic anxiety, depression, and feelings of worthlessness that seem to come from nowhere. Your relationships suffer because you can't believe anyone could truly love someone so 'flawed.' Your potential remains unrealized because why would you risk trying anything when your internal voice promises catastrophic failure and humiliation? You're essentially living with an abuser in your head who never gives you a moment's peace.\n\nHealing from this level of internal brutality requires recognizing that this voice is not you, and it's certainly not the truth about you. Your brutal critic is a wounded part that learned to attack as a misguided form of protection. Working with a trauma-informed therapist can help you develop the tools to challenge and eventually transform this voice. You deserve to live without constant internal abuse. The first step is recognizing that no one - including you - deserves to be spoken to with such cruelty."
+    },
+    "abusive_critic": {
+      "title": "The Internal Abuser",
+      "description": "Your inner critic has crossed the line from critical to abusive. It treats you the way an abuser would - with contempt, cruelty, and constant degradation. This voice doesn't want you to improve; it wants you to suffer. You've internalized abusive treatment so deeply that you now abuse yourself worse than anyone else ever could.",
+      "extended": "You carry an abuser inside your own mind - a voice that uses all the classic tactics of psychological abuse to control and hurt you. This internal abuser employs gaslighting (making you doubt your own perceptions), degradation (constantly calling you worthless), isolation (convincing you that you're unlovable), and threats (promising that terrible things will happen if you don't comply). The most insidious part is that this abuse comes from inside you, making it impossible to escape or get help in the traditional sense.\n\nThis internalized abuser likely developed as a survival mechanism in response to external abuse or severe criticism. Your psyche learned to anticipate and mirror the attacks you experienced, believing that if you could criticize yourself first and harshest, you might somehow prevent others from hurting you. What started as a protective strategy has become a prison where you're both the guard and the prisoner, trapped in an endless cycle of self-inflicted psychological violence.\n\nLiving with an internal abuser creates a constant state of psychological terror. You walk on eggshells around your own thoughts, never knowing what might trigger another vicious attack from within. Your self-esteem is systematically destroyed through daily bombardments of insults and threats. You may find yourself apologizing constantly, people-pleasing desperately, or isolating completely - all in response to the abusive voice that promises punishment for any sign of self-assertion or happiness.\n\nRecovery from internal abuse requires the same careful, gradual approach as healing from external abuse. You need to develop a support system (including potentially professional help) that can help you recognize the abuse patterns and develop strategies for protection. Learning to identify when your internal abuser is speaking versus when your authentic self is thinking is crucial. You deserve to live free from abuse - whether it comes from others or from the wounded parts of yourself that learned to perpetuate the cycle."
+    },
+    "perfectionist_critic": {
+      "title": "The Impossible Perfectionist",
+      "description": "Your inner critic holds you to impossible standards that no human could ever meet. Nothing is ever good enough - every achievement is minimized, every flaw is magnified, and the goalposts constantly move. This perfectionist critic ensures you always feel like a failure because perfection is inherently unattainable.",
+      "extended": "Your inner critic has appointed itself as the enforcer of impossible standards, creating a never-ending game where the rules constantly change and victory is permanently out of reach. No matter what you accomplish, this voice finds fault. A 95% becomes evidence that you're not good enough because it wasn't 100%. A compliment becomes suspect because surely if you were truly worthy, you'd receive more praise. Success is dismissed as luck, and failure is proof of your fundamental inadequacy. You're trapped on a hamster wheel of trying to achieve an ever-moving target of perfection.\n\nThis perfectionist critic often develops in environments where love and approval were conditional on performance. Perhaps you learned that making mistakes meant disappointing important people, or that your worth was directly tied to your achievements. Your inner critic internalized these messages and now holds you to standards that are not just high, but literally impossible to maintain. It confuses excellence (which is achievable) with perfection (which is a fantasy that leads only to suffering).\n\nThe cost of living under a perfectionist dictator is enormous. You may experience chronic anxiety about making mistakes, paralysis when facing important decisions, and a persistent sense of failure even when others see you as successful. Your relationships suffer because you either expect others to meet your impossible standards or you're so focused on your own performance that you can't be present with people. Creativity dies under the weight of perfectionist criticism because anything that isn't immediately perfect feels too risky to attempt.\n\nHealing from perfectionist criticism requires learning to distinguish between healthy striving and impossible demands. Your worth is not determined by your performance, and your value doesn't fluctuate based on your achievements. Practice setting realistic standards and celebrating progress rather than demanding perfection. Remember that the goal of being human isn't to be perfect - it's to be authentic, to learn, to grow, and to connect with others. Your perfectionist critic is trying to protect you from the pain of criticism, but it's creating far more suffering than it prevents."
+    },
+    "comparison_critic": {
+      "title": "The Constant Comparer",
+      "description": "Your inner critic's favorite weapon is comparison, and you always come up short. It constantly measures you against others - their successes, their appearances, their lives - and finds you lacking. This comparison critic ensures you never feel good enough because there's always someone doing better.",
+      "extended": "Your mind has become a relentless comparison machine, constantly measuring your worth against everyone around you and somehow always finding you deficient. This critic scans every room for people who are smarter, more attractive, more successful, or more talented, then uses these observations as evidence of your inadequacy. It turns every social interaction into a competition you didn't know you were entering, and it rigs the game so you always lose. Your achievements are minimized because someone else did better, and your struggles are invalidated because someone else has it worse.\n\nThis comparison-obsessed critic often develops from early experiences of being compared to others - siblings who were held up as the 'good' example, classmates who seemed to excel effortlessly, or family dynamics where love felt competitive. You learned to evaluate your worth not by internal measures of growth and satisfaction, but by external rankings that positioned you in relationship to others. Your critic now carries this torch, ensuring that your self-esteem remains dependent on winning a game that has no finish line.\n\nLiving under the tyranny of constant comparison creates a life of perpetual dissatisfaction and anxiety. You can't enjoy your own successes because you're immediately focused on who's doing better. You can't rest in your own journey because you're constantly monitoring everyone else's progress. Social media becomes a torture device, relationships become competitive rather than connective, and your own unique path becomes invisible under the weight of trying to measure up to everyone else's highlight reel.\n\nFreedom from the comparison trap requires developing an internal compass for self-worth that doesn't depend on ranking yourself against others. Your value isn't relative - it's inherent. Your journey is yours alone, with its own timing, lessons, and destinations. Practice gratitude for your own progress, celebrate others' successes without making them about your inadequacy, and remember that the only comparison that matters is between who you are today and who you were yesterday. You are not in competition with anyone but your former self."
+    },
+    "shame_based_critic": {
+      "title": "The Shame Dealer",
+      "description": "Your inner critic doesn't just criticize what you do - it attacks who you are. Its primary weapon is shame, making you feel fundamentally flawed, unworthy, and unlovable. This shame-based critic convinces you that you're not just making mistakes; you ARE a mistake.",
+      "extended": "Your inner critic has weaponized shame, using it as a nuclear option that doesn't just criticize your behavior but attacks your fundamental right to exist. While guilt says 'I did something bad,' your shame-based critic says 'I AM something bad.' It convinces you that your flaws aren't temporary or changeable aspects of yourself, but permanent, core defects that make you unworthy of love, belonging, or happiness. This voice doesn't offer correction or guidance - it offers condemnation of your very essence.\n\nShame-based criticism typically develops from early experiences of conditional love, abuse, or neglect that taught you that your worth was questionable from the start. Perhaps you received messages that you were 'too much' or 'not enough,' or you experienced trauma that made you feel dirty, broken, or damaged. Your inner critic internalized these messages and now reinforces them constantly, ensuring that you never escape the prison of feeling fundamentally flawed.\n\nLiving with a shame-based critic creates a profound sense of isolation and unworthiness that colors every aspect of your life. You may struggle with intimate relationships because you can't believe anyone could love the 'real' you. You might overachieve desperately, trying to earn worth through performance, or you might underachieve, convinced that success isn't meant for someone like you. The shame becomes so familiar that it feels like identity - you may not even know who you are without it.\n\nHealing shame-based criticism requires distinguishing between your actions and your essence. You are not your mistakes, your struggles, or your imperfections. Your worth is inherent and unchangeable, not something that can be earned or lost through behavior. Working with shame often requires professional support because shame thrives in secrecy and isolation. The antidote to shame is not self-improvement or achievement - it's compassion, connection, and the radical acceptance that you are worthy of love exactly as you are, flaws and all."
+    },
+    "self_saboteur": {
+      "title": "The Success Saboteur",
+      "description": "Your inner critic becomes loudest just when things start going well. It sabotages your success, ruins your joy, and ensures you stay small. This critic is terrified of you succeeding because success means visibility, vulnerability, and the possibility of failing from a greater height.",
+      "extended": "Your inner critic has appointed itself as the guardian of your comfort zone, and it will do anything to keep you from growing, succeeding, or becoming visible. The moment you start to experience success, happiness, or forward momentum, this voice springs into action with renewed vigor. It whispers that you don't deserve good things, that success will make you arrogant, that people will expect too much from you, or that you'll inevitably fail from a greater height. It would rather keep you safely miserable than risk the vulnerability that comes with achievement and visibility.\n\nThis self-sabotaging critic often develops as a protection mechanism against the pain of disappointment, rejection, or failure. Perhaps you experienced early successes that were followed by criticism, punishment, or abandonment. Your psyche learned that success is dangerous - it makes you a target, raises expectations, or threatens important relationships. Your critic now works overtime to prevent you from reaching heights from which you might fall, not realizing that it's created a different kind of prison.\n\nLiving with a success saboteur means that every achievement comes with an internal backlash, every moment of joy is followed by criticism, and every opportunity for growth is met with resistance. You might find yourself procrastinating on important projects, downplaying your accomplishments, or creating drama just when things are going well. Your potential remains locked away because your critic has convinced you that staying small is staying safe.\n\nOvercoming self-sabotage requires recognizing that success and visibility, while sometimes challenging, are not inherently dangerous. Your critic is trying to protect you from pain that might not even occur. Start small - allow yourself to enjoy minor successes without immediately minimizing them. Practice tolerating the discomfort that comes with growth and achievement. Your potential is not meant to be hidden to keep you safe; it's meant to be expressed to contribute to the world. You deserve success, and you deserve to enjoy it."
+    },
+    "imposter_critic": {
+      "title": "The Fraud Police",
+      "description": "Your inner critic is convinced you're a fraud and spends all its time gathering evidence. It dismisses your achievements as luck, your knowledge as insufficient, and your position as undeserved. This imposter critic keeps you in constant fear of being 'found out.'",
+      "extended": "Your inner critic operates like an internal fraud investigator, constantly collecting evidence that you don't belong where you are, don't deserve what you have, and are somehow fooling everyone around you. Every achievement becomes 'luck,' every piece of knowledge becomes 'not enough,' and every position you hold becomes 'undeserved.' This voice keeps you in a constant state of anxiety about being discovered as the impostor it insists you are, despite external evidence of your competence and worthiness.\n\nImposter criticism often develops in environments where you felt different, out of place, or where you achieved success that felt unexpected or unearned. Perhaps you were the first in your family to pursue higher education, or you found yourself in spaces where you felt culturally or socially different. Your critic learned to question your right to be there and now extends that questioning to every area of your life, ensuring that you never feel truly qualified or deserving of your accomplishments.\n\nLiving with fraud police in your head creates exhausting cycles of overwork and self-doubt. You may work twice as hard as everyone else to prove you belong, constantly seek external validation to quiet the imposter voice, or avoid opportunities because you're convinced you're not qualified. The irony is that imposter syndrome often affects highly competent people - those who are least likely to actually be frauds are most likely to feel like them.\n\nHealing imposter syndrome requires recognizing that competence is not about knowing everything or being perfect - it's about being willing to learn, grow, and contribute. Your achievements are not accidents, and your presence in any space is not a mistake. Start documenting your actual accomplishments, skills, and positive feedback to counter the fraud narrative. Remember that everyone is learning as they go; the difference is that secure people don't assume this makes them frauds. You belong where you are, and you deserve the success you've worked for."
+    },
+    "parental_critic": {
+      "title": "The Internalized Parent",
+      "description": "Your inner critic sounds suspiciously like a critical parent or caregiver from your past. You've internalized their harsh words, impossible standards, and conditional love so completely that their voice has become your own. This parental critic continues the criticism long after the original source has stopped.",
+      "extended": "Inside your head lives the voice of a critical parent or caregiver who may have been impossible to please, harsh in their judgments, or conditional in their love. This internalized parent continues the work of criticism, setting impossible standards, using familiar phrases of disappointment, and maintaining the emotional atmosphere of your childhood. You may recognize specific words, tones, or criticisms that came directly from this person, now delivered by your own internal voice with all the power and authority of the original.\n\nChildren are natural mirrors who internalize the voices of their caregivers as a way of maintaining connection and surviving in their environment. If your parent was critical, perfectionist, or emotionally distant, you learned to anticipate their reactions and criticize yourself first as a form of protection. What once served as a survival mechanism - staying ahead of parental criticism - has now become a self-perpetuating cycle that continues long after you've left that environment.\n\nLiving with an internalized critical parent means you never truly leave childhood behind. You may find yourself trying to earn approval from a voice that will never be satisfied, feeling like a child even in adult situations, or recreating family dynamics in your current relationships. The tragedy is that you're still trying to please someone who may no longer even be in your life, or who may have changed but whose voice remains frozen in time within your psyche.\n\nHealing from an internalized parental critic requires distinguishing between the voice of your past and your authentic adult self. This internal parent is not actually your parent - it's your childhood interpretation of their voice, often exaggerated and distorted by a child's understanding. You can honor what this voice was trying to protect while developing a new, kinder internal parent that offers the support and encouragement you needed then and deserve now. You are no longer that child who needed to be perfect to be loved."
+    },
+    "protective_critic": {
+      "title": "The Misguided Protector",
+      "description": "Your inner critic believes it's protecting you through cruelty. By keeping you small, scared, and self-loathing, it thinks it's keeping you safe from rejection, failure, or pain. This protective critic would rather you hate yourself than risk others hating you.",
+      "extended": "Your inner critic operates from a deeply misguided belief that cruelty is protection, that keeping you small will keep you safe, and that if you hate yourself enough, others won't be able to hurt you. This voice genuinely believes it's doing you a favor by crushing your dreams, attacking your self-esteem, and preventing you from taking risks. It would rather you live in the guaranteed pain of self-hatred than face the possible pain of rejection, failure, or disappointment from others.\n\nThis protective but harmful critic usually develops in response to early experiences of rejection, criticism, or trauma that taught you that the world is dangerous and you need constant vigilance to survive. Your psyche learned that self-attack was preferable to external attack, that lowering expectations prevented disappointment, and that staying invisible prevented harm. What began as a reasonable response to an unsafe environment has become a prison that continues long after the danger has passed.\n\nThe tragedy of living with a misguided protector is that in trying to shield you from potential pain, it guarantees actual pain every day. By keeping you small to keep you safe, it prevents you from experiencing the joy, connection, and fulfillment that make life worth living. This critic has confused survival with living, safety with happiness, and protection with imprisonment. The very strategies it uses to protect you have become the source of your greatest suffering.\n\nHealing requires helping your protective critic understand that its methods are no longer necessary or helpful. You can appreciate that this voice was trying to keep you safe while also setting boundaries around its destructive methods. True protection doesn't require self-attack or limitation - it requires developing discernment, healthy boundaries, and the resilience to handle life's inevitable challenges. You can be safe and still be yourself, protected and still be visible, secure and still take reasonable risks."
+    },
+    "destructive_critic": {
+      "title": "The Soul Destroyer",
+      "description": "Your inner critic seems intent on completely destroying your sense of self-worth and humanity. This isn't protection or misguided help - this voice appears to genuinely want you to suffer and believes you deserve nothing but pain and misery.",
+      "extended": "Your inner critic has evolved beyond criticism into something that resembles pure destruction. This voice doesn't want you to improve, grow, or even survive - it wants you to suffer, and it appears to take satisfaction in your pain. Every moment of happiness is met with vicious attacks, every success is poisoned with cruel commentary, and every vulnerable moment is exploited for maximum damage. This critic has become a destroyer of joy, hope, and any sense that life is worth living.\n\nDestructive criticism at this level usually emerges from severe trauma, abuse, or neglect that was so overwhelming that parts of your psyche essentially turned against you as a way of making sense of unbearable pain. If the abuse was too great to blame on the perpetrators (perhaps because they were needed for survival), your mind may have decided that you must deserve such treatment. This critic now carries out the work of destruction that was originally done by others.\n\nLiving with a soul-destroying critic is like being trapped in an abusive relationship with yourself. Every day brings fresh attacks on your worth, your right to exist, and your capacity for happiness. You may experience suicidal thoughts, self-harm impulses, or a persistent wish to simply disappear. This level of internal destruction creates not just psychological suffering but often physical symptoms as your body responds to the constant state of internal war.\n\nHealing from destructive criticism often requires professional intervention because the level of internal violence is beyond what most people can address alone. This critic is not just misguided - it's dangerous, and it may need to be approached with the same seriousness as an external threat. Recovery involves recognizing that this voice does not represent truth or reality, developing safety strategies for managing its attacks, and gradually building a coalition of internal voices that can challenge its dominance. You deserve to live, you deserve peace, and you deserve freedom from this internal destroyer."
+    },
+    "constructive": {
+      "title": "The Balanced Voice",
+      "description": "Your inner voice is remarkably balanced and constructive. While you have critical thoughts like everyone, they're proportionate to situations and aimed at genuine growth rather than destruction. You've developed the rare ability to be honest with yourself without being cruel.",
+      "extended": "You possess something increasingly rare in our self-critical culture: a balanced, constructive internal voice that can offer feedback and guidance without cruelty or destruction. Your inner dialogue includes natural self-correction and honest self-assessment, but it's proportionate to actual situations rather than catastrophic or punitive. When you make mistakes, your internal voice helps you learn rather than attacking your character. When you succeed, it can celebrate without immediately minimizing your achievements.\n\nThis balanced inner voice likely developed through positive early relationships, effective therapy, or significant personal work that helped you distinguish between helpful feedback and harmful criticism. You've learned that true growth comes from compassion rather than cruelty, that motivation is more sustainable when it comes from love rather than fear, and that honest self-assessment doesn't require self-attack. You understand that being human means being imperfect, and imperfection doesn't equal worthlessness.\n\nYour constructive inner voice creates a foundation for genuine self-confidence, healthy relationships, and authentic growth. You can take feedback from others without being devastated because your internal voice already provides balanced perspective. You can take risks because your inner voice supports rather than sabotages your efforts. You can enjoy success because you're not constantly bracing for internal attack. This internal harmony allows you to be present in your life rather than constantly defending against your own thoughts.\n\nYour balanced inner voice is a gift not only to yourself but to others around you. You model what healthy self-talk looks like, and you can offer others the same kind of constructive feedback you give yourself. Continue to protect and nurture this internal harmony by setting boundaries with people who try to inject criticism or drama into your mental space. Your inner peace is precious and worth defending."
+    },
+    "balanced": {
+      "title": "The Wise Counselor",
+      "description": "You have achieved something remarkable - a truly balanced internal voice that serves as a wise counselor rather than a harsh critic. Your inner dialogue is compassionate yet honest, supportive yet realistic, encouraging growth without demanding perfection.",
+      "extended": "You have cultivated an inner voice that embodies true wisdom - one that can offer honest feedback and guidance while maintaining compassion and respect for your humanity. This balanced voice doesn't attack your character when you make mistakes; instead, it helps you understand what happened and how to grow from the experience. It doesn't minimize your successes out of false modesty, nor does it inflate them beyond reality. It simply witnesses your journey with the loving eyes of a wise friend who wants the best for you.\n\nThis level of internal balance typically comes from significant personal growth work, healthy relationships that modeled respectful communication, or a natural resilience that allowed you to develop self-compassion despite life's challenges. You've learned to distinguish between perfectionism and excellence, between self-improvement and self-attack, between healthy standards and impossible demands. Your inner voice has become an ally in your growth rather than an obstacle to your happiness.\n\nThe gift of a balanced inner voice extends far beyond your personal peace - it radiates outward into all your relationships and endeavors. You can receive criticism without being devastated, offer feedback without being cruel, and pursue goals without self-sabotage. Your inner stability allows you to be genuinely present with others, to take appropriate risks, and to maintain perspective during both successes and failures. You've created an internal environment where authentic growth can flourish.\n\nYour balanced inner voice is a precious resource that deserves protection and nurturing. Continue to be mindful of what influences you allow into your mental space, choosing relationships and environments that support rather than undermine your internal harmony. Your inner wisdom is not just a personal achievement - it's a gift to the world, modeling what's possible when we learn to speak to ourselves with the same kindness we would offer a beloved friend."
+    }
+  }
+}

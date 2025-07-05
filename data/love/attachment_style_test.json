@@ -1,0 +1,1528 @@
+{
+  "title": "Romantic Attachment Style Test",
+  "description": "Understand how you connect and bond in relationships through deep attachment analysis",
+  "questions": [
+    {
+      "question": "When you start falling for someone, what's your immediate internal reaction?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Panic about whether they feel the same way and need constant reassurance",
+          "weights": {
+            "anxious_attachment": 5,
+            "fear_of_abandonment": 4,
+            "emotional_regulation": 1,
+            "reassurance_seeking": 3,
+            "relationship_anxiety": 2
+          }
+        },
+        {
+          "id": "b",
+          "text": "Feel excited and curious to see where this connection leads naturally",
+          "weights": {
+            "secure_attachment": 5,
+            "emotional_regulation": 4,
+            "trust_capacity": 3,
+            "intimacy_comfort": 2,
+            "relationship_stability": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "Immediately start planning escape routes in case this goes badly",
+          "weights": {
+            "avoidant_attachment": 5,
+            "fear_of_vulnerability": 4,
+            "emotional_walls": 3,
+            "intimacy_fear": 2,
+            "self_protection": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "Feel intense attraction but also want to run away simultaneously",
+          "weights": {
+            "disorganized_attachment": 5,
+            "emotional_confusion": 4,
+            "approach_avoidance": 3,
+            "internal_conflict": 2,
+            "chaotic_patterns": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "Analyze whether they're worth the emotional investment before proceeding",
+          "weights": {
+            "avoidant_attachment": 3,
+            "emotional_calculation": 4,
+            "love_hesitation": 3,
+            "vulnerability_resistance": 2,
+            "analytical_protection": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "Your partner doesn't respond to your text for several hours. What's happening in your mind?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They're definitely losing interest or found someone better",
+          "weights": {
+            "anxious_attachment": 5,
+            "catastrophic_thinking": 4,
+            "abandonment_fears": 3,
+            "insecurity_spirals": 2,
+            "rejection_sensitivity": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "They're probably busy with work or life - I'll hear from them when they're free",
+          "weights": {
+            "secure_attachment": 5,
+            "trust_capacity": 4,
+            "emotional_regulation": 3,
+            "realistic_thinking": 2,
+            "patience_capacity": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "Perfect, I need space anyway and don't want to seem clingy",
+          "weights": {
+            "avoidant_attachment": 5,
+            "emotional_distance": 4,
+            "independence_preference": 3,
+            "intimacy_avoidance": 2,
+            "space_comfort": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "I alternate between panic and relief that they might be pulling away",
+          "weights": {
+            "disorganized_attachment": 5,
+            "emotional_contradiction": 4,
+            "conflicted_feelings": 3,
+            "chaos_comfort": 2,
+            "mixed_reactions": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "I create stories about what this means but try not to show I care",
+          "weights": {
+            "anxious_attachment": 3,
+            "overthinking_patterns": 4,
+            "emotional_hiding": 3,
+            "story_creation": 2,
+            "care_concealment": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "How do you honestly feel about your partner's past romantic relationships?",
+      "options": [
+        {
+          "id": "a",
+          "text": "I need to know everything - who they were, what happened, how I compare",
+          "weights": {
+            "anxious_attachment": 5,
+            "comparison_obsession": 4,
+            "insecurity_manifestation": 3,
+            "information_craving": 2,
+            "past_fixation": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "Their past shaped them into who they are now, and I'm grateful for their journey",
+          "weights": {
+            "secure_attachment": 5,
+            "acceptance_capacity": 4,
+            "mature_perspective": 3,
+            "gratitude_approach": 2,
+            "present_focus": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "I prefer not to know details - what's past is past and shouldn't affect us",
+          "weights": {
+            "avoidant_attachment": 5,
+            "compartmentalization": 4,
+            "emotional_detachment": 3,
+            "past_dismissal": 2,
+            "information_avoidance": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "I'm intensely curious but also wish they had no romantic history at all",
+          "weights": {
+            "disorganized_attachment": 5,
+            "conflicted_desires": 4,
+            "emotional_paradox": 3,
+            "possession_wishes": 2,
+            "contradictory_feelings": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "I use their past relationships as evidence for why ours might not work",
+          "weights": {
+            "relationship_pessimism": 5,
+            "failure_anticipation": 4,
+            "negative_projection": 3,
+            "self_sabotage": 2,
+            "doom_forecasting": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "When you and your partner have a disagreement, what's your typical response?",
+      "options": [
+        {
+          "id": "a",
+          "text": "I panic and do whatever it takes to fix things immediately",
+          "weights": {
+            "anxious_attachment": 5,
+            "conflict_panic": 4,
+            "abandonment_fear": 3,
+            "people_pleasing": 2,
+            "harmony_desperation": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "I listen to their perspective and work together to find a solution",
+          "weights": {
+            "secure_attachment": 5,
+            "conflict_resolution": 4,
+            "communication_skills": 3,
+            "collaboration_approach": 2,
+            "problem_solving": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "I emotionally withdraw and wait for them to drop the issue",
+          "weights": {
+            "avoidant_attachment": 5,
+            "emotional_shutdown": 4,
+            "conflict_avoidance": 3,
+            "withdrawal_patterns": 2,
+            "silence_strategy": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "I alternate between apologizing excessively and getting defensive",
+          "weights": {
+            "disorganized_attachment": 5,
+            "response_inconsistency": 4,
+            "emotional_chaos": 3,
+            "reactive_patterns": 2,
+            "unstable_reactions": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "I intellectualize the conflict to avoid dealing with the emotions",
+          "weights": {
+            "avoidant_attachment": 3,
+            "emotional_intellectualization": 4,
+            "feeling_avoidance": 3,
+            "analytical_defense": 2,
+            "emotional_bypassing": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "What's your honest relationship with being alone vs. being with your partner?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Being alone feels like abandonment - I need constant connection to feel okay",
+          "weights": {
+            "anxious_attachment": 5,
+            "solitude_fear": 4,
+            "abandonment_terror": 3,
+            "connection_dependency": 2,
+            "aloneness_intolerance": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "I enjoy both solitude and togetherness, and can be happy either way",
+          "weights": {
+            "secure_attachment": 5,
+            "independence_balance": 4,
+            "emotional_self_sufficiency": 3,
+            "togetherness_enjoyment": 2,
+            "balanced_needs": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "I actually prefer being alone - too much togetherness feels suffocating",
+          "weights": {
+            "avoidant_attachment": 5,
+            "solitude_preference": 4,
+            "intimacy_overwhelm": 3,
+            "space_craving": 2,
+            "closeness_discomfort": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "I desperately crave connection but also feel terrified by too much closeness",
+          "weights": {
+            "disorganized_attachment": 5,
+            "intimacy_paradox": 4,
+            "closeness_terror": 3,
+            "connection_craving": 2,
+            "approach_avoidance": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "I convince myself I prefer alone time but secretly fear they'll leave if I need space",
+          "weights": {
+            "anxious_attachment": 3,
+            "need_denial": 4,
+            "abandonment_anticipation": 3,
+            "self_deception": 2,
+            "fear_hiding": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "How do you naturally express love and affection to your romantic partner?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Through constant reassurance-seeking - asking if they still love me",
+          "weights": {
+            "anxious_attachment": 5,
+            "reassurance_addiction": 4,
+            "love_validation": 3,
+            "insecurity_expression": 2,
+            "constant_checking": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "Through consistent actions, words, and presence that show I care",
+          "weights": {
+            "secure_attachment": 5,
+            "stable_expression": 4,
+            "consistent_love": 3,
+            "reliable_affection": 2,
+            "steady_care": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "I struggle to express love openly - it feels too vulnerable",
+          "weights": {
+            "avoidant_attachment": 5,
+            "expression_difficulty": 4,
+            "vulnerability_resistance": 3,
+            "emotional_withholding": 2,
+            "love_concealment": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "Intensely passionate one day, completely distant the next",
+          "weights": {
+            "disorganized_attachment": 5,
+            "expression_chaos": 4,
+            "emotional_inconsistency": 3,
+            "love_volatility": 2,
+            "unpredictable_affection": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "Through grand gestures that prove my love but exhaust me emotionally",
+          "weights": {
+            "anxious_attachment": 3,
+            "love_proving": 4,
+            "grand_gestures": 3,
+            "emotional_exhaustion": 2,
+            "over_giving": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "What's your deepest, most honest fear about romantic relationships?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Being abandoned or rejected when they realize I'm not enough",
+          "weights": {
+            "anxious_attachment": 5,
+            "abandonment_terror": 4,
+            "inadequacy_fear": 3,
+            "rejection_anticipation": 2,
+            "not_enough_belief": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "Losing myself or my hard-won independence in the relationship",
+          "weights": {
+            "avoidant_attachment": 4,
+            "identity_loss_fear": 5,
+            "independence_protection": 3,
+            "self_preservation": 2,
+            "autonomy_anxiety": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "Being trapped, suffocated, or controlled by someone else's needs",
+          "weights": {
+            "avoidant_attachment": 5,
+            "entrapment_fear": 4,
+            "suffocation_anxiety": 3,
+            "control_resistance": 2,
+            "freedom_obsession": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "Not knowing what I actually want or need from love",
+          "weights": {
+            "disorganized_attachment": 5,
+            "self_confusion": 4,
+            "desire_uncertainty": 3,
+            "internal_chaos": 2,
+            "need_ambiguity": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "That I'm fundamentally unlovable and they'll discover this truth",
+          "weights": {
+            "core_unworthiness": 5,
+            "self_worth_deficit": 4,
+            "lovability_doubt": 3,
+            "discovery_fear": 2,
+            "shame_core": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "When your partner is going through a difficult time, how do you respond?",
+      "options": [
+        {
+          "id": "a",
+          "text": "I assume it's somehow my fault and panic about them leaving",
+          "weights": {
+            "anxious_attachment": 5,
+            "self_blame_tendency": 4,
+            "responsibility_assumption": 3,
+            "abandonment_panic": 2,
+            "fault_finding": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "I ask how I can support them and respect their process",
+          "weights": {
+            "secure_attachment": 5,
+            "supportive_response": 4,
+            "respect_demonstration": 3,
+            "healthy_support": 2,
+            "empathetic_care": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "I feel overwhelmed by their emotions and need to create distance",
+          "weights": {
+            "avoidant_attachment": 5,
+            "emotional_overwhelm": 4,
+            "distancing_response": 3,
+            "emotion_intolerance": 2,
+            "withdrawal_instinct": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "I feel both responsible for fixing it and resentful of their neediness",
+          "weights": {
+            "disorganized_attachment": 5,
+            "caretaker_resentment": 4,
+            "conflicted_helping": 3,
+            "emotional_contradiction": 2,
+            "fix_responsibility": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "I try to solve their problems to prove my value in the relationship",
+          "weights": {
+            "anxious_attachment": 3,
+            "value_proving": 4,
+            "problem_solving_compulsion": 3,
+            "worth_demonstration": 2,
+            "useful_necessity": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "How do you handle your partner's need for independence and personal space?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It triggers all my abandonment fears and I can't stop thinking about it",
+          "weights": {
+            "anxious_attachment": 5,
+            "space_anxiety": 4,
+            "abandonment_triggers": 3,
+            "independence_threat": 2,
+            "obsessive_worry": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "I respect their needs while maintaining my own sense of self",
+          "weights": {
+            "secure_attachment": 5,
+            "mutual_respect": 4,
+            "healthy_boundaries": 3,
+            "self_maintenance": 2,
+            "balanced_approach": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "I actually prefer it - it takes pressure off me to be emotionally available",
+          "weights": {
+            "avoidant_attachment": 5,
+            "pressure_relief": 4,
+            "emotional_distance_comfort": 3,
+            "availability_resistance": 2,
+            "space_preference": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "I intellectually support their independence but emotionally resent it",
+          "weights": {
+            "disorganized_attachment": 5,
+            "intellectual_emotional_split": 4,
+            "independence_resentment": 3,
+            "cognitive_dissonance": 2,
+            "conflicted_support": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "I give them space but constantly monitor for signs they're pulling away",
+          "weights": {
+            "anxious_attachment": 4,
+            "hypervigilance": 4,
+            "space_monitoring": 3,
+            "withdrawal_watching": 2,
+            "anxious_compliance": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "What did your early experiences teach you about love and relationships?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Love is conditional, unpredictable, and must be constantly earned",
+          "weights": {
+            "anxious_attachment": 5,
+            "conditional_love_belief": 4,
+            "earning_requirement": 3,
+            "unpredictability_expectation": 2,
+            "performance_love": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "Love is safe, consistent, and allows people to be their authentic selves",
+          "weights": {
+            "secure_attachment": 5,
+            "love_safety": 4,
+            "consistency_expectation": 3,
+            "authenticity_acceptance": 2,
+            "healthy_love_model": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "Love is dangerous, unpredictable, and better avoided for self-protection",
+          "weights": {
+            "avoidant_attachment": 5,
+            "love_danger": 4,
+            "protection_necessity": 3,
+            "avoidance_safety": 2,
+            "trust_impossibility": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "Love is confusing, contradictory, and I never know what to expect",
+          "weights": {
+            "disorganized_attachment": 5,
+            "love_confusion": 4,
+            "contradictory_messages": 3,
+            "expectation_chaos": 2,
+            "relationship_unpredictability": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "Love requires sacrificing yourself completely for the other person",
+          "weights": {
+            "self_sacrifice_belief": 5,
+            "codependent_modeling": 4,
+            "self_abandonment": 3,
+            "love_cost": 2,
+            "worth_through_giving": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "When you're genuinely happy in your relationship, what secretly worries you?",
+      "options": [
+        {
+          "id": "a",
+          "text": "It's too good to be true and will inevitably end in heartbreak",
+          "weights": {
+            "anxious_attachment": 5,
+            "happiness_distrust": 4,
+            "inevitable_loss": 3,
+            "good_fortune_suspicion": 2,
+            "joy_anxiety": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "Nothing - I can enjoy happiness without waiting for the other shoe to drop",
+          "weights": {
+            "secure_attachment": 5,
+            "happiness_comfort": 4,
+            "joy_acceptance": 3,
+            "present_moment": 2,
+            "contentment_capacity": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "I'm getting too attached and need to emotionally pull back",
+          "weights": {
+            "avoidant_attachment": 5,
+            "attachment_fear": 4,
+            "emotional_retreat": 3,
+            "closeness_anxiety": 2,
+            "connection_regulation": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "I don't deserve this happiness and somehow I'll sabotage it",
+          "weights": {
+            "disorganized_attachment": 5,
+            "unworthiness_belief": 4,
+            "sabotage_expectation": 3,
+            "happiness_undeserving": 2,
+            "self_destruction": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "They'll realize I'm not as wonderful as they think and leave",
+          "weights": {
+            "impostor_syndrome": 5,
+            "discovery_fear": 4,
+            "false_self_anxiety": 3,
+            "inadequacy_terror": 2,
+            "performance_exhaustion": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "How do you handle feelings of jealousy in your relationships?",
+      "options": [
+        {
+          "id": "a",
+          "text": "I become possessive and need constant reassurance about their loyalty",
+          "weights": {
+            "anxious_attachment": 5,
+            "possessive_response": 4,
+            "loyalty_anxiety": 3,
+            "jealousy_overwhelm": 2,
+            "reassurance_desperation": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "I communicate my concerns openly and work through them together",
+          "weights": {
+            "secure_attachment": 5,
+            "jealousy_communication": 4,
+            "collaborative_processing": 3,
+            "emotional_honesty": 2,
+            "healthy_jealousy": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "I pretend I don't care but internally detach and plan my exit",
+          "weights": {
+            "avoidant_attachment": 5,
+            "emotion_denial": 4,
+            "internal_withdrawal": 3,
+            "exit_planning": 2,
+            "care_pretense": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "I alternate between explosive jealousy and complete emotional numbness",
+          "weights": {
+            "disorganized_attachment": 5,
+            "jealousy_extremes": 4,
+            "emotional_volatility": 3,
+            "explosive_numbness": 2,
+            "reactive_chaos": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "I use jealousy as evidence that I care more than they do",
+          "weights": {
+            "jealousy_validation": 5,
+            "caring_competition": 4,
+            "love_measurement": 3,
+            "emotional_scorekeeping": 2,
+            "feeling_comparison": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "What's your typical pattern in romantic relationships over time?",
+      "options": [
+        {
+          "id": "a",
+          "text": "I love intensely but live in constant fear that it will end",
+          "weights": {
+            "anxious_attachment": 5,
+            "intense_fearful_love": 4,
+            "ending_preoccupation": 3,
+            "love_anxiety": 2,
+            "fear_based_attachment": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "Steady growth and deepening connection with manageable challenges",
+          "weights": {
+            "secure_attachment": 5,
+            "steady_growth": 4,
+            "sustainable_love": 3,
+            "manageable_conflict": 2,
+            "healthy_progression": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "I start enthusiastic but gradually become distant and withdrawn",
+          "weights": {
+            "avoidant_attachment": 5,
+            "withdrawal_pattern": 4,
+            "enthusiasm_fade": 3,
+            "emotional_retreat": 2,
+            "distance_creation": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "Chaotic cycles of extreme closeness followed by dramatic conflicts",
+          "weights": {
+            "disorganized_attachment": 5,
+            "chaotic_cycles": 4,
+            "extreme_patterns": 3,
+            "dramatic_swings": 2,
+            "instability_norm": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "I attract people who are unavailable, then fight to win their love",
+          "weights": {
+            "unavailable_attraction": 5,
+            "love_pursuit": 4,
+            "challenge_seeking": 3,
+            "winning_focus": 2,
+            "unavailability_magnetism": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "When someone shows genuine romantic interest in you, what's your first thought?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Finally! But what's wrong with them that they'd want me?",
+          "weights": {
+            "anxious_attachment": 5,
+            "self_worth_questioning": 4,
+            "validation_relief": 3,
+            "suspicion_response": 2,
+            "unworthiness_assumption": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "This is nice - let's see where this connection naturally leads",
+          "weights": {
+            "secure_attachment": 5,
+            "natural_progression": 4,
+            "open_curiosity": 3,
+            "healthy_interest": 2,
+            "organic_approach": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "What do they really want from me? This feels suspicious and dangerous",
+          "weights": {
+            "avoidant_attachment": 5,
+            "interest_suspicion": 4,
+            "danger_assumption": 3,
+            "motive_questioning": 2,
+            "trust_resistance": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "I feel excited and terrified, wanting to run toward and away from them",
+          "weights": {
+            "disorganized_attachment": 5,
+            "approach_avoidance_conflict": 4,
+            "simultaneous_contradictions": 3,
+            "terror_excitement": 2,
+            "conflicted_response": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "I immediately analyze whether they meet all my criteria for a perfect partner",
+          "weights": {
+            "analytical_assessment": 5,
+            "criteria_checking": 4,
+            "perfectionism_standards": 3,
+            "evaluation_mode": 2,
+            "critical_analysis": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "What's your most common relationship mistake or self-sabotage pattern?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Being too clingy, needy, and scaring people away with my intensity",
+          "weights": {
+            "anxious_attachment": 5,
+            "clinginess_pattern": 4,
+            "intensity_overwhelm": 3,
+            "neediness_expression": 2,
+            "partner_scaring": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "Sometimes not advocating for my needs strongly enough early on",
+          "weights": {
+            "secure_attachment": 5,
+            "gentle_self_reflection": 4,
+            "growth_oriented": 3,
+            "minor_adjustments": 2,
+            "healthy_self_awareness": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "Running away or withdrawing just when things start getting real",
+          "weights": {
+            "avoidant_attachment": 5,
+            "intimacy_sabotage": 4,
+            "withdrawal_timing": 3,
+            "closeness_fleeing": 2,
+            "reality_avoidance": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "Creating drama, chaos, or crises to feel more in control",
+          "weights": {
+            "disorganized_attachment": 5,
+            "drama_creation": 4,
+            "chaos_comfort": 3,
+            "control_through_crisis": 2,
+            "instability_generation": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "Choosing partners who are emotionally unavailable or problematic",
+          "weights": {
+            "poor_partner_selection": 5,
+            "unavailable_attraction": 4,
+            "problematic_choices": 3,
+            "familiar_dysfunction": 2,
+            "challenge_preference": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "How do you feel about the phrase 'I love you' in romantic relationships?",
+      "options": [
+        {
+          "id": "a",
+          "text": "I need to hear it constantly or I start panicking about their feelings",
+          "weights": {
+            "anxious_attachment": 5,
+            "constant_need": 4,
+            "love_validation": 3,
+            "panic_response": 2,
+            "frequency_requirement": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "It's beautiful and meaningful when it's genuine and mutual",
+          "weights": {
+            "secure_attachment": 5,
+            "love_appreciation": 4,
+            "genuine_requirement": 3,
+            "mutual_respect": 2,
+            "healthy_love": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "It makes me uncomfortable and feels like pressure or entrapment",
+          "weights": {
+            "avoidant_attachment": 5,
+            "love_discomfort": 4,
+            "pressure_feeling": 3,
+            "entrapment_fear": 2,
+            "commitment_anxiety": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "I desperately crave it but don't trust it when I hear it",
+          "weights": {
+            "disorganized_attachment": 5,
+            "love_contradiction": 4,
+            "craving_distrust": 3,
+            "conflicted_response": 2,
+            "trust_impossibility": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "I analyze the timing, context, and sincerity before responding",
+          "weights": {
+            "love_analysis": 5,
+            "response_calculation": 4,
+            "sincerity_evaluation": 3,
+            "timing_assessment": 2,
+            "analytical_protection": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "What would your ideal romantic relationship look like day-to-day?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Constant connection, shared activities, and never having to be apart",
+          "weights": {
+            "anxious_attachment": 5,
+            "constant_connection": 4,
+            "separation_anxiety": 3,
+            "togetherness_obsession": 2,
+            "fusion_desire": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "Two complete individuals choosing to build a meaningful life together",
+          "weights": {
+            "secure_attachment": 5,
+            "individual_completeness": 4,
+            "conscious_choice": 3,
+            "meaningful_building": 2,
+            "balanced_partnership": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "Companionship and support without overwhelming emotional intensity",
+          "weights": {
+            "avoidant_attachment": 5,
+            "low_intensity_preference": 4,
+            "emotional_moderation": 3,
+            "companionship_focus": 2,
+            "intensity_avoidance": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "Passionate highs and lows that prove our connection is real and alive",
+          "weights": {
+            "disorganized_attachment": 5,
+            "intensity_validation": 4,
+            "emotional_extremes": 3,
+            "passion_proof": 2,
+            "chaos_comfort": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "Peaceful coexistence where we support each other's individual goals",
+          "weights": {
+            "independence_focus": 5,
+            "individual_support": 4,
+            "peaceful_coexistence": 3,
+            "goal_orientation": 2,
+            "minimal_conflict": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "When romantic relationships end, what's your typical response pattern?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Complete devastation, begging them to stay, and inability to function",
+          "weights": {
+            "anxious_attachment": 5,
+            "devastation_response": 4,
+            "begging_behavior": 3,
+            "functional_impairment": 2,
+            "abandonment_crisis": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "Sadness and grief, but eventually acceptance and healthy moving forward",
+          "weights": {
+            "secure_attachment": 5,
+            "healthy_grief": 4,
+            "acceptance_capacity": 3,
+            "forward_movement": 2,
+            "processing_ability": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "Relief and immediate emotional detachment, like flipping a switch",
+          "weights": {
+            "avoidant_attachment": 5,
+            "relief_response": 4,
+            "immediate_detachment": 3,
+            "emotional_shutdown": 2,
+            "switch_flipping": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "Chaotic swings between devastation, relief, anger, and numbness",
+          "weights": {
+            "disorganized_attachment": 5,
+            "chaotic_responses": 4,
+            "emotional_swings": 3,
+            "response_unpredictability": 2,
+            "feeling_chaos": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "Immediate focus on analyzing what went wrong and how to do better next time",
+          "weights": {
+            "analytical_processing": 5,
+            "learning_focus": 4,
+            "improvement_orientation": 3,
+            "intellectual_coping": 2,
+            "emotional_bypassing": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "What's your relationship with physical intimacy and sexual connection?",
+      "options": [
+        {
+          "id": "a",
+          "text": "I use it primarily to seek reassurance and emotional connection",
+          "weights": {
+            "anxious_attachment": 5,
+            "intimacy_reassurance": 4,
+            "connection_seeking": 3,
+            "validation_through_sex": 2,
+            "emotional_confirmation": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "It's a natural, joyful expression of love and mutual attraction",
+          "weights": {
+            "secure_attachment": 5,
+            "natural_expression": 4,
+            "mutual_enjoyment": 3,
+            "healthy_sexuality": 2,
+            "love_expression": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "I enjoy the physical aspect but struggle with emotional vulnerability",
+          "weights": {
+            "avoidant_attachment": 5,
+            "physical_enjoyment": 4,
+            "emotional_struggle": 3,
+            "vulnerability_resistance": 2,
+            "intimacy_compartmentalization": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "It's complicated - I crave intimacy but it also terrifies me",
+          "weights": {
+            "disorganized_attachment": 5,
+            "intimacy_contradiction": 4,
+            "craving_terror": 3,
+            "sexual_complexity": 2,
+            "approach_avoidance_sex": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "I perform rather than truly connect, focusing on their pleasure over mine",
+          "weights": {
+            "performance_sexuality": 5,
+            "connection_avoidance": 4,
+            "other_focus": 3,
+            "self_neglect": 2,
+            "pleasing_priority": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "If your partner said they needed a temporary break to think things through, you would:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Panic completely and do everything possible to change their mind",
+          "weights": {
+            "anxious_attachment": 5,
+            "break_panic": 4,
+            "mind_changing_attempts": 3,
+            "abandonment_terror": 2,
+            "desperate_measures": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "Feel sad but respect their need while taking care of my own wellbeing",
+          "weights": {
+            "secure_attachment": 5,
+            "respectful_response": 4,
+            "self_care_maintenance": 3,
+            "boundary_respect": 2,
+            "emotional_regulation": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "Feel secretly relieved and use it as an opportunity to emotionally detach",
+          "weights": {
+            "avoidant_attachment": 5,
+            "break_relief": 4,
+            "detachment_opportunity": 3,
+            "emotional_withdrawal": 2,
+            "distance_embrace": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "Agree outwardly but internally completely fall apart and obsess",
+          "weights": {
+            "disorganized_attachment": 5,
+            "external_internal_split": 4,
+            "hidden_breakdown": 3,
+            "obsessive_thinking": 2,
+            "masked_devastation": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "Immediately assume it's permanent and start planning for the worst",
+          "weights": {
+            "catastrophic_thinking": 5,
+            "permanence_assumption": 4,
+            "worst_case_planning": 3,
+            "negative_projection": 2,
+            "disaster_preparation": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "What's your ultimate goal or hope for romantic love in your life?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To find someone who will never leave me and always make me feel secure",
+          "weights": {
+            "anxious_attachment": 5,
+            "permanence_seeking": 4,
+            "security_dependence": 3,
+            "abandonment_prevention": 2,
+            "external_validation": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "To build a partnership that enhances both our lives and helps us grow",
+          "weights": {
+            "secure_attachment": 5,
+            "mutual_enhancement": 4,
+            "growth_partnership": 3,
+            "life_improvement": 2,
+            "collaborative_evolution": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "To find companionship without losing my independence or sense of self",
+          "weights": {
+            "avoidant_attachment": 5,
+            "independence_preservation": 4,
+            "self_maintenance": 3,
+            "autonomy_protection": 2,
+            "identity_safety": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "To experience the kind of love that transforms and heals my deepest wounds",
+          "weights": {
+            "disorganized_attachment": 5,
+            "transformational_love": 4,
+            "healing_seeking": 3,
+            "wound_repair": 2,
+            "redemptive_relationship": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "To prove to myself and others that I'm worthy of being chosen and loved",
+          "weights": {
+            "worthiness_proving": 5,
+            "external_validation": 4,
+            "self_worth_seeking": 3,
+            "proof_requirement": 2,
+            "validation_dependence": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "When someone wants to get closer to you emotionally, what happens inside?",
+      "options": [
+        {
+          "id": "a",
+          "text": "I feel relieved and grateful that someone finally wants to know the real me",
+          "weights": {
+            "anxious_attachment": 5,
+            "closeness_relief": 4,
+            "validation_gratitude": 3,
+            "acceptance_craving": 2,
+            "recognition_joy": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "I feel curious and open to sharing more of myself at a comfortable pace",
+          "weights": {
+            "secure_attachment": 5,
+            "healthy_curiosity": 4,
+            "gradual_sharing": 3,
+            "comfort_pacing": 2,
+            "natural_opening": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "I feel suffocated and start looking for ways to create more distance",
+          "weights": {
+            "avoidant_attachment": 5,
+            "suffocation_feeling": 4,
+            "distance_seeking": 3,
+            "space_craving": 2,
+            "intimacy_resistance": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "I feel simultaneously excited and terrified, wanting to run both ways",
+          "weights": {
+            "disorganized_attachment": 5,
+            "excitement_terror": 4,
+            "bidirectional_impulse": 3,
+            "emotional_chaos": 2,
+            "conflicted_desire": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "I test them to see if they really mean it or if they'll leave when things get real",
+          "weights": {
+            "trust_testing": 5,
+            "sincerity_questioning": 4,
+            "abandonment_anticipation": 3,
+            "reality_checking": 2,
+            "commitment_probing": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "What's your honest feeling about compromise in romantic relationships?",
+      "options": [
+        {
+          "id": "a",
+          "text": "I'll compromise anything to keep them happy and prevent them from leaving",
+          "weights": {
+            "anxious_attachment": 5,
+            "people_pleasing": 4,
+            "abandonment_prevention": 3,
+            "self_sacrifice": 2,
+            "conflict_avoidance": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "Healthy compromise is essential - we both adjust to create something better",
+          "weights": {
+            "secure_attachment": 5,
+            "healthy_compromise": 4,
+            "mutual_adjustment": 3,
+            "collaborative_creation": 2,
+            "win_win_thinking": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "I shouldn't have to change who I am for someone else",
+          "weights": {
+            "avoidant_attachment": 5,
+            "change_resistance": 4,
+            "identity_protection": 3,
+            "self_preservation": 2,
+            "autonomy_defense": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "I agree to compromises but secretly resent having to change",
+          "weights": {
+            "disorganized_attachment": 5,
+            "hidden_resentment": 4,
+            "compromise_conflict": 3,
+            "secret_resistance": 2,
+            "agreement_resentment": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "I compromise strategically to maintain the relationship but keep score",
+          "weights": {
+            "strategic_compromise": 5,
+            "scorekeeping_behavior": 4,
+            "relationship_maintenance": 3,
+            "calculated_giving": 2,
+            "transactional_thinking": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "How do you typically behave when you feel most vulnerable with your partner?",
+      "options": [
+        {
+          "id": "a",
+          "text": "I become extra clingy and need constant reassurance they won't hurt me",
+          "weights": {
+            "anxious_attachment": 5,
+            "vulnerability_clinging": 4,
+            "protection_seeking": 3,
+            "reassurance_desperation": 2,
+            "hurt_anticipation": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "I share my feelings openly while maintaining my emotional center",
+          "weights": {
+            "secure_attachment": 5,
+            "open_sharing": 4,
+            "emotional_stability": 3,
+            "centered_vulnerability": 2,
+            "balanced_openness": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "I immediately withdraw and regret sharing so much of myself",
+          "weights": {
+            "avoidant_attachment": 5,
+            "vulnerability_regret": 4,
+            "sharing_withdrawal": 3,
+            "exposure_discomfort": 2,
+            "intimacy_retreat": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "I alternate between desperate openness and complete emotional shutdown",
+          "weights": {
+            "disorganized_attachment": 5,
+            "vulnerability_chaos": 4,
+            "openness_shutdown": 3,
+            "emotional_extremes": 2,
+            "inconsistent_sharing": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "I share just enough to create intimacy but hold back my deepest fears",
+          "weights": {
+            "calculated_vulnerability": 5,
+            "strategic_sharing": 4,
+            "intimacy_control": 3,
+            "fear_protection": 2,
+            "partial_openness": 1
+          }
+        }
+      ]
+    },
+    {
+      "question": "What's your deepest truth about why you struggle or succeed in love?",
+      "options": [
+        {
+          "id": "a",
+          "text": "I love too hard and scare people away with the intensity of my feelings",
+          "weights": {
+            "anxious_attachment": 5,
+            "intensity_overwhelm": 4,
+            "love_desperation": 3,
+            "emotional_flooding": 2,
+            "attachment_anxiety": 1
+          }
+        },
+        {
+          "id": "b",
+          "text": "I've learned to love in a way that builds rather than consumes",
+          "weights": {
+            "secure_attachment": 5,
+            "healthy_love_capacity": 4,
+            "balanced_attachment": 3,
+            "constructive_love": 2,
+            "emotional_wisdom": 1
+          }
+        },
+        {
+          "id": "c",
+          "text": "I sabotage love before it can disappoint or hurt me",
+          "weights": {
+            "avoidant_attachment": 5,
+            "preemptive_sabotage": 4,
+            "disappointment_avoidance": 3,
+            "protection_mechanism": 2,
+            "intimacy_fear": 1
+          }
+        },
+        {
+          "id": "d",
+          "text": "I want love desperately but don't know how to receive or give it consistently",
+          "weights": {
+            "disorganized_attachment": 5,
+            "love_confusion": 4,
+            "receiving_difficulty": 3,
+            "inconsistent_patterns": 2,
+            "attachment_chaos": 1
+          }
+        },
+        {
+          "id": "e",
+          "text": "I keep choosing the wrong people because healthy love feels foreign to me",
+          "weights": {
+            "familiar_dysfunction": 5,
+            "healthy_foreign": 4,
+            "poor_selection": 3,
+            "comfort_chaos": 2,
+            "dysfunction_magnetism": 1
+          }
+        }
+      ]
+    }
+  ],
+  "results": {
+    "anxious_attachment": {
+      "title": "The Love Addict",
+      "description": "You experience love like a drug - intoxicating highs followed by devastating lows. You crave deep connection but live in constant fear of abandonment, creating a cycle of clingy behavior that often pushes partners away. Your relationships are emotional roller coasters where you check your phone obsessively, read hidden meanings into everything, and would rather be in a toxic relationship than be alone.",
+      "detailed_analysis": "Your attachment style developed from early experiences where love felt unpredictable and conditional. You learned that affection could disappear without warning, creating a hypervigilant system that constantly scans for signs of rejection or abandonment. This creates exhausting patterns where you simultaneously crave and fear intimacy, desperately wanting closeness while being terrified it will disappear.\n\nYour relationships tend to follow predictable cycles - intense honeymoon phases where you feel euphoric and complete, followed by anxiety spirals when your partner shows any sign of independence or distance. You may find yourself constantly seeking reassurance, analyzing text message response times, or creating tests to see if your partner really loves you. This behavior often overwhelms partners who initially found your intensity attractive.\n\nYour greatest strength is your capacity for deep, passionate love and emotional connection. When you feel secure, you're incredibly giving, empathetic, and devoted. Your challenge is learning that love doesn't require constant proof and that healthy relationships include space for individual growth. You need partners who are consistent, patient, and willing to provide extra reassurance while you build internal security.\n\nHealing involves developing self-soothing skills, building confidence in your own worth, and learning to trust that love can be stable even when it's not constantly demonstrated. With conscious work, your intense capacity for love can become a beautiful gift rather than an overwhelming burden."
+    },
+    "secure_attachment": {
+      "title": "The Relationship Unicorn",
+      "description": "You're the rare breed that everyone wants to date but few know how to appreciate. You communicate your needs clearly, respect boundaries, and don't lose yourself in relationships. You're comfortable with both intimacy and independence, making you the ultimate relationship partner. Your exes probably still think about you - not because you left, but because you showed them what healthy love actually looks like.",
+      "detailed_analysis": "Your secure attachment style is the gold standard of emotional health, developed through early experiences of consistent, responsive care. You learned that love is safe, reliable, and doesn't require you to sacrifice your identity or constantly prove your worth. This foundation allows you to approach relationships with confidence, openness, and realistic expectations.\n\nYou handle conflict constructively, viewing disagreements as opportunities to understand each other better rather than threats to the relationship. You can express your needs without manipulation, listen to your partner's concerns without becoming defensive, and maintain your sense of self while being genuinely intimate. This makes you incredibly attractive to both healthy and unhealthy partners.\n\nYour challenge often lies in recognizing and avoiding partners with insecure attachment styles who might drain your emotional resources. While your stability can be healing for anxious partners and your warmth can soften avoidant ones, you need to be careful not to become a caretaker or therapist in your relationships. You deserve a partner who matches your emotional maturity.\n\nYour relationships tend to be characterized by steady growth, mutual respect, and the ability to weather storms together. You understand that love is a choice made daily, not just a feeling, and you create the kind of partnership that others aspire to have. Your secure foundation allows you to love generously without losing yourself."
+    },
+    "avoidant_attachment": {
+      "title": "The Emotional Fortress",
+      "description": "You've built walls so high that even you sometimes forget what's behind them. Independence is your drug, and emotional intimacy feels like suffocation. You're attracted to people who chase you but lose interest once they get close. Your relationships follow a predictable pattern: charm, withdraw, repeat. You'd rather be alone than vulnerable, but deep down you're terrified that your walls have become a prison.",
+      "detailed_analysis": "Your avoidant attachment style developed as a protective mechanism against early experiences of emotional neglect, inconsistency, or overwhelming intensity. You learned that depending on others leads to disappointment and that emotional distance feels safer than vulnerability. While this protected you from pain, it also prevents you from experiencing the deep connection you secretly crave.\n\nYou typically enter relationships with enthusiasm but gradually withdraw as intimacy increases. You may find yourself picking fights when things get too close, becoming critical of your partner's 'flaws,' or simply losing interest once the chase is over. You prefer partners who are somewhat unavailable themselves, as this feels familiar and doesn't threaten your autonomy.\n\nYour greatest strength is your independence and ability to maintain your identity within relationships. You don't become clingy or lose yourself in love, which can be refreshing for partners used to more anxious attachment styles. However, your challenge is allowing yourself to be truly known and supported, which requires vulnerability you've learned to avoid.\n\nHealing involves gradually practicing emotional openness in safe relationships, recognizing that interdependence doesn't mean loss of self, and understanding that your need for space doesn't make you broken. Your capacity for independence, when balanced with emotional availability, can create incredibly strong and respectful partnerships."
+    },
+    "disorganized_attachment": {
+      "title": "The Beautiful Chaos",
+      "description": "You're a walking contradiction in love - desperately craving connection while simultaneously sabotaging it. Your relationships are intense, unpredictable, and often dramatic because you learned early that love and pain are intertwined. You're the person who says 'I love you' and 'I hate you' in the same conversation. Your attachment style is complex because your early experiences were complex, but this also makes you incredibly empathetic and capable of profound transformation.",
+      "detailed_analysis": "Your disorganized attachment style developed from early experiences where your caregivers were both sources of comfort and fear. You learned to associate love with unpredictability, creating an internal system that simultaneously approaches and avoids intimacy. This creates the most challenging but also potentially transformative attachment pattern.\n\nYour relationships are characterized by intense highs and devastating lows, with little middle ground. You may find yourself alternating between desperate clinging and angry pushing away, often within the same conversation. You're attracted to drama because it feels familiar, but you also crave the stability you never experienced. This creates partnerships that are passionate but exhausting.\n\nYour greatest strength is your depth of feeling and capacity for transformation. You experience emotions more intensely than others, which can create profound empathy and the ability to connect with others' pain. You're also incredibly resilient, having survived complex early experiences that would overwhelm many people. Your challenge is learning to regulate these intense emotions and create stability within yourself.\n\nHealing involves developing emotional regulation skills, learning to sit with discomfort without creating chaos, and understanding that love can be both passionate and stable. With therapeutic support and conscious work, your intensity can become a source of deep connection rather than relationship destruction. Your journey toward security, while challenging, often leads to the most authentic and transformative relationships."
+    }
+  }
+}

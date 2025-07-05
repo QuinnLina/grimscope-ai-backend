@@ -1,0 +1,710 @@
+{
+  "testId": "death_clock",
+  "title": "Death Clock Calculator",
+  "description": "Measure your proximity to the inevitable end",
+  "backgroundImage": "assets/images/dark/bg4.png",
+  "backgroundMusic": "assets/audio/dark-bg-music.mp3",
+  "traits": {
+    "death_denial": "Refuses to acknowledge mortality and avoids death-related thoughts",
+    "morbid_fascination": "Obsessively drawn to death, decay, and mortality",
+    "legacy_obsessed": "Desperately concerned with being remembered after death", 
+    "time_anxiety": "Constantly worried about running out of time",
+    "death_acceptance": "Peaceful relationship with mortality and life's finite nature",
+    "afterlife_terror": "Paralyzing fear of what comes after death",
+    "control_freak": "Attempts to control every aspect of life to avoid death",
+    "nihilistic": "Believes death makes everything meaningless",
+    "grief_collector": "Hoards death experiences and trauma of others",
+    "immortality_seeker": "Desperately pursues ways to cheat or delay death",
+    "death_romantic": "Romanticizes death as beautiful or peaceful escape",
+    "existential_warrior": "Uses mortality awareness to live more authentically"
+  },
+  "questions": [
+    {
+      "question": "When you hear about someone your age dying unexpectedly, your first thought is:",
+      "answers": [
+        {
+          "text": "That's terrible, but these things happen randomly",
+          "traits": {"death_acceptance": 4, "existential_warrior": 2, "time_anxiety": 0, "death_denial": 1, "afterlife_terror": 0}
+        },
+        {
+          "text": "I immediately check my own health symptoms and risk factors",
+          "traits": {"time_anxiety": 5, "control_freak": 4, "death_denial": 2, "immortality_seeker": 1, "death_acceptance": 0}
+        },
+        {
+          "text": "I need to know every detail about how it happened",
+          "traits": {"morbid_fascination": 5, "grief_collector": 3, "control_freak": 2, "death_romantic": 1, "death_acceptance": 0}
+        },
+        {
+          "text": "What's the point of planning anything if we can just die randomly?",
+          "traits": {"nihilistic": 5, "time_anxiety": 3, "afterlife_terror": 2, "death_acceptance": 0, "existential_warrior": 0}
+        },
+        {
+          "text": "At least they don't have to suffer through whatever comes next",
+          "traits": {"afterlife_terror": 4, "death_romantic": 3, "nihilistic": 2, "morbid_fascination": 1, "death_acceptance": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your relationship with medical checkups and health monitoring is:",
+      "answers": [
+        {
+          "text": "Regular, reasonable preventive care without obsessing",
+          "traits": {"death_acceptance": 4, "existential_warrior": 3, "control_freak": 1, "time_anxiety": 1, "immortality_seeker": 0}
+        },
+        {
+          "text": "I avoid them completely because ignorance is bliss",
+          "traits": {"death_denial": 5, "afterlife_terror": 2, "control_freak": 0, "death_acceptance": 0, "time_anxiety": 1}
+        },
+        {
+          "text": "Obsessively frequent - I track every possible health metric",
+          "traits": {"control_freak": 5, "time_anxiety": 4, "immortality_seeker": 3, "death_denial": 1, "death_acceptance": 0}
+        },
+        {
+          "text": "I research every symptom until I convince myself I'm dying",
+          "traits": {"time_anxiety": 5, "morbid_fascination": 3, "control_freak": 2, "afterlife_terror": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "I go hoping they'll find something dramatically wrong",
+          "traits": {"morbid_fascination": 4, "death_romantic": 3, "grief_collector": 2, "nihilistic": 1, "death_acceptance": 0}
+        }
+      ]
+    },
+    {
+      "question": "How do you want to be remembered after you die?",
+      "answers": [
+        {
+          "text": "I don't really think about being remembered - life is for the living",
+          "traits": {"death_acceptance": 4, "existential_warrior": 2, "nihilistic": 1, "legacy_obsessed": 0, "immortality_seeker": 0}
+        },
+        {
+          "text": "As someone who lived fully and loved deeply",
+          "traits": {"existential_warrior": 4, "death_acceptance": 3, "legacy_obsessed": 2, "death_romantic": 1, "nihilistic": 0}
+        },
+        {
+          "text": "As a genius, legend, or someone who changed the world forever",
+          "traits": {"legacy_obsessed": 5, "immortality_seeker": 3, "control_freak": 2, "death_denial": 1, "death_acceptance": 0}
+        },
+        {
+          "text": "I obsess over my legacy and how people will interpret my life",
+          "traits": {"legacy_obsessed": 5, "time_anxiety": 3, "control_freak": 3, "grief_collector": 1, "death_acceptance": 0}
+        },
+        {
+          "text": "Honestly, I hope I'm remembered as beautifully tragic",
+          "traits": {"death_romantic": 5, "legacy_obsessed": 3, "morbid_fascination": 2, "grief_collector": 2, "death_acceptance": 0}
+        }
+      ]
+    },
+    {
+      "question": "When you can't sleep at 3 AM, your mind usually goes to:",
+      "answers": [
+        {
+          "text": "Tomorrow's plans or random creative thoughts",
+          "traits": {"existential_warrior": 3, "death_acceptance": 3, "time_anxiety": 0, "death_denial": 2, "afterlife_terror": 0}
+        },
+        {
+          "text": "All the things I haven't accomplished yet and running out of time",
+          "traits": {"time_anxiety": 5, "legacy_obsessed": 4, "control_freak": 2, "immortality_seeker": 1, "death_acceptance": 0}
+        },
+        {
+          "text": "What happens to consciousness when we die",
+          "traits": {"afterlife_terror": 4, "morbid_fascination": 3, "nihilistic": 2, "death_romantic": 1, "death_acceptance": 1}
+        },
+        {
+          "text": "Detailed scenarios of how I might die",
+          "traits": {"morbid_fascination": 5, "time_anxiety": 3, "afterlife_terror": 2, "death_romantic": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "Why I bother doing anything when we all just disappear",
+          "traits": {"nihilistic": 5, "afterlife_terror": 3, "time_anxiety": 2, "death_romantic": 1, "death_acceptance": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your reaction to aging (wrinkles, gray hair, physical changes) is:",
+      "answers": [
+        {
+          "text": "Natural part of life that shows I've lived and experienced things",
+          "traits": {"death_acceptance": 5, "existential_warrior": 3, "time_anxiety": 0, "immortality_seeker": 0, "death_denial": 0}
+        },
+        {
+          "text": "I spend significant money and effort trying to reverse or hide it",
+          "traits": {"immortality_seeker": 5, "death_denial": 4, "control_freak": 3, "time_anxiety": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "Panic about time running out and everything I haven't done",
+          "traits": {"time_anxiety": 5, "control_freak": 3, "legacy_obsessed": 2, "death_denial": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "I avoid mirrors and photos because I can't handle seeing it",
+          "traits": {"death_denial": 5, "afterlife_terror": 2, "time_anxiety": 2, "immortality_seeker": 1, "death_acceptance": 0}
+        },
+        {
+          "text": "Find it beautifully tragic - visible proof of my mortality",
+          "traits": {"death_romantic": 4, "morbid_fascination": 3, "existential_warrior": 2, "nihilistic": 1, "death_acceptance": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you feel about attending funerals?",
+      "answers": [
+        {
+          "text": "Important ritual for honoring the deceased and supporting survivors",
+          "traits": {"death_acceptance": 4, "existential_warrior": 3, "grief_collector": 1, "morbid_fascination": 1, "death_denial": 0}
+        },
+        {
+          "text": "I avoid them whenever possible - too depressing and pointless",
+          "traits": {"death_denial": 5, "afterlife_terror": 2, "nihilistic": 2, "death_acceptance": 0, "morbid_fascination": 0}
+        },
+        {
+          "text": "Fascinated by the rituals, the grief, the finality of it all",
+          "traits": {"morbid_fascination": 5, "grief_collector": 4, "death_romantic": 2, "afterlife_terror": 1, "death_acceptance": 1}
+        },
+        {
+          "text": "Terrified of confronting what awaits all of us",
+          "traits": {"afterlife_terror": 5, "death_denial": 3, "time_anxiety": 2, "morbid_fascination": 1, "death_acceptance": 0}
+        },
+        {
+          "text": "I attend but spend the time planning my own funeral details",
+          "traits": {"legacy_obsessed": 4, "death_romantic": 3, "control_freak": 3, "morbid_fascination": 2, "death_acceptance": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your biggest fear about dying is:",
+      "answers": [
+        {
+          "text": "The pain or suffering that might come before death",
+          "traits": {"control_freak": 3, "time_anxiety": 2, "death_acceptance": 2, "afterlife_terror": 1, "death_romantic": 0}
+        },
+        {
+          "text": "Being forgotten or leaving no lasting impact",
+          "traits": {"legacy_obsessed": 5, "immortality_seeker": 2, "time_anxiety": 2, "nihilistic": 1, "death_acceptance": 0}
+        },
+        {
+          "text": "Not knowing what consciousness experiences after death",
+          "traits": {"afterlife_terror": 5, "morbid_fascination": 2, "nihilistic": 2, "control_freak": 1, "death_acceptance": 0}
+        },
+        {
+          "text": "That I haven't really lived yet or accomplished my dreams",
+          "traits": {"time_anxiety": 5, "existential_warrior": 3, "legacy_obsessed": 2, "death_acceptance": 1, "nihilistic": 0}
+        },
+        {
+          "text": "Honestly, I'm more afraid of continuing to live",
+          "traits": {"death_romantic": 4, "nihilistic": 4, "afterlife_terror": 1, "morbid_fascination": 2, "death_acceptance": 0}
+        }
+      ]
+    },
+    {
+      "question": "How much time do you spend researching life extension, health optimization, or anti-aging?",
+      "answers": [
+        {
+          "text": "None - I focus on living well with the time I have",
+          "traits": {"death_acceptance": 5, "existential_warrior": 4, "immortality_seeker": 0, "control_freak": 0, "time_anxiety": 0}
+        },
+        {
+          "text": "Occasional interest in staying healthy but not obsessed",
+          "traits": {"death_acceptance": 3, "control_freak": 2, "immortality_seeker": 1, "time_anxiety": 1, "existential_warrior": 2}
+        },
+        {
+          "text": "Significant time - I want to optimize every aspect of longevity",
+          "traits": {"immortality_seeker": 5, "control_freak": 4, "time_anxiety": 3, "death_denial": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "I'm obsessed with biohacking and defeating aging completely",
+          "traits": {"immortality_seeker": 5, "control_freak": 5, "death_denial": 3, "time_anxiety": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "I research it but hope the technology arrives too late for me",
+          "traits": {"death_romantic": 4, "morbid_fascination": 3, "nihilistic": 2, "afterlife_terror": 1, "immortality_seeker": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you hear about tragic deaths or disasters, you:",
+      "answers": [
+        {
+          "text": "Feel sad for the victims and their families, then move on",
+          "traits": {"death_acceptance": 4, "existential_warrior": 2, "grief_collector": 0, "morbid_fascination": 1, "nihilistic": 0}
+        },
+        {
+          "text": "Try not to think about it - it's too upsetting",
+          "traits": {"death_denial": 4, "afterlife_terror": 3, "time_anxiety": 1, "death_acceptance": 0, "morbid_fascination": 0}
+        },
+        {
+          "text": "Become completely absorbed in every detail and follow-up story",
+          "traits": {"morbid_fascination": 5, "grief_collector": 4, "control_freak": 2, "time_anxiety": 1, "death_acceptance": 0}
+        },
+        {
+          "text": "Collect these stories and share them with others frequently",
+          "traits": {"grief_collector": 5, "morbid_fascination": 4, "nihilistic": 2, "death_romantic": 1, "death_acceptance": 0}
+        },
+        {
+          "text": "See it as proof that nothing we do matters anyway",
+          "traits": {"nihilistic": 5, "afterlife_terror": 2, "time_anxiety": 2, "grief_collector": 1, "death_acceptance": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your ideal death would be:",
+      "answers": [
+        {
+          "text": "Peaceful, surrounded by loved ones, at the end of a full life",
+          "traits": {"death_acceptance": 5, "existential_warrior": 3, "death_romantic": 1, "legacy_obsessed": 1, "control_freak": 1}
+        },
+        {
+          "text": "I refuse to think about this - I'm not dying anytime soon",
+          "traits": {"death_denial": 5, "immortality_seeker": 3, "afterlife_terror": 2, "death_acceptance": 0, "existential_warrior": 0}
+        },
+        {
+          "text": "Dramatically tragic and memorable - maybe saving someone else",
+          "traits": {"death_romantic": 5, "legacy_obsessed": 4, "morbid_fascination": 2, "grief_collector": 1, "death_acceptance": 0}
+        },
+        {
+          "text": "Quick and unexpected so I don't have to think about it happening",
+          "traits": {"afterlife_terror": 4, "control_freak": 3, "time_anxiety": 2, "death_denial": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "Planned and controlled entirely by me, down to every detail",
+          "traits": {"control_freak": 5, "death_romantic": 3, "legacy_obsessed": 2, "morbid_fascination": 2, "death_acceptance": 0}
+        }
+      ]
+    },
+    {
+      "question": "How often do you visit cemeteries, memorial sites, or places associated with death?",
+      "answers": [
+        {
+          "text": "Only for specific purposes like visiting loved ones' graves",
+          "traits": {"death_acceptance": 4, "grief_collector": 1, "existential_warrior": 2, "morbid_fascination": 1, "death_romantic": 0}
+        },
+        {
+          "text": "Never - those places make me too uncomfortable",
+          "traits": {"death_denial": 5, "afterlife_terror": 4, "time_anxiety": 1, "death_acceptance": 0, "morbid_fascination": 0}
+        },
+        {
+          "text": "Regularly - I find them fascinating and peaceful",
+          "traits": {"morbid_fascination": 5, "death_romantic": 4, "grief_collector": 3, "existential_warrior": 1, "death_acceptance": 2}
+        },
+        {
+          "text": "I seek them out and collect stories from the graves I visit",
+          "traits": {"grief_collector": 5, "morbid_fascination": 4, "death_romantic": 3, "legacy_obsessed": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "I go to contemplate the meaninglessness of all human endeavor",
+          "traits": {"nihilistic": 5, "existential_warrior": 2, "morbid_fascination": 2, "death_romantic": 2, "death_acceptance": 1}
+        }
+      ]
+    },
+    {
+      "question": "When people discuss religion, afterlife, or spiritual beliefs about death, you:",
+      "answers": [
+        {
+          "text": "Listen respectfully even if I disagree with their beliefs",
+          "traits": {"death_acceptance": 4, "existential_warrior": 3, "afterlife_terror": 0, "nihilistic": 0, "death_denial": 1}
+        },
+        {
+          "text": "Change the subject because it makes me too anxious",
+          "traits": {"afterlife_terror": 5, "death_denial": 3, "time_anxiety": 2, "death_acceptance": 0, "nihilistic": 1}
+        },
+        {
+          "text": "Become fascinated and want to hear every detail of their beliefs",
+          "traits": {"morbid_fascination": 4, "afterlife_terror": 3, "grief_collector": 2, "death_romantic": 2, "existential_warrior": 1}
+        },
+        {
+          "text": "Argue that it's all fantasy to cope with the reality of nothingness",
+          "traits": {"nihilistic": 5, "afterlife_terror": 2, "death_acceptance": 1, "existential_warrior": 1, "death_denial": 1}
+        },
+        {
+          "text": "Share my own elaborate theories about consciousness and death",
+          "traits": {"death_romantic": 4, "morbid_fascination": 3, "afterlife_terror": 2, "legacy_obsessed": 2, "nihilistic": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your approach to bucket lists, life goals, and time-sensitive dreams is:",
+      "answers": [
+        {
+          "text": "I pursue what matters to me without obsessing over timelines",
+          "traits": {"existential_warrior": 5, "death_acceptance": 4, "time_anxiety": 0, "control_freak": 1, "legacy_obsessed": 1}
+        },
+        {
+          "text": "I don't make lists because thinking about limited time upsets me",
+          "traits": {"death_denial": 4, "time_anxiety": 3, "afterlife_terror": 2, "death_acceptance": 0, "existential_warrior": 0}
+        },
+        {
+          "text": "Detailed, constantly updated lists with deadlines and panic when behind",
+          "traits": {"time_anxiety": 5, "control_freak": 4, "legacy_obsessed": 3, "immortality_seeker": 1, "death_acceptance": 0}
+        },
+        {
+          "text": "Everything must be epic and memorable enough to define my legacy",
+          "traits": {"legacy_obsessed": 5, "death_romantic": 3, "control_freak": 2, "immortality_seeker": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "Why bother planning when death could come at any moment?",
+          "traits": {"nihilistic": 4, "time_anxiety": 3, "morbid_fascination": 2, "afterlife_terror": 1, "existential_warrior": 0}
+        }
+      ]
+    },
+    {
+      "question": "How do you react when someone close to you dies?",
+      "answers": [
+        {
+          "text": "Grieve naturally, celebrate their life, and eventually find peace",
+          "traits": {"death_acceptance": 5, "existential_warrior": 4, "grief_collector": 1, "death_romantic": 1, "time_anxiety": 1}
+        },
+        {
+          "text": "Avoid dealing with it and try to distract myself from the reality",
+          "traits": {"death_denial": 5, "afterlife_terror": 3, "grief_collector": 0, "death_acceptance": 0, "morbid_fascination": 1}
+        },
+        {
+          "text": "Become completely absorbed in every aspect of their death and dying process",
+          "traits": {"grief_collector": 5, "morbid_fascination": 4, "death_romantic": 2, "control_freak": 1, "death_acceptance": 0}
+        },
+        {
+          "text": "Use their death as evidence that nothing in life has meaning",
+          "traits": {"nihilistic": 5, "grief_collector": 2, "afterlife_terror": 2, "time_anxiety": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "Plan elaborate memorial tributes to preserve their memory forever",
+          "traits": {"legacy_obsessed": 4, "death_romantic": 4, "grief_collector": 3, "control_freak": 3, "death_acceptance": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your relationship with the concept of 'living each day like it's your last' is:",
+      "answers": [
+        {
+          "text": "Good advice but I also need to plan for the future responsibly",
+          "traits": {"existential_warrior": 4, "death_acceptance": 4, "time_anxiety": 1, "control_freak": 2, "nihilistic": 0}
+        },
+        {
+          "text": "Terrible advice that just creates anxiety about wasted time",
+          "traits": {"time_anxiety": 4, "death_denial": 3, "control_freak": 2, "afterlife_terror": 1, "existential_warrior": 0}
+        },
+        {
+          "text": "I literally try to live this way and it's exhausting",
+          "traits": {"time_anxiety": 5, "death_romantic": 3, "morbid_fascination": 2, "control_freak": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "Meaningless platitude - every day is just another step toward nothingness",
+          "traits": {"nihilistic": 5, "afterlife_terror": 2, "time_anxiety": 1, "death_acceptance": 0, "existential_warrior": 0}
+        },
+        {
+          "text": "I fantasize about it but would want my last day to be beautifully tragic",
+          "traits": {"death_romantic": 5, "morbid_fascination": 3, "legacy_obsessed": 2, "time_anxiety": 1, "death_acceptance": 0}
+        }
+      ]
+    },
+    {
+      "question": "When you think about your own funeral, you:",
+      "answers": [
+        {
+          "text": "Hope it will be a celebration of a life well-lived",
+          "traits": {"death_acceptance": 4, "existential_warrior": 3, "legacy_obsessed": 2, "death_romantic": 1, "control_freak": 1}
+        },
+        {
+          "text": "Refuse to think about it - that's morbid and unnecessary",
+          "traits": {"death_denial": 5, "afterlife_terror": 3, "immortality_seeker": 2, "death_acceptance": 0, "morbid_fascination": 0}
+        },
+        {
+          "text": "Have detailed plans for every aspect down to the music and flowers",
+          "traits": {"control_freak": 5, "legacy_obsessed": 4, "death_romantic": 3, "morbid_fascination": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "Wonder who will actually show up and what they'll say about me",
+          "traits": {"legacy_obsessed": 4, "time_anxiety": 3, "grief_collector": 2, "nihilistic": 2, "death_acceptance": 1}
+        },
+        {
+          "text": "Imagine it being dramatically beautiful and unforgettable",
+          "traits": {"death_romantic": 5, "legacy_obsessed": 3, "morbid_fascination": 3, "control_freak": 2, "death_acceptance": 0}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle news about life expectancy statistics for your demographic?",
+      "answers": [
+        {
+          "text": "Interesting data but doesn't really affect how I live my life",
+          "traits": {"death_acceptance": 4, "existential_warrior": 3, "nihilistic": 1, "time_anxiety": 0, "control_freak": 0}
+        },
+        {
+          "text": "I avoid reading those articles because they upset me",
+          "traits": {"death_denial": 4, "afterlife_terror": 3, "time_anxiety": 2, "death_acceptance": 0, "immortality_seeker": 1}
+        },
+        {
+          "text": "Calculate exactly how many years I have left and plan accordingly",
+          "traits": {"control_freak": 5, "time_anxiety": 4, "immortality_seeker": 3, "legacy_obsessed": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "Research ways to beat the odds and extend beyond average lifespan",
+          "traits": {"immortality_seeker": 5, "control_freak": 4, "time_anxiety": 3, "death_denial": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "Find them fascinating and collect mortality data as a hobby",
+          "traits": {"morbid_fascination": 5, "grief_collector": 3, "nihilistic": 2, "death_romantic": 1, "death_acceptance": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your thoughts on life insurance are:",
+      "answers": [
+        {
+          "text": "Practical necessity to protect my family's financial future",
+          "traits": {"death_acceptance": 4, "existential_warrior": 3, "control_freak": 2, "legacy_obsessed": 1, "death_denial": 0}
+        },
+        {
+          "text": "I don't want to think about it - too depressing to consider",
+          "traits": {"death_denial": 5, "afterlife_terror": 2, "time_anxiety": 1, "death_acceptance": 0, "control_freak": 0}
+        },
+        {
+          "text": "I have multiple policies and constantly research better coverage",
+          "traits": {"control_freak": 5, "time_anxiety": 3, "legacy_obsessed": 3, "immortality_seeker": 2, "death_acceptance": 1}
+        },
+        {
+          "text": "Betting against myself feels morbid but financially responsible",
+          "traits": {"morbid_fascination": 3, "control_freak": 3, "death_acceptance": 2, "nihilistic": 2, "afterlife_terror": 1}
+        },
+        {
+          "text": "I want enough to make my death financially beneficial to others",
+          "traits": {"legacy_obsessed": 4, "death_romantic": 3, "nihilistic": 2, "morbid_fascination": 2, "control_freak": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you see elderly people, your dominant emotion is:",
+      "answers": [
+        {
+          "text": "Respect for their experience and wisdom",
+          "traits": {"death_acceptance": 4, "existential_warrior": 3, "legacy_obsessed": 1, "time_anxiety": 0, "death_denial": 0}
+        },
+        {
+          "text": "Discomfort because they remind me of aging and death",
+          "traits": {"death_denial": 4, "afterlife_terror": 3, "time_anxiety": 2, "immortality_seeker": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "Curiosity about what it feels like to be so close to death",
+          "traits": {"morbid_fascination": 5, "death_romantic": 3, "grief_collector": 2, "afterlife_terror": 1, "death_acceptance": 1}
+        },
+        {
+          "text": "Determination to never let myself deteriorate like that",
+          "traits": {"immortality_seeker": 5, "control_freak": 4, "death_denial": 3, "time_anxiety": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "Sadness about the inevitability of decline and loss",
+          "traits": {"death_romantic": 4, "time_anxiety": 3, "nihilistic": 3, "grief_collector": 2, "existential_warrior": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your approach to making a will or estate planning is:",
+      "answers": [
+        {
+          "text": "Done responsibly to ensure my wishes are clear and legally binding",
+          "traits": {"death_acceptance": 5, "existential_warrior": 3, "control_freak": 2, "legacy_obsessed": 2, "death_denial": 0}
+        },
+        {
+          "text": "I keep putting it off because it feels too final and scary",
+          "traits": {"death_denial": 4, "afterlife_terror": 3, "time_anxiety": 2, "death_acceptance": 0, "immortality_seeker": 1}
+        },
+        {
+          "text": "Obsessively detailed with multiple contingencies and regular updates",
+          "traits": {"control_freak": 5, "legacy_obsessed": 4, "time_anxiety": 3, "morbid_fascination": 2, "death_acceptance": 1}
+        },
+        {
+          "text": "I want to control exactly how I'm remembered and honored",
+          "traits": {"legacy_obsessed": 5, "control_freak": 4, "death_romantic": 3, "time_anxiety": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "Why bother - nothing matters after we're gone anyway",
+          "traits": {"nihilistic": 5, "afterlife_terror": 2, "death_romantic": 2, "time_anxiety": 1, "legacy_obsessed": 0}
+        }
+      ]
+    },
+    {
+      "question": "When you experience physical pain or illness, you:",
+      "answers": [
+        {
+          "text": "Accept it as part of life and focus on appropriate treatment",
+          "traits": {"death_acceptance": 4, "existential_warrior": 3, "control_freak": 1, "time_anxiety": 1, "death_denial": 0}
+        },
+        {
+          "text": "Panic and immediately assume the worst possible diagnosis",
+          "traits": {"time_anxiety": 5, "afterlife_terror": 4, "control_freak": 3, "death_denial": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "Research every possible cause and treatment obsessively",
+          "traits": {"control_freak": 5, "time_anxiety": 4, "morbid_fascination": 3, "immortality_seeker": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "Find it fascinating to observe my body's vulnerability",
+          "traits": {"morbid_fascination": 4, "death_romantic": 3, "existential_warrior": 2, "nihilistic": 2, "death_acceptance": 1}
+        },
+        {
+          "text": "See it as my body beginning its inevitable decline toward death",
+          "traits": {"nihilistic": 4, "death_romantic": 3, "morbid_fascination": 3, "time_anxiety": 2, "afterlife_terror": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you react to your birthday each year?",
+      "answers": [
+        {
+          "text": "Celebrate another year of experiences and growth",
+          "traits": {"death_acceptance": 4, "existential_warrior": 4, "legacy_obsessed": 1, "time_anxiety": 0, "death_denial": 0}
+        },
+        {
+          "text": "Try not to think about getting older - just focus on the party",
+          "traits": {"death_denial": 4, "immortality_seeker": 3, "time_anxiety": 2, "death_acceptance": 0, "afterlife_terror": 1}
+        },
+        {
+          "text": "Calculate how many years I have left and what I need to accomplish",
+          "traits": {"time_anxiety": 5, "legacy_obsessed": 4, "control_freak": 3, "immortality_seeker": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "Feel melancholy about time passing and opportunities lost",
+          "traits": {"death_romantic": 4, "time_anxiety": 3, "nihilistic": 3, "grief_collector": 2, "existential_warrior": 1}
+        },
+        {
+          "text": "Research anti-aging treatments and longevity strategies",
+          "traits": {"immortality_seeker": 5, "control_freak": 4, "death_denial": 3, "time_anxiety": 2, "death_acceptance": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your relationship with dangerous activities (extreme sports, risky hobbies) is:",
+      "answers": [
+        {
+          "text": "I engage in reasonable risks that add meaning to my life",
+          "traits": {"existential_warrior": 4, "death_acceptance": 3, "control_freak": 1, "death_denial": 1, "time_anxiety": 0}
+        },
+        {
+          "text": "I avoid anything that could potentially be life-threatening",
+          "traits": {"control_freak": 4, "death_denial": 4, "time_anxiety": 3, "immortality_seeker": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "I'm drawn to activities that bring me close to death",
+          "traits": {"death_romantic": 5, "morbid_fascination": 4, "existential_warrior": 2, "nihilistic": 2, "death_acceptance": 1}
+        },
+        {
+          "text": "I research every possible safety measure before participating",
+          "traits": {"control_freak": 5, "time_anxiety": 3, "immortality_seeker": 2, "death_acceptance": 1, "existential_warrior": 1}
+        },
+        {
+          "text": "Why take risks when death will come regardless?",
+          "traits": {"nihilistic": 4, "afterlife_terror": 3, "death_denial": 2, "time_anxiety": 2, "existential_warrior": 0}
+        }
+      ]
+    },
+    {
+      "question": "When you think about what happens to your consciousness after death, you feel:",
+      "answers": [
+        {
+          "text": "Peaceful uncertainty - I focus on living rather than speculating",
+          "traits": {"death_acceptance": 5, "existential_warrior": 4, "afterlife_terror": 0, "nihilistic": 1, "death_denial": 0}
+        },
+        {
+          "text": "Overwhelming anxiety about the unknown",
+          "traits": {"afterlife_terror": 5, "time_anxiety": 3, "death_denial": 2, "morbid_fascination": 1, "death_acceptance": 0}
+        },
+        {
+          "text": "Fascinated by the mystery and various theories about consciousness",
+          "traits": {"morbid_fascination": 4, "death_romantic": 3, "afterlife_terror": 2, "existential_warrior": 2, "nihilistic": 1}
+        },
+        {
+          "text": "Confident that nothing happens - consciousness simply ends",
+          "traits": {"nihilistic": 4, "death_acceptance": 3, "afterlife_terror": 1, "existential_warrior": 2, "morbid_fascination": 1}
+        },
+        {
+          "text": "Hopeful that it will be a beautiful transformation or release",
+          "traits": {"death_romantic": 5, "afterlife_terror": 2, "existential_warrior": 2, "death_acceptance": 2, "nihilistic": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your thoughts on memorial services and remembrance rituals are:",
+      "answers": [
+        {
+          "text": "Important for healing and honoring the deceased's impact on others",
+          "traits": {"death_acceptance": 4, "existential_warrior": 3, "legacy_obsessed": 2, "grief_collector": 1, "death_denial": 0}
+        },
+        {
+          "text": "Uncomfortable reminders of mortality that I prefer to avoid",
+          "traits": {"death_denial": 4, "afterlife_terror": 3, "time_anxiety": 2, "death_acceptance": 0, "nihilistic": 1}
+        },
+        {
+          "text": "I plan elaborate memorials to ensure I'm properly remembered",
+          "traits": {"legacy_obsessed": 5, "death_romantic": 4, "control_freak": 3, "morbid_fascination": 2, "death_acceptance": 0}
+        },
+        {
+          "text": "Fascinating studies in how people cope with loss and mortality",
+          "traits": {"morbid_fascination": 4, "grief_collector": 4, "death_romantic": 2, "existential_warrior": 1, "death_acceptance": 1}
+        },
+        {
+          "text": "Empty gestures that don't change the reality of being gone forever",
+          "traits": {"nihilistic": 5, "afterlife_terror": 2, "time_anxiety": 2, "legacy_obsessed": 1, "death_acceptance": 0}
+        }
+      ]
+    }
+  ],
+  "results": {
+    "death_denial": {
+      "title": "The Ostrich",
+      "description": "You've perfected the art of ignoring the elephant in the room - if that elephant was your own mortality. You treat death like a rude houseguest who will leave if you just don't answer the door.",
+      "extended": "Your death denial operates as a sophisticated psychological defense system that protects you from confronting the reality of your finite existence. You've developed elaborate strategies for avoiding reminders of mortality, from steering clear of hospitals and funerals to refusing to discuss aging or illness. When death-related topics arise, you experience genuine discomfort and quickly redirect conversations to safer territory.\n\nThis denial extends beyond just avoiding thoughts about death - you actively resist making decisions that acknowledge your mortality. You might avoid writing wills, getting life insurance, or making end-of-life plans because doing so would require admitting that you will actually die. You treat these practical necessities as morbid obsessions rather than responsible adult behaviors.\n\nYour avoidance creates a bubble of artificial immortality where you can function as if death is something that happens to other people. You might engage in magical thinking, believing that if you don't think about death, it won't think about you. This allows you to maintain day-to-day optimism but leaves you unprepared for the inevitable losses and endings that life brings.\n\nThe cost of your denial becomes apparent during crises when death forces its way into your awareness. Because you haven't developed healthy coping mechanisms for mortality-related anxiety, these confrontations can be devastating. Your lack of preparation - both practical and emotional - can leave you and your loved ones struggling with preventable complications during already difficult times."
+    },
+    "morbid_fascination": {
+      "title": "The Death Scholar",
+      "description": "You're the person who knows every detail about every famous death, every serial killer, every disaster. Death isn't your enemy - it's your area of expertise, and you find it endlessly fascinating.",
+      "extended": "Your fascination with death operates on multiple levels, from intellectual curiosity about the biological processes of dying to deep psychological interest in how people face their mortality. You're drawn to documentaries about disasters, books about famous deaths, and conversations about near-death experiences. Others might find your interests morbid, but you see them as exploring one of life's most fundamental mysteries.\n\nYou possess an encyclopedic knowledge of death-related topics that can make others uncomfortable. You know the details of historical plagues, the mechanisms of various causes of death, and the cultural rituals surrounding mortality across different societies. This knowledge serves multiple purposes - it satisfies your genuine curiosity while also giving you a sense of control through understanding.\n\nYour fascination extends to the emotional and spiritual aspects of death as well as the physical. You're interested in how people react when facing terminal diagnoses, what last words reveal about human nature, and how different cultures conceptualize the afterlife. You see death as a lens through which to understand what it means to be human.\n\nWhile your interest in death might seem unusual, it often comes from a healthy place of wanting to understand and prepare for an inevitable experience. However, this fascination can become problematic if it interferes with your ability to engage fully with life, or if you use your knowledge about death to frighten or manipulate others. The key is ensuring your interest in death serves to enrich your understanding of life rather than replacing actual living."
+    },
+    "legacy_obsessed": {
+      "title": "The Monument Builder",
+      "description": "You're not just living your life - you're crafting your legend. Every decision is filtered through how it will look in your biography, and you're secretly writing your own eulogy in your head.",
+      "extended": "Your legacy obsession drives you to view your entire existence through the lens of how you'll be remembered after death. You make decisions not based on what brings you joy or fulfillment in the moment, but on what will contribute to the narrative of your life that others will tell. This creates a constant pressure to achieve something worthy of remembrance, often at the expense of simple contentment or authentic relationships.\n\nYou likely spend significant mental energy crafting and recrafting the story of your life, deciding which accomplishments define you and which relationships or experiences are worth including in your personal mythology. You might keep detailed records of your achievements, collect testimonials from others, or pursue recognition specifically because it validates your significance in ways that will outlast your death.\n\nThis obsession extends to how you present yourself to others in the present. You curate your image carefully, knowing that current impressions will inform future memories. You might avoid taking risks that could tarnish your reputation or engage in activities primarily because they align with how you want to be perceived rather than because they genuinely interest you.\n\nThe tragedy of legacy obsession is that it can prevent you from experiencing the spontaneous joy and authentic connections that actually make life meaningful. You become so focused on how your story will be told that you forget to actually live it. Ironically, the most memorable people are often those who were too busy living authentically to worry about how they'd be remembered."
+    },
+    "time_anxiety": {
+      "title": "The Clock Watcher",
+      "description": "You feel time slipping through your fingers like sand, and you're frantically trying to catch every grain. Every birthday, every deadline, every moment feels like a countdown to your personal apocalypse.",
+      "extended": "Your time anxiety manifests as a constant, low-level panic about the finite nature of your existence. You're acutely aware of time passing and feel genuine distress about opportunities missed, experiences not yet had, and goals not yet achieved. This awareness creates a paradox where your fear of wasting time often prevents you from enjoying the time you have.\n\nYou likely keep detailed schedules, make extensive lists, and feel genuine anxiety when activities don't go according to plan. You might calculate how many years, months, or even days you have left to accomplish various goals, creating artificial deadlines that add pressure to naturally unfolding processes. This can make every leisure activity feel like a potential waste of precious time.\n\nYour anxiety extends to age-related milestones and societal expectations about what should be accomplished by certain ages. You might feel panic about 'falling behind' your peers or missing critical windows for various life experiences. This can lead to rushing into decisions or relationships not because they feel right, but because time feels like it's running out.\n\nThe irony of time anxiety is that it often steals the present moment while trying to protect future ones. Your fear of not having enough time can prevent you from savoring the time you currently have. Learning to balance healthy planning with present-moment awareness is crucial for finding peace with your finite existence."
+    },
+    "death_acceptance": {
+      "title": "The Peaceful Warrior",
+      "description": "You've made friends with mortality and found a strange comfort in life's finite nature. Death doesn't terrify you - it motivates you to live more authentically and love more deeply.",
+      "extended": "Your acceptance of death represents a mature psychological achievement that allows you to live with greater authenticity and purpose. You understand that mortality is not a flaw in the human design but an essential feature that gives weight and meaning to your choices. This acceptance frees you from the anxiety and denial that consume others, allowing you to focus your energy on living rather than avoiding death.\n\nYou've likely done the psychological work necessary to process your fears about dying and found ways to make peace with uncertainty about what comes after. This doesn't mean you're eager to die, but rather that you don't spend your living years in constant dread of dying. You can discuss death openly, make practical preparations for it, and support others who are facing it without becoming overwhelmed.\n\nYour acceptance allows you to take meaningful risks and make authentic choices because you're not paralyzed by the fear of potential consequences. You understand that avoiding all risk of death also means avoiding much of what makes life worth living. This perspective helps you prioritize relationships, experiences, and values over material accumulation or social status.\n\nYour peaceful relationship with mortality often makes you a source of comfort and wisdom for others who struggle with death anxiety. You can sit with others in their fear without trying to fix or minimize it, and you offer a living example that it's possible to acknowledge death without being destroyed by that acknowledgment. Your acceptance becomes a gift not just to yourself but to everyone around you."
+    },
+    "afterlife_terror": {
+      "title": "The Void Gazer",
+      "description": "You're not afraid of being dead - you're terrified of what being dead might feel like. The unknown after death keeps you awake at night, spinning elaborate theories about consciousness and eternity.",
+      "extended": "Your terror focuses specifically on what consciousness might experience after biological death, rather than the dying process itself. You're haunted by questions about whether awareness continues in some form, whether there's judgment or punishment waiting, or whether you'll somehow be trapped in an eternal state of consciousness without a body. These fears can create overwhelming anxiety about the transition from life to death.\n\nYou might find yourself researching near-death experiences, religious teachings about the afterlife, or scientific theories about consciousness in an attempt to find reassurance about what awaits. However, this research often increases rather than decreases your anxiety because it reveals how little is actually known about post-mortem experience and how many conflicting beliefs exist about what happens next.\n\nYour fear might center on specific scenarios: being conscious but unable to communicate or move, facing judgment for your life choices, experiencing eternal boredom or suffering, or simply continuing to exist in some form when you'd prefer to simply cease. These fears can become intrusive thoughts that interfere with your ability to enjoy life or make decisions without considering their potential eternal consequences.\n\nThe challenge with afterlife terror is that it concerns something inherently unknowable, making rational reassurance difficult. Finding peace often requires developing tolerance for uncertainty and focusing on living according to your values regardless of what may or may not come after. Some find comfort in spiritual practices, others in philosophical frameworks that emphasize the unknowability of post-death experience."
+    },
+    "control_freak": {
+      "title": "The Life Manager",
+      "description": "You've appointed yourself CEO of your own mortality, micromanaging every health metric and life choice as if you can negotiate a better deal with death through perfect optimization.",
+      "extended": "Your need to control every aspect of your mortality stems from the terrifying reality that death is ultimately beyond human control. You've responded to this powerlessness by attempting to manage every controllable factor related to your health, safety, and longevity. This gives you the illusion that you can significantly influence when and how you die through careful planning and optimization.\n\nYou likely maintain detailed tracking of health metrics, follow strict routines designed to maximize longevity, and research every possible risk factor in your environment. You might avoid certain activities, foods, or locations based on statistical risks, and you probably have elaborate emergency plans for various scenarios. This constant vigilance gives you a sense of agency in the face of mortality's uncertainty.\n\nYour control strategies extend beyond just physical health to include financial planning, relationship management, and lifestyle choices all designed to minimize risk and maximize your chances of a long, predictable life. You might struggle with accepting that random events, genetic factors, and sheer chance play significant roles in determining lifespan and cause of death.\n\nThe exhausting reality of death-related control strategies is that they often reduce quality of life while trying to preserve quantity of life. Your fear of dying can prevent you from truly living, as you become so focused on avoiding death that you avoid many experiences that make life meaningful. Finding balance requires accepting that some control is healthy and responsible while recognizing that ultimate control over mortality is an impossible and counterproductive goal."
+    },
+    "nihilistic": {
+      "title": "The Meaning Killer",
+      "description": "Death has taught you that nothing matters, so why pretend otherwise? You've embraced the void and decided that if everything ends in nothing, then nothing was ever something to begin with.",
+      "extended": "Your nihilistic worldview uses the inevitability of death as evidence that life lacks inherent meaning or purpose. You see the temporary nature of all human achievements, relationships, and experiences as proof that nothing really matters in any ultimate sense. This perspective can provide a strange comfort by relieving you of the pressure to find meaning or achieve significance in a universe you believe to be fundamentally meaningless.\n\nYou might find yourself detached from the struggles and aspirations that drive others, seeing their efforts as ultimately futile exercises in self-deception. When others chase careers, relationships, or personal growth, you see people desperately trying to create meaning in a meaningless existence. This detachment can protect you from disappointment but also from engagement and connection.\n\nYour nihilism might manifest as dark humor, cynical observations about human nature, or a general sense of being above the petty concerns that occupy others. You see through social conventions, cultural values, and personal ambitions to what you believe is the fundamental emptiness underneath. This can make you feel intellectually superior but emotionally isolated.\n\nThe challenge with nihilistic thinking is that it can become a self-fulfilling prophecy where your belief that nothing matters prevents you from discovering what might actually matter to you personally. While you may be correct that existence lacks inherent, universal meaning, this doesn't necessarily negate the possibility of creating personal meaning or experiencing genuine connection and joy within your finite existence."
+    },
+    "grief_collector": {
+      "title": "The Sorrow Curator",
+      "description": "You don't just experience death - you collect it, catalog it, and somehow make other people's mortality about your own deep understanding of loss. You're a connoisseur of tragedy.",
+      "extended": "Your grief collection patterns involve accumulating and curating experiences of loss, both your own and others', as if building a museum of human mortality. You're drawn to stories of death, attend funerals of people you barely knew, and maintain detailed knowledge about the losses experienced by others. This collection serves multiple psychological functions, from helping you feel prepared for your own losses to positioning you as someone with deep understanding of life's tragic nature.\n\nYou likely have an extensive mental catalog of deaths you've witnessed, heard about, or researched, complete with details about circumstances, reactions, and aftermath. You might save newspaper clippings about tragic deaths, maintain lists of people who've died, or keep detailed memories of every funeral you've attended. This information becomes part of your identity as someone who truly understands loss.\n\nYour grief collection often extends to inserting yourself into others' losses in ways that center your own experience or expertise. You might compare every new loss to previous ones you've known about, offer unsolicited advice based on your extensive experience with death, or share stories about other people's deaths when someone is grieving. This can make you feel important and needed while potentially minimizing others' unique experiences.\n\nThe problematic aspect of grief collecting is that it can prevent you from experiencing your own losses authentically or supporting others in theirs. When you're focused on categorizing and comparing deaths, you might miss the opportunity for genuine mourning or connection. Your extensive knowledge about death can become a barrier to actually feeling and processing the emotions that loss naturally brings."
+    },
+    "immortality_seeker": {
+      "title": "The Death Negotiator",
+      "description": "You're not accepting death - you're actively working to defeat it. You've declared war on mortality itself and you're recruiting science, technology, and sheer willpower to your cause.",
+      "extended": "Your immortality seeking represents an active resistance to accepting mortality as an unchangeable aspect of the human condition. You invest significant time, money, and mental energy into strategies you believe might extend your life indefinitely or at least significantly beyond normal human lifespans. This might include following strict health regimens, researching life extension technologies, or pursuing cutting-edge medical treatments.\n\nYou're likely fascinated by developments in genetic engineering, nanotechnology, artificial intelligence, and other fields that promise to revolutionize human longevity. You might follow the work of life extension researchers, participate in experimental treatments, or make lifestyle choices specifically designed to keep you alive long enough for breakthrough technologies to become available.\n\nYour pursuit of immortality often involves viewing your body as a machine that can be optimized, upgraded, and maintained indefinitely with the right knowledge and resources. You might track biomarkers obsessively, follow complex supplement regimens, or undergo regular testing and treatments designed to reverse or prevent aging processes.\n\nThe psychological challenge of immortality seeking is that it often involves living in a constant state of anxiety about death while simultaneously maintaining hope that you can escape it. This can create enormous pressure to make perfect health choices and stay constantly informed about new developments. Additionally, your focus on extending life might come at the expense of enjoying the life you currently have, creating a paradox where your fear of dying prevents you from truly living."
+    },
+    "death_romantic": {
+      "title": "The Beautiful Ending Poet",
+      "description": "You've turned death into high art, seeing it as the ultimate romantic gesture. In your mind, a beautiful death is better than an ugly life, and you're constantly writing the poetry of your own ending.",
+      "extended": "Your romanticization of death transforms mortality from a biological reality into an aesthetic and emotional experience. You're drawn to the beauty you perceive in death - the peaceful expression of someone who has passed, the poignant grief of survivors, the dramatic potential of final moments. You see death as potentially the most meaningful and beautiful experience of existence, rather than something to be feared or avoided.\n\nYou might fantasize about dying in particularly meaningful ways - saving someone else's life, creating a work of art with your final breath, or passing away in a beautiful location surrounded by loved ones. You're attracted to stories of people who died young but beautifully, seeing their abbreviated lives as somehow more perfect than longer ones that end in decline or mundane circumstances.\n\nYour romanticism extends to the rituals and symbols surrounding death. You're drawn to beautiful cemeteries, elegant funeral rituals, and the poetry that emerges from loss. You might plan your own funeral in detail, not out of practical necessity but because you want your death to be a beautiful experience for others and a fitting conclusion to your life story.\n\nThe danger in romanticizing death is that it can make actual dying seem more appealing than continued living, especially during difficult periods. Your focus on the potential beauty of death might prevent you from finding beauty and meaning in ongoing life. Additionally, your romantic view of death might not prepare you for the often unglamorous and painful realities that frequently accompany actual dying processes."
+    },
+    "existential_warrior": {
+      "title": "The Mortal Philosopher",
+      "description": "You've looked death in the eye and decided to use it as fuel for living. Your awareness of mortality doesn't paralyze you - it liberates you to live with courage and authenticity.",
+      "extended": "Your existential warrior approach to mortality represents a mature integration of death awareness with life engagement. You use the knowledge of your finite existence as motivation to live more courageously, love more deeply, and act more authentically. Rather than being paralyzed by mortality, you're energized by it to make meaningful choices and create significant experiences.\n\nYou understand that death gives weight and urgency to life in ways that immortality never could. This awareness helps you prioritize what truly matters to you rather than getting caught up in trivial concerns or social expectations. You're willing to take meaningful risks, have difficult conversations, and pursue authentic relationships because you know that time is limited and should not be wasted on pretense.\n\nYour warrior approach involves actively confronting the fears and anxieties that mortality creates rather than avoiding them. You've developed strategies for managing death anxiety that allow you to acknowledge it without being controlled by it. This might include philosophical study, spiritual practices, creative expression, or simply maintaining honest conversations about mortality with others.\n\nYour integration of death awareness with life engagement often makes you a source of inspiration and wisdom for others. You demonstrate that it's possible to be fully aware of mortality while still investing deeply in relationships, pursuing meaningful goals, and finding joy in everyday experiences. Your approach shows that acceptance of death doesn't require giving up on life, but rather can enhance the quality and authenticity of living."
+    }
+  }
+}

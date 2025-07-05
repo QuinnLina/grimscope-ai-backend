@@ -1,0 +1,660 @@
+{
+  "testInfo": {
+    "title": "Nuclear Fallout Test",
+    "description": "Test your survival instincts in a radioactive wasteland",
+    "backgroundImage": "assets/images/apoco/nuclear_fallout.png"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Air raid sirens blare across the city. What's your first move?",
+      "options": [
+        {
+          "text": "Grab my emergency go-bag and run to the nearest shelter",
+          "weights": {"prepared": 8, "rational": 7, "survival_instinct": 6, "leadership": 3, "panic_resistance": 7, "adaptability": 5, "resourcefulness": 6, "team_player": 2, "risk_assessment": 8, "mental_toughness": 5}
+        },
+        {
+          "text": "Call family members to warn them first",
+          "weights": {"prepared": 2, "rational": 4, "survival_instinct": 3, "leadership": 6, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 3, "team_player": 9, "risk_assessment": 2, "mental_toughness": 4}
+        },
+        {
+          "text": "Check social media to see what's really happening",
+          "weights": {"prepared": 1, "rational": 2, "survival_instinct": 1, "leadership": 2, "panic_resistance": 1, "adaptability": 3, "resourcefulness": 2, "team_player": 4, "risk_assessment": 1, "mental_toughness": 2}
+        },
+        {
+          "text": "Freeze and hope it's just a drill",
+          "weights": {"prepared": 1, "rational": 1, "survival_instinct": 1, "leadership": 1, "panic_resistance": 1, "adaptability": 1, "resourcefulness": 1, "team_player": 3, "risk_assessment": 1, "mental_toughness": 1}
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "You make it to a public shelter. It's overcrowded and people are panicking. What do you do?",
+      "options": [
+        {
+          "text": "Try to calm people down and organize the chaos",
+          "weights": {"prepared": 5, "rational": 7, "survival_instinct": 4, "leadership": 9, "panic_resistance": 8, "adaptability": 6, "resourcefulness": 5, "team_player": 8, "risk_assessment": 6, "mental_toughness": 7}
+        },
+        {
+          "text": "Find a quiet corner and stay out of everyone's way",
+          "weights": {"prepared": 4, "rational": 6, "survival_instinct": 6, "leadership": 2, "panic_resistance": 5, "adaptability": 5, "resourcefulness": 4, "team_player": 2, "risk_assessment": 7, "mental_toughness": 5}
+        },
+        {
+          "text": "Look for a back exit in case this place gets too dangerous",
+          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 9, "leadership": 3, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 7, "team_player": 1, "risk_assessment": 9, "mental_toughness": 6}
+        },
+        {
+          "text": "Start hyperventilating because this is all too real",
+          "weights": {"prepared": 1, "rational": 1, "survival_instinct": 2, "leadership": 1, "panic_resistance": 1, "adaptability": 2, "resourcefulness": 1, "team_player": 4, "risk_assessment": 1, "mental_toughness": 1}
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "The bombs hit. You survived the initial blast but radiation levels are deadly outside. How long do you stay in the shelter?",
+      "options": [
+        {
+          "text": "At least 48 hours, radiation drops significantly by then",
+          "weights": {"prepared": 9, "rational": 9, "survival_instinct": 7, "leadership": 5, "panic_resistance": 6, "adaptability": 5, "resourcefulness": 6, "team_player": 5, "risk_assessment": 9, "mental_toughness": 6}
+        },
+        {
+          "text": "Two weeks minimum - can't be too careful with radiation",
+          "weights": {"prepared": 8, "rational": 8, "survival_instinct": 6, "leadership": 4, "panic_resistance": 7, "adaptability": 4, "resourcefulness": 5, "team_player": 6, "risk_assessment": 8, "mental_toughness": 7}
+        },
+        {
+          "text": "As soon as the fires die down, I'm getting out of here",
+          "weights": {"prepared": 3, "rational": 2, "survival_instinct": 8, "leadership": 6, "panic_resistance": 4, "adaptability": 8, "resourcefulness": 7, "team_player": 2, "risk_assessment": 2, "mental_toughness": 5}
+        },
+        {
+          "text": "I'll follow whatever the group decides",
+          "weights": {"prepared": 3, "rational": 4, "survival_instinct": 3, "leadership": 2, "panic_resistance": 4, "adaptability": 6, "resourcefulness": 3, "team_player": 9, "risk_assessment": 4, "mental_toughness": 4}
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Food and water are running low in the shelter. An old man collapses from hunger. What's your move?",
+      "options": [
+        {
+          "text": "Give him half of my remaining food",
+          "weights": {"prepared": 4, "rational": 5, "survival_instinct": 3, "leadership": 7, "panic_resistance": 6, "adaptability": 5, "resourcefulness": 4, "team_player": 9, "risk_assessment": 3, "mental_toughness": 6}
+        },
+        {
+          "text": "Organize a rationing system for everyone",
+          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 5, "leadership": 9, "panic_resistance": 7, "adaptability": 7, "resourcefulness": 8, "team_player": 7, "risk_assessment": 8, "mental_toughness": 6}
+        },
+        {
+          "text": "Keep my food hidden - I need to survive too",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 9, "leadership": 2, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 7, "team_player": 1, "risk_assessment": 8, "mental_toughness": 7}
+        },
+        {
+          "text": "Look away - I can't handle watching people suffer",
+          "weights": {"prepared": 2, "rational": 2, "survival_instinct": 2, "leadership": 1, "panic_resistance": 2, "adaptability": 3, "resourcefulness": 2, "team_player": 3, "risk_assessment": 2, "mental_toughness": 1}
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "You venture outside and find a Geiger counter reading 200 roentgens per hour. What does this mean to you?",
+      "options": [
+        {
+          "text": "Dangerous but survivable for short periods with protection",
+          "weights": {"prepared": 8, "rational": 9, "survival_instinct": 7, "leadership": 5, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 7, "team_player": 4, "risk_assessment": 9, "mental_toughness": 6}
+        },
+        {
+          "text": "Immediately lethal - get back inside now",
+          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 8, "leadership": 3, "panic_resistance": 4, "adaptability": 5, "resourcefulness": 5, "team_player": 4, "risk_assessment": 7, "mental_toughness": 5}
+        },
+        {
+          "text": "I have no clue what those numbers mean",
+          "weights": {"prepared": 2, "rational": 3, "survival_instinct": 4, "leadership": 2, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 3, "team_player": 5, "risk_assessment": 2, "mental_toughness": 4}
+        },
+        {
+          "text": "Numbers don't matter - if I'm gonna die, I'm gonna die",
+          "weights": {"prepared": 3, "rational": 2, "survival_instinct": 6, "leadership": 4, "panic_resistance": 7, "adaptability": 5, "resourcefulness": 4, "team_player": 3, "risk_assessment": 1, "mental_toughness": 8}
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "You find a pharmacy that's been looted but still has some supplies. What do you prioritize?",
+      "options": [
+        {
+          "text": "Potassium iodide tablets to protect my thyroid",
+          "weights": {"prepared": 9, "rational": 9, "survival_instinct": 7, "leadership": 4, "panic_resistance": 6, "adaptability": 5, "resourcefulness": 7, "team_player": 4, "risk_assessment": 9, "mental_toughness": 5}
+        },
+        {
+          "text": "Antibiotics and basic medical supplies",
+          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 6, "leadership": 6, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 8, "team_player": 7, "risk_assessment": 7, "mental_toughness": 5}
+        },
+        {
+          "text": "Pain killers - life's about to get very painful",
+          "weights": {"prepared": 4, "rational": 5, "survival_instinct": 5, "leadership": 3, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 5, "team_player": 3, "risk_assessment": 4, "mental_toughness": 4}
+        },
+        {
+          "text": "Whatever I can carry to trade with later",
+          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 7, "leadership": 4, "panic_resistance": 5, "adaptability": 7, "resourcefulness": 9, "team_player": 3, "risk_assessment": 6, "mental_toughness": 6}
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "A family with young children begs to join your group. They have no supplies but the kids are crying from hunger.",
+      "options": [
+        {
+          "text": "Take them in - we'll figure out the resources later",
+          "weights": {"prepared": 3, "rational": 4, "survival_instinct": 2, "leadership": 7, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 4, "team_player": 9, "risk_assessment": 2, "mental_toughness": 6}
+        },
+        {
+          "text": "Share what we can but they can't stay long-term",
+          "weights": {"prepared": 5, "rational": 7, "survival_instinct": 6, "leadership": 6, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 6, "team_player": 6, "risk_assessment": 7, "mental_toughness": 6}
+        },
+        {
+          "text": "Give them directions to the nearest shelter but keep moving",
+          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 8, "leadership": 4, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 6, "team_player": 3, "risk_assessment": 8, "mental_toughness": 5}
+        },
+        {
+          "text": "Turn them away - my group's survival comes first",
+          "weights": {"prepared": 7, "rational": 7, "survival_instinct": 9, "leadership": 3, "panic_resistance": 6, "adaptability": 5, "resourcefulness": 7, "team_player": 1, "risk_assessment": 8, "mental_toughness": 8}
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "You discover a working radio. The emergency broadcast says fallout will clear in 6 months. Your reaction?",
+      "options": [
+        {
+          "text": "Start planning a 6-month survival strategy immediately",
+          "weights": {"prepared": 9, "rational": 9, "survival_instinct": 8, "leadership": 7, "panic_resistance": 7, "adaptability": 8, "resourcefulness": 8, "team_player": 5, "risk_assessment": 9, "mental_toughness": 7}
+        },
+        {
+          "text": "That's too long - look for ways to get to safety zones now",
+          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 7, "leadership": 5, "panic_resistance": 4, "adaptability": 8, "resourcefulness": 7, "team_player": 4, "risk_assessment": 6, "mental_toughness": 5}
+        },
+        {
+          "text": "Don't trust government broadcasts - they're probably lying",
+          "weights": {"prepared": 5, "rational": 4, "survival_instinct": 6, "leadership": 4, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 6, "team_player": 3, "risk_assessment": 5, "mental_toughness": 6}
+        },
+        {
+          "text": "Six months? I'm not lasting six weeks out here",
+          "weights": {"prepared": 2, "rational": 3, "survival_instinct": 3, "leadership": 2, "panic_resistance": 2, "adaptability": 3, "resourcefulness": 3, "team_player": 4, "risk_assessment": 3, "mental_toughness": 2}
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Your Geiger counter starts clicking rapidly near a pile of debris. What's your next move?",
+      "options": [
+        {
+          "text": "Mark the area and warn others to stay away",
+          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 6, "leadership": 8, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 9, "risk_assessment": 9, "mental_toughness": 6}
+        },
+        {
+          "text": "Get out of there immediately and find another route",
+          "weights": {"prepared": 6, "rational": 8, "survival_instinct": 9, "leadership": 3, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 6, "team_player": 4, "risk_assessment": 9, "mental_toughness": 5}
+        },
+        {
+          "text": "Investigate what's causing the radiation - might be important",
+          "weights": {"prepared": 4, "rational": 5, "survival_instinct": 4, "leadership": 5, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 7, "team_player": 3, "risk_assessment": 3, "mental_toughness": 6}
+        },
+        {
+          "text": "Ignore it - I don't have time to worry about every little thing",
+          "weights": {"prepared": 2, "rational": 2, "survival_instinct": 5, "leadership": 3, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 3, "team_player": 2, "risk_assessment": 1, "mental_toughness": 5}
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "You meet other survivors who claim there's a safe zone 50 miles north, but they want all your supplies to join them.",
+      "options": [
+        {
+          "text": "Negotiate - offer half supplies for proof the safe zone exists",
+          "weights": {"prepared": 6, "rational": 8, "survival_instinct": 6, "leadership": 7, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 8, "team_player": 6, "risk_assessment": 8, "mental_toughness": 6}
+        },
+        {
+          "text": "Follow them but keep my supplies hidden",
+          "weights": {"prepared": 7, "rational": 6, "survival_instinct": 7, "leadership": 4, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 8, "team_player": 3, "risk_assessment": 6, "mental_toughness": 6}
+        },
+        {
+          "text": "Give them everything - safety is worth more than supplies",
+          "weights": {"prepared": 3, "rational": 4, "survival_instinct": 4, "leadership": 3, "panic_resistance": 4, "adaptability": 5, "resourcefulness": 2, "team_player": 8, "risk_assessment": 3, "mental_toughness": 4}
+        },
+        {
+          "text": "Tell them to fuck off - it's obviously a scam",
+          "weights": {"prepared": 6, "rational": 5, "survival_instinct": 8, "leadership": 5, "panic_resistance": 6, "adaptability": 4, "resourcefulness": 6, "team_player": 2, "risk_assessment": 7, "mental_toughness": 7}
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Winter is coming and your shelter is barely holding together. What's your priority?",
+      "options": [
+        {
+          "text": "Reinforce the shelter and stockpile heating materials",
+          "weights": {"prepared": 9, "rational": 8, "survival_instinct": 7, "leadership": 6, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 8, "team_player": 5, "risk_assessment": 8, "mental_toughness": 7}
+        },
+        {
+          "text": "Find or build a better shelter before the cold hits",
+          "weights": {"prepared": 7, "rational": 7, "survival_instinct": 8, "leadership": 5, "panic_resistance": 5, "adaptability": 8, "resourcefulness": 9, "team_player": 4, "risk_assessment": 7, "mental_toughness": 6}
+        },
+        {
+          "text": "Look for other survivors to team up with for warmth",
+          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 6, "leadership": 6, "panic_resistance": 5, "adaptability": 7, "resourcefulness": 6, "team_player": 9, "risk_assessment": 6, "mental_toughness": 5}
+        },
+        {
+          "text": "Start migrating south to warmer areas",
+          "weights": {"prepared": 4, "rational": 5, "survival_instinct": 7, "leadership": 4, "panic_resistance": 4, "adaptability": 8, "resourcefulness": 6, "team_player": 3, "risk_assessment": 5, "mental_toughness": 6}
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "You find a hidden government bunker, but it requires a keycard. There's a dead soldier nearby.",
+      "options": [
+        {
+          "text": "Search the soldier respectfully for the keycard",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 8, "leadership": 5, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 8, "team_player": 4, "risk_assessment": 7, "mental_toughness": 6}
+        },
+        {
+          "text": "Try to break in without disturbing the body",
+          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 6, "leadership": 4, "panic_resistance": 5, "adaptability": 7, "resourcefulness": 9, "team_player": 3, "risk_assessment": 6, "mental_toughness": 5}
+        },
+        {
+          "text": "Bury the soldier first, then search for access",
+          "weights": {"prepared": 4, "rational": 5, "survival_instinct": 4, "leadership": 6, "panic_resistance": 6, "adaptability": 4, "resourcefulness": 4, "team_player": 7, "risk_assessment": 4, "mental_toughness": 6}
+        },
+        {
+          "text": "Leave the area - this feels like a trap",
+          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 7, "leadership": 3, "panic_resistance": 5, "adaptability": 5, "resourcefulness": 4, "team_player": 4, "risk_assessment": 8, "mental_toughness": 5}
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Your group leader is making dangerous decisions that could get everyone killed. What do you do?",
+      "options": [
+        {
+          "text": "Challenge their leadership directly and propose better plans",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 6, "leadership": 9, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 6, "team_player": 4, "risk_assessment": 7, "mental_toughness": 8}
+        },
+        {
+          "text": "Try to influence them privately to change course",
+          "weights": {"prepared": 6, "rational": 8, "survival_instinct": 5, "leadership": 6, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 7, "team_player": 7, "risk_assessment": 7, "mental_toughness": 6}
+        },
+        {
+          "text": "Follow orders but prepare to leave if things get worse",
+          "weights": {"prepared": 7, "rational": 6, "survival_instinct": 8, "leadership": 3, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 6, "team_player": 5, "risk_assessment": 8, "mental_toughness": 6}
+        },
+        {
+          "text": "Split from the group and take whoever will come with me",
+          "weights": {"prepared": 5, "rational": 5, "survival_instinct": 9, "leadership": 7, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 7, "team_player": 2, "risk_assessment": 6, "mental_toughness": 7}
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "You discover a working vehicle but it only has enough fuel for 100 miles. Where do you go?",
+      "options": [
+        {
+          "text": "Head to the nearest known safe zone marked on emergency maps",
+          "weights": {"prepared": 8, "rational": 8, "survival_instinct": 6, "leadership": 5, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 6, "risk_assessment": 8, "mental_toughness": 6}
+        },
+        {
+          "text": "Drive to a rural area away from radiation and population",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 8, "leadership": 4, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 7, "team_player": 3, "risk_assessment": 7, "mental_toughness": 6}
+        },
+        {
+          "text": "Use it to scout and return - information is more valuable",
+          "weights": {"prepared": 7, "rational": 9, "survival_instinct": 5, "leadership": 7, "panic_resistance": 7, "adaptability": 7, "resourcefulness": 8, "team_player": 7, "risk_assessment": 9, "mental_toughness": 7}
+        },
+        {
+          "text": "Trade the vehicle for supplies - cars are useless without fuel",
+          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 6, "leadership": 4, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 9, "team_player": 5, "risk_assessment": 6, "mental_toughness": 5}
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "text": "A rival group wants to take over your shelter. They outnumber you 3 to 1. What's your strategy?",
+      "options": [
+        {
+          "text": "Negotiate and offer to share resources instead of fighting",
+          "weights": {"prepared": 5, "rational": 8, "survival_instinct": 4, "leadership": 7, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 6, "team_player": 8, "risk_assessment": 7, "mental_toughness": 5}
+        },
+        {
+          "text": "Fortify defenses and prepare for a siege",
+          "weights": {"prepared": 8, "rational": 6, "survival_instinct": 7, "leadership": 6, "panic_resistance": 7, "adaptability": 5, "resourcefulness": 7, "team_player": 6, "risk_assessment": 6, "mental_toughness": 8}
+        },
+        {
+          "text": "Abandon the shelter quietly and find somewhere else",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 8, "leadership": 3, "panic_resistance": 5, "adaptability": 8, "resourcefulness": 6, "team_player": 4, "risk_assessment": 8, "mental_toughness": 5}
+        },
+        {
+          "text": "Launch a surprise attack while they're not expecting it",
+          "weights": {"prepared": 5, "rational": 4, "survival_instinct": 8, "leadership": 8, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 7, "team_player": 3, "risk_assessment": 4, "mental_toughness": 8}
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "text": "You find a cache of clean water, but drinking it all now versus rationing could mean life or death later.",
+      "options": [
+        {
+          "text": "Strict rationing - make it last as long as possible",
+          "weights": {"prepared": 9, "rational": 9, "survival_instinct": 7, "leadership": 6, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 8, "team_player": 6, "risk_assessment": 9, "mental_toughness": 7}
+        },
+        {
+          "text": "Drink enough to feel healthy, save the rest for emergencies",
+          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 6, "leadership": 5, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 7, "team_player": 5, "risk_assessment": 7, "mental_toughness": 6}
+        },
+        {
+          "text": "Share equally with the group and let fate decide",
+          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 4, "leadership": 6, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 5, "team_player": 9, "risk_assessment": 5, "mental_toughness": 6}
+        },
+        {
+          "text": "Drink as much as I can - who knows when I'll find more",
+          "weights": {"prepared": 3, "rational": 3, "survival_instinct": 8, "leadership": 2, "panic_resistance": 4, "adaptability": 5, "resourcefulness": 4, "team_player": 2, "risk_assessment": 2, "mental_toughness": 5}
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "text": "You encounter radiation sickness symptoms: nausea, fatigue, hair loss. What's your response?",
+      "options": [
+        {
+          "text": "Start immediate treatment protocols if I know them",
+          "weights": {"prepared": 9, "rational": 9, "survival_instinct": 7, "leadership": 5, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 7, "team_player": 4, "risk_assessment": 8, "mental_toughness": 6}
+        },
+        {
+          "text": "Find medical help or someone who knows about radiation",
+          "weights": {"prepared": 6, "rational": 8, "survival_instinct": 6, "leadership": 4, "panic_resistance": 5, "adaptability": 7, "resourcefulness": 7, "team_player": 8, "risk_assessment": 7, "mental_toughness": 5}
+        },
+        {
+          "text": "Accept that I'm probably dying and make peace with it",
+          "weights": {"prepared": 3, "rational": 4, "survival_instinct": 2, "leadership": 4, "panic_resistance": 6, "adaptability": 3, "resourcefulness": 3, "team_player": 5, "risk_assessment": 4, "mental_toughness": 7}
+        },
+        {
+          "text": "Push through it - mind over matter",
+          "weights": {"prepared": 4, "rational": 3, "survival_instinct": 7, "leadership": 5, "panic_resistance": 6, "adaptability": 5, "resourcefulness": 4, "team_player": 3, "risk_assessment": 3, "mental_toughness": 9}
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "text": "Three months in, you haven't seen another living person in weeks. How do you cope with the isolation?",
+      "options": [
+        {
+          "text": "Create routines and talk to myself to maintain sanity",
+          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 6, "leadership": 4, "panic_resistance": 7, "adaptability": 8, "resourcefulness": 6, "team_player": 3, "risk_assessment": 6, "mental_toughness": 8}
+        },
+        {
+          "text": "Focus entirely on survival tasks to stay busy",
+          "weights": {"prepared": 8, "rational": 7, "survival_instinct": 8, "leadership": 4, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 8, "team_player": 2, "risk_assessment": 7, "mental_toughness": 7}
+        },
+        {
+          "text": "Actively search for other survivors no matter the risk",
+          "weights": {"prepared": 4, "rational": 5, "survival_instinct": 6, "leadership": 6, "panic_resistance": 4, "adaptability": 7, "resourcefulness": 6, "team_player": 9, "risk_assessment": 3, "mental_toughness": 5}
+        },
+        {
+          "text": "Embrace the solitude - other people were always the problem",
+          "weights": {"prepared": 6, "rational": 5, "survival_instinct": 7, "leadership": 2, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 6, "team_player": 1, "risk_assessment": 6, "mental_toughness": 8}
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "text": "You discover a working internet connection. What's the first thing you do?",
+      "options": [
+        {
+          "text": "Look up current radiation levels and safe zones",
+          "weights": {"prepared": 8, "rational": 9, "survival_instinct": 7, "leadership": 5, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 8, "team_player": 4, "risk_assessment": 9, "mental_toughness": 6}
+        },
+        {
+          "text": "Try to contact any surviving family or friends",
+          "weights": {"prepared": 4, "rational": 5, "survival_instinct": 4, "leadership": 4, "panic_resistance": 4, "adaptability": 5, "resourcefulness": 5, "team_player": 9, "risk_assessment": 4, "mental_toughness": 5}
+        },
+        {
+          "text": "Download survival guides and medical information",
+          "weights": {"prepared": 9, "rational": 9, "survival_instinct": 7, "leadership": 5, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 9, "team_player": 4, "risk_assessment": 8, "mental_toughness": 6}
+        },
+        {
+          "text": "Check social media to see what the hell happened",
+          "weights": {"prepared": 3, "rational": 4, "survival_instinct": 3, "leadership": 3, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 4, "team_player": 6, "risk_assessment": 3, "mental_toughness": 4}
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "text": "A group offers you a spot in their well-supplied convoy heading to Canada, but you'd have to leave immediately.",
+      "options": [
+        {
+          "text": "Pack only essentials and go - this might be my only chance",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 8, "leadership": 4, "panic_resistance": 5, "adaptability": 8, "resourcefulness": 6, "team_player": 7, "risk_assessment": 6, "mental_toughness": 6}
+        },
+        {
+          "text": "Ask for time to gather my things and say goodbye",
+          "weights": {"prepared": 5, "rational": 5, "survival_instinct": 4, "leadership": 4, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 4, "team_player": 6, "risk_assessment": 4, "mental_toughness": 4}
+        },
+        {
+          "text": "Decline - I don't trust people I just met",
+          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 7, "leadership": 5, "panic_resistance": 6, "adaptability": 4, "resourcefulness": 6, "team_player": 2, "risk_assessment": 8, "mental_toughness": 7}
+        },
+        {
+          "text": "Try to negotiate for my current group to come too",
+          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 5, "leadership": 8, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 7, "team_player": 9, "risk_assessment": 6, "mental_toughness": 6}
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "text": "You find evidence that the nuclear attack was launched by your own government as a false flag. How do you react?",
+      "options": [
+        {
+          "text": "Focus on survival - politics won't keep me alive",
+          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 9, "leadership": 4, "panic_resistance": 7, "adaptability": 7, "resourcefulness": 7, "team_player": 4, "risk_assessment": 8, "mental_toughness": 8}
+        },
+        {
+          "text": "Document everything and try to spread the truth",
+          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 4, "leadership": 7, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 7, "team_player": 7, "risk_assessment": 4, "mental_toughness": 6}
+        },
+        {
+          "text": "Feel complete despair - everything I believed was a lie",
+          "weights": {"prepared": 2, "rational": 3, "survival_instinct": 2, "leadership": 2, "panic_resistance": 2, "adaptability": 3, "resourcefulness": 3, "team_player": 4, "risk_assessment": 3, "mental_toughness": 2}
+        },
+        {
+          "text": "Use this knowledge to find other government bunkers",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 7, "leadership": 6, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 9, "team_player": 4, "risk_assessment": 6, "mental_toughness": 7}
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "text": "Food is so scarce that people are resorting to cannibalism. You're starving. What's your line?",
+      "options": [
+        {
+          "text": "I'd rather die than cross that line",
+          "weights": {"prepared": 3, "rational": 4, "survival_instinct": 2, "leadership": 5, "panic_resistance": 6, "adaptability": 2, "resourcefulness": 3, "team_player": 6, "risk_assessment": 3, "mental_toughness": 7}
+        },
+        {
+          "text": "Maybe if they were already dead... but I'd never kill for meat",
+          "weights": {"prepared": 4, "rational": 5, "survival_instinct": 6, "leadership": 3, "panic_resistance": 4, "adaptability": 6, "resourcefulness": 5, "team_player": 4, "risk_assessment": 5, "mental_toughness": 6}
+        },
+        {
+          "text": "Survival is survival - morality is a luxury I can't afford",
+          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 9, "leadership": 4, "panic_resistance": 7, "adaptability": 8, "resourcefulness": 7, "team_player": 2, "risk_assessment": 6, "mental_toughness": 8}
+        },
+        {
+          "text": "Find other protein sources - rats, insects, anything else",
+          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 8, "leadership": 5, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 9, "team_player": 5, "risk_assessment": 7, "mental_toughness": 7}
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "text": "You've been surviving for 8 months. A military unit appears and claims they're restoring order. Do you trust them?",
+      "options": [
+        {
+          "text": "Approach cautiously but cooperate if they seem legitimate",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 5, "leadership": 5, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 6, "team_player": 7, "risk_assessment": 7, "mental_toughness": 6}
+        },
+        {
+          "text": "Watch from a distance first to see how they treat others",
+          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 7, "leadership": 4, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 7, "team_player": 5, "risk_assessment": 9, "mental_toughness": 6}
+        },
+        {
+          "text": "Avoid them completely - authority is what caused this mess",
+          "weights": {"prepared": 5, "rational": 5, "survival_instinct": 8, "leadership": 3, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 2, "risk_assessment": 6, "mental_toughness": 7}
+        },
+        {
+          "text": "Surrender immediately - I'm tired of surviving alone",
+          "weights": {"prepared": 3, "rational": 4, "survival_instinct": 3, "leadership": 3, "panic_resistance": 3, "adaptability": 5, "resourcefulness": 3, "team_player": 8, "risk_assessment": 2, "mental_toughness": 3}
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "text": "The radiation is finally clearing, but society as you knew it is gone forever. What's your next move?",
+      "options": [
+        {
+          "text": "Help rebuild civilization with the lessons learned",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 5, "leadership": 9, "panic_resistance": 7, "adaptability": 8, "resourcefulness": 7, "team_player": 9, "risk_assessment": 6, "mental_toughness": 7}
+        },
+        {
+          "text": "Find a small community and live simply off the land",
+          "weights": {"prepared": 7, "rational": 6, "survival_instinct": 6, "leadership": 4, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 7, "team_player": 6, "risk_assessment": 6, "mental_toughness": 6}
+        },
+        {
+          "text": "Keep wandering - I've gotten used to the nomadic life",
+          "weights": {"prepared": 6, "rational": 5, "survival_instinct": 8, "leadership": 3, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 7, "team_player": 2, "risk_assessment": 6, "mental_toughness": 7}
+        },
+        {
+          "text": "Try to find what's left of my old life and family",
+          "weights": {"prepared": 4, "rational": 5, "survival_instinct": 4, "leadership": 4, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 5, "team_player": 8, "risk_assessment": 4, "mental_toughness": 5}
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "text": "Looking back on everything you survived, what kept you going when all hope seemed lost?",
+      "options": [
+        {
+          "text": "The belief that I could rebuild something better",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 5, "leadership": 8, "panic_resistance": 7, "adaptability": 7, "resourcefulness": 6, "team_player": 7, "risk_assessment": 6, "mental_toughness": 8}
+        },
+        {
+          "text": "Pure stubborn refusal to give up and die",
+          "weights": {"prepared": 7, "rational": 6, "survival_instinct": 9, "leadership": 6, "panic_resistance": 8, "adaptability": 7, "resourcefulness": 7, "team_player": 3, "risk_assessment": 6, "mental_toughness": 9}
+        },
+        {
+          "text": "The responsibility I felt toward other survivors",
+          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 5, "leadership": 7, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 5, "team_player": 9, "risk_assessment": 5, "mental_toughness": 7}
+        },
+        {
+          "text": "I honestly don't know - I just kept waking up each day",
+          "weights": {"prepared": 4, "rational": 5, "survival_instinct": 6, "leadership": 4, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 5, "team_player": 5, "risk_assessment": 5, "mental_toughness": 6}
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "nuclear_mastermind",
+      "title": "Nuclear Mastermind",
+      "shortDescription": "You're the rare survivor who not only lived through nuclear hell but thrived in it. Your combination of preparation, rational thinking, and calculated risk-taking makes you the ultimate post-apocalyptic survivor.",
+      "extendedDescription": [
+        "When the bombs fell, you weren't just ready - you were fucking prepared for this exact scenario. While others panicked and made fatal mistakes, you executed survival protocols like you'd been training for nuclear war your entire life. Your knowledge of radiation, supply management, and tactical thinking kept you alive when 99% of the population perished.",
+        "Your approach to survival is methodical and ruthless when necessary. You understand that sentiment is a luxury the apocalypse doesn't afford, but you're not a psychopath - you make hard choices based on logic and long-term survival prospects. Other survivors look to you for leadership because your decisions consistently keep people alive.",
+        "What sets you apart is your ability to adapt rapidly while maintaining core survival principles. You've learned to read radiation levels like weather reports, negotiate with desperate people without getting robbed or killed, and make split-second decisions about who to trust and who to avoid. Your mental toughness has been forged in radioactive fire.",
+        "You're not just surviving the nuclear wasteland - you're positioning yourself to be a leader in whatever civilization emerges from the ashes. Your combination of practical skills, strategic thinking, and hard-earned wisdom makes you invaluable in any group lucky enough to have you."
+      ]
+    },
+    {
+      "id": "radiation_ranger",
+      "title": "Radiation Ranger",
+      "shortDescription": "You've become a master of navigating the radioactive wasteland. Your knowledge of radiation and survival skills make you the go-to person for dangerous missions in contaminated zones.",
+      "extendedDescription": [
+        "The nuclear wasteland has become your domain. Where others see death and poison, you see opportunity and calculated risk. Your intimate understanding of radiation levels, fallout patterns, and contamination zones makes you invaluable to any survivor group brave enough to venture into hot zones for supplies or information.",
+        "You've developed an almost supernatural ability to read the signs of the wasteland - the click of a Geiger counter tells you stories that others can't comprehend. You know which ruins might hold medical supplies, which water sources are still clean, and which routes will keep you alive when crossing contaminated territory.",
+        "Your survival instincts have been honed to razor sharpness through months of navigating deadly environments. You've learned to think three steps ahead, always having escape routes planned and backup plans for your backup plans. Other survivors respect your expertise, even if they think you're slightly crazy for the risks you take.",
+        "While you excel in the wasteland, you sometimes struggle with the human element of survival. Your focus on environmental threats and resource management can make you seem cold or calculating to others, but those who've seen you in action know that your skills have saved countless lives in impossible situations."
+      ]
+    },
+    {
+      "id": "tactical_survivor",
+      "title": "Tactical Survivor",
+      "shortDescription": "You approach the apocalypse like a military operation. Your strategic thinking and leadership skills help you build and protect survivor communities against all threats.",
+      "extendedDescription": [
+        "You treat survival like warfare because that's exactly what it is. The nuclear apocalypse didn't just destroy civilization - it created a battlefield where only the tactically minded survive. Your ability to assess threats, organize defenses, and lead others through crisis situations makes you a natural commander in this new world.",
+        "Your strength lies in seeing the bigger picture while managing critical details. You understand that survival isn't just about finding food and water - it's about building sustainable communities, establishing trade relationships, and creating defensive strategies against both environmental hazards and human threats. You think in terms of supply chains, patrol routes, and strategic advantages.",
+        "Other survivors gravitate toward your leadership because you make decisions based on logic rather than emotion. You're willing to make the hard choices that keep groups alive, even when those choices are unpopular. Your ability to maintain discipline and focus during chaos has saved countless lives and created pockets of stability in the wasteland.",
+        "Your challenge is balancing tactical necessity with human compassion. Sometimes your military-style approach can alienate potential allies or create internal tension within your group. However, when the shit hits the fan and difficult decisions need to be made, everyone looks to you to guide them through the storm."
+      ]
+    },
+    {
+      "id": "community_builder",
+      "title": "Community Builder",
+      "shortDescription": "You believe that humanity's strength lies in cooperation. Your ability to bring people together and maintain group morale makes you essential for rebuilding civilization from the ashes.",
+      "extendedDescription": [
+        "In a world where trust is scarce and betrayal can mean death, you've chosen the harder path of building bridges instead of walls. Your natural ability to read people, mediate conflicts, and foster cooperation has made you the heart of whatever survivor community you join. You understand that long-term survival depends on more than just individual skills - it requires functioning human societies.",
+        "Your talent for organization and resource sharing has kept groups alive when selfish hoarding would have doomed everyone. You've learned to balance individual needs with group survival, creating fair rationing systems and work assignments that prevent the internal conflicts that destroy most survivor communities. People trust you because you consistently put the group's welfare above your own immediate interests.",
+        "What makes you invaluable is your ability to maintain hope and humanity in impossible circumstances. When others become hardened and cynical, you remind people what they're fighting to preserve. Your emotional intelligence helps you identify potential leaders, resolve personality conflicts, and integrate new members without destabilizing existing group dynamics.",
+        "Your weakness is sometimes being too trusting or optimistic about human nature. Your desire to help everyone can put you and your group at risk when dealing with raiders, con artists, or people who've been broken by the apocalypse. However, your ability to rebuild the social bonds that make civilization possible ensures that whatever emerges from this disaster will be worth living in."
+      ]
+    },
+    {
+      "id": "lone_wolf",
+      "title": "Lone Wolf Survivor",
+      "shortDescription": "You've learned that in the nuclear wasteland, the only person you can truly rely on is yourself. Your self-sufficiency and independence have kept you alive when groups have fallen apart.",
+      "extendedDescription": [
+        "The apocalypse confirmed what you always suspected - other people are the real danger. While others waste energy on group dynamics and emotional needs, you've focused on becoming completely self-sufficient. Your ability to survive alone in hostile territory, make quick decisions without consensus, and avoid the complications that destroy group cohesion has kept you alive when larger communities have collapsed.",
+        "Your survival strategy is built on mobility, adaptability, and minimal dependencies. You've learned to travel light, think fast, and trust your instincts above all else. When situations turn bad, you can disappear into the wasteland without worrying about others slowing you down or making noise that attracts threats. Your knowledge of solitary survival techniques is unmatched.",
+        "What others see as paranoia, you recognize as healthy caution. You've watched too many good people die because they trusted the wrong person or stayed loyal to failing groups. Your emotional detachment might seem cold, but it's what allows you to make rational decisions when others are paralyzed by sentiment or social obligations.",
+        "Your challenge is recognizing when cooperation might actually benefit you without compromising your independence. Some situations require teamwork, and your reluctance to work with others can limit your options or force you into unnecessarily dangerous solo missions. However, your self-reliance ensures that you'll be among the last survivors standing when the dust settles."
+      ]
+    },
+    {
+      "id": "resource_master",
+      "title": "Resource Master",
+      "shortDescription": "You've turned scavenging and trading into an art form. Your ability to find, preserve, and trade valuable resources makes you wealthy by wasteland standards.",
+      "extendedDescription": [
+        "In the post-nuclear economy where bottle caps might be worth more than gold, you've become the ultimate resource specialist. Your talent for finding valuable supplies in unlikely places, preserving resources in harsh conditions, and negotiating favorable trades has made you one of the most successful survivors in the wasteland. You understand that information, supplies, and connections are the new currency.",
+        "Your survival strategy revolves around creating value and building trade networks. While others fight over scraps, you've learned to identify what people actually need versus what they think they need. Your knowledge of preservation techniques, hidden caches, and supply routes gives you advantages that combat skills alone can't match. You're the person others come to when they need something specific.",
+        "What sets you apart is your long-term thinking about resource management. You don't just collect supplies - you understand depreciation, trade values, and market dynamics in a world where traditional economics no longer apply. Your ability to anticipate shortages and stockpile accordingly has made you indispensable to multiple survivor communities.",
+        "Your weakness is sometimes prioritizing profit over people, leading to ethical dilemmas when desperate survivors can't afford what they need to live. Your focus on material wealth can also make you a target for raiders or create resentment within communities. However, your resource management skills are essential for any group that wants to thrive rather than merely survive in the new world."
+      ]
+    },
+    {
+      "id": "adaptive_survivor",
+      "title": "Adaptive Survivor",
+      "shortDescription": "You roll with whatever the wasteland throws at you. Your flexibility and quick thinking have helped you navigate constantly changing threats and opportunities.",
+      "extendedDescription": [
+        "If there's one thing the nuclear apocalypse has taught you, it's that rigid plans get you killed. Your superpower is adapting to rapidly changing circumstances without losing your cool. When other survivors are still trying to apply pre-war logic to post-war problems, you've already shifted gears and found new solutions. Your mental flexibility has been the key to your survival.",
+        "Your approach to the wasteland is experimental and opportunistic. You're not locked into any single survival strategy - instead, you read situations as they develop and adjust your tactics accordingly. This has allowed you to thrive in diverse environments, from urban ruins to rural wastelands, and work effectively with different types of survivor groups.",
+        "What makes you valuable is your ability to learn quickly from both successes and failures. You don't get stuck mourning the old world or fixated on how things 'should' work. Instead, you embrace the new reality and find ways to turn challenges into advantages. Your optimism and creativity inspire others to think outside the box when facing impossible situations.",
+        "Your challenge is sometimes lacking the deep specialization that extreme situations demand. Your jack-of-all-trades approach might leave you less prepared for specific threats like radiation poisoning or combat situations. However, your adaptability ensures that you'll find ways to survive scenarios that would doom more rigid thinkers."
+      ]
+    },
+    {
+      "id": "mental_fortress",
+      "title": "Mental Fortress",
+      "shortDescription": "Your psychological resilience is your greatest weapon. When others break under the pressure of the apocalypse, your mental toughness keeps you focused on survival.",
+      "extendedDescription": [
+        "The nuclear apocalypse is as much a psychological war as a physical one, and you're winning on both fronts. Your mental toughness has been forged in the crucible of unimaginable horror, allowing you to function effectively when others are paralyzed by trauma, despair, or panic. You've learned to compartmentalize emotions and focus on what needs to be done, regardless of how terrible the circumstances become.",
+        "Your psychological resilience manifests in your ability to make hard decisions without being crushed by guilt, witness horrible events without becoming paralyzed, and maintain focus during crisis situations when others are falling apart. You've developed mental techniques for managing stress, fear, and isolation that keep you functional when the world seems determined to drive you insane.",
+        "What others admire about you is your unshakeable determination and emotional stability. When groups are on the verge of panic or despair, your calm presence and rational thinking help stabilize the situation. You're often called upon to make the decisions that others can't handle emotionally, and your ability to bear that psychological burden makes you invaluable as a leader or advisor.",
+        "Your weakness is sometimes becoming emotionally disconnected from the human cost of survival. Your focus on mental toughness can make you seem cold or unfeeling to others who are struggling with trauma. However, your psychological strength is often the foundation that allows entire communities to hold together when everything else is falling apart."
+      ]
+    },
+    {
+      "id": "wasteland_wanderer",
+      "title": "Wasteland Wanderer",
+      "shortDescription": "You've survived through luck, stubbornness, and a refusal to give up. You're not the most prepared or skilled, but you're still breathing when many others aren't.",
+      "extendedDescription": [
+        "You're living proof that sometimes survival is less about perfect preparation and more about sheer fucking determination to keep going. You might not have all the answers, the best gear, or the most refined strategies, but you have something equally valuable - an unbreakable will to live and an ability to stumble through disasters that would kill more 'qualified' survivors.",
+        "Your survival has been a combination of good instincts, decent luck, and a talent for learning from your mistakes without dying in the process. You've picked up survival skills through trial and error, formed alliances based on gut feelings rather than strategic planning, and somehow managed to avoid the worst disasters through a mixture of caution and circumstance.",
+        "What keeps you alive is your authenticity and relatability to other survivors. You're not intimidating or threatening, which makes people more likely to help you or accept you into their groups. Your honest reactions to the horrors of the wasteland remind others of their own humanity, and your determination to keep going despite everything inspires hope in dark times.",
+        "Your challenge is building the specialized skills and knowledge that long-term survival requires. Your generalist approach and learning-as-you-go strategy works for basic survival, but may leave you vulnerable to specific threats or unable to contribute meaningfully to advanced survivor communities. However, your proof that ordinary people can survive extraordinary circumstances gives hope to everyone still fighting to stay alive."
+      ]
+    }
+  ]
+}

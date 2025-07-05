@@ -1,0 +1,674 @@
+{
+  "testId": "suppressed-emotions",
+  "title": "Suppressed Emotion Detector",
+  "description": "Which emotions are you unconsciously bottling up?",
+  "questions": [
+    {
+      "question": "When someone asks 'How are you?' your automatic response is:",
+      "answers": [
+        {
+          "text": "I'm fine! (even when you're definitely not)",
+          "traits": {"suppressed_sadness": 4, "people_pleaser": 3, "performer": 2, "suppressed_truth": 1, "suppressed_pain": 0}
+        },
+        {
+          "text": "Great! (with forced enthusiasm that feels hollow)",
+          "traits": {"suppressed_depression": 4, "faker": 4, "performer": 3, "suppressed_sadness": 2, "suppressed_truth": 1}
+        },
+        {
+          "text": "Can't complain (but you absolutely could for hours)",
+          "traits": {"suppressed_anger": 4, "resigned": 3, "bitter": 2, "suppressed_resentment": 2, "suppressed_truth": 1}
+        },
+        {
+          "text": "Living the dream (with heavy sarcasm)",
+          "traits": {"suppressed_bitterness": 4, "cynical": 4, "deflector": 3, "suppressed_anger": 2, "suppressed_sadness": 1}
+        },
+        {
+          "text": "Actually tell them honestly how you're feeling",
+          "traits": {"emotionally_healthy": 4, "authentic": 3, "integrated": 3, "expressive": 2, "balanced": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your jaw hurts frequently because you:",
+      "answers": [
+        {
+          "text": "Clench it tightly while sleeping from stress",
+          "traits": {"suppressed_anger": 4, "stressed": 4, "controller": 3, "suppressed_anxiety": 2, "suppressed_rage": 1}
+        },
+        {
+          "text": "Grind your teeth relentlessly at night",
+          "traits": {"suppressed_anxiety": 4, "tense": 4, "worried": 3, "suppressed_fear": 2, "suppressed_stress": 1}
+        },
+        {
+          "text": "Hold extreme tension there throughout the day",
+          "traits": {"suppressed_rage": 4, "controlled": 4, "volcano": 3, "suppressed_anger": 3, "suppressed_fury": 2}
+        },
+        {
+          "text": "Literally bite your tongue to keep from speaking",
+          "traits": {"suppressed_truth": 4, "silenced": 4, "withholder": 3, "suppressed_voice": 3, "suppressed_expression": 2}
+        },
+        {
+          "text": "Don't experience chronic jaw pain or tension",
+          "traits": {"emotionally_healthy": 4, "relaxed": 3, "balanced": 3, "integrated": 2, "healthy": 2}
+        }
+      ]
+    },
+    {
+      "question": "When you feel tears beginning to form, you:",
+      "answers": [
+        {
+          "text": "Swallow hard and force them back down",
+          "traits": {"suppressed_sadness": 4, "controller": 4, "stoic": 3, "suppressed_grief": 2, "suppressed_pain": 1}
+        },
+        {
+          "text": "Immediately make a joke to deflect and distract",
+          "traits": {"suppressed_pain": 4, "deflector": 4, "comedian": 3, "suppressed_sadness": 2, "suppressed_vulnerability": 2}
+        },
+        {
+          "text": "Excuse yourself to be alone with your shame",
+          "traits": {"suppressed_vulnerability": 4, "ashamed": 4, "private": 3, "suppressed_sadness": 2, "suppressed_shame": 2}
+        },
+        {
+          "text": "Get angry at yourself for being weak",
+          "traits": {"suppressed_grief": 4, "self_critic": 4, "harsh": 3, "suppressed_sadness": 3, "suppressed_self_compassion": 2}
+        },
+        {
+          "text": "Allow them to flow when it feels appropriate",
+          "traits": {"emotionally_healthy": 4, "authentic": 3, "expressive": 3, "integrated": 2, "balanced": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your body randomly tenses up and goes into alert mode when:",
+      "answers": [
+        {
+          "text": "Someone raises their voice even slightly",
+          "traits": {"suppressed_trauma": 4, "hypervigilant": 4, "triggered": 4, "suppressed_fear": 3, "suppressed_terror": 2}
+        },
+        {
+          "text": "Plans change unexpectedly without warning",
+          "traits": {"suppressed_anxiety": 4, "controller": 3, "rigid": 3, "suppressed_control": 3, "suppressed_fear": 2}
+        },
+        {
+          "text": "You need to set a boundary with someone",
+          "traits": {"suppressed_assertiveness": 4, "people_pleaser": 4, "conflict_avoider": 3, "suppressed_boundaries": 3, "suppressed_anger": 2}
+        },
+        {
+          "text": "Someone tries to get emotionally close to you",
+          "traits": {"suppressed_intimacy": 4, "avoidant": 4, "guarded": 3, "suppressed_vulnerability": 3, "suppressed_trust": 2}
+        },
+        {
+          "text": "Only during genuinely stressful or dangerous situations",
+          "traits": {"emotionally_healthy": 4, "regulated": 3, "balanced": 3, "integrated": 2, "appropriate": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your unexplained headaches most often occur after:",
+      "answers": [
+        {
+          "text": "Pretending everything is perfectly okay",
+          "traits": {"suppressed_truth": 4, "faker": 4, "performer": 3, "suppressed_pain": 3, "suppressed_authenticity": 2}
+        },
+        {
+          "text": "Spending time with your family",
+          "traits": {"suppressed_resentment": 4, "triggered": 4, "family_stress": 3, "suppressed_anger": 3, "suppressed_trauma": 2}
+        },
+        {
+          "text": "Holding in what you really want to say",
+          "traits": {"suppressed_anger": 4, "silenced": 4, "withholder": 3, "suppressed_expression": 3, "suppressed_truth": 2}
+        },
+        {
+          "text": "Forcing yourself to be social when drained",
+          "traits": {"suppressed_exhaustion": 4, "drained": 4, "people_pleaser": 3, "suppressed_boundaries": 3, "suppressed_needs": 2}
+        },
+        {
+          "text": "I rarely get unexplained headaches",
+          "traits": {"emotionally_healthy": 4, "balanced": 3, "expressive": 2, "integrated": 2, "healthy": 2}
+        }
+      ]
+    },
+    {
+      "question": "When you feel genuinely angry, you typically:",
+      "answers": [
+        {
+          "text": "Smile and insist it's no big deal at all",
+          "traits": {"suppressed_rage": 4, "people_pleaser": 4, "faker": 3, "suppressed_anger": 3, "suppressed_authenticity": 2}
+        },
+        {
+          "text": "Go completely silent and shut down",
+          "traits": {"suppressed_fury": 4, "imploder": 4, "withdrawer": 3, "suppressed_expression": 3, "suppressed_communication": 2}
+        },
+        {
+          "text": "Feel it as physical pain in your stomach",
+          "traits": {"suppressed_anger": 4, "somatizer": 4, "embodied": 3, "suppressed_rage": 2, "suppressed_expression": 2}
+        },
+        {
+          "text": "Channel it into frantic productivity or exercise",
+          "traits": {"suppressed_aggression": 4, "sublimator": 3, "redirector": 3, "suppressed_anger": 2, "controller": 2}
+        },
+        {
+          "text": "Express it clearly and appropriately",
+          "traits": {"emotionally_healthy": 4, "assertive": 3, "expressive": 3, "integrated": 2, "balanced": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your sleep is most disrupted by:",
+      "answers": [
+        {
+          "text": "Replaying conversations where you didn't speak up",
+          "traits": {"suppressed_assertiveness": 4, "regretful": 4, "ruminator": 3, "suppressed_voice": 3, "suppressed_truth": 2}
+        },
+        {
+          "text": "Waking up with your heart racing inexplicably",
+          "traits": {"suppressed_anxiety": 4, "stressed": 4, "panicked": 3, "suppressed_fear": 3, "suppressed_trauma": 2}
+        },
+        {
+          "text": "Dreams where you're screaming but no sound comes",
+          "traits": {"suppressed_rage": 4, "silenced": 4, "voiceless": 4, "suppressed_expression": 3, "suppressed_fury": 3}
+        },
+        {
+          "text": "Feeling exhausted despite sleeping for hours",
+          "traits": {"suppressed_depression": 4, "depleted": 4, "heavy": 3, "suppressed_sadness": 3, "suppressed_energy": 2}
+        },
+        {
+          "text": "Generally sleeping peacefully and restoratively",
+          "traits": {"emotionally_healthy": 4, "peaceful": 3, "balanced": 3, "integrated": 2, "relaxed": 2}
+        }
+      ]
+    },
+    {
+      "question": "You get inexplicably irritated and snappy when:",
+      "answers": [
+        {
+          "text": "People around you seem too happy or carefree",
+          "traits": {"suppressed_envy": 4, "bitter": 4, "resentful": 3, "suppressed_sadness": 3, "suppressed_joy": 2}
+        },
+        {
+          "text": "Someone asks if you're okay or need help",
+          "traits": {"suppressed_pain": 4, "defensive": 4, "pride": 3, "suppressed_vulnerability": 3, "suppressed_needs": 2}
+        },
+        {
+          "text": "You have to comfort or support others",
+          "traits": {"suppressed_neediness": 4, "depleted": 4, "caretaker_fatigue": 3, "suppressed_boundaries": 3, "suppressed_exhaustion": 2}
+        },
+        {
+          "text": "Things are going too well in your life",
+          "traits": {"suppressed_fear": 4, "self_sabotager": 4, "undeserving": 3, "suppressed_unworthiness": 3, "suppressed_anxiety": 2}
+        },
+        {
+          "text": "Only when there's a legitimate reason to be irritated",
+          "traits": {"emotionally_healthy": 4, "balanced": 3, "aware": 3, "proportional": 2, "integrated": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your stomach problems or digestive issues flare up when:",
+      "answers": [
+        {
+          "text": "You have to spend time with certain people",
+          "traits": {"suppressed_disgust": 4, "somatizer": 4, "body_wisdom": 3, "suppressed_boundaries": 3, "suppressed_revulsion": 2}
+        },
+        {
+          "text": "You're keeping secrets or hiding something",
+          "traits": {"suppressed_guilt": 4, "conflicted": 4, "heavy": 3, "suppressed_shame": 3, "suppressed_truth": 2}
+        },
+        {
+          "text": "You can't say no even when overwhelmed",
+          "traits": {"suppressed_boundaries": 4, "overwhelmed": 4, "people_pleaser": 3, "suppressed_limits": 3, "suppressed_needs": 2}
+        },
+        {
+          "text": "You're pretending to be happy when miserable",
+          "traits": {"suppressed_misery": 4, "performer": 4, "faker": 3, "suppressed_depression": 3, "suppressed_authenticity": 2}
+        },
+        {
+          "text": "Only with actual dietary or medical issues",
+          "traits": {"emotionally_healthy": 4, "aware": 3, "balanced": 3, "integrated": 2, "medical": 1}
+        }
+      ]
+    },
+    {
+      "question": "You feel like internally screaming when:",
+      "answers": [
+        {
+          "text": "No one notices that you're struggling inside",
+          "traits": {"suppressed_desperation": 4, "invisible": 4, "neglected": 4, "suppressed_pain": 3, "suppressed_needs": 3}
+        },
+        {
+          "text": "You have to be the responsible one again",
+          "traits": {"suppressed_resentment": 4, "burdened": 4, "parentified": 3, "suppressed_anger": 3, "suppressed_exhaustion": 2}
+        },
+        {
+          "text": "People assume you're always fine and strong",
+          "traits": {"suppressed_pain": 4, "misunderstood": 4, "strong_facade": 3, "suppressed_vulnerability": 3, "suppressed_struggle": 2}
+        },
+        {
+          "text": "You feel trapped in your current life",
+          "traits": {"suppressed_trapped": 4, "suffocated": 4, "cage": 4, "suppressed_freedom": 3, "suppressed_despair": 3}
+        },
+        {
+          "text": "Rarely - you process and express emotions healthily",
+          "traits": {"emotionally_healthy": 4, "expressed": 4, "integrated": 3, "balanced": 3, "healthy": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your emotional numbness feels most like:",
+      "answers": [
+        {
+          "text": "A protective shield against further hurt",
+          "traits": {"suppressed_everything": 4, "dissociated": 4, "protected": 3, "suppressed_vulnerability": 3, "suppressed_pain": 2}
+        },
+        {
+          "text": "Being submerged underwater, muffled and distant",
+          "traits": {"suppressed_depression": 4, "drowning": 4, "submerged": 4, "suppressed_sadness": 3, "suppressed_life": 2}
+        },
+        {
+          "text": "Watching life happen through thick glass",
+          "traits": {"suppressed_connection": 4, "detached": 4, "observer": 3, "suppressed_presence": 3, "suppressed_engagement": 2}
+        },
+        {
+          "text": "The only way you know how to survive",
+          "traits": {"suppressed_trauma": 4, "survivor": 4, "necessity": 4, "suppressed_coping": 3, "suppressed_safety": 2}
+        },
+        {
+          "text": "I don't experience chronic emotional numbness",
+          "traits": {"emotionally_healthy": 4, "connected": 4, "present": 3, "feeling": 3, "alive": 2}
+        }
+      ]
+    },
+    {
+      "question": "When someone hurts or disappoints you, you typically:",
+      "answers": [
+        {
+          "text": "Act like it didn't happen or affect you",
+          "traits": {"suppressed_hurt": 4, "denier": 4, "minimizer": 3, "suppressed_pain": 3, "suppressed_impact": 2}
+        },
+        {
+          "text": "Make excuses for their behavior",
+          "traits": {"suppressed_anger": 4, "enabler": 4, "justifier": 3, "suppressed_boundaries": 3, "suppressed_standards": 2}
+        },
+        {
+          "text": "Hurt yourself more by obsessing over it",
+          "traits": {"suppressed_pain": 4, "ruminator": 4, "self_torturer": 3, "suppressed_healing": 3, "suppressed_self_care": 2}
+        },
+        {
+          "text": "Plan elaborate revenge you'll never execute",
+          "traits": {"suppressed_rage": 4, "fantasizer": 4, "vengeful": 3, "suppressed_action": 3, "suppressed_power": 2}
+        },
+        {
+          "text": "Address it directly and honestly with them",
+          "traits": {"emotionally_healthy": 4, "assertive": 4, "direct": 3, "confrontive": 2, "mature": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your chest feels tight and constricted when:",
+      "answers": [
+        {
+          "text": "You think about your uncertain future",
+          "traits": {"suppressed_anxiety": 4, "fearful": 4, "worried": 3, "suppressed_fear": 3, "suppressed_control": 2}
+        },
+        {
+          "text": "Someone shows you genuine care or affection",
+          "traits": {"suppressed_worthlessness": 4, "undeserving": 4, "shame": 3, "suppressed_self_worth": 3, "suppressed_love": 2}
+        },
+        {
+          "text": "Certain memories surface unexpectedly",
+          "traits": {"suppressed_grief": 4, "haunted": 4, "triggered": 3, "suppressed_trauma": 3, "suppressed_past": 2}
+        },
+        {
+          "text": "You have to be vulnerable with someone",
+          "traits": {"suppressed_fear": 4, "guarded": 4, "defended": 3, "suppressed_openness": 3, "suppressed_trust": 2}
+        },
+        {
+          "text": "Only during actual physical exertion or illness",
+          "traits": {"emotionally_healthy": 4, "balanced": 3, "aware": 3, "physical": 2, "healthy": 2}
+        }
+      ]
+    },
+    {
+      "question": "You find yourself dissociating or spacing out most when:",
+      "answers": [
+        {
+          "text": "Emotional situations become too intense",
+          "traits": {"suppressed_overwhelm": 4, "flooder": 4, "escape_artist": 3, "suppressed_intensity": 3, "suppressed_feeling": 2}
+        },
+        {
+          "text": "You're in situations that remind you of your past",
+          "traits": {"suppressed_trauma": 4, "triggered": 4, "time_traveler": 3, "suppressed_memories": 3, "suppressed_safety": 2}
+        },
+        {
+          "text": "People expect emotional responses from you",
+          "traits": {"suppressed_emptiness": 4, "performer": 4, "hollow": 3, "suppressed_authenticity": 3, "suppressed_feeling": 2}
+        },
+        {
+          "text": "You start to realize how you actually feel",
+          "traits": {"suppressed_truth": 4, "avoider": 4, "denier": 3, "suppressed_awareness": 3, "suppressed_reality": 2}
+        },
+        {
+          "text": "I stay present and grounded in most situations",
+          "traits": {"emotionally_healthy": 4, "grounded": 4, "present": 3, "stable": 2, "integrated": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your emotional eating patterns happen most when:",
+      "answers": [
+        {
+          "text": "You can't find words for what's wrong",
+          "traits": {"suppressed_communication": 4, "stuffer": 4, "wordless": 3, "suppressed_expression": 3, "suppressed_language": 2}
+        },
+        {
+          "text": "You feel a deep emptiness inside",
+          "traits": {"suppressed_loneliness": 4, "filler": 4, "void": 4, "suppressed_connection": 3, "suppressed_meaning": 2}
+        },
+        {
+          "text": "You're angry but can't express it",
+          "traits": {"suppressed_anger": 4, "swallower": 4, "contained": 3, "suppressed_rage": 3, "suppressed_voice": 2}
+        },
+        {
+          "text": "You need comfort that no one else provides",
+          "traits": {"suppressed_neediness": 4, "self_soother": 4, "caretaker": 3, "suppressed_support": 3, "suppressed_nurturing": 2}
+        },
+        {
+          "text": "I have a healthy, conscious relationship with food",
+          "traits": {"emotionally_healthy": 4, "balanced": 4, "mindful": 3, "conscious": 2, "integrated": 2}
+        }
+      ]
+    },
+    {
+      "question": "You feel most emotionally exhausted after:",
+      "answers": [
+        {
+          "text": "Pretending to be okay for others",
+          "traits": {"suppressed_depression": 4, "performer": 4, "facade": 3, "suppressed_truth": 3, "suppressed_authenticity": 2}
+        },
+        {
+          "text": "Being around certain draining people",
+          "traits": {"suppressed_boundaries": 4, "drained": 4, "energy_vampire": 3, "suppressed_protection": 3, "suppressed_limits": 2}
+        },
+        {
+          "text": "Holding in your real opinions and thoughts",
+          "traits": {"suppressed_authenticity": 4, "silenced": 4, "fake": 3, "suppressed_truth": 3, "suppressed_voice": 2}
+        },
+        {
+          "text": "Managing everyone else's emotions and needs",
+          "traits": {"suppressed_needs": 4, "caretaker": 4, "codependent": 3, "suppressed_self": 3, "suppressed_boundaries": 2}
+        },
+        {
+          "text": "Only after genuine physical or mental exertion",
+          "traits": {"emotionally_healthy": 4, "balanced": 3, "appropriate": 3, "proportional": 2, "realistic": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your muscles are chronically tightest in your:",
+      "answers": [
+        {
+          "text": "Shoulders (from carrying everyone's burdens)",
+          "traits": {"suppressed_responsibility": 4, "overburdened": 4, "atlas": 3, "suppressed_weight": 3, "suppressed_limits": 2}
+        },
+        {
+          "text": "Neck (from holding back your voice)",
+          "traits": {"suppressed_expression": 4, "silenced": 4, "choked": 3, "suppressed_voice": 3, "suppressed_truth": 2}
+        },
+        {
+          "text": "Back (from lack of support and carrying alone)",
+          "traits": {"suppressed_abandonment": 4, "unsupported": 4, "isolated": 3, "suppressed_support": 3, "suppressed_help": 2}
+        },
+        {
+          "text": "Jaw (from biting back anger and words)",
+          "traits": {"suppressed_rage": 4, "controller": 4, "clenched": 3, "suppressed_anger": 3, "suppressed_expression": 2}
+        },
+        {
+          "text": "They're generally relaxed and comfortable",
+          "traits": {"emotionally_healthy": 4, "relaxed": 3, "balanced": 3, "tension_free": 2, "healthy": 2}
+        }
+      ]
+    },
+    {
+      "question": "You most want to cry when:",
+      "answers": [
+        {
+          "text": "You see others being comforted and held",
+          "traits": {"suppressed_longing": 4, "neglected": 4, "envious": 3, "suppressed_need": 3, "suppressed_comfort": 2}
+        },
+        {
+          "text": "You realize no one truly knows the real you",
+          "traits": {"suppressed_loneliness": 4, "unseen": 4, "invisible": 3, "suppressed_authenticity": 3, "suppressed_connection": 2}
+        },
+        {
+          "text": "You think about what your life could have been",
+          "traits": {"suppressed_grief": 4, "mourner": 4, "lost_dreams": 3, "suppressed_potential": 3, "suppressed_regret": 2}
+        },
+        {
+          "text": "You feel completely trapped in your current life",
+          "traits": {"suppressed_despair": 4, "trapped": 4, "hopeless": 3, "suppressed_freedom": 3, "suppressed_options": 2}
+        },
+        {
+          "text": "During naturally emotional or touching moments",
+          "traits": {"emotionally_healthy": 4, "expressed": 3, "natural": 3, "appropriate": 2, "responsive": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your chronic, unexplained fatigue stems from:",
+      "answers": [
+        {
+          "text": "Fighting your own feelings every single day",
+          "traits": {"suppressed_everything": 4, "fighter": 4, "warrior": 3, "suppressed_battle": 3, "suppressed_conflict": 2}
+        },
+        {
+          "text": "Pretending to be someone you're not",
+          "traits": {"suppressed_self": 4, "imposter": 4, "actor": 3, "suppressed_authenticity": 3, "suppressed_identity": 2}
+        },
+        {
+          "text": "Holding in decades of accumulated pain",
+          "traits": {"suppressed_trauma": 4, "container": 4, "vault": 3, "suppressed_history": 3, "suppressed_pain": 2}
+        },
+        {
+          "text": "Never being able to truly rest emotionally",
+          "traits": {"suppressed_peace": 4, "hypervigilant": 4, "guard": 3, "suppressed_safety": 3, "suppressed_relaxation": 2}
+        },
+        {
+          "text": "Physical causes, medical issues, or normal tiredness",
+          "traits": {"emotionally_healthy": 4, "aware": 3, "medical": 2, "physical": 2, "realistic": 2}
+        }
+      ]
+    },
+    {
+      "question": "The emotion you're most terrified to fully feel is:",
+      "answers": [
+        {
+          "text": "The true depth and intensity of your anger",
+          "traits": {"suppressed_rage": 4, "volcano": 4, "destroyer": 3, "suppressed_fury": 3, "suppressed_power": 2}
+        },
+        {
+          "text": "How profoundly sad and depressed you really are",
+          "traits": {"suppressed_depression": 4, "denier": 4, "abyss": 3, "suppressed_sadness": 3, "suppressed_despair": 2}
+        },
+        {
+          "text": "Your desperate, almost childlike need for love",
+          "traits": {"suppressed_neediness": 4, "independent": 3, "vulnerable": 4, "suppressed_dependency": 3, "suppressed_longing": 2}
+        },
+        {
+          "text": "The overwhelming extent of your fear and terror",
+          "traits": {"suppressed_terror": 4, "brave_face": 4, "panic": 3, "suppressed_fear": 3, "suppressed_anxiety": 2}
+        },
+        {
+          "text": "I'm generally open to experiencing all emotions",
+          "traits": {"emotionally_healthy": 4, "integrated": 4, "whole": 3, "accepting": 3, "open": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your body betrays what you won't admit through:",
+      "answers": [
+        {
+          "text": "Chronic pain that has no medical explanation",
+          "traits": {"suppressed_trauma": 4, "embodied": 4, "somatizer": 3, "suppressed_pain": 3, "suppressed_history": 2}
+        },
+        {
+          "text": "Illness that flares during emotional stress",
+          "traits": {"suppressed_overwhelm": 4, "psychosomatic": 4, "connected": 3, "suppressed_stress": 3, "suppressed_emotions": 2}
+        },
+        {
+          "text": "Panic attacks that seem to come from nowhere",
+          "traits": {"suppressed_anxiety": 4, "eruption": 4, "volcano": 3, "suppressed_fear": 3, "suppressed_terror": 2}
+        },
+        {
+          "text": "Complete exhaustion that sleep doesn't fix",
+          "traits": {"suppressed_depression": 4, "soul_tired": 4, "depleted": 3, "suppressed_sadness": 3, "suppressed_life": 2}
+        },
+        {
+          "text": "Generally good physical health that matches emotional health",
+          "traits": {"emotionally_healthy": 4, "integrated": 4, "aligned": 3, "balanced": 2, "congruent": 2}
+        }
+      ]
+    },
+    {
+      "question": "You feel most like exploding when:",
+      "answers": [
+        {
+          "text": "People tell you to 'just get over it'",
+          "traits": {"suppressed_rage": 4, "invalidated": 4, "fury": 3, "suppressed_anger": 3, "suppressed_understanding": 2}
+        },
+        {
+          "text": "Someone dismisses your pain as 'not that bad'",
+          "traits": {"suppressed_hurt": 4, "minimized": 4, "invisible": 3, "suppressed_pain": 3, "suppressed_validation": 2}
+        },
+        {
+          "text": "You're expected to be grateful for scraps",
+          "traits": {"suppressed_resentment": 4, "undervalued": 4, "bitter": 3, "suppressed_worth": 3, "suppressed_dignity": 2}
+        },
+        {
+          "text": "You realize how much you've been holding in",
+          "traits": {"suppressed_everything": 4, "awakening": 3, "overwhelmed": 3, "suppressed_awareness": 3, "suppressed_volume": 2}
+        },
+        {
+          "text": "During legitimately frustrating situations only",
+          "traits": {"emotionally_healthy": 4, "proportional": 3, "appropriate": 3, "balanced": 2, "realistic": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your dreams most often feature:",
+      "answers": [
+        {
+          "text": "Being chased or unable to escape danger",
+          "traits": {"suppressed_terror": 4, "trapped": 4, "hunted": 3, "suppressed_fear": 3, "suppressed_safety": 2}
+        },
+        {
+          "text": "Screaming but no sound coming out",
+          "traits": {"suppressed_voice": 4, "silenced": 4, "muted": 4, "suppressed_expression": 3, "suppressed_power": 2}
+        },
+        {
+          "text": "Fighting or being violent (unusual for you)",
+          "traits": {"suppressed_rage": 4, "unleashed": 3, "shadow": 3, "suppressed_aggression": 3, "suppressed_power": 2}
+        },
+        {
+          "text": "Losing people or being abandoned",
+          "traits": {"suppressed_abandonment": 4, "fearful": 3, "attachment": 3, "suppressed_loss": 3, "suppressed_security": 2}
+        },
+        {
+          "text": "Varied themes without consistent disturbing patterns",
+          "traits": {"emotionally_healthy": 4, "balanced": 3, "integrated": 2, "varied": 2, "normal": 2}
+        }
+      ]
+    },
+    {
+      "question": "When you finally let yourself feel, what scares you most is:",
+      "answers": [
+        {
+          "text": "That you might never stop crying",
+          "traits": {"suppressed_sadness": 4, "flood": 4, "ocean": 3, "suppressed_grief": 3, "suppressed_tears": 2}
+        },
+        {
+          "text": "That your anger could destroy everything",
+          "traits": {"suppressed_rage": 4, "destructive": 4, "nuclear": 3, "suppressed_fury": 3, "suppressed_power": 2}
+        },
+        {
+          "text": "That you'll fall apart completely",
+          "traits": {"suppressed_control": 4, "fragile": 4, "shatter": 3, "suppressed_stability": 3, "suppressed_structure": 2}
+        },
+        {
+          "text": "That no one will be there to catch you",
+          "traits": {"suppressed_trust": 4, "alone": 4, "abandoned": 3, "suppressed_support": 3, "suppressed_safety": 2}
+        },
+        {
+          "text": "Nothing - I trust my ability to feel and recover",
+          "traits": {"emotionally_healthy": 4, "resilient": 3, "trusting": 3, "confident": 2, "secure": 2}
+        }
+      ]
+    },
+    {
+      "question": "If your suppressed emotions could speak, they would say:",
+      "answers": [
+        {
+          "text": "'Please just let me out - I'm suffocating in here'",
+          "traits": {"suppressed_everything": 4, "trapped": 4, "desperate": 4, "suppressed_freedom": 3, "suppressed_breath": 2}
+        },
+        {
+          "text": "'I'm tired of being the strong one all the time'",
+          "traits": {"suppressed_exhaustion": 4, "burden": 4, "tired": 3, "suppressed_weakness": 3, "suppressed_rest": 2}
+        },
+        {
+          "text": "'I need someone to see how much I'm hurting'",
+          "traits": {"suppressed_pain": 4, "invisible": 4, "neglected": 3, "suppressed_visibility": 3, "suppressed_care": 2}
+        },
+        {
+          "text": "'I'm so angry I could burn the whole world down'",
+          "traits": {"suppressed_rage": 4, "volcanic": 4, "explosive": 3, "suppressed_fury": 3, "suppressed_destruction": 2}
+        },
+        {
+          "text": "'I feel heard and expressed appropriately'",
+          "traits": {"emotionally_healthy": 4, "integrated": 4, "expressive": 3, "heard": 3, "balanced": 2}
+        }
+      ]
+    }
+  ],
+  "results": {
+    "suppressed_anger": {
+      "title": "The Rage Suppressor",
+      "description": "You're sitting on a volcano of anger that you've been pushing down for years. Every forced smile, every 'it's fine,' every time you bit your tongue - it all accumulated into a massive reservoir of suppressed rage. Your body is screaming what your voice won't: tension headaches, jaw pain, digestive issues.",
+      "extended": "Your body has become a pressure cooker for the rage you refuse to acknowledge or express. Years of swallowing your anger, forcing smiles when you wanted to scream, and saying 'it's fine' when it absolutely wasn't have created a volcanic system within you. Your anger didn't disappear - it went underground, where it now controls your life from the shadows. Every tension headache, every moment of jaw clenching, every digestive issue is your body trying to release what your mind won't let you feel.\n\nThis suppressed anger likely stems from early messages that your anger was dangerous, unacceptable, or would result in abandonment or punishment. You learned that 'good people' don't get angry, that expressing fury would make you bad or unlovable. So you developed elaborate systems for stuffing it down - making jokes, changing the subject, turning inward with self-criticism, or channeling it into people-pleasing behaviors that exhaust you.\n\nThe cost of this emotional suppression is enormous. Your relationships suffer because you can't communicate your real needs or boundaries. You may find yourself exploding over small things because the pressure has nowhere else to go, then feeling guilty and stuffing it down even further. The constant internal battle between feeling angry and forcing yourself not to feel it is exhausting your nervous system and may be contributing to chronic health issues.\n\nLiberation comes through learning that anger is information, not a character flaw. Your rage is often pointing to real violations of your boundaries, genuine injustices, or unmet needs that deserve attention. Start small - notice when you feel irritated and instead of immediately pushing it down, get curious about what it's trying to tell you. Consider that expressing anger appropriately might actually improve your relationships rather than destroy them. Your anger has been waiting patiently to be heard; it's time to give it a voice."
+    },
+    "suppressed_sadness": {
+      "title": "The Sorrow Swallower",
+      "description": "You're drowning in an ocean of tears you refuse to cry. Years of swallowing your sadness have created a deep well of unprocessed grief inside you. You've mastered the art of 'I'm fine' while your heart breaks silently. The weight of your unshed tears shows up as exhaustion, heaviness, and numbness.",
+      "extended": "You carry an ocean of unshed tears that you've been swallowing for so long you've forgotten how to cry. Every loss you minimized, every disappointment you brushed off, every moment of heartbreak you pushed through 'for others' has accumulated into a massive reservoir of grief within you. Your sadness didn't disappear - it pooled inside, creating a heaviness that you carry everywhere. You've become so skilled at the 'I'm fine' performance that even you sometimes believe it.\n\nThis pattern of sadness suppression often began when your tears were seen as burdensome, manipulative, or weak. Perhaps you were told that crying wouldn't solve anything, or that you needed to be strong for others. You learned that your sadness was too much for the people around you to handle, so you became your own container for pain. You developed the ability to swallow tears so quickly that they never had a chance to fall.\n\nThe weight of all this unprocessed sorrow is crushing you slowly. You may experience chronic fatigue, a feeling of heaviness in your chest, or a numbness that protects you from feeling but also cuts you off from joy. Your relationships may feel superficial because you can't access or share your deeper emotions. You might find yourself crying at commercials or movies because it's the only 'acceptable' outlet for all the grief you're carrying.\n\nHealing requires giving yourself permission to feel the depth of your sadness without trying to fix, minimize, or rush through it. Your tears aren't weakness - they're wisdom, washing away pain and creating space for healing. Start by acknowledging that you have been sad, that losses have affected you more than you've allowed yourself to admit. Consider that crying might actually bring relief rather than making things worse. Your sadness has been patiently waiting to be witnessed; it's time to let it flow."
+    },
+    "suppressed_depression": {
+      "title": "The Hidden Melancholic",
+      "description": "You're carrying a deep depression that you've dressed up in functional clothing. You go through the motions, smile when expected, and maintain the facade of normalcy while inside you feel like you're slowly dying. Your suppressed depression manifests as chronic fatigue, emotional numbness, and a persistent feeling of emptiness.",
+      "extended": "Beneath your functional exterior lies a profound depression that you've become masterful at hiding, even from yourself. You've learned to dress your melancholy in productive clothing - showing up to work, maintaining relationships, checking all the boxes of a 'normal' life while feeling like you're dying inside. Your depression isn't the stereotypical image of someone who can't get out of bed; it's the kind that wears a business suit and smiles at dinner parties while feeling completely hollow.\n\nThis hidden depression often develops when your authentic feelings were consistently invalidated or when you were required to function regardless of your emotional state. You learned that your depression was inconvenient to others, so you buried it under layers of productivity and people-pleasing. You became a high-functioning depressive, able to meet everyone else's needs while your own soul withered in silence.\n\nThe energy required to maintain this facade while battling internal emptiness is astronomical. You may experience chronic fatigue that sleep doesn't fix, emotional numbness that protects you from pain but also from joy, and a persistent sense that you're just going through the motions of living rather than actually living. Your relationships may feel superficial because you can't risk letting anyone see how not-okay you really are.\n\nRecovery requires acknowledging that your depression is real and valid, even if it doesn't look like what others expect depression to look like. Your pain doesn't need to be visible to others to be legitimate. Start by admitting to yourself how heavy everything feels, how exhausting it is to pretend you're fine. Consider that seeking help isn't admitting defeat - it's recognizing that you've been carrying this alone for too long. Your depression has been sending you messages about what needs to change in your life; it's time to listen."
+    },
+    "suppressed_anxiety": {
+      "title": "The Secret Worrier",
+      "description": "Your body is in a constant state of alert while you pretend everything is under control. You've suppressed your anxiety so deeply that it now lives in your muscles, your racing heart, and your disrupted sleep. You appear calm on the surface while internally you're always waiting for the other shoe to drop.",
+      "extended": "Your anxiety lives in your body like a caged animal, creating constant tension and hypervigilance that you've learned to hide behind a calm exterior. While others see you as together and capable, your nervous system is running a 24/7 alert system, scanning for threats and preparing for disasters that may never come. Your suppressed anxiety manifests as muscle tension, unexplained physical symptoms, and a racing mind that you've become skilled at concealing.\n\nThis pattern of anxiety suppression often developed when your worries were dismissed as overthinking or when you were expected to be the calm, rational one in chaotic situations. You learned that expressing your fears made others uncomfortable or that your anxiety was seen as weakness. So you internalized the management of your fears, becoming a master at appearing serene while your internal world churns with what-ifs and worst-case scenarios.\n\nThe cost of holding all this anxiety in your body is significant. You may experience chronic muscle tension, headaches, digestive issues, or sleep disturbances that seem to have no medical cause. Your hypervigilance exhausts your nervous system, leaving you depleted even when nothing 'bad' has happened. You might find yourself constantly braced for impact, unable to truly relax even in safe situations.\n\nHealing involves recognizing that your anxiety contains important information about your needs for safety and security. Your worries aren't character flaws - they're your nervous system's attempt to protect you based on past experiences. Start by acknowledging how much mental energy you spend managing anxiety alone. Consider that sharing your worries with trusted people might actually reduce their power rather than burden others. Your anxiety has been trying to protect you; it's time to work with it rather than against it."
+    },
+    "suppressed_trauma": {
+      "title": "The Trauma Container",
+      "description": "You're carrying unprocessed trauma that you've locked away in the deepest vaults of your psyche. Your body remembers what your mind won't let you feel - tensing at certain triggers, dissociating when things get too real, maintaining hypervigilance even in safety. You've built an entire life around not feeling what happened to you.",
+      "extended": "Your body is a living archive of experiences that your mind has declared too dangerous to remember or feel. The trauma you've suppressed didn't disappear - it embedded itself in your nervous system, creating patterns of hypervigilance, dissociation, and physical tension that control your life from the shadows. You've become masterful at functioning while carrying wounds that haven't been allowed to heal, building an entire identity around being 'over it' when your body clearly isn't.\n\nThis trauma suppression likely began as a survival mechanism when you were in situations where feeling the full impact of what was happening would have been overwhelming or dangerous. Your psyche protected you by compartmentalizing the experiences, but those compartments are now locked rooms in your internal house that still influence everything. You learned to disconnect from your body's signals because they reminded you of times when your body wasn't safe.\n\nThe suppressed trauma lives on in your startle responses, your difficulty trusting others, your tendency to dissociate when things get emotional, and your body's tendency to react to present situations as if they were past dangers. You may find yourself going through life in a state of chronic hypervigilance, exhausted from constantly scanning for threats that aren't there. Your relationships may suffer because intimacy triggers the very vulnerabilities you've spent years protecting.\n\nHealing trauma requires creating safety in the present moment before attempting to feel what happened in the past. Your suppressed trauma isn't asking you to relive it - it's asking you to acknowledge its impact and allow your nervous system to complete the defensive responses it couldn't complete at the time. This work often requires professional support because trauma healing happens in relationship. Your survival instincts served you well; now it's time to teach your system that survival isn't the only option anymore."
+    },
+    "suppressed_rage": {
+      "title": "The Fury Vault",
+      "description": "You're not just angry - you're furious, and you've been containing explosive rage for so long it's become part of your cellular structure. This isn't garden-variety anger; it's the kind that could burn everything down if released. Your suppressed rage manifests as crushing jaw tension, violent dreams, and moments where you scare yourself with flash fantasies of destruction.",
+      "extended": "You carry a fury so intense and consuming that it terrifies you. This isn't just anger - it's rage so primal and explosive that you've built your entire personality around containing it. You've been holding back a force that feels capable of destroying everything you've built, everyone you care about, and every carefully constructed aspect of your life. Your rage lives in your clenched jaw, your tension headaches, and the dreams where you finally unleash the fury you spend your waking hours suppressing.\n\nThis volcanic rage often stems from profound injustices, betrayals, or violations that were never acknowledged or addressed. Perhaps you were hurt by people who should have protected you, or you experienced systematic invalidation of your reality. Your rage is actually a healthy response to genuine violations, but you've been taught that the intensity of your anger is dangerous or destructive. So you've become a container for justified fury that has nowhere to go.\n\nThe effort required to contain this level of rage is destroying you from the inside. You may experience chronic pain, explosive headaches, or moments where you're genuinely afraid of what you might do or say. Your relationships may suffer because you're so focused on controlling your anger that you can't be spontaneous or authentic. You might find yourself having violent fantasies that shock you, or feeling triggered by injustices that don't directly affect you.\n\nLiberation doesn't require becoming a destructive person - it requires learning to honor your rage as information about serious violations of your dignity and worth. Your fury is pointing to real problems that deserve attention. Consider that your rage might actually be on behalf of justice, protection, or your own inherent worth. Working with this level of rage often requires professional support to learn how to express it safely. Your rage has been protecting something precious in you; it's time to understand what it's defending."
+    },
+    "suppressed_everything": {
+      "title": "The Emotion Vault",
+      "description": "You've suppressed so many emotions for so long that numbness has become your default state. You've become a vault for feelings, locking away anger, sadness, fear, and even joy to maintain the illusion of control. Your emotional numbness feels protective, but it's also cutting you off from the full experience of being human.",
+      "extended": "You've become a master of emotional suppression, locking away not just difficult feelings but all feelings to maintain the illusion of control and safety. Your emotional range has been compressed into a narrow band of acceptable responses - pleasant but not too happy, concerned but not too worried, disappointed but not devastated. You've created an internal vault where all your authentic emotional responses are stored away from conscious awareness, leaving you feeling numb and disconnected from your own life.\n\nThis comprehensive emotional suppression likely developed as a response to overwhelming circumstances where feeling everything would have been too much to bear. Perhaps you learned that emotions were dangerous, unpredictable, or burdensome to others. You developed the survival strategy of feeling nothing rather than risking feeling too much. Your numbness became your armor, protecting you from pain but also cutting you off from joy, passion, and authentic connection.\n\nThe cost of this emotional suppression is a life that feels muted and distant, like watching everything through glass. You may go through the motions of living without feeling truly alive, maintaining relationships without deep connection, achieving goals without satisfaction. Your numbness may be punctuated by sudden emotional eruptions that shock you with their intensity, reminding you that all those feelings are still there, just buried.\n\nRecovery requires slowly and safely thawing the emotional permafrost you've created. This isn't about opening the floodgates all at once - it's about gradually expanding your capacity to feel without being overwhelmed. Start by noticing small preferences and mild emotions, building your tolerance for feeling before approaching the bigger feelings you've stored away. Your emotions aren't your enemies; they're your guidance system back to authentic living."
+    },
+    "emotionally_healthy": {
+      "title": "The Integrated Feeler",
+      "description": "You have a remarkably healthy relationship with your emotions. You feel them, express them appropriately, and don't warehouse them in your body. This doesn't mean you're always happy - it means you're honest about what you feel and give yourself permission to experience the full spectrum of human emotion.",
+      "extended": "You possess something rare and valuable: a healthy, integrated relationship with your emotional life. You've learned to feel your feelings without being overwhelmed by them, to express them appropriately without suppressing them, and to use them as information rather than treating them as problems to solve. Your emotional health shows up in your ability to cry when you're sad, feel angry when you're violated, experience fear when you're threatened, and express joy when you're happy.\n\nThis emotional integration likely developed through having your feelings validated and supported, learning healthy expression skills, or doing significant personal work to heal patterns of suppression. You understand that emotions are temporary visitors that bring important information, not permanent residents that need to be managed or controlled. You've learned to trust your emotional responses while also taking responsibility for how you express them.\n\nYour emotional health creates a foundation for authentic relationships, clear communication, and genuine self-awareness. People can trust you because you're honest about your internal experience, and you can trust yourself because you're not constantly fighting your own emotional responses. Your feelings flow through you rather than getting stuck, which prevents the buildup of resentment, depression, or explosive anger that comes from suppression.\n\nYour emotional integration is a gift not only to yourself but to everyone around you. You model what healthy emotional expression looks like, giving others permission to feel their own feelings more fully. Continue to protect and nurture this emotional health by maintaining boundaries with people who pressure you to suppress your feelings, and by staying connected to your internal experience even when external pressures suggest you should be different than you are."
+    }
+  }
+}

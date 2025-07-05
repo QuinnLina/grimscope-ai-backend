@@ -1,0 +1,2270 @@
+{
+  "test_id": "restaurant_menu",
+  "title": "Your Personality as a Restaurant Menu",
+  "subtitle": "Discover what dishes represent your unique personality!",
+  "description": "This culinary assessment maps your personality traits to create a custom restaurant menu that perfectly represents who you are, from appetizers to desserts.",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When you wake up in the morning, your ideal breakfast would be:",
+      "answers": [
+        {
+          "id": "q18a5",
+          "text": "Serving delicious food that happens to be healthy and sustainable",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "text": "Your approach to spice and bold flavors is:",
+      "answers": [
+        {
+          "id": "q19a1",
+          "text": "I like a little heat, but prefer flavors that are balanced and not overwhelming",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 4,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 3,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 4,
+            "chaotic_food_truck": 3
+          }
+        },
+        {
+          "id": "q19a2",
+          "text": "I prefer mild, comforting flavors that don't compete with conversation",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 1,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q19a3",
+          "text": "I appreciate complex spice blends when they're expertly crafted and refined",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 3,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 4,
+            "sweet_dessert_parlor": 1,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q19a4",
+          "text": "Bring on the fire! I love spice and the more unusual the better",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 5,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q19a5",
+          "text": "I enjoy natural spices and herbs that enhance the food's inherent flavors",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 3,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "text": "When you're celebrating a special occasion, your ideal meal would be:",
+      "answers": [
+        {
+          "id": "q20a1",
+          "text": "Somewhere trendy with great atmosphere and excellent service",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 4,
+            "quirky_experimental": 3,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 3,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 4,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q20a2",
+          "text": "A homemade feast surrounded by everyone I love most",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q20a3",
+          "text": "A luxury dining experience with impeccable wine pairings",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q20a4",
+          "text": "Something completely unexpected that becomes a story we'll tell forever",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 1,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 5,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q20a5",
+          "text": "A beautiful meal that nourishes both body and soul",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 4,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "text": "Your grocery shopping style is:",
+      "answers": [
+        {
+          "id": "q21a1",
+          "text": "Organized with a list, efficient route, and specific brands I trust",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 4,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q21a2",
+          "text": "Leisurely browsing for inspiration, often picking up comfort foods",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 3,
+            "traditional_family_restaurant": 4,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 3
+          }
+        },
+        {
+          "id": "q21a3",
+          "text": "Selective shopping at specialty stores for the highest quality ingredients",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q21a4",
+          "text": "Spontaneous adventures trying whatever looks interesting or unusual",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 5,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q21a5",
+          "text": "Careful reading of labels and choosing organic, local, and sustainable options",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 1,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "text": "When someone asks for your restaurant recommendation, you suggest:",
+      "answers": [
+        {
+          "id": "q22a1",
+          "text": "A place with consistently good food, reasonable prices, and reliable service",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 4,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 4,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q22a2",
+          "text": "A cozy spot where the staff treats you like family and the food tastes like love",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 1,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q22a3",
+          "text": "An upscale establishment known for exceptional cuisine and ambiance",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q22a4",
+          "text": "The most interesting hole-in-the-wall place that serves something totally unique",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 1,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 5,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q22a5",
+          "text": "A farm-to-table place that serves delicious food while supporting local farmers",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "text": "Your relationship with food trends is:",
+      "answers": [
+        {
+          "id": "q23a1",
+          "text": "I try them if they seem practical and add value to my routine",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 3,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 4,
+            "spicy_bold_kitchen": 3,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 3
+          }
+        },
+        {
+          "id": "q23a2",
+          "text": "I prefer classic, timeless dishes that never go out of style",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q23a3",
+          "text": "I appreciate trends when they represent genuine culinary innovation",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 3,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 3,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q23a4",
+          "text": "I'm always first to try the latest weird food combination or viral dish",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 1,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 5,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q23a5",
+          "text": "I support trends that promote sustainability and health",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "text": "When you're feeling down, your food comfort strategy is:",
+      "answers": [
+        {
+          "id": "q24a1",
+          "text": "Order from my reliable go-to place that always delivers exactly what I need",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q24a2",
+          "text": "Make something warm and nostalgic that reminds me of being cared for",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 1,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 1,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 5,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q24a3",
+          "text": "Treat myself to something luxurious and beautifully prepared",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 1,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q24a4",
+          "text": "Try something completely new and weird to shake up my mood",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 1,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 1,
+            "spicy_bold_kitchen": 4,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q24a5",
+          "text": "Choose something nourishing that makes my body feel better too",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 1,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "text": "If you opened your own restaurant, the most important thing would be:",
+      "answers": [
+        {
+          "id": "q25a1",
+          "text": "Running an efficient operation that delivers consistent quality every time",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 4,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q25a2",
+          "text": "Creating a warm space where people feel like they're dining in a friend's home",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 1,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q25a3",
+          "text": "Establishing a reputation for culinary excellence and sophisticated dining",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q25a4",
+          "text": "Constantly surprising people with wild creativity and unexpected combinations",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 5,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q25a5",
+          "text": "Proving that healthy, sustainable food can be the most delicious choice",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 3
+          }
+        }
+      ]
+    }
+  ],
+  "personality_types": {
+    "fast_casual_fusion": {
+      "title": "Fast Casual Fusion",
+      "subtitle": "Efficiency meets flavor in perfect harmony",
+      "basic_analysis": "You're the modern foodie who values both speed and quality. Your restaurant personality combines the efficiency of fast-casual dining with the innovation of fusion cuisine. You appreciate well-executed concepts that don't waste your time but still surprise your palate. You're practical but adventurous, organized but open to new experiences. Your ideal meal delivers maximum flavor impact in minimum time.",
+      "detailed_analysis": [
+        "Your Fast Casual Fusion personality reflects someone who has mastered the art of living efficiently without sacrificing quality. In restaurants, you gravitate toward places that have streamlined their operations but haven't compromised on flavor innovation. You're the person who discovers the amazing Korean-Mexican fusion joint before it becomes trendy, not because you're trying to be cool, but because you recognize good systems and creative execution.",
+        "Your approach to food mirrors your approach to life: strategic, well-researched, but flexible enough to adapt when you discover something better. You're not afraid to try new cuisines or flavor combinations, but you want them to make sense. Random weirdness for its own sake doesn't appeal to you - you prefer innovation that serves a purpose and enhances the experience rather than just grabbing attention.",
+        "In social settings, you're often the one who finds the perfect restaurant for group dining - somewhere that can accommodate different dietary preferences, serves food quickly enough that people don't get hangry, but interesting enough that everyone leaves talking about the meal. You understand that food is both fuel and experience, and you've learned to optimize for both without sacrificing either.",
+        "Your ideal kitchen runs like a well-oiled machine but still has room for creativity and experimentation. You meal prep efficiently but aren't afraid to improvise when inspiration strikes. You're the friend people trust for restaurant recommendations because you've somehow found places that are both reliable and exciting - a combination that seems impossible but that you've made your specialty."
+      ]
+    },
+    "cozy_comfort_cafe": {
+      "title": "Cozy Comfort Café",
+      "subtitle": "Where every meal feels like a warm hug",
+      "basic_analysis": "You're the embodiment of hospitality and warmth in restaurant form. Your personality creates spaces where people feel genuinely cared for and welcomed. You value connection over perfection, warmth over wow factor, and making people feel at home over impressing them. Your ideal dining experience is less about the food itself and more about the love and care that went into preparing and sharing it.",
+      "detailed_analysis": [
+        "Your Cozy Comfort Café personality makes you a natural nurturer who understands that food is love made edible. You're drawn to restaurants that feel like someone's grandmother's kitchen - places where the staff remembers your order, asks about your day, and makes you feel like family. You prefer establishments that have been perfecting the same recipes for decades over places chasing the latest trends, because you understand that comfort comes from consistency and familiarity.",
+        "Your approach to cooking and entertaining focuses on creating emotional experiences rather than culinary stunts. You're the person who brings homemade cookies to new neighbors, who hosts dinner parties where everyone leaves feeling more connected than when they arrived, and who can turn a simple meal into a memory that people carry with them. Your kitchen is the heart of your home, and your table is where relationships are built and maintained.",
+        "In relationships, you're the friend people call when they need comfort, the family member who always remembers everyone's favorite foods, and the colleague who brings homemade soup when someone's sick. You understand intuitively that feeding people is one of the most fundamental ways to show love and care, and you use food as a language of affection and support.",
+        "Your ideal restaurant would be the kind of place where regulars have 'their table,' where special occasions are celebrated with personalized touches, and where the measure of success isn't profit margins but the number of genuine smiles and satisfied sighs from contentment. You believe that the best meals happen when people feel safe, welcomed, and cared for - everything else is just seasoning on top of that foundation."
+      ]
+    },
+    "upscale_fine_dining": {
+      "title": "Upscale Fine Dining",
+      "subtitle": "Excellence is the only acceptable standard",
+      "basic_analysis": "You represent the pinnacle of culinary sophistication and refined taste. Your restaurant personality demands excellence in every detail - from ingredient sourcing to presentation to service. You appreciate the artistry of food and understand that dining can be a transcendent experience when executed with skill and passion. You value quality over quantity, refinement over comfort, and are willing to invest in experiences that meet your high standards.",
+      "detailed_analysis": [
+        "Your Upscale Fine Dining personality reflects someone who has developed sophisticated palate and appreciates the craftsmanship that goes into exceptional cuisine. You're not a food snob - you're a food connoisseur who understands the difference between expensive and valuable, between complicated and complex. You seek out restaurants where chefs are artists, where every element of the meal has been carefully considered, and where the entire experience transports you beyond simple sustenance into something approaching art.",
+        "Your approach to food and dining is informed by a deep appreciation for skill, tradition, and innovation working in harmony. You understand wine pairings, seasonal ingredients, and cooking techniques not to show off, but because these things genuinely enhance your enjoyment of the meal. You're willing to wait for a reservation at the restaurant you really want rather than settling for whatever's available, because you know the difference is worth it.",
+        "In social situations, you're often the person who elevates the occasion. You know which restaurants are worth the splurge for special celebrations, you can navigate a wine list with confidence, and you understand how to appreciate and discuss food in ways that enhance rather than intimidate the dining experience. You share your knowledge generously but never condescendingly, helping others develop their own appreciation for culinary excellence.",
+        "Your ideal restaurant would be a place where every detail has been perfected, where the service is intuitive but never intrusive, where the menu represents the chef's vision and skill, and where each visit feels like a special occasion even if it's just Tuesday night. You understand that true luxury isn't about ostentation - it's about quality executed so flawlessly that it seems effortless."
+      ]
+    },
+    "quirky_experimental": {
+      "title": "Quirky Experimental Kitchen",
+      "subtitle": "Where culinary rules come to be broken",
+      "basic_analysis": "You're the fearless food adventurer who treats every meal as an opportunity for discovery. Your restaurant personality thrives on unexpected combinations, bold experiments, and dishes that challenge conventional wisdom. You're drawn to chefs who aren't afraid to fail spectacularly in pursuit of something amazing. Your ideal dining experience involves flavors you've never tasted before and combinations that shouldn't work but somehow do.",
+      "detailed_analysis": [
+        "Your Quirky Experimental personality makes you the culinary equivalent of an explorer, always seeking new territories of taste and texture. You're genuinely excited by menus that confuse other people, intrigued by ingredients you can't pronounce, and delighted by flavor combinations that sound terrible on paper but create magic in your mouth. You understand that innovation requires risk, and you're willing to occasionally have a terrible meal in exchange for sometimes having a transcendent one.",
+        "Your approach to food reflects a broader philosophy of embracing novelty and challenging assumptions. You're the person who orders the most unusual item on the menu, who seeks out food trucks serving fusion cuisines that don't traditionally exist, and who travels specifically to try regional specialties that sound bizarre to outsiders. You're not being contrarian - you're genuinely curious about the full spectrum of human culinary creativity.",
+        "In social settings, you're the friend who introduces others to new experiences, who suggests restaurants that others might never have considered, and who can make even the most adventurous eaters feel conservative by comparison. You have stories about amazing meals in unexpected places and terrible meals that were worth it for the experience alone. You understand that food is culture, and you want to experience as many cultures as possible through their cuisine.",
+        "Your ideal restaurant would be constantly changing, where the menu is an ongoing experiment, where traditional techniques meet unexpected ingredients, and where the chef views each dish as a hypothesis to be tested rather than a formula to be followed. You want to be surprised, challenged, and occasionally confused by your food, because you understand that comfort zones are where interesting flavors go to die."
+      ]
+    },
+    "traditional_family_restaurant": {
+      "title": "Traditional Family Restaurant",
+      "subtitle": "Timeless recipes and timeless values",
+      "basic_analysis": "You embody the heart and soul of classic American dining - the kind of place where recipes are passed down through generations and every meal feels like coming home. Your restaurant personality values tradition, consistency, and the kind of honest, hearty food that nourishes both body and spirit. You believe the best meals are the ones that bring people together and create lasting memories around shared tables.",
+      "detailed_analysis": [
+        "Your Traditional Family Restaurant personality represents the backbone of comfort dining - you understand that some things are classic because they're perfect as they are. You're drawn to restaurants where the recipes haven't changed in decades, where portions are generous and prices are fair, and where the focus is on feeding people well rather than impressing them. You appreciate the skill required to execute simple dishes perfectly, understanding that there's nowhere to hide when you're making meatloaf or fried chicken.",
+        "Your approach to food is rooted in the understanding that meals are about more than nutrition - they're about connection, tradition, and care. You're the person who knows the stories behind family recipes, who can turn basic ingredients into something that tastes like love, and who understands that the secret ingredient in great comfort food is often simply taking the time to do things right. You value the ritual of shared meals and the way food can anchor families and communities.",
+        "In social situations, you're often the one who suggests places that feel like home, who knows which diners serve the best pie, and who can find the perfect spot for a multi-generational family dinner where everyone from toddlers to grandparents will be happy. You understand that some of the most meaningful food experiences happen in humble settings, and you have a gift for recognizing authenticity and quality regardless of how fancy the surroundings are.",
+        "Your ideal restaurant would be the kind of place where three generations of the same family have been serving the same beloved recipes, where regulars are treated like family, where the portions are generous and the prices are fair, and where the measure of success is how many people leave feeling satisfied, cared for, and eager to return. You believe that good food doesn't need to be complicated - it just needs to be made with care and served with love."
+      ]
+    },
+    "health_conscious_bistro": {
+      "title": "Health-Conscious Bistro",
+      "subtitle": "Nourishment that feeds body and soul",
+      "basic_analysis": "You represent the perfect marriage of health and flavor, proving that nutritious food can be absolutely delicious. Your restaurant personality focuses on fresh, whole ingredients prepared in ways that honor both their natural flavors and their nutritional value. You believe that food should make you feel energized and vibrant, not sluggish and guilty. Your ideal dining experience leaves you satisfied and nourished on every level.",
+      "detailed_analysis": [
+        "Your Health-Conscious Bistro personality reflects a sophisticated understanding of nutrition that goes beyond mere calorie counting or trend-following. You're drawn to restaurants that source ingredients responsibly, that understand the connection between farming practices and flavor, and that can make vegetables as exciting as any protein. You appreciate chefs who view cooking as a form of medicine, understanding that what we eat directly impacts how we feel and function.",
+        "Your approach to food is holistic - you consider not just how something tastes, but how it will make you feel an hour later, where the ingredients came from, and what impact your food choices have on the environment and community. You're not rigid or judgmental about food, but you've developed a palate that genuinely craves fresh, clean flavors and feels satisfied by meals that provide real nourishment rather than empty calories.",
+        "In social settings, you're often the person who discovers amazing restaurants that happen to be healthy, who can find delicious options that accommodate various dietary restrictions, and who proves to skeptical friends that 'health food' doesn't have to mean sacrificing flavor. You have a gift for making nutritious choices feel indulgent rather than restrictive, and you understand how to balance enjoying food with feeling good about what you're eating.",
+        "Your ideal restaurant would showcase the incredible variety and flavor possible when working with fresh, seasonal, locally-sourced ingredients. It would be a place where the chef's skill lies in highlighting natural flavors rather than masking them, where sustainability is a priority without being preachy about it, and where every meal demonstrates that taking care of your body can be one of life's greatest pleasures rather than a burden or sacrifice."
+      ]
+    },
+    "spicy_bold_kitchen": {
+      "title": "Spicy Bold Kitchen",
+      "subtitle": "Life's too short for bland food",
+      "basic_analysis": "You're the fearless flavor warrior who believes that food should wake up your taste buds and make your heart race. Your restaurant personality celebrates heat, intensity, and bold flavors that demand attention. You're not just about spice for the sake of spice - you appreciate the complex heat that builds layers of flavor and creates truly memorable eating experiences. Your ideal meal should leave you slightly breathless and completely satisfied.",
+      "detailed_analysis": [
+        "Your Spicy Bold Kitchen personality reflects someone who approaches food - and life - with courage and intensity. You're drawn to cuisines that aren't afraid to make a statement: authentic Sichuan restaurants where the numbing heat builds slowly, Mexican joints that serve salsa so fresh and fiery it makes you sweat, Thai places that don't tone down the spice for Western palates. You understand that heat isn't just about capsaicin - it's about the complex interplay of spices that create depth, warmth, and excitement in every bite.",
+        "Your appreciation for bold flavors extends beyond just heat - you love foods that make strong impressions, whether that's the funk of fermented foods, the brightness of acidic dishes, or the richness of deeply savory umami bombs. You're the person who orders the dish with the chili pepper warnings next to it, who seeks out hole-in-the-wall places known for their authentic spice levels, and who has built up a tolerance that lets you appreciate subtleties in heat that others miss entirely.",
+        "In social settings, you're often the one who introduces friends to new levels of spice, who knows which restaurants will challenge your palate without destroying it, and who can guide others through building their heat tolerance gradually. You understand that sharing spicy food creates a unique bonding experience - there's something about collectively surviving a particularly fiery dish that brings people together in memorable ways.",
+        "Your ideal restaurant would be unapologetically bold, where the chef isn't afraid to push boundaries and challenge diners, where the spice levels are clearly marked but not dumbed down, and where heat is used as a tool to enhance and complicate flavors rather than simply overwhelm them. You want to leave feeling like you've been on an adventure, with your endorphins flowing and stories to tell about the incredible meal you just survived and savored."
+      ]
+    },
+    "sweet_dessert_parlor": {
+      "title": "Sweet Dessert Parlor",
+      "subtitle": "Life is uncertain, eat dessert first",
+      "basic_analysis": "You're the joyful optimist who understands that dessert isn't just the end of a meal - it's a celebration of life's sweetness. Your restaurant personality embraces whimsy, indulgence, and the pure happiness that comes from perfectly crafted sweets. You believe that dessert should be an experience that brings out the child in everyone, creating moments of pure delight that make ordinary days feel special.",
+      "detailed_analysis": [
+        "Your Sweet Dessert Parlor personality reflects someone who hasn't lost touch with the simple joy of treating yourself to something wonderful. You're drawn to places that take dessert seriously as an art form - bakeries where every cake is a masterpiece, ice cream shops that make their own unique flavors, dessert bars where molecular gastronomy meets childhood nostalgia. You understand that great desserts require technical skill, creativity, and an understanding of how flavors, textures, and temperatures work together to create magic.",
+        "Your approach to sweets is both sophisticated and playful. You can appreciate the precision required to create perfect macarons while also getting genuinely excited about a really good funnel cake. You understand the emotional power of dessert - how the right sweet can comfort, celebrate, or simply add a moment of brightness to an ordinary day. You're not mindlessly indulgent; you're selectively hedonistic, choosing quality over quantity and savoring experiences over mindless consumption.",
+        "In social settings, you're often the one who suggests ending a meal somewhere special for dessert, who knows which bakeries make the best birthday cakes, and who can turn any gathering into a celebration with the right sweet treat. You understand that sharing dessert creates intimacy and joy, and you have a gift for finding sweets that surprise and delight even the most sophisticated palates.",
+        "Your ideal restaurant would be a place where dessert isn't an afterthought but the main event, where every creation is both beautiful and delicious, where traditional techniques meet creative innovation, and where every bite reminds you that life is meant to include moments of pure, uncomplicated pleasure. You believe that a world without really good dessert would be a significantly sadder place, and you're committed to ensuring that never happens."
+      ]
+    },
+    "sophisticated_wine_bar": {
+      "title": "Sophisticated Wine Bar",
+      "subtitle": "Where conversation flows as smoothly as the vintage",
+      "basic_analysis": "You embody the art of refined social dining, where the meal is just one element of a carefully orchestrated experience. Your restaurant personality values atmosphere, conversation, and the kind of subtle sophistication that enhances rather than overshadows the social connections being made. You understand that the best dining experiences happen when great food, excellent drinks, and meaningful conversation combine in perfect harmony.",
+      "detailed_analysis": [
+        "Your Sophisticated Wine Bar personality reflects someone who views dining as a social art form, where the goal isn't just to consume food but to create an environment for meaningful connection and conversation. You're drawn to establishments that understand the importance of ambiance - places with lighting that flatters everyone, acoustics that allow for intimate conversation, and service that anticipates needs without intruding on the flow of interaction.",
+        "Your appreciation for wine goes beyond simple consumption - you understand how the right pairing can elevate both food and conversation, how sharing a special bottle creates intimacy and occasion, and how wine can serve as both social lubricant and topic of discussion. You're knowledgeable but not pretentious, able to navigate complex wine lists while also helping others discover new favorites without intimidating them.",
+        "In social settings, you're often the one who creates the perfect evening - you know how to choose restaurants that facilitate conversation rather than distract from it, how to order wine that complements both the food and the mood, and how to pace a meal so that it becomes an experience rather than just sustenance. You understand that the best meals happen when the food and drink serve to enhance the company rather than compete with it.",
+        "Your ideal restaurant would be a place where every element - from the furniture to the music to the lighting - has been chosen to create the perfect environment for connection and conversation. It would be staffed by people who understand that their role is to facilitate great evenings rather than simply deliver food, and it would offer wines and dishes that give people interesting things to discuss while never overwhelming the social experience with unnecessary complexity or pretension."
+      ]
+    },
+    "chaotic_food_truck": {
+      "title": "Chaotic Food Truck",
+      "subtitle": "Organized chaos serving up pure deliciousness",
+      "basic_analysis": "You're the beautiful disaster who somehow creates magic out of mayhem. Your restaurant personality thrives on spontaneity, creativity, and the kind of organized chaos that produces unexpectedly amazing results. You're drawn to places where the energy is high, the menu changes daily, and you never quite know what you're going to get - but you know it's going to be an adventure worth taking.",
+      "detailed_analysis": [
+        "Your Chaotic Food Truck personality reflects someone who finds excitement in unpredictability and beauty in improvisation. You're drawn to establishments that feel alive with creative energy - food trucks where the chef is making up recipes on the fly, pop-up restaurants that exist for one night only, places where the staff is clearly making it up as they go along but somehow producing incredible food. You understand that some of the best culinary experiences come from inspired improvisation rather than careful planning.",
+        "Your approach to food mirrors your approach to life - you're willing to embrace uncertainty in exchange for the possibility of discovering something amazing. You're the person who's excited by daily specials that depend on what the chef found at the market that morning, who loves restaurants where the same dish might taste different every time you order it, and who finds the energy of a chaotic kitchen more appealing than the sterile precision of fine dining.",
+        "In social settings, you're often the one who suggests the most adventurous option, who's willing to wait in long lines for food trucks with legendary reputations, and who can find amazing food in the most unlikely places. You have stories about incredible meals that happened by accident, dishes that were probably mistakes but turned out to be genius, and restaurants that exist in a state of constant beautiful chaos.",
+        "Your ideal restaurant would be the kind of place where no two visits are exactly the same, where the chef's mood and inspiration drive the menu more than careful planning, where the staff's enthusiasm makes up for any organizational shortcomings, and where the food is so good that you're willing to accept a certain amount of chaos as part of the authentic experience. You believe that some of life's best moments come from embracing the unexpected, and you want your dining experiences to reflect that philosophy."
+      ]
+    }
+  }
+}1a1",
+          "text": "Something quick and efficient - I grab coffee and a granola bar on the go",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 3,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 4,
+            "spicy_bold_kitchen": 3,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 4
+          }
+        },
+        {
+          "id": "q1a2",
+          "text": "A warm, homemade spread with pancakes, eggs, and everything made from scratch",
+          "weights": {
+            "fast_casual_fusion": 1,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 3,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q1a3",
+          "text": "An artfully plated avocado toast with microgreens and a perfectly poached egg",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 4,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 1,
+            "sophisticated_wine_bar": 4,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q1a4",
+          "text": "Something unexpected - maybe leftover pizza with hot sauce and a pickle",
+          "weights": {
+            "fast_casual_fusion": 4,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 1,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 1,
+            "spicy_bold_kitchen": 4,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q1a5",
+          "text": "Fresh fruit, yogurt, and granola - clean and energizing",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 1,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "At a party, you're most likely to be found:",
+      "answers": [
+        {
+          "id": "q2a1",
+          "text": "Organizing the playlist and making sure everyone has drinks",
+          "weights": {
+            "fast_casual_fusion": 4,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 4,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 3,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 4,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q2a2",
+          "text": "In the kitchen, helping the host and chatting with whoever wanders in",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 3,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 3,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 3
+          }
+        },
+        {
+          "id": "q2a3",
+          "text": "Having deep conversations with a small group about art, travel, or philosophy",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 4,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q2a4",
+          "text": "Being the center of attention with wild stories and unexpected dance moves",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 1,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 1,
+            "spicy_bold_kitchen": 5,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q2a5",
+          "text": "Quietly observing everyone and enjoying the energy without needing to be the focus",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 4,
+            "upscale_fine_dining": 4,
+            "quirky_experimental": 3,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 4,
+            "spicy_bold_kitchen": 1,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 4,
+            "chaotic_food_truck": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Your ideal vacation involves:",
+      "answers": [
+        {
+          "id": "q3a1",
+          "text": "A perfectly planned itinerary hitting all the major attractions efficiently",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 4,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q3a2",
+          "text": "Staying in a cozy cabin or bed & breakfast, exploring local markets and cafes",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 4,
+            "health_conscious_bistro": 4,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q3a3",
+          "text": "A luxury resort with world-class dining and exclusive experiences",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q3a4",
+          "text": "Backpacking somewhere remote with no plans except to see where the adventure takes me",
+          "weights": {
+            "fast_casual_fusion": 1,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 1,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 4,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q3a5",
+          "text": "A wellness retreat focused on yoga, healthy eating, and mental clarity",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 1,
+            "sweet_dessert_parlor": 1,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "When you're stressed, your go-to comfort mechanism is:",
+      "answers": [
+        {
+          "id": "q4a1",
+          "text": "Making lists and tackling tasks one by one until I feel in control again",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 4,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q4a2",
+          "text": "Curling up with a warm blanket, tea, and something comforting to watch",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 4,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 1,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q4a3",
+          "text": "Taking a long bath with expensive products and creating a spa-like experience",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 1,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q4a4",
+          "text": "Doing something completely random and spontaneous to shake off the energy",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 1,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 4,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q4a5",
+          "text": "Going for a run, doing yoga, or some other physical activity to clear my head",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 3,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 3,
+            "sweet_dessert_parlor": 1,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "Your living space is best described as:",
+      "answers": [
+        {
+          "id": "q5a1",
+          "text": "Minimalist and organized - everything has its place and purpose",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 4,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 4,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q5a2",
+          "text": "Warm and inviting with soft textures, family photos, and things that tell stories",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q5a3",
+          "text": "Sleek and sophisticated with carefully curated art and high-quality pieces",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q5a4",
+          "text": "Eclectic and colorful with random collections, art projects, and constant changes",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 1,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 1,
+            "spicy_bold_kitchen": 4,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q5a5",
+          "text": "Natural and plant-filled with lots of light and earth-friendly materials",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 4,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 3,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 1,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "When trying a new restaurant, you typically:",
+      "answers": [
+        {
+          "id": "q6a1",
+          "text": "Check reviews online first, then order something I know I'll like",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 4,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q6a2",
+          "text": "Ask the server what they recommend and go with their suggestion",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 4,
+            "quirky_experimental": 3,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 3,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 4,
+            "chaotic_food_truck": 3
+          }
+        },
+        {
+          "id": "q6a3",
+          "text": "Study the menu carefully and choose something that sounds refined and well-prepared",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q6a4",
+          "text": "Find the weirdest thing on the menu and order it immediately",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 5,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q6a5",
+          "text": "Look for the healthiest option that still sounds delicious",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 1,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "Your ideal Friday night looks like:",
+      "answers": [
+        {
+          "id": "q7a1",
+          "text": "Dinner and drinks somewhere trendy with good reviews and efficient service",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 4,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 3,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 4,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q7a2",
+          "text": "Cooking a homemade meal with friends or family and playing board games",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q7a3",
+          "text": "A sophisticated evening at a wine bar or upscale restaurant with intimate conversation",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q7a4",
+          "text": "Something spontaneous - maybe karaoke, an art show, or wherever the night takes us",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 1,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 5,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q7a5",
+          "text": "An early dinner at a healthy spot followed by a relaxing evening at home",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 4,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 1,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "When you cook at home, you're most likely to:",
+      "answers": [
+        {
+          "id": "q8a1",
+          "text": "Follow a recipe exactly and meal prep for the week",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 4,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q8a2",
+          "text": "Make something comforting that reminds me of family or childhood",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 3,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q8a3",
+          "text": "Attempt a complex recipe I saw on a cooking show, focusing on technique and presentation",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 3,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 3,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q8a4",
+          "text": "Throw random ingredients together and see what happens",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 1,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 5,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q8a5",
+          "text": "Create something fresh and nutritious with lots of vegetables and whole ingredients",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 1,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "Your approach to fashion and personal style is:",
+      "answers": [
+        {
+          "id": "q9a1",
+          "text": "Classic pieces that mix and match easily - I like looking put-together without much effort",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 4,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 4,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q9a2",
+          "text": "Comfortable and cozy - soft fabrics, warm colors, and things that feel like a hug",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 1,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 4,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 1,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q9a3",
+          "text": "Elegant and polished - I invest in quality pieces and pay attention to details",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q9a4",
+          "text": "Bold and experimental - I love patterns, colors, and pieces that start conversations",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 1,
+            "spicy_bold_kitchen": 5,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q9a5",
+          "text": "Natural and sustainable - I prefer organic fabrics and brands that align with my values",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 1,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "When faced with a big decision, you:",
+      "answers": [
+        {
+          "id": "q10a1",
+          "text": "Research all options thoroughly, make a pros and cons list, then choose efficiently",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 4,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 4,
+            "spicy_bold_kitchen": 1,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 4,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q10a2",
+          "text": "Talk it through with family or close friends until I feel confident",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q10a3",
+          "text": "Take time to consider the long-term implications and choose the most sophisticated option",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 1,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q10a4",
+          "text": "Go with my gut feeling and figure out the details later",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 1,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 5,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q10a5",
+          "text": "Consider what choice aligns best with my values and long-term wellbeing",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": "Your dream job would involve:",
+      "answers": [
+        {
+          "id": "q11a1",
+          "text": "Leading a team to solve problems efficiently with clear metrics for success",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 3,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q11a2",
+          "text": "Creating a warm, supportive environment where people feel cared for and valued",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q11a3",
+          "text": "Curating beautiful experiences and maintaining the highest standards of quality",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q11a4",
+          "text": "Constant creativity and change where no two days are the same",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 5,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q11a5",
+          "text": "Making a positive impact on people's health and wellbeing",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": "At a potluck dinner, you're most likely to bring:",
+      "answers": [
+        {
+          "id": "q12a1",
+          "text": "Something reliable that I know everyone will enjoy and that travels well",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 4,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 4,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q12a2",
+          "text": "A family recipe that always gets compliments and makes people feel loved",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 3,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q12a3",
+          "text": "Something elegant and sophisticated that showcases my culinary skills",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q12a4",
+          "text": "Something completely unexpected that no one else would think to make",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 5,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q12a5",
+          "text": "Something healthy and delicious that proves nutritious food can taste amazing",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 1,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "text": "Your biggest pet peeve in restaurants is:",
+      "answers": [
+        {
+          "id": "q13a1",
+          "text": "Slow service or disorganized staff - I value efficiency and competence",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 4,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 4,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q13a2",
+          "text": "Unfriendly or inattentive servers - I want to feel welcomed and cared for",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q13a3",
+          "text": "Poor presentation or low-quality ingredients - if I'm paying, it should be done right",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q13a4",
+          "text": "Boring, predictable menus with no creativity or personality",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 5,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q13a5",
+          "text": "Limited healthy options or ingredients I can't pronounce",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 1,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "text": "When you're feeling adventurous, you're most likely to:",
+      "answers": [
+        {
+          "id": "q14a1",
+          "text": "Try a new fusion restaurant that has good reviews online",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 3,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 3,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 3
+          }
+        },
+        {
+          "id": "q14a2",
+          "text": "Ask a friend to cook for me or try making something new together",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 3,
+            "traditional_family_restaurant": 4,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 3,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 3
+          }
+        },
+        {
+          "id": "q14a3",
+          "text": "Book a tasting menu at a high-end restaurant I've been wanting to try",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 3,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 3,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q14a4",
+          "text": "Find the most unusual food truck or hole-in-the-wall place I can",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 1,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 5,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q14a5",
+          "text": "Visit a farm-to-table restaurant or try a new type of cuisine that's plant-based",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 3,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "text": "Your relationship with dessert is:",
+      "answers": [
+        {
+          "id": "q15a1",
+          "text": "Strategic - I save room if it's worth it, skip it if it's not",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 4,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 4,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q15a2",
+          "text": "Emotional - dessert is comfort and celebration, especially when shared",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 3,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 1,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 5,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 3
+          }
+        },
+        {
+          "id": "q15a3",
+          "text": "Refined - I prefer quality over quantity and appreciate artful presentation",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 1,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q15a4",
+          "text": "Adventurous - bring on the weird flavor combinations and unexpected textures",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 1,
+            "spicy_bold_kitchen": 4,
+            "sweet_dessert_parlor": 5,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q15a5",
+          "text": "Mindful - I prefer naturally sweet options or make healthier versions at home",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 1,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "text": "When you're running late and need to grab food quickly, you:",
+      "answers": [
+        {
+          "id": "q16a1",
+          "text": "Hit my go-to spot that I know is fast, reliable, and exactly what I need",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 4,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 3
+          }
+        },
+        {
+          "id": "q16a2",
+          "text": "Stop somewhere cozy where the staff knows me and makes me feel at home",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 1,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q16a3",
+          "text": "Skip the meal rather than compromise on quality - I'll eat well later",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 1,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 1,
+            "sweet_dessert_parlor": 1,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q16a4",
+          "text": "Grab whatever catches my eye - could be a food truck, corner store, or random café",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 1,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 4,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 1,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q16a5",
+          "text": "Find a healthy option even if it takes a few extra minutes",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 1,
+            "sweet_dessert_parlor": 1,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "text": "Your ideal dining companion is someone who:",
+      "answers": [
+        {
+          "id": "q17a1",
+          "text": "Makes decisions quickly and appreciates good value and efficiency",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 3,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q17a2",
+          "text": "Enjoys long conversations and makes every meal feel like a warm hug",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q17a3",
+          "text": "Appreciates fine dining and can discuss the nuances of wine pairings",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q17a4",
+          "text": "Is up for anything and turns every meal into an adventure",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 5,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q17a5",
+          "text": "Shares my values about sustainable eating and mindful choices",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 2,
+            "health_conscious_bistro": 5,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 2,
+            "sophisticated_wine_bar": 3,
+            "chaotic_food_truck": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "text": "When you host a dinner party, your main priority is:",
+      "answers": [
+        {
+          "id": "q18a1",
+          "text": "Having everything organized and running smoothly so everyone has a great time",
+          "weights": {
+            "fast_casual_fusion": 5,
+            "cozy_comfort_cafe": 3,
+            "upscale_fine_dining": 4,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 3,
+            "health_conscious_bistro": 3,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 4,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q18a2",
+          "text": "Creating a warm atmosphere where everyone feels welcome and loved",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 5,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 5,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 2
+          }
+        },
+        {
+          "id": "q18a3",
+          "text": "Impressing guests with sophisticated flavors and beautiful presentation",
+          "weights": {
+            "fast_casual_fusion": 2,
+            "cozy_comfort_cafe": 1,
+            "upscale_fine_dining": 5,
+            "quirky_experimental": 2,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 2,
+            "sweet_dessert_parlor": 3,
+            "sophisticated_wine_bar": 5,
+            "chaotic_food_truck": 1
+          }
+        },
+        {
+          "id": "q18a4",
+          "text": "Surprising everyone with unexpected dishes that start conversations",
+          "weights": {
+            "fast_casual_fusion": 3,
+            "cozy_comfort_cafe": 2,
+            "upscale_fine_dining": 2,
+            "quirky_experimental": 5,
+            "traditional_family_restaurant": 1,
+            "health_conscious_bistro": 2,
+            "spicy_bold_kitchen": 5,
+            "sweet_dessert_parlor": 4,
+            "sophisticated_wine_bar": 2,
+            "chaotic_food_truck": 5
+          }
+        },
+        {
+          "id": "q

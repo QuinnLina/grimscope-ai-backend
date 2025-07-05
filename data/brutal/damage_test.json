@@ -1,0 +1,208 @@
+{
+  "testId": "damage-test",
+  "title": "What's Your Fucking Damage?",
+  "description": "Find out what specific brand of broken you are",
+  "traits": {
+    "anxious": "Chronically overthinking and seeking reassurance from others",
+    "avoidant": "Emotionally distant and uncomfortable with vulnerability",
+    "depressed": "Struggling with persistent emptiness and hopelessness",
+    "damaged": "Carrying unresolved trauma that affects daily functioning",
+    "unstable": "Experiencing intense mood swings and chaotic patterns",
+    "insecure": "Deeply doubting self-worth and abilities",
+    "trust_issues": "Unable to rely on or believe in others",
+    "narcissistic": "Obsessed with self-image and superiority",
+    "attention_seeking": "Desperate for validation and recognition",
+    "paranoid": "Constantly suspicious of others' motives",
+    "dark_humor": "Using comedy to deflect pain and avoid feelings",
+    "imposter": "Convinced of being a fraud despite evidence otherwise"
+  },
+  "questions": [
+    {
+      "question": "Someone cancels plans last minute. Your first thought is:",
+      "answers": [
+        {
+          "text": "Thank fuck, now I can stay home and avoid human interaction like the hermit crab I truly am",
+          "traits": {"anxious": 2, "avoidant": 5, "depressed": 3, "damaged": 1, "unstable": 1, "insecure": 2, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 1, "paranoid": 1, "dark_humor": 3, "imposter": 1}
+        },
+        {
+          "text": "What did I do wrong? *immediately starts composing 17 different apology texts*",
+          "traits": {"anxious": 5, "avoidant": 1, "depressed": 2, "damaged": 3, "unstable": 4, "insecure": 4, "trust_issues": 1, "narcissistic": 1, "attention_seeking": 3, "paranoid": 2, "dark_humor": 1, "imposter": 3}
+        },
+        {
+          "text": "The audacity! Don't they know my time is precious? This is why I'm better than everyone",
+          "traits": {"anxious": 1, "avoidant": 1, "depressed": 1, "damaged": 2, "unstable": 3, "insecure": 1, "trust_issues": 2, "narcissistic": 5, "attention_seeking": 2, "paranoid": 1, "dark_humor": 1, "imposter": 1}
+        },
+        {
+          "text": "Another person proves they're unreliable trash. Adding this to my evidence folder",
+          "traits": {"anxious": 1, "avoidant": 3, "depressed": 3, "damaged": 4, "unstable": 2, "insecure": 2, "trust_issues": 5, "narcissistic": 1, "attention_seeking": 1, "paranoid": 4, "dark_humor": 2, "imposter": 1}
+        },
+        {
+          "text": "Time to post a passive-aggressive story about fake friends for maximum drama points",
+          "traits": {"anxious": 2, "avoidant": 1, "depressed": 2, "damaged": 3, "unstable": 3, "insecure": 3, "trust_issues": 1, "narcissistic": 3, "attention_seeking": 5, "paranoid": 1, "dark_humor": 2, "imposter": 2}
+        }
+      ]
+    },
+    {
+      "question": "You get a genuine compliment. Your brain immediately:",
+      "answers": [
+        {
+          "text": "Malfunctions and deflects with awkward jokes because feelings are terrifying",
+          "traits": {"anxious": 3, "avoidant": 4, "depressed": 3, "damaged": 2, "unstable": 2, "insecure": 5, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 1, "paranoid": 2, "dark_humor": 5, "imposter": 4}
+        },
+        {
+          "text": "Analyzes every word for hidden sarcasm because nobody actually likes me",
+          "traits": {"anxious": 5, "avoidant": 2, "depressed": 4, "damaged": 3, "unstable": 2, "insecure": 4, "trust_issues": 3, "narcissistic": 1, "attention_seeking": 1, "paranoid": 4, "dark_humor": 1, "imposter": 4}
+        },
+        {
+          "text": "Finally! Someone with functioning eyes who recognizes greatness when they see it",
+          "traits": {"anxious": 1, "avoidant": 1, "depressed": 1, "damaged": 1, "unstable": 1, "insecure": 1, "trust_issues": 1, "narcissistic": 5, "attention_seeking": 3, "paranoid": 1, "dark_humor": 1, "imposter": 1}
+        },
+        {
+          "text": "Wonders what manipulative scheme they're running because nothing is free",
+          "traits": {"anxious": 2, "avoidant": 3, "depressed": 2, "damaged": 4, "unstable": 2, "insecure": 3, "trust_issues": 5, "narcissistic": 1, "attention_seeking": 1, "paranoid": 5, "dark_humor": 2, "imposter": 2}
+        },
+        {
+          "text": "Screenshots it for my 'proof I'm not completely worthless' collection",
+          "traits": {"anxious": 3, "avoidant": 1, "depressed": 4, "damaged": 3, "unstable": 3, "insecure": 4, "trust_issues": 1, "narcissistic": 2, "attention_seeking": 4, "paranoid": 1, "dark_humor": 3, "imposter": 3}
+        }
+      ]
+    },
+    {
+      "question": "Your current mental breakdown coping strategy involves:",
+      "answers": [
+        {
+          "text": "Disappearing into my bedroom cave until I can fake being human again",
+          "traits": {"anxious": 2, "avoidant": 5, "depressed": 5, "damaged": 3, "unstable": 3, "insecure": 3, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 1, "paranoid": 2, "dark_humor": 3, "imposter": 3}
+        },
+        {
+          "text": "Calling everyone I know to trauma-dump until someone fixes me or blocks me",
+          "traits": {"anxious": 4, "avoidant": 1, "depressed": 2, "damaged": 4, "unstable": 4, "insecure": 3, "trust_issues": 1, "narcissistic": 2, "attention_seeking": 5, "paranoid": 2, "dark_humor": 1, "imposter": 2}
+        },
+        {
+          "text": "Finding someone to emotionally destroy so I feel powerful again",
+          "traits": {"anxious": 1, "avoidant": 2, "depressed": 1, "damaged": 4, "unstable": 5, "insecure": 2, "trust_issues": 3, "narcissistic": 4, "attention_seeking": 3, "paranoid": 3, "dark_humor": 2, "imposter": 1}
+        },
+        {
+          "text": "Self-destructive behavior paired with dark humor about how fucked I am",
+          "traits": {"anxious": 3, "avoidant": 3, "depressed": 4, "damaged": 5, "unstable": 4, "insecure": 3, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 2, "paranoid": 2, "dark_humor": 5, "imposter": 2}
+        },
+        {
+          "text": "Pretending I'm fine while internally combusting and planning my escape from reality",
+          "traits": {"anxious": 4, "avoidant": 3, "depressed": 3, "damaged": 3, "unstable": 2, "insecure": 4, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 1, "paranoid": 3, "dark_humor": 2, "imposter": 5}
+        }
+      ]
+    },
+    {
+      "question": "Social media makes you feel:",
+      "answers": [
+        {
+          "text": "Like a creepy stalker who lurks but never posts because everyone will judge my existence",
+          "traits": {"anxious": 5, "avoidant": 4, "depressed": 3, "damaged": 2, "unstable": 2, "insecure": 5, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 1, "paranoid": 3, "dark_humor": 2, "imposter": 4}
+        },
+        {
+          "text": "Alive! It's my personal dopamine dealer and validation vending machine",
+          "traits": {"anxious": 3, "avoidant": 1, "depressed": 3, "damaged": 3, "unstable": 3, "insecure": 4, "trust_issues": 1, "narcissistic": 3, "attention_seeking": 5, "paranoid": 1, "dark_humor": 1, "imposter": 3}
+        },
+        {
+          "text": "Superior. My curated perfection makes peasants weep with envy",
+          "traits": {"anxious": 1, "avoidant": 1, "depressed": 1, "damaged": 1, "unstable": 2, "insecure": 1, "trust_issues": 1, "narcissistic": 5, "attention_seeking": 4, "paranoid": 1, "dark_humor": 1, "imposter": 1}
+        },
+        {
+          "text": "Paranoid. It's a surveillance network where everyone screenshots everything to use against me later",
+          "traits": {"anxious": 2, "avoidant": 3, "depressed": 2, "damaged": 3, "unstable": 2, "insecure": 2, "trust_issues": 5, "narcissistic": 2, "attention_seeking": 1, "paranoid": 5, "dark_humor": 2, "imposter": 2}
+        },
+        {
+          "text": "Dead inside. Deleted it because watching everyone's fake happiness was murdering my soul",
+          "traits": {"anxious": 3, "avoidant": 4, "depressed": 5, "damaged": 3, "unstable": 2, "insecure": 3, "trust_issues": 3, "narcissistic": 1, "attention_seeking": 1, "paranoid": 2, "dark_humor": 4, "imposter": 3}
+        }
+      ]
+    },
+    {
+      "question": "When you're wrong about something important, you:",
+      "answers": [
+        {
+          "text": "Spiral into a shame tornado convinced I'm too stupid to function in society",
+          "traits": {"anxious": 4, "avoidant": 2, "depressed": 4, "damaged": 3, "unstable": 3, "insecure": 5, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 2, "paranoid": 2, "dark_humor": 2, "imposter": 5}
+        },
+        {
+          "text": "Double down like a conspiracy theorist because admitting fault is death",
+          "traits": {"anxious": 1, "avoidant": 2, "depressed": 1, "damaged": 2, "unstable": 3, "insecure": 2, "trust_issues": 1, "narcissistic": 5, "attention_seeking": 3, "paranoid": 3, "dark_humor": 1, "imposter": 1}
+        },
+        {
+          "text": "Blame literally everything else because obviously external forces conspired against me",
+          "traits": {"anxious": 2, "avoidant": 3, "depressed": 2, "damaged": 4, "unstable": 4, "insecure": 3, "trust_issues": 3, "narcissistic": 4, "attention_seeking": 2, "paranoid": 4, "dark_humor": 1, "imposter": 2}
+        },
+        {
+          "text": "Add it to my 'life is meaningless' evidence pile and make dark jokes about my stupidity",
+          "traits": {"anxious": 2, "avoidant": 4, "depressed": 5, "damaged": 4, "unstable": 2, "insecure": 3, "trust_issues": 3, "narcissistic": 1, "attention_seeking": 1, "paranoid": 2, "dark_humor": 5, "imposter": 3}
+        },
+        {
+          "text": "Panic about who witnessed my failure and craft elaborate damage control strategies",
+          "traits": {"anxious": 5, "avoidant": 2, "depressed": 2, "damaged": 2, "unstable": 3, "insecure": 4, "trust_issues": 2, "narcissistic": 3, "attention_seeking": 4, "paranoid": 3, "dark_humor": 1, "imposter": 4}
+        }
+      ]
+    }
+  ],
+  "results": {
+    "anxious": {
+      "title": "Anxiously Attached Hot Mess",
+      "description": "You're a walking anxiety attack with a PhD in overthinking. You cling to people like they're life rafts while simultaneously being convinced they're planning their escape.",
+      "extended": "Your damage is beautifully predictable: you need people desperately but you're terrified they'll leave, so you become a self-fulfilling prophecy of neediness. You analyze every emoji, read into every delayed response, and have turned emotional labor into an Olympic sport. Your anxiety has anxiety, and you've made it everyone else's problem.\n\nThe real kicker? You know you're doing it but can't stop. You're like a moth to a flame, except the flame is human connection and you keep getting burned because you fly too close too fast. Your relationships are a series of panic spirals disguised as love stories.\n\nHere's the brutal truth: your anxious attachment isn't cute or quirky - it's exhausting. For you AND everyone around you. People can feel your desperation from space, and nothing kills attraction faster than someone who treats every text delay like a personal apocalypse.\n\nBut here's the thing - this damage is fixable with actual work. Therapy isn't a suggestion, it's a necessity. Learn to self-soothe instead of using other people as emotional regulation devices. Your future relationships will thank you for doing the work instead of making them your unpaid therapists."
+    },
+    "avoidant": {
+      "title": "Emotionally Unavailable Ghost",
+      "description": "You've built emotional walls so high even you can't climb them. You disappear the moment things get real, because vulnerability feels like death.",
+      "extended": "You're probably reading this thinking 'whatever, I don't care' but we both know you do. You care so much it terrifies you, so you've perfected the art of caring from a safe distance. Every relationship comes with an exit strategy because you've convinced yourself that leaving first means you win.\n\nYour damage manifests as emotional allergies - genuine intimacy makes you break out in hives. You're the master of surface-level connections and shallow conversations that never threaten your carefully constructed fortress of solitude. Deep down, you're just scared of being known because being known means being potentially rejected.\n\nThe brutal reality is that your avoidance isn't protecting you - it's limiting you. You're so busy preventing potential pain that you're missing out on actual joy. Your relationships have the emotional depth of a puddle because you refuse to let anyone see the ocean underneath.\n\nHere's your wake-up call: vulnerability isn't weakness, it's courage. And your current strategy of emotional hit-and-run isn't sustainable. Either learn to let people in or accept that you'll die alone with your pristine boundaries and perfect independence. Your choice."
+    },
+    "depressed": {
+      "title": "High-Functioning Depression Poster Child",
+      "description": "You've turned mental illness into a personality trait and dark humor into a defense mechanism. You're exhausted from pretending to be okay, but you've gotten so good at it that nobody notices you're drowning.",
+      "extended": "You're not living, you're existing with better memes. Your depression has become so normalized that you've forgotten what happiness actually feels like. You've mastered the art of functional misery - showing up, doing the bare minimum, and making self-deprecating jokes to deflect from the fact that you're falling apart.\n\nThe scary part? You've accepted this as normal. You think everyone feels this empty and everyone else is just better at pretending. But here's the thing - most people don't spend their days fighting the urge to disappear, and most people don't need to convince themselves that life is worth living on a daily basis.\n\nYour dark humor isn't helping you heal - it's helping you avoid healing. Every joke about wanting to die is a way to express your pain without actually dealing with it. You've become a performance artist of your own suffering, and the show must go on because stopping means facing the silence.\n\nReality check: this isn't sustainable, and it's not as invisible as you think. People can see you drowning even when you're smiling. The question is whether you're going to keep treading water or actually swim to shore. Professional help isn't giving up - it's fighting back."
+    },
+    "damaged": {
+      "title": "Walking Trauma Response",
+      "description": "You're a human hurricane of unresolved trauma with coping mechanisms that have their own coping mechanisms. You've been through so much that you've normalized dysfunction.",
+      "extended": "You've turned survival mode into a lifestyle and wonder why nothing feels stable. Your nervous system is stuck in fight-or-flight, interpreting normal relationship friction as existential threats. You create chaos when things get too peaceful because chaos feels like home, even when it's destroying everything you claim to want.\n\nThe brutal truth is that you've become addicted to your own damage. It's your identity, your excuse, and your comfort zone all rolled into one. You wear your trauma like armor, but it's actually a prison. Every new relationship becomes a reenactment of old wounds because familiar pain feels safer than unfamiliar healing.\n\nYou overshare your trauma like it's currency, trauma-dumping on anyone who shows the slightest interest. But here's the kicker - awareness doesn't equal healing. Knowing why you're fucked up doesn't magically unfuck you. You need to do the actual work, not just catalog your damage like it's an interesting hobby.\n\nPlot twist: you're not as broken as you think you are. You're just comfortable being broken because it requires less vulnerability than being whole. Healing means giving up the story that keeps you safe, and that's terrifying. But staying damaged isn't protecting you anymore - it's limiting you."
+    },
+    "unstable": {
+      "title": "Chaotic Neutral Disaster",
+      "description": "You're an emotional tornado with mood swings that have their own mood swings. One day you're on top of the world, the next you're googling 'how to disappear completely.'",
+      "extended": "You're not crazy, you're just allergic to consistency and addicted to chaos. Your emotional regulation is about as reliable as a weather forecast, and your friends need a flowchart to keep up with your current crisis. You mistake intensity for depth and drama for passion, creating hurricanes in teacups because calm feels like death.\n\nThe real damage isn't your instability - it's your investment in it. You've convinced yourself that your chaos makes you interesting, that your unpredictability makes you unique. But here's the brutal truth: you're not mysterious, you're exhausting. People aren't intrigued by your emotional volatility - they're walking on eggshells.\n\nYou sabotage good things because they feel foreign, choosing familiar dysfunction over unfamiliar stability. Your relationships are crash courses in emotional whiplash, and you wonder why people eventually tap out. You've mistaken emotional labor for love and turned your life into a soap opera nobody asked to watch.\n\nWake-up call: stability isn't boring, it's healing. Consistency isn't death, it's growth. Your chaos isn't protecting you from anything - it's preventing you from everything. Time to learn that you can be interesting without being unstable and complex without being chaotic."
+    },
+    "insecure": {
+      "title": "Imposter Syndrome Incarnate",
+      "description": "You're convinced everyone's about to figure out you're a fraud. Compliments feel like lies, success feels undeserved, and you're waiting for someone to expose you.",
+      "extended": "You compare your behind-the-scenes to everyone's highlight reel and always come up short. Your inner critic has taken up permanent residence in your head, providing a running commentary of everything you're doing wrong. You've turned self-doubt into an art form and impostor syndrome into a lifestyle.\n\nThe brutal reality is that your insecurity is a choice you keep making. Every day you wake up and decide to believe the worst about yourself despite evidence to the contrary. You've become so comfortable with self-hatred that self-love feels fake. You'd rather be right about being worthless than risk being wrong about being valuable.\n\nYou seek external validation to fill an internal void, but it's like pouring water into a bucket with holes in the bottom. No amount of praise can fix a broken foundation of self-worth. You've made everyone else responsible for your emotional well-being while taking responsibility for everyone else's problems.\n\nFun fact: you're actually capable, you just can't see it through the fog of self-hatred. Your insecurity isn't protecting you from disappointment - it's preventing you from achievement. Time to stop making your lack of self-worth everyone else's problem and start building some actual confidence from the inside out."
+    },
+    "trust_issues": {
+      "title": "Trust Issues Personified",
+      "description": "You trust nobody, including yourself. You've been burned so many times you're basically charcoal. You analyze every word, question every motive, and keep one foot out the door at all times.",
+      "extended": "You test people constantly then push them away when they pass because clearly they're just better at hiding their true intentions. Every kind gesture comes with invisible strings, every compliment has hidden motives, and every 'I love you' has an expiration date. You've turned emotional intimacy into a criminal investigation.\n\nThe brutal truth is that the person who hurt you is living rent-free in your head, affecting every relationship since. You've given your past pain so much power that it's running your present life. You're so busy protecting yourself from potential betrayal that you're missing out on actual connection.\n\nYour trust issues aren't discernment - they're prejudice. You've decided that everyone is guilty until proven innocent, and your standards of proof are impossibly high. You've created a prison of suspicion and called it safety, but you're the one in solitary confinement.\n\nReality check: not everyone is your ex, your parents, or whoever broke you first. Some people actually mean what they say and say what they mean. Your hypervigilance isn't protecting you anymore - it's isolating you. Time to risk being hurt again because the alternative is never really living."
+    },
+    "narcissistic": {
+      "title": "Main Character Syndrome Sufferer",
+      "description": "You're so focused on yourself you don't even realize it. You think this test is beneath you but you took it anyway for validation. Deep down you know you're empty, so you fill the void with attention.",
+      "extended": "You're not evil, just emotionally stunted with Main Character Syndrome. Everything is about you, even when it's clearly not about you. You have the emotional intelligence of a houseplant but the confidence of a motivational speaker. You mistake admiration for love and attention for affection.\n\nThe real damage isn't your inflated ego - it's the fragile self-worth hiding underneath. You've built your entire identity around being special, superior, and significant, but it's all constructed on quicksand. Any threat to your carefully curated image sends you into a narcissistic rage that you disguise as justified anger.\n\nYou don't really love people - you love how they make you feel about yourself. Your relationships are transactional: you provide charm and charisma, they provide validation and worship. When they stop playing their role in your one-person show, you discard them like broken toys.\n\nWake-up call: you're not as special as you think you are, and that's actually liberating. Your worth doesn't depend on being superior to everyone else. The energy you spend maintaining your false self could be used to develop your actual self. But that requires admitting you're human, which terrifies you."
+    },
+    "attention_seeking": {
+      "title": "Professional Victim and Trauma Collector",
+      "description": "You've weaponized your trauma for attention and turned victimhood into an identity. You overshare like it's your job, turn every conversation into therapy, and compete in the Oppression Olympics.",
+      "extended": "You've become addicted to sympathy and validation through suffering. Every minor inconvenience becomes a major trauma, every disagreement becomes abuse, and every boundary becomes persecution. You've learned that being broken gets you attention, so you keep picking at your wounds instead of letting them heal.\n\nThe brutal truth is that you're not healing because healing would cost you your audience. Your trauma has become your brand, your excuse, and your way of controlling conversations. You mistake intensity for intimacy and crisis for connection, creating drama to feel seen and heard.\n\nYou've turned your pain into performance art, but the show is getting old. People are starting to see through the manipulation, recognizing that your 'vulnerability' is actually a weapon you use to make everything about you. Your endless need for rescue is exhausting everyone around you.\n\nReality check: your trauma is real, but your attachment to it is a choice. Healing means giving up the secondary gains of being broken - the attention, the excuses, the control. You can be interesting without being tragic and worthy without being wounded. Time to write a new story where you're the hero, not the victim."
+    },
+    "paranoid": {
+      "title": "Hypervigilant Threat Detector",
+      "description": "You see threats everywhere because you've been blindsided before. You're hypervigilant to the point of exhaustion, creating conspiracy theories about why someone took 3 minutes to text back.",
+      "extended": "You're not crazy - you're traumatized. Your body is stuck in survival mode, seeing danger in safety and rejection in neutrality. You've become a pattern-recognition machine, but your software is outdated and keeps flagging normal human behavior as threats. Your nervous system can't tell the difference between a saber-tooth tiger and a delayed text message.\n\nThe real damage isn't your vigilance - it's how it's limiting your life. You're so busy scanning for threats that you're missing opportunities for connection. You've turned every relationship into a security assessment and every interaction into a risk analysis. You're living in a prison of your own protection.\n\nYour paranoia feels justified because you've collected evidence to support it, but you're only seeing what confirms your fears. You've become addicted to being right about people being dangerous, even when it costs you relationships with people who are actually safe.\n\nPlot twist: not everyone is out to get you, but your brain can't tell the difference anymore. Your hypervigilance was adaptive once, but now it's maladaptive. Time to recalibrate your threat detection system and learn the difference between intuition and anxiety. Professional help isn't weakness - it's maintenance."
+    },
+    "dark_humor": {
+      "title": "Dark Humor Defense Mechanism",
+      "description": "You've turned pain into punchlines and trauma into content. Your humor is so dark it needs a flashlight, and you make people uncomfortable with how casually you discuss heavy shit.",
+      "extended": "Behind the comedian facade is someone who's terrified of being seen without the mask. You've convinced yourself that if you can laugh about it, it can't hurt you. Spoiler: it still does. Your comedy is just tragedy with better timing, and you've become a performance artist of your own pain.\n\nThe brutal truth is that your dark humor isn't helping you heal - it's helping you avoid healing. Every joke about your trauma is a way to acknowledge it without processing it. You've turned your coping mechanism into your personality, and now you don't know who you are without the punchlines.\n\nPeople appreciate your humor until they realize it's a wall. You deflect every genuine moment, turn every sincere conversation into a comedy show, and wonder why your relationships feel shallow. Your humor connects you to people, but it also keeps them at arm's length.\n\nReality check: you can be funny without being self-destructive and entertaining without being tragic. Your worth isn't dependent on your ability to make light of dark situations. Sometimes the bravest thing you can do is not make a joke. Time to let people see the person behind the punchlines."
+    },
+    "imposter": {
+      "title": "Chronic Fraud Complex Sufferer",
+      "description": "You're convinced you've fooled everyone and they're about to catch on. Every success feels like luck, every compliment feels like a lie, and you're waiting for someone to expose you as the fraud you believe you are.",
+      "extended": "You can't internalize achievements but you internalize every failure. Your brain has a Teflon coating for praise and Velcro for criticism. You've convinced yourself that everyone else knows something you don't, that there's some manual for life that you never received.\n\nThe real damage isn't your lack of confidence - it's how much energy you waste on self-doubt. You spend more time worrying about being exposed than actually developing skills. You've turned competence into performance anxiety and achievement into evidence of your deception.\n\nYou seek reassurance constantly but dismiss it immediately because clearly they just don't know you well enough yet. You've made it impossible to succeed in your own mind, creating standards so high that meeting them feels fraudulent and missing them confirms your worthlessness.\n\nReality check: if you were really faking it, you wouldn't be this worried about being caught. Actual frauds don't lie awake at night consumed by guilt about their deception. Your impostor syndrome is proof of your integrity, not evidence of your inadequacy. Time to give yourself credit where credit is due."
+    }
+  }
+}

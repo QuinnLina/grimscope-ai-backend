@@ -1,0 +1,707 @@
+{
+  "title": "Childhood Trauma Score",
+  "description": "Uncover how deeply your past has shaped your present",
+  "traits": {
+    "hypervigilance": "Constant alertness to potential threats",
+    "emotional_numbing": "Difficulty experiencing or expressing emotions",
+    "trust_issues": "Struggle to form secure attachments",
+    "perfectionism": "Compulsive need to control and excel",
+    "people_pleasing": "Sacrificing personal needs for others' approval",
+    "abandonment_fear": "Deep terror of being left alone",
+    "self_blame": "Tendency to blame yourself for others' actions",
+    "emotional_dysregulation": "Difficulty managing intense emotions",
+    "dissociation": "Feeling disconnected from yourself or reality",
+    "learned_helplessness": "Belief that you have no control over outcomes",
+    "avoidance": "Escaping from difficult emotions or situations",
+    "trauma_bonding": "Confusing intensity with love"
+  },
+  "questions": [
+    {
+      "question": "When you walk into a room full of people, your first instinct is to:",
+      "answers": [
+        {
+          "text": "Scan every face to assess potential threats and locate all exits",
+          "traits": {"hypervigilance": 5, "trust_issues": 3, "abandonment_fear": 2, "emotional_numbing": 1, "perfectionism": 0}
+        },
+        {
+          "text": "Immediately start planning how to make everyone comfortable and happy",
+          "traits": {"people_pleasing": 5, "self_blame": 3, "perfectionism": 2, "abandonment_fear": 2, "hypervigilance": 1}
+        },
+        {
+          "text": "Feel an overwhelming urge to disappear or become invisible",
+          "traits": {"avoidance": 5, "dissociation": 4, "emotional_numbing": 2, "trust_issues": 1, "learned_helplessness": 1}
+        },
+        {
+          "text": "Notice how the lighting could be better and mentally rearrange the furniture",
+          "traits": {"perfectionism": 5, "hypervigilance": 2, "people_pleasing": 2, "self_blame": 1, "emotional_dysregulation": 0}
+        },
+        {
+          "text": "Feel your chest tighten as you prepare for someone to reject or criticize you",
+          "traits": {"abandonment_fear": 5, "self_blame": 4, "emotional_dysregulation": 3, "people_pleasing": 2, "trust_issues": 1}
+        }
+      ]
+    },
+    {
+      "question": "The last time someone genuinely complimented you, your immediate thought was:",
+      "answers": [
+        {
+          "text": "They must want something from me or they're setting me up for disappointment",
+          "traits": {"trust_issues": 5, "self_blame": 3, "abandonment_fear": 2, "hypervigilance": 2, "emotional_numbing": 1}
+        },
+        {
+          "text": "I need to immediately find a way to compliment them back or do something for them",
+          "traits": {"people_pleasing": 5, "self_blame": 3, "perfectionism": 2, "abandonment_fear": 2, "trust_issues": 1}
+        },
+        {
+          "text": "That felt nice, but I'm already analyzing what I did wrong in the interaction",
+          "traits": {"perfectionism": 4, "self_blame": 4, "emotional_dysregulation": 2, "people_pleasing": 2, "hypervigilance": 1}
+        },
+        {
+          "text": "I couldn't really process it - it felt like they were talking about someone else",
+          "traits": {"dissociation": 5, "emotional_numbing": 4, "self_blame": 2, "learned_helplessness": 1, "avoidance": 1}
+        },
+        {
+          "text": "My body physically rejected it - I felt nauseous or uncomfortable",
+          "traits": {"emotional_dysregulation": 5, "trauma_bonding": 3, "self_blame": 3, "dissociation": 2, "abandonment_fear": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you're alone with your thoughts for too long, you tend to:",
+      "answers": [
+        {
+          "text": "Replay every conversation from the day, analyzing what you could have said better",
+          "traits": {"perfectionism": 5, "self_blame": 4, "emotional_dysregulation": 2, "people_pleasing": 2, "hypervigilance": 1}
+        },
+        {
+          "text": "Create elaborate worst-case scenarios about people abandoning you",
+          "traits": {"abandonment_fear": 5, "emotional_dysregulation": 4, "self_blame": 2, "hypervigilance": 2, "trust_issues": 1}
+        },
+        {
+          "text": "Feel like you're watching yourself from outside your body, detached and floating",
+          "traits": {"dissociation": 5, "emotional_numbing": 4, "avoidance": 3, "learned_helplessness": 2, "self_blame": 1}
+        },
+        {
+          "text": "Find yourself making mental lists of everything you need to fix about yourself",
+          "traits": {"self_blame": 5, "perfectionism": 4, "people_pleasing": 2, "emotional_dysregulation": 2, "learned_helplessness": 1}
+        },
+        {
+          "text": "Desperately search for distractions because the silence feels dangerous",
+          "traits": {"avoidance": 5, "hypervigilance": 3, "emotional_dysregulation": 3, "dissociation": 2, "emotional_numbing": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your relationship with anger is best described as:",
+      "answers": [
+        {
+          "text": "Anger is terrifying - mine or anyone else's - and must be avoided at all costs",
+          "traits": {"emotional_numbing": 5, "avoidance": 4, "people_pleasing": 3, "hypervigilance": 2, "abandonment_fear": 1}
+        },
+        {
+          "text": "I turn all anger inward - if someone's upset, it must be my fault somehow",
+          "traits": {"self_blame": 5, "people_pleasing": 4, "emotional_dysregulation": 2, "perfectionism": 2, "learned_helplessness": 1}
+        },
+        {
+          "text": "When I'm angry, I explode unexpectedly, then hate myself for losing control",
+          "traits": {"emotional_dysregulation": 5, "self_blame": 4, "perfectionism": 3, "trauma_bonding": 2, "dissociation": 1}
+        },
+        {
+          "text": "I intellectualize it away - anger is just information, nothing more",
+          "traits": {"emotional_numbing": 4, "dissociation": 4, "avoidance": 3, "perfectionism": 2, "hypervigilance": 1}
+        },
+        {
+          "text": "Anger feels familiar and comfortable - like coming home to chaos",
+          "traits": {"trauma_bonding": 5, "emotional_dysregulation": 4, "dissociation": 2, "hypervigilance": 2, "self_blame": 1}
+        }
+      ]
+    },
+    {
+      "question": "When someone you care about doesn't respond to your text immediately, you:",
+      "answers": [
+        {
+          "text": "Assume they're done with you and start preparing for the inevitable abandonment",
+          "traits": {"abandonment_fear": 5, "self_blame": 4, "emotional_dysregulation": 3, "trust_issues": 2, "learned_helplessness": 1}
+        },
+        {
+          "text": "Send increasingly apologetic follow-up messages for things you didn't even do",
+          "traits": {"people_pleasing": 5, "self_blame": 4, "abandonment_fear": 3, "perfectionism": 2, "emotional_dysregulation": 1}
+        },
+        {
+          "text": "Convince yourself you don't care and it doesn't matter anyway",
+          "traits": {"emotional_numbing": 5, "avoidance": 4, "dissociation": 3, "trust_issues": 2, "learned_helplessness": 1}
+        },
+        {
+          "text": "Analyze the last conversation word by word to find what you did wrong",
+          "traits": {"perfectionism": 5, "self_blame": 4, "hypervigilance": 2, "emotional_dysregulation": 2, "people_pleasing": 1}
+        },
+        {
+          "text": "Feel your nervous system activate like you're under actual physical threat",
+          "traits": {"hypervigilance": 5, "emotional_dysregulation": 4, "abandonment_fear": 3, "trauma_bonding": 2, "dissociation": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your inner voice sounds most like:",
+      "answers": [
+        {
+          "text": "A harsh critic that never lets you rest, always finding new flaws to fix",
+          "traits": {"self_blame": 5, "perfectionism": 4, "emotional_dysregulation": 2, "people_pleasing": 2, "learned_helplessness": 1}
+        },
+        {
+          "text": "A hyperactive security guard, constantly warning you about potential dangers",
+          "traits": {"hypervigilance": 5, "trust_issues": 3, "emotional_dysregulation": 2, "abandonment_fear": 2, "avoidance": 1}
+        },
+        {
+          "text": "A scared child begging everyone not to leave you alone",
+          "traits": {"abandonment_fear": 5, "people_pleasing": 4, "emotional_dysregulation": 3, "self_blame": 2, "trauma_bonding": 1}
+        },
+        {
+          "text": "Static or white noise - you've learned to tune out most thoughts",
+          "traits": {"dissociation": 5, "emotional_numbing": 4, "avoidance": 3, "learned_helplessness": 2, "self_blame": 1}
+        },
+        {
+          "text": "A relentless coach pushing you to be better, faster, more perfect",
+          "traits": {"perfectionism": 5, "self_blame": 3, "emotional_dysregulation": 2, "people_pleasing": 2, "hypervigilance": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you accomplish something significant, your first emotion is usually:",
+      "answers": [
+        {
+          "text": "Relief that you've temporarily avoided criticism or rejection",
+          "traits": {"perfectionism": 4, "people_pleasing": 4, "self_blame": 3, "abandonment_fear": 2, "hypervigilance": 1}
+        },
+        {
+          "text": "Panic about maintaining this level of performance forever",
+          "traits": {"perfectionism": 5, "emotional_dysregulation": 4, "self_blame": 2, "hypervigilance": 2, "people_pleasing": 1}
+        },
+        {
+          "text": "Emptiness - like you're watching someone else's success from far away",
+          "traits": {"dissociation": 5, "emotional_numbing": 4, "learned_helplessness": 2, "avoidance": 2, "self_blame": 1}
+        },
+        {
+          "text": "Immediate focus on what you could have done better or differently",
+          "traits": {"perfectionism": 5, "self_blame": 4, "emotional_dysregulation": 2, "hypervigilance": 1, "people_pleasing": 1}
+        },
+        {
+          "text": "Fear that now people will expect too much from you",
+          "traits": {"abandonment_fear": 4, "people_pleasing": 4, "self_blame": 3, "emotional_dysregulation": 2, "perfectionism": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your body holds tension primarily:",
+      "answers": [
+        {
+          "text": "In your shoulders and neck, like you're constantly bracing for impact",
+          "traits": {"hypervigilance": 5, "emotional_dysregulation": 3, "trauma_bonding": 2, "self_blame": 1, "avoidance": 1}
+        },
+        {
+          "text": "In your chest and throat, making it hard to breathe deeply",
+          "traits": {"emotional_numbing": 4, "dissociation": 4, "abandonment_fear": 3, "avoidance": 2, "emotional_dysregulation": 1}
+        },
+        {
+          "text": "In your stomach, like you're always preparing for bad news",
+          "traits": {"abandonment_fear": 5, "hypervigilance": 3, "emotional_dysregulation": 3, "self_blame": 2, "trust_issues": 1}
+        },
+        {
+          "text": "Everywhere and nowhere - you've learned not to notice your body's signals",
+          "traits": {"dissociation": 5, "emotional_numbing": 4, "avoidance": 3, "learned_helplessness": 2, "self_blame": 1}
+        },
+        {
+          "text": "In your jaw and fists, ready to fight or defend at any moment",
+          "traits": {"emotional_dysregulation": 5, "hypervigilance": 4, "trauma_bonding": 3, "self_blame": 2, "perfectionism": 1}
+        }
+      ]
+    },
+    {
+      "question": "When someone shares their problems with you, you:",
+      "answers": [
+        {
+          "text": "Immediately start planning how to fix everything and make it better",
+          "traits": {"people_pleasing": 5, "perfectionism": 3, "self_blame": 2, "abandonment_fear": 2, "emotional_dysregulation": 1}
+        },
+        {
+          "text": "Feel overwhelmed by their emotions and want to escape the conversation",
+          "traits": {"avoidance": 5, "emotional_numbing": 4, "dissociation": 3, "hypervigilance": 2, "learned_helplessness": 1}
+        },
+        {
+          "text": "Wonder what you did wrong to cause their pain, even when it's unrelated",
+          "traits": {"self_blame": 5, "people_pleasing": 3, "emotional_dysregulation": 2, "abandonment_fear": 2, "perfectionism": 1}
+        },
+        {
+          "text": "Feel their emotions so intensely it's like they become your own",
+          "traits": {"emotional_dysregulation": 5, "people_pleasing": 4, "dissociation": 2, "trauma_bonding": 2, "self_blame": 1}
+        },
+        {
+          "text": "Analyze their situation objectively while feeling disconnected from the emotions",
+          "traits": {"emotional_numbing": 5, "dissociation": 4, "avoidance": 3, "perfectionism": 2, "hypervigilance": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your sleep patterns are best described as:",
+      "answers": [
+        {
+          "text": "Difficulty falling asleep because your mind won't stop scanning for threats",
+          "traits": {"hypervigilance": 5, "emotional_dysregulation": 3, "trust_issues": 2, "perfectionism": 2, "avoidance": 1}
+        },
+        {
+          "text": "Sleeping too much because unconsciousness feels safer than being awake",
+          "traits": {"avoidance": 5, "dissociation": 4, "emotional_numbing": 3, "learned_helplessness": 2, "self_blame": 1}
+        },
+        {
+          "text": "Waking up in panic, feeling like you've forgotten something crucial",
+          "traits": {"perfectionism": 4, "hypervigilance": 4, "self_blame": 3, "emotional_dysregulation": 2, "abandonment_fear": 1}
+        },
+        {
+          "text": "Nightmares or vivid dreams that feel more real than your waking life",
+          "traits": {"trauma_bonding": 5, "emotional_dysregulation": 4, "dissociation": 3, "hypervigilance": 2, "self_blame": 1}
+        },
+        {
+          "text": "Insomnia because quiet moments let unwanted thoughts creep in",
+          "traits": {"avoidance": 4, "emotional_dysregulation": 4, "hypervigilance": 3, "dissociation": 2, "emotional_numbing": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you make a small mistake, your internal response is:",
+      "answers": [
+        {
+          "text": "Immediately catastrophizing about all the ways this will ruin everything",
+          "traits": {"emotional_dysregulation": 5, "self_blame": 4, "perfectionism": 3, "abandonment_fear": 2, "hypervigilance": 1}
+        },
+        {
+          "text": "Going into overdrive to fix it perfectly and prevent future mistakes",
+          "traits": {"perfectionism": 5, "self_blame": 3, "people_pleasing": 2, "emotional_dysregulation": 2, "hypervigilance": 1}
+        },
+        {
+          "text": "Feeling like you don't deserve forgiveness and should be punished",
+          "traits": {"self_blame": 5, "learned_helplessness": 3, "people_pleasing": 2, "emotional_dysregulation": 2, "abandonment_fear": 1}
+        },
+        {
+          "text": "Shutting down emotionally because the shame is too overwhelming",
+          "traits": {"emotional_numbing": 5, "dissociation": 4, "avoidance": 3, "self_blame": 2, "learned_helplessness": 1}
+        },
+        {
+          "text": "Waiting for the inevitable anger or disappointment from others",
+          "traits": {"abandonment_fear": 5, "hypervigilance": 3, "self_blame": 3, "people_pleasing": 2, "emotional_dysregulation": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your relationship with success feels like:",
+      "answers": [
+        {
+          "text": "A trap - the higher you climb, the farther you have to fall",
+          "traits": {"abandonment_fear": 4, "self_blame": 4, "perfectionism": 3, "emotional_dysregulation": 2, "hypervigilance": 1}
+        },
+        {
+          "text": "Borrowed time - you're always waiting for someone to realize you're a fraud",
+          "traits": {"self_blame": 5, "perfectionism": 4, "trust_issues": 2, "people_pleasing": 2, "learned_helplessness": 1}
+        },
+        {
+          "text": "Something that happens to other people, not something you deserve",
+          "traits": {"learned_helplessness": 5, "self_blame": 4, "dissociation": 3, "emotional_numbing": 2, "avoidance": 1}
+        },
+        {
+          "text": "A performance you have to maintain perfectly or lose everything",
+          "traits": {"perfectionism": 5, "people_pleasing": 4, "emotional_dysregulation": 2, "self_blame": 2, "hypervigilance": 1}
+        },
+        {
+          "text": "Meaningless because nothing feels real or lasting anyway",
+          "traits": {"dissociation": 5, "emotional_numbing": 4, "avoidance": 3, "learned_helplessness": 2, "self_blame": 1}
+        }
+      ]
+    },
+    {
+      "question": "When conflict arises in your relationships, you typically:",
+      "answers": [
+        {
+          "text": "Immediately apologize for everything, even things that aren't your fault",
+          "traits": {"people_pleasing": 5, "self_blame": 4, "abandonment_fear": 3, "perfectionism": 2, "emotional_dysregulation": 1}
+        },
+        {
+          "text": "Feel your fight-or-flight response activate like it's a life-or-death situation",
+          "traits": {"hypervigilance": 5, "emotional_dysregulation": 4, "trauma_bonding": 3, "abandonment_fear": 2, "dissociation": 1}
+        },
+        {
+          "text": "Mentally leave your body while mechanically going through the motions",
+          "traits": {"dissociation": 5, "emotional_numbing": 4, "avoidance": 3, "learned_helplessness": 2, "self_blame": 1}
+        },
+        {
+          "text": "Become obsessed with finding the perfect words to fix everything",
+          "traits": {"perfectionism": 5, "people_pleasing": 3, "self_blame": 3, "emotional_dysregulation": 2, "hypervigilance": 1}
+        },
+        {
+          "text": "Assume this means the relationship is over and start emotionally preparing",
+          "traits": {"abandonment_fear": 5, "trust_issues": 4, "emotional_numbing": 3, "self_blame": 2, "learned_helplessness": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your relationship with your emotions is:",
+      "answers": [
+        {
+          "text": "Like having a house guest who might trash the place at any moment",
+          "traits": {"emotional_dysregulation": 5, "hypervigilance": 3, "self_blame": 2, "avoidance": 2, "perfectionism": 1}
+        },
+        {
+          "text": "Distant and clinical - you observe them like a scientist studying specimens",
+          "traits": {"emotional_numbing": 5, "dissociation": 4, "avoidance": 3, "perfectionism": 2, "learned_helplessness": 1}
+        },
+        {
+          "text": "Overwhelming - they either consume everything or disappear completely",
+          "traits": {"emotional_dysregulation": 5, "dissociation": 3, "trauma_bonding": 3, "self_blame": 2, "avoidance": 1}
+        },
+        {
+          "text": "Dangerous - showing them has always led to punishment or abandonment",
+          "traits": {"emotional_numbing": 4, "abandonment_fear": 4, "people_pleasing": 3, "self_blame": 2, "avoidance": 1}
+        },
+        {
+          "text": "Confusing - you're never sure if what you're feeling is real or valid",
+          "traits": {"dissociation": 4, "self_blame": 4, "learned_helplessness": 3, "emotional_numbing": 2, "trust_issues": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you're in physical pain, you:",
+      "answers": [
+        {
+          "text": "Minimize it and push through because showing weakness isn't safe",
+          "traits": {"people_pleasing": 4, "emotional_numbing": 4, "self_blame": 3, "perfectionism": 2, "hypervigilance": 1}
+        },
+        {
+          "text": "Wonder if you're exaggerating and don't deserve care or attention",
+          "traits": {"self_blame": 5, "learned_helplessness": 3, "people_pleasing": 3, "dissociation": 2, "emotional_numbing": 1}
+        },
+        {
+          "text": "Feel disconnected from your body, like the pain is happening to someone else",
+          "traits": {"dissociation": 5, "emotional_numbing": 4, "avoidance": 3, "learned_helplessness": 2, "self_blame": 1}
+        },
+        {
+          "text": "Become hypervigilant about every sensation, fearing something worse",
+          "traits": {"hypervigilance": 5, "emotional_dysregulation": 3, "perfectionism": 2, "self_blame": 2, "abandonment_fear": 1}
+        },
+        {
+          "text": "Feel angry at your body for betraying you when you need it most",
+          "traits": {"emotional_dysregulation": 4, "self_blame": 4, "perfectionism": 3, "trauma_bonding": 2, "hypervigilance": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your internal sense of time feels:",
+      "answers": [
+        {
+          "text": "Frozen - like you're still that hurt child waiting for safety",
+          "traits": {"trauma_bonding": 5, "dissociation": 4, "emotional_numbing": 3, "learned_helplessness": 2, "abandonment_fear": 1}
+        },
+        {
+          "text": "Urgent - like you're always running out of time to prove your worth",
+          "traits": {"perfectionism": 5, "people_pleasing": 4, "self_blame": 3, "emotional_dysregulation": 2, "hypervigilance": 1}
+        },
+        {
+          "text": "Fragmented - you lose hours or days without really being present",
+          "traits": {"dissociation": 5, "avoidance": 4, "emotional_numbing": 3, "learned_helplessness": 2, "self_blame": 1}
+        },
+        {
+          "text": "Compressed - the future feels impossible to imagine or plan for",
+          "traits": {"learned_helplessness": 5, "abandonment_fear": 3, "dissociation": 3, "emotional_numbing": 2, "avoidance": 1}
+        },
+        {
+          "text": "Hyperaware - every moment could bring the next crisis you need to prevent",
+          "traits": {"hypervigilance": 5, "emotional_dysregulation": 4, "perfectionism": 3, "self_blame": 2, "people_pleasing": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you think about your future self, you see:",
+      "answers": [
+        {
+          "text": "Someone who finally has their act together and never makes mistakes",
+          "traits": {"perfectionism": 5, "self_blame": 4, "people_pleasing": 2, "emotional_dysregulation": 2, "learned_helplessness": 1}
+        },
+        {
+          "text": "A fuzzy, unclear image - like looking through frosted glass",
+          "traits": {"dissociation": 5, "learned_helplessness": 4, "emotional_numbing": 3, "avoidance": 2, "self_blame": 1}
+        },
+        {
+          "text": "Someone who has finally learned how to love without being abandoned",
+          "traits": {"abandonment_fear": 5, "people_pleasing": 4, "self_blame": 3, "trauma_bonding": 2, "trust_issues": 1}
+        },
+        {
+          "text": "The same person you are now - trapped in patterns you can't escape",
+          "traits": {"learned_helplessness": 5, "self_blame": 4, "emotional_numbing": 3, "dissociation": 2, "avoidance": 1}
+        },
+        {
+          "text": "Someone constantly vigilant, but maybe better at hiding the exhaustion",
+          "traits": {"hypervigilance": 5, "emotional_numbing": 3, "perfectionism": 3, "self_blame": 2, "avoidance": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your relationship with asking for help is:",
+      "answers": [
+        {
+          "text": "Terrifying - it means admitting failure and becoming a burden",
+          "traits": {"self_blame": 5, "people_pleasing": 4, "perfectionism": 3, "abandonment_fear": 2, "learned_helplessness": 1}
+        },
+        {
+          "text": "Impossible - no one has ever been truly available when you needed them",
+          "traits": {"abandonment_fear": 5, "trust_issues": 4, "learned_helplessness": 3, "emotional_numbing": 2, "dissociation": 1}
+        },
+        {
+          "text": "Dangerous - vulnerability has always been weaponized against you",
+          "traits": {"trust_issues": 5, "hypervigilance": 4, "emotional_numbing": 3, "people_pleasing": 2, "self_blame": 1}
+        },
+        {
+          "text": "Foreign - you've learned to survive completely alone",
+          "traits": {"learned_helplessness": 4, "avoidance": 4, "emotional_numbing": 4, "dissociation": 2, "self_blame": 1}
+        },
+        {
+          "text": "Conditional - you'll only ask if you can guarantee you'll never need to again",
+          "traits": {"perfectionism": 4, "people_pleasing": 4, "self_blame": 3, "abandonment_fear": 2, "hypervigilance": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you feel joy or happiness, your immediate response is:",
+      "answers": [
+        {
+          "text": "Waiting for the other shoe to drop - good feelings never last",
+          "traits": {"hypervigilance": 4, "abandonment_fear": 4, "trust_issues": 3, "emotional_dysregulation": 2, "self_blame": 1}
+        },
+        {
+          "text": "Guilt about feeling good when others are suffering",
+          "traits": {"self_blame": 5, "people_pleasing": 4, "emotional_dysregulation": 2, "perfectionism": 2, "learned_helplessness": 1}
+        },
+        {
+          "text": "Suspicion - positive emotions feel fake or dangerous",
+          "traits": {"trust_issues": 5, "emotional_numbing": 4, "hypervigilance": 3, "dissociation": 2, "trauma_bonding": 1}
+        },
+        {
+          "text": "Disconnection - like you're watching someone else experience happiness",
+          "traits": {"dissociation": 5, "emotional_numbing": 4, "avoidance": 3, "learned_helplessness": 2, "self_blame": 1}
+        },
+        {
+          "text": "Panic about losing control or becoming too vulnerable",
+          "traits": {"emotional_dysregulation": 5, "hypervigilance": 4, "perfectionism": 3, "people_pleasing": 2, "trust_issues": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your inner child feels:",
+      "answers": [
+        {
+          "text": "Like a scared animal hiding in the corner, waiting for danger to pass",
+          "traits": {"hypervigilance": 4, "abandonment_fear": 4, "emotional_numbing": 3, "trauma_bonding": 2, "avoidance": 1}
+        },
+        {
+          "text": "Frozen in time, still trying to earn love that never came consistently",
+          "traits": {"people_pleasing": 5, "abandonment_fear": 4, "self_blame": 3, "perfectionism": 2, "learned_helplessness": 1}
+        },
+        {
+          "text": "Like a foreign concept - you never had the luxury of being a child",
+          "traits": {"emotional_numbing": 5, "dissociation": 4, "learned_helplessness": 3, "avoidance": 2, "self_blame": 1}
+        },
+        {
+          "text": "Angry and betrayed, carrying rage too big for your body",
+          "traits": {"emotional_dysregulation": 5, "trauma_bonding": 4, "self_blame": 3, "hypervigilance": 2, "dissociation": 1}
+        },
+        {
+          "text": "Desperately apologizing for existing and taking up space",
+          "traits": {"self_blame": 5, "people_pleasing": 4, "abandonment_fear": 3, "learned_helplessness": 2, "emotional_numbing": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you remember your childhood bedroom, you feel:",
+      "answers": [
+        {
+          "text": "A sense of hypervigilance - always listening for footsteps or voices",
+          "traits": {"hypervigilance": 5, "trauma_bonding": 3, "emotional_dysregulation": 3, "abandonment_fear": 2, "self_blame": 1}
+        },
+        {
+          "text": "Sadness for the child who needed that space to be safer than it was",
+          "traits": {"self_blame": 4, "abandonment_fear": 4, "emotional_dysregulation": 3, "people_pleasing": 2, "learned_helplessness": 1}
+        },
+        {
+          "text": "Nothing - like looking at a photo of someone else's life",
+          "traits": {"dissociation": 5, "emotional_numbing": 4, "avoidance": 3, "learned_helplessness": 2, "self_blame": 1}
+        },
+        {
+          "text": "Anxiety about all the ways you failed to keep it perfect enough",
+          "traits": {"perfectionism": 5, "self_blame": 4, "people_pleasing": 3, "emotional_dysregulation": 2, "hypervigilance": 1}
+        },
+        {
+          "text": "Longing for a sanctuary that never quite felt safe enough",
+          "traits": {"abandonment_fear": 4, "trust_issues": 4, "hypervigilance": 3, "emotional_numbing": 2, "trauma_bonding": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your relationship with boundaries is:",
+      "answers": [
+        {
+          "text": "What boundaries? Your needs have always come last",
+          "traits": {"people_pleasing": 5, "self_blame": 4, "learned_helplessness": 3, "abandonment_fear": 2, "emotional_numbing": 1}
+        },
+        {
+          "text": "Walls so high that even you can't see over them anymore",
+          "traits": {"trust_issues": 5, "avoidance": 4, "emotional_numbing": 3, "hypervigilance": 2, "dissociation": 1}
+        },
+        {
+          "text": "Constantly shifting - rigid with some people, nonexistent with others",
+          "traits": {"emotional_dysregulation": 5, "trauma_bonding": 4, "hypervigilance": 3, "self_blame": 2, "people_pleasing": 1}
+        },
+        {
+          "text": "A luxury you can't afford - setting limits means losing people",
+          "traits": {"abandonment_fear": 5, "people_pleasing": 4, "self_blame": 3, "learned_helplessness": 2, "trust_issues": 1}
+        },
+        {
+          "text": "Theoretical concept - you're not sure where you end and others begin",
+          "traits": {"dissociation": 5, "people_pleasing": 3, "emotional_dysregulation": 3, "self_blame": 2, "learned_helplessness": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you think about unconditional love, you:",
+      "answers": [
+        {
+          "text": "Know it's a beautiful myth that doesn't exist in real life",
+          "traits": {"trust_issues": 5, "abandonment_fear": 4, "learned_helplessness": 3, "emotional_numbing": 2, "self_blame": 1}
+        },
+        {
+          "text": "Believe you could earn it if you just tried hard enough",
+          "traits": {"people_pleasing": 5, "perfectionism": 4, "self_blame": 3, "abandonment_fear": 2, "emotional_dysregulation": 1}
+        },
+        {
+          "text": "Feel overwhelmed by the impossibility of deserving it",
+          "traits": {"self_blame": 5, "learned_helplessness": 4, "abandonment_fear": 3, "emotional_numbing": 2, "people_pleasing": 1}
+        },
+        {
+          "text": "Can't even imagine what that would feel like in your body",
+          "traits": {"dissociation": 5, "emotional_numbing": 4, "learned_helplessness": 3, "avoidance": 2, "self_blame": 1}
+        },
+        {
+          "text": "Recognize it would feel foreign and possibly threatening",
+          "traits": {"trauma_bonding": 5, "trust_issues": 4, "hypervigilance": 3, "emotional_dysregulation": 2, "dissociation": 1}
+        }
+      ]
+    },
+    {
+      "question": "Looking back at your childhood self, you feel:",
+      "answers": [
+        {
+          "text": "Protective grief - that child deserved so much more gentleness",
+          "traits": {"self_blame": 3, "abandonment_fear": 3, "emotional_dysregulation": 3, "people_pleasing": 2, "learned_helplessness": 2}
+        },
+        {
+          "text": "Frustration that they couldn't figure out how to be safer or better",
+          "traits": {"self_blame": 5, "perfectionism": 4, "people_pleasing": 3, "emotional_dysregulation": 2, "hypervigilance": 1}
+        },
+        {
+          "text": "Disconnection - like looking at a stranger in old photographs",
+          "traits": {"dissociation": 5, "emotional_numbing": 4, "avoidance": 3, "learned_helplessness": 2, "self_blame": 1}
+        },
+        {
+          "text": "Admiration for their resilience in surviving impossible circumstances",
+          "traits": {"hypervigilance": 3, "emotional_dysregulation": 3, "self_blame": 2, "perfectionism": 2, "trauma_bonding": 2}
+        },
+        {
+          "text": "Sadness for the innocence that was lost too early",
+          "traits": {"abandonment_fear": 4, "emotional_dysregulation": 3, "self_blame": 3, "trauma_bonding": 2, "learned_helplessness": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your deepest fear about relationships is:",
+      "answers": [
+        {
+          "text": "That love always comes with a price you can't afford to pay",
+          "traits": {"abandonment_fear": 5, "trust_issues": 4, "people_pleasing": 3, "self_blame": 2, "learned_helplessness": 1}
+        },
+        {
+          "text": "That you'll never be enough, no matter how much you give",
+          "traits": {"self_blame": 5, "people_pleasing": 4, "perfectionism": 3, "abandonment_fear": 2, "learned_helplessness": 1}
+        },
+        {
+          "text": "That getting close means giving someone power to destroy you",
+          "traits": {"trust_issues": 5, "hypervigilance": 4, "avoidance": 3, "emotional_numbing": 2, "trauma_bonding": 1}
+        },
+        {
+          "text": "That you're fundamentally broken and will contaminate anyone who gets close",
+          "traits": {"self_blame": 5, "avoidance": 4, "learned_helplessness": 3, "emotional_numbing": 2, "dissociation": 1}
+        },
+        {
+          "text": "That you don't know how to love or be loved in healthy ways",
+          "traits": {"trauma_bonding": 5, "emotional_dysregulation": 4, "dissociation": 3, "learned_helplessness": 2, "self_blame": 1}
+        }
+      ]
+    }
+  ],
+  "results": {
+    "hypervigilance": {
+      "title": "The Eternal Guardian",
+      "description": "Your nervous system never learned that the war was over. You scan every room for exits, read every face for threat levels, and your body stays coiled like a spring ready to react. This exhausting vigilance once saved your life, but now it's the prison you live in—always watching, never resting, forever preparing for a danger that may never come.",
+      "extended": "Your hypervigilance developed as a brilliant survival strategy when your world was genuinely unsafe. Your nervous system learned to detect micro-expressions, changes in tone, shifts in energy that could signal incoming harm. This gift of perception served you well in chaos, but in relative safety, it becomes a burden that colors every interaction with suspicion and every moment with tension.\n\nYour body holds this vigilance in your shoulders, your jaw, the way you sleep facing the door. You notice things others miss—the slight edge in someone's voice, the way someone's mood shifts. But this superpower comes at the cost of never feeling truly relaxed, never experiencing the luxury of being genuinely off-guard.\n\nHealing doesn't mean becoming naive or dropping your defenses entirely. It means teaching your nervous system to differentiate between real danger and old echoes. It means learning that hypervigilance was your brilliant adaptation to an impossible situation, not a character flaw to overcome.\n\nYour nervous system needs proof, not promises. Small, consistent experiences of safety can slowly teach your body that not every moment requires tactical awareness. You deserve to experience the profound rest that comes when vigilance is no longer necessary for survival."
+    },
+    "emotional_numbing": {
+      "title": "The Frozen Heart",
+      "description": "You learned that feelings were dangerous luxuries you couldn't afford. So you built an internal winter, freezing your emotional landscape to survive the storms. But now, in the absence of external threat, you're trapped in your own emotional ice age—safe from pain, but also exiled from joy, connection, and the full spectrum of human experience.",
+      "extended": "Emotional numbing was your psychological anesthesia when the pain became too much to bear. Your psyche, in its infinite wisdom, created this protective shutdown to preserve your sanity when feeling everything would have been overwhelming. You learned to watch your life from a safe distance, like viewing it through frosted glass.\n\nThis disconnection from feeling served you when emotions were weaponized against you, when showing hurt led to more hurt, when joy was quickly followed by disappointment. Your emotional numbness became a fortress, but fortresses are designed to keep things out—including the very experiences that make life meaningful.\n\nThe cruel irony is that numbing is non-selective. You can't numb pain without also numbing joy, can't protect yourself from disappointment without also blocking out love. Your emotional numbness doesn't discriminate—it creates a general anesthesia for your entire feeling life.\n\nThawing is terrifying because it means feeling everything you've stored in your emotional deep freeze. But it also means reclaiming your birthright to the full range of human experience. Healing happens slowly, like spring coming to a long-frozen landscape—gradually, carefully, with patience for the process of coming back to life."
+    },
+    "trust_issues": {
+      "title": "The Wounded Skeptic",
+      "description": "You learned that trust was a weapon others used against you, so you built walls so high that even you can barely see over them. Every kindness feels like a trap, every gesture of love like a down payment on future betrayal. You're the expert on exits, always ready to leave before you can be left.",
+      "extended": "Your trust issues didn't develop in a vacuum—they're the logical response to being betrayed by those who were supposed to protect you. Your young mind learned that the people who claimed to love you were also capable of causing the deepest wounds. This created a paradox that your psyche still struggles to resolve: how to need connection while protecting yourself from those you need.\n\nYour skepticism runs deeper than conscious thought—it's in your bone marrow, in the way you automatically look for ulterior motives, in how you test people to see if they'll stay when you're difficult. You've become an expert at finding evidence for why people will eventually disappoint you, often sabotaging relationships before they can hurt you first.\n\nYour trust issues aren't paranoia—they're pattern recognition from someone who learned too young that safety was an illusion. You read between lines others don't even know exist, see red flags that might be shadows, prepare for abandonment that might never come. This hyperanalysis exhausts you, but it feels safer than the vulnerability of blind faith.\n\nHealing your trust issues doesn't mean becoming naive or dropping all boundaries. It means slowly learning to risk small vulnerabilities with people who prove themselves safe through consistent actions over time. Trust, for you, will always be earned rather than given—and that's not a flaw, it's wisdom born from experience."
+    },
+    "perfectionism": {
+      "title": "The Never-Enough Engine",
+      "description": "You learned that perfection was the price of love, that being flawless was the only way to stay safe. So you built an internal machine that never stops running, always pushing, always finding the next thing to fix or improve. But perfection is a horizon that moves every time you approach it—a cruel master that promises peace but delivers only exhaustion.",
+      "extended": "Your perfectionism wasn't born from vanity—it was born from terror. You learned that mistakes had consequences too severe for a child to bear, that being 'good enough' wasn't good enough to earn love or safety. Your developing mind concluded that perfection was the only path to acceptance, so you built your entire identity around being flawless.\n\nThis drive for perfection became your survival strategy, your way of controlling an uncontrollable world. If you could just be perfect enough, try hard enough, anticipate every need and fix every flaw, maybe you could finally earn the unconditional love that felt perpetually just out of reach. But perfection is a moving target that redefines itself every time you think you've achieved it.\n\nYour perfectionism is exhausting because it's not actually about standards—it's about safety. Every mistake feels like proof of your unworthiness, every flaw like evidence that you don't deserve love. You hold yourself to impossible standards while accepting far less from others, convinced that your value depends on your performance rather than your inherent worth.\n\nHealing from perfectionism means learning that you were always worthy of love—not because of what you achieved, but because of who you are. It means discovering that 'good enough' can actually be perfect, that your flaws don't disqualify you from belonging, and that rest is not laziness but a basic human right."
+    },
+    "people_pleasing": {
+      "title": "The Shape-Shifter",
+      "description": "You became a master of reading rooms and becoming whoever others needed you to be. Your own wants and needs got buried so deep beneath everyone else's comfort that you've forgotten they exist. You're loved for the performance, but the real you feels invisible, unknown, achingly lonely even in a crowd.",
+      "extended": "People-pleasing became your camouflage in a world where being yourself felt dangerous. You learned to read micro-expressions like a survival manual, scanning faces for signs of displeasure so you could adjust your behavior accordingly. Your sense of safety became dependent on others' approval, turning every interaction into a performance where the stakes felt life-or-death.\n\nYou became so skilled at being what others needed that you lost track of who you actually are underneath all the adaptations. Your own preferences got buried beneath layers of accommodation. You say 'yes' when you mean 'no,' apologize for existing, and feel guilty for taking up space that was always rightfully yours.\n\nThe tragedy of people-pleasing is that it often creates the very rejection it seeks to avoid. People sense the inauthenticity even when they can't name it, leaving you feeling misunderstood despite all your efforts to be accepted. You're loved for your accommodations but lonely for genuine connection, surrounded by people who know your performance but not your truth.\n\nRecovering your authentic self requires the revolutionary act of disappointing people. It means learning that 'no' is a complete sentence, that your needs matter as much as others', and that real love doesn't require you to disappear. The people who belong in your life will love you more for your authenticity, not less."
+    },
+    "abandonment_fear": {
+      "title": "The Last One Standing",
+      "description": "You live with the constant terror that everyone will eventually leave, so you love with your fists clenched, always braced for the inevitable goodbye. Every relationship feels temporary, every connection fragile. You're simultaneously desperate for closeness and terrified of the pain that comes when people disappear.",
+      "extended": "Your abandonment fear was carved into your psyche by early experiences of loss—whether through death, divorce, emotional withdrawal, or physical departure. Your developing mind concluded that love equals leaving, that getting close to people is just setting yourself up for the agony of being left behind. This fear now colors every relationship with the expectation of ending.\n\nYou love with one foot already out the door, preparing for abandonment even in your happiest moments. You might test people's commitment by pushing them away first, or cling so tightly that you suffocate the very connections you're desperate to preserve. Either way, your fear of abandonment often creates the very scenario you're trying to avoid.\n\nThe cruelest aspect of abandonment fear is how it makes you hypervigilant for signs of departure, often misreading normal relationship rhythms as evidence of impending loss. A delayed text becomes proof of waning interest, a distracted conversation signals the beginning of the end. You live in a constant state of emotional emergency, always preparing for the next goodbye.\n\nHealing abandonment fear means learning that some people will leave—and that doesn't diminish your worth or their love during the time you shared. It means discovering that your value doesn't depend on others staying, that you can survive goodbyes, and that the fear of loss shouldn't prevent you from experiencing the joy of connection."
+    },
+    "self_blame": {
+      "title": "The Internal Prosecutor",
+      "description": "You carry a courtroom in your mind where you're always the defendant and never the victim. Everything that went wrong must have been your fault somehow—if only you'd been better, tried harder, loved more perfectly. You've become so skilled at taking blame that you assume responsibility for things completely outside your control.",
+      "extended": "Self-blame became your way of maintaining the illusion of control in an uncontrollable situation. If everything was your fault, then theoretically you had the power to fix it, to prevent future pain by being better. Your young mind couldn't comprehend that adults could be wrong or harmful, so it concluded that you must be the problem—because that felt safer than accepting your powerlessness.\n\nThis pattern of self-blame gave you a false sense of agency in chaos, but it came at the cost of your self-worth. You learned to automatically scan for your role in every conflict, every disappointment, every moment of tension. You became the person who apologizes first, takes responsibility for others' emotions, and assumes blame even when logic suggests otherwise.\n\nYour internal prosecutor is relentless, building cases against you from the flimsiest evidence, finding you guilty of crimes you didn't commit. You've become so accustomed to being at fault that accepting innocence—or even just shared responsibility—feels foreign and uncomfortable. Being blameless seems more terrifying than being guilty because guilt, at least, gives you something to fix.\n\nRecovering from chronic self-blame means learning to be a better detective about causation, questioning the automatic assumption that you're at fault. It means discovering that some pain in life isn't anyone's fault, that others are responsible for their own choices and feelings, and that your worth doesn't depend on being perfect or never causing any disruption."
+    },
+    "emotional_dysregulation": {
+      "title": "The Internal Storm",
+      "description": "Your emotions live at the extremes—either flooding you completely or disappearing entirely. You feel everything too much or nothing at all, with very little middle ground. Your emotional thermostat is broken, stuck toggling between arctic cold and volcanic heat with no comfortable in-between.",
+      "extended": "Emotional dysregulation developed when your young nervous system was overwhelmed by experiences too intense for your developing capacity to handle. Your emotional regulation system, which should have been taught through co-regulation with calm, attuned caregivers, instead learned to cope with chaos, unpredictability, and overwhelming stimuli. This left you with an emotional system that knows only extremes.\n\nYour emotions feel like weather you can't predict or control—sudden storms that appear from nowhere, devastating hurricanes followed by eerie calm. You might explode over minor frustrations while remaining numb during major crises. Your emotional responses often don't match the triggering event, leaving you feeling crazy or out of control.\n\nThe intensity of your emotions can be terrifying, both to you and others. You might feel like you're too much, too sensitive, too reactive. But your emotional intensity isn't a character flaw—it's evidence of a nervous system that learned to survive in chaos. Your emotions are trying to protect you using the only strategies they learned in an environment where everything felt like an emergency.\n\nLearning emotional regulation as an adult means developing the skills you should have learned as a child. It involves practicing self-soothing, learning to name and tolerate difficult emotions, and discovering that feelings are temporary visitors rather than permanent residents. Your emotional intensity can become a superpower when channeled through healthy regulation skills."
+    },
+    "dissociation": {
+      "title": "The Vanishing Act",
+      "description": "You perfected the art of leaving your body when staying became too painful. Now you float through life like a ghost haunting your own existence, watching from a distance while never quite feeling fully present. You're the master of being physically here while emotionally elsewhere.",
+      "extended": "Dissociation was your mind's brilliant escape hatch when reality became too overwhelming to bear. When fight or flight weren't options, your consciousness learned to take refuge elsewhere—floating above the situation, watching from a safe distance, or simply disappearing entirely. This psychological disappearing act protected your essential self when staying present would have been unbearable.\n\nBut what served as emergency protection has become your default mode of existing. You watch your life like a movie you're not starring in, feel disconnected from your own experiences, struggle to form clear memories of events. You might feel like you're living behind glass, present but not quite there, engaged but fundamentally separate from your own existence.\n\nDissociation can make you feel like you're going crazy—losing time, feeling unreal, questioning your own perceptions and memories. You might feel like a stranger in your own body, disconnected from your physical sensations, emotions, or thoughts. This detachment, while protective, leaves you feeling lonely even in your own skin.\n\nHealing from dissociation involves slowly learning to tolerate being fully present in your body and in the moment. It means developing grounding techniques that anchor you to the here and now, and gradually building your window of tolerance for difficult experiences. Recovery is about reclaiming your right to exist fully in your own life, to be present for both the difficult and beautiful moments."
+    },
+    "learned_helplessness": {
+      "title": "The Surrendered Soul",
+      "description": "You learned that trying was pointless, that your efforts didn't matter, that life was something that happened to you rather than something you could influence. So you stopped trying to steer, stopped believing in your own agency, and learned to drift through life as a passenger rather than the driver.",
+      "extended": "Learned helplessness developed when your repeated attempts to change your situation, to get your needs met, or to create safety were consistently ineffective. Your young mind learned that effort was futile, that you had no real power to influence outcomes. This psychological shutdown was a protective response to the crushing realization that you couldn't control the uncontrollable.\n\nThis sense of powerlessness has followed you into adulthood, coloring your approach to challenges, relationships, and opportunities. You might automatically assume that trying is pointless, that things won't work out, that you have no real influence over your circumstances. This becomes a self-fulfilling prophecy that reinforces your sense of helplessness.\n\nLearned helplessness can feel like depression's cousin—a profound sense that nothing you do matters, that change is impossible, that you're fundamentally powerless in your own life. You might give up before starting, avoid taking risks, or passively accept situations that could be changed. This resignation protects you from the disappointment of failed efforts but also keeps you trapped in situations that could improve.\n\nReclaiming your agency means starting with small, manageable actions where you can clearly see the connection between your effort and the outcome. It involves challenging the belief that you're powerless by accumulating evidence of your ability to influence your environment. Recovery is about discovering that while you can't control everything, you're far more powerful than your traumatized psyche believes."
+    },
+    "avoidance": {
+      "title": "The Escape Artist",
+      "description": "You've mastered the art of emotional escape—leaving conversations before they get too deep, changing subjects when feelings arise, disappearing into work, substances, or distractions whenever real intimacy threatens. You've built a life around avoiding the very experiences that could heal you.",
+      "extended": "Avoidance became your go-to strategy when facing difficult emotions or situations consistently led to pain, overwhelm, or retraumatization. Your psyche learned that the safest response to potential discomfort was to simply not be there—physically, emotionally, or psychologically. This protective mechanism helped you survive overwhelming experiences but now prevents you from engaging with life fully.\n\nYour avoidance might be subtle—zoning out during difficult conversations, staying busy to avoid facing feelings, or choosing relationships that stay surface-level to prevent deeper intimacy. Or it might be more obvious—literally leaving situations when they become uncomfortable, avoiding places or people that trigger difficult emotions, or numbing out through various substances or behaviors.\n\nThe cruel irony of avoidance is that it often creates more of what you're trying to escape. Avoiding difficult conversations leads to relationship problems, avoiding feelings causes them to intensify, avoiding challenges prevents growth. Your attempts to escape discomfort often generate the very situations you're trying to avoid.\n\nHealing from avoidance means gradually building your tolerance for discomfort, learning that difficult emotions won't destroy you, and discovering that facing challenges often makes them less intimidating. It involves developing skills to stay present even when things get uncomfortable, and learning that growth happens in the spaces you've been avoiding."
+    },
+    "trauma_bonding": {
+      "title": "The Intensity Addict",
+      "description": "You learned to associate love with chaos, safety with unpredictability, and intimacy with crisis. Calm relationships feel boring or fake because your nervous system is calibrated for drama. You mistake intensity for connection and find yourself drawn to the very dynamics that hurt you.",
+      "extended": "Trauma bonding occurs when your attachment system formed in an environment where love and danger were intertwined. Your young nervous system learned to associate intensity, unpredictability, and even fear with closeness and connection. This created a psychological pattern where calm, stable relationships feel foreign or insufficient compared to the intoxicating highs and lows of chaotic connections.\n\nYou might find yourself attracted to partners or friendships that recreate familiar patterns of instability, even when you consciously know they're unhealthy. The biochemical rush of intermittent reinforcement—periods of withdrawal followed by intense connection—can feel more like 'real love' than the steady warmth of secure relationships. Your trauma-wired brain interprets calm as disinterest and consistency as boring.\n\nThis pattern keeps you trapped in cycles that feel familiar but ultimately leave you depleted and hurt. You might mistake jealousy for passion, control for care, or emotional volatility for depth. The very relationships that activate your attachment system are often the ones that recreate your original wounds, keeping you stuck in patterns that feel like home but function like prison.\n\nBreaking trauma bonds means learning to tolerate the unfamiliar feeling of safety in relationships. It involves rewiring your nervous system to recognize that love can be calm, that security can be exciting, and that healthy relationships might feel strange at first because they're different from what you learned. Healing means choosing relationships based on how they help you grow rather than how familiar they feel."
+    }
+  }
+}

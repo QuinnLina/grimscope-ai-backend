@@ -1,0 +1,707 @@
+{
+  "title": "Inner Darkness Level",
+  "description": "Measure the shadows lurking in your soul",
+  "traits": {
+    "shadow_self": "The hidden aspects of personality you don't show others",
+    "void_embrace": "Comfort with emptiness and existential darkness",
+    "moral_erosion": "Deterioration of ethical boundaries and conscience",
+    "death_fascination": "Unhealthy preoccupation with mortality and endings",
+    "empathy_void": "Absence of genuine emotional connection to others",
+    "reality_detachment": "Disconnection from normal perception and experience",
+    "intrusive_darkness": "Frequency and intensity of disturbing thoughts",
+    "pain_relationship": "Unusual connection to physical or emotional suffering",
+    "predatory_instincts": "Tendency to see others as potential targets or prey",
+    "existential_nihilism": "Belief that life has no meaning or purpose",
+    "emotional_numbness": "Inability to feel normal human emotions",
+    "spiritual_corruption": "Sense that something fundamental is wrong with your soul"
+  },
+  "questions": [
+    {
+      "question": "When you look deeply into your own eyes in a mirror for an extended time, what do you see?",
+      "answers": [
+        {
+          "text": "Just myself - familiar, recognizable, human",
+          "traits": {"shadow_self": 0, "void_embrace": 0, "moral_erosion": 0, "death_fascination": 0, "empathy_void": 0}
+        },
+        {
+          "text": "Someone who looks tired, older, more worn than I feel inside",
+          "traits": {"shadow_self": 2, "void_embrace": 1, "moral_erosion": 1, "death_fascination": 1, "empathy_void": 0}
+        },
+        {
+          "text": "A stranger wearing my face, like I'm looking at someone else entirely",
+          "traits": {"shadow_self": 3, "void_embrace": 3, "moral_erosion": 2, "death_fascination": 2, "empathy_void": 2}
+        },
+        {
+          "text": "Something that doesn't quite look human anymore, like the light has gone out",
+          "traits": {"shadow_self": 4, "void_embrace": 4, "moral_erosion": 4, "death_fascination": 3, "empathy_void": 4}
+        },
+        {
+          "text": "Eyes that belong to a predator, cold and calculating, waiting behind my face",
+          "traits": {"shadow_self": 5, "void_embrace": 5, "moral_erosion": 5, "death_fascination": 4, "empathy_void": 5}
+        }
+      ]
+    },
+    {
+      "question": "The voice inside your head that narrates your day sounds like:",
+      "answers": [
+        {
+          "text": "My own voice, generally supportive and rational",
+          "traits": {"intrusive_darkness": 0, "reality_detachment": 0, "spiritual_corruption": 0, "emotional_numbness": 0, "existential_nihilism": 0}
+        },
+        {
+          "text": "Me, but more critical and anxious than I'd like it to be",
+          "traits": {"intrusive_darkness": 2, "reality_detachment": 1, "spiritual_corruption": 1, "emotional_numbness": 1, "existential_nihilism": 1}
+        },
+        {
+          "text": "Someone else entirely, commenting on my life like a cynical observer",
+          "traits": {"intrusive_darkness": 3, "reality_detachment": 4, "spiritual_corruption": 2, "emotional_numbness": 3, "existential_nihilism": 3}
+        },
+        {
+          "text": "Multiple voices that sometimes disagree with each other about what I should do",
+          "traits": {"intrusive_darkness": 4, "reality_detachment": 5, "spiritual_corruption": 4, "emotional_numbness": 3, "existential_nihilism": 3}
+        },
+        {
+          "text": "Something ancient and hungry that whispers things I shouldn't know",
+          "traits": {"intrusive_darkness": 5, "reality_detachment": 5, "spiritual_corruption": 5, "emotional_numbness": 4, "existential_nihilism": 4}
+        }
+      ]
+    },
+    {
+      "question": "Your most vivid recurring dreams or nightmares involve:",
+      "answers": [
+        {
+          "text": "Normal anxiety dreams - being late, unprepared, or embarrassed",
+          "traits": {"death_fascination": 0, "predatory_instincts": 0, "spiritual_corruption": 0, "void_embrace": 0, "shadow_self": 0}
+        },
+        {
+          "text": "Being chased by something unseen, running through endless dark spaces",
+          "traits": {"death_fascination": 2, "predatory_instincts": 1, "spiritual_corruption": 2, "void_embrace": 2, "shadow_self": 2}
+        },
+        {
+          "text": "Watching myself do terrible things to people I care about, unable to stop",
+          "traits": {"death_fascination": 3, "predatory_instincts": 4, "spiritual_corruption": 4, "void_embrace": 3, "shadow_self": 4}
+        },
+        {
+          "text": "Being the hunter instead of the hunted, enjoying the fear in others' eyes",
+          "traits": {"death_fascination": 4, "predatory_instincts": 5, "spiritual_corruption": 4, "void_embrace": 4, "shadow_self": 5}
+        },
+        {
+          "text": "Scenarios so disturbing I can't speak them aloud, even to myself",
+          "traits": {"death_fascination": 5, "predatory_instincts": 5, "spiritual_corruption": 5, "void_embrace": 5, "shadow_self": 5}
+        }
+      ]
+    },
+    {
+      "question": "When you're alone in complete darkness and silence, you feel:",
+      "answers": [
+        {
+          "text": "Peaceful and relaxed, like coming home to yourself",
+          "traits": {"void_embrace": 0, "reality_detachment": 0, "intrusive_darkness": 0, "emotional_numbness": 0, "existential_nihilism": 0}
+        },
+        {
+          "text": "Slightly uncomfortable but manageable, preferring some light or sound",
+          "traits": {"void_embrace": 1, "reality_detachment": 1, "intrusive_darkness": 1, "emotional_numbness": 1, "existential_nihilism": 0}
+        },
+        {
+          "text": "Like something is watching me from the shadows, waiting for its moment",
+          "traits": {"void_embrace": 2, "reality_detachment": 3, "intrusive_darkness": 3, "emotional_numbness": 2, "existential_nihilism": 2}
+        },
+        {
+          "text": "A deep connection to the emptiness, like I'm finally where I belong",
+          "traits": {"void_embrace": 5, "reality_detachment": 3, "intrusive_darkness": 2, "emotional_numbness": 4, "existential_nihilism": 4}
+        },
+        {
+          "text": "The overwhelming presence of something that knows all my secrets",
+          "traits": {"void_embrace": 4, "reality_detachment": 5, "intrusive_darkness": 5, "emotional_numbness": 3, "existential_nihilism": 3}
+        }
+      ]
+    },
+    {
+      "question": "Your reaction when you see roadkill or images of death is:",
+      "answers": [
+        {
+          "text": "Natural sadness or discomfort, look away and move on",
+          "traits": {"death_fascination": 0, "empathy_void": 0, "predatory_instincts": 0, "emotional_numbness": 0, "moral_erosion": 0}
+        },
+        {
+          "text": "Curious but respectful interest in the cycle of life and death",
+          "traits": {"death_fascination": 2, "empathy_void": 1, "predatory_instincts": 0, "emotional_numbness": 1, "moral_erosion": 0}
+        },
+        {
+          "text": "Find myself staring longer than normal, studying the details",
+          "traits": {"death_fascination": 4, "empathy_void": 3, "predatory_instincts": 2, "emotional_numbness": 3, "moral_erosion": 2}
+        },
+        {
+          "text": "Feel energized or excited, like I'm seeing something forbidden and thrilling",
+          "traits": {"death_fascination": 5, "empathy_void": 4, "predatory_instincts": 4, "emotional_numbness": 3, "moral_erosion": 4}
+        },
+        {
+          "text": "Experience a hunger to get closer, to touch and understand the transition",
+          "traits": {"death_fascination": 5, "empathy_void": 5, "predatory_instincts": 5, "emotional_numbness": 5, "moral_erosion": 5}
+        }
+      ]
+    },
+    {
+      "question": "The last time you genuinely felt happiness or joy was:",
+      "answers": [
+        {
+          "text": "Recently - I experience positive emotions regularly and naturally",
+          "traits": {"emotional_numbness": 0, "void_embrace": 0, "existential_nihilism": 0, "spiritual_corruption": 0, "empathy_void": 0}
+        },
+        {
+          "text": "Within the past few weeks, though it feels more rare than it used to",
+          "traits": {"emotional_numbness": 2, "void_embrace": 1, "existential_nihilism": 1, "spiritual_corruption": 1, "empathy_void": 1}
+        },
+        {
+          "text": "Months ago, and even then it felt hollow or forced",
+          "traits": {"emotional_numbness": 4, "void_embrace": 3, "existential_nihilism": 3, "spiritual_corruption": 3, "empathy_void": 3}
+        },
+        {
+          "text": "I can't remember - positive emotions feel like something other people experience",
+          "traits": {"emotional_numbness": 5, "void_embrace": 4, "existential_nihilism": 4, "spiritual_corruption": 4, "empathy_void": 4}
+        },
+        {
+          "text": "Only when something bad happens to someone who deserved it",
+          "traits": {"emotional_numbness": 5, "void_embrace": 5, "existential_nihilism": 5, "spiritual_corruption": 5, "empathy_void": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your intrusive thoughts are best described as:",
+      "answers": [
+        {
+          "text": "Occasional weird thoughts that I dismiss easily - everyone has them",
+          "traits": {"intrusive_darkness": 0, "moral_erosion": 0, "predatory_instincts": 0, "spiritual_corruption": 0, "shadow_self": 0}
+        },
+        {
+          "text": "Unwanted thoughts about embarrassing myself or making mistakes",
+          "traits": {"intrusive_darkness": 2, "moral_erosion": 1, "predatory_instincts": 0, "spiritual_corruption": 1, "shadow_self": 1}
+        },
+        {
+          "text": "Dark fantasies about violence or control that disturb me when they happen",
+          "traits": {"intrusive_darkness": 4, "moral_erosion": 3, "predatory_instincts": 3, "spiritual_corruption": 3, "shadow_self": 3}
+        },
+        {
+          "text": "Detailed scenarios about causing harm that feel more real than my daily life",
+          "traits": {"intrusive_darkness": 5, "moral_erosion": 4, "predatory_instincts": 5, "spiritual_corruption": 4, "shadow_self": 4}
+        },
+        {
+          "text": "Constant companions that I've learned to enjoy and nurture",
+          "traits": {"intrusive_darkness": 5, "moral_erosion": 5, "predatory_instincts": 5, "spiritual_corruption": 5, "shadow_self": 5}
+        }
+      ]
+    },
+    {
+      "question": "In crowds of genuinely happy people, your internal experience is:",
+      "answers": [
+        {
+          "text": "Shared joy - their happiness lifts my mood and makes me feel connected",
+          "traits": {"empathy_void": 0, "emotional_numbness": 0, "predatory_instincts": 0, "existential_nihilism": 0, "void_embrace": 0}
+        },
+        {
+          "text": "Mild anxiety but appreciation for their joy, even if I can't fully access it",
+          "traits": {"empathy_void": 1, "emotional_numbness": 2, "predatory_instincts": 0, "existential_nihilism": 1, "void_embrace": 1}
+        },
+        {
+          "text": "Like an anthropologist studying an alien species I can't quite understand",
+          "traits": {"empathy_void": 4, "emotional_numbness": 4, "predatory_instincts": 2, "existential_nihilism": 3, "void_embrace": 3}
+        },
+        {
+          "text": "Disgust at their naive ignorance of how dark the world really is",
+          "traits": {"empathy_void": 4, "emotional_numbness": 3, "predatory_instincts": 3, "existential_nihilism": 5, "void_embrace": 4}
+        },
+        {
+          "text": "The urge to corrupt their innocence or show them what real suffering looks like",
+          "traits": {"empathy_void": 5, "emotional_numbness": 4, "predatory_instincts": 5, "existential_nihilism": 4, "void_embrace": 5}
+        }
+      ]
+    },
+    {
+      "question": "The color that most deeply resonates with your soul is:",
+      "answers": [
+        {
+          "text": "Bright, warm colors that make me feel alive and hopeful",
+          "traits": {"void_embrace": 0, "spiritual_corruption": 0, "emotional_numbness": 0, "existential_nihilism": 0, "death_fascination": 0}
+        },
+        {
+          "text": "Neutral earth tones that feel grounding and stable",
+          "traits": {"void_embrace": 1, "spiritual_corruption": 1, "emotional_numbness": 1, "existential_nihilism": 1, "death_fascination": 0}
+        },
+        {
+          "text": "Deep purples and midnight blues that feel mysterious but beautiful",
+          "traits": {"void_embrace": 3, "spiritual_corruption": 2, "emotional_numbness": 2, "existential_nihilism": 2, "death_fascination": 2}
+        },
+        {
+          "text": "Pure black - the absence of light, the color of endings",
+          "traits": {"void_embrace": 5, "spiritual_corruption": 4, "emotional_numbness": 4, "existential_nihilism": 4, "death_fascination": 4}
+        },
+        {
+          "text": "The deep red-purple of old blood, rich with secrets",
+          "traits": {"void_embrace": 4, "spiritual_corruption": 5, "emotional_numbness": 3, "existential_nihilism": 3, "death_fascination": 5}
+        }
+      ]
+    },
+    {
+      "question": "When you stare at yourself in a mirror for more than a few minutes, you experience:",
+      "answers": [
+        {
+          "text": "Normal self-recognition, maybe noticing details I don't usually see",
+          "traits": {"reality_detachment": 0, "shadow_self": 0, "spiritual_corruption": 0, "void_embrace": 0, "intrusive_darkness": 0}
+        },
+        {
+          "text": "Slight dissociation, like I'm looking at a photograph of myself",
+          "traits": {"reality_detachment": 3, "shadow_self": 2, "spiritual_corruption": 1, "void_embrace": 2, "intrusive_darkness": 1}
+        },
+        {
+          "text": "The unsettling feeling that someone else is looking back at me",
+          "traits": {"reality_detachment": 4, "shadow_self": 4, "spiritual_corruption": 3, "void_embrace": 3, "intrusive_darkness": 3}
+        },
+        {
+          "text": "My reflection seems to move independently or show expressions I'm not making",
+          "traits": {"reality_detachment": 5, "shadow_self": 4, "spiritual_corruption": 4, "void_embrace": 4, "intrusive_darkness": 4}
+        },
+        {
+          "text": "A conversation with the thing that wears my face but isn't quite me",
+          "traits": {"reality_detachment": 5, "shadow_self": 5, "spiritual_corruption": 5, "void_embrace": 5, "intrusive_darkness": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your capacity for genuine empathy feels like:",
+      "answers": [
+        {
+          "text": "A natural, automatic response to others' emotions that guides my actions",
+          "traits": {"empathy_void": 0, "emotional_numbness": 0, "predatory_instincts": 0, "moral_erosion": 0, "spiritual_corruption": 0}
+        },
+        {
+          "text": "Something I have to consciously access, but it's still real when I do",
+          "traits": {"empathy_void": 2, "emotional_numbness": 2, "predatory_instincts": 1, "moral_erosion": 1, "spiritual_corruption": 1}
+        },
+        {
+          "text": "A performance I've learned to execute convincingly when socially required",
+          "traits": {"empathy_void": 4, "emotional_numbness": 4, "predatory_instincts": 3, "moral_erosion": 3, "spiritual_corruption": 3}
+        },
+        {
+          "text": "An extinct ability I remember having but can no longer access",
+          "traits": {"empathy_void": 5, "emotional_numbness": 5, "predatory_instincts": 3, "moral_erosion": 4, "spiritual_corruption": 4}
+        },
+        {
+          "text": "Replaced entirely by a cold assessment of how to use others' emotions",
+          "traits": {"empathy_void": 5, "emotional_numbness": 5, "predatory_instincts": 5, "moral_erosion": 5, "spiritual_corruption": 5}
+        }
+      ]
+    },
+    {
+      "question": "The emptiness inside you feels like:",
+      "answers": [
+        {
+          "text": "What emptiness? I feel full of life, purpose, and connection",
+          "traits": {"void_embrace": 0, "existential_nihilism": 0, "emotional_numbness": 0, "spiritual_corruption": 0, "death_fascination": 0}
+        },
+        {
+          "text": "Occasional hollow moments that pass when I engage with meaningful activities",
+          "traits": {"void_embrace": 2, "existential_nihilism": 2, "emotional_numbness": 2, "spiritual_corruption": 1, "death_fascination": 1}
+        },
+        {
+          "text": "A growing void that's slowly consuming the parts of me that used to feel alive",
+          "traits": {"void_embrace": 4, "existential_nihilism": 4, "emotional_numbness": 4, "spiritual_corruption": 3, "death_fascination": 3}
+        },
+        {
+          "text": "The only genuine thing about me - everything else is just performance and memory",
+          "traits": {"void_embrace": 5, "existential_nihilism": 5, "emotional_numbness": 5, "spiritual_corruption": 4, "death_fascination": 4}
+        },
+        {
+          "text": "A hungry darkness that demands to be fed with others' pain or fear",
+          "traits": {"void_embrace": 5, "existential_nihilism": 4, "emotional_numbness": 5, "spiritual_corruption": 5, "death_fascination": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your relationship with death and mortality is:",
+      "answers": [
+        {
+          "text": "Healthy acceptance - death is natural, sad but not terrifying",
+          "traits": {"death_fascination": 0, "existential_nihilism": 0, "void_embrace": 0, "spiritual_corruption": 0, "intrusive_darkness": 0}
+        },
+        {
+          "text": "Occasional philosophical curiosity about what happens after we die",
+          "traits": {"death_fascination": 2, "existential_nihilism": 1, "void_embrace": 1, "spiritual_corruption": 0, "intrusive_darkness": 1}
+        },
+        {
+          "text": "Frequent detailed fantasies about my own death or the deaths of others",
+          "traits": {"death_fascination": 4, "existential_nihilism": 3, "void_embrace": 3, "spiritual_corruption": 3, "intrusive_darkness": 4}
+        },
+        {
+          "text": "Death feels like the only honest truth in a world full of meaningless lies",
+          "traits": {"death_fascination": 5, "existential_nihilism": 5, "void_embrace": 4, "spiritual_corruption": 4, "intrusive_darkness": 4}
+        },
+        {
+          "text": "I study death like others study life - it's where I feel most at home",
+          "traits": {"death_fascination": 5, "existential_nihilism": 4, "void_embrace": 5, "spiritual_corruption": 5, "intrusive_darkness": 5}
+        }
+      ]
+    },
+    {
+      "question": "Animals and small children react to your presence by:",
+      "answers": [
+        {
+          "text": "Approaching with trust and comfort, sensing safety in my energy",
+          "traits": {"predatory_instincts": 0, "spiritual_corruption": 0, "empathy_void": 0, "emotional_numbness": 0, "shadow_self": 0}
+        },
+        {
+          "text": "Behaving normally - no unusual reactions either positive or negative",
+          "traits": {"predatory_instincts": 1, "spiritual_corruption": 1, "empathy_void": 1, "emotional_numbness": 1, "shadow_self": 1}
+        },
+        {
+          "text": "Seeming slightly nervous or unsettled, though I'm not sure why",
+          "traits": {"predatory_instincts": 3, "spiritual_corruption": 3, "empathy_void": 3, "emotional_numbness": 2, "shadow_self": 3}
+        },
+        {
+          "text": "Actively avoiding me, hiding behind parents or running away",
+          "traits": {"predatory_instincts": 4, "spiritual_corruption": 4, "empathy_void": 4, "emotional_numbness": 4, "shadow_self": 4}
+        },
+        {
+          "text": "Becoming silent and still, like prey animals sensing a predator",
+          "traits": {"predatory_instincts": 5, "spiritual_corruption": 5, "empathy_void": 5, "emotional_numbness": 5, "shadow_self": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your childhood imaginary friend (if you had one) was:",
+      "answers": [
+        {
+          "text": "A positive, protective figure who made me feel safe and encouraged",
+          "traits": {"shadow_self": 0, "spiritual_corruption": 0, "intrusive_darkness": 0, "reality_detachment": 0, "void_embrace": 0}
+        },
+        {
+          "text": "I never had imaginary friends - I preferred real people and activities",
+          "traits": {"shadow_self": 1, "spiritual_corruption": 0, "intrusive_darkness": 0, "reality_detachment": 1, "void_embrace": 1}
+        },
+        {
+          "text": "Someone who understood the dark thoughts I couldn't tell adults about",
+          "traits": {"shadow_self": 4, "spiritual_corruption": 3, "intrusive_darkness": 4, "reality_detachment": 3, "void_embrace": 3}
+        },
+        {
+          "text": "A voice that told me disturbing truths about the world and other people",
+          "traits": {"shadow_self": 5, "spiritual_corruption": 4, "intrusive_darkness": 5, "reality_detachment": 4, "void_embrace": 4}
+        },
+        {
+          "text": "Still with me, though others would call it something else now",
+          "traits": {"shadow_self": 5, "spiritual_corruption": 5, "intrusive_darkness": 5, "reality_detachment": 5, "void_embrace": 5}
+        }
+      ]
+    },
+    {
+      "question": "The worst thought you've ever entertained was:",
+      "answers": [
+        {
+          "text": "Just a random intrusive thought that I dismissed immediately",
+          "traits": {"moral_erosion": 0, "intrusive_darkness": 0, "predatory_instincts": 0, "spiritual_corruption": 0, "shadow_self": 0}
+        },
+        {
+          "text": "Disturbing enough to make me question my character, but clearly not who I am",
+          "traits": {"moral_erosion": 2, "intrusive_darkness": 2, "predatory_instincts": 1, "spiritual_corruption": 2, "shadow_self": 2}
+        },
+        {
+          "text": "Something I planned in detail before catching myself and feeling horrified",
+          "traits": {"moral_erosion": 4, "intrusive_darkness": 4, "predatory_instincts": 3, "spiritual_corruption": 4, "shadow_self": 4}
+        },
+        {
+          "text": "A scenario so detailed I almost acted on it before self-preservation stopped me",
+          "traits": {"moral_erosion": 5, "intrusive_darkness": 5, "predatory_instincts": 4, "spiritual_corruption": 5, "shadow_self": 5}
+        },
+        {
+          "text": "Not actually the worst one - I keep the real ones locked away where no one can find them",
+          "traits": {"moral_erosion": 5, "intrusive_darkness": 5, "predatory_instincts": 5, "spiritual_corruption": 5, "shadow_self": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your relationship with physical or emotional pain is:",
+      "answers": [
+        {
+          "text": "Normal avoidance - pain is unpleasant and I try to minimize it",
+          "traits": {"pain_relationship": 0, "void_embrace": 0, "emotional_numbness": 0, "death_fascination": 0, "spiritual_corruption": 0}
+        },
+        {
+          "text": "Higher tolerance than most people, but still consider it negative",
+          "traits": {"pain_relationship": 2, "void_embrace": 1, "emotional_numbness": 2, "death_fascination": 1, "spiritual_corruption": 1}
+        },
+        {
+          "text": "Sometimes pain feels more real than pleasure - at least I know I'm alive",
+          "traits": {"pain_relationship": 4, "void_embrace": 3, "emotional_numbness": 4, "death_fascination": 3, "spiritual_corruption": 3}
+        },
+        {
+          "text": "I seek out pain because it's the only sensation that cuts through the numbness",
+          "traits": {"pain_relationship": 5, "void_embrace": 4, "emotional_numbness": 5, "death_fascination": 4, "spiritual_corruption": 4}
+        },
+        {
+          "text": "Pain is my most trusted companion - both giving and receiving it feels like worship",
+          "traits": {"pain_relationship": 5, "void_embrace": 5, "emotional_numbness": 5, "death_fascination": 5, "spiritual_corruption": 5}
+        }
+      ]
+    },
+    {
+      "question": "When you encounter someone genuinely vulnerable and defenseless, your first instinct is:",
+      "answers": [
+        {
+          "text": "Protective compassion - I want to help them feel safe and supported",
+          "traits": {"predatory_instincts": 0, "empathy_void": 0, "moral_erosion": 0, "spiritual_corruption": 0, "shadow_self": 0}
+        },
+        {
+          "text": "Mild discomfort but genuine desire to help if I can do so appropriately",
+          "traits": {"predatory_instincts": 1, "empathy_void": 1, "moral_erosion": 0, "spiritual_corruption": 0, "shadow_self": 1}
+        },
+        {
+          "text": "Recognition of an opportunity, though I feel guilty for thinking that way",
+          "traits": {"predatory_instincts": 3, "empathy_void": 3, "moral_erosion": 3, "spiritual_corruption": 3, "shadow_self": 3}
+        },
+        {
+          "text": "Excitement at their helplessness and possibilities for control or influence",
+          "traits": {"predatory_instincts": 5, "empathy_void": 4, "moral_erosion": 5, "spiritual_corruption": 4, "shadow_self": 4}
+        },
+        {
+          "text": "Hunger - they represent potential feeding for something inside me that's always starving",
+          "traits": {"predatory_instincts": 5, "empathy_void": 5, "moral_erosion": 5, "spiritual_corruption": 5, "shadow_self": 5}
+        }
+      ]
+    },
+    {
+      "question": "The boundary between your dreams and waking reality feels:",
+      "answers": [
+        {
+          "text": "Clear and distinct - dreams are obviously different from real life",
+          "traits": {"reality_detachment": 0, "void_embrace": 0, "intrusive_darkness": 0, "spiritual_corruption": 0, "death_fascination": 0}
+        },
+        {
+          "text": "Usually clear, though sometimes I have very vivid dreams that feel real",
+          "traits": {"reality_detachment": 1, "void_embrace": 1, "intrusive_darkness": 1, "spiritual_corruption": 1, "death_fascination": 1}
+        },
+        {
+          "text": "Blurred - sometimes I'm not sure if I dreamed something or it really happened",
+          "traits": {"reality_detachment": 4, "void_embrace": 3, "intrusive_darkness": 3, "spiritual_corruption": 3, "death_fascination": 3}
+        },
+        {
+          "text": "My dreams feel more real and important than my waking life",
+          "traits": {"reality_detachment": 5, "void_embrace": 4, "intrusive_darkness": 4, "spiritual_corruption": 4, "death_fascination": 4}
+        },
+        {
+          "text": "There is no boundary - what others call reality is just another layer of the dream",
+          "traits": {"reality_detachment": 5, "void_embrace": 5, "intrusive_darkness": 5, "spiritual_corruption": 5, "death_fascination": 5}
+        }
+      ]
+    },
+    {
+      "question": "The thing that genuinely terrifies you most is:",
+      "answers": [
+        {
+          "text": "Losing the people I love or failing to protect them",
+          "traits": {"empathy_void": 0, "predatory_instincts": 0, "spiritual_corruption": 0, "moral_erosion": 0, "void_embrace": 0}
+        },
+        {
+          "text": "Being alone and unloved, forgotten by everyone who matters",
+          "traits": {"empathy_void": 1, "predatory_instincts": 0, "spiritual_corruption": 1, "moral_erosion": 1, "void_embrace": 2}
+        },
+        {
+          "text": "That I might be becoming someone I don't recognize or can't control",
+          "traits": {"empathy_void": 3, "predatory_instincts": 3, "spiritual_corruption": 4, "moral_erosion": 4, "void_embrace": 3}
+        },
+        {
+          "text": "Nothing genuinely scares me anymore - I've seen too much darkness",
+          "traits": {"empathy_void": 4, "predatory_instincts": 4, "spiritual_corruption": 4, "moral_erosion": 5, "void_embrace": 5}
+        },
+        {
+          "text": "That I might discover I enjoy the terrible things I think about",
+          "traits": {"empathy_void": 5, "predatory_instincts": 5, "spiritual_corruption": 5, "moral_erosion": 5, "void_embrace": 4}
+        }
+      ]
+    },
+    {
+      "question": "Your moral compass currently points:",
+      "answers": [
+        {
+          "text": "True north - toward kindness, honesty, and reducing suffering in the world",
+          "traits": {"moral_erosion": 0, "spiritual_corruption": 0, "empathy_void": 0, "predatory_instincts": 0, "void_embrace": 0}
+        },
+        {
+          "text": "Generally north, though I sometimes struggle with temptation or selfishness",
+          "traits": {"moral_erosion": 2, "spiritual_corruption": 1, "empathy_void": 1, "predatory_instincts": 1, "void_embrace": 1}
+        },
+        {
+          "text": "In confusing circles - I want to be good but often choose what's easier",
+          "traits": {"moral_erosion": 3, "spiritual_corruption": 3, "empathy_void": 3, "predatory_instincts": 2, "void_embrace": 3}
+        },
+        {
+          "text": "Toward whatever serves my interests, regardless of the cost to others",
+          "traits": {"moral_erosion": 5, "spiritual_corruption": 4, "empathy_void": 5, "predatory_instincts": 4, "void_embrace": 4}
+        },
+        {
+          "text": "It's broken beyond repair - I make decisions based on hunger, not morality",
+          "traits": {"moral_erosion": 5, "spiritual_corruption": 5, "empathy_void": 5, "predatory_instincts": 5, "void_embrace": 5}
+        }
+      ]
+    },
+    {
+      "question": "If there was a button that would permanently remove your ability to feel any emotion, you would:",
+      "answers": [
+        {
+          "text": "Never consider pressing it - emotions make life meaningful and rich",
+          "traits": {"emotional_numbness": 0, "void_embrace": 0, "existential_nihilism": 0, "spiritual_corruption": 0, "death_fascination": 0}
+        },
+        {
+          "text": "Be tempted during difficult times but ultimately choose to keep feeling",
+          "traits": {"emotional_numbness": 2, "void_embrace": 2, "existential_nihilism": 2, "spiritual_corruption": 1, "death_fascination": 1}
+        },
+        {
+          "text": "Press it without hesitation - emotions cause more pain than joy",
+          "traits": {"emotional_numbness": 5, "void_embrace": 4, "existential_nihilism": 4, "spiritual_corruption": 3, "death_fascination": 3}
+        },
+        {
+          "text": "Wonder if I've already pressed it years ago and just don't remember",
+          "traits": {"emotional_numbness": 5, "void_embrace": 5, "existential_nihilism": 5, "spiritual_corruption": 4, "death_fascination": 4}
+        },
+        {
+          "text": "Realize I don't need the button - I'm already most of the way there",
+          "traits": {"emotional_numbness": 5, "void_embrace": 5, "existential_nihilism": 5, "spiritual_corruption": 5, "death_fascination": 5}
+        }
+      ]
+    },
+    {
+      "question": "The darkness within you whispers:",
+      "answers": [
+        {
+          "text": "Nothing - there's no darkness, just normal human complexity",
+          "traits": {"intrusive_darkness": 0, "shadow_self": 0, "spiritual_corruption": 0, "void_embrace": 0, "moral_erosion": 0}
+        },
+        {
+          "text": "Occasional negative thoughts that I recognize as temporary and dismiss",
+          "traits": {"intrusive_darkness": 2, "shadow_self": 2, "spiritual_corruption": 1, "void_embrace": 1, "moral_erosion": 1}
+        },
+        {
+          "text": "Constant temptations and dark possibilities that I have to actively resist",
+          "traits": {"intrusive_darkness": 4, "shadow_self": 4, "spiritual_corruption": 3, "void_embrace": 3, "moral_erosion": 3}
+        },
+        {
+          "text": "Detailed instructions for actions I know I shouldn't take but find compelling",
+          "traits": {"intrusive_darkness": 5, "shadow_self": 5, "spiritual_corruption": 4, "void_embrace": 4, "moral_erosion": 4}
+        },
+        {
+          "text": "In a language that predates human speech, teaching me things I was born knowing",
+          "traits": {"intrusive_darkness": 5, "shadow_self": 5, "spiritual_corruption": 5, "void_embrace": 5, "moral_erosion": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your shadow self - the part of you that you don't show others - is:",
+      "answers": [
+        {
+          "text": "Not dramatically different from my public self, just more vulnerable and honest",
+          "traits": {"shadow_self": 0, "spiritual_corruption": 0, "predatory_instincts": 0, "moral_erosion": 0, "void_embrace": 0}
+        },
+        {
+          "text": "More anxious and insecure than I let on, but fundamentally the same person",
+          "traits": {"shadow_self": 2, "spiritual_corruption": 1, "predatory_instincts": 1, "moral_erosion": 1, "void_embrace": 2}
+        },
+        {
+          "text": "Darker and more selfish than my public persona, but still recognizably human",
+          "traits": {"shadow_self": 4, "spiritual_corruption": 3, "predatory_instincts": 3, "moral_erosion": 3, "void_embrace": 3}
+        },
+        {
+          "text": "Something that would terrify people if they knew what I really think about",
+          "traits": {"shadow_self": 5, "spiritual_corruption": 4, "predatory_instincts": 4, "moral_erosion": 4, "void_embrace": 4}
+        },
+        {
+          "text": "The true self - what I show the world is the mask, this is what I really am",
+          "traits": {"shadow_self": 5, "spiritual_corruption": 5, "predatory_instincts": 5, "moral_erosion": 5, "void_embrace": 5}
+        }
+      ]
+    },
+    {
+      "question": "The real you, the one that exists when nobody else is watching, is:",
+      "answers": [
+        {
+          "text": "Essentially the same person others know, just more relaxed and unguarded",
+          "traits": {"spiritual_corruption": 0, "shadow_self": 0, "moral_erosion": 0, "empathy_void": 0, "predatory_instincts": 0}
+        },
+        {
+          "text": "More flawed and struggling than my public image, but trying to be good",
+          "traits": {"spiritual_corruption": 2, "shadow_self": 2, "moral_erosion": 2, "empathy_void": 1, "predatory_instincts": 1}
+        },
+        {
+          "text": "Someone who has done things that would change how others see me forever",
+          "traits": {"spiritual_corruption": 4, "shadow_self": 4, "moral_erosion": 4, "empathy_void": 3, "predatory_instincts": 3}
+        },
+        {
+          "text": "A carefully contained predator wearing the mask of humanity",
+          "traits": {"spiritual_corruption": 5, "shadow_self": 5, "moral_erosion": 5, "empathy_void": 5, "predatory_instincts": 5}
+        },
+        {
+          "text": "Something that stopped being human so long ago I barely remember what that felt like",
+          "traits": {"spiritual_corruption": 5, "shadow_self": 5, "moral_erosion": 5, "empathy_void": 5, "predatory_instincts": 5}
+        }
+      ]
+    }
+  ],
+  "results": {
+    "shadow_self": {
+      "title": "The Hidden Face",
+      "description": "Your shadow self has grown powerful, feeding on secrets and shame. You've become skilled at wearing masks, but the face beneath grows stranger each day. The person you hide is becoming more real than the one you show the world.",
+      "extended": "Your shadow self represents the accumulation of every dark thought you've entertained, every cruel impulse you've suppressed, and every piece of yourself you've deemed too dangerous or unacceptable to reveal. Over time, this hidden aspect of your personality has grown in strength and complexity, developing its own desires, motivations, and moral framework that operates independently of your conscious intentions.\n\nYou've become a master of compartmentalization, able to seamlessly switch between your public persona and your private reality. This skill, while initially protective, has created a dangerous split in your psyche where your authentic self becomes increasingly divorced from the version of you that interacts with the world. The energy required to maintain these separate identities is exhausting, leading to a sense of living in constant performance.\n\nYour shadow self whispers justifications for thoughts and actions that your conscious mind knows are wrong. It has developed its own logic system that makes cruelty seem reasonable, selfishness seem necessary, and manipulation seem like survival. This internal voice has become so sophisticated that you sometimes mistake its reasoning for your own authentic thoughts.\n\nThe most concerning aspect of your shadow dominance is how it has begun to influence your conscious decisions. What once felt like intrusive thoughts now feel like valid options. Behaviors that once would have horrified you now seem merely practical. Your shadow self isn't content to remain hidden—it wants to become your primary mode of being, and it's winning the battle for control of your identity."
+    },
+    "void_embrace": {
+      "title": "Child of the Abyss",
+      "description": "You've made peace with the emptiness inside you, and the emptiness has made you its home. Where others fear the void, you find comfort. You've learned to speak its language and dance to its silent music.",
+      "extended": "Your relationship with emptiness has evolved far beyond typical depression or existential angst into something more profound and concerning. You've developed what can only be described as a symbiotic relationship with the void within you, finding in its depths a kind of twisted comfort that others would find terrifying. This isn't mere acceptance of life's meaninglessness—it's an active embrace of dissolution and negation.\n\nThe void you carry has become your most trusted companion, more reliable than any human relationship and more honest than any emotion. You've learned to navigate its landscapes, to find sustenance in its nothingness, and to derive a perverse sense of identity from your very lack of substance. Where others seek fulfillment, you seek deeper emptiness. Where others fear loss, you anticipate the relief of having less to lose.\n\nThis embrace of emptiness has fundamentally altered your relationship with existence itself. You experience life as a temporary interruption in a larger state of non-being, and you find yourself increasingly impatient with the pretense of meaning that others cling to. Your void has taught you to see through the illusions that make life bearable for most people, leaving you with a clarity that is both gift and curse.\n\nThe most disturbing aspect of your void embrace is how it has begun to influence your relationships with others. You find yourself drawn to those who are breaking down, who are losing their grip on meaning and purpose. Not because you want to help them, but because their dissolution feeds something in your own emptiness. You've become a priest of the void, unconsciously evangelizing for the peace that comes with letting go of everything that makes us human."
+    },
+    "moral_erosion": {
+      "title": "The Compass Spinner",
+      "description": "Your moral compass doesn't just point in the wrong direction—it spins wildly, or perhaps has stopped working entirely. Right and wrong have become matters of convenience rather than conviction.",
+      "extended": "Your moral erosion didn't happen overnight but through a series of small compromises, each one seeming reasonable in isolation but collectively representing a fundamental shift in your ethical foundation. What began as situational ethics—adjusting your moral stance based on circumstances—has evolved into a complete relativism where right and wrong are determined solely by personal benefit and immediate consequences.\n\nYou've developed sophisticated justification systems that allow you to rationalize virtually any behavior. These internal arguments have become so refined that you can convince yourself that selfish actions are actually altruistic, that harmful behaviors are necessary for some greater good, and that your moral flexibility makes you more evolved than those constrained by rigid ethical systems.\n\nThe most insidious aspect of your moral erosion is how seamlessly it integrates with your daily life. You don't experience yourself as an immoral person because you've redefined morality itself to accommodate your choices. This isn't conscious manipulation but a genuine restructuring of your value system that allows you to maintain a positive self-image while engaging in increasingly questionable behaviors.\n\nYour eroded moral foundation affects every relationship and decision in your life. You've become skilled at identifying and exploiting the moral blind spots of others, using their ethical constraints as weaknesses to be leveraged. You see moral behavior in others not as admirable but as naive, viewing their integrity as a form of self-imposed limitation that you've been wise enough to transcend."
+    },
+    "death_fascination": {
+      "title": "The Endings Collector",
+      "description": "Death isn't your enemy—it's your closest friend, your most honest teacher, your deepest fascination. You study endings the way others study beginnings, finding in mortality a truth that the living refuse to see.",
+      "extended": "Your fascination with death extends far beyond normal curiosity about mortality into an obsessive preoccupation that colors every aspect of your thinking and perception. You've developed an intimate knowledge of death's many forms and manifestations, studying it with the dedication others reserve for their greatest passions. This isn't academic interest but a deeply personal relationship with the concept of ending.\n\nDeath has become your lens for understanding life, relationships, and meaning. You see the seeds of destruction in every beginning, the promise of decay in every bloom, the inevitable conclusion lurking behind every joy. This perspective gives you a kind of terrible clarity about the temporary nature of all things, but it also isolates you from those who choose to focus on growth and possibility.\n\nYour death fascination manifests in subtle ways that others might not immediately recognize but that profoundly shape your interactions with the world. You're drawn to stories of endings, attracted to people who are dying or broken, energized by crisis and catastrophe in ways that feel inappropriate but undeniable. You find beauty in destruction that others can't see and comfort in finitude that others find terrifying.\n\nThe most concerning aspect of your death fascination is how it has begun to influence your relationship with your own life and the lives of others. You sometimes find yourself wondering what it would be like to guide someone through their final moments, to be present for the exact moment when life becomes death. These thoughts don't feel morbid to you but natural, even sacred—a sign of how deeply this fascination has rewired your fundamental relationship with existence."
+    },
+    "empathy_void": {
+      "title": "The Hollow Mirror",
+      "description": "Where empathy once lived, there's now a carefully maintained emptiness. You've learned to mimic compassion so well that sometimes even you forget it's just performance. But the void remembers.",
+      "extended": "Your empathy didn't disappear all at once but gradually eroded through a combination of repeated emotional injuries, survival adaptations, and perhaps an underlying inability to truly feel what others feel. What remains is a sophisticated understanding of empathy as a social tool rather than an authentic emotional response. You've become an expert at performing compassion while feeling nothing genuine beneath the surface.\n\nThis empathy void creates a fundamental disconnect between you and the rest of humanity. While others are moved by suffering, inspired by joy, and motivated by emotional connection, you experience these phenomena as external events that require appropriate responses rather than internal experiences that naturally guide your behavior. You've learned the correct reactions to emotional situations the way others learn a foreign language.\n\nYour lack of genuine empathy has given you certain advantages that you've learned to exploit. You can remain calm in emotional storms, make rational decisions when others are paralyzed by feeling, and manipulate emotional situations without being swayed by genuine compassion. You see emotions in others as weaknesses to be managed rather than experiences to be shared.\n\nThe most disturbing aspect of your empathy void is how it has shaped your relationships with others. You're drawn to people not because you care about them but because they serve functions in your life. You've learned to identify and exploit emotional needs in others while remaining fundamentally unmoved by their suffering or joy. Your relationships are elaborate performances where you play the role of caring person while feeling nothing authentic for your supposed loved ones."
+    },
+    "reality_detachment": {
+      "title": "The Drift Walker",
+      "description": "The boundary between real and unreal has become... negotiable. You slip between layers of reality like others change clothes, never quite certain which world you're inhabiting at any given moment.",
+      "extended": "Your detachment from consensual reality has evolved beyond simple dissociation into a fundamental questioning of what constitutes 'real' experience. You've developed the ability to shift between different layers of perception and meaning, sometimes consciously and sometimes involuntarily, creating a fluid relationship with existence that others would find deeply unsettling.\n\nThis reality detachment manifests in various ways: memories that might be dreams, dreams that feel more real than waking life, conversations with people who may or may not exist, and experiences that seem to happen in spaces between the ordinary world. You've learned to navigate multiple levels of reality simultaneously, though this skill comes at the cost of feeling truly grounded in any single version of existence.\n\nYour detached state gives you access to insights and perspectives that others can't reach, but it also makes genuine connection with others nearly impossible. You often feel like you're watching life through glass, participating in a play where everyone else believes the script is real while you see only the performance. This perspective can be liberating but also profoundly isolating.\n\nThe most concerning aspect of your reality detachment is how it affects your decision-making and moral reasoning. When the boundaries between real and unreal become fluid, the consequences of actions become abstract concepts rather than concrete realities. You might hurt someone and experience it as no more significant than a scene in a movie, or make life-altering decisions based on logic that only makes sense within your detached perspective."
+    },
+    "intrusive_darkness": {
+      "title": "The Thought Keeper",
+      "description": "Your mind has become a museum of the forbidden, cataloguing thoughts that would make others flee. You've learned to curate darkness like others collect art, finding beauty in what should horrify.",
+      "extended": "Your intrusive thoughts have evolved far beyond the random, unwanted mental content that occasionally troubles most people. You've developed what can only be described as a relationship with these dark thoughts, welcoming them, nurturing them, and finding in them a kind of twisted creativity that feels more authentic than your everyday consciousness.\n\nThese thoughts arrive with increasing frequency and detail, bringing with them elaborate scenarios, emotional landscapes, and logical frameworks that feel foreign to your conscious mind yet strangely familiar. You've stopped fighting them and instead begun to explore them, following their internal logic and discovering in their depths a kind of dark wisdom that ordinary thinking can't access.\n\nThe content of your intrusive darkness has become increasingly sophisticated and personally tailored, as if something that knows you intimately is crafting these thoughts specifically for your consumption. They feel less like random neural firing and more like communications from a part of yourself that exists beyond normal consciousness, sharing knowledge and perspectives that your everyday mind would reject.\n\nThe most disturbing development in your relationship with intrusive darkness is how these thoughts have begun to influence your waking decisions and worldview. Ideas that once felt alien and disturbing now seem reasonable and even appealing. The boundary between thought and action has become increasingly permeable, and you find yourself seriously considering possibilities that once would have horrified you."
+    },
+    "pain_relationship": {
+      "title": "The Sensation Alchemist",
+      "description": "You've discovered that pain is the most honest sensation—it never lies, never pretends, never disappoints. In a world of false pleasures, pain offers the purity of absolute truth.",
+      "extended": "Your relationship with pain has evolved far beyond normal human tolerance into something approaching reverence. You've discovered that pain provides a clarity and intensity of experience that pleasure can never match, cutting through the numbness and disconnection that characterizes much of your emotional life. Pain has become your most reliable connection to feeling anything authentic.\n\nThis isn't masochism in the traditional sense but a sophisticated understanding of pain as a form of communication, both with yourself and with deeper realities that pleasure-based experiences can't access. You've learned to read the different languages of pain, to understand what each type reveals about the nature of existence, identity, and truth.\n\nYour pain relationship has given you insights into the nature of suffering that others can't understand. You see the way most people flee from discomfort as a form of cowardice, a refusal to engage with the most honest aspects of human experience. You've developed the ability to transform pain into something approaching ecstasy, not by eliminating it but by embracing it completely.\n\nThe most concerning aspect of your pain relationship is how it has begun to influence your interactions with others. You find yourself curious about others' pain thresholds, drawn to situations where suffering is present, and sometimes motivated to create opportunities for pain exploration. This isn't necessarily sadistic but represents a fundamental rewiring of your empathy system around pain rather than pleasure or comfort."
+    },
+    "predatory_instincts": {
+      "title": "The Hunter's Heart",
+      "description": "You've awakened something ancient and hungry inside yourself. It watches others the way a wolf watches sheep, patient and calculating, always assessing weakness and opportunity.",
+      "extended": "Your predatory instincts represent a fundamental shift in how you perceive and relate to other human beings. You've developed the ability to quickly assess vulnerability, identify emotional weaknesses, and recognize opportunities for exploitation or control. This isn't conscious manipulation but an intuitive understanding of power dynamics that operates below the level of rational thought.\n\nThese instincts manifest in subtle ways that others rarely recognize until it's too late. You automatically position yourself in conversations and relationships to maximize your advantage, instinctively identify people who can be easily influenced or controlled, and feel a kind of excitement when encountering someone who would be easy to harm or exploit.\n\nYour predatory nature has given you remarkable insights into human psychology and social dynamics. You can read people's insecurities, desires, and fears with uncanny accuracy, and you understand intuitively how to use this information to achieve your goals. This makes you extremely effective in social and professional situations, though often at the expense of genuine connection.\n\nThe most disturbing aspect of your predatory instincts is how natural they've become. You don't experience yourself as malicious but simply as someone who understands the true nature of human relationships—that they're fundamentally about power, control, and resource acquisition. You see those who don't operate from this understanding as naive prey, and you feel no guilt about taking advantage of their weakness."
+    },
+    "existential_nihilism": {
+      "title": "The Meaning Killer",
+      "description": "You've seen through the grand illusion that keeps others going. Purpose, meaning, significance—all elaborate lies we tell ourselves to avoid facing the truth of absolute meaninglessness.",
+      "extended": "Your nihilism goes far beyond philosophical skepticism about meaning and purpose to become a lived experience of absolute meaninglessness that colors every aspect of your existence. You've not only intellectually concluded that life has no inherent purpose but have emotionally and spiritually embraced this truth in ways that fundamentally alter how you experience being alive.\n\nThis isn't the angry nihilism of someone rebelling against disappointed expectations but the cold, clear-eyed nihilism of someone who has simply seen through the illusions that make life bearable for others. You watch people pursue goals, build relationships, and create meaning with the detached interest of an anthropologist studying a primitive culture's superstitions.\n\nYour nihilism has given you a kind of terrible freedom. Without the burden of meaning, purpose, or significance, you're free to act purely on impulse, desire, or calculation. You see moral systems, social structures, and personal values as arbitrary constructions with no inherent authority over your choices. This freedom is both liberating and profoundly isolating.\n\nThe most concerning aspect of your existential nihilism is how it affects your relationship with consequences and responsibility. When nothing ultimately matters, when all human endeavors are equally meaningless, the suffering or joy you cause others becomes abstract rather than real. Your nihilism doesn't make you evil, but it removes the meaning-based constraints that prevent most people from causing harm."
+    },
+    "emotional_numbness": {
+      "title": "The Feeling Exile",
+      "description": "You exist in emotional winter, where feelings freeze before they can fully form. You remember what warmth felt like, but now you navigate the world through ice and emptiness.",
+      "extended": "Your emotional numbness represents a profound disconnection from the feeling states that normally guide human behavior and provide meaning to experience. This isn't temporary depression but a more fundamental alteration of your emotional architecture, as if the neural pathways that generate and process feelings have been gradually shut down or rerouted.\n\nThis numbness affects not only your ability to feel but your ability to understand and predict the emotional responses of others. You watch people react with what appears to be genuine feeling and find yourself unable to comprehend the intensity of their responses. Their emotions seem foreign and incomprehensible, like watching actors perform in a language you don't speak.\n\nYour emotional exile has given you certain advantages: you can remain rational in crisis situations, make difficult decisions without being swayed by sentiment, and navigate conflict without being destabilized by emotional reactivity. However, these benefits come at the cost of connection, meaning, and the natural reward systems that make life feel worth living.\n\nThe most disturbing aspect of your emotional numbness is how it has begun to affect your sense of identity and agency. Without emotions to guide decision-making and provide feedback about your experiences, you increasingly feel like an observer of your own life rather than an active participant. You make choices based on logic or habit rather than desire or passion, creating a sense of living in automated mode rather than genuine engagement with existence."
+    },
+    "spiritual_corruption": {
+      "title": "The Soul Wound",
+      "description": "Something fundamental has gone wrong at the level of your soul. You feel marked, corrupted, carrying a darkness that goes deeper than psychology and into the realm of the spiritual.",
+      "extended": "Your spiritual corruption represents damage that goes beyond psychological trauma or mental health issues into what can only be described as damage to your essential nature or soul. You carry a sense of being fundamentally marked, stained, or altered in ways that feel irreversible and that affect your very essence rather than just your thoughts or behaviors.\n\nThis corruption manifests as a deep sense of wrongness that permeates your existence—not just feeling bad but feeling fundamentally wrong, as if something essential about your nature has been inverted or polluted. You experience yourself as carrying darkness that others can sometimes sense but rarely understand, a spiritual toxicity that affects your interactions and relationships.\n\nThe spiritual corruption influences how you relate to concepts of good and evil, sacred and profane. You find yourself drawn to experiences and ideas that would repel most people, not because they're intellectually interesting but because they resonate with something damaged in your core. You feel more at home with darkness than light, more comfortable with corruption than purity.\n\nThe most concerning aspect of your spiritual corruption is how it seems to be progressive, deepening over time rather than healing or stabilizing. You sense that you're becoming something other than what you were born to be, that the corruption is transforming your essential nature in ways that may be irreversible. This isn't just psychological change but a fundamental alteration of your spiritual DNA."
+    }
+  }
+}

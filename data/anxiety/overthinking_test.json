@@ -1,0 +1,666 @@
+{
+  "testId": "overthinking-index",
+  "title": "Overthinking Index Test", 
+  "description": "How deep do your thought spirals really go?",
+  "traits": {
+    "zen": "Peaceful mind with minimal mental chatter",
+    "balanced": "Healthy thinking balance without overthinking",
+    "curious": "Thoughtful analysis driven by genuine curiosity", 
+    "spiraling": "Tendency to create elaborate mental scenarios",
+    "obsessive": "Constant mental loops and detailed overthinking"
+  },
+  "questions": [
+    {
+      "question": "You send a text and they don't reply immediately. What's your brain's instant reaction?",
+      "answers": [
+        {
+          "text": "They're probably busy with something important right now",
+          "traits": {"zen": 5, "balanced": 3, "curious": 1, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "I'll check back later when they have time to respond", 
+          "traits": {"zen": 3, "balanced": 5, "curious": 2, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Did I say something wrong or offensive in that message?",
+          "traits": {"zen": 0, "balanced": 1, "curious": 4, "spiraling": 3, "obsessive": 2}
+        },
+        {
+          "text": "They definitely hate me now and are avoiding me",
+          "traits": {"zen": 0, "balanced": 0, "curious": 1, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "Time to analyze every single word I sent for hidden meanings",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "When you're lying in bed trying to fall asleep, your brain typically:",
+      "answers": [
+        {
+          "text": "Peacefully drifts off into restful sleep",
+          "traits": {"zen": 5, "balanced": 3, "curious": 0, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Reviews the day's events briefly before settling down",
+          "traits": {"zen": 2, "balanced": 5, "curious": 3, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Replays conversations and wonders about different responses",
+          "traits": {"zen": 0, "balanced": 1, "curious": 4, "spiraling": 3, "obsessive": 1}
+        },
+        {
+          "text": "Creates 47 alternative scenarios for how things could have gone",
+          "traits": {"zen": 0, "balanced": 0, "curious": 1, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "Writes entire 12-season drama series starring your life",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "Someone responds to your idea with just 'interesting.' Your mind immediately thinks:",
+      "answers": [
+        {
+          "text": "They genuinely find your idea interesting and worth considering",
+          "traits": {"zen": 5, "balanced": 4, "curious": 1, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "They're being polite but probably don't have strong feelings",
+          "traits": {"zen": 1, "balanced": 5, "curious": 3, "spiraling": 1, "obsessive": 0}
+        },
+        {
+          "text": "They think your idea is weird and don't know how to respond",
+          "traits": {"zen": 0, "balanced": 0, "curious": 3, "spiraling": 4, "obsessive": 2}
+        },
+        {
+          "text": "They absolutely hate it but are too polite to say so directly",
+          "traits": {"zen": 0, "balanced": 0, "curious": 1, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "Time to decode their micro-expressions and tone for hidden meanings",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your approach to making simple decisions like what to eat for lunch:",
+      "answers": [
+        {
+          "text": "Quick and confident - I go with what sounds good",
+          "traits": {"zen": 5, "balanced": 3, "curious": 0, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Consider the main options and pick one that works",
+          "traits": {"zen": 2, "balanced": 5, "curious": 3, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Make a mental pros and cons list for each option",
+          "traits": {"zen": 0, "balanced": 2, "curious": 5, "spiraling": 2, "obsessive": 1}
+        },
+        {
+          "text": "Research nutritional content and restaurant reviews for hours",
+          "traits": {"zen": 0, "balanced": 0, "curious": 1, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "Create detailed spreadsheets and decision-making flowcharts",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "After any social interaction, you typically:",
+      "answers": [
+        {
+          "text": "Move on with your day without much additional thought",
+          "traits": {"zen": 5, "balanced": 4, "curious": 0, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Think about it briefly and then let it go",
+          "traits": {"zen": 2, "balanced": 5, "curious": 3, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Analyze what you said and how they responded",
+          "traits": {"zen": 0, "balanced": 1, "curious": 5, "spiraling": 3, "obsessive": 1}
+        },
+        {
+          "text": "Cringe at everything you did and said during the interaction",
+          "traits": {"zen": 0, "balanced": 0, "curious": 1, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "Write detailed mental apology letters for existing",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your relationship with your past experiences is best described as:",
+      "answers": [
+        {
+          "text": "The past is done and gone - I live in the present",
+          "traits": {"zen": 5, "balanced": 3, "curious": 1, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Nice memories to visit occasionally for perspective",
+          "traits": {"zen": 3, "balanced": 5, "curious": 2, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "A regular source of cringe-worthy moments to replay",
+          "traits": {"zen": 0, "balanced": 1, "curious": 4, "spiraling": 4, "obsessive": 1}
+        },
+        {
+          "text": "Constantly editing and rewriting my memories for better outcomes",
+          "traits": {"zen": 0, "balanced": 0, "curious": 1, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "I have director's commentary running on everything I've ever done",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "When your carefully made plans change at the last minute, you:",
+      "answers": [
+        {
+          "text": "Roll with it - flexibility is part of life",
+          "traits": {"zen": 5, "balanced": 3, "curious": 0, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Feel a bit annoyed but adapt to the new situation",
+          "traits": {"zen": 2, "balanced": 5, "curious": 3, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Need some time to mentally process and reorganize",
+          "traits": {"zen": 0, "balanced": 2, "curious": 5, "spiraling": 2, "obsessive": 1}
+        },
+        {
+          "text": "Feel like your whole day is completely ruined",
+          "traits": {"zen": 0, "balanced": 0, "curious": 1, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "Start spiraling about the butterfly effect on your entire future",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "The best description of your inner voice throughout the day:",
+      "answers": [
+        {
+          "text": "Quiet and peaceful - minimal mental chatter",
+          "traits": {"zen": 5, "balanced": 2, "curious": 0, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Normal narrator commenting on daily events",
+          "traits": {"zen": 2, "balanced": 5, "curious": 3, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Constant commentary and analysis of everything happening",
+          "traits": {"zen": 0, "balanced": 1, "curious": 5, "spiraling": 3, "obsessive": 1}
+        },
+        {
+          "text": "Like an anxious debate team arguing different perspectives",
+          "traits": {"zen": 0, "balanced": 0, "curious": 1, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "24/7 courtroom drama with multiple competing narratives",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "Someone cancels plans with you last minute. Your immediate first thought:",
+      "answers": [
+        {
+          "text": "Cool, now I have some unexpected free time",
+          "traits": {"zen": 5, "balanced": 4, "curious": 1, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Hope they're okay and nothing serious came up",
+          "traits": {"zen": 3, "balanced": 5, "curious": 2, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Did I do something wrong to make them not want to see me?",
+          "traits": {"zen": 0, "balanced": 1, "curious": 4, "spiraling": 4, "obsessive": 1}
+        },
+        {
+          "text": "They definitely hate me and were looking for an excuse",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "Time to analyze our entire friendship for warning signs",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "Looking at your browser history would reveal:",
+      "answers": [
+        {
+          "text": "Normal everyday searches and websites",
+          "traits": {"zen": 5, "balanced": 4, "curious": 1, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Some random questions and interesting rabbit holes",
+          "traits": {"zen": 2, "balanced": 5, "curious": 3, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "3am existential searches about life and meaning",
+          "traits": {"zen": 0, "balanced": 1, "curious": 5, "spiraling": 3, "obsessive": 1}
+        },
+        {
+          "text": "Searches like 'why do my ears feel weird' followed by 'ear cancer symptoms'",
+          "traits": {"zen": 0, "balanced": 0, "curious": 1, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "47 tabs open about one single random thought from yesterday",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "Making a simple phone call like ordering food requires:",
+      "answers": [
+        {
+          "text": "Just dialing the number when you're ready",
+          "traits": {"zen": 5, "balanced": 4, "curious": 0, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Quick mental preparation of what you want to say",
+          "traits": {"zen": 2, "balanced": 5, "curious": 3, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Writing down key points so you don't forget anything",
+          "traits": {"zen": 0, "balanced": 2, "curious": 5, "spiraling": 2, "obsessive": 1}
+        },
+        {
+          "text": "Full rehearsal of the entire conversation multiple times",
+          "traits": {"zen": 0, "balanced": 0, "curious": 1, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "3-5 business days advance notice to mentally prepare",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your relationship with time could best be described as:",
+      "answers": [
+        {
+          "text": "Living comfortably in the present moment",
+          "traits": {"zen": 5, "balanced": 3, "curious": 0, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Balanced perspective between past, present, and future",
+          "traits": {"zen": 2, "balanced": 5, "curious": 3, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Constantly stuck somewhere between past regrets and future worries",
+          "traits": {"zen": 0, "balanced": 1, "curious": 5, "spiraling": 3, "obsessive": 1}
+        },
+        {
+          "text": "Living simultaneously in 17 different timelines of possibility",
+          "traits": {"zen": 0, "balanced": 0, "curious": 1, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "Time is a flat circle of anxiety and regret",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "You make a minor mistake at work or school. Your response is:",
+      "answers": [
+        {
+          "text": "Fix it quickly and move on with your day",
+          "traits": {"zen": 5, "balanced": 4, "curious": 1, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Feel bad about it for a bit, then let it go",
+          "traits": {"zen": 2, "balanced": 5, "curious": 3, "spiraling": 1, "obsessive": 0}
+        },
+        {
+          "text": "Worry extensively about how it affects your reputation",
+          "traits": {"zen": 0, "balanced": 1, "curious": 4, "spiraling": 4, "obsessive": 1}
+        },
+        {
+          "text": "Convince yourself everyone now thinks you're completely incompetent",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "Start planning your new identity in a different city",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "When it comes to choosing what to wear in the morning:",
+      "answers": [
+        {
+          "text": "Grab the first thing I see that's weather-appropriate",
+          "traits": {"zen": 5, "balanced": 3, "curious": 0, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Make a quick decision based on the day's activities",
+          "traits": {"zen": 2, "balanced": 5, "curious": 2, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Try on multiple options to see what feels right",
+          "traits": {"zen": 0, "balanced": 2, "curious": 5, "spiraling": 2, "obsessive": 1}
+        },
+        {
+          "text": "Have a complete crisis about my entire personal style",
+          "traits": {"zen": 0, "balanced": 0, "curious": 1, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "Create a 'what will people think' decision flowchart",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "The nature of your Google searches could be described as:",
+      "answers": [
+        {
+          "text": "Straightforward and purposeful information seeking",
+          "traits": {"zen": 5, "balanced": 4, "curious": 1, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Occasionally weird but mostly normal queries",
+          "traits": {"zen": 2, "balanced": 5, "curious": 3, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Increasingly specific as I go down rabbit holes",
+          "traits": {"zen": 0, "balanced": 1, "curious": 5, "spiraling": 3, "obsessive": 1}
+        },
+        {
+          "text": "A gradual spiral into increasingly anxious territory",
+          "traits": {"zen": 0, "balanced": 0, "curious": 1, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "So concerning that my FBI agent probably needs therapy",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "When someone randomly looks at you while you're walking down the street:",
+      "answers": [
+        {
+          "text": "Don't even notice or think about it",
+          "traits": {"zen": 5, "balanced": 3, "curious": 0, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Wonder briefly if maybe they know me from somewhere",
+          "traits": {"zen": 2, "balanced": 5, "curious": 3, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Immediately wonder if something is wrong with my appearance",
+          "traits": {"zen": 0, "balanced": 1, "curious": 4, "spiraling": 4, "obsessive": 1}
+        },
+        {
+          "text": "Start analyzing my entire appearance and walking style",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "Become convinced they can somehow see my thoughts",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "Planning for your future typically involves:",
+      "answers": [
+        {
+          "text": "Setting general goals and working toward them",
+          "traits": {"zen": 5, "balanced": 4, "curious": 1, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Reasonable planning with some flexibility for changes",
+          "traits": {"zen": 2, "balanced": 5, "curious": 3, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Multiple backup plans for various possible scenarios",
+          "traits": {"zen": 0, "balanced": 2, "curious": 5, "spiraling": 2, "obsessive": 1}
+        },
+        {
+          "text": "Catastrophizing every possible thing that could go wrong",
+          "traits": {"zen": 0, "balanced": 0, "curious": 1, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "47 detailed contingency plans for each potential scenario",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your phone's notes app primarily contains:",
+      "answers": [
+        {
+          "text": "Shopping lists and practical reminders",
+          "traits": {"zen": 5, "balanced": 4, "curious": 1, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Random reminders and occasional interesting thoughts",
+          "traits": {"zen": 2, "balanced": 5, "curious": 3, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Detailed arguments I've had with myself in the shower",
+          "traits": {"zen": 0, "balanced": 1, "curious": 5, "spiraling": 3, "obsessive": 1}
+        },
+        {
+          "text": "Completely unhinged 3am thoughts and revelations",
+          "traits": {"zen": 0, "balanced": 0, "curious": 1, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "Manifesto-length analyses of random daily interactions",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "When someone doesn't laugh at your joke, you think:",
+      "answers": [
+        {
+          "text": "Not everyone shares the same sense of humor - that's normal",
+          "traits": {"zen": 5, "balanced": 4, "curious": 1, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "That was a bit awkward, but oh well",
+          "traits": {"zen": 2, "balanced": 5, "curious": 3, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Maybe I'm just not funny and should stop trying",
+          "traits": {"zen": 0, "balanced": 1, "curious": 4, "spiraling": 4, "obsessive": 1}
+        },
+        {
+          "text": "They specifically hate me and my sense of humor",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "Time to analyze comedy theory and social dynamics at 3am",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your thoughts about your own thinking patterns:",
+      "answers": [
+        {
+          "text": "I don't really think about my thinking that much",
+          "traits": {"zen": 5, "balanced": 3, "curious": 0, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Sometimes I wonder about how my mind works",
+          "traits": {"zen": 2, "balanced": 5, "curious": 3, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "I think about my thinking process quite a lot",
+          "traits": {"zen": 0, "balanced": 1, "curious": 5, "spiraling": 3, "obsessive": 1}
+        },
+        {
+          "text": "I'm trapped in meta-analysis paralysis about my own thoughts",
+          "traits": {"zen": 0, "balanced": 0, "curious": 1, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "Like Inception but make it anxiety - thoughts about thoughts about thoughts",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "The phrase 'we need to talk' makes you feel:",
+      "answers": [
+        {
+          "text": "Curious about what they want to discuss",
+          "traits": {"zen": 5, "balanced": 4, "curious": 2, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Slightly nervous but ready to listen",
+          "traits": {"zen": 2, "balanced": 5, "curious": 3, "spiraling": 1, "obsessive": 0}
+        },
+        {
+          "text": "Compelled to review everything I've done recently",
+          "traits": {"zen": 0, "balanced": 1, "curious": 3, "spiraling": 4, "obsessive": 2}
+        },
+        {
+          "text": "Like I need to immediately plan my defense speech",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "Like I should probably start writing my will",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your dreams at night are typically:",
+      "answers": [
+        {
+          "text": "Random and forgettable - just normal dream stuff",
+          "traits": {"zen": 5, "balanced": 4, "curious": 1, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Sometimes interesting or weird, but nothing too intense",
+          "traits": {"zen": 2, "balanced": 5, "curious": 3, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Anxiety marathons featuring all my daily worries",
+          "traits": {"zen": 0, "balanced": 1, "curious": 3, "spiraling": 5, "obsessive": 1}
+        },
+        {
+          "text": "My brain's revenge for the overthinking I do while awake",
+          "traits": {"zen": 0, "balanced": 0, "curious": 1, "spiraling": 4, "obsessive": 4}
+        },
+        {
+          "text": "Literal continuations of my daytime thought spirals",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "When sending an important email, you:",
+      "answers": [
+        {
+          "text": "Write it clearly and send it when you're done",
+          "traits": {"zen": 5, "balanced": 3, "curious": 0, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Do a quick proofread for any obvious errors",
+          "traits": {"zen": 2, "balanced": 5, "curious": 3, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Read it over at least 5 times before hitting send",
+          "traits": {"zen": 0, "balanced": 2, "curious": 5, "spiraling": 2, "obsessive": 1}
+        },
+        {
+          "text": "Analyze every single word choice and possible interpretation",
+          "traits": {"zen": 0, "balanced": 0, "curious": 1, "spiraling": 5, "obsessive": 3}
+        },
+        {
+          "text": "Still mentally editing it hours after I've already sent it",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 2, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "What's your biggest overthinking trigger during conversations?",
+      "answers": [
+        {
+          "text": "I don't really have any particular triggers",
+          "traits": {"zen": 5, "balanced": 4, "curious": 0, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Awkward silences that last more than a few seconds",
+          "traits": {"zen": 1, "balanced": 3, "curious": 5, "spiraling": 2, "obsessive": 0}
+        },
+        {
+          "text": "When someone's tone shifts even slightly mid-conversation",
+          "traits": {"zen": 0, "balanced": 1, "curious": 3, "spiraling": 5, "obsessive": 2}
+        },
+        {
+          "text": "Any facial expression I can't immediately decode",
+          "traits": {"zen": 0, "balanced": 0, "curious": 2, "spiraling": 4, "obsessive": 4}
+        },
+        {
+          "text": "The moment someone says my name in a particular way",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 3, "obsessive": 5}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle waiting for important news or results?",
+      "answers": [
+        {
+          "text": "Distract myself with other activities until I hear back",
+          "traits": {"zen": 4, "balanced": 5, "curious": 1, "spiraling": 0, "obsessive": 0}
+        },
+        {
+          "text": "Check my phone occasionally but try to stay busy",
+          "traits": {"zen": 2, "balanced": 4, "curious": 3, "spiraling": 1, "obsessive": 0}
+        },
+        {
+          "text": "Calculate exactly when I should expect to hear something",
+          "traits": {"zen": 0, "balanced": 2, "curious": 4, "spiraling": 3, "obsessive": 2}
+        },
+        {
+          "text": "Create detailed backup plans for every possible outcome",
+          "traits": {"zen": 0, "balanced": 0, "curious": 2, "spiraling": 4, "obsessive": 4}
+        },
+        {
+          "text": "Refresh my email every 30 seconds while catastrophizing",
+          "traits": {"zen": 0, "balanced": 0, "curious": 0, "spiraling": 3, "obsessive": 5}
+        }
+      ]
+    }
+  ],
+  "results": {
+    "zen": {
+      "title": "The Mental Minimalist",
+      "description": "You've achieved what the rest of us can only dream of: a genuinely quiet mind. Your brain operates like a well-tuned meditation app - peaceful, present, and blissfully free of unnecessary mental chatter.",
+      "extended": "Your mental clarity is genuinely remarkable in a world where most people's minds operate like chaotic news rooms. This level of present-moment awareness typically comes from either natural temperament, deliberate practice, or having worked through mental noise to reach this peaceful state. You've developed what psychologists call 'cognitive flexibility' - the ability to hold thoughts lightly rather than becoming entangled in them.\n\nYour brain has learned to distinguish between productive thinking and mental noise. When a thought arises, you can evaluate its usefulness and either engage with it meaningfully or let it pass. This isn't suppression or avoidance - it's skilled mental management that most people struggle to achieve.\n\nThis clarity likely extends to your decision-making, relationships, and overall life satisfaction. You're not constantly second-guessing yourself or getting lost in analysis paralysis. However, this can sometimes make it difficult to relate to people who struggle with overthinking, as your natural ease might seem impossible to them.\n\nYour challenge is using this mental peace as a strength while remaining empathetic to those whose minds operate differently. Your calm presence can be incredibly grounding for anxious people, making you a natural source of stability in chaotic situations."
+    },
+    "balanced": {
+      "title": "The Reasonable Ruminator", 
+      "description": "You've struck the perfect balance between thinking and overthinking - like the Goldilocks of mental processing. You think about things enough to be thoughtful and self-aware, but not so much that you need to schedule therapy for your thoughts.",
+      "extended": "You've achieved what most people aspire to: a healthy relationship with your own thoughts. Your mind operates like a well-calibrated instrument - engaged when needed, quiet when appropriate. You think through important decisions without getting paralyzed by endless analysis, and you can let go of thoughts that don't serve you.\n\nThis balance suggests strong emotional regulation skills and realistic thinking patterns. You understand that some situations warrant careful consideration while others are best handled with quick decisions and moving on. You don't catastrophize normal social interactions, but you also don't ignore important social cues.\n\nYour overthinking, when it does occur, tends to be productive rather than destructive. You might replay a conversation, but you're usually extracting useful information rather than just torturing yourself. This makes you an excellent problem-solver and a reliable friend who can offer perspective without getting lost in anxiety spirals.\n\nThe key to maintaining this balance is continuing to trust your instincts while staying open to course corrections. Your mental equilibrium is a valuable asset that allows you to navigate life's complexities without getting overwhelmed by them."
+    },
+    "curious": {
+      "title": "The Thought Explorer",
+      "description": "Your mind is like a fascinating museum that never closes - always something interesting to examine, but sometimes you get lost in the exhibits. You're genuinely curious about how things work, why people do what they do, and what that weird interaction really meant.",
+      "extended": "Your mind operates like an analytical engine that's genuinely fascinated by the world around you. Unlike anxious overthinking, your mental activity stems from authentic curiosity and a desire to understand. You're the person who notices subtle patterns in social interactions, asks thoughtful questions, and can explain why certain situations feel 'off' even when others can't put their finger on it.\n\nThis level of analysis is actually a cognitive strength when properly channeled. Your brain is collecting and processing social and environmental data at a sophisticated level. You pick up on nuances that others miss, which makes you insightful in relationships and skilled at reading situations.\n\nThe challenge is knowing when to trust your initial instincts versus when to dig deeper. Sometimes your first impression is correct, and additional analysis just creates unnecessary complexity. Learning to distinguish between productive curiosity and unnecessary rumination will help you use this mental gift more effectively.\n\nYour analytical nature makes you an excellent friend, partner, and colleague because you genuinely try to understand people and situations rather than making quick judgments. Just remember that not everything needs to be fully understood to be navigated successfully."
+    },
+    "spiraling": {
+      "title": "The Spiral Specialist",
+      "description": "Welcome to the overthinking olympics - you're not just competing, you're hosting the entire event. Your brain has turned anxiety into an extreme sport, complete with spectacular mental gymnastics and death-defying leaps to conclusions.",
+      "extended": "Your mind has become a master at taking small, normal situations and transforming them into complex psychological thrillers. What starts as a simple interaction quickly evolves into an elaborate narrative with multiple plot twists, character analyses, and potential endings. Your brain treats everyday social situations like they're puzzles that need solving, but unfortunately, most of them don't actually have solutions.\n\nThis level of overthinking typically develops as a protective mechanism - your mind trying to prevent social rejection or emotional pain by anticipating and planning for every possible negative outcome. The exhausting irony is that this mental hypervigilance often creates the very problems it's trying to prevent, as you become so focused on potential issues that you miss the actual reality of situations.\n\nYour overthinking often follows predictable patterns: normal interaction → immediate analysis → worst-case scenario thinking → emotional spiral → hours of mental review. Breaking this cycle requires recognizing these patterns and learning to interrupt them before they gain momentum.\n\nThe good news is that your analytical mind is actually quite powerful when properly directed. The same mental energy that creates spirals can be channeled into genuine problem-solving, creative projects, or meaningful analysis that actually serves you rather than exhausting you."
+    },
+    "obsessive": {
+      "title": "The Mental Marathon Runner",
+      "description": "Your brain is running a 24/7 thought marathon with no finish line, no water stations, and certainly no rest stops. You haven't just crossed the line into overthinking - you've set up permanent residence there, complete with a mortgage and property taxes.",
+      "extended": "Your brain has achieved what could be considered a PhD in overthinking - you've mastered advanced techniques that most people can't even imagine. Your mind operates like a 24/7 research facility dedicated entirely to analyzing your own life, complete with multiple departments handling different aspects of your existence: the Social Interaction Analysis Department, the Past Regret Review Board, and the Future Catastrophe Planning Committee.\n\nAt this level, overthinking has become so sophisticated that you overthink about overthinking. You've developed meta-anxiety about your anxiety, and you can spiral about why you're spiraling. Your brain creates alternate realities so detailed that you sometimes forget which version actually happened. You don't just rehearse conversations - you write, direct, and star in elaborate mental productions featuring every possible variation.\n\nThis mental hyperactivity often stems from a nervous system that's been chronically activated, treating normal life situations as threats requiring constant vigilance. Your brain has learned that thinking equals safety, so it never stops trying to think its way out of uncertainty - even though uncertainty is an unavoidable part of human existence.\n\nRecognizing that this level of mental activity is exhausting and often counterproductive is actually the first step toward change. Your powerful analytical mind could be an incredible asset if directed toward external projects rather than constantly analyzing your internal experience."
+    }
+  }
+}

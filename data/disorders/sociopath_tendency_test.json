@@ -1,0 +1,685 @@
+{
+  "title": "Sociopath Tendency Scale",
+  "description": "Do you have the traits of a sociopath?",
+  "questions": [
+    {
+      "q": "When you see someone crying or in genuine emotional pain, what's your honest internal response?",
+      "options": [
+        {
+          "text": "I feel their pain deeply and have an overwhelming urge to help them",
+          "weights": { "empathetic": 5, "low": 1, "moderate": 0, "high": 0, "extreme": 0, "calculated": 0, "impulsive": 0, "predatory": 0, "parasitic": 0, "borderline": 0 }
+        },
+        {
+          "text": "I feel uncomfortable and try to comfort them, though it's awkward",
+          "weights": { "empathetic": 3, "low": 4, "moderate": 1, "high": 0, "extreme": 0, "calculated": 1, "impulsive": 0, "predatory": 0, "parasitic": 0, "borderline": 2 }
+        },
+        {
+          "text": "I feel nothing but know I should pretend to care for appearances",
+          "weights": { "empathetic": 0, "low": 2, "moderate": 4, "high": 2, "extreme": 1, "calculated": 5, "impulsive": 1, "predatory": 2, "parasitic": 2, "borderline": 3 }
+        },
+        {
+          "text": "I find it annoying and want to leave or change the subject immediately",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 2, "impulsive": 4, "predatory": 3, "parasitic": 3, "borderline": 2 }
+        },
+        {
+          "text": "I feel curious about what would make them cry more or break down completely",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 3, "impulsive": 2, "predatory": 5, "parasitic": 1, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "How often do you break rules, laws, or social norms when you know you won't get caught?",
+      "options": [
+        {
+          "text": "Never - my conscience and moral compass prevent me even when no one's watching",
+          "weights": { "empathetic": 5, "low": 2, "moderate": 0, "high": 0, "extreme": 0, "calculated": 0, "impulsive": 0, "predatory": 0, "parasitic": 0, "borderline": 0 }
+        },
+        {
+          "text": "Rarely - only very minor things like jaywalking or white lies",
+          "weights": { "empathetic": 3, "low": 4, "moderate": 1, "high": 0, "extreme": 0, "calculated": 1, "impulsive": 1, "predatory": 0, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "Sometimes - if the personal benefit clearly outweighs any potential risk",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 2, "extreme": 1, "calculated": 3, "impulsive": 2, "predatory": 2, "parasitic": 3, "borderline": 3 }
+        },
+        {
+          "text": "Often - rules are really just suggestions for people who get caught",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 4, "impulsive": 4, "predatory": 3, "parasitic": 2, "borderline": 2 }
+        },
+        {
+          "text": "Constantly - laws and social norms simply don't apply to people like me",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 3, "impulsive": 5, "predatory": 4, "parasitic": 2, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "When making important decisions that affect others, how much do you genuinely consider their feelings?",
+      "options": [
+        {
+          "text": "Their feelings and wellbeing are a primary consideration in everything I do",
+          "weights": { "empathetic": 5, "low": 2, "moderate": 0, "high": 0, "extreme": 0, "calculated": 0, "impulsive": 0, "predatory": 0, "parasitic": 0, "borderline": 0 }
+        },
+        {
+          "text": "I genuinely try to minimize harm to others while pursuing my goals",
+          "weights": { "empathetic": 4, "low": 3, "moderate": 1, "high": 0, "extreme": 0, "calculated": 1, "impulsive": 0, "predatory": 0, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "I consider their feelings only if it directly affects me or my reputation",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 2, "extreme": 1, "calculated": 4, "impulsive": 2, "predatory": 2, "parasitic": 3, "borderline": 3 }
+        },
+        {
+          "text": "Their feelings are their own problem - I focus on what I need",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 3, "impulsive": 4, "predatory": 3, "parasitic": 3, "borderline": 2 }
+        },
+        {
+          "text": "I never think about how others feel - it's irrelevant to my decisions",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 2, "impulsive": 3, "predatory": 4, "parasitic": 2, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "How do you honestly react when you hurt someone emotionally or physically?",
+      "options": [
+        {
+          "text": "I feel genuine remorse and actively work to make amends and prevent it happening again",
+          "weights": { "empathetic": 5, "low": 2, "moderate": 0, "high": 0, "extreme": 0, "calculated": 0, "impulsive": 0, "predatory": 0, "parasitic": 0, "borderline": 1 }
+        },
+        {
+          "text": "I feel bad about it but tend to move on quickly once it's resolved",
+          "weights": { "empathetic": 3, "low": 4, "moderate": 2, "high": 0, "extreme": 0, "calculated": 1, "impulsive": 1, "predatory": 0, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "I apologize primarily to avoid negative consequences for myself",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 2, "extreme": 1, "calculated": 4, "impulsive": 2, "predatory": 2, "parasitic": 4, "borderline": 3 }
+        },
+        {
+          "text": "They probably deserved it or brought it on themselves somehow",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 3, "impulsive": 3, "predatory": 3, "parasitic": 2, "borderline": 2 }
+        },
+        {
+          "text": "I feel nothing about their pain, or sometimes even satisfaction",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 2, "impulsive": 2, "predatory": 5, "parasitic": 1, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "Your approach to long-term relationships is most accurately described as:",
+      "options": [
+        {
+          "text": "Deep, meaningful connections built on mutual trust, respect, and genuine care",
+          "weights": { "empathetic": 5, "low": 2, "moderate": 0, "high": 0, "extreme": 0, "calculated": 0, "impulsive": 0, "predatory": 0, "parasitic": 0, "borderline": 1 }
+        },
+        {
+          "text": "I form some close relationships but tend to keep emotional walls up",
+          "weights": { "empathetic": 3, "low": 4, "moderate": 2, "high": 0, "extreme": 0, "calculated": 2, "impulsive": 1, "predatory": 0, "parasitic": 1, "borderline": 3 }
+        },
+        {
+          "text": "Relationships serve specific purposes - companionship, status, or practical benefits",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 3, "extreme": 1, "calculated": 4, "impulsive": 2, "predatory": 3, "parasitic": 5, "borderline": 3 }
+        },
+        {
+          "text": "People are replaceable when they're no longer useful or entertaining",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 3, "impulsive": 4, "predatory": 4, "parasitic": 3, "borderline": 2 }
+        },
+        {
+          "text": "Everyone is essentially a temporary tool to meet my needs",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 4, "impulsive": 2, "predatory": 5, "parasitic": 4, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "During your childhood and teenage years, did you engage in concerning behaviors?",
+      "options": [
+        {
+          "text": "No - just normal childhood mischief and age-appropriate boundary testing",
+          "weights": { "empathetic": 5, "low": 3, "moderate": 1, "high": 0, "extreme": 0, "calculated": 1, "impulsive": 0, "predatory": 0, "parasitic": 0, "borderline": 1 }
+        },
+        {
+          "text": "Some minor rule-breaking and rebellion, but nothing seriously harmful",
+          "weights": { "empathetic": 3, "low": 4, "moderate": 2, "high": 0, "extreme": 0, "calculated": 2, "impulsive": 2, "predatory": 0, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "Frequent lying, stealing small items, or getting into fights at school",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 3, "extreme": 1, "calculated": 2, "impulsive": 4, "predatory": 2, "parasitic": 3, "borderline": 3 }
+        },
+        {
+          "text": "Serious aggression toward people or animals, destruction of property",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 4, "calculated": 2, "impulsive": 5, "predatory": 4, "parasitic": 2, "borderline": 2 }
+        },
+        {
+          "text": "I genuinely enjoyed causing pain and destruction to others",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 3, "impulsive": 3, "predatory": 5, "parasitic": 1, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "How comfortable are you with lying or deception to get what you want?",
+      "options": [
+        {
+          "text": "Very uncomfortable - honesty and integrity matter deeply to me",
+          "weights": { "empathetic": 5, "low": 2, "moderate": 0, "high": 0, "extreme": 0, "calculated": 0, "impulsive": 0, "predatory": 0, "parasitic": 0, "borderline": 1 }
+        },
+        {
+          "text": "I'll tell white lies to spare feelings but feel guilty about deception",
+          "weights": { "empathetic": 3, "low": 4, "moderate": 1, "high": 0, "extreme": 0, "calculated": 1, "impulsive": 1, "predatory": 0, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "Lying is a useful tool when needed - everyone does it sometimes",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 2, "extreme": 1, "calculated": 4, "impulsive": 3, "predatory": 3, "parasitic": 4, "borderline": 3 }
+        },
+        {
+          "text": "I lie easily and without hesitation when it benefits me",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 5, "impulsive": 4, "predatory": 4, "parasitic": 4, "borderline": 2 }
+        },
+        {
+          "text": "Truth is whatever I say it is - reality is negotiable",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 4, "impulsive": 2, "predatory": 4, "parasitic": 3, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "Your emotional range compared to other people feels:",
+      "options": [
+        {
+          "text": "Rich and varied - I feel emotions deeply and experience the full spectrum",
+          "weights": { "empathetic": 5, "low": 2, "moderate": 0, "high": 0, "extreme": 0, "calculated": 0, "impulsive": 1, "predatory": 0, "parasitic": 0, "borderline": 2 }
+        },
+        {
+          "text": "Mostly normal with occasional periods of emotional numbness",
+          "weights": { "empathetic": 3, "low": 4, "moderate": 2, "high": 0, "extreme": 0, "calculated": 2, "impulsive": 1, "predatory": 0, "parasitic": 1, "borderline": 3 }
+        },
+        {
+          "text": "Limited - I don't seem to feel emotions as intensely as others do",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 3, "extreme": 1, "calculated": 3, "impulsive": 2, "predatory": 2, "parasitic": 2, "borderline": 4 }
+        },
+        {
+          "text": "Shallow - I mostly have to fake or mimic emotional responses",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 5, "impulsive": 2, "predatory": 3, "parasitic": 3, "borderline": 3 }
+        },
+        {
+          "text": "Empty - I feel almost nothing except boredom, anger, or irritation",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 3, "impulsive": 4, "predatory": 4, "parasitic": 2, "borderline": 2 }
+        }
+      ]
+    },
+    {
+      "q": "When you see others succeed or experience happiness, you typically feel:",
+      "options": [
+        {
+          "text": "Genuinely happy for them and excited about their good fortune",
+          "weights": { "empathetic": 5, "low": 2, "moderate": 0, "high": 0, "extreme": 0, "calculated": 0, "impulsive": 0, "predatory": 0, "parasitic": 0, "borderline": 1 }
+        },
+        {
+          "text": "Neutral or sometimes mildly envious, but overall positive",
+          "weights": { "empathetic": 3, "low": 4, "moderate": 2, "high": 0, "extreme": 0, "calculated": 1, "impulsive": 1, "predatory": 0, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "Nothing really, unless their success somehow affects me directly",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 2, "extreme": 1, "calculated": 3, "impulsive": 2, "predatory": 2, "parasitic": 3, "borderline": 3 }
+        },
+        {
+          "text": "Contempt for their weakness in caring about such trivial things",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 4, "impulsive": 3, "predatory": 3, "parasitic": 2, "borderline": 2 }
+        },
+        {
+          "text": "An active desire to destroy their happiness or bring them down",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 2, "impulsive": 4, "predatory": 5, "parasitic": 3, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "Your internal understanding of right and wrong is primarily based on:",
+      "options": [
+        {
+          "text": "An internal moral compass rooted in empathy and care for others",
+          "weights": { "empathetic": 5, "low": 2, "moderate": 0, "high": 0, "extreme": 0, "calculated": 0, "impulsive": 0, "predatory": 0, "parasitic": 0, "borderline": 1 }
+        },
+        {
+          "text": "Social rules, avoiding guilt, and maintaining my reputation",
+          "weights": { "empathetic": 3, "low": 4, "moderate": 2, "high": 0, "extreme": 0, "calculated": 2, "impulsive": 1, "predatory": 0, "parasitic": 2, "borderline": 2 }
+        },
+        {
+          "text": "What benefits me most in any given situation",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 3, "extreme": 1, "calculated": 4, "impulsive": 3, "predatory": 3, "parasitic": 4, "borderline": 3 }
+        },
+        {
+          "text": "The likelihood of getting caught versus not getting caught",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 3, "impulsive": 4, "predatory": 3, "parasitic": 3, "borderline": 2 }
+        },
+        {
+          "text": "There is no real right or wrong - only power and weakness",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 4, "impulsive": 2, "predatory": 5, "parasitic": 2, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "How often do you feel genuinely connected to other human beings?",
+      "options": [
+        {
+          "text": "Often - I form deep emotional bonds easily and treasure them",
+          "weights": { "empathetic": 5, "low": 2, "moderate": 0, "high": 0, "extreme": 0, "calculated": 0, "impulsive": 0, "predatory": 0, "parasitic": 0, "borderline": 1 }
+        },
+        {
+          "text": "Sometimes - with close friends and family members I trust",
+          "weights": { "empathetic": 4, "low": 3, "moderate": 1, "high": 0, "extreme": 0, "calculated": 1, "impulsive": 1, "predatory": 0, "parasitic": 1, "borderline": 3 }
+        },
+        {
+          "text": "Rarely - I feel disconnected from most people most of the time",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 2, "extreme": 1, "calculated": 3, "impulsive": 2, "predatory": 2, "parasitic": 2, "borderline": 4 }
+        },
+        {
+          "text": "Never genuinely, but I'm very good at pretending connection",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 5, "impulsive": 2, "predatory": 4, "parasitic": 4, "borderline": 2 }
+        },
+        {
+          "text": "Connection is an illusion that weak people need to feel less alone",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 3, "impulsive": 3, "predatory": 4, "parasitic": 3, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "Your reaction to witnessing violence or gore in real life situations is:",
+      "options": [
+        {
+          "text": "Horror, distress, nausea, or overwhelming need to help the victim",
+          "weights": { "empathetic": 5, "low": 2, "moderate": 0, "high": 0, "extreme": 0, "calculated": 0, "impulsive": 0, "predatory": 0, "parasitic": 0, "borderline": 1 }
+        },
+        {
+          "text": "Very uncomfortable but I can handle it when necessary",
+          "weights": { "empathetic": 3, "low": 4, "moderate": 1, "high": 0, "extreme": 0, "calculated": 1, "impulsive": 1, "predatory": 0, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "Curious but emotionally detached - like watching a documentary",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 2, "extreme": 1, "calculated": 4, "impulsive": 2, "predatory": 2, "parasitic": 2, "borderline": 3 }
+        },
+        {
+          "text": "Interested or even excited by the intensity of the situation",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 2, "impulsive": 4, "predatory": 4, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "Pleasure, arousal, or disappointment when it ends",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 1, "impulsive": 3, "predatory": 5, "parasitic": 1, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "How do you typically handle periods of boredom in your life?",
+      "options": [
+        {
+          "text": "Find productive, creative, or meaningful activities to engage with",
+          "weights": { "empathetic": 5, "low": 3, "moderate": 1, "high": 0, "extreme": 0, "calculated": 1, "impulsive": 0, "predatory": 0, "parasitic": 0, "borderline": 1 }
+        },
+        {
+          "text": "Normal entertainment, hobbies, and social activities",
+          "weights": { "empathetic": 4, "low": 4, "moderate": 2, "high": 0, "extreme": 0, "calculated": 2, "impulsive": 1, "predatory": 0, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "Seek thrills, stir up drama, or create excitement somehow",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 3, "extreme": 1, "calculated": 2, "impulsive": 5, "predatory": 2, "parasitic": 3, "borderline": 3 }
+        },
+        {
+          "text": "Manipulate others or create conflict for my entertainment",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 4, "impulsive": 3, "predatory": 4, "parasitic": 4, "borderline": 2 }
+        },
+        {
+          "text": "Engage in increasingly dangerous or harmful activities",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 2, "impulsive": 5, "predatory": 5, "parasitic": 2, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "Your history with criminal activity or serious rule-breaking includes:",
+      "options": [
+        {
+          "text": "Nothing beyond occasional traffic tickets or minor infractions",
+          "weights": { "empathetic": 5, "low": 3, "moderate": 1, "high": 0, "extreme": 0, "calculated": 1, "impulsive": 0, "predatory": 0, "parasitic": 0, "borderline": 1 }
+        },
+        {
+          "text": "Some minor rule-breaking or experimentation in my youth",
+          "weights": { "empathetic": 3, "low": 4, "moderate": 2, "high": 0, "extreme": 0, "calculated": 2, "impulsive": 2, "predatory": 0, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "Regular rule-breaking and boundary-pushing, but nothing too serious",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 3, "extreme": 1, "calculated": 3, "impulsive": 4, "predatory": 2, "parasitic": 3, "borderline": 3 }
+        },
+        {
+          "text": "Serious crimes that I've managed to get away with",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 4, "calculated": 4, "impulsive": 4, "predatory": 4, "parasitic": 3, "borderline": 2 }
+        },
+        {
+          "text": "Things that would shock most people if they knew the details",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 3, "impulsive": 3, "predatory": 5, "parasitic": 2, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "When someone places their complete trust in you, you see this as:",
+      "options": [
+        {
+          "text": "A precious gift to honor and protect at all costs",
+          "weights": { "empathetic": 5, "low": 2, "moderate": 0, "high": 0, "extreme": 0, "calculated": 0, "impulsive": 0, "predatory": 0, "parasitic": 0, "borderline": 1 }
+        },
+        {
+          "text": "A significant responsibility that I take seriously",
+          "weights": { "empathetic": 4, "low": 3, "moderate": 1, "high": 0, "extreme": 0, "calculated": 1, "impulsive": 1, "predatory": 0, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "Useful information but not particularly meaningful to me",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 2, "extreme": 1, "calculated": 3, "impulsive": 2, "predatory": 2, "parasitic": 3, "borderline": 3 }
+        },
+        {
+          "text": "An opportunity to exploit if I ever need to",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 4, "impulsive": 3, "predatory": 4, "parasitic": 5, "borderline": 2 }
+        },
+        {
+          "text": "Clear proof of their stupidity and weakness",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 3, "impulsive": 2, "predatory": 5, "parasitic": 4, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "Your ability to feel fear compared to other people is:",
+      "options": [
+        {
+          "text": "Normal - I get scared, anxious, and worried like anyone else",
+          "weights": { "empathetic": 5, "low": 3, "moderate": 1, "high": 0, "extreme": 0, "calculated": 1, "impulsive": 1, "predatory": 0, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "Slightly reduced but still present in dangerous situations",
+          "weights": { "empathetic": 3, "low": 4, "moderate": 2, "high": 0, "extreme": 0, "calculated": 2, "impulsive": 2, "predatory": 1, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "Much less than others - I rarely feel genuinely afraid",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 3, "extreme": 1, "calculated": 3, "impulsive": 3, "predatory": 3, "parasitic": 2, "borderline": 3 }
+        },
+        {
+          "text": "Almost nonexistent - fear doesn't really affect my decisions",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 4, "impulsive": 4, "predatory": 4, "parasitic": 2, "borderline": 2 }
+        },
+        {
+          "text": "I feel nothing where others would feel terror",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 3, "impulsive": 3, "predatory": 5, "parasitic": 1, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "How do you fundamentally view most people you encounter?",
+      "options": [
+        {
+          "text": "As fellow human beings deserving of respect and consideration",
+          "weights": { "empathetic": 5, "low": 2, "moderate": 0, "high": 0, "extreme": 0, "calculated": 0, "impulsive": 0, "predatory": 0, "parasitic": 0, "borderline": 1 }
+        },
+        {
+          "text": "As individuals with their own unique value and perspectives",
+          "weights": { "empathetic": 4, "low": 3, "moderate": 1, "high": 0, "extreme": 0, "calculated": 1, "impulsive": 0, "predatory": 0, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "As potential resources, obstacles, or sources of entertainment",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 3, "extreme": 1, "calculated": 4, "impulsive": 3, "predatory": 3, "parasitic": 4, "borderline": 3 }
+        },
+        {
+          "text": "As sheep to be manipulated by those intelligent enough to do so",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 5, "impulsive": 2, "predatory": 4, "parasitic": 3, "borderline": 2 }
+        },
+        {
+          "text": "As worthless insects beneath my consideration",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 2, "impulsive": 3, "predatory": 5, "parasitic": 2, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "Your need for stimulation and excitement in daily life is:",
+      "options": [
+        {
+          "text": "Normal - I enjoy both calm periods and exciting moments equally",
+          "weights": { "empathetic": 5, "low": 3, "moderate": 1, "high": 0, "extreme": 0, "calculated": 2, "impulsive": 0, "predatory": 0, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "Slightly high - I get bored more easily than most people",
+          "weights": { "empathetic": 3, "low": 4, "moderate": 2, "high": 1, "extreme": 0, "calculated": 2, "impulsive": 2, "predatory": 1, "parasitic": 2, "borderline": 3 }
+        },
+        {
+          "text": "Very high - I constantly need new stimulation and challenges",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 3, "extreme": 1, "calculated": 3, "impulsive": 4, "predatory": 3, "parasitic": 3, "borderline": 3 }
+        },
+        {
+          "text": "Extreme - normal life feels unbearably boring and monotonous",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 2, "impulsive": 5, "predatory": 4, "parasitic": 2, "borderline": 2 }
+        },
+        {
+          "text": "Insatiable - only extreme or dangerous acts provide satisfaction",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 1, "impulsive": 4, "predatory": 5, "parasitic": 2, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "When caught doing something wrong, your primary internal concern is:",
+      "options": [
+        {
+          "text": "The harm I've caused to others and how to make it right",
+          "weights": { "empathetic": 5, "low": 2, "moderate": 0, "high": 0, "extreme": 0, "calculated": 0, "impulsive": 0, "predatory": 0, "parasitic": 0, "borderline": 1 }
+        },
+        {
+          "text": "Disappointing people who trusted me and damaging relationships",
+          "weights": { "empathetic": 4, "low": 3, "moderate": 1, "high": 0, "extreme": 0, "calculated": 1, "impulsive": 1, "predatory": 0, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "The consequences I'll face and how to minimize them",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 2, "extreme": 1, "calculated": 3, "impulsive": 3, "predatory": 2, "parasitic": 4, "borderline": 3 }
+        },
+        {
+          "text": "How to manipulate the situation to escape punishment",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 5, "impulsive": 2, "predatory": 4, "parasitic": 4, "borderline": 2 }
+        },
+        {
+          "text": "Anger at being caught, not regret about the action itself",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 2, "impulsive": 4, "predatory": 3, "parasitic": 2, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "Your ability to plan for the future and delay gratification is:",
+      "options": [
+        {
+          "text": "Good - I set long-term goals and work steadily toward them",
+          "weights": { "empathetic": 5, "low": 3, "moderate": 1, "high": 0, "extreme": 0, "calculated": 4, "impulsive": 0, "predatory": 2, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "Decent but I can be impulsive when something really appeals to me",
+          "weights": { "empathetic": 3, "low": 4, "moderate": 2, "high": 1, "extreme": 0, "calculated": 3, "impulsive": 2, "predatory": 1, "parasitic": 2, "borderline": 3 }
+        },
+        {
+          "text": "Poor - I tend to live in the moment and pursue immediate rewards",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 3, "extreme": 1, "calculated": 1, "impulsive": 4, "predatory": 2, "parasitic": 3, "borderline": 3 }
+        },
+        {
+          "text": "Non-existent - I do whatever I want right now regardless of consequences",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 0, "impulsive": 5, "predatory": 3, "parasitic": 3, "borderline": 2 }
+        },
+        {
+          "text": "Why plan when you can simply take what you want when you want it?",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 1, "impulsive": 4, "predatory": 5, "parasitic": 2, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "How many people truly know the authentic, unfiltered version of who you are?",
+      "options": [
+        {
+          "text": "Several close friends and family members know me completely",
+          "weights": { "empathetic": 5, "low": 2, "moderate": 0, "high": 0, "extreme": 0, "calculated": 0, "impulsive": 1, "predatory": 0, "parasitic": 0, "borderline": 1 }
+        },
+        {
+          "text": "A few trusted people have seen my authentic self",
+          "weights": { "empathetic": 4, "low": 3, "moderate": 1, "high": 0, "extreme": 0, "calculated": 1, "impulsive": 1, "predatory": 0, "parasitic": 1, "borderline": 3 }
+        },
+        {
+          "text": "Maybe one or two people, and even then not completely",
+          "weights": { "empathetic": 2, "low": 2, "moderate": 4, "high": 2, "extreme": 1, "calculated": 3, "impulsive": 2, "predatory": 2, "parasitic": 2, "borderline": 4 }
+        },
+        {
+          "text": "No one - I show different carefully crafted faces to everyone",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 5, "impulsive": 2, "predatory": 4, "parasitic": 4, "borderline": 2 }
+        },
+        {
+          "text": "There is no 'real me' - only whatever masks serve my current needs",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 4, "impulsive": 3, "predatory": 4, "parasitic": 3, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "Your experience with addiction, compulsive behaviors, or substance abuse:",
+      "options": [
+        {
+          "text": "None, or very minor habits that don't impact my life",
+          "weights": { "empathetic": 5, "low": 3, "moderate": 1, "high": 0, "extreme": 0, "calculated": 2, "impulsive": 0, "predatory": 1, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "Some issues in the past but they're under control now",
+          "weights": { "empathetic": 3, "low": 4, "moderate": 2, "high": 1, "extreme": 0, "calculated": 2, "impulsive": 2, "predatory": 1, "parasitic": 2, "borderline": 3 }
+        },
+        {
+          "text": "Multiple addictions or compulsions that I struggle to control",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 3, "extreme": 2, "calculated": 2, "impulsive": 4, "predatory": 2, "parasitic": 3, "borderline": 3 }
+        },
+        {
+          "text": "Severe ongoing issues with no real desire to change",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 1, "impulsive": 5, "predatory": 3, "parasitic": 4, "borderline": 2 }
+        },
+        {
+          "text": "I use substances or behaviors specifically to feel anything at all",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 2, "impulsive": 3, "predatory": 2, "parasitic": 2, "borderline": 2 }
+        }
+      ]
+    },
+    {
+      "q": "If you could press a button to receive $1 million but a complete stranger would die, would you press it?",
+      "options": [
+        {
+          "text": "Never - no amount of money is worth a human life",
+          "weights": { "empathetic": 5, "low": 2, "moderate": 0, "high": 0, "extreme": 0, "calculated": 0, "impulsive": 0, "predatory": 0, "parasitic": 0, "borderline": 1 }
+        },
+        {
+          "text": "No, but I might be briefly tempted before rejecting the idea",
+          "weights": { "empathetic": 4, "low": 3, "moderate": 1, "high": 0, "extreme": 0, "calculated": 1, "impulsive": 1, "predatory": 0, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "Maybe, depending on who the stranger is and my circumstances",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 2, "extreme": 1, "calculated": 3, "impulsive": 2, "predatory": 2, "parasitic": 3, "borderline": 3 }
+        },
+        {
+          "text": "Yes - people die every day anyway, this changes nothing",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 4, "impulsive": 3, "predatory": 3, "parasitic": 3, "borderline": 2 }
+        },
+        {
+          "text": "Yes, and I'd press it multiple times if possible",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 2, "impulsive": 4, "predatory": 5, "parasitic": 2, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "Your capacity for genuine love and deep emotional attachment is:",
+      "options": [
+        {
+          "text": "Deep and authentic for multiple people in my life",
+          "weights": { "empathetic": 5, "low": 2, "moderate": 0, "high": 0, "extreme": 0, "calculated": 0, "impulsive": 1, "predatory": 0, "parasitic": 0, "borderline": 2 }
+        },
+        {
+          "text": "Real but guarded - I can love but it takes time to develop",
+          "weights": { "empathetic": 4, "low": 3, "moderate": 1, "high": 0, "extreme": 0, "calculated": 1, "impulsive": 1, "predatory": 0, "parasitic": 1, "borderline": 3 }
+        },
+        {
+          "text": "Limited to very few people, if anyone at all",
+          "weights": { "empathetic": 2, "low": 2, "moderate": 4, "high": 2, "extreme": 1, "calculated": 2, "impulsive": 2, "predatory": 1, "parasitic": 2, "borderline": 4 }
+        },
+        {
+          "text": "I can mimic love convincingly but don't actually feel it",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 5, "impulsive": 2, "predatory": 3, "parasitic": 4, "borderline": 2 }
+        },
+        {
+          "text": "Love is a weakness and delusion I don't possess",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 3, "impulsive": 3, "predatory": 4, "parasitic": 2, "borderline": 1 }
+        }
+      ]
+    },
+    {
+      "q": "Looking back at the overall pattern of your life, you honestly see:",
+      "options": [
+        {
+          "text": "Growth, learning, meaningful connections, and positive impact on others",
+          "weights": { "empathetic": 5, "low": 2, "moderate": 0, "high": 0, "extreme": 0, "calculated": 0, "impulsive": 0, "predatory": 0, "parasitic": 0, "borderline": 1 }
+        },
+        {
+          "text": "Some mistakes and regrets, but overall a positive trajectory",
+          "weights": { "empathetic": 4, "low": 3, "moderate": 1, "high": 0, "extreme": 0, "calculated": 1, "impulsive": 1, "predatory": 0, "parasitic": 1, "borderline": 2 }
+        },
+        {
+          "text": "A trail of broken relationships and burned bridges",
+          "weights": { "empathetic": 1, "low": 2, "moderate": 4, "high": 3, "extreme": 1, "calculated": 2, "impulsive": 3, "predatory": 2, "parasitic": 3, "borderline": 4 }
+        },
+        {
+          "text": "People I've used, manipulated, and discarded when no longer useful",
+          "weights": { "empathetic": 0, "low": 1, "moderate": 2, "high": 4, "extreme": 3, "calculated": 4, "impulsive": 3, "predatory": 4, "parasitic": 5, "borderline": 2 }
+        },
+        {
+          "text": "A path of destruction and chaos that follows me wherever I go",
+          "weights": { "empathetic": 0, "low": 0, "moderate": 1, "high": 3, "extreme": 5, "calculated": 2, "impulsive": 4, "predatory": 5, "parasitic": 3, "borderline": 1 }
+        }
+      ]
+    }
+  ],
+  "results": {
+    "empathetic": {
+      "title": "Highly Empathetic",
+      "description": "You demonstrate strong empathetic responses and healthy emotional functioning. You genuinely care about others' wellbeing, feel authentic remorse when you cause harm, and have a well-developed moral compass based on care for others. Your emotional range is normal and rich, allowing you to form deep, meaningful connections. You're at the opposite end of the spectrum from sociopathic traits - you feel deeply and consistently consider how your actions affect others. This represents healthy psychological functioning."
+    },
+    "low": {
+      "title": "Low Antisocial Traits",
+      "description": "You show some minor antisocial tendencies but maintain largely healthy emotional functioning and moral reasoning. You might occasionally be more self-focused than ideal or have moments of reduced empathy, but you still experience genuine guilt, form real relationships, and care about others' wellbeing. These traits are within the normal range of human behavior and don't significantly impair your ability to function in society or maintain meaningful connections with others."
+    },
+    "moderate": {
+      "title": "Moderate Antisocial Patterns",
+      "description": "You display concerning antisocial patterns that may be affecting your relationships and moral reasoning. You show limited empathy in certain situations, tend to view others primarily through the lens of personal benefit, and may struggle with genuine emotional connections. While you can still function in society, these patterns suggest reduced emotional engagement with others and a more self-centered worldview that could be limiting your relationships and personal growth."
+    },
+    "high": {
+      "title": "High Antisocial Tendencies",
+      "description": "You exhibit significant antisocial personality traits including markedly reduced empathy, manipulative behaviors, and disregard for social norms and others' rights. You may view people primarily as tools to be used rather than individuals deserving of respect. Your emotional range appears limited, and you likely struggle to form genuine bonds or feel authentic remorse. These patterns are probably causing serious problems in your personal and professional relationships."
+    },
+    "extreme": {
+      "title": "Severe Antisocial Traits",
+      "description": "You display severe antisocial personality traits that align with clinical definitions of antisocial personality disorder. This includes a pronounced lack of empathy, chronic disregard for others' wellbeing, manipulative behavior, and an absence of genuine remorse for harmful actions. Your emotional functioning appears significantly impaired, primarily experiencing anger, boredom, or emptiness. These traits represent serious psychological patterns that typically require professional intervention."
+    },
+    "calculated": {
+      "title": "Calculated Sociopath",
+      "description": "You appear to be a high-functioning sociopath who has learned to navigate society by intellectually understanding emotions without feeling them. You're skilled at mimicking appropriate emotional responses and maintaining a facade of normalcy while feeling fundamentally disconnected from others. Your lack of impulsivity makes you particularly effective at manipulation, as you can plan your interactions carefully and rarely reveal your true nature. This calculated approach often allows you to achieve your goals while avoiding detection."
+    },
+    "impulsive": {
+      "title": "Impulsive Sociopath",
+      "description": "You combine sociopathic traits with poor impulse control and high need for stimulation. You act on immediate desires without considering long-term consequences, driven by chronic boredom and need for excitement. Your pattern likely includes frequent rule-breaking, risky behaviors, and difficulty maintaining stable relationships or employment. Unlike calculated sociopaths, your impulsivity makes it harder to maintain a convincing facade, often leading to a trail of obvious destruction and conflict."
+    },
+    "predatory": {
+      "title": "Predatory Sociopath",
+      "description": "You actively seek out and exploit vulnerable individuals, viewing human interaction primarily as a predator-prey dynamic. You study people to identify weaknesses and enjoy the process of manipulation and control. You may derive satisfaction from others' pain or distress and feel superior when you successfully exploit someone. This represents one of the most dangerous antisocial patterns, as it involves actively seeking opportunities to cause harm rather than simply lacking empathy."
+    },
+    "parasitic": {
+      "title": "Parasitic Sociopath",
+      "description": "You survive by attaching yourself to others and systematically draining them of resources - emotional, financial, or social. You're skilled at playing the victim or appearing helpless while manipulating others' kindness and generosity. You move from relationship to relationship, leaving people depleted and confused. Your sociopathy manifests as chronic dependence combined with complete lack of gratitude, reciprocity, or genuine care for those who help you."
+    },
+    "borderline": {
+      "title": "Borderline Sociopathic",
+      "description": "You exist on the edge between having some capacity for empathy and losing it entirely. You might experience fleeting moments of genuine connection or remorse, but these feelings are weak and easily overridden by self-interest. You're capable of significant cruelty but haven't fully crossed into complete emotional emptiness. This represents a precarious psychological position where you could potentially develop in either direction - toward greater empathy or deeper antisocial patterns."
+    }
+  },
+  "deepAnalysis": {
+    "empathetic": "Your high empathy represents a healthy and psychologically robust emotional foundation. You possess the ability to genuinely understand and share others' emotional experiences, which allows you to form authentic, lasting relationships and navigate social situations with genuine care for others' wellbeing. This empathetic capacity likely stems from secure early attachments and healthy emotional development.\n\nYour emotional responses to others' pain, success, and needs appear genuine and proportionate. You probably experience appropriate guilt when you cause harm, feel authentic joy at others' successes, and have a moral compass that guides your behavior even when no one is watching. This internal regulation system protects both you and others from harmful behavior.\n\nYour ability to maintain long-term relationships, feel genuine remorse, and consider others' feelings in your decisions indicates healthy psychological functioning. You likely serve as an emotional anchor for others in your life, providing support, understanding, and genuine care during difficult times.\n\nThe challenge for highly empathetic individuals is often learning to set appropriate boundaries and avoid being exploited by those with antisocial tendencies. Your natural inclination to assume others share your capacity for empathy can make you vulnerable to manipulation. Continue to trust your empathetic instincts while developing discernment about when others may not be operating from the same emotional foundation.",
+    "low": "Your profile suggests normal psychological functioning with occasional lapses in empathy that fall within typical human variation. Most people experience moments of self-centeredness, reduced emotional connection, or moral flexibility, and these don't necessarily indicate concerning antisocial patterns when they occur infrequently and are balanced by genuine care for others.\n\nYour capacity to feel guilt, form meaningful relationships, and consider others' feelings in important decisions indicates that your moral and emotional systems are functioning appropriately. You likely have the ability to recognize when you've caused harm and feel motivated to make amends, even if this process isn't always immediate or perfect.\n\nThe minor antisocial tendencies you display might manifest as occasional selfishness, moments of emotional detachment, or situations where you prioritize your needs without fully considering others. These patterns become concerning only if they begin to dominate your interactions or prevent you from maintaining healthy relationships.\n\nYour growth opportunity lies in developing greater consistency in your empathetic responses and becoming more aware of moments when you might be prioritizing self-interest over others' wellbeing. Regular self-reflection and conscious effort to consider others' perspectives can help strengthen your natural empathetic tendencies while maintaining healthy personal boundaries.",
+    "moderate": "Your antisocial patterns represent a concerning middle ground that likely creates significant problems in your relationships while still allowing you to function in society. You appear to have limited access to genuine empathy, viewing others primarily through the lens of how they can benefit you rather than as complete human beings deserving of respect and consideration.\n\nThis level of antisocial functioning often manifests as chronic relationship problems, difficulty maintaining long-term friendships or romantic partnerships, and a pattern of using others for personal gain. You may be skilled at initial charm and impression management but struggle to sustain authentic connections once people get to know you better.\n\nYour emotional range appears restricted, particularly in terms of genuine guilt, remorse, and care for others. You may understand intellectually that certain behaviors are considered wrong, but lack the emotional motivation that typically prevents harmful actions. This disconnect between intellectual understanding and emotional engagement often leads to repeated boundary violations.\n\nProfessional help could be beneficial at this level, as these patterns are unlikely to change through willpower alone. Therapy focusing on developing empathy, understanding the impact of your behavior on others, and learning healthier relationship patterns could significantly improve your life satisfaction and social functioning. The alternative is likely continued relationship failures and increasing isolation as people learn to protect themselves from your behavior.",
+    "high": "Your high level of antisocial traits represents severe impairment in your ability to form genuine human connections and function empathetically in social situations. You likely see others primarily as objects to be manipulated rather than as complete human beings with their own inherent worth, feelings, and rights to consideration and respect.\n\nThis level of antisocial functioning typically creates a pattern of exploitative relationships, chronic conflict with authority figures, and inability to maintain stable employment or personal connections. You may be skilled at initial impression management and manipulation, but your lack of genuine empathy and remorse eventually becomes apparent to those around you.\n\nYour emotional functioning appears significantly impaired, with limited access to the full range of human emotions that typically guide moral behavior and social connection. You may experience mainly anger, boredom, or emotional emptiness, lacking the guilt, love, and empathy that motivate prosocial behavior in most people.\n\nThe impact on others in your life is likely severe, as your behavior patterns tend to be exploitative, manipulative, and potentially harmful. You may leave a trail of damaged relationships, emotional harm, and practical destruction as you pursue your goals without consideration for others' wellbeing.\n\nProfessional intervention is strongly recommended at this level, though the challenge is that severe antisocial traits often include lack of motivation to change and difficulty forming the therapeutic relationships necessary for improvement. However, if legal consequences, complete social isolation, or other major life disruptions create sufficient motivation, intensive therapy focusing on developing empathy, impulse control, and healthier relationship patterns may offer some hope for improvement.",
+    "extreme": "Your extreme antisocial traits represent a severe personality disorder that poses significant risks to both yourself and others. You appear to exist in a psychological reality where other people are viewed primarily as objects to be used, manipulated, or eliminated as obstacles, rather than as fellow human beings deserving of basic respect and consideration.\n\nThis level of antisocial functioning typically involves a complete absence of genuine empathy, remorse, or emotional connection to others. You may experience life primarily through anger, boredom, and a constant need for stimulation, lacking access to the emotional experiences that bind most people to social norms and moral behavior.\n\nYour relationships are likely characterized by exploitation, manipulation, and eventual destruction. You may be skilled at identifying and targeting vulnerable individuals, using charm and manipulation to gain access to resources or opportunities for control. The pattern typically involves idealization, exploitation, and discard, leaving others confused, damaged, and questioning their own reality.\n\nThe danger at this level extends beyond emotional harm to potential physical, financial, or psychological destruction of others. Your lack of fear, remorse, and empathy removes the natural barriers that prevent most people from engaging in increasingly harmful behavior.\n\nImmediate professional intervention is crucial, though the prognosis for extreme antisocial personality patterns is generally poor. The combination of lack of motivation to change, inability to form genuine therapeutic relationships, and absence of emotional drivers for prosocial behavior makes treatment extremely challenging. However, if external consequences create sufficient pressure, intensive long-term therapy focusing on behavioral control, development of intellectual understanding of social rules, and management of destructive impulses may prevent further escalation of harmful behavior.",
+    "calculated": "Your calculated approach to antisocial behavior represents one of the most sophisticated and potentially dangerous forms of personality disorder. You appear to have developed an intellectual understanding of human emotions and social expectations without the ability to feel these emotions yourself, creating a mask of normalcy that conceals profound emotional emptiness.\n\nThis pattern typically develops as an adaptation to your lack of natural empathy, allowing you to function in society by studying and mimicking appropriate responses. You may be highly skilled at reading others' emotions, identifying their needs and vulnerabilities, and providing exactly the responses that will achieve your desired outcomes.\n\nYour relationships are likely characterized by careful calculation rather than genuine connection. You may maintain long-term relationships by providing what others need emotionally while feeling nothing yourself, essentially wearing whatever mask is most effective for achieving your goals. This calculated approach often makes you more successful than impulsive antisocial individuals.\n\nThe danger of your pattern lies in its sustainability and effectiveness. Unlike impulsive antisocial behavior that quickly reveals itself, your calculated approach can maintain itself for years or decades, causing extensive damage while remaining largely undetected. You may systematically exploit others' trust, resources, and emotions while appearing to be a supportive, caring individual.\n\nTreatment for calculated antisocial patterns is particularly challenging because your intellectual understanding of appropriate behavior can make you appear to be responding to therapy while actually learning more sophisticated manipulation techniques. Genuine change would require developing authentic emotional connections, which may not be possible given the severity of your emotional deficits. The focus often shifts to managing behavior and preventing harm rather than developing genuine empathy.",
+    "impulsive": "Your impulsive antisocial pattern combines emotional deficits with poor behavioral control, creating a volatile combination that likely leads to frequent conflict, legal problems, and relationship destruction. Unlike calculated sociopaths who can maintain facades for extended periods, your impulsivity makes your antisocial nature readily apparent to others.\n\nThis pattern typically manifests as chronic instability in work, relationships, and living situations. Your need for immediate gratification and stimulation overrides any consideration of consequences, leading to a pattern of short-term thinking and destructive behavior. You may engage in risky activities, substance abuse, criminal behavior, or aggressive actions without considering the impact on yourself or others.\n\nYour relationships are likely characterized by intensity followed by rapid deterioration. You may initially attract others with your energy and apparent confidence, but your inability to maintain consistent empathy or concern for their needs quickly becomes apparent. The combination of emotional coldness and impulsive behavior often creates traumatic experiences for those who become involved with you.\n\nThe impulsive nature of your antisocial behavior actually makes you somewhat easier to identify and avoid than more calculated individuals, which may limit the extent of damage you can cause. However, it also makes you more likely to face legal consequences, social isolation, and personal instability.\n\nTreatment for impulsive antisocial patterns often focuses on developing better impulse control and learning to delay gratification rather than trying to develop genuine empathy. Cognitive behavioral techniques, structured environments, and sometimes medication can help manage the impulsive aspects of your behavior, though the underlying emotional deficits may remain largely unchanged.",
+    "predatory": "Your predatory antisocial pattern represents one of the most dangerous forms of personality disorder, as it involves actively seeking opportunities to exploit and harm others rather than simply lacking empathy. You appear to view human relationships primarily through a predator-prey lens, systematically identifying vulnerable individuals and situations that can be exploited for your benefit or satisfaction.\n\nThis pattern typically involves sophisticated understanding of human psychology combined with complete lack of concern for others' wellbeing. You may be skilled at identifying people who are lonely, trusting, financially vulnerable, or emotionally needy, and then presenting yourself as exactly what they need while planning how to exploit them.\n\nYour behavior likely escalates over time as you become more sophisticated in your methods and require greater levels of stimulation to achieve satisfaction. What may begin as financial or emotional exploitation can progress to more serious forms of harm as your need for control and stimulation increases.\n\nThe impact on your victims extends far beyond immediate harm, often creating lasting trauma, financial devastation, and difficulty trusting others in future relationships. You may target multiple victims simultaneously or in sequence, leaving a trail of damaged lives while feeling no remorse for the destruction you cause.\n\nTreatment for predatory antisocial behavior is extremely challenging and often focuses on containment rather than rehabilitation. The active, planned nature of your harmful behavior suggests deep-seated personality pathology that is resistant to change. Legal intervention, social isolation, and intensive monitoring may be necessary to prevent further harm to others. Any therapeutic intervention would need to occur in a highly controlled environment with extensive safeguards to prevent manipulation of the therapeutic process.",
+    "parasitic": "Your parasitic antisocial pattern involves systematically draining others of their resources while contributing nothing meaningful in return. Unlike predatory sociopaths who actively hunt victims, you likely attach yourself to generous, caring individuals and slowly deplete them through constant demands for support, assistance, and resources.\n\nThis pattern typically manifests as chronic dependence combined with complete lack of gratitude or reciprocity. You may present yourself as helpless, unlucky, or deserving of special consideration while secretly manipulating others' desire to help. You become skilled at identifying people with strong caretaking instincts and exploiting their natural inclination to assist those in need.\n\nYour relationships follow a predictable pattern of attachment, exploitation, and eventual abandonment when resources are exhausted or your host becomes wise to your behavior. You may move from relationship to relationship, family member to family member, or social group to social group, always seeking new sources of support while leaving depleted individuals behind.\n\nThe emotional and practical damage you cause to others is often extensive but occurs gradually, making it difficult for victims to recognize the exploitation until significant harm has been done. Your victims may blame themselves for your problems or feel guilty about withdrawing support, allowing the exploitation to continue far longer than it should.\n\nTreatment for parasitic antisocial behavior requires confronting deeply ingrained patterns of dependence and exploitation. The challenge is that your entire survival strategy depends on manipulating others' caretaking instincts, making genuine independence and reciprocity feel threatening to your core identity. Therapeutic intervention would need to focus on developing actual life skills, emotional regulation, and the capacity for genuine reciprocal relationships while addressing the underlying antisocial traits that drive the exploitative behavior.",
+    "borderline": "Your borderline sociopathic pattern places you in a psychologically precarious position where you retain some capacity for empathy and connection while also displaying concerning antisocial traits. This combination often creates internal conflict and unpredictable behavior that can be confusing both to yourself and others.\n\nYou may experience fleeting moments of genuine connection, remorse, or empathy, but these feelings are weak and easily overwhelmed by self-interest, anger, or emotional numbness. This inconsistency in your emotional responses creates a pattern where you sometimes act with consideration for others but frequently revert to self-centered or harmful behavior.\n\nYour relationships are likely characterized by instability and confusion, as others struggle to understand why someone who can sometimes show genuine care can also be callous or exploitative. You may genuinely want to form connections but lack the consistent emotional capacity to maintain them healthily.\n\nThe borderline nature of your antisocial traits suggests that you're at a critical juncture where intervention could potentially prevent progression toward more severe antisocial patterns. Unlike individuals with fully developed antisocial personality disorder, you retain some emotional capacity that could be strengthened and developed.\n\nTreatment for borderline sociopathic patterns offers more hope than for severe antisocial disorders because of your retained capacity for some genuine emotion. Therapy focusing on developing emotional awareness, building consistent empathy, and learning to recognize and strengthen your prosocial impulses could help tip the balance toward healthier functioning. The key is acting before the antisocial patterns become more entrenched and the remaining empathetic capacity is lost entirely."
+  }
+}

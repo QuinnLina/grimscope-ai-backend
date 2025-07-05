@@ -1,0 +1,1964 @@
+{
+  "test_id": "body_type_test",
+  "title": "Body Type & Fitness Personality Test",
+  "subtitle": "Discover your unique body type and unlock your fitness potential",
+  "description": "This comprehensive assessment analyzes your natural body composition, metabolism, and physical tendencies to provide personalized fitness and nutrition guidance. Discover whether you're an ectomorph, mesomorph, endomorph, or a unique combination, and learn how to work with your body's natural strengths.",
+  "medical_disclaimer": "This test provides general fitness information based on body type classifications and is not medical advice. Individual results may vary significantly. Always consult with your healthcare provider, registered dietitian, or certified fitness professional before starting any new diet or exercise program, especially if you have existing health conditions, injuries, or concerns.",
+  "background_music": "assets/audio/body-type.mp3",
+  "click_sound": "assets/audio/click.mp3",
+  "background_image": "assets/images/body-type.png",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When you look in the mirror and honestly assess your natural bone structure, what do you see?",
+      "answers": [
+        {
+          "id": "q1a1",
+          "text": "Delicate and refined - my wrists are small, shoulders narrow, and I have naturally fine features that people often describe as elegant",
+          "weights": {
+            "ectomorph": 5,
+            "mesomorph": 1,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 0,
+            "endo_ecto": 1,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q1a2",
+          "text": "Balanced and proportional - I have moderate bone structure with shoulders and hips that create pleasing symmetry",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 1,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 1,
+            "balanced": 4
+          }
+        },
+        {
+          "id": "q1a3",
+          "text": "Solid and substantial - I have thick wrists, broad shoulders, and a naturally powerful frame that commands presence",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 5,
+            "ecto_meso": 0,
+            "meso_endo": 3,
+            "endo_ecto": 2,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q1a4",
+          "text": "Lean but athletic - my frame is narrow yet I can see the potential for defined muscle development with the right training",
+          "weights": {
+            "ectomorph": 3,
+            "mesomorph": 3,
+            "endomorph": 0,
+            "ecto_meso": 5,
+            "meso_endo": 1,
+            "endo_ecto": 0,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q1a5",
+          "text": "Strong foundation with curves - I have a sturdy build that's both powerful and feminine/masculine in its own unique way",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 2,
+            "endomorph": 3,
+            "ecto_meso": 1,
+            "meso_endo": 5,
+            "endo_ecto": 3,
+            "balanced": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "Think about your relationship with food and weight gain. How would you honestly describe what happens when you're not carefully monitoring your diet?",
+      "answers": [
+        {
+          "id": "q2a1",
+          "text": "It's almost frustrating - I can eat massive amounts without consequence. Friends joke that I have a hollow leg because weight gain seems impossible no matter what I consume",
+          "weights": {
+            "ectomorph": 5,
+            "mesomorph": 0,
+            "endomorph": 0,
+            "ecto_meso": 2,
+            "meso_endo": 0,
+            "endo_ecto": 1,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q2a2",
+          "text": "I notice gradual changes but nothing dramatic - my body seems to have a natural set point that it returns to with moderate adjustments",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 2,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 1,
+            "balanced": 4
+          }
+        },
+        {
+          "id": "q2a3",
+          "text": "Weight creeps on quickly and stubbornly - even small indulgences seem to show up immediately, and losing it requires serious dedication",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 5,
+            "ecto_meso": 0,
+            "meso_endo": 3,
+            "endo_ecto": 2,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q2a4",
+          "text": "I gain weight slowly but steadily if I'm not mindful - it's like my body is efficient at storing energy for future use",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 3,
+            "endomorph": 2,
+            "ecto_meso": 4,
+            "meso_endo": 2,
+            "endo_ecto": 2,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q2a5",
+          "text": "I notice weight gain primarily around my midsection first - it's like my body has a preferred storage location that fills up before anywhere else",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 2,
+            "endomorph": 4,
+            "ecto_meso": 1,
+            "meso_endo": 5,
+            "endo_ecto": 3,
+            "balanced": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "When you engage in resistance training or strength-building activities, what story does your body tell you about building muscle?",
+      "answers": [
+        {
+          "id": "q3a1",
+          "text": "It's like my body speaks a different language - I get stronger and more defined, but building visible muscle mass feels like trying to fill a bucket with a hole in it",
+          "weights": {
+            "ectomorph": 5,
+            "mesomorph": 0,
+            "endomorph": 0,
+            "ecto_meso": 2,
+            "meso_endo": 0,
+            "endo_ecto": 1,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q3a2",
+          "text": "My body responds like it was designed for this - muscle development comes naturally and I can see changes relatively quickly with consistent effort",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 5,
+            "endomorph": 1,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 1,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q3a3",
+          "text": "I build muscle and mass together in a package deal - getting stronger is easy, but achieving definition requires strategic fat loss",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 5,
+            "ecto_meso": 0,
+            "meso_endo": 3,
+            "endo_ecto": 2,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q3a4",
+          "text": "I can build quality lean muscle with dedication, though it requires consistent work and the right nutrition to see significant size increases",
+          "weights": {
+            "ectomorph": 3,
+            "mesomorph": 2,
+            "endomorph": 0,
+            "ecto_meso": 5,
+            "meso_endo": 1,
+            "endo_ecto": 1,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q3a5",
+          "text": "I build muscle effectively but need cardiovascular work to reveal the definition underneath - like sculpting marble, the art is in revealing what's already there",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 3,
+            "endomorph": 2,
+            "ecto_meso": 2,
+            "meso_endo": 5,
+            "endo_ecto": 4,
+            "balanced": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "How would you describe the engine that runs your body - your metabolism and energy patterns throughout a typical day?",
+      "answers": [
+        {
+          "id": "q4a1",
+          "text": "Like a high-performance race car - I burn fuel rapidly, need frequent refueling, and can crash quickly if I don't maintain my energy supply",
+          "weights": {
+            "ectomorph": 5,
+            "mesomorph": 1,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 0,
+            "endo_ecto": 1,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q4a2",
+          "text": "Like a well-tuned sedan - steady, reliable energy that gets me through the day with good fuel efficiency and consistent performance",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 1,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 1,
+            "balanced": 4
+          }
+        },
+        {
+          "id": "q4a3",
+          "text": "Like a diesel truck - slow to start but incredibly fuel-efficient, I don't need much to keep going but I store energy exceptionally well",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 5,
+            "ecto_meso": 0,
+            "meso_endo": 3,
+            "endo_ecto": 2,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q4a4",
+          "text": "Like a hybrid vehicle - generally efficient with occasional high-performance bursts, though I need to be mindful about fuel quality and timing",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 3,
+            "endomorph": 1,
+            "ecto_meso": 5,
+            "meso_endo": 2,
+            "endo_ecto": 2,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q4a5",
+          "text": "Like a luxury SUV - powerful when needed but requires premium fuel and careful maintenance to perform at its best",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 2,
+            "endomorph": 3,
+            "ecto_meso": 1,
+            "meso_endo": 5,
+            "endo_ecto": 3,
+            "balanced": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "When your body does store fat, where does it prefer to set up residence? Think about your natural fat distribution pattern.",
+      "answers": [
+        {
+          "id": "q5a1",
+          "text": "Nowhere, really - my body seems allergic to storing fat anywhere. Even when I try to gain weight, it's like my body immediately burns it off",
+          "weights": {
+            "ectomorph": 5,
+            "mesomorph": 1,
+            "endomorph": 0,
+            "ecto_meso": 2,
+            "meso_endo": 0,
+            "endo_ecto": 1,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q5a2",
+          "text": "Evenly distributed like a balanced painting - when fat appears, it spreads proportionally, maintaining my overall shape and symmetry",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 1,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 1,
+            "balanced": 4
+          }
+        },
+        {
+          "id": "q5a3",
+          "text": "Lower body preferentially - hips, thighs, and glutes seem to be my body's favorite storage facilities, creating a pear-like silhouette",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 4,
+            "ecto_meso": 0,
+            "meso_endo": 3,
+            "endo_ecto": 3,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q5a4",
+          "text": "Midsection first and foremost - my abdomen seems to be prime real estate for fat storage, creating an apple-shaped tendency",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 2,
+            "endomorph": 5,
+            "ecto_meso": 1,
+            "meso_endo": 4,
+            "endo_ecto": 2,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q5a5",
+          "text": "Generally low levels, but when it does appear, it tends to concentrate around my waistline while leaving my extremities relatively lean",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 3,
+            "endomorph": 2,
+            "ecto_meso": 4,
+            "meso_endo": 3,
+            "endo_ecto": 2,
+            "balanced": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "When you engage in cardiovascular exercise, what kind of relationship does your body have with endurance activities?",
+      "answers": [
+        {
+          "id": "q6a1",
+          "text": "It's like I was born for this - I can run, cycle, or swim for what feels like forever. Endurance activities energize rather than exhaust me",
+          "weights": {
+            "ectomorph": 5,
+            "mesomorph": 1,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 0,
+            "endo_ecto": 1,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q6a2",
+          "text": "Cardio feels natural and helps me maintain my optimal body composition - it's an effective tool that I enjoy and that serves my fitness goals well",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 1,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 1,
+            "balanced": 4
+          }
+        },
+        {
+          "id": "q6a3",
+          "text": "Cardio is my necessity, not my passion - I need it to maintain my weight and health, but it feels like work rather than pleasure",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 5,
+            "ecto_meso": 0,
+            "meso_endo": 3,
+            "endo_ecto": 2,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q6a4",
+          "text": "I prefer high-intensity intervals over long steady sessions - my body responds better to bursts of power than extended endurance efforts",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 4,
+            "endomorph": 1,
+            "ecto_meso": 4,
+            "meso_endo": 2,
+            "endo_ecto": 1,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q6a5",
+          "text": "I need cardio for definition but must balance it carefully - too much and I lose the muscle mass I work hard to build",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 2,
+            "endomorph": 2,
+            "ecto_meso": 3,
+            "meso_endo": 4,
+            "endo_ecto": 3,
+            "balanced": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "Describe your natural energy patterns throughout the day. What's your body's default energy operating system?",
+      "answers": [
+        {
+          "id": "q7a1",
+          "text": "High-octane but volatile - I have intense energy that can suddenly crash if I don't fuel properly. I'm either fully on or completely depleted",
+          "weights": {
+            "ectomorph": 5,
+            "mesomorph": 2,
+            "endomorph": 0,
+            "ecto_meso": 4,
+            "meso_endo": 1,
+            "endo_ecto": 1,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q7a2",
+          "text": "Steady and reliable like a metronome - I maintain consistent energy levels that carry me through whatever the day demands",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 1,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 1,
+            "balanced": 4
+          }
+        },
+        {
+          "id": "q7a3",
+          "text": "Gentle and sustained - I prefer steady-state activities and have energy for the long haul, though I'm not built for explosive bursts",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 4,
+            "ecto_meso": 0,
+            "meso_endo": 2,
+            "endo_ecto": 2,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q7a4",
+          "text": "Good workout energy with recovery needs - I can push hard during training but require adequate rest between intense sessions to perform my best",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 3,
+            "endomorph": 2,
+            "ecto_meso": 4,
+            "meso_endo": 3,
+            "endo_ecto": 2,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q7a5",
+          "text": "Highly dependent on lifestyle factors - my energy varies dramatically based on diet quality, sleep, stress levels, and training schedule",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 2,
+            "endomorph": 3,
+            "ecto_meso": 2,
+            "meso_endo": 4,
+            "endo_ecto": 3,
+            "balanced": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "When you do have muscle mass, how does your body naturally display and carry it? What's your muscle's natural personality?",
+      "answers": [
+        {
+          "id": "q8a1",
+          "text": "Lean and defined like steel cables - my muscle is wiry, functional, and highly defined with minimal bulk. Think dancer or distance runner physique",
+          "weights": {
+            "ectomorph": 5,
+            "mesomorph": 1,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 0,
+            "endo_ecto": 1,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q8a2",
+          "text": "Well-developed and proportioned like classical sculpture - my muscle development is balanced, aesthetic, and naturally athletic-looking",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 2,
+            "endo_ecto": 1,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q8a3",
+          "text": "Substantial but soft-edged - my muscle tends to be less defined with a softer, more rounded appearance even when well-developed",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 5,
+            "ecto_meso": 0,
+            "meso_endo": 3,
+            "endo_ecto": 2,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q8a4",
+          "text": "Lean but solid like a rock climber - quality muscle with excellent definition when body fat is low, emphasizing function over size",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 3,
+            "endomorph": 0,
+            "ecto_meso": 5,
+            "meso_endo": 1,
+            "endo_ecto": 1,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q8a5",
+          "text": "Strong and substantial but needs unveiling - I build quality muscle that requires strategic fat loss to reveal its full definition and shape",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 3,
+            "endomorph": 2,
+            "ecto_meso": 1,
+            "meso_endo": 5,
+            "endo_ecto": 4,
+            "balanced": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "Look at your natural silhouette and proportions. What story do your shoulder-to-waist ratios tell about your body's architecture?",
+      "answers": [
+        {
+          "id": "q9a1",
+          "text": "Narrow shoulders, small waist - like a graceful vertical line. My silhouette is naturally straight and elongated with minimal curves",
+          "weights": {
+            "ectomorph": 5,
+            "mesomorph": 0,
+            "endomorph": 0,
+            "ecto_meso": 2,
+            "meso_endo": 0,
+            "endo_ecto": 1,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q9a2",
+          "text": "Broad shoulders, narrow waist - the classic V-shape that looks like it was designed by a fitness artist. My proportions naturally create an athletic silhouette",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 5,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 2,
+            "endo_ecto": 0,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q9a3",
+          "text": "Rounded shoulders, fuller waist - my body creates more of an apple or oval shape with softer, curved lines throughout",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 0,
+            "endomorph": 5,
+            "ecto_meso": 0,
+            "meso_endo": 2,
+            "endo_ecto": 2,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q9a4",
+          "text": "Balanced proportions that work in harmony - my measurements create pleasing symmetry without any single feature dominating",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 3,
+            "endomorph": 2,
+            "ecto_meso": 2,
+            "meso_endo": 2,
+            "endo_ecto": 1,
+            "balanced": 5
+          }
+        },
+        {
+          "id": "q9a5",
+          "text": "Narrow shoulders with potential - I can build impressive shoulder width with training while maintaining a naturally small waist",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 2,
+            "endomorph": 0,
+            "ecto_meso": 5,
+            "meso_endo": 1,
+            "endo_ecto": 1,
+            "balanced": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "When you decide to lose weight or cut body fat, what journey does your body take you on?",
+      "answers": [
+        {
+          "id": "q10a1",
+          "text": "What weight loss? I rarely need to diet because staying thin seems to be my body's natural preference and default state",
+          "weights": {
+            "ectomorph": 5,
+            "mesomorph": 2,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 0,
+            "endo_ecto": 1,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q10a2",
+          "text": "Efficient and rewarding - I can lose fat while maintaining muscle relatively easily. My body responds well to reasonable caloric deficits",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 1,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 1,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q10a3",
+          "text": "Slow and requires unwavering commitment - weight loss feels like negotiating with a stubborn opponent who gives up territory very reluctantly",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 5,
+            "ecto_meso": 0,
+            "meso_endo": 3,
+            "endo_ecto": 2,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q10a4",
+          "text": "I lose weight but muscle comes along for the ride - maintaining muscle mass during fat loss requires very strategic planning and execution",
+          "weights": {
+            "ectomorph": 3,
+            "mesomorph": 1,
+            "endomorph": 2,
+            "ecto_meso": 4,
+            "meso_endo": 2,
+            "endo_ecto": 2,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q10a5",
+          "text": "Requires a combined approach - I need both dietary changes and increased cardio to see effective fat loss while preserving muscle",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 2,
+            "endomorph": 3,
+            "ecto_meso": 2,
+            "meso_endo": 5,
+            "endo_ecto": 4,
+            "balanced": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": "In which physical activities does your body feel most at home? Where do you naturally excel or feel most confident?",
+      "answers": [
+        {
+          "id": "q11a1",
+          "text": "Endurance challenges where I can go the distance - marathon running, long cycling rides, swimming laps. I thrive when others fade",
+          "weights": {
+            "ectomorph": 5,
+            "mesomorph": 1,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 0,
+            "endo_ecto": 1,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q11a2",
+          "text": "Dynamic sports requiring power, speed, and agility - basketball, tennis, martial arts. I excel when athleticism meets strategy",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 2,
+            "endo_ecto": 0,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q11a3",
+          "text": "Strength-based activities where raw power matters - powerlifting, strongman events, activities that reward solid, sustained force",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 2,
+            "endomorph": 4,
+            "ecto_meso": 1,
+            "meso_endo": 4,
+            "endo_ecto": 3,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q11a4",
+          "text": "Activities combining endurance and skill - rock climbing, martial arts, dance. I excel when technique meets sustained effort",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 3,
+            "endomorph": 0,
+            "ecto_meso": 5,
+            "meso_endo": 1,
+            "endo_ecto": 1,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q11a5",
+          "text": "Moderate-impact, flowing activities - yoga, pilates, swimming, walking. I prefer activities that feel sustainable and meditative",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 1,
+            "endomorph": 4,
+            "ecto_meso": 1,
+            "meso_endo": 3,
+            "endo_ecto": 4,
+            "balanced": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": "When you eat carbohydrate-rich meals, how does your body respond? What conversation does your body have with carbs?",
+      "answers": [
+        {
+          "id": "q12a1",
+          "text": "Carbs are my best friend - I can eat them liberally without weight gain. My body seems to use them immediately for energy rather than storage",
+          "weights": {
+            "ectomorph": 5,
+            "mesomorph": 2,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 0,
+            "endo_ecto": 1,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q12a2",
+          "text": "Carbs fuel my performance beautifully - they provide clean energy for workouts and recovery without unwanted side effects",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 1,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 1,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q12a3",
+          "text": "Carbs and I have a complicated relationship - I gain weight quickly with high carb intake and need to be very mindful of portions",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 5,
+            "ecto_meso": 0,
+            "meso_endo": 3,
+            "endo_ecto": 2,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q12a4",
+          "text": "Strategic timing is key - I need carbs for energy but must time them around workouts to maximize benefits and minimize fat storage",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 3,
+            "endomorph": 2,
+            "ecto_meso": 4,
+            "meso_endo": 4,
+            "endo_ecto": 2,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q12a5",
+          "text": "Carbs make me feel sluggish and bloated - I feel better and look leaner when I minimize them and focus on protein and fats instead",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 1,
+            "endomorph": 4,
+            "ecto_meso": 1,
+            "meso_endo": 3,
+            "endo_ecto": 3,
+            "balanced": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "text": "After an intense workout, what does your body need to feel recovered and ready for the next challenge?",
+      "answers": [
+        {
+          "id": "q13a1",
+          "text": "Quick turnaround with frequent nutrition - I recover rapidly but need consistent fuel. Skip a meal and my recovery suffers dramatically",
+          "weights": {
+            "ectomorph": 4,
+            "mesomorph": 2,
+            "endomorph": 0,
+            "ecto_meso": 4,
+            "meso_endo": 1,
+            "endo_ecto": 1,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q13a2",
+          "text": "Standard recovery protocol works perfectly - 24-48 hours with good nutrition and sleep, and I'm ready to go again",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 1,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 1,
+            "balanced": 4
+          }
+        },
+        {
+          "id": "q13a3",
+          "text": "Extended recovery time - I need longer rest periods between intense sessions. Rushing back too soon leads to poor performance or injury",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 4,
+            "ecto_meso": 1,
+            "meso_endo": 3,
+            "endo_ecto": 3,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q13a4",
+          "text": "Different recovery for different activities - I bounce back quickly from cardio but need more time after heavy strength training",
+          "weights": {
+            "ectomorph": 3,
+            "mesomorph": 2,
+            "endomorph": 1,
+            "ecto_meso": 5,
+            "meso_endo": 2,
+            "endo_ecto": 2,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q13a5",
+          "text": "Recovery is highly variable - it depends dramatically on nutrition quality, sleep, stress levels, and the type of training I did",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 3,
+            "endomorph": 3,
+            "ecto_meso": 3,
+            "meso_endo": 4,
+            "endo_ecto": 3,
+            "balanced": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "text": "Describe your relationship with hunger and appetite. What's your body's natural feeding schedule and intensity?",
+      "answers": [
+        {
+          "id": "q14a1",
+          "text": "Constantly hungry like a growing teenager - I need to eat frequently throughout the day or I become weak, shaky, and unable to function",
+          "weights": {
+            "ectomorph": 5,
+            "mesomorph": 2,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 1,
+            "endo_ecto": 1,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q14a2",
+          "text": "Regular, predictable hunger - I get hungry at normal meal times and feel satisfied with reasonable portions. My appetite matches my needs",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 1,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 1,
+            "balanced": 4
+          }
+        },
+        {
+          "id": "q14a3",
+          "text": "Mild appetite that's easy to satisfy - I can go long periods without eating and often need to remind myself to eat regular meals",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 5,
+            "ecto_meso": 0,
+            "meso_endo": 3,
+            "endo_ecto": 2,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q14a4",
+          "text": "Appetite peaks around activity - I'm hungry around workout times and have moderate appetite otherwise. Training drives my eating patterns",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 3,
+            "endomorph": 1,
+            "ecto_meso": 5,
+            "meso_endo": 3,
+            "endo_ecto": 2,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q14a5",
+          "text": "Appetite is emotionally and environmentally driven - stress, mood, and circumstances significantly influence when and how much I want to eat",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 2,
+            "endomorph": 3,
+            "ecto_meso": 2,
+            "meso_endo": 4,
+            "endo_ecto": 4,
+            "balanced": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "text": "When you consistently engage in resistance training, what transformation story does your body tell?",
+      "answers": [
+        {
+          "id": "q15a1",
+          "text": "Strength without size - I get significantly stronger and more defined, but visible muscle growth feels like an uphill battle requiring perfect conditions",
+          "weights": {
+            "ectomorph": 5,
+            "mesomorph": 1,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 0,
+            "endo_ecto": 1,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q15a2",
+          "text": "Rapid and visible improvements - I see muscle definition and size increases relatively quickly. My body seems designed to respond to resistance training",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 5,
+            "endomorph": 1,
+            "ecto_meso": 3,
+            "meso_endo": 2,
+            "endo_ecto": 0,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q15a3",
+          "text": "Size but hidden definition - I gain muscle mass and strength effectively, but seeing the definition requires strategic fat loss to reveal what's underneath",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 2,
+            "endomorph": 5,
+            "ecto_meso": 1,
+            "meso_endo": 4,
+            "endo_ecto": 3,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q15a4",
+          "text": "Gradual, quality gains - With consistency, I build lean, functional muscle that emphasizes definition and strength over pure size",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 3,
+            "endomorph": 1,
+            "ecto_meso": 5,
+            "meso_endo": 2,
+            "endo_ecto": 1,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q15a5",
+          "text": "Great strength gains with strategic cutting needed - I build muscle well but need focused cardio phases to reveal the definition hiding underneath",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 3,
+            "endomorph": 2,
+            "ecto_meso": 2,
+            "meso_endo": 5,
+            "endo_ecto": 4,
+            "balanced": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "text": "How does stress or emotional turbulence affect your eating patterns and relationship with food?",
+      "answers": [
+        {
+          "id": "q16a1",
+          "text": "Stress kills my appetite completely - when upset or overwhelmed, I literally cannot eat and often lose weight during difficult periods",
+          "weights": {
+            "ectomorph": 4,
+            "mesomorph": 2,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 1,
+            "endo_ecto": 1,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q16a2",
+          "text": "Stress doesn't dramatically change my eating - I maintain relatively consistent eating patterns regardless of emotional or life circumstances",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 1,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 1,
+            "balanced": 4
+          }
+        },
+        {
+          "id": "q16a3",
+          "text": "Food becomes my comfort and coping mechanism - stress triggers overeating or binge behaviors that provide temporary emotional relief",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 5,
+            "ecto_meso": 0,
+            "meso_endo": 3,
+            "endo_ecto": 3,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q16a4",
+          "text": "I eat more but make healthier choices - stress increases my appetite but I tend to reach for nutritious comfort foods rather than junk",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 3,
+            "endomorph": 2,
+            "ecto_meso": 4,
+            "meso_endo": 3,
+            "endo_ecto": 2,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q16a5",
+          "text": "Highly variable responses - my eating patterns change dramatically depending on the type and source of stress I'm experiencing",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 2,
+            "endomorph": 3,
+            "ecto_meso": 3,
+            "meso_endo": 4,
+            "endo_ecto": 4,
+            "balanced": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "text": "How does your body regulate temperature, especially during physical activity? What's your internal thermostat like?",
+      "answers": [
+        {
+          "id": "q17a1",
+          "text": "Always cold like I have poor circulation - I struggle to stay warm and layer up even when others are comfortable",
+          "weights": {
+            "ectomorph": 4,
+            "mesomorph": 1,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 1,
+            "endo_ecto": 1,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q17a2",
+          "text": "Well-regulated temperature that adapts appropriately - I'm comfortable in most conditions and regulate temperature effectively during exercise",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 1,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 1,
+            "balanced": 4
+          }
+        },
+        {
+          "id": "q17a3",
+          "text": "I run hot and overheat easily - I sweat profusely during activity and prefer cooler environments for comfort and performance",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 4,
+            "ecto_meso": 1,
+            "meso_endo": 3,
+            "endo_ecto": 3,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q17a4",
+          "text": "Cold at rest but quick to warm during exercise - I need layers normally but heat up rapidly once I start moving and training",
+          "weights": {
+            "ectomorph": 3,
+            "mesomorph": 2,
+            "endomorph": 1,
+            "ecto_meso": 5,
+            "meso_endo": 2,
+            "endo_ecto": 2,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q17a5",
+          "text": "Temperature regulation varies with fitness and diet - my thermostat seems connected to my overall health, training status, and nutrition quality",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 3,
+            "endomorph": 2,
+            "ecto_meso": 3,
+            "meso_endo": 4,
+            "endo_ecto": 3,
+            "balanced": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "text": "As you've aged, how has your relationship with your body composition evolved? What changes have you noticed over time?",
+      "answers": [
+        {
+          "id": "q18a1",
+          "text": "Remarkably stable - I maintain the same weight and body shape with minimal effort, as if aging hasn't affected my metabolism",
+          "weights": {
+            "ectomorph": 5,
+            "mesomorph": 2,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 1,
+            "endo_ecto": 1,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q18a2",
+          "text": "Gradual but manageable changes - I need to be more intentional about activity and nutrition, but my body still responds well to effort",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 1,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 1,
+            "balanced": 4
+          }
+        },
+        {
+          "id": "q18a3",
+          "text": "Increasingly challenging - weight creeps on more easily with age and becomes progressively harder to lose with each passing year",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 5,
+            "ecto_meso": 0,
+            "meso_endo": 3,
+            "endo_ecto": 3,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q18a4",
+          "text": "Muscle maintenance requires more work - I need to train harder and more consistently to maintain the muscle mass that came easier when younger",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 3,
+            "endomorph": 2,
+            "ecto_meso": 4,
+            "meso_endo": 4,
+            "endo_ecto": 2,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q18a5",
+          "text": "Highly dependent on lifestyle consistency - changes correlate directly with how well I maintain my activity level and healthy habits",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 4,
+            "endomorph": 2,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 2,
+            "balanced": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "text": "What does your body tell you about sleep and recovery needs? How much rest does your system require to function optimally?",
+      "answers": [
+        {
+          "id": "q19a1",
+          "text": "Less sleep, more energy - I often need less sleep than average but wake up energetic and ready to tackle the day immediately",
+          "weights": {
+            "ectomorph": 3,
+            "mesomorph": 2,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 1,
+            "endo_ecto": 1,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q19a2",
+          "text": "Standard sleep needs with good recovery - 7-8 hours leaves me feeling well-rested, recovered, and ready for whatever comes next",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 1,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 1,
+            "balanced": 4
+          }
+        },
+        {
+          "id": "q19a3",
+          "text": "More sleep, deeper recovery - I need longer rest periods and more sleep than average to feel fully recovered and energetic",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 4,
+            "ecto_meso": 1,
+            "meso_endo": 3,
+            "endo_ecto": 3,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q19a4",
+          "text": "Sleep needs fluctuate with training intensity - harder training periods require significantly more sleep for optimal recovery and performance",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 3,
+            "endomorph": 2,
+            "ecto_meso": 4,
+            "meso_endo": 4,
+            "endo_ecto": 3,
+            "balanced": 4
+          }
+        },
+        {
+          "id": "q19a5",
+          "text": "Sleep quality trumps quantity - how well I sleep affects me more than how long I sleep. Quality rest makes all the difference",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 3,
+            "endomorph": 3,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 3,
+            "balanced": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "text": "How does your body respond to intermittent fasting or extended periods without food? What happens when you skip meals?",
+      "answers": [
+        {
+          "id": "q20a1",
+          "text": "Badly - I become weak, shaky, and lose focus quickly. Skipping meals feels like running a car on empty with warning lights flashing",
+          "weights": {
+            "ectomorph": 5,
+            "mesomorph": 1,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 0,
+            "endo_ecto": 1,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q20a2",
+          "text": "Manageable with planning - I can handle intermittent fasting with some adjustment and strategic planning, though it requires conscious effort",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 4,
+            "endomorph": 2,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 2,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q20a3",
+          "text": "Surprisingly well - I often feel more energetic and mentally clear during fasting periods. My body seems to thrive on strategic food restriction",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 2,
+            "endomorph": 5,
+            "ecto_meso": 1,
+            "meso_endo": 4,
+            "endo_ecto": 4,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q20a4",
+          "text": "Context-dependent - I can fast but my performance suffers if I go too long without fuel, especially around training times",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 3,
+            "endomorph": 1,
+            "ecto_meso": 4,
+            "meso_endo": 2,
+            "endo_ecto": 2,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q20a5",
+          "text": "Variable and experimental - I haven't tried it consistently enough to know, or my results vary significantly based on other factors",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 3,
+            "endomorph": 2,
+            "ecto_meso": 2,
+            "meso_endo": 3,
+            "endo_ecto": 3,
+            "balanced": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "text": "Assess your natural coordination, balance, and athletic abilities. How does your body move through space?",
+      "answers": [
+        {
+          "id": "q21a1",
+          "text": "Graceful and agile but lacking power - I have excellent coordination and balance but struggle with activities requiring brute strength",
+          "weights": {
+            "ectomorph": 4,
+            "mesomorph": 1,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 0,
+            "endo_ecto": 1,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q21a2",
+          "text": "Naturally athletic across the board - I have good coordination, balance, strength, and power. My body seems designed for athletic performance",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 2,
+            "endo_ecto": 0,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q21a3",
+          "text": "Strong and powerful but less agile - I excel in activities requiring force and stability but struggle with quick directional changes",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 2,
+            "endomorph": 4,
+            "ecto_meso": 1,
+            "meso_endo": 4,
+            "endo_ecto": 3,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q21a4",
+          "text": "Good coordination with developing strength - I move well and can build impressive strength and skill through focused training",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 3,
+            "endomorph": 1,
+            "ecto_meso": 5,
+            "meso_endo": 2,
+            "endo_ecto": 1,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q21a5",
+          "text": "Average but improvable - I have decent coordination and athleticism that improves significantly with practice and consistent training",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 2,
+            "endomorph": 3,
+            "ecto_meso": 2,
+            "meso_endo": 3,
+            "endo_ecto": 3,
+            "balanced": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "text": "When choosing clothes, what does your body type guide you toward? How do different styles work with your natural shape?",
+      "answers": [
+        {
+          "id": "q22a1",
+          "text": "Fitted styles that show my lean lines - I can wear slim-fitting clothes and layers without looking bulky. Form-fitting styles enhance my natural silhouette",
+          "weights": {
+            "ectomorph": 4,
+            "mesomorph": 1,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 1,
+            "endo_ecto": 1,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q22a2",
+          "text": "Most styles work well for my build - I have the luxury of looking good in various clothing styles and cuts. My proportions are forgiving",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 1,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 1,
+            "balanced": 4
+          }
+        },
+        {
+          "id": "q22a3",
+          "text": "Looser, comfortable fits that flow with my body - I prefer clothes that are comfortable and don't cling or restrict my movement",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 4,
+            "ecto_meso": 1,
+            "meso_endo": 3,
+            "endo_ecto": 3,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q22a4",
+          "text": "Fitted styles that highlight my athletic development - I like clothes that show off my training results and athletic build",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 4,
+            "endomorph": 0,
+            "ecto_meso": 5,
+            "meso_endo": 2,
+            "endo_ecto": 1,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q22a5",
+          "text": "Practical and functional choices - I prioritize comfort, movement, and practicality over fashion. Function trumps form in my wardrobe",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 2,
+            "endomorph": 3,
+            "ecto_meso": 2,
+            "meso_endo": 3,
+            "endo_ecto": 3,
+            "balanced": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "text": "How does your body respond to protein intake and supplementation? What's your relationship with muscle-building nutrition?",
+      "answers": [
+        {
+          "id": "q23a1",
+          "text": "Protein is my lifeline - I need frequent, high-quality protein to maintain energy, muscle, and overall well-being. Without it, I deteriorate quickly",
+          "weights": {
+            "ectomorph": 5,
+            "mesomorph": 2,
+            "endomorph": 0,
+            "ecto_meso": 3,
+            "meso_endo": 1,
+            "endo_ecto": 1,
+            "balanced": 1
+          }
+        },
+        {
+          "id": "q23a2",
+          "text": "Moderate protein needs with great results - I respond well to reasonable protein intake and supplements enhance my performance and recovery",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 1,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 1,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q23a3",
+          "text": "Lower protein requirements - I don't need excessive protein and prefer getting it from whole food sources rather than supplements",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 4,
+            "ecto_meso": 1,
+            "meso_endo": 2,
+            "endo_ecto": 3,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q23a4",
+          "text": "Protein needs scale with training intensity - my requirements vary dramatically based on how hard and how often I'm training",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 4,
+            "endomorph": 2,
+            "ecto_meso": 5,
+            "meso_endo": 4,
+            "endo_ecto": 2,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q23a5",
+          "text": "Strategic protein use for specific goals - I use protein supplementation strategically for recovery and muscle maintenance rather than constantly",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 3,
+            "endomorph": 2,
+            "ecto_meso": 3,
+            "meso_endo": 5,
+            "endo_ecto": 4,
+            "balanced": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "text": "What drives your motivation to exercise throughout different seasons and life phases? What keeps you moving?",
+      "answers": [
+        {
+          "id": "q24a1",
+          "text": "Performance goals and endurance challenges fuel me - I'm motivated by pushing limits, achieving personal bests, and conquering new distances",
+          "weights": {
+            "ectomorph": 4,
+            "mesomorph": 2,
+            "endomorph": 0,
+            "ecto_meso": 4,
+            "meso_endo": 1,
+            "endo_ecto": 1,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q24a2",
+          "text": "The joy of challenging workouts and visible progress - I love intense training sessions and seeing rapid improvements in strength and physique",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 1,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 1,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q24a3",
+          "text": "Health benefits and long-term consistency matter most - I'm motivated by feeling good, maintaining health, and establishing sustainable habits",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 4,
+            "ecto_meso": 1,
+            "meso_endo": 3,
+            "endo_ecto": 4,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q24a4",
+          "text": "Aesthetic goals and body composition changes drive me - I'm motivated by improving how I look and achieving specific physique targets",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 3,
+            "endomorph": 1,
+            "ecto_meso": 5,
+            "meso_endo": 3,
+            "endo_ecto": 2,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q24a5",
+          "text": "Variable motivation tied to life circumstances - my exercise drive fluctuates with seasons, stress, life events, and changing priorities",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 2,
+            "endomorph": 3,
+            "ecto_meso": 2,
+            "meso_endo": 4,
+            "endo_ecto": 4,
+            "balanced": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "text": "When tracking your fitness journey, what metrics and measures resonate most deeply with your sense of progress and success?",
+      "answers": [
+        {
+          "id": "q25a1",
+          "text": "Performance metrics that showcase endurance - speed improvements, distance achievements, and cardiovascular capacity gains tell my story best",
+          "weights": {
+            "ectomorph": 4,
+            "mesomorph": 2,
+            "endomorph": 0,
+            "ecto_meso": 4,
+            "meso_endo": 1,
+            "endo_ecto": 1,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q25a2",
+          "text": "Strength gains, muscle definition, and athletic performance - I track weight lifted, muscle development, and overall athletic capability",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 5,
+            "endomorph": 1,
+            "ecto_meso": 3,
+            "meso_endo": 3,
+            "endo_ecto": 1,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q25a3",
+          "text": "Scale weight, measurements, and clothing fit - these traditional metrics help me understand my body's changes and health progress",
+          "weights": {
+            "ectomorph": 0,
+            "mesomorph": 1,
+            "endomorph": 4,
+            "ecto_meso": 1,
+            "meso_endo": 3,
+            "endo_ecto": 3,
+            "balanced": 2
+          }
+        },
+        {
+          "id": "q25a4",
+          "text": "Body composition analysis and muscle-to-fat ratios - I focus on the quality of my body composition rather than just weight or size",
+          "weights": {
+            "ectomorph": 2,
+            "mesomorph": 3,
+            "endomorph": 2,
+            "ecto_meso": 5,
+            "meso_endo": 4,
+            "endo_ecto": 2,
+            "balanced": 3
+          }
+        },
+        {
+          "id": "q25a5",
+          "text": "Overall well-being and daily quality of life - energy levels, mood, sleep quality, and how I feel day-to-day matter most to me",
+          "weights": {
+            "ectomorph": 1,
+            "mesomorph": 2,
+            "endomorph": 3,
+            "ecto_meso": 2,
+            "meso_endo": 3,
+            "endo_ecto": 4,
+            "balanced": 4
+          }
+        }
+      ]
+    }
+  ],
+  "personality_types": {
+    "ectomorph": {
+      "title": "Pure Ectomorph (The Naturally Lean)",
+      "subtitle": "Fast metabolism, lean build, endurance-focused",
+      "basic_analysis": "You have the classic ectomorph body type with a naturally lean physique, fast metabolism, and small bone structure. Your body is like a high-performance engine that burns fuel rapidly and excels at endurance activities. While building muscle mass requires dedicated effort and strategic nutrition, your natural leanness and metabolic efficiency are valuable assets that become increasingly advantageous with age.",
+      "detailed_analysis": [
+        "Your ectomorphic body type represents the epitome of metabolic efficiency and natural leanness. With your small to medium bone structure, narrow frame, and fast-twitch nervous system, you're naturally built for activities requiring speed, agility, and endurance over pure strength. Your body composition tends to remain lean effortlessly, with minimal fat storage even when your diet isn't perfect. This genetic gift means you rarely struggle with weight gain, though building substantial muscle mass requires more strategic effort than other body types.",
+        "Nutritionally, your rapid metabolism demands a high-calorie approach with frequent meals to maintain energy and support any muscle-building goals. Your body burns through carbohydrates efficiently, making them your primary fuel source rather than your enemy. Focus on calorie-dense whole foods, with protein intake of 1-1.2g per pound of body weight distributed throughout the day. Healthy fats should comprise 25-30% of your calories to support hormone production and provide sustained energy. Don't fear carbohydrates - your body uses them immediately for energy rather than storing them as fat.",
+        "Your training approach should emphasize building and preserving muscle mass while leveraging your natural endurance capabilities. Heavy compound movements with progressive overload will help you build the muscle mass that doesn't come naturally. Limit excessive cardio during muscle-building phases, as your already-fast metabolism can work against mass gains. However, moderate cardiovascular exercise will enhance your impressive natural endurance. Recovery is crucial - your highly active nervous system needs adequate rest between intense sessions, typically 48-72 hours between training the same muscle groups.",
+        "Long-term success for your body type involves embracing your natural strengths while strategically addressing your challenges. Your lean genetics become increasingly valuable as you age and others struggle with metabolic slowdown. Focus on building functional strength and maintaining bone density through resistance training throughout your life. Your challenge isn't weight management - it's ensuring adequate nutrition to support your active metabolism and building enough muscle mass to maintain strength and metabolic health as you age. Consider this a genetic advantage that requires smart management rather than a limitation."
+      ],
+      "foods": [
+        "Calorie-dense whole grains like quinoa, oats, and brown rice",
+        "Lean proteins: chicken, fish, eggs, Greek yogurt, protein powder",
+        "Healthy fats: nuts, seeds, avocado, olive oil, fatty fish",
+        "Frequent meals and snacks to maintain energy levels",
+        "Post-workout nutrition within 30 minutes of training"
+      ],
+      "exercises": [
+        "Heavy compound movements: squats, deadlifts, bench press, rows",
+        "Progressive overload resistance training 3-4x per week",
+        "Limited cardio during muscle-building phases",
+        "Moderate endurance activities to maintain cardiovascular health",
+        "Adequate rest periods between sets and training sessions"
+      ]
+    },
+    "mesomorph": {
+      "title": "Pure Mesomorph (The Natural Athlete)",
+      "subtitle": "Balanced metabolism, athletic build, responds well to training",
+      "basic_analysis": "You possess the ideal mesomorphic body type with natural athleticism, balanced metabolism, and excellent response to both strength and cardiovascular training. Your medium bone structure and proportional frame allow you to build muscle and lose fat with relative ease. You're genetically blessed with the ability to excel in most physical activities and maintain an aesthetic physique with consistent effort.",
+      "detailed_analysis": [
+        "Your mesomorphic physique represents the genetic sweet spot for athletic performance and aesthetic development. With your naturally balanced proportions, moderate bone structure, and efficient metabolism, you have the foundation for excellence in virtually any physical pursuit. Your body composition responds predictably to training and nutrition changes, allowing you to build muscle during gaining phases and lose fat during cutting phases with relative ease compared to other body types.",
+        "Your nutritional approach should emphasize balance and consistency rather than extremes. A moderate caloric intake with balanced macronutrients serves you well: 25-30% protein, 40-45% carbohydrates, and 25-30% healthy fats. Your metabolism is neither too fast nor too slow, giving you flexibility in your diet while still requiring consistency for optimal results. You respond well to nutrient timing - eating larger meals around workouts and moderate portions throughout the day. Your body efficiently uses both carbohydrates and fats for fuel, making you adaptable to various dietary approaches.",
+        "Training-wise, you're gifted with the ability to respond well to almost any exercise protocol, which is both an advantage and a potential pitfall. You can build muscle with strength training, improve cardiovascular fitness with endurance work, and excel in sports requiring power, agility, or coordination. Your challenge is often choosing focus rather than trying to excel at everything simultaneously. Periodization works exceptionally well for your body type - alternating between strength-focused phases, endurance phases, and body composition phases throughout the year.",
+        "Your long-term fitness strategy should leverage your natural advantages while maintaining balance across all aspects of fitness. As you age, your favorable genetics help you maintain muscle mass and metabolic health better than other body types, but consistency becomes increasingly important. You have the potential to remain athletic and strong well into your later years with proper lifestyle management. Your biggest risk is taking your natural gifts for granted - maintain consistent training and nutrition habits to maximize your genetic potential throughout your lifetime."
+      ],
+      "foods": [
+        "Balanced macronutrients: lean proteins, complex carbs, healthy fats",
+        "Moderate portions with consistent meal timing",
+        "Pre and post-workout nutrition for optimal performance",
+        "Variety in protein sources: meat, fish, dairy, plant-based options",
+        "Flexible approach allowing occasional indulgences"
+      ],
+      "exercises": [
+        "Periodized training alternating between strength and endurance",
+        "Compound movements combined with isolation exercises",
+        "Mixed training styles: weight lifting, cardio, sports",
+        "Moderate to high training frequency with adequate recovery",
+        "Goal-specific programming based on current objectives"
+      ]
+    },
+    "endomorph": {
+      "title": "Pure Endomorph (The Strong & Steady)",
+      "subtitle": "Slower metabolism, naturally strong, excellent for power",
+      "basic_analysis": "You have the endomorphic body type characterized by a larger bone structure, slower metabolism, and natural tendency toward strength and power. While you may store fat more easily than other body types, you also have excellent capacity for building muscle and generating force. Your body type excels in strength-based activities and responds well to structured nutrition and consistent training protocols.",
+      "detailed_analysis": [
+        "Your endomorphic physique is engineered for strength, power, and stability. With your larger bone structure, broader shoulders and hips, and natural muscular development, you possess inherent advantages in activities requiring force production and mass. Your slower metabolism means your body is exceptionally efficient at storing energy, which can lead to fat gain if not managed but also provides excellent fuel reserves for intense training sessions. You typically have the genetic potential to build more muscle mass than other body types.",
+        "Nutritionally, your efficient metabolism requires more careful management of caloric intake and macronutrient composition. You respond exceptionally well to lower carbohydrate approaches, particularly those emphasizing protein and healthy fats. Portion control is crucial, as your body readily converts excess calories to fat storage. However, your muscle-building capacity is excellent, so adequate protein intake (1.2-1.5g per pound of body weight) is essential. Consider carb cycling or timing carbohydrates around workouts to maximize their benefits while minimizing fat storage.",
+        "Your training should emphasize your natural strengths while addressing metabolic challenges. Heavy resistance training with compound movements builds upon your natural strength and muscle-building capacity. Regular cardiovascular exercise is essential for metabolic health and fat management - both steady-state cardio and high-intensity intervals can be beneficial. Your body responds well to structure and consistency, so establishing regular training routines and progression schemes yields the best results. Recovery between sessions may take longer than other body types.",
+        "Long-term success involves embracing your natural power while proactively managing your metabolic tendencies. With proper nutrition and training, you can maintain excellent muscle mass and functional strength throughout life. Your challenge is managing body fat levels, but your advantage is the ability to build and maintain more muscle mass than other body types, providing metabolic benefits and functional strength that becomes increasingly valuable with age. Focus on building a strong foundation early and maintaining it through consistent habits."
+      ],
+      "foods": [
+        "Lower carbohydrate approach with higher protein and fats",
+        "Portion control and mindful eating practices",
+        "Nutrient-dense, whole foods over processed options",
+        "Strategic carbohydrate timing around workouts",
+        "Higher fiber foods to promote satiety and blood sugar control"
+      ],
+      "exercises": [
+        "Heavy resistance training emphasizing compound movements",
+        "Regular cardiovascular exercise for metabolic health",
+        "Circuit training combining strength and cardio",
+        "Consistent training schedule with progressive overload",
+        "Extended warm-up and cool-down periods for injury prevention"
+      ]
+    },
+    "ecto_meso": {
+      "title": "Ecto-Mesomorph (The Lean Athlete)",
+      "subtitle": "Lean and athletic, endurance with power potential",
+      "basic_analysis": "You're a hybrid combining ectomorphic leanness with mesomorphic athleticism, creating a naturally lean but athletic build with excellent muscle definition potential. You have better muscle-building capacity than pure ectomorphs while maintaining metabolic advantages that keep you naturally lean. Your body type excels in activities requiring both endurance and power, like cycling, swimming, climbing, or martial arts.",
+      "detailed_analysis": [
+        "Your ecto-mesomorphic combination creates an ideal physique for many athletic endeavors and aesthetic goals. You blend the lean efficiency of the ectomorph with the muscle-building capacity of the mesomorph, resulting in a body that can achieve excellent definition while building quality muscle mass. This combination often produces the coveted 'fitness model' physique - lean, defined, and athletic without excessive bulk. Your metabolism runs efficiently while still allowing for muscle development with proper training and nutrition.",
+        "Nutritionally, you need to balance the higher caloric needs of your ectomorphic tendencies with strategic nutrient timing typical of mesomorphic training. You require adequate calories to fuel your active metabolism and support muscle growth, but you have more dietary flexibility than pure ectomorphs. Focus on nutrient timing around workouts - higher carbohydrates pre and post-training with steady protein throughout the day. Your lean nature allows for more dietary variety while maintaining excellent body composition with reasonable consistency.",
+        "Your training approach can successfully pursue both muscle building and endurance goals simultaneously more effectively than other body types. Include both strength training for muscle development and cardiovascular work for endurance - your body adapts well to varied training stimuli. Progressive overload in resistance training will build quality muscle, while your natural endurance capabilities allow for extensive cardiovascular training without significant muscle loss. Recovery needs are moderate - typically 24-48 hours between training the same muscle groups.",
+        "Long-term success involves maximizing both your aesthetic potential and athletic performance capabilities. You have the genetic foundation to maintain an impressive physique throughout life while excelling in endurance and strength activities. Your challenge is choosing focus when needed - while you can do both strength and endurance well, periodizing your training toward specific goals will yield the best results. As you age, your lean genetics and muscle-building capacity provide excellent protection against metabolic decline and age-related muscle loss."
+      ],
+      "foods": [
+        "Adequate calories to support active metabolism and muscle growth",
+        "Strategic carbohydrate timing around workouts",
+        "Consistent protein intake throughout the day",
+        "Balanced approach with dietary flexibility",
+        "Higher calorie density during muscle-building phases"
+      ],
+      "exercises": [
+        "Combined strength and endurance training programs",
+        "Progressive resistance training for muscle development",
+        "Cardiovascular exercise without fear of muscle loss",
+        "Sport-specific training for athletic pursuits",
+        "Periodized approach alternating between strength and endurance focus"
+      ]
+    },
+    "meso_endo": {
+      "title": "Meso-Endomorph (The Powerful Builder)",
+      "subtitle": "Athletic with strength, builds muscle easily, needs cardio for definition",
+      "basic_analysis": "You combine mesomorphic athleticism with endomorphic strength and muscle-building capacity, creating a powerful physique that builds muscle exceptionally well. While you may need to work harder for definition than pure mesomorphs, you have superior strength potential and muscle-building capacity. Your body type excels in strength sports, powerlifting, and activities requiring both power and muscle mass.",
+      "detailed_analysis": [
+        "Your meso-endomorphic combination provides exceptional muscle-building potential with natural athletic ability. You possess the mesomorph's balanced proportions and training response combined with the endomorph's superior strength and mass-building capacity. This creates a physique capable of impressive muscle development and power generation, though achieving definition requires strategic fat loss approaches. Your body readily builds both muscle and strength, making you naturally suited for power-based athletics and physique development.",
+        "Nutritionally, you need a strategic approach that supports your excellent muscle-building capacity while managing your tendency toward fat storage. Moderate to higher protein intake (1.2-1.4g per pound) supports your muscle development, while carbohydrate timing around workouts maximizes their muscle-building benefits while minimizing fat storage. You may benefit from carb cycling or periodic lower-carb phases to maintain leanness. Your caloric needs are moderate to high during muscle-building phases but require careful management during fat-loss phases.",
+        "Your training should emphasize heavy resistance work to maximize your natural strength and muscle-building advantages, combined with strategic cardiovascular exercise for body composition management. You excel at progressive overload and compound movements, building impressive strength and size relatively quickly. Regular cardio is essential for revealing the muscle definition underneath - both steady-state and interval training can be effective. You may need longer cutting phases than other body types to achieve maximum definition.",
+        "Long-term success involves leveraging your superior muscle-building genetics while developing strategies for maintaining leanness. You have the potential to build and maintain more muscle mass than most other body types throughout life, providing excellent metabolic benefits and functional strength as you age. Your challenge is body composition management, but your advantage is the ability to build impressive physiques with the right approach. Focus on building substantial muscle mass in your younger years and maintaining it through consistent training and strategic nutrition as you age."
+      ],
+      "foods": [
+        "Higher protein intake to support muscle building",
+        "Strategic carbohydrate timing and cycling",
+        "Moderate calories with periodic cutting phases",
+        "Emphasis on whole, unprocessed foods",
+        "Structured meal timing for body composition goals"
+      ],
+      "exercises": [
+        "Heavy progressive resistance training",
+        "Regular cardiovascular exercise for definition",
+        "Compound movements emphasizing strength development",
+        "Periodized approach with distinct bulking and cutting phases",
+        "Extended cutting phases to reveal muscle definition"
+      ]
+    },
+    "endo_ecto": {
+      "title": "Endo-Ectomorph (The Steady Performer)",
+      "subtitle": "Mixed traits, variable metabolism, responds well to consistency",
+      "basic_analysis": "You display a unique combination of endomorphic and ectomorphic traits, creating a body type with variable characteristics that can shift based on lifestyle factors. Your metabolism and body composition can vary significantly based on diet, training, and life circumstances. This variability means you respond exceptionally well to consistent habits and can achieve diverse physique goals with the right approach.",
+      "detailed_analysis": [
+        "Your endo-ectomorphic combination creates a dynamic body type that can express different characteristics based on your lifestyle choices. You may find that your body composition, energy levels, and training response vary significantly with changes in diet, exercise, stress, and life circumstances. This variability is actually an advantage - you can adapt your physique toward either more ectomorphic leanness or more endomorphic strength depending on your goals and approach.",
+        "Nutritionally, you benefit from consistency and attention to how your body responds to different dietary approaches. You may find that your optimal nutrition strategy changes with your activity level, stress, and goals. During higher activity periods, you may need more calories and carbohydrates like an ectomorph. During lower activity periods, you may need more controlled intake like an endomorph. Pay attention to your body's signals and adjust accordingly. Consistency in meal timing and quality tends to produce the best results.",
+        "Your training response can vary based on your current lifestyle and stress levels. During high-energy periods, you may respond well to more intense, frequent training. During high-stress periods, you may need more moderate, recovery-focused approaches. You typically respond well to periodized training that varies intensity and volume throughout the year. Both strength training and cardiovascular exercise are important for your body type, with the emphasis shifting based on your current goals and life circumstances.",
+        "Long-term success for your body type requires developing self-awareness about how your body responds to different lifestyle factors and adjusting accordingly. Your variability is an advantage when managed properly - you can adapt your physique and performance to meet changing life demands and goals. Focus on building consistent healthy habits while remaining flexible enough to adjust your approach as needed. Your ability to adapt makes you resilient to life's changes while still capable of achieving impressive results when you're consistent with your efforts."
+      ],
+      "foods": [
+        "Flexible approach that adapts to activity and stress levels",
+        "Consistent meal timing and quality",
+        "Attention to individual response to different foods",
+        "Balanced macronutrients with adjustments based on goals",
+        "Higher calories during high-activity periods, controlled intake during low-activity periods"
+      ],
+      "exercises": [
+        "Periodized training that varies with life circumstances",
+        "Both strength and cardiovascular exercise",
+        "Flexibility to adjust intensity based on stress and recovery",
+        "Consistency in basic movement patterns",
+        "Attention to recovery and stress management"
+      ]
+    },
+    "balanced": {
+      "title": "Balanced Type (The Adaptable Athlete)",
+      "subtitle": "Even traits across all types, highly adaptable, responds to focus",
+      "basic_analysis": "You display relatively even characteristics across all body types, creating a balanced and adaptable physique that can develop in multiple directions based on your focus and goals. Your body doesn't strongly favor any single body type pattern, giving you the flexibility to shape your physique and performance toward your specific objectives through targeted training and nutrition approaches.",
+      "detailed_analysis": [
+        "Your balanced body type represents genetic neutrality across the classic somatotype classifications, providing you with exceptional adaptability in achieving diverse physique and performance goals. Without strong genetic predispositions toward extreme leanness, muscle building, or fat storage, your body composition and athletic performance are largely determined by your lifestyle choices, training focus, and nutritional approach. This neutrality is actually a significant advantage - you're not fighting against strong genetic tendencies and can shape your body toward virtually any reasonable goal.",
+        "Nutritionally, you have the flexibility to succeed with various dietary approaches based on your current goals and preferences. Your balanced metabolism means you can adapt to higher-carb approaches during endurance phases, higher-protein approaches during muscle-building phases, or more controlled approaches during fat-loss phases. The key is matching your nutrition to your training and goals rather than following rigid rules. You respond well to gradual changes and can sustain various eating patterns without extreme difficulty.",
+        "Your training approach should be goal-specific and periodized to take advantage of your adaptability. You can successfully pursue muscle building, fat loss, endurance development, or strength gains by focusing your training toward those specific adaptations. Your body doesn't have strong preferences, so you can excel at whatever you consistently work toward. This makes periodization particularly effective - you can cycle through different training phases throughout the year to achieve multiple goals or focus intensively on single objectives.",
+        "Long-term success for your balanced type involves leveraging your adaptability while developing the discipline to maintain focus on your priorities. Your genetic neutrality means your results are largely determined by your consistency and effort rather than working with or against strong genetic tendencies. This places more responsibility on your lifestyle choices but also provides more control over your outcomes. You have the potential to achieve diverse goals throughout your life by adjusting your approach as your priorities and circumstances change."
+      ],
+      "foods": [
+        "Flexible dietary approach matched to current goals",
+        "Balanced macronutrients as a starting point",
+        "Adaptation based on training phase and objectives",
+        "Gradual changes rather than extreme approaches",
+        "Consistency in overall food quality and timing"
+      ],
+      "exercises": [
+        "Goal-specific and periodized training programs",
+        "Flexibility to pursue diverse fitness objectives",
+        "Both strength and cardiovascular components",
+        "Progressive approach tailored to current priorities",
+        "Regular assessment and adjustment of training focus"
+      ]
+    }
+  }
+}

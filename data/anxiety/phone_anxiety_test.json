@@ -1,0 +1,696 @@
+{
+  "testId": "phone-anxiety",
+  "title": "Phone Anxiety Severity Test",
+  "description": "Why does it ring like a death knell?",
+  "traits": {
+    "fearless": "No phone anxiety - calls are just communication tools",
+    "confident": "Comfortable with most phone interactions",
+    "strategic": "Thoughtful about phone use but functional",
+    "cautious": "Mild phone hesitation but manages well",
+    "nervous": "Noticeable anxiety around phone calls",
+    "avoidant": "Actively avoids phone interactions when possible",
+    "overwhelmed": "Phone calls create significant stress responses",
+    "terrified": "Severe fear of phone communication",
+    "panicked": "Phone calls trigger panic responses",
+    "phonephobic": "Complete avoidance of phone communication"
+  },
+  "questions": [
+    {
+      "question": "Your phone starts ringing unexpectedly while you're relaxing. Your immediate visceral reaction is:",
+      "answers": [
+        {
+          "text": "Curiosity about who's calling - could be interesting news",
+          "traits": {"fearless": 5, "confident": 4, "strategic": 2, "cautious": 1, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Check the caller ID first to assess the situation",
+          "traits": {"fearless": 2, "confident": 3, "strategic": 5, "cautious": 4, "nervous": 2, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "A brief moment of dread - what do they want now?",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 3, "overwhelmed": 2, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Instant panic mode - heart races, palms sweat",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 2}
+        },
+        {
+          "text": "Fight-or-flight response - consider throwing phone out window",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 5, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "Making an outgoing phone call to schedule a doctor's appointment requires:",
+      "answers": [
+        {
+          "text": "Just dialing when I need the appointment - simple task",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 3, "cautious": 2, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Brief mental preparation of what I want to say",
+          "traits": {"fearless": 3, "confident": 4, "strategic": 5, "cautious": 4, "nervous": 2, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Writing down a detailed script with possible scenarios",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 3, "overwhelmed": 3, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Hours of mental preparation, rehearsal, and procrastination",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 4, "overwhelmed": 5, "terrified": 4, "panicked": 3, "phonephobic": 2}
+        },
+        {
+          "text": "I simply don't make these calls - I show up in person or avoid it",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 3, "overwhelmed": 2, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "When an unknown number calls while you're with friends or family:",
+      "answers": [
+        {
+          "text": "Answer it normally - might be important",
+          "traits": {"fearless": 5, "confident": 4, "strategic": 2, "cautious": 1, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Let it ring and check the voicemail later privately",
+          "traits": {"fearless": 2, "confident": 3, "strategic": 5, "cautious": 4, "nervous": 2, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Silence it immediately and feel embarrassed about the interruption",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 3, "overwhelmed": 2, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Watch it ring in absolute horror while everyone stares",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 2}
+        },
+        {
+          "text": "Excuse myself to another room to avoid the social pressure",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your relationship with voicemail notifications could best be described as:",
+      "answers": [
+        {
+          "text": "Normal - I check them when convenient and respond appropriately",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 4, "cautious": 3, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Slightly anxious but I listen within a day or two",
+          "traits": {"fearless": 2, "confident": 3, "strategic": 4, "cautious": 5, "nervous": 3, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Stressful - I avoid listening for days, building up dread",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 2, "nervous": 5, "avoidant": 4, "overwhelmed": 3, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Paralyzing - I delete them without listening to avoid anxiety",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 3}
+        },
+        {
+          "text": "Existential crisis - voicemails make me question my life choices",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your phone's ringtone and notification settings reveal:",
+      "answers": [
+        {
+          "text": "Normal ringtone at reasonable volume - phones should ring",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 3, "cautious": 2, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Calm, non-startling tone that won't cause panic",
+          "traits": {"fearless": 2, "confident": 3, "strategic": 5, "cautious": 4, "nervous": 2, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Always on vibrate to avoid the jarring sound",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 4, "overwhelmed": 3, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Permanently on silent mode - sounds trigger anxiety",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 3}
+        },
+        {
+          "text": "Phone stays powered off most of the time",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "When you need to order food and apps aren't working:",
+      "answers": [
+        {
+          "text": "Call the restaurant - it's actually faster than apps",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 3, "cautious": 2, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "I'll call if I'm really hungry, but prefer digital ordering",
+          "traits": {"fearless": 3, "confident": 4, "strategic": 5, "cautious": 4, "nervous": 2, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Find another restaurant with working apps - no phone calls",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 4, "overwhelmed": 3, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "I'd rather cook at home or starve than make that call",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 3}
+        },
+        {
+          "text": "Get someone else to order for me or go without food",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "Phone conversations, even with people you know well, feel like:",
+      "answers": [
+        {
+          "text": "Natural talking, just without seeing facial expressions",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 4, "cautious": 3, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Slightly awkward without visual cues but manageable",
+          "traits": {"fearless": 2, "confident": 3, "strategic": 5, "cautious": 4, "nervous": 2, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Performance anxiety - like I'm on stage being judged",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 3, "overwhelmed": 3, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Psychological torture where every word is scrutinized",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 3}
+        },
+        {
+          "text": "Near-death experiences that I barely survive emotionally",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "The thought of calling to schedule important appointments triggers:",
+      "answers": [
+        {
+          "text": "Nothing special - it's an efficient way to book things",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 3, "cautious": 2, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Mild inconvenience but I handle it like an adult",
+          "traits": {"fearless": 3, "confident": 4, "strategic": 5, "cautious": 4, "nervous": 2, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Weeks of procrastination before finally making the call",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 4, "overwhelmed": 3, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Complete avoidance - I just don't schedule things that require calling",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 3}
+        },
+        {
+          "text": "Restructuring my entire life around places with online booking",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "When your phone battery dies, your emotional response is:",
+      "answers": [
+        {
+          "text": "Annoyed - need to charge it and stay connected",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 4, "cautious": 3, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Mixed feelings - relief from calls but concern about emergencies",
+          "traits": {"fearless": 2, "confident": 3, "strategic": 5, "cautious": 4, "nervous": 3, "avoidant": 2, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Secret relief - temporary freedom from potential calls",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 4, "overwhelmed": 3, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Pure bliss - it's like a surprise vacation from communication",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 3, "phonephobic": 2}
+        },
+        {
+          "text": "Suspicious that I might have let it die on purpose",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "Missed call notifications create what kind of internal narrative:",
+      "answers": [
+        {
+          "text": "\"I'll call them back when I have time to talk properly\"",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 4, "cautious": 3, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "\"I'll text them first to see what they needed\"",
+          "traits": {"fearless": 2, "confident": 3, "strategic": 5, "cautious": 4, "nervous": 3, "avoidant": 2, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "\"What if it was an emergency? What if they're upset I didn't answer?\"",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 3, "overwhelmed": 4, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "\"I'll just pretend I never saw this notification\"",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 4, "overwhelmed": 3, "terrified": 5, "panicked": 3, "phonephobic": 2}
+        },
+        {
+          "text": "\"Time to consider changing my phone number again\"",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "Video calls compared to regular phone calls are:",
+      "answers": [
+        {
+          "text": "Actually better - seeing faces makes communication easier",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 3, "cautious": 2, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "About the same level of comfort for me",
+          "traits": {"fearless": 3, "confident": 4, "strategic": 5, "cautious": 3, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Somehow even worse - now they can see my panic too",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 3, "overwhelmed": 4, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "My absolute worst nightmare scenario - audio AND visual anxiety",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 3}
+        },
+        {
+          "text": "I'd rather quit my job than do a video call",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "Phone calls at work or school make you feel:",
+      "answers": [
+        {
+          "text": "Professional - it's just part of effective communication",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 4, "cautious": 3, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Competent but I prefer email when possible",
+          "traits": {"fearless": 2, "confident": 3, "strategic": 5, "cautious": 4, "nervous": 2, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Anxious - I delegate phone tasks to others whenever possible",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 4, "overwhelmed": 3, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Like I'm failing at basic adult responsibilities",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 3}
+        },
+        {
+          "text": "Like I need to find a career that doesn't involve human contact",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your voicemail greeting reveals your relationship with phone communication:",
+      "answers": [
+        {
+          "text": "Professional, personalized message that represents me well",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 4, "cautious": 3, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Generic preset message - functional but impersonal",
+          "traits": {"fearless": 2, "confident": 3, "strategic": 5, "cautious": 4, "nervous": 3, "avoidant": 2, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "I never bothered setting one up - too much anxiety",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 2, "nervous": 5, "avoidant": 4, "overwhelmed": 3, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "My voicemail box is permanently full to prevent messages",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 3}
+        },
+        {
+          "text": "Voicemail is disabled - I don't acknowledge its existence",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "How has your phone anxiety affected your life opportunities:",
+      "answers": [
+        {
+          "text": "It hasn't - I don't have phone anxiety to speak of",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 4, "cautious": 3, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Minor inconveniences but nothing that limits my choices",
+          "traits": {"fearless": 2, "confident": 3, "strategic": 5, "cautious": 4, "nervous": 3, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "I've had to be creative about working around phone requirements",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 4, "overwhelmed": 3, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "I've turned down jobs or opportunities that require phone use",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 3}
+        },
+        {
+          "text": "I've structured my entire existence around avoiding phone contact",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "Customer service calls when you have a legitimate problem:",
+      "answers": [
+        {
+          "text": "I handle them efficiently - it's the fastest way to solve issues",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 3, "cautious": 2, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "I prepare thoroughly but can advocate for myself when needed",
+          "traits": {"fearless": 2, "confident": 3, "strategic": 5, "cautious": 4, "nervous": 2, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Only as an absolute last resort after trying everything else",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 4, "overwhelmed": 3, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "I live with problems rather than call customer service",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 3}
+        },
+        {
+          "text": "Problems? What problems? I have no problems that require calling",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "When the phone rings during dinner, movies, or intimate moments:",
+      "answers": [
+        {
+          "text": "I answer if it seems urgent, otherwise call back later",
+          "traits": {"fearless": 5, "confident": 4, "strategic": 5, "cautious": 3, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "I let it ring and enjoy my uninterrupted time",
+          "traits": {"fearless": 3, "confident": 4, "strategic": 5, "cautious": 4, "nervous": 2, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "The ringing completely ruins my mood and concentration",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 3, "overwhelmed": 4, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "My appetite/enjoyment completely disappears",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 3}
+        },
+        {
+          "text": "My phone lives in another room during important moments",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your preferred method of resolving conflicts or having serious conversations:",
+      "answers": [
+        {
+          "text": "Phone calls allow for real-time dialogue and emotional connection",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 2, "cautious": 1, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Text when possible, call when tone and nuance matter",
+          "traits": {"fearless": 2, "confident": 3, "strategic": 5, "cautious": 4, "nervous": 2, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Text-only please - no verbal confrontation ever",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 4, "overwhelmed": 3, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Email or written communication only - need time to process",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 3}
+        },
+        {
+          "text": "Carrier pigeon, smoke signals, anything but verbal communication",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "Conference calls or group calls trigger what response:",
+      "answers": [
+        {
+          "text": "No different than in-person meetings - just another communication tool",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 3, "cautious": 2, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Manageable as long as I can stay on mute most of the time",
+          "traits": {"fearless": 2, "confident": 3, "strategic": 5, "cautious": 4, "nervous": 3, "avoidant": 2, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Multi-layered anxiety festivals that I dread for days beforehand",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 3, "overwhelmed": 4, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Legitimate reasons to call in 'sick' to work",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 3}
+        },
+        {
+          "text": "The reason I choose to work completely alone or freelance",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "In genuine emergency situations requiring immediate phone calls:",
+      "answers": [
+        {
+          "text": "I would call 911 or emergency services without hesitation",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 5, "cautious": 4, "nervous": 2, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "I'd hesitate briefly but adrenaline would override my anxiety",
+          "traits": {"fearless": 2, "confident": 3, "strategic": 4, "cautious": 5, "nervous": 4, "avoidant": 2, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "I'd text someone else to call for me while I handle the crisis",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 4, "overwhelmed": 3, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "I'd drive myself to the hospital rather than call an ambulance",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 3}
+        },
+        {
+          "text": "I'd accept my fate rather than make that call",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your mastery of basic phone etiquette and conversation skills:",
+      "answers": [
+        {
+          "text": "Natural conversationalist - phones don't change my communication style",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 3, "cautious": 2, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "I know the basics and can handle most professional situations",
+          "traits": {"fearless": 3, "confident": 4, "strategic": 5, "cautious": 4, "nervous": 2, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "I completely forget how to speak like a normal human being",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 3, "overwhelmed": 4, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "I sound like an alien attempting to mimic human speech patterns",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 3}
+        },
+        {
+          "text": "Words? Language? I make incomprehensible sounds and hang up",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "When you must leave a voicemail message for someone:",
+      "answers": [
+        {
+          "text": "I leave clear, concise messages with all necessary information",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 4, "cautious": 3, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "I stumble a bit but manage to convey the important points",
+          "traits": {"fearless": 2, "confident": 3, "strategic": 5, "cautious": 4, "nervous": 3, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "I hang up instead of leaving a message and text them",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 4, "overwhelmed": 3, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Word salad panic - nothing I say makes logical sense",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 3}
+        },
+        {
+          "text": "I leave only breathing sounds, realize my mistake, and hang up in horror",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your dream phone feature would fundamentally solve:",
+      "answers": [
+        {
+          "text": "Better sound quality and connection reliability",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 4, "cautious": 3, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Text preview of what callers want before I decide to answer",
+          "traits": {"fearless": 2, "confident": 3, "strategic": 5, "cautious": 4, "nervous": 3, "avoidant": 2, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "AI assistant to answer and handle all calls for me",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 4, "overwhelmed": 3, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Permanent do-not-disturb mode that actually prevents all calls",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 3}
+        },
+        {
+          "text": "Self-destruct button that eliminates phones from existence",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "Phone calls from close family members trigger:",
+      "answers": [
+        {
+          "text": "Happy anticipation - I love staying connected with family",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 3, "cautious": 2, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Mild preference for them to text first, but I'll answer",
+          "traits": {"fearless": 2, "confident": 3, "strategic": 5, "cautious": 4, "nervous": 3, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Immediate assumption that someone died or there's an emergency",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 3, "overwhelmed": 4, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "I let family calls ring out and text them back instead",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 3}
+        },
+        {
+          "text": "My family has learned to communicate with me only through intermediaries",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "The sound of other people's phones ringing in public affects you how:",
+      "answers": [
+        {
+          "text": "Doesn't bother me - it's just background noise of modern life",
+          "traits": {"fearless": 5, "confident": 5, "strategic": 4, "cautious": 3, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Mildly annoying but I can tune it out",
+          "traits": {"fearless": 3, "confident": 4, "strategic": 5, "cautious": 4, "nervous": 2, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Creates sympathetic anxiety - I feel their potential phone stress",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 2, "cautious": 3, "nervous": 5, "avoidant": 3, "overwhelmed": 3, "terrified": 2, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Triggers my own phone anxiety and panic response",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 2, "avoidant": 3, "overwhelmed": 4, "terrified": 5, "panicked": 4, "phonephobic": 3}
+        },
+        {
+          "text": "I leave the area immediately - can't handle the sound",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 3, "panicked": 4, "phonephobic": 5}
+        }
+      ]
+    },
+    {
+      "question": "If you had to choose between making one phone call or giving a public speech:",
+      "answers": [
+        {
+          "text": "Phone call easily - public speaking is much more terrifying",
+          "traits": {"fearless": 5, "confident": 4, "strategic": 3, "cautious": 2, "nervous": 1, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Both are challenging but I'd choose based on the specific situation",
+          "traits": {"fearless": 3, "confident": 5, "strategic": 4, "cautious": 3, "nervous": 2, "avoidant": 1, "overwhelmed": 1, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "Public speech - at least I can see my audience and read the room",
+          "traits": {"fearless": 1, "confident": 2, "strategic": 3, "cautious": 4, "nervous": 5, "avoidant": 3, "overwhelmed": 2, "terrified": 1, "panicked": 1, "phonephobic": 1}
+        },
+        {
+          "text": "I'd rather do neither and find a third option",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 2, "nervous": 3, "avoidant": 4, "overwhelmed": 5, "terrified": 4, "panicked": 3, "phonephobic": 2}
+        },
+        {
+          "text": "This is an impossible choice - I'd fake my own death instead",
+          "traits": {"fearless": 1, "confident": 1, "strategic": 1, "cautious": 1, "nervous": 1, "avoidant": 2, "overwhelmed": 3, "terrified": 4, "panicked": 5, "phonephobic": 5}
+        }
+      ]
+    }
+  ],
+  "results": {
+    "fearless": {
+      "title": "The Phone Warrior",
+      "description": "You answer unknown numbers like a psychopath in the best possible way. Phone anxiety? Never heard of it. While others are spending 20 minutes scripting their pizza orders, you're out here making cold calls for fun and probably having actual conversations with telemarketers just because you can. Your superpower is treating phones like the communication tools they were originally designed to be. You probably think everyone else is being completely ridiculous about phone anxiety, and honestly, you might be right. You're keeping the noble art of actual voice conversation alive in a world that's forgotten how to talk without emojis.",
+      "extended": "Your fearless approach to phone communication puts you in a rare category in modern society. You possess a communication confidence that many people have lost in the digital age. This trait likely serves you well in professional settings and personal relationships, as you can handle urgent matters efficiently and maintain genuine human connections through voice communication.\n\nYour phone fearlessness probably stems from strong self-confidence and excellent communication skills. You understand that phones are simply tools for human connection, not sources of judgment or anxiety. This perspective allows you to approach calls with curiosity rather than dread.\n\nIn a world where phone anxiety is increasingly common, your comfort with calls makes you incredibly valuable in both personal and professional contexts. You're likely the person others rely on to make important calls, handle customer service issues, or navigate complex situations that require real-time communication.\n\nYour challenge might be understanding and empathizing with those who struggle with phone anxiety. Your natural confidence could make it difficult to relate to the genuine fear others experience. Consider this a superpower that comes with responsibility - you can help others gradually build their phone confidence through patience and understanding."
+    },
+    "confident": {
+      "title": "The Phone Pro",
+      "description": "You've achieved phone mastery without the fearless abandon of a true warrior. You handle phone calls with confidence and competence, treating them as just another tool in your communication arsenal. While you might prefer face-to-face conversations, phones don't trigger any existential dread. You're the person others come to when they need someone to make an important call, and you actually deliver results.",
+      "extended": "Your confident relationship with phones represents a healthy balance between comfort and wisdom. You've maintained the ability to use phones effectively while adapting to modern communication preferences. This makes you highly functional in both personal and professional contexts.\n\nYour phone confidence likely stems from good communication skills and a practical approach to technology. You see phones as tools to accomplish goals rather than sources of anxiety or judgment. This perspective allows you to remain calm and effective during important calls.\n\nIn professional settings, your phone confidence is a significant advantage. You can handle business calls, customer service interactions, and urgent communications without the paralysis that affects many people. This reliability makes you valuable to employers and trusted by colleagues.\n\nYour balanced approach - confident but not reckless - shows emotional intelligence about communication. You understand when calls are necessary and when other methods might be more appropriate. This wisdom helps you navigate modern communication challenges effectively."
+    },
+    "strategic": {
+      "title": "The Selective Answerer", 
+      "description": "You've mastered the sophisticated art of strategic phone use in the modern era. Unknown numbers go straight to voicemail like they should, but you can actually make calls when life demands it. You prefer texting for casual conversation but won't let phone anxiety completely ruin your existence or limit your opportunities. This is what normal, functional phone behavior looks like in 2024 - cautious but competent, strategic but not paralyzed.",
+      "extended": "Your strategic approach to phone communication demonstrates sophisticated social intelligence. You've successfully adapted to modern communication norms while maintaining the necessary skills for important phone interactions. This balance shows remarkable emotional intelligence.\n\nYour phone strategy likely involves careful consideration of context, relationship, and urgency before deciding whether to call, text, or use other communication methods. This thoughtful approach prevents unnecessary anxiety while ensuring important matters receive appropriate attention.\n\nProfessionally, your strategic communication style probably serves you well. You can handle necessary phone interactions competently while preferring more controlled communication methods when possible. This approach reduces stress while maintaining effectiveness.\n\nYour ability to assess situations and choose appropriate communication methods shows strong problem-solving skills. You understand that different types of conversations require different approaches, and you've developed the flexibility to adapt accordingly."
+    },
+    "cautious": {
+      "title": "The Thoughtful Caller",
+      "description": "You approach phone calls with healthy caution and preparation. While you don't love unexpected calls, you can handle phone communication when necessary. You've successfully adapted to modern communication preferences while maintaining the necessary phone skills to be a functional adult. You're the bridge between phone warriors and phone avoiders, and people respect your balanced approach.",
+      "extended": "Your cautious approach to phone communication reflects thoughtful consideration of social interactions and personal comfort levels. You've found a middle ground that allows you to function effectively while honoring your natural communication preferences.\n\nYour phone caution likely stems from a desire to communicate thoughtfully and avoid misunderstandings. You understand that phone conversations lack visual cues, making them potentially more challenging than face-to-face interactions. This awareness shows emotional intelligence.\n\nProfessionally, your cautious approach probably leads to well-prepared, effective phone interactions when you do make calls. Your tendency to think before speaking and prepare for important conversations likely results in better outcomes than more impulsive communicators achieve.\n\nYour balanced perspective on phone communication - neither avoiding nor embracing it completely - positions you well for modern life. You can adapt to situations that require phone use while maintaining your preferred communication styles when possible."
+    },
+    "nervous": {
+      "title": "The Reluctant Caller",
+      "description": "Phones are your kryptonite. You've rehearsed ordering pizza more than actors rehearse Shakespeare. Every ring triggers your fight-or-flight response, and you've definitely hung up on someone mid-dial because you panicked. Texting was invented for people like you, and that's not necessarily a bad thing. Your phone anxiety is real but manageable with the right strategies.",
+      "extended": "Your phone nervousness reflects a common struggle in modern society, and recognizing this pattern is the first step toward managing it effectively. Your anxiety around phone calls is genuine and valid, but it doesn't have to control your life choices.\n\nYour phone anxiety likely stems from concerns about being judged, making mistakes, or handling unexpected conversations. These fears are understandable given that phone calls remove visual cues and create pressure for immediate responses. Your nervous response shows you care about communication quality.\n\nThe positive aspect of your phone nervousness is that it often leads to better preparation when you do make calls. You probably script important conversations and think through potential scenarios, which can actually result in more effective communication than spontaneous callers achieve.\n\nYour challenge is preventing phone anxiety from limiting your opportunities or increasing your stress levels. With gradual exposure and specific coping strategies, many people with phone nervousness develop sufficient comfort to handle necessary calls without overwhelming anxiety."
+    },
+    "avoidant": {
+      "title": "The Call Dodger",
+      "description": "You've become incredibly resourceful at avoiding phone calls while still accomplishing most of what you need to do. Your phone anxiety has moved beyond simple nervousness into active avoidance strategies. You've restructured parts of your life around minimizing phone contact, and while this works most of the time, it occasionally limits your opportunities.",
+      "extended": "Your phone avoidance represents a significant adaptation to manage anxiety, but it may be limiting your opportunities and increasing stress in other areas of life. Understanding this pattern is important for making conscious choices about communication strategies.\n\nYour avoidance likely developed as a protective mechanism against the anxiety and discomfort that phone calls trigger. While this strategy provides short-term relief, it can create longer-term challenges when phone communication becomes necessary for important life events.\n\nThe creativity you've developed in finding alternatives to phone calls shows remarkable problem-solving abilities. You've probably become expert at online research, digital communication, and in-person interactions as ways to accomplish goals without calling.\n\nHowever, your avoidance may be creating additional stress through workarounds that are more time-consuming or less effective than phone calls would be. You might also be missing opportunities that require phone interaction or limiting your professional options."
+    },
+    "overwhelmed": {
+      "title": "The Communication Hermit",
+      "description": "Phone calls don't just stress you out - they overwhelm your entire system. You've developed elaborate coping mechanisms and avoidance strategies that work most of the time, but the effort required to maintain a phone-free lifestyle is exhausting. Your phone anxiety has become a significant factor in your daily decision-making process.",
+      "extended": "Your experience of being overwhelmed by phone communication indicates that your nervous system has a strong response to phone interactions. This level of reaction suggests that phone anxiety has moved beyond simple nervousness into a more significant challenge that affects your daily functioning.\n\nYour overwhelmed response to phones likely involves both psychological and physical symptoms that make phone calls feel genuinely threatening to your wellbeing. This reaction is not a character flaw or weakness - it's a genuine stress response that deserves understanding and support.\n\nThe energy you expend managing phone-related anxiety and developing avoidance strategies is considerable and probably affects other areas of your life. Living with this level of communication stress can be exhausting and may impact your overall mental health and life satisfaction.\n\nYour situation suggests that phone anxiety has become a significant factor in your decision-making process, potentially limiting educational, professional, or personal opportunities. This level of impact indicates that seeking professional support could be genuinely beneficial."
+    },
+    "terrified": {
+      "title": "The Phone Avoider",
+      "description": "Your ringtone might as well be a horror movie soundtrack. You'd rather solve problems through interpretive dance than make a phone call. Your voicemail is a graveyard of unanswered anxieties, and phone calls don't just stress you out - they haunt you. Your phone anxiety has moved from inconvenience to life-limiting, affecting your daily functioning and possibly your opportunities.",
+      "extended": "Your terror around phone communication represents a significant anxiety response that likely affects multiple areas of your life. This level of fear goes beyond simple discomfort and may be limiting your opportunities and increasing your overall stress levels.\n\nYour phone terror probably involves intense physical and emotional responses that feel genuinely threatening to your wellbeing. This reaction is a real anxiety condition that deserves professional attention and support, not judgment or dismissal.\n\nThe impact of severe phone anxiety extends beyond communication itself. You may be avoiding educational programs, job opportunities, social connections, or important life tasks that require phone interaction. This limitation can create a cycle where avoidance increases anxiety over time.\n\nYour experience suggests that phone anxiety has become a controlling factor in your life decisions. When communication fear significantly impacts life choices, it's often beneficial to seek professional support from someone who understands anxiety disorders."
+    },
+    "panicked": {
+      "title": "The Communication Ghost",
+      "description": "Phone calls trigger full panic responses in your nervous system. You've structured significant portions of your life around phone avoidance, and the thought of making or receiving calls can ruin your entire day. This level of phone anxiety is affecting your quality of life and deserves professional attention and support.",
+      "extended": "Your panic response to phone communication indicates a severe anxiety reaction that significantly impacts your nervous system and daily functioning. This level of response represents a genuine anxiety disorder that deserves professional attention and compassionate support.\n\nYour panic around phones likely involves intense physical symptoms like rapid heartbeat, sweating, difficulty breathing, or feeling trapped when phones ring or when you need to make calls. These responses are real and valid, not something you can simply overcome through willpower.\n\nThe impact of phone panic extends far beyond communication preferences. You may be structuring significant portions of your life around avoiding phone interactions, which can limit educational, professional, and personal opportunities in ways that affect your overall life satisfaction and goals.\n\nLiving with this level of communication anxiety is exhausting and may be affecting your mental health, relationships, and self-esteem. The constant vigilance required to avoid panic-inducing situations takes enormous emotional energy.\n\nYour experience strongly suggests that professional support would be beneficial. Therapists who specialize in panic disorders and anxiety can provide specific techniques like exposure therapy, cognitive behavioral therapy, or anxiety management strategies. Many people with similar experiences have successfully learned to manage their panic responses and develop comfort with phone communication. This level of anxiety is treatable, and you deserve support in overcoming it."
+    },
+    "phonephobic": {
+      "title": "The Ultimate Phone Avoider",
+      "description": "You've transcended phone anxiety into complete phone rejection. Your phone exists solely for texting and doom-scrolling. You've structured your entire life around never having to call anyone, and if texting didn't exist, you'd probably be a hermit. Alexander Graham Bell is your personal villain, and you've built an elaborate life structure around phone avoidance that's actually impressive in its thoroughness.",
+      "extended": "Your complete rejection of phone communication represents the most severe level of phone anxiety, indicating a specific phobia that has led you to structure your entire life around avoiding phone interactions. This level of avoidance shows both the intensity of your anxiety and your remarkable creativity in finding alternative solutions.\n\nYour phone phobia likely developed as a protective response to overwhelming anxiety, but it has now become a defining factor in your life choices. The elaborate systems you've created to avoid phone contact demonstrate significant problem-solving abilities, even as they may limit your opportunities.\n\nThe impact of complete phone avoidance touches every area of life - education, career, healthcare, relationships, and emergency preparedness. While you've probably developed impressive alternative communication skills, this level of limitation suggests that the phobia itself has become more problematic than the original anxiety.\n\nYour situation represents a genuine anxiety disorder that responds well to professional treatment. Many people with specific phobias, including phone phobia, have successfully learned to manage their fear with appropriate therapeutic support.\n\nConsider that seeking help for phone phobia isn't about forcing yourself to love phone calls - it's about giving yourself the freedom to choose when and how you communicate. Professional support can help you develop coping strategies that allow for phone interaction when necessary while honoring your communication preferences. You've already shown remarkable adaptability in managing this challenge; therapeutic support could help you expand your options while reducing the anxiety that drives the avoidance."
+    }
+  }
+}

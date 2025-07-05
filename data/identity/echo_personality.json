@@ -1,0 +1,2270 @@
+{
+  "test_id": "echo_personality",
+  "title": "Echo Personality",
+  "subtitle": "Who are you when nobody's watching?",
+  "description": "This test reveals the person you become when all social masks fall away - your true self in the darkness of solitude.",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When you're completely alone in your room at 3 AM, scrolling through your phone, what version of yourself emerges?",
+      "answers": [
+        {
+          "id": "q1a1",
+          "text": "The most honest version - I drop all pretense and finally breathe",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 2,
+            "shadow_self": 3,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 4,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q1a2",
+          "text": "Someone who feels frighteningly empty - like I disappear without an audience",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 3,
+            "shadow_self": 2,
+            "mirror_echo": 4,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 4,
+            "masked_reality": 2,
+            "isolated_being": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "q11",
+      "text": "Your secret dreams and fantasies are:",
+      "answers": [
+        {
+          "id": "q11a1",
+          "text": "The purest expression of who I really am beneath everything",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 2,
+            "shadow_self": 3,
+            "mirror_echo": 1,
+            "fragmented_soul": 1,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q11a2",
+          "text": "Borrowed from movies, books, and other people's lives",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 3,
+            "eternal_performer": 3,
+            "shadow_self": 1,
+            "mirror_echo": 5,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 3,
+            "masked_reality": 3,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q11a3",
+          "text": "Dark and disturbing - things I'd never admit to anyone",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 4,
+            "empty_vessel": 1,
+            "masked_reality": 1,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q11a4",
+          "text": "Performed scenarios where I'm always the main character",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 2,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 2,
+            "fragmented_soul": 2,
+            "hidden_truth": 2,
+            "empty_vessel": 2,
+            "masked_reality": 4,
+            "isolated_being": 1
+          }
+        },
+        {
+          "id": "q11a5",
+          "text": "Strangely empty - I struggle to want anything for myself",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 3,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 5,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q12",
+      "text": "If you could erase one aspect of your personality, it would be:",
+      "answers": [
+        {
+          "id": "q12a1",
+          "text": "The masks - I want to be authentically myself all the time",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 3,
+            "shadow_self": 2,
+            "mirror_echo": 2,
+            "fragmented_soul": 2,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 4,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q12a2",
+          "text": "The emptiness - I want to feel like a real person",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 5,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 3,
+            "fragmented_soul": 3,
+            "hidden_truth": 2,
+            "empty_vessel": 5,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q12a3",
+          "text": "The darkness - the parts of me that frighten even myself",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 3,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q12a4",
+          "text": "The compulsive performing - I can't stop even when I want to",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 2,
+            "fragmented_soul": 2,
+            "hidden_truth": 3,
+            "empty_vessel": 2,
+            "masked_reality": 5,
+            "isolated_being": 1
+          }
+        },
+        {
+          "id": "q12a5",
+          "text": "The fragmentation - I want to be one coherent person",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 3,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 3,
+            "fragmented_soul": 5,
+            "hidden_truth": 2,
+            "empty_vessel": 3,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q13",
+      "text": "Your inner monologue sounds like:",
+      "answers": [
+        {
+          "id": "q13a1",
+          "text": "My truest voice - honest, unfiltered, and real",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 2,
+            "shadow_self": 3,
+            "mirror_echo": 1,
+            "fragmented_soul": 1,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q13a2",
+          "text": "White noise and static - barely coherent thoughts",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 3,
+            "fragmented_soul": 4,
+            "hidden_truth": 1,
+            "empty_vessel": 5,
+            "masked_reality": 1,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q13a3",
+          "text": "A narrator describing my life for an invisible audience",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 2,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 2,
+            "fragmented_soul": 2,
+            "hidden_truth": 2,
+            "empty_vessel": 2,
+            "masked_reality": 4,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q13a4",
+          "text": "Something cruel and judgmental that I try to silence",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 3,
+            "hidden_truth": 3,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q13a5",
+          "text": "Multiple voices arguing - I'm never sure which is really me",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 3,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 4,
+            "fragmented_soul": 5,
+            "hidden_truth": 1,
+            "empty_vessel": 3,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q14",
+      "text": "When you're completely honest with yourself about your motivations, you discover they're driven by:",
+      "answers": [
+        {
+          "id": "q14a1",
+          "text": "Authentic desires and values I've always held deep down",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 1,
+            "fragmented_soul": 1,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q14a2",
+          "text": "A desperate need to feel like I exist at all",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 3,
+            "shadow_self": 2,
+            "mirror_echo": 3,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 5,
+            "masked_reality": 2,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q14a3",
+          "text": "Dark impulses I'd rather not examine too closely",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 4,
+            "empty_vessel": 1,
+            "masked_reality": 1,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q14a4",
+          "text": "The need to maintain my carefully constructed image",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 2,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 3,
+            "fragmented_soul": 2,
+            "hidden_truth": 2,
+            "empty_vessel": 2,
+            "masked_reality": 5,
+            "isolated_being": 1
+          }
+        },
+        {
+          "id": "q14a5",
+          "text": "Whatever I think others want from me",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 3,
+            "eternal_performer": 3,
+            "shadow_self": 1,
+            "mirror_echo": 5,
+            "fragmented_soul": 2,
+            "hidden_truth": 1,
+            "empty_vessel": 3,
+            "masked_reality": 3,
+            "isolated_being": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q15",
+      "text": "Your relationship with silence and stillness is:",
+      "answers": [
+        {
+          "id": "q15a1",
+          "text": "Peaceful - it's where I connect with my authentic self",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 1,
+            "fragmented_soul": 1,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q15a2",
+          "text": "Terrifying - without noise, I disappear entirely",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 3,
+            "shadow_self": 2,
+            "mirror_echo": 3,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 5,
+            "masked_reality": 2,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q15a3",
+          "text": "Impossible - I fill it with internal performances and commentary",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 2,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 2,
+            "fragmented_soul": 2,
+            "hidden_truth": 2,
+            "empty_vessel": 2,
+            "masked_reality": 4,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q15a4",
+          "text": "Dangerous - that's when the dark thoughts emerge",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 3,
+            "empty_vessel": 1,
+            "masked_reality": 1,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q15a5",
+          "text": "Chaotic - different fragments of myself compete for attention",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 3,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 3,
+            "fragmented_soul": 5,
+            "hidden_truth": 1,
+            "empty_vessel": 3,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q16",
+      "text": "If you could see yourself from an outside perspective during your most private moments, you would be:",
+      "answers": [
+        {
+          "id": "q16a1",
+          "text": "Proud - finally seeing my authentic self in action",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 1,
+            "fragmented_soul": 1,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q16a2",
+          "text": "Disturbed - watching someone who looks empty and lifeless",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 3,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 5,
+            "masked_reality": 1,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q16a3",
+          "text": "Embarrassed - even alone, I'm clearly performing",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 2,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 2,
+            "fragmented_soul": 2,
+            "hidden_truth": 2,
+            "empty_vessel": 2,
+            "masked_reality": 5,
+            "isolated_being": 1
+          }
+        },
+        {
+          "id": "q16a4",
+          "text": "Horrified - seeing the darkness I keep hidden",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 3,
+            "empty_vessel": 1,
+            "masked_reality": 1,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q16a5",
+          "text": "Confused - watching someone who seems to shift between different people",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 3,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 4,
+            "fragmented_soul": 5,
+            "hidden_truth": 1,
+            "empty_vessel": 3,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q17",
+      "text": "Your biggest fear about being truly known is that people would discover:",
+      "answers": [
+        {
+          "id": "q17a1",
+          "text": "How different my real self is from who they think I am",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 4,
+            "shadow_self": 3,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 4,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q17a2",
+          "text": "That there's nothing there to discover",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 4,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 5,
+            "masked_reality": 2,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q17a3",
+          "text": "The darkness and cruelty I'm capable of",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 4,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q17a4",
+          "text": "That even my 'authentic' self is just another performance",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 3,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 3,
+            "fragmented_soul": 3,
+            "hidden_truth": 2,
+            "empty_vessel": 3,
+            "masked_reality": 5,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q17a5",
+          "text": "That I'm just a collection of pieces stolen from other people",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 3,
+            "eternal_performer": 2,
+            "shadow_self": 1,
+            "mirror_echo": 5,
+            "fragmented_soul": 4,
+            "hidden_truth": 1,
+            "empty_vessel": 3,
+            "masked_reality": 3,
+            "isolated_being": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q18",
+      "text": "When you imagine your death, what concerns you most is:",
+      "answers": [
+        {
+          "id": "q18a1",
+          "text": "That I'll die without ever being truly known",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 2,
+            "eternal_performer": 3,
+            "shadow_self": 2,
+            "mirror_echo": 2,
+            "fragmented_soul": 2,
+            "hidden_truth": 5,
+            "empty_vessel": 2,
+            "masked_reality": 3,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q18a2",
+          "text": "That no one would truly miss the real me - because they never knew me",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 4,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 3,
+            "fragmented_soul": 3,
+            "hidden_truth": 3,
+            "empty_vessel": 4,
+            "masked_reality": 2,
+            "isolated_being": 5
+          }
+        },
+        {
+          "id": "q18a3",
+          "text": "That my legacy would be a performance, not who I really was",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 3,
+            "fragmented_soul": 2,
+            "hidden_truth": 4,
+            "empty_vessel": 2,
+            "masked_reality": 5,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q18a4",
+          "text": "That my dark secrets would finally come to light",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 1,
+            "eternal_performer": 2,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 4,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q18a5",
+          "text": "That it wouldn't matter - I was never really here anyway",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 4,
+            "fragmented_soul": 4,
+            "hidden_truth": 1,
+            "empty_vessel": 5,
+            "masked_reality": 2,
+            "isolated_being": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "q19",
+      "text": "Your most honest self-assessment is that you are:",
+      "answers": [
+        {
+          "id": "q19a1",
+          "text": "Authentic at your core, but forced to hide behind masks for survival",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 3,
+            "shadow_self": 2,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 3,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q19a2",
+          "text": "A void masquerading as a person",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 4,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 5,
+            "masked_reality": 2,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q19a3",
+          "text": "A performer who forgot there was supposed to be a real person underneath",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 3,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 3,
+            "fragmented_soul": 3,
+            "hidden_truth": 2,
+            "empty_vessel": 3,
+            "masked_reality": 5,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q19a4",
+          "text": "Someone with a darkness that would terrify others if they knew",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 4,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q19a5",
+          "text": "A mirror reflecting everyone but yourself",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 3,
+            "eternal_performer": 2,
+            "shadow_self": 1,
+            "mirror_echo": 5,
+            "fragmented_soul": 4,
+            "hidden_truth": 1,
+            "empty_vessel": 4,
+            "masked_reality": 3,
+            "isolated_being": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q20",
+      "text": "If you could send a message to your future self 10 years from now, it would be:",
+      "answers": [
+        {
+          "id": "q20a1",
+          "text": "I hope you finally found the courage to be yourself",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 3,
+            "shadow_self": 2,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 3,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q20a2",
+          "text": "I hope you figured out how to exist",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 3,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 5,
+            "masked_reality": 2,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q20a3",
+          "text": "I hope you learned how to stop performing",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 2,
+            "fragmented_soul": 2,
+            "hidden_truth": 3,
+            "empty_vessel": 2,
+            "masked_reality": 5,
+            "isolated_being": 1
+          }
+        },
+        {
+          "id": "q20a4",
+          "text": "I hope you made peace with the darkness",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 4,
+            "empty_vessel": 1,
+            "masked_reality": 1,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q20a5",
+          "text": "I hope you became someone instead of everyone",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 3,
+            "eternal_performer": 2,
+            "shadow_self": 1,
+            "mirror_echo": 5,
+            "fragmented_soul": 5,
+            "hidden_truth": 2,
+            "empty_vessel": 3,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q21",
+      "text": "Your relationship with your own reflection in windows, mirrors, and screens is:",
+      "answers": [
+        {
+          "id": "q21a1",
+          "text": "Complex - sometimes I see myself, sometimes a stranger",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 2,
+            "shadow_self": 3,
+            "mirror_echo": 2,
+            "fragmented_soul": 5,
+            "hidden_truth": 3,
+            "empty_vessel": 2,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q21a2",
+          "text": "Honest - I see my true self looking back",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 1,
+            "fragmented_soul": 1,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q21a3",
+          "text": "Disturbing - I see emptiness behind my eyes",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 3,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 5,
+            "masked_reality": 1,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q21a4",
+          "text": "Automatic - I immediately adjust to look more presentable",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 2,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 3,
+            "fragmented_soul": 2,
+            "hidden_truth": 2,
+            "empty_vessel": 2,
+            "masked_reality": 5,
+            "isolated_being": 1
+          }
+        },
+        {
+          "id": "q21a5",
+          "text": "Fearful - I might see something I don't want to acknowledge",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 3,
+            "hidden_truth": 3,
+            "empty_vessel": 2,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q22",
+      "text": "If you had to describe your 'true self' in one word, that word would be:",
+      "answers": [
+        {
+          "id": "q22a1",
+          "text": "Hidden - buried but real",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 3,
+            "shadow_self": 3,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 3,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q22a2",
+          "text": "Absent - nothing there to find",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 4,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 5,
+            "masked_reality": 2,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q22a3",
+          "text": "Performed - even to myself",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 2,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 3,
+            "fragmented_soul": 2,
+            "hidden_truth": 2,
+            "empty_vessel": 2,
+            "masked_reality": 5,
+            "isolated_being": 1
+          }
+        },
+        {
+          "id": "q22a4",
+          "text": "Dark - too dangerous to fully reveal",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 4,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q22a5",
+          "text": "Fragmented - pieces scattered everywhere",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 3,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 4,
+            "fragmented_soul": 5,
+            "hidden_truth": 1,
+            "empty_vessel": 3,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q23",
+      "text": "The thing that scares you most about deep introspection is:",
+      "answers": [
+        {
+          "id": "q23a1",
+          "text": "Finding out I'm not who I thought I was",
+          "weights": {
+            "authentic_core": 4,
+            "void_dweller": 2,
+            "eternal_performer": 3,
+            "shadow_self": 3,
+            "mirror_echo": 2,
+            "fragmented_soul": 4,
+            "hidden_truth": 4,
+            "empty_vessel": 2,
+            "masked_reality": 3,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q23a2",
+          "text": "Finding out there's no one there to find",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 4,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 5,
+            "masked_reality": 2,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q23a3",
+          "text": "Discovering how much of me is just performance",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 3,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 3,
+            "fragmented_soul": 3,
+            "hidden_truth": 2,
+            "empty_vessel": 3,
+            "masked_reality": 5,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q23a4",
+          "text": "Unleashing something I can't control",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 3,
+            "hidden_truth": 3,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q23a5",
+          "text": "Realizing I'm just an echo of other people",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 3,
+            "eternal_performer": 2,
+            "shadow_self": 1,
+            "mirror_echo": 5,
+            "fragmented_soul": 4,
+            "hidden_truth": 1,
+            "empty_vessel": 4,
+            "masked_reality": 3,
+            "isolated_being": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q24",
+      "text": "When you imagine yourself at your most vulnerable and alone, you see someone who is:",
+      "answers": [
+        {
+          "id": "q24a1",
+          "text": "Finally authentic and unguarded",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 2,
+            "shadow_self": 3,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q24a2",
+          "text": "Dissolving into nothingness",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 3,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 5,
+            "masked_reality": 1,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q24a3",
+          "text": "Still putting on a show for no one",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 2,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 2,
+            "fragmented_soul": 2,
+            "hidden_truth": 1,
+            "empty_vessel": 2,
+            "masked_reality": 5,
+            "isolated_being": 1
+          }
+        },
+        {
+          "id": "q24a4",
+          "text": "Consumed by darkness and pain",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 3,
+            "hidden_truth": 3,
+            "empty_vessel": 2,
+            "masked_reality": 1,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q24a5",
+          "text": "Shifting between different identities",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 3,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 4,
+            "fragmented_soul": 5,
+            "hidden_truth": 1,
+            "empty_vessel": 3,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q25",
+      "text": "If this test could reveal one truth about you that you've never admitted to yourself, you secretly hope it would be:",
+      "answers": [
+        {
+          "id": "q25a1",
+          "text": "That I'm real and worthy of being known",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 2,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 2,
+            "fragmented_soul": 2,
+            "hidden_truth": 5,
+            "empty_vessel": 2,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q25a2",
+          "text": "That there's still time to become someone",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 5,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 4,
+            "fragmented_soul": 4,
+            "hidden_truth": 2,
+            "empty_vessel": 5,
+            "masked_reality": 2,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q25a3",
+          "text": "That my performances have become who I am",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 2,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 3,
+            "fragmented_soul": 2,
+            "hidden_truth": 2,
+            "empty_vessel": 2,
+            "masked_reality": 5,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q25a4",
+          "text": "That my darkness is also my strength",
+          "weights": {
+            "authentic_core": 4,
+            "void_dweller": 1,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 4,
+            "empty_vessel": 1,
+            "masked_reality": 1,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q25a5",
+          "text": "That all the pieces can somehow fit together",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 3,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 3,
+            "fragmented_soul": 5,
+            "hidden_truth": 2,
+            "empty_vessel": 3,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        }
+      ]
+    }
+  ],
+  "personality_types": {
+    "authentic_core": {
+      "title": "The Hidden Authentic",
+      "subtitle": "The real you, buried beneath layers of protection",
+      "basic_analysis": "You possess a genuine, authentic core that you carefully protect from the world. Unlike those who have lost themselves entirely, you know exactly who you are—you just can't risk showing them. Your tragedy isn't confusion about your identity, but the exhausting burden of hiding your true self. In solitude, you finally breathe and become who you've always been underneath all the careful masks.",
+      "detailed_analysis": [
+        "Your authentic self exists in the quiet moments between performances, in the thoughts you think but never speak, in the version of you that emerges only when you're completely alone. You haven't lost yourself—you've buried yourself so deep that sometimes even you forget where to find the real person underneath.",
+        "The masks you wear aren't who you are; they're armor protecting something precious and vulnerable. You've learned that showing your true self can be dangerous, so you've become an expert at showing people what they want to see while keeping your authentic core safely hidden away.",
+        "In relationships, you struggle with the constant tension between wanting to be known and needing to stay safe. You long for someone who could see through all your protective layers, but you're terrified of what might happen if they actually did. Your love is real, but it's filtered through so many defenses that it often feels distant.",
+        "Your greatest strength is that unlike many others, you haven't lost yourself in the process of surviving. Your authentic self is still there, waiting for the right moment, the right person, or the right circumstances to finally emerge. When you do find the courage to be real, the depth and genuineness you offer will be extraordinary."
+      ]
+    },
+    "void_dweller": {
+      "title": "The Echo Void",
+      "subtitle": "A human-shaped absence searching for substance",
+      "basic_analysis": "You exist in the terrifying space between being and non-being. Without external validation and interaction, you begin to question your own existence. You're not hiding your true self—you're desperately searching for any self at all. In solitude, you don't find yourself; you discover an echoing emptiness where a person should be.",
+      "detailed_analysis": [
+        "Your sense of self is so dependent on others that when alone, you experience a form of existential vertigo. You exist primarily as a reflection, a response, an echo of the people around you. Remove the mirrors, and you're left staring into an abyss that stares back with your own face.",
+        "The emptiness you feel isn't depression—it's a fundamental absence of self-structure. You weren't born empty; something in your development left you without the internal architecture that most people use to maintain a sense of self when no one else is around to confirm their existence.",
+        "In relationships, you become whoever you think the other person needs you to be, not because you're manipulative, but because you genuinely don't know who else to be. Your love is real, but it's the love of a mirror reflecting back what it sees, hoping that reflection is enough to constitute a real person.",
+        "Your path forward involves the slow, careful construction of an internal sense of self that doesn't depend on external validation. This is some of the hardest psychological work possible, but it's also the most essential. You can learn to exist without an audience, but it will require patience and often professional help."
+      ]
+    },
+    "eternal_performer": {
+      "title": "The Eternal Performer",
+      "subtitle": "Always on stage, even in an empty theater",
+      "basic_analysis": "The performance has become so integrated into your being that you can't stop acting even when alone. You're not necessarily fake—you're someone who has confused the role with the person playing it. Even your most private moments feel staged, as if an invisible audience is always watching and judging your every move.",
+      "detailed_analysis": [
+        "You've become so skilled at being what others need that you've lost the ability to exist without a script. Even in complete solitude, you find yourself adjusting your posture, moderating your thoughts, performing emotions rather than simply feeling them. The stage lights never dim in your mind.",
+        "Your performances aren't lies—they're who you think you should be, taken to such an extreme that they've replaced who you actually are. You've optimized yourself for applause, approval, and acceptance so thoroughly that you no longer remember what you were like before you learned to perform.",
+        "In relationships, people often feel like they know you very well, but they're actually intimate with your performance of intimacy. Your love is genuine, but it's love expressed through the character you think your partner wants to love. The tragedy is that they might love the real you even more, if you could find the courage to let that person appear.",
+        "Breaking free from eternal performance requires learning to tolerate the discomfort of being unpolished, unrehearsed, and imperfect. You'll need to practice being boring, awkward, and human. The person underneath your performances is probably far more interesting than any character you could create."
+      ]
+    },
+    "shadow_self": {
+      "title": "The Shadow Dweller",
+      "subtitle": "Guardian of the darkness you've exiled from yourself",
+      "basic_analysis": "You carry within you all the thoughts, impulses, and aspects of yourself that you've deemed too dangerous or unacceptable for public consumption. In solitude, this shadow self emerges—not necessarily evil, but raw, unfiltered, and frighteningly honest about your true thoughts and desires.",
+      "detailed_analysis": [
+        "Your shadow isn't your 'true self' as much as it's your exiled self—all the parts of you that you've pushed into darkness because they didn't fit with who you thought you should be. These aren't necessarily bad things; they're often just honest emotions and desires that feel too intense or inappropriate for social settings.",
+        "When alone, you sometimes feel like a different person entirely, one capable of thoughts and feelings that would shock the people who know your public persona. This isn't multiple personality disorder—it's the natural result of aggressive self-editing, where all the censored parts accumulate in the shadows.",
+        "Your relationship with your shadow is often one of fear and fascination. These aspects of yourself feel both alien and intimately familiar, like meeting a dangerous relative you've heard whispered about but never seen. Learning to integrate rather than exile these parts is crucial for psychological wholeness.",
+        "The path forward involves gradually bringing your shadow into the light—not by acting on every impulse, but by acknowledging these aspects of yourself without shame. Your shadow often contains not just your capacity for darkness, but also your capacity for authentic passion, anger, sexuality, and power."
+      ]
+    },
+    "mirror_echo": {
+      "title": "The Living Mirror",
+      "subtitle": "A reflection seeking an original to mirror",
+      "basic_analysis": "You exist primarily as a reflection of others, absorbing their personalities, mannerisms, and even thoughts until you can't distinguish between what's yours and what you've borrowed. You're not empty like the Void—you're full of everyone except yourself.",
+      "detailed_analysis": [
+        "Your personality is a beautiful, complex mosaic made entirely of pieces stolen from other people. You're incredibly adaptive and empathetic, but this gift has come at the cost of developing your own authentic identity. You become whoever you're with so completely that when alone, you cycle through different absorbed personalities.",
+        "This isn't conscious mimicry—it's unconscious absorption. You pick up the emotional states, speech patterns, values, and even interests of people around you like a psychological sponge. You're so permeable to others that maintaining your own boundaries becomes nearly impossible.",
+        "In relationships, you're initially wonderful to be with because you reflect back exactly what your partner wants to see. But over time, they may feel like they're in a relationship with themselves rather than with another person. Your love is genuine, but it's love expressed through borrowed languages of affection.",
+        "Your journey involves learning to recognize which thoughts and feelings are actually yours versus which ones you've absorbed from others. This requires developing stronger psychological boundaries and spending intentional time alone to discover what emerges when you're not busy reflecting someone else."
+      ]
+    },
+    "fragmented_soul": {
+      "title": "The Fragmented Soul",
+      "subtitle": "A person scattered across multiple selves",
+      "basic_analysis": "You don't have one hidden self—you have many, all competing for space in your psyche. You're like a broken mirror where each shard reflects a different aspect of who you could be, but none of them feel complete or entirely real.",
+      "detailed_analysis": [
+        "Your sense of self shifts not just with different social situations, but seemingly at random. You might wake up feeling like one person and go to bed feeling like someone else entirely. These aren't mood changes—they're fundamental shifts in how you perceive yourself, your values, and your place in the world.",
+        "Each fragment of your personality feels real and authentic when it's active, but you struggle to understand how all these different selves can exist in one person. You might have the scholar, the rebel, the caretaker, the artist, and the cynic all living in your psyche, each with their own opinions and desires.",
+        "This fragmentation often stems from trying to be everything to everyone, or from never being allowed to develop a consistent sense of self. Instead of integrating these aspects, they've remained separate, each one a complete but incomplete version of who you might be.",
+        "Integration doesn't mean choosing one fragment and discarding the others—it means learning how all these aspects can coexist and contribute to a more complete version of yourself. Your complexity isn't a flaw; it's a richness that, when integrated, can make you remarkably dynamic and multifaceted."
+      ]
+    },
+    "hidden_truth": {
+      "title": "The Truth Keeper",
+      "subtitle": "Guardian of secrets too precious or dangerous to share",
+      "basic_analysis": "You possess profound self-knowledge but keep it carefully hidden. Your authentic self isn't lost or fragmented—it's protected by layers of secrecy and privacy. You know exactly who you are; you just can't risk letting others see the full truth.",
+      "detailed_analysis": [
+        "Unlike others who struggle with identity confusion, your challenge is the burden of carrying truths about yourself that feel too intense, unusual, or vulnerable to share with others. You've developed an sophisticated internal life that you guard fiercely from external judgment or misunderstanding.",
+        "Your secrets aren't necessarily dark—they might be dreams too precious to risk ridicule, thoughts too complex to explain, or aspects of yourself too authentic to survive in a world that demands conformity. You've learned that some truths are too valuable to share carelessly.",
+        "This protective instinct serves you well in many ways, but it can also lead to profound loneliness. You long to be truly known while simultaneously being terrified of the vulnerability that true intimacy would require. You're like a rare book kept in a vault—preserved but unread.",
+        "Your path involves learning to share yourself selectively and safely. Not everyone deserves access to your inner world, but some people might be worthy of pieces of your truth. The art is learning to discern who can handle what you have to offer without demanding that you give everything to everyone."
+      ]
+    },
+    "empty_vessel": {
+      "title": "The Empty Vessel",
+      "subtitle": "A container waiting to be filled with purpose",
+      "basic_analysis": "You experience yourself as fundamentally hollow, not because you've lost something, but because you never developed a solid sense of who you are. You're like a beautifully crafted bowl that's never held anything—perfect in form but lacking substance.",
+      "detailed_analysis": [
+        "Your emptiness is different from depression or numbness—it's a structural absence where a sense of self should be. You function well in the world, but there's a persistent feeling that you're going through the motions of a life rather than living one that truly belongs to you.",
+        "This emptiness often stems from never being encouraged to develop your own interests, opinions, or desires. Perhaps you were so focused on meeting others' expectations that you never learned to listen to your own inner voice, or perhaps that voice was silenced so early that it never learned to speak.",
+        "Paradoxically, your emptiness can be a gift—you're not weighed down by false selves or conflicting identities. You're a clean slate with enormous potential for growth and self-creation. Your challenge is learning to fill yourself with things that genuinely resonate with who you want to become.",
+        "Your journey involves patient self-discovery and experimentation. You'll need to try different experiences, relationships, and ways of being to discover what feels authentic. This isn't about finding yourself—it's about creating yourself from the ground up, which is both terrifying and incredibly liberating."
+      ]
+    },
+    "masked_reality": {
+      "title": "The Masked Reality",
+      "subtitle": "Living behind veils that have become your skin",
+      "basic_analysis": "Your masks aren't hiding your true self—they've become your true self. You've worn personas for so long that they've fused with your identity. The question isn't who you are beneath the masks, but how to honor both the necessity of your protection and the person you've become through it.",
+      "detailed_analysis": [
+        "You've become a master of adaptive identity, shifting seamlessly between different versions of yourself depending on context, need, and safety. These aren't false selves—they're real aspects of your personality that you've learned to deploy strategically to navigate a complex world.",
+        "Your masks began as protection but have evolved into tools of connection and survival. You've discovered that different situations and relationships call forth different aspects of who you are, and you've become skilled at presenting the facet of yourself that's most appropriate or effective.",
+        "The challenge comes when you realize you've become so adept at being what others need that you've lost track of what you need. Your masks serve you well, but they can also trap you in patterns of being that no longer fit who you're becoming or where you want to go.",
+        "Rather than trying to strip away all your masks to find some 'authentic core,' your work involves conscious choice about when and how to wear them. You can learn to use your adaptive abilities while also carving out spaces where you can explore and express the parts of yourself that don't serve any purpose except being real."
+      ]
+    },
+    "isolated_being": {
+      "title": "The Isolated Being",
+      "subtitle": "Most yourself when most alone",
+      "basic_analysis": "Solitude doesn't diminish you—it reveals you. You're one of the rare people who becomes more themselves, not less, when stripped of social context. Your challenge isn't finding yourself in isolation; it's learning how to remain yourself when forced back into the social world.",
+      "detailed_analysis": [
+        "You've discovered that your most authentic, creative, and peaceful self emerges in solitude. Away from the noise and expectations of others, you can think clearly, feel deeply, and exist without the constant pressure to perform or adapt. Isolation isn't punishment for you—it's sanctuary.",
+        "Your comfort with aloneness can be both a strength and a limitation. While you're free from the need for constant validation, you might also struggle with the compromises and adaptations that relationships require. You know who you are when alone; the question is whether you can remain that person in company.",
+        "This pattern often develops in people who learned early that others were unpredictable, demanding, or draining. You discovered that you could rely on yourself in ways you couldn't rely on others, and you built a rich internal world that doesn't require external input to function.",
+        "Your growth involves learning to extend your authentic self into relationship with others, rather than seeing social interaction as a departure from your true self. You don't need to become more social, but you might benefit from finding people who can appreciate and support the person you are in solitude."
+      ]
+    }
+  }
+}
+            "empty_vessel": 5,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q1a3",
+          "text": "Still performing, even for myself - I can't turn off the act",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 2,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 3,
+            "fragmented_soul": 2,
+            "hidden_truth": 2,
+            "empty_vessel": 2,
+            "masked_reality": 5,
+            "isolated_being": 1
+          }
+        },
+        {
+          "id": "q1a4",
+          "text": "Someone darker than I'd ever admit - thoughts I'd never speak aloud",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 3,
+            "hidden_truth": 4,
+            "empty_vessel": 2,
+            "masked_reality": 3,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q1a5",
+          "text": "A reflection of everyone I've encountered online - I don't know where they end and I begin",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 3,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 5,
+            "fragmented_soul": 4,
+            "hidden_truth": 1,
+            "empty_vessel": 3,
+            "masked_reality": 3,
+            "isolated_being": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "Your private thoughts about people you love would:",
+      "answers": [
+        {
+          "id": "q2a1",
+          "text": "Reveal how deeply I actually care beneath my protective walls",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 3,
+            "shadow_self": 2,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 3,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q2a2",
+          "text": "Show that even my love feels hollow and performed",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 4,
+            "eternal_performer": 4,
+            "shadow_self": 2,
+            "mirror_echo": 3,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 5,
+            "masked_reality": 4,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q2a3",
+          "text": "Expose resentments and judgments I'd never voice",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 2,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 3,
+            "hidden_truth": 4,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q2a4",
+          "text": "Be contradictory - loving and hating the same person simultaneously",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 3,
+            "eternal_performer": 1,
+            "shadow_self": 4,
+            "mirror_echo": 2,
+            "fragmented_soul": 5,
+            "hidden_truth": 3,
+            "empty_vessel": 2,
+            "masked_reality": 1,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q2a5",
+          "text": "Mirror what I think they want to hear, even in my own head",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 2,
+            "eternal_performer": 3,
+            "shadow_self": 1,
+            "mirror_echo": 5,
+            "fragmented_soul": 2,
+            "hidden_truth": 1,
+            "empty_vessel": 3,
+            "masked_reality": 4,
+            "isolated_being": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "When you catch yourself in the mirror unexpectedly, the person staring back is:",
+      "answers": [
+        {
+          "id": "q3a1",
+          "text": "A stranger wearing my face - someone I barely recognize",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 4,
+            "eternal_performer": 2,
+            "shadow_self": 3,
+            "mirror_echo": 3,
+            "fragmented_soul": 5,
+            "hidden_truth": 2,
+            "empty_vessel": 4,
+            "masked_reality": 2,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q3a2",
+          "text": "Exactly who I've always been - unfiltered and real",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 2,
+            "shadow_self": 3,
+            "mirror_echo": 1,
+            "fragmented_soul": 1,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q3a3",
+          "text": "Nobody - like I'm looking through empty air",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 4,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 5,
+            "masked_reality": 1,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q3a4",
+          "text": "Someone automatically adjusting their expression, even alone",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 2,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 3,
+            "fragmented_soul": 2,
+            "hidden_truth": 2,
+            "empty_vessel": 2,
+            "masked_reality": 5,
+            "isolated_being": 1
+          }
+        },
+        {
+          "id": "q3a5",
+          "text": "Something dangerous that I immediately look away from",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 3,
+            "hidden_truth": 3,
+            "empty_vessel": 2,
+            "masked_reality": 1,
+            "isolated_being": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "Your most private rituals (the things you do when absolutely no one is watching) are:",
+      "answers": [
+        {
+          "id": "q4a1",
+          "text": "Ways to connect with my authentic self - they ground me in who I really am",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 1,
+            "fragmented_soul": 1,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q4a2",
+          "text": "Dark compulsions I'm ashamed of but can't stop",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 3,
+            "hidden_truth": 3,
+            "empty_vessel": 2,
+            "masked_reality": 1,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q4a3",
+          "text": "Still performed - like I'm rehearsing for an invisible audience",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 2,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 3,
+            "fragmented_soul": 2,
+            "hidden_truth": 1,
+            "empty_vessel": 2,
+            "masked_reality": 5,
+            "isolated_being": 1
+          }
+        },
+        {
+          "id": "q4a4",
+          "text": "Attempts to feel something - anything - in the numbness",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 2,
+            "shadow_self": 3,
+            "mirror_echo": 2,
+            "fragmented_soul": 4,
+            "hidden_truth": 1,
+            "empty_vessel": 5,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q4a5",
+          "text": "Copied from others - I don't have any that are truly mine",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 3,
+            "eternal_performer": 2,
+            "shadow_self": 1,
+            "mirror_echo": 5,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 3,
+            "masked_reality": 3,
+            "isolated_being": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "If someone could read your mind during your loneliest moments, they would discover:",
+      "answers": [
+        {
+          "id": "q5a1",
+          "text": "A depth of emotion and authenticity that would surprise them",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 2,
+            "shadow_self": 3,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q5a2",
+          "text": "An echoing void where thoughts should be",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 3,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 5,
+            "masked_reality": 1,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q5a3",
+          "text": "Darkness and rage that would terrify them",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 4,
+            "empty_vessel": 1,
+            "masked_reality": 1,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q5a4",
+          "text": "Scripts and rehearsals for conversations that will never happen",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 2,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 2,
+            "fragmented_soul": 3,
+            "hidden_truth": 2,
+            "empty_vessel": 2,
+            "masked_reality": 5,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q5a5",
+          "text": "Fragments of other people's thoughts and personalities",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 3,
+            "eternal_performer": 2,
+            "shadow_self": 1,
+            "mirror_echo": 5,
+            "fragmented_soul": 4,
+            "hidden_truth": 1,
+            "empty_vessel": 3,
+            "masked_reality": 3,
+            "isolated_being": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "When you're driving alone at night with no destination, your thoughts turn to:",
+      "answers": [
+        {
+          "id": "q6a1",
+          "text": "Dreams and plans I've never shared with anyone - my secret hopes",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q6a2",
+          "text": "How I could disappear entirely and no one would truly miss me",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 2,
+            "shadow_self": 3,
+            "mirror_echo": 2,
+            "fragmented_soul": 3,
+            "hidden_truth": 2,
+            "empty_vessel": 5,
+            "masked_reality": 1,
+            "isolated_being": 5
+          }
+        },
+        {
+          "id": "q6a3",
+          "text": "Conversations I'm having with imaginary people in my head",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 2,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 3,
+            "fragmented_soul": 3,
+            "hidden_truth": 2,
+            "empty_vessel": 2,
+            "masked_reality": 4,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q6a4",
+          "text": "Revenge fantasies and dark scenarios I'd never act on",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 3,
+            "hidden_truth": 3,
+            "empty_vessel": 1,
+            "masked_reality": 1,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q6a5",
+          "text": "Nothing coherent - just fragments and echoes of other people's voices",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 3,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 5,
+            "fragmented_soul": 5,
+            "hidden_truth": 1,
+            "empty_vessel": 4,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "Your reaction to your own unguarded emotions is:",
+      "answers": [
+        {
+          "id": "q7a1",
+          "text": "Relief - finally feeling like myself again",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 1,
+            "fragmented_soul": 1,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q7a2",
+          "text": "Confusion - I'm not sure if they're real or performed",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 3,
+            "eternal_performer": 4,
+            "shadow_self": 1,
+            "mirror_echo": 3,
+            "fragmented_soul": 4,
+            "hidden_truth": 2,
+            "empty_vessel": 3,
+            "masked_reality": 3,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q7a3",
+          "text": "Fear - they reveal parts of me that feel dangerous",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 3,
+            "hidden_truth": 3,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q7a4",
+          "text": "Emptiness - even my emotions feel hollow",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 3,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 5,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q7a5",
+          "text": "Immediate suppression - I quickly bury them again",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 2,
+            "eternal_performer": 4,
+            "shadow_self": 3,
+            "mirror_echo": 2,
+            "fragmented_soul": 2,
+            "hidden_truth": 3,
+            "empty_vessel": 2,
+            "masked_reality": 5,
+            "isolated_being": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "The version of yourself that exists in complete solitude would:",
+      "answers": [
+        {
+          "id": "q8a1",
+          "text": "Be the most genuine version - stripped of all social armor",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 2,
+            "shadow_self": 3,
+            "mirror_echo": 1,
+            "fragmented_soul": 1,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q8a2",
+          "text": "Cease to exist without others to define me",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 5,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 4,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 5,
+            "masked_reality": 2,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q8a3",
+          "text": "Still be performing, even for an audience of none",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 2,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 3,
+            "fragmented_soul": 2,
+            "hidden_truth": 2,
+            "empty_vessel": 2,
+            "masked_reality": 5,
+            "isolated_being": 1
+          }
+        },
+        {
+          "id": "q8a4",
+          "text": "Unleash the darkness I keep carefully contained",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 3,
+            "hidden_truth": 4,
+            "empty_vessel": 1,
+            "masked_reality": 1,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q8a5",
+          "text": "Fracture into all the different people I've absorbed",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 3,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 4,
+            "fragmented_soul": 5,
+            "hidden_truth": 1,
+            "empty_vessel": 3,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "Your relationship with your own memories is:",
+      "answers": [
+        {
+          "id": "q9a1",
+          "text": "Complicated - I'm not sure which ones are real anymore",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 3,
+            "eternal_performer": 3,
+            "shadow_self": 2,
+            "mirror_echo": 3,
+            "fragmented_soul": 5,
+            "hidden_truth": 2,
+            "empty_vessel": 3,
+            "masked_reality": 3,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q9a2",
+          "text": "Cherished - they're proof of my authentic experiences",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 1,
+            "fragmented_soul": 1,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q9a3",
+          "text": "Suspicious - I think I've edited them to fit my narrative",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 2,
+            "eternal_performer": 4,
+            "shadow_self": 3,
+            "mirror_echo": 2,
+            "fragmented_soul": 3,
+            "hidden_truth": 3,
+            "empty_vessel": 2,
+            "masked_reality": 4,
+            "isolated_being": 2
+          }
+        },
+        {
+          "id": "q9a4",
+          "text": "Haunted - they contain versions of me I try to forget",
+          "weights": {
+            "authentic_core": 3,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 3,
+            "hidden_truth": 3,
+            "empty_vessel": 2,
+            "masked_reality": 2,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q9a5",
+          "text": "Blurred - they feel like they happened to someone else",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 4,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 3,
+            "fragmented_soul": 4,
+            "hidden_truth": 1,
+            "empty_vessel": 4,
+            "masked_reality": 2,
+            "isolated_being": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "When no one is around to witness your pain, you:",
+      "answers": [
+        {
+          "id": "q10a1",
+          "text": "Finally allow yourself to feel it fully and authentically",
+          "weights": {
+            "authentic_core": 5,
+            "void_dweller": 1,
+            "eternal_performer": 2,
+            "shadow_self": 3,
+            "mirror_echo": 1,
+            "fragmented_soul": 2,
+            "hidden_truth": 5,
+            "empty_vessel": 1,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q10a2",
+          "text": "Question if the pain is even real without someone to validate it",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 4,
+            "eternal_performer": 3,
+            "shadow_self": 2,
+            "mirror_echo": 4,
+            "fragmented_soul": 3,
+            "hidden_truth": 1,
+            "empty_vessel": 4,
+            "masked_reality": 2,
+            "isolated_being": 3
+          }
+        },
+        {
+          "id": "q10a3",
+          "text": "Still perform it dramatically, even for an empty room",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 2,
+            "eternal_performer": 5,
+            "shadow_self": 1,
+            "mirror_echo": 2,
+            "fragmented_soul": 2,
+            "hidden_truth": 1,
+            "empty_vessel": 2,
+            "masked_reality": 5,
+            "isolated_being": 1
+          }
+        },
+        {
+          "id": "q10a4",
+          "text": "Let it transform into rage and destructive thoughts",
+          "weights": {
+            "authentic_core": 2,
+            "void_dweller": 2,
+            "eternal_performer": 1,
+            "shadow_self": 5,
+            "mirror_echo": 1,
+            "fragmented_soul": 3,
+            "hidden_truth": 3,
+            "empty_vessel": 1,
+            "masked_reality": 1,
+            "isolated_being": 4
+          }
+        },
+        {
+          "id": "q10a5",
+          "text": "Feel nothing - like the pain belongs to someone else",
+          "weights": {
+            "authentic_core": 1,
+            "void_dweller": 4,
+            "eternal_performer": 2,
+            "shadow_self": 2,
+            "mirror_echo": 3,
+            "fragmented_soul": 4,
+            "hidden_truth": 1,

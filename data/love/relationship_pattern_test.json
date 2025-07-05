@@ -1,0 +1,708 @@
+{
+  "testId": "relationship-patterns",
+  "title": "Relationship Pattern Analysis",
+  "description": "Discover your recurring relationship patterns and cycles through deep behavioral analysis",
+  "traits": {
+    "healthy_partnership": "Demonstrates secure attachment and balanced relationship skills",
+    "anxious_attachment": "Shows patterns of relationship anxiety and fear of abandonment", 
+    "controlling_behavior": "Exhibits need to control partner's actions and choices",
+    "emotional_manipulation": "Uses manipulation tactics to get needs met in relationships",
+    "codependent_patterns": "Loses self in relationships and enables partner's dysfunction",
+    "avoidant_attachment": "Maintains emotional distance and fears vulnerability",
+    "jealous_tendencies": "Experiences intense jealousy and possessive behaviors",
+    "dramatic_tendencies": "Creates chaos and drama, confusing intensity with intimacy",
+    "passive_aggressive": "Expresses anger indirectly through withdrawal and silent treatment",
+    "self_sabotage": "Unconsciously destroys relationships when they become too good",
+    "boundary_issues": "Struggles with setting and respecting healthy boundaries",
+    "trauma_bonding": "Attracted to familiar dysfunction and unhealthy dynamics"
+  },
+  "questions": [
+    {
+      "question": "When you feel your partner pulling away emotionally, what's your immediate instinct?",
+      "answers": [
+        {
+          "text": "Give them space and trust they'll come back when ready",
+          "traits": {"healthy_partnership": 5, "avoidant_attachment": 2, "anxious_attachment": 0, "controlling_behavior": 0, "codependent_patterns": 1}
+        },
+        {
+          "text": "Chase harder and try to force closeness through intensity",
+          "traits": {"anxious_attachment": 5, "codependent_patterns": 4, "emotional_manipulation": 3, "controlling_behavior": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "Start analyzing everything I did wrong and apologize excessively",
+          "traits": {"anxious_attachment": 4, "codependent_patterns": 5, "self_sabotage": 3, "boundary_issues": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "Pull away first to protect myself from potential rejection",
+          "traits": {"avoidant_attachment": 5, "self_sabotage": 4, "passive_aggressive": 3, "emotional_manipulation": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "Create drama or conflict to force them to engage with me",
+          "traits": {"dramatic_tendencies": 5, "emotional_manipulation": 4, "anxious_attachment": 3, "controlling_behavior": 2, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "What's your most honest confession about how you handle conflict in relationships?",
+      "answers": [
+        {
+          "text": "I address issues directly but respectfully, even when it's uncomfortable",
+          "traits": {"healthy_partnership": 5, "boundary_issues": 1, "avoidant_attachment": 0, "passive_aggressive": 0, "dramatic_tendencies": 0}
+        },
+        {
+          "text": "I avoid conflict at all costs, even when important issues need addressing",
+          "traits": {"avoidant_attachment": 4, "codependent_patterns": 5, "passive_aggressive": 3, "boundary_issues": 4, "healthy_partnership": 0}
+        },
+        {
+          "text": "I escalate conflicts because fighting feels like passion and connection",
+          "traits": {"dramatic_tendencies": 5, "trauma_bonding": 4, "emotional_manipulation": 3, "anxious_attachment": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "I use emotional manipulation tactics to win arguments",
+          "traits": {"emotional_manipulation": 5, "controlling_behavior": 4, "dramatic_tendencies": 3, "passive_aggressive": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "I shut down completely and give the silent treatment",
+          "traits": {"passive_aggressive": 5, "avoidant_attachment": 4, "emotional_manipulation": 3, "boundary_issues": 2, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "When you think about your relationship history, what pattern keeps repeating?",
+      "answers": [
+        {
+          "text": "I attract partners who need fixing and exhaust myself trying to heal them",
+          "traits": {"codependent_patterns": 5, "trauma_bonding": 4, "self_sabotage": 3, "boundary_issues": 4, "healthy_partnership": 0}
+        },
+        {
+          "text": "I push people away when they get too close because vulnerability terrifies me",
+          "traits": {"avoidant_attachment": 5, "self_sabotage": 4, "boundary_issues": 3, "emotional_manipulation": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "I become obsessive and lose myself completely in relationships",
+          "traits": {"anxious_attachment": 5, "codependent_patterns": 4, "jealous_tendencies": 3, "boundary_issues": 4, "healthy_partnership": 0}
+        },
+        {
+          "text": "I create chaos when things get too stable because drama feels like love",
+          "traits": {"dramatic_tendencies": 5, "trauma_bonding": 4, "self_sabotage": 3, "emotional_manipulation": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "I find healthy relationships boring and chase unavailable partners",
+          "traits": {"trauma_bonding": 5, "self_sabotage": 4, "avoidant_attachment": 3, "anxious_attachment": 2, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "How do you really feel when your partner has a life outside of your relationship?",
+      "answers": [
+        {
+          "text": "Happy and proud that they're a whole person with their own interests",
+          "traits": {"healthy_partnership": 5, "boundary_issues": 1, "jealous_tendencies": 0, "controlling_behavior": 0, "codependent_patterns": 0}
+        },
+        {
+          "text": "Anxious and worried that they might find someone better",
+          "traits": {"anxious_attachment": 5, "jealous_tendencies": 4, "codependent_patterns": 3, "self_sabotage": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "Threatened and like I need to compete for their attention",
+          "traits": {"jealous_tendencies": 5, "controlling_behavior": 4, "dramatic_tendencies": 3, "emotional_manipulation": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "Abandoned and like they're choosing others over me",
+          "traits": {"anxious_attachment": 4, "codependent_patterns": 5, "dramatic_tendencies": 3, "passive_aggressive": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "Relieved because it takes pressure off me to be their everything",
+          "traits": {"avoidant_attachment": 5, "boundary_issues": 2, "codependent_patterns": 1, "emotional_manipulation": 1, "healthy_partnership": 2}
+        }
+      ]
+    },
+    {
+      "question": "What's your most toxic trait when you feel insecure in a relationship?",
+      "answers": [
+        {
+          "text": "I become controlling and try to monitor their every move",
+          "traits": {"controlling_behavior": 5, "jealous_tendencies": 4, "anxious_attachment": 3, "boundary_issues": 4, "healthy_partnership": 0}
+        },
+        {
+          "text": "I manipulate situations to make them feel guilty for triggering my insecurity",
+          "traits": {"emotional_manipulation": 5, "passive_aggressive": 4, "dramatic_tendencies": 3, "codependent_patterns": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "I become self-destructive and sabotage the relationship",
+          "traits": {"self_sabotage": 5, "dramatic_tendencies": 4, "trauma_bonding": 3, "anxious_attachment": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "I withdraw completely and punish them with emotional distance",
+          "traits": {"passive_aggressive": 5, "avoidant_attachment": 4, "emotional_manipulation": 3, "boundary_issues": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "I seek validation from others to make them jealous",
+          "traits": {"emotional_manipulation": 4, "dramatic_tendencies": 5, "jealous_tendencies": 3, "self_sabotage": 3, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "When someone you love disappoints you, what's your go-to response?",
+      "answers": [
+        {
+          "text": "I communicate my feelings and work together to prevent it from happening again",
+          "traits": {"healthy_partnership": 5, "boundary_issues": 1, "passive_aggressive": 0, "dramatic_tendencies": 0, "emotional_manipulation": 0}
+        },
+        {
+          "text": "I hold grudges and bring it up in every future argument",
+          "traits": {"passive_aggressive": 5, "emotional_manipulation": 4, "dramatic_tendencies": 3, "controlling_behavior": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "I immediately assume they don't love me and start planning my exit",
+          "traits": {"anxious_attachment": 4, "self_sabotage": 5, "avoidant_attachment": 3, "dramatic_tendencies": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "I blame myself and apologize for making them disappoint me",
+          "traits": {"codependent_patterns": 5, "anxious_attachment": 4, "self_sabotage": 3, "boundary_issues": 4, "healthy_partnership": 0}
+        },
+        {
+          "text": "I retaliate by doing something to hurt them back",
+          "traits": {"emotional_manipulation": 4, "dramatic_tendencies": 5, "passive_aggressive": 4, "jealous_tendencies": 3, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "What's your secret fear about being truly known in a relationship?",
+      "answers": [
+        {
+          "text": "That if they see my flaws, they'll realize they can do better",
+          "traits": {"anxious_attachment": 5, "self_sabotage": 4, "codependent_patterns": 3, "avoidant_attachment": 2, "healthy_partnership": 1}
+        },
+        {
+          "text": "That vulnerability will give them power to hurt me",
+          "traits": {"avoidant_attachment": 5, "controlling_behavior": 4, "emotional_manipulation": 3, "boundary_issues": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "That I'm too much and will overwhelm them with my intensity",
+          "traits": {"anxious_attachment": 4, "dramatic_tendencies": 5, "self_sabotage": 3, "boundary_issues": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "That they'll discover I'm not as independent as I pretend to be",
+          "traits": {"avoidant_attachment": 4, "codependent_patterns": 3, "self_sabotage": 4, "boundary_issues": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "That intimacy will trap me and I'll lose my freedom",
+          "traits": {"avoidant_attachment": 5, "boundary_issues": 3, "controlling_behavior": 2, "self_sabotage": 2, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle it when your partner needs space for personal growth?",
+      "answers": [
+        {
+          "text": "I support their growth even if it means we might grow apart",
+          "traits": {"healthy_partnership": 5, "boundary_issues": 1, "anxious_attachment": 0, "controlling_behavior": 0, "codependent_patterns": 0}
+        },
+        {
+          "text": "I panic that they're growing away from me and try to grow with them",
+          "traits": {"anxious_attachment": 5, "codependent_patterns": 4, "boundary_issues": 4, "self_sabotage": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "I feel threatened and try to sabotage their growth efforts",
+          "traits": {"controlling_behavior": 5, "emotional_manipulation": 4, "jealous_tendencies": 4, "self_sabotage": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "I make their growth about me and how it affects our relationship",
+          "traits": {"codependent_patterns": 4, "emotional_manipulation": 5, "dramatic_tendencies": 4, "boundary_issues": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "I use it as an excuse to pull away and protect myself",
+          "traits": {"avoidant_attachment": 5, "self_sabotage": 4, "passive_aggressive": 3, "boundary_issues": 2, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "What role does jealousy play in your relationships?",
+      "answers": [
+        {
+          "text": "I rarely feel jealous because I trust my partner and value myself",
+          "traits": {"healthy_partnership": 5, "boundary_issues": 1, "jealous_tendencies": 0, "anxious_attachment": 0, "controlling_behavior": 0}
+        },
+        {
+          "text": "I feel jealous but communicate about it openly instead of acting out",
+          "traits": {"healthy_partnership": 4, "boundary_issues": 2, "jealous_tendencies": 2, "anxious_attachment": 1, "emotional_manipulation": 0}
+        },
+        {
+          "text": "I get intensely jealous and it consumes my thoughts and actions",
+          "traits": {"jealous_tendencies": 5, "anxious_attachment": 4, "controlling_behavior": 4, "obsessive_patterns": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "I use jealousy as proof that my partner loves me - no jealousy means no passion",
+          "traits": {"dramatic_tendencies": 5, "trauma_bonding": 4, "emotional_manipulation": 3, "jealous_tendencies": 4, "healthy_partnership": 0}
+        },
+        {
+          "text": "I deny feeling jealous but act passive-aggressively when triggered",
+          "traits": {"passive_aggressive": 5, "avoidant_attachment": 4, "emotional_manipulation": 3, "boundary_issues": 3, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "When you're in love, what part of yourself do you struggle most to maintain?",
+      "answers": [
+        {
+          "text": "I maintain all parts of myself - love enhances rather than diminishes me",
+          "traits": {"healthy_partnership": 5, "boundary_issues": 1, "codependent_patterns": 0, "anxious_attachment": 0, "avoidant_attachment": 1}
+        },
+        {
+          "text": "My independence - I lose myself in their needs and wants",
+          "traits": {"codependent_patterns": 5, "anxious_attachment": 4, "boundary_issues": 5, "self_sabotage": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "My emotional stability - I become a rollercoaster of highs and lows",
+          "traits": {"dramatic_tendencies": 5, "anxious_attachment": 4, "trauma_bonding": 3, "emotional_manipulation": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "My friendships - I abandon everyone else for my romantic relationship",
+          "traits": {"codependent_patterns": 4, "boundary_issues": 5, "anxious_attachment": 3, "self_sabotage": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "My rational thinking - I ignore red flags and make excuses for everything",
+          "traits": {"trauma_bonding": 5, "codependent_patterns": 4, "self_sabotage": 4, "anxious_attachment": 3, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "How do you react when a relationship ends?",
+      "answers": [
+        {
+          "text": "I grieve healthily, learn from it, and eventually move forward",
+          "traits": {"healthy_partnership": 5, "boundary_issues": 1, "anxious_attachment": 0, "avoidant_attachment": 1, "self_sabotage": 0}
+        },
+        {
+          "text": "I become obsessed with getting them back and can't let go",
+          "traits": {"anxious_attachment": 5, "codependent_patterns": 4, "controlling_behavior": 3, "emotional_manipulation": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "I immediately jump into a rebound relationship to avoid the pain",
+          "traits": {"avoidant_attachment": 4, "self_sabotage": 5, "trauma_bonding": 3, "boundary_issues": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "I engage in revenge fantasies or actually try to hurt them",
+          "traits": {"emotional_manipulation": 4, "dramatic_tendencies": 5, "passive_aggressive": 4, "controlling_behavior": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "I shut down emotionally and swear off relationships completely",
+          "traits": {"avoidant_attachment": 5, "passive_aggressive": 3, "self_sabotage": 4, "boundary_issues": 2, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "What's your biggest blind spot when it comes to choosing partners?",
+      "answers": [
+        {
+          "text": "I sometimes overlook incompatibilities because I focus too much on potential",
+          "traits": {"codependent_patterns": 3, "self_sabotage": 3, "trauma_bonding": 2, "healthy_partnership": 2, "boundary_issues": 2}
+        },
+        {
+          "text": "I'm attracted to people who need saving or fixing",
+          "traits": {"codependent_patterns": 5, "trauma_bonding": 4, "self_sabotage": 3, "boundary_issues": 4, "healthy_partnership": 0}
+        },
+        {
+          "text": "I choose people who are emotionally unavailable because the chase feels exciting",
+          "traits": {"trauma_bonding": 5, "anxious_attachment": 4, "self_sabotage": 4, "dramatic_tendencies": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "I pick people who mirror my own unhealed trauma patterns",
+          "traits": {"trauma_bonding": 5, "self_sabotage": 4, "codependent_patterns": 3, "dramatic_tendencies": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "I choose based on superficial factors and ignore deeper compatibility",
+          "traits": {"avoidant_attachment": 3, "self_sabotage": 4, "boundary_issues": 3, "emotional_manipulation": 2, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle your partner's past relationships and romantic history?",
+      "answers": [
+        {
+          "text": "I see their past as experiences that shaped them into who they are today",
+          "traits": {"healthy_partnership": 5, "boundary_issues": 1, "jealous_tendencies": 0, "anxious_attachment": 0, "controlling_behavior": 0}
+        },
+        {
+          "text": "I constantly compare myself to their exes and feel insecure",
+          "traits": {"anxious_attachment": 5, "jealous_tendencies": 4, "self_sabotage": 3, "codependent_patterns": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "I obsess over details and create stories about what their past means",
+          "traits": {"anxious_attachment": 4, "jealous_tendencies": 5, "controlling_behavior": 3, "dramatic_tendencies": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "I feel threatened and wish I could erase their romantic history",
+          "traits": {"jealous_tendencies": 5, "controlling_behavior": 4, "emotional_manipulation": 3, "anxious_attachment": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "I use their past against them during arguments",
+          "traits": {"emotional_manipulation": 5, "passive_aggressive": 4, "dramatic_tendencies": 4, "controlling_behavior": 3, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "When you imagine your 'perfect' relationship, what does it look like?",
+      "answers": [
+        {
+          "text": "Two whole people choosing to build a life together while maintaining individuality",
+          "traits": {"healthy_partnership": 5, "boundary_issues": 1, "codependent_patterns": 0, "avoidant_attachment": 1, "controlling_behavior": 0}
+        },
+        {
+          "text": "Complete fusion where we become one person and need no one else",
+          "traits": {"codependent_patterns": 5, "boundary_issues": 5, "anxious_attachment": 4, "trauma_bonding": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "Constant passion and drama that proves our love is intense and real",
+          "traits": {"dramatic_tendencies": 5, "trauma_bonding": 4, "emotional_manipulation": 3, "jealous_tendencies": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "One of us being completely devoted while the other maintains power",
+          "traits": {"controlling_behavior": 5, "emotional_manipulation": 4, "codependent_patterns": 3, "boundary_issues": 4, "healthy_partnership": 0}
+        },
+        {
+          "text": "A relationship where I never have to be vulnerable or truly known",
+          "traits": {"avoidant_attachment": 5, "boundary_issues": 4, "emotional_manipulation": 2, "self_sabotage": 3, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "What's your most honest assessment of how you handle being wrong in relationships?",
+      "answers": [
+        {
+          "text": "I can admit when I'm wrong and apologize sincerely without making excuses",
+          "traits": {"healthy_partnership": 5, "boundary_issues": 1, "emotional_manipulation": 0, "passive_aggressive": 0, "dramatic_tendencies": 0}
+        },
+        {
+          "text": "I eventually admit fault but only after defending myself extensively",
+          "traits": {"controlling_behavior": 3, "passive_aggressive": 3, "emotional_manipulation": 2, "avoidant_attachment": 3, "healthy_partnership": 1}
+        },
+        {
+          "text": "I find ways to make my partner equally wrong so I don't have to fully take responsibility",
+          "traits": {"emotional_manipulation": 5, "passive_aggressive": 4, "controlling_behavior": 3, "dramatic_tendencies": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "I refuse to admit I'm wrong even when presented with clear evidence",
+          "traits": {"controlling_behavior": 5, "emotional_manipulation": 4, "avoidant_attachment": 4, "dramatic_tendencies": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "I turn it around and make them feel bad for making me feel wrong",
+          "traits": {"emotional_manipulation": 5, "dramatic_tendencies": 4, "passive_aggressive": 4, "controlling_behavior": 3, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "How do you really feel about your partner having close friends of their preferred gender?",
+      "answers": [
+        {
+          "text": "Grateful they have meaningful friendships that enrich their life",
+          "traits": {"healthy_partnership": 5, "boundary_issues": 1, "jealous_tendencies": 0, "controlling_behavior": 0, "anxious_attachment": 0}
+        },
+        {
+          "text": "Uncomfortable but I recognize it's my insecurity to work through",
+          "traits": {"healthy_partnership": 3, "anxious_attachment": 2, "jealous_tendencies": 2, "boundary_issues": 2, "self_sabotage": 1}
+        },
+        {
+          "text": "Suspicious and I need constant reassurance about the nature of these friendships",
+          "traits": {"anxious_attachment": 5, "jealous_tendencies": 4, "controlling_behavior": 3, "codependent_patterns": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "Threatened and I try to limit or control these friendships",
+          "traits": {"controlling_behavior": 5, "jealous_tendencies": 4, "emotional_manipulation": 4, "boundary_issues": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "Convinced that these friendships are inappropriate and will lead to cheating",
+          "traits": {"jealous_tendencies": 5, "anxious_attachment": 4, "controlling_behavior": 4, "dramatic_tendencies": 3, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "What's your deepest fear about commitment?",
+      "answers": [
+        {
+          "text": "That we might grow in different directions and need to part ways",
+          "traits": {"healthy_partnership": 4, "boundary_issues": 1, "anxious_attachment": 2, "avoidant_attachment": 2, "self_sabotage": 1}
+        },
+        {
+          "text": "That I'll lose my freedom and become trapped in someone else's life",
+          "traits": {"avoidant_attachment": 5, "boundary_issues": 3, "controlling_behavior": 2, "self_sabotage": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "That they'll eventually see who I really am and leave me",
+          "traits": {"anxious_attachment": 5, "self_sabotage": 4, "avoidant_attachment": 3, "codependent_patterns": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "That I'll have to give up the possibility of finding someone better",
+          "traits": {"avoidant_attachment": 4, "self_sabotage": 5, "trauma_bonding": 3, "boundary_issues": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "That I'll become dependent and vulnerable to being hurt",
+          "traits": {"avoidant_attachment": 5, "controlling_behavior": 3, "boundary_issues": 4, "self_sabotage": 3, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle your partner's success when it exceeds your own?",
+      "answers": [
+        {
+          "text": "I feel genuinely proud and celebrate their achievements wholeheartedly",
+          "traits": {"healthy_partnership": 5, "boundary_issues": 1, "jealous_tendencies": 0, "controlling_behavior": 0, "emotional_manipulation": 0}
+        },
+        {
+          "text": "I feel happy for them but also insecure about my own worth",
+          "traits": {"anxious_attachment": 3, "self_sabotage": 3, "jealous_tendencies": 2, "healthy_partnership": 2, "codependent_patterns": 2}
+        },
+        {
+          "text": "I find subtle ways to diminish their achievement or redirect attention to myself",
+          "traits": {"emotional_manipulation": 5, "jealous_tendencies": 4, "dramatic_tendencies": 4, "controlling_behavior": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "I feel threatened and worry they'll outgrow me",
+          "traits": {"anxious_attachment": 5, "self_sabotage": 4, "codependent_patterns": 3, "jealous_tendencies": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "I create drama or problems to distract from their success",
+          "traits": {"dramatic_tendencies": 5, "emotional_manipulation": 4, "jealous_tendencies": 4, "self_sabotage": 3, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "What's your relationship with boundaries in romantic partnerships?",
+      "answers": [
+        {
+          "text": "I respect boundaries and communicate my own clearly and kindly",
+          "traits": {"healthy_partnership": 5, "boundary_issues": 0, "controlling_behavior": 0, "codependent_patterns": 0, "emotional_manipulation": 0}
+        },
+        {
+          "text": "I struggle with boundaries because love should mean no barriers",
+          "traits": {"boundary_issues": 5, "codependent_patterns": 4, "anxious_attachment": 3, "trauma_bonding": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "I see their boundaries as rejection and take them personally",
+          "traits": {"anxious_attachment": 4, "boundary_issues": 5, "dramatic_tendencies": 3, "emotional_manipulation": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "I test or push against their boundaries to see if they really mean it",
+          "traits": {"controlling_behavior": 5, "boundary_issues": 4, "emotional_manipulation": 4, "dramatic_tendencies": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "I have walls instead of boundaries - everything is either all or nothing",
+          "traits": {"avoidant_attachment": 5, "boundary_issues": 4, "self_sabotage": 3, "passive_aggressive": 3, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "When you feel overwhelmed by relationship emotions, what do you typically do?",
+      "answers": [
+        {
+          "text": "I take time to process my feelings and then communicate about them",
+          "traits": {"healthy_partnership": 5, "boundary_issues": 1, "dramatic_tendencies": 0, "passive_aggressive": 0, "avoidant_attachment": 1}
+        },
+        {
+          "text": "I become clingy and seek constant reassurance from my partner",
+          "traits": {"anxious_attachment": 5, "codependent_patterns": 4, "boundary_issues": 3, "emotional_manipulation": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "I shut down completely and withdraw until I feel better",
+          "traits": {"avoidant_attachment": 5, "passive_aggressive": 4, "self_sabotage": 3, "boundary_issues": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "I lash out at my partner because they're the source of my feelings",
+          "traits": {"dramatic_tendencies": 5, "emotional_manipulation": 4, "controlling_behavior": 3, "passive_aggressive": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "I create chaos or drama to externalize my internal emotional state",
+          "traits": {"dramatic_tendencies": 5, "trauma_bonding": 3, "emotional_manipulation": 3, "self_sabotage": 4, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "How do you define love based on your relationship experiences?",
+      "answers": [
+        {
+          "text": "Mutual respect, growth, support, and choosing each other daily",
+          "traits": {"healthy_partnership": 5, "boundary_issues": 1, "codependent_patterns": 0, "dramatic_tendencies": 0, "trauma_bonding": 0}
+        },
+        {
+          "text": "Complete devotion, sacrifice, and putting your partner before everything else",
+          "traits": {"codependent_patterns": 5, "boundary_issues": 4, "anxious_attachment": 3, "self_sabotage": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "Intense passion, jealousy, and emotional extremes that prove it's real",
+          "traits": {"dramatic_tendencies": 5, "trauma_bonding": 4, "jealous_tendencies": 4, "emotional_manipulation": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "Having power over someone or being controlled by someone who loves you",
+          "traits": {"controlling_behavior": 5, "emotional_manipulation": 4, "trauma_bonding": 4, "boundary_issues": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "Something that always ends in pain, so it's better to avoid it",
+          "traits": {"avoidant_attachment": 5, "self_sabotage": 4, "trauma_bonding": 3, "passive_aggressive": 2, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "What's your biggest fear about being vulnerable in relationships?",
+      "answers": [
+        {
+          "text": "That my emotions might be too much for them to handle",
+          "traits": {"anxious_attachment": 4, "self_sabotage": 3, "dramatic_tendencies": 3, "boundary_issues": 2, "healthy_partnership": 1}
+        },
+        {
+          "text": "That they'll use my vulnerabilities against me later",
+          "traits": {"avoidant_attachment": 5, "controlling_behavior": 3, "emotional_manipulation": 2, "trauma_bonding": 4, "healthy_partnership": 0}
+        },
+        {
+          "text": "That showing weakness will make them lose respect for me",
+          "traits": {"controlling_behavior": 4, "avoidant_attachment": 4, "dramatic_tendencies": 2, "emotional_manipulation": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "That they'll realize I'm not as strong as they thought",
+          "traits": {"self_sabotage": 4, "avoidant_attachment": 3, "anxious_attachment": 3, "codependent_patterns": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "That vulnerability will create deeper intimacy, which terrifies me",
+          "traits": {"avoidant_attachment": 5, "self_sabotage": 4, "boundary_issues": 3, "trauma_bonding": 2, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle it when your partner needs to work through their own issues?",
+      "answers": [
+        {
+          "text": "I support them while maintaining my own boundaries and life",
+          "traits": {"healthy_partnership": 5, "boundary_issues": 1, "codependent_patterns": 0, "controlling_behavior": 0, "anxious_attachment": 0}
+        },
+        {
+          "text": "I try to fix their problems and take responsibility for their healing",
+          "traits": {"codependent_patterns": 5, "boundary_issues": 4, "anxious_attachment": 3, "self_sabotage": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "I get frustrated that their issues are affecting our relationship",
+          "traits": {"controlling_behavior": 4, "emotional_manipulation": 3, "dramatic_tendencies": 3, "boundary_issues": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "I feel responsible for their problems and blame myself",
+          "traits": {"codependent_patterns": 4, "anxious_attachment": 4, "self_sabotage": 4, "boundary_issues": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "I distance myself because their problems feel like too much",
+          "traits": {"avoidant_attachment": 5, "passive_aggressive": 3, "boundary_issues": 3, "self_sabotage": 2, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "What pattern do you notice in how your relationships typically end?",
+      "answers": [
+        {
+          "text": "They end naturally when we've grown apart or want different things",
+          "traits": {"healthy_partnership": 5, "boundary_issues": 1, "dramatic_tendencies": 0, "self_sabotage": 0, "trauma_bonding": 0}
+        },
+        {
+          "text": "I sabotage them when they get too good or too close",
+          "traits": {"self_sabotage": 5, "avoidant_attachment": 4, "trauma_bonding": 3, "dramatic_tendencies": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "They end in explosive drama and chaos",
+          "traits": {"dramatic_tendencies": 5, "emotional_manipulation": 4, "trauma_bonding": 4, "controlling_behavior": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "I become too clingy and they eventually need space",
+          "traits": {"anxious_attachment": 5, "codependent_patterns": 4, "boundary_issues": 4, "jealous_tendencies": 2, "healthy_partnership": 0}
+        },
+        {
+          "text": "I gradually withdraw until there's nothing left to end",
+          "traits": {"avoidant_attachment": 5, "passive_aggressive": 4, "self_sabotage": 3, "boundary_issues": 2, "healthy_partnership": 0}
+        }
+      ]
+    },
+    {
+      "question": "How do you feel about your partner maintaining close relationships with their ex-partners?",
+      "answers": [
+        {
+          "text": "I trust their judgment and am glad they can maintain healthy friendships",
+          "traits": {"healthy_partnership": 5, "boundary_issues": 1, "jealous_tendencies": 0, "controlling_behavior": 0, "anxious_attachment": 0}
+        },
+        {
+          "text": "Uncomfortable but I work through my feelings without controlling them",
+          "traits": {"healthy_partnership": 3, "jealous_tendencies": 2, "anxious_attachment": 2, "boundary_issues": 2, "controlling_behavior": 1}
+        },
+        {
+          "text": "Suspicious and I need to know details about every interaction",
+          "traits": {"jealous_tendencies": 4, "controlling_behavior": 5, "anxious_attachment": 4, "emotional_manipulation": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "Threatened and I try to limit or eliminate these relationships",
+          "traits": {"controlling_behavior": 5, "jealous_tendencies": 5, "emotional_manipulation": 4, "boundary_issues": 3, "healthy_partnership": 0}
+        },
+        {
+          "text": "I see it as evidence they're not over their ex",
+          "traits": {"anxious_attachment": 5, "jealous_tendencies": 4, "dramatic_tendencies": 3, "self_sabotage": 3, "healthy_partnership": 0}
+        }
+      ]
+    }
+  ],
+  "results": {
+    "healthy_partnership": {
+      "title": "The Secure Partner",
+      "description": "You demonstrate remarkably healthy relationship patterns characterized by emotional maturity, clear communication, and respect for both yourself and your partner. You understand that love is about partnership, not possession, and you maintain your individuality while building something beautiful together.",
+      "extended": "Your relationship patterns reflect a deep understanding of what healthy love actually looks like in practice. You've developed the emotional intelligence to navigate the complexities of intimate partnership while maintaining your sense of self and respecting your partner's autonomy. You understand that love is not about losing yourself in another person, but about two whole individuals choosing to create something meaningful together.\n\nYour approach to conflict is particularly mature - you address issues directly but respectfully, focus on solutions rather than blame, and understand that disagreement doesn't threaten the relationship. You've learned to communicate your needs clearly without manipulation or passive-aggression, and you create space for your partner to do the same. This creates a foundation of trust and safety that allows both of you to be authentic.\n\nYou demonstrate genuine care for your partner's individual growth and happiness, even when it means they might need space or pursue interests that don't include you. This level of security and selflessness is rare and creates the kind of relationship where both people can flourish. You understand that jealousy and possessiveness are signs of insecurity, not love.\n\nYour relationship patterns suggest you've done significant personal work to understand your own triggers, communicate effectively, and build the kind of partnership that enhances rather than diminishes both people involved. You're the kind of partner who makes love feel safe, exciting, and sustainable all at once."
+    },
+    "anxious_attachment": {
+      "title": "The Worried Heart",
+      "description": "You experience intense anxiety in relationships, constantly seeking reassurance and fearing abandonment. Your love runs deep but often manifests as clinginess, overthinking, and emotional volatility. While your intentions come from love, your anxiety can overwhelm both you and your partners.",
+      "extended": "Your relationship patterns are driven by a deep-seated fear of abandonment that likely stems from early experiences of inconsistent care or emotional unavailability. You love intensely and completely, but this love is often clouded by anxiety and the constant need for reassurance that you're wanted and won't be left behind. Your emotional world revolves around your relationship status and your partner's mood toward you.\n\nYou tend to interpret neutral behaviors as negative signs, reading rejection into normal human needs for space or independence. When your partner is quiet, busy, or simply focused on something else, your mind creates stories about what this means for your relationship. This constant state of hypervigilance is exhausting for both you and your partner, and can create the very distance you're trying to prevent.\n\nYour need for reassurance can manifest in ways that feel overwhelming to partners - frequent texting, needing to know where they are and who they're with, requiring verbal affirmations of love, and struggling when they have interests or friendships outside the relationship. You may find yourself apologizing excessively or changing yourself to avoid any possibility of conflict or rejection.\n\nHealing your anxious attachment patterns requires developing a stronger sense of self-worth that doesn't depend on your partner's attention or behavior. Learning to self-soothe when anxiety arises, communicating your needs without demanding immediate relief, and gradually building trust in your own worthiness of love will help you create more secure, sustainable relationships."
+    },
+    "controlling_behavior": {
+      "title": "The Controller",
+      "description": "You exhibit concerning patterns of trying to control your partner's behavior, choices, and relationships. This might manifest as monitoring their activities, dictating who they can spend time with, or using emotional manipulation to get your way. While this often stems from fear or insecurity, it creates unhealthy dynamics.",
+      "extended": "Your controlling behaviors in relationships likely stem from deep-seated fears of loss, betrayal, or abandonment, but they manifest in ways that are harmful to both you and your partners. You may justify these patterns as 'caring' or 'protecting the relationship,' but true love requires trust and respect for your partner's autonomy. Your need to control often creates the very problems you're trying to prevent.\n\nControlling behaviors can include monitoring their communications, limiting their friendships, making decisions for them without consultation, or using emotional pressure to influence their choices. You might find yourself feeling anxious when you don't know exactly what your partner is doing, or you may feel entitled to access their private communications and thoughts.\n\nThese patterns often escalate over time, starting with small requests or 'preferences' about your partner's behavior and gradually expanding into more comprehensive control over their life choices. Your partners may initially comply to avoid conflict, but this typically leads to resentment, loss of attraction, and eventual relationship breakdown.\n\nThe underlying issue is often a fundamental misunderstanding of what love means - believing that love gives you the right to control someone rather than understanding that love requires respecting their freedom to choose you every day. Learning to tolerate uncertainty, building genuine self-confidence, and developing trust skills are essential for creating healthier relationship dynamics."
+    },
+    "emotional_manipulation": {
+      "title": "The Manipulator",
+      "description": "You use emotional manipulation tactics to get your needs met in relationships, including guilt-tripping, gaslighting, playing victim, or using threats. You may not even realize you're doing this, as these patterns often develop as survival mechanisms that prevent authentic connection.",
+      "extended": "Your tendency toward emotional manipulation in relationships likely developed as a way to get your needs met when direct communication felt unsafe or ineffective. These patterns might include guilt-tripping your partner when they don't do what you want, playing victim to avoid accountability for your actions, or using threats (of leaving, self-harm, or other consequences) to control their behavior.\n\nManipulation often feels justified in the moment - you may genuinely believe your partner 'should' behave differently, or you may feel so desperate for a particular outcome that manipulation seems like the only option. However, these tactics erode the foundation of trust and authenticity that healthy relationships require, and they teach your partner to comply out of fear rather than love.\n\nCommon manipulative patterns include withholding affection as punishment, bringing up past mistakes to win current arguments, threatening to leave during conflicts, making your partner responsible for your emotional state, or twisting situations to make yourself appear as the victim when confronted about your behavior.\n\nThe challenge is that manipulation often 'works' in the short term - you may get the immediate compliance or attention you're seeking. However, it destroys genuine intimacy and connection over time, as your partner learns they can't be honest with you without facing emotional consequences. Learning direct communication, taking responsibility for your emotions, and building tolerance for not always getting your way are crucial for developing healthier relationship patterns."
+    },
+    "codependent_patterns": {
+      "title": "The People Pleaser", 
+      "description": "You lose yourself in relationships, prioritizing your partner's needs, feelings, and desires over your own to an unhealthy degree. While this might seem loving, it creates an imbalanced dynamic where you sacrifice your identity and enable problematic behaviors.",
+      "extended": "Your codependent patterns stem from a belief that your worth depends on how much you can give to others and how much they need you. You may have learned early in life that love means self-sacrifice, and you've carried this belief into your romantic relationships. While your generous spirit is beautiful, the extreme version becomes harmful to both you and your partner.\n\nYou likely find yourself constantly monitoring your partner's mood and trying to fix any discomfort they experience. You may change your opinions to match theirs, abandon your own interests to focus on their preferences, or neglect your own needs to ensure theirs are met. This creates an unhealthy dynamic where your partner doesn't have to take full responsibility for their own life and emotions.\n\nCodependency often feels like love because it involves so much care and attention, but it actually prevents both people from growing into their full potential. Your partner may initially enjoy the constant attention and care, but over time they may feel suffocated or lose respect for someone who has no clear sense of self or boundaries.\n\nYour pattern of losing yourself in relationships means you may not even know what you want, need, or enjoy independent of your partner's preferences. You might feel guilty for having needs, afraid to disagree, or panicked at the thought of your partner being unhappy. Learning to maintain your identity, communicate your needs, and allow your partner to handle their own emotions is essential for creating balanced, healthy relationships."
+    },
+    "avoidant_attachment": {
+      "title": "The Emotional Wall Builder",
+      "description": "You protect yourself from vulnerability by maintaining emotional distance and avoiding deep intimacy. While you may want love, you also fear the loss of independence and control that comes with truly letting someone in. You might sabotage relationships when they become too close.",
+      "extended": "Your avoidant patterns likely developed as a protective mechanism against early experiences of emotional neglect, inconsistency, or overwhelming intensity. You learned that emotional distance feels safer than vulnerability, and independence feels more secure than interdependence. While this protected you from pain, it also prevents you from experiencing the deep connection you likely crave.\n\nYou may find yourself pulling away when relationships become too intimate, creating conflict when things feel too peaceful, or choosing partners who are unavailable so you never have to fully commit. You might pride yourself on your independence and view your partner's emotional needs as weakness or neediness.\n\nIntimacy feels threatening because it requires vulnerability, and vulnerability feels dangerous. You may have learned to associate emotional closeness with loss of control, disappointment, or being hurt by people who were supposed to care for you. As a result, you may keep parts of yourself hidden, avoid deep conversations about feelings, or maintain emotional backup plans.\n\nYour partners often feel like they're always trying to reach you but never quite succeeding. They may feel like they're in a relationship with someone who's physically present but emotionally unavailable. This creates frustration and insecurity in partners who want deeper connection. Learning to tolerate vulnerability gradually, understanding that interdependence doesn't mean loss of self, and recognizing that emotional intimacy actually enhances rather than threatens your autonomy are key to developing more secure attachment patterns."
+    },
+    "jealous_tendencies": {
+      "title": "The Green-Eyed Monster",
+      "description": "Jealousy plays a dominant role in your relationships, consuming your thoughts and driving behaviors that damage trust and connection. You may obsess over your partner's interactions with others, constantly seek reassurance about their loyalty, or try to control their social connections.",
+      "extended": "Your jealous patterns likely stem from deep-seated insecurities about your own worth and lovability. You may have experienced betrayal in the past, or you might have learned early that love is conditional and must be constantly earned and protected. However, your attempts to manage jealousy through control and surveillance actually create the distance and resentment you're trying to prevent.\n\nJealousy often manifests as obsessive thoughts about your partner's interactions with others, particularly those who might be seen as attractive or threatening to your relationship. You may find yourself checking their phone, social media, or whereabouts constantly. You might interrogate them about innocent conversations or create rules about who they can spend time with.\n\nYour jealousy may feel justified - after all, you're just trying to protect your relationship. However, this behavior communicates to your partner that you don't trust them, which erodes the foundation of the relationship. Partners often start to feel like they're walking on eggshells, avoiding normal social interactions to prevent your jealous reactions.\n\nThe irony of extreme jealousy is that it often creates the very outcome you're trying to prevent. Partners may eventually seek comfort and understanding elsewhere, not because they were originally inclined to cheat, but because the relationship became suffocating and distrustful. Healing jealousy requires building genuine self-worth that doesn't depend on controlling others, learning to trust your partner's choice to be with you, and understanding that trying to prevent all possibility of loss actually guarantees you'll lose what you're trying to protect."
+    },
+    "dramatic_tendencies": {
+      "title": "The Drama Creator",
+      "description": "You unconsciously create chaos and drama in your relationships, mistaking intensity for intimacy and conflict for passion. You may escalate minor issues into major crises, threaten breakups during arguments, or create emotional emergencies that require constant attention.",
+      "extended": "Your dramatic relationship patterns likely stem from early experiences where chaos felt normal or where you learned that dramatic expressions were necessary to get attention and care. You may have grown up in an environment where love was expressed through intense emotions, conflict, and making up, leading you to associate drama with passion and care.\n\nYou might find yourself escalating conflicts unnecessarily, threatening to leave during arguments, creating emotional crises that require your partner's immediate attention, or interpreting normal relationship challenges as catastrophic threats. Peaceful periods in your relationship may feel boring or anxiety-provoking, leading you to unconsciously stir up conflict.\n\nDrama can feel addictive because it creates intensity and forces immediate attention from your partner. The cycle of fighting and making up can feel like proof of how much you care about each other. However, this pattern is exhausting for both partners and prevents the development of the deep trust and security that sustainable love requires.\n\nYour partners may initially be drawn to your passionate nature, but over time they may feel emotionally exhausted by the constant ups and downs. They may start to withdraw or seek more peaceful connections elsewhere. The drama that once felt like evidence of deep love becomes the very thing that drives people away. Learning to tolerate peace and stability, finding healthy ways to create excitement and connection, and understanding that consistent love is more valuable than intense love are crucial for developing healthier relationship patterns."
+    },
+    "passive_aggressive": {
+      "title": "The Silent Punisher",
+      "description": "You express anger and hurt through indirect means like silent treatment, withholding affection, or subtle sabotage rather than direct communication. While you may avoid open conflict, you still punish your partner for perceived wrongs in ways that create confusion and resentment.",
+      "extended": "Your passive-aggressive patterns likely developed as a way to express anger and hurt when direct confrontation felt unsafe, forbidden, or ineffective. You may have learned early that expressing anger directly led to punishment or abandonment, so you found indirect ways to communicate your displeasure and get your needs met.\n\nPassive-aggressive behaviors might include giving your partner the silent treatment when you're upset, withdrawing affection as punishment, making subtle digs or sarcastic comments, 'forgetting' to do things they've asked for, or sabotaging plans when you're feeling hurt or angry.\n\nWhile this approach may feel safer than direct confrontation, it actually creates more problems than it solves. Your partner is left guessing what they did wrong and how to fix it, which creates anxiety and confusion. They may start walking on eggshells around you, never sure when they might unknowingly trigger your silent disapproval.\n\nPassive-aggression prevents real resolution because issues are never directly addressed or solved. Instead, resentment builds on both sides - you feel unheard and they feel punished for things they don't understand. This pattern erodes trust and intimacy over time, as your partner learns they can't rely on you to communicate directly about problems. Learning to express your feelings and needs clearly, tolerate the discomfort of direct confrontation, and trust that your partner wants to understand and meet your needs are essential for developing healthier communication patterns."
+    },
+    "self_sabotage": {
+      "title": "The Relationship Saboteur",
+      "description": "You unconsciously sabotage your relationships when they become too good or too close, often through creating conflict, pulling away, or destroying something beautiful just when it's going well. This pattern stems from deep beliefs about your unworthiness of love.",
+      "extended": "Your self-sabotaging patterns likely stem from deep-seated beliefs about your worthiness of love and happiness. You may have internalized messages that you don't deserve good things, that love always ends in pain, or that vulnerability will inevitably lead to betrayal. These beliefs drive you to destroy relationships before they can hurt you first.\n\nSelf-sabotage often occurs right when relationships are going best - when your partner is showing genuine love and commitment, when you're feeling truly happy and secure, or when the possibility of long-term happiness becomes real. This is when your unconscious fear responses kick in, driving you to create problems that didn't exist before.\n\nSabotage behaviors might include picking fights over nothing, becoming distant when your partner tries to get closer, cheating or flirting with others when your relationship is strong, suddenly deciding your partner isn't right for you when they're being most loving, or creating drama that pushes them away.\n\nThe tragic irony is that you're destroying the very thing you most want - genuine love and connection. Your fear of being hurt or abandoned drives you to abandon the relationship first, creating a self-fulfilling prophecy where love does indeed end in pain, reinforcing your original beliefs. Healing self-sabotage requires recognizing these patterns when they occur, understanding the fears that drive them, and gradually learning to tolerate the vulnerability that comes with genuine intimacy."
+    },
+    "boundary_issues": {
+      "title": "The Boundary Blurrer",
+      "description": "You struggle with understanding and maintaining healthy boundaries in relationships, either having walls that are too high or boundaries that are too porous. This creates confusion about where you end and your partner begins, leading to enmeshment or complete disconnection.",
+      "extended": "Your boundary issues likely stem from early experiences where healthy limits weren't modeled or respected. You may have grown up in an environment where boundaries were either completely absent (leading to enmeshment and fusion) or extremely rigid (leading to isolation and disconnection). This left you without a clear understanding of what healthy boundaries look like or how to maintain them.\n\nYour boundary struggles might manifest as difficulty saying no to your partner even when you want to, feeling responsible for their emotions and reactions, allowing them to make decisions that should be yours, or conversely, building walls so high that genuine intimacy becomes impossible. You may swing between extremes of total openness and complete shutdown.\n\nWithout healthy boundaries, you might find yourself losing your identity in relationships, taking on your partner's interests, opinions, and even their problems as if they were your own. Alternatively, you might maintain such rigid boundaries that your partner feels locked out of your inner world, unable to truly know or connect with you.\n\nBoundary issues create confusion and instability in relationships because neither person knows what to expect or where the limits are. Your partner may feel either overwhelmed by your neediness or frustrated by your unavailability. Learning to identify your own needs, feelings, and limits, communicating them clearly, and respecting both your own and your partner's boundaries is essential for creating stable, healthy relationships where both people can be authentically themselves."
+    },
+    "trauma_bonding": {
+      "title": "The Chaos Seeker",
+      "description": "You're unconsciously drawn to relationships that recreate familiar patterns of dysfunction, chaos, or trauma. While healthy relationships might feel boring or 'wrong,' you find yourself attracted to partners and situations that feel familiar, even when they're harmful.",
+      "extended": "Your trauma bonding patterns stem from early experiences that taught you that love comes with pain, chaos, or dysfunction. You may have grown up in an environment where love was inconsistent, where you had to earn affection through crisis or drama, or where emotional intensity was the primary way connection was expressed. These early experiences created neural pathways that associate familiar dysfunction with love and safety.\n\nYou might find yourself attracted to partners who are emotionally unavailable, struggling with addiction, or exhibiting other red flag behaviors. When you encounter healthy, stable people, they may feel boring, too easy, or somehow 'wrong' to you. The absence of drama can feel like the absence of passion or connection, leading you to unconsciously create chaos or seek it elsewhere.\n\nTrauma bonding can manifest as staying in relationships that are clearly harmful, making excuses for inexcusable behavior, or feeling most connected to your partner during crisis moments. You may find that the cycle of conflict and reconciliation feels more like 'real love' than consistent care and respect.\n\nThe challenge with trauma bonding is that it feels like authentic connection because it's familiar, but it actually prevents you from experiencing the safety and security that allow genuine intimacy to flourish. Breaking these patterns requires recognizing that your nervous system has been trained to find dysfunction familiar and learning to tolerate the unfamiliar feeling of consistent, healthy love. This often requires professional support to help rewire these deep-seated patterns and develop new associations with what love and safety actually look like."
+    }
+  }
+}

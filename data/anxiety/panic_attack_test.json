@@ -1,0 +1,666 @@
+{
+  "testId": "panic-attack-potential",
+  "title": "Panic Attack Potential Test",
+  "description": "How close are you to the edge?",
+  "traits": {
+    "calm": "Maintains inner peace and emotional equilibrium under pressure",
+    "steady": "Experiences normal anxiety without losing control or balance",
+    "alert": "Hypervigilant and constantly scanning for potential threats",
+    "anxious": "Lives on the edge of panic with frequent overwhelming episodes",
+    "panicking": "Exists in permanent emergency mode with severe panic reactions"
+  },
+  "questions": [
+    {
+      "question": "Your heart skips a beat or beats irregularly. Your immediate thought is:",
+      "answers": [
+        {
+          "text": "Just normal body stuff - hearts do that sometimes",
+          "traits": { "calm": 5, "steady": 3, "alert": 2, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "That was weird, but probably nothing serious",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "Am I okay? Should I be worried about this?",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "This is it - this is how it ends for me",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "Already googling 'heart palpitation symptoms' and 'am I dying'",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "In a crowded place (mall, concert, busy restaurant), you typically feel:",
+      "answers": [
+        {
+          "text": "Fine - just people living their lives",
+          "traits": { "calm": 5, "steady": 4, "alert": 2, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "A bit uncomfortable but manageable",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "Need to locate all the exits immediately",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "Can't breathe properly and feel trapped",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "Full fight-or-flight mode activated",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Your breathing becomes consciously manual (you have to think about each breath):",
+      "answers": [
+        {
+          "text": "Never really happens to me",
+          "traits": { "calm": 5, "steady": 4, "alert": 2, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "Only when someone mentions breathing (like now)",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "When I'm particularly stressed or anxious",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "Multiple times throughout the day",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "I'm manually breathing right now and it's terrifying",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "When there's sudden silence in a room full of people, you:",
+      "answers": [
+        {
+          "text": "Wonder casually what happened",
+          "traits": { "calm": 5, "steady": 4, "alert": 2, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "Look around to see what's going on",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "Feel suddenly self-conscious and exposed",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "Heart starts racing - something's wrong",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "Convinced everyone is staring at me",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "You experience chest tightness or pressure:",
+      "answers": [
+        {
+          "text": "Only when I exercise or exert myself",
+          "traits": { "calm": 5, "steady": 4, "alert": 2, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "Occasionally when I'm particularly stressed",
+          "traits": { "calm": 2, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "More often lately and it's concerning",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "It's become a daily occurrence",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "Right now actually - my chest feels tight",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "The feeling of being trapped or unable to escape happens:",
+      "answers": [
+        {
+          "text": "Only in actual physically tight spaces",
+          "traits": { "calm": 5, "steady": 4, "alert": 2, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "In some specific situations that make sense",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "Even in normal-sized rooms or spaces",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "Even outdoors in open spaces",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "Sometimes I feel trapped in my own body",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "When you experience sudden dizziness or lightheadedness, you:",
+      "answers": [
+        {
+          "text": "Sit down for a moment until it passes",
+          "traits": { "calm": 5, "steady": 4, "alert": 2, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "Drink some water and take it easy",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "Worry about fainting or losing control",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "This is it - I'm dying right now",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "Go into full panic spiral mode",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Your hands shake or tremble:",
+      "answers": [
+        {
+          "text": "Only when I'm cold or have had too much caffeine",
+          "traits": { "calm": 5, "steady": 4, "alert": 2, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "During presentations or high-pressure situations",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "In social situations or when I feel observed",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "Randomly throughout the day for no clear reason",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "They're actually shaking right now",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "That 'floaty' or unreal feeling (like you're disconnected from your body or surroundings):",
+      "answers": [
+        {
+          "text": "What feeling? I'm not familiar with this",
+          "traits": { "calm": 5, "steady": 4, "alert": 1, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "Maybe very rarely when extremely tired",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "During particularly high stress periods",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "I experience this in weekly episodes",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "I'm feeling disconnected and floaty right now",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Sudden temperature changes (hot flashes, cold sweats) make you:",
+      "answers": [
+        {
+          "text": "Adjust my clothing or environment",
+          "traits": { "calm": 5, "steady": 4, "alert": 2, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "Feel uncomfortable but manageable",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "Get anxious about what it might mean",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "Feel like I'm dying or having a medical emergency",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "Go into instant panic mode",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Your emergency exit strategy when out in public is:",
+      "answers": [
+        {
+          "text": "For actual emergencies only - fire, etc.",
+          "traits": { "calm": 5, "steady": 4, "alert": 2, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "Good to know where exits are generally",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "Always planned and mentally rehearsed",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "Multiple routes memorized with backup plans",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "Currently calculating the fastest escape route",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Waiting in line (at stores, restaurants, etc.) feels like:",
+      "answers": [
+        {
+          "text": "Mild annoyance but nothing major",
+          "traits": { "calm": 5, "steady": 4, "alert": 2, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "A bit restless but I can handle it",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "Increasingly trapped and claustrophobic",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "I need to escape this situation NOW",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "Abandon my cart and flee immediately",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Your body's warning signals and alarm systems:",
+      "answers": [
+        {
+          "text": "I understand them and trust my body",
+          "traits": { "calm": 5, "steady": 4, "alert": 2, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "Sometimes confusing but generally manageable",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "Always on high alert for potential problems",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "Everything feels like a warning signal",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "DEFCON 1 emergency status at all times",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "That sense of 'impending doom' or something terrible about to happen:",
+      "answers": [
+        {
+          "text": "I've never really experienced this feeling",
+          "traits": { "calm": 5, "steady": 4, "alert": 1, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "Maybe once or twice in my entire life",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "I know this feeling well - it visits sometimes",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "It's a weekly visitor in my life",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "It's my constant, unwelcome companion",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Your awareness of your heart rate throughout the day:",
+      "answers": [
+        {
+          "text": "Only notice it when exercising",
+          "traits": { "calm": 5, "steady": 4, "alert": 2, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "Sometimes notice it but don't obsess",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "Check it often throughout the day",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "Constantly monitoring and worried about it",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "Currently counting my heartbeats right now",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Nausea or stomach upset from anxiety:",
+      "answers": [
+        {
+          "text": "Never really happens to me",
+          "traits": { "calm": 5, "steady": 4, "alert": 1, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "Only before really big events or presentations",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "Fairly regularly when I'm stressed",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "Most mornings I wake up nauseous",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "I'm feeling nauseous right now",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "The world around you feels unreal or dreamlike:",
+      "answers": [
+        {
+          "text": "No, everything feels pretty real to me",
+          "traits": { "calm": 5, "steady": 4, "alert": 1, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "Maybe when I'm very tired or overwhelmed",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "During particularly intense panic moments",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "Frequently feels dreamlike and disconnected",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "Am I even real? Is any of this real?",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Sudden loud noises (car honks, alarms, etc.) make you:",
+      "answers": [
+        {
+          "text": "Jump a little but recover quickly",
+          "traits": { "calm": 5, "steady": 4, "alert": 2, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "Startled but back to normal within seconds",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "Heart pounds for several minutes afterward",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "Nearly pass out from the shock",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "Full fight-or-flight response activated",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Your 'safe space' where you feel most secure is:",
+      "answers": [
+        {
+          "text": "Anywhere I'm comfortable - most places feel fine",
+          "traits": { "calm": 5, "steady": 4, "alert": 2, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "My home and familiar environments",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "Only my bedroom or very specific spaces",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "Nowhere really feels completely safe anymore",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "Currently hiding in a bathroom stall",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Your relationship with caffeine could be described as:",
+      "answers": [
+        {
+          "text": "Love it - coffee is life, no issues",
+          "traits": { "calm": 5, "steady": 4, "alert": 2, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "Enjoy it but makes me a bit jittery sometimes",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "Can trigger my anxiety if I'm not careful",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "Instant panic juice - I avoid it completely",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "Even decaf coffee scares me at this point",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Physical symptoms with no apparent medical cause:",
+      "answers": [
+        {
+          "text": "Rarely happens - symptoms usually have clear causes",
+          "traits": { "calm": 5, "steady": 4, "alert": 2, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "Occasionally confusing but not concerning",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "Regular occurrence that puzzles me",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "My daily mystery - always something wrong",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "Currently experiencing 12 unexplained symptoms",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "The feeling of losing control over your body or mind:",
+      "answers": [
+        {
+          "text": "Not familiar with this sensation",
+          "traits": { "calm": 5, "steady": 4, "alert": 1, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "Happens very rarely in extreme situations",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "My biggest fear - terrifies me to think about",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "Feel it approaching often and it's terrifying",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "I feel like I've already lost control",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Your panic emergency kit or coping supplies include:",
+      "answers": [
+        {
+          "text": "What kit? I don't need emergency supplies",
+          "traits": { "calm": 5, "steady": 4, "alert": 1, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "Maybe some water and basic comfort items",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "Medications, breathing exercises, distraction tools",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "Extensive emergency supplies and detailed action plans",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "Currently clutching my emergency kit right now",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Your biggest fear about experiencing panic attacks is:",
+      "answers": [
+        {
+          "text": "Don't really think about it - not a concern",
+          "traits": { "calm": 5, "steady": 4, "alert": 2, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "That it might happen someday",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "Having one in public where people can see",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "That once it starts, it will never stop",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "I'm currently living this fear right now",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    },
+    {
+      "question": "When you feel your anxiety building throughout the day, you:",
+      "answers": [
+        {
+          "text": "Take some deep breaths and it usually settles down",
+          "traits": { "calm": 5, "steady": 4, "alert": 2, "anxious": 1, "panicking": 1 }
+        },
+        {
+          "text": "Try various coping strategies that mostly work",
+          "traits": { "calm": 3, "steady": 5, "alert": 3, "anxious": 2, "panicking": 1 }
+        },
+        {
+          "text": "Feel like a pressure cooker about to explode",
+          "traits": { "calm": 1, "steady": 2, "alert": 5, "anxious": 3, "panicking": 2 }
+        },
+        {
+          "text": "Know that full panic mode is inevitable",
+          "traits": { "calm": 1, "steady": 1, "alert": 2, "anxious": 5, "panicking": 4 }
+        },
+        {
+          "text": "Already past the point of no return",
+          "traits": { "calm": 1, "steady": 1, "alert": 1, "anxious": 3, "panicking": 5 }
+        }
+      ]
+    }
+  ],
+  "results": {
+    "calm": {
+      "title": "The Zen Master",
+      "description": "Your nervous system is basically a meditation retreat in human form. While others are white-knuckling their way through life's turbulence, you're floating on a cloud of inner peace that would make Buddhist monks jealous. You handle stress like a seasoned diplomat handles international crises - with grace, wisdom, and an almost supernatural calm.",
+      "extended": "Your remarkable emotional equilibrium represents what most people aspire to achieve through years of therapy, meditation, or pharmaceutical intervention. This level of nervous system regulation typically comes from either exceptional natural temperament, deliberate practice in stress management, or having successfully processed past traumas that might otherwise dysregulate your system.\n\nYour calm isn't ignorance or avoidance - it's sophisticated emotional intelligence. You've learned to distinguish between real threats and false alarms, allowing your nervous system to reserve its energy for situations that actually warrant concern. This creates a positive feedback loop where your calm response to stressors prevents them from escalating into larger problems.\n\nYour superpower lies in your ability to remain centered while others spiral, making you a natural leader during crises and a stabilizing presence for anxious people. However, this can sometimes make it difficult to relate to those who struggle with anxiety, as your natural ease might seem impossible or even dismissive to them.\n\nThe challenge for someone with your level of calm is ensuring you remain appropriately responsive to genuine concerns while maintaining your peaceful baseline. Your nervous system's stability is a tremendous asset that allows you to navigate life's inevitable challenges with grace and wisdom."
+    },
+    "steady": {
+      "title": "The Steady Sailor",
+      "description": "You navigate life's storms with the stability of a well-built lighthouse. Sure, the waves might rock you a bit, but you're not capsizing anytime soon. Your nervous system knows how to weather rough patches without completely losing its mind. You experience normal human anxiety without letting it hijack your entire existence.",
+      "extended": "Your emotional stability represents a healthy, well-calibrated nervous system that responds appropriately to life's various stressors without overreacting or underreacting. You've achieved what psychologists call 'emotional regulation' - the ability to feel your feelings without being overwhelmed by them.\n\nThis balance likely comes from a combination of factors: secure early attachments, positive coping experiences, and perhaps some conscious work on stress management. Your nervous system has learned to differentiate between situations that require heightened alertness and those that are safe, allowing you to conserve mental and physical energy for when it's truly needed.\n\nYour steady nature makes you an excellent friend, partner, and colleague because others can rely on your consistent emotional availability. You don't create drama or amplify stress, but you also don't shut down when things get difficult. This makes you naturally supportive during others' crises while maintaining your own equilibrium.\n\nThe key to maintaining this balance is continuing to trust your instincts while staying open to course corrections when life throws you unexpected challenges. Your emotional steadiness is a valuable asset that serves both you and the people around you."
+    },
+    "alert": {
+      "title": "The Watchful Guardian",
+      "description": "Your body operates on a constant yellow alert system, always scanning the horizon for potential threats that may or may not actually exist. You're intimately familiar with the warning signs - the racing heart, the tight chest, that vague 'something's wrong' feeling that likes to visit during quiet moments.",
+      "extended": "Your heightened alertness represents a nervous system that has learned to be hypervigilant, likely as a protective mechanism developed in response to stress, uncertainty, or past experiences that required constant monitoring for safety. While exhausting, this hyperawareness has probably served you well in many situations, allowing you to anticipate problems and prepare for challenges others might miss.\n\nYour body's early warning system is highly sensitive, picking up on subtle changes in your environment, other people's moods, and your own physical sensations. This can be incredibly useful for reading social situations, preventing problems, and staying safe, but it can also create anxiety about threats that aren't actually present.\n\nThe challenge with living in yellow alert mode is that it's mentally and physically draining. Your nervous system expends significant energy scanning for potential problems, which can leave you feeling tired even when nothing stressful actually happens. You might also find yourself anticipating catastrophes that never materialize.\n\nLearning to distinguish between helpful alertness and unnecessary hypervigilance will be key to maintaining your protective awareness while reducing the physical and emotional toll of constant monitoring. Your sensitivity is actually a strength when properly calibrated."
+    },
+    "anxious": {
+      "title": "The Edge Walker",
+      "description": "You live on the precipice of panic, constantly aware that one wrong trigger could send you tumbling over the cliff. Your body has become a collection of mysterious symptoms and false alarms, treating grocery shopping like a tactical mission and social events like survival scenarios.",
+      "extended": "Your nervous system has become hypertuned to potential threats, operating from a place of chronic activation that treats everyday situations as emergencies. This level of anxiety typically develops when your brain has learned that the world is unpredictable and potentially dangerous, causing it to maintain constant vigilance to protect you from perceived threats.\n\nAt this level, your body is essentially running stress software designed for short-term survival in long-term situations where it's not needed. Your fight-or-flight response activates for situations that aren't actually life-threatening, but your nervous system doesn't know the difference between a real tiger and a social situation that feels threatening.\n\nThe physical symptoms you experience - rapid heartbeat, sweating, trembling, nausea - are your body's way of preparing for danger, even when the 'danger' is something like a work presentation or social gathering. This creates a exhausting cycle where your body is constantly preparing for emergencies that don't actually happen.\n\nRecognizing that your anxiety is your nervous system trying to protect you - even when protection isn't needed - can help you develop compassion for your experience rather than fighting against it. Your heightened sensitivity, while overwhelming, also likely makes you incredibly empathetic and aware of others' emotional states. The goal isn't to eliminate anxiety entirely, but to help your nervous system learn to distinguish between real and imagined threats."
+    },
+    "panicking": {
+      "title": "The Storm Chaser",
+      "description": "Your nervous system exists in a permanent state of emergency alert, like a fire station where the alarm never stops ringing. Panic isn't just a possibility for you - it's a frequent, uninvited guest that has basically moved into your spare bedroom and refuses to pay rent.",
+      "extended": "Your nervous system has reached a state of chronic dysregulation where the normal stress response has become your baseline rather than an occasional response to actual threats. At this level, panic isn't just a symptom - it's become a way of being that significantly impacts your daily functioning and quality of life.\n\nThis level of activation typically develops when your nervous system has been overwhelmed by stress, trauma, or chronic uncertainty to the point where it can no longer distinguish between real and imagined threats. Your brain has learned that everything is potentially dangerous, so it maintains maximum alertness at all times, which is both exhausting and unsustainable.\n\nThe physical symptoms you experience are real and intense because your body is genuinely preparing for life-or-death situations, even during routine activities. Your nervous system is stuck in survival mode, which means higher brain functions like rational thinking and emotional regulation are often offline when you need them most.\n\nThe isolation that often comes with this level of panic can make it feel like you're the only person experiencing reality this intensely, but panic disorder is actually quite common and highly treatable. Your nervous system's current state isn't permanent - it's a learned response that can be unlearned with the right support and interventions. Professional help isn't just recommended at this level, it's essential for helping your nervous system learn that it's safe to relax."
+    }
+  }
+}

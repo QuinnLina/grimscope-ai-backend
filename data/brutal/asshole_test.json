@@ -1,0 +1,1112 @@
+{
+  "test_id": "asshole_test",
+  "title": "What Kind of Asshole Are You?",
+  "subtitle": "Everyone's an asshole. Find out your specific flavor",
+  "description": "Time for some brutal honesty about your shitty personality traits. This test will identify exactly what kind of asshole you are because let's face it - we're all assholes in our own special way. Whether you're a passive-aggressive manipulator, a narcissistic dickhead, or just garden-variety selfish, we'll figure out your particular brand of awful. No judgment... actually, lots of judgment.",
+  "medical_disclaimer": "This test is for entertainment and brutal self-reflection only. Results contain adult language and harsh truths about personality flaws. If you can't handle being called out for your asshole behavior, maybe work on that. For actual personality disorder concerns, consult a mental health professional, not a snarky quiz.",
+  "background_music": "assets/audio/brutaltest4.mp3",
+  "click_sound": "assets/audio/click.mp3",
+  "background_image": "assets/images/brutaltest4.png",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "When someone disagrees with you in a group setting, what's your honest first reaction?",
+      "answers": [
+        {
+          "id": "q1a1",
+          "text": "Immediately start explaining why they're wrong and I'm right, using increasingly condescending language until they shut up",
+          "weights": {
+            "know_it_all": 5,
+            "passive_aggressive": 1,
+            "narcissistic": 4,
+            "control_freak": 3,
+            "selfish_prick": 2,
+            "emotional_manipulator": 2,
+            "toxic_competitor": 4,
+            "judgmental_critic": 4,
+            "attention_whore": 3,
+            "boundary_stomper": 3,
+            "fake_nice": 1,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q1a2",
+          "text": "Smile and nod, then spend the rest of the conversation mentally drafting ways to undermine their credibility later",
+          "weights": {
+            "know_it_all": 2,
+            "passive_aggressive": 5,
+            "narcissistic": 2,
+            "control_freak": 3,
+            "selfish_prick": 3,
+            "emotional_manipulator": 4,
+            "toxic_competitor": 3,
+            "judgmental_critic": 3,
+            "attention_whore": 1,
+            "boundary_stomper": 2,
+            "fake_nice": 4,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q1a3",
+          "text": "Get personally offended because how dare they not recognize my obvious superiority and expertise on literally everything",
+          "weights": {
+            "know_it_all": 3,
+            "passive_aggressive": 2,
+            "narcissistic": 5,
+            "control_freak": 2,
+            "selfish_prick": 4,
+            "emotional_manipulator": 2,
+            "toxic_competitor": 3,
+            "judgmental_critic": 3,
+            "attention_whore": 4,
+            "boundary_stomper": 2,
+            "fake_nice": 1,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q1a4",
+          "text": "Turn it into a competition by bringing up my achievements and making it about who's more successful",
+          "weights": {
+            "know_it_all": 2,
+            "passive_aggressive": 1,
+            "narcissistic": 4,
+            "control_freak": 2,
+            "selfish_prick": 3,
+            "emotional_manipulator": 1,
+            "toxic_competitor": 5,
+            "judgmental_critic": 2,
+            "attention_whore": 4,
+            "boundary_stomper": 2,
+            "fake_nice": 1,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q1a5",
+          "text": "Actually listen to their perspective and consider that I might not have all the answers",
+          "weights": {
+            "know_it_all": 0,
+            "passive_aggressive": 0,
+            "narcissistic": 0,
+            "control_freak": 0,
+            "selfish_prick": 0,
+            "emotional_manipulator": 0,
+            "toxic_competitor": 0,
+            "judgmental_critic": 0,
+            "attention_whore": 0,
+            "boundary_stomper": 0,
+            "fake_nice": 0,
+            "surprisingly_decent": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "How do you typically handle it when someone asks you for a favor you don't want to do?",
+      "answers": [
+        {
+          "id": "q2a1",
+          "text": "Say yes with a smile, then do a shitty job and complain about them to everyone else",
+          "weights": {
+            "know_it_all": 1,
+            "passive_aggressive": 5,
+            "narcissistic": 2,
+            "control_freak": 2,
+            "selfish_prick": 3,
+            "emotional_manipulator": 3,
+            "toxic_competitor": 1,
+            "judgmental_critic": 2,
+            "attention_whore": 2,
+            "boundary_stomper": 1,
+            "fake_nice": 5,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q2a2",
+          "text": "Tell them no, but make sure they know how busy and important I am compared to their trivial needs",
+          "weights": {
+            "know_it_all": 3,
+            "passive_aggressive": 2,
+            "narcissistic": 5,
+            "control_freak": 2,
+            "selfish_prick": 4,
+            "emotional_manipulator": 2,
+            "toxic_competitor": 3,
+            "judgmental_critic": 3,
+            "attention_whore": 3,
+            "boundary_stomper": 2,
+            "fake_nice": 1,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q2a3",
+          "text": "Ignore their request completely and hope they forget, then act confused if they bring it up again",
+          "weights": {
+            "know_it_all": 1,
+            "passive_aggressive": 4,
+            "narcissistic": 2,
+            "control_freak": 1,
+            "selfish_prick": 5,
+            "emotional_manipulator": 2,
+            "toxic_competitor": 1,
+            "judgmental_critic": 1,
+            "attention_whore": 1,
+            "boundary_stomper": 3,
+            "fake_nice": 2,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q2a4",
+          "text": "Turn it around and make them feel guilty for even asking, like they're being unreasonable",
+          "weights": {
+            "know_it_all": 2,
+            "passive_aggressive": 3,
+            "narcissistic": 3,
+            "control_freak": 4,
+            "selfish_prick": 3,
+            "emotional_manipulator": 5,
+            "toxic_competitor": 2,
+            "judgmental_critic": 3,
+            "attention_whore": 2,
+            "boundary_stomper": 3,
+            "fake_nice": 2,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q2a5",
+          "text": "Politely decline and explain my limitations without being a dick about it",
+          "weights": {
+            "know_it_all": 0,
+            "passive_aggressive": 0,
+            "narcissistic": 0,
+            "control_freak": 0,
+            "selfish_prick": 0,
+            "emotional_manipulator": 0,
+            "toxic_competitor": 0,
+            "judgmental_critic": 0,
+            "attention_whore": 0,
+            "boundary_stomper": 0,
+            "fake_nice": 0,
+            "surprisingly_decent": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "What's your honest approach to giving advice to friends with problems?",
+      "answers": [
+        {
+          "id": "q3a1",
+          "text": "Tell them exactly what they should do because obviously I know better than they do about their own life",
+          "weights": {
+            "know_it_all": 5,
+            "passive_aggressive": 1,
+            "narcissistic": 3,
+            "control_freak": 5,
+            "selfish_prick": 2,
+            "emotional_manipulator": 2,
+            "toxic_competitor": 2,
+            "judgmental_critic": 4,
+            "attention_whore": 2,
+            "boundary_stomper": 4,
+            "fake_nice": 1,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q3a2",
+          "text": "Listen just long enough to make it about my own experiences and problems instead",
+          "weights": {
+            "know_it_all": 2,
+            "passive_aggressive": 1,
+            "narcissistic": 4,
+            "control_freak": 1,
+            "selfish_prick": 4,
+            "emotional_manipulator": 2,
+            "toxic_competitor": 2,
+            "judgmental_critic": 1,
+            "attention_whore": 5,
+            "boundary_stomper": 2,
+            "fake_nice": 2,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q3a3",
+          "text": "Judge their choices harshly while pretending to be helpful and supportive",
+          "weights": {
+            "know_it_all": 3,
+            "passive_aggressive": 3,
+            "narcissistic": 2,
+            "control_freak": 2,
+            "selfish_prick": 2,
+            "emotional_manipulator": 3,
+            "toxic_competitor": 2,
+            "judgmental_critic": 5,
+            "attention_whore": 1,
+            "boundary_stomper": 2,
+            "fake_nice": 4,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q3a4",
+          "text": "Give advice that serves my interests rather than theirs, but frame it as caring",
+          "weights": {
+            "know_it_all": 2,
+            "passive_aggressive": 3,
+            "narcissistic": 3,
+            "control_freak": 4,
+            "selfish_prick": 4,
+            "emotional_manipulator": 5,
+            "toxic_competitor": 3,
+            "judgmental_critic": 2,
+            "attention_whore": 2,
+            "boundary_stomper": 3,
+            "fake_nice": 3,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q3a5",
+          "text": "Actually listen, ask thoughtful questions, and support them in figuring out their own solution",
+          "weights": {
+            "know_it_all": 0,
+            "passive_aggressive": 0,
+            "narcissistic": 0,
+            "control_freak": 0,
+            "selfish_prick": 0,
+            "emotional_manipulator": 0,
+            "toxic_competitor": 0,
+            "judgmental_critic": 0,
+            "attention_whore": 0,
+            "boundary_stomper": 0,
+            "fake_nice": 0,
+            "surprisingly_decent": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "How do you behave when you're in a bad mood around other people?",
+      "answers": [
+        {
+          "id": "q4a1",
+          "text": "Make sure everyone knows I'm upset by being passive-aggressive and making them guess what's wrong",
+          "weights": {
+            "know_it_all": 2,
+            "passive_aggressive": 5,
+            "narcissistic": 2,
+            "control_freak": 3,
+            "selfish_prick": 3,
+            "emotional_manipulator": 4,
+            "toxic_competitor": 1,
+            "judgmental_critic": 2,
+            "attention_whore": 3,
+            "boundary_stomper": 2,
+            "fake_nice": 3,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q4a2",
+          "text": "Take it out on whoever's convenient, because if I'm miserable, everyone should be miserable",
+          "weights": {
+            "know_it_all": 3,
+            "passive_aggressive": 2,
+            "narcissistic": 3,
+            "control_freak": 3,
+            "selfish_prick": 5,
+            "emotional_manipulator": 3,
+            "toxic_competitor": 3,
+            "judgmental_critic": 4,
+            "attention_whore": 2,
+            "boundary_stomper": 4,
+            "fake_nice": 1,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q4a3",
+          "text": "Act like everything's fine but be subtly mean and critical to make others feel as shitty as I do",
+          "weights": {
+            "know_it_all": 2,
+            "passive_aggressive": 4,
+            "narcissistic": 2,
+            "control_freak": 2,
+            "selfish_prick": 3,
+            "emotional_manipulator": 4,
+            "toxic_competitor": 2,
+            "judgmental_critic": 4,
+            "attention_whore": 1,
+            "boundary_stomper": 2,
+            "fake_nice": 4,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q4a4",
+          "text": "Demand extra attention and sympathy while making my bad mood everyone else's problem to solve",
+          "weights": {
+            "know_it_all": 1,
+            "passive_aggressive": 3,
+            "narcissistic": 4,
+            "control_freak": 3,
+            "selfish_prick": 4,
+            "emotional_manipulator": 4,
+            "toxic_competitor": 1,
+            "judgmental_critic": 1,
+            "attention_whore": 5,
+            "boundary_stomper": 3,
+            "fake_nice": 1,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q4a5",
+          "text": "Take responsibility for my mood and either deal with it privately or communicate clearly about what I need",
+          "weights": {
+            "know_it_all": 0,
+            "passive_aggressive": 0,
+            "narcissistic": 0,
+            "control_freak": 0,
+            "selfish_prick": 0,
+            "emotional_manipulator": 0,
+            "toxic_competitor": 0,
+            "judgmental_critic": 0,
+            "attention_whore": 0,
+            "boundary_stomper": 0,
+            "fake_nice": 0,
+            "surprisingly_decent": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "What's your honest attitude toward people who are less successful than you?",
+      "answers": [
+        {
+          "id": "q5a1",
+          "text": "I feel superior and assume they just don't work as hard or aren't as smart as me",
+          "weights": {
+            "know_it_all": 4,
+            "passive_aggressive": 1,
+            "narcissistic": 5,
+            "control_freak": 2,
+            "selfish_prick": 4,
+            "emotional_manipulator": 1,
+            "toxic_competitor": 4,
+            "judgmental_critic": 5,
+            "attention_whore": 2,
+            "boundary_stomper": 2,
+            "fake_nice": 1,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q5a2",
+          "text": "I act sympathetic to their face but secretly enjoy feeling better about myself by comparison",
+          "weights": {
+            "know_it_all": 2,
+            "passive_aggressive": 3,
+            "narcissistic": 3,
+            "control_freak": 1,
+            "selfish_prick": 3,
+            "emotional_manipulator": 3,
+            "toxic_competitor": 3,
+            "judgmental_critic": 3,
+            "attention_whore": 2,
+            "boundary_stomper": 1,
+            "fake_nice": 5,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q5a3",
+          "text": "I offer unsolicited advice about how they could improve their life, because clearly they need my wisdom",
+          "weights": {
+            "know_it_all": 5,
+            "passive_aggressive": 2,
+            "narcissistic": 4,
+            "control_freak": 4,
+            "selfish_prick": 2,
+            "emotional_manipulator": 2,
+            "toxic_competitor": 2,
+            "judgmental_critic": 4,
+            "attention_whore": 2,
+            "boundary_stomper": 4,
+            "fake_nice": 2,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q5a4",
+          "text": "I avoid them because their failure might be contagious and I don't want to be associated with losers",
+          "weights": {
+            "know_it_all": 2,
+            "passive_aggressive": 2,
+            "narcissistic": 4,
+            "control_freak": 1,
+            "selfish_prick": 5,
+            "emotional_manipulator": 1,
+            "toxic_competitor": 3,
+            "judgmental_critic": 4,
+            "attention_whore": 1,
+            "boundary_stomper": 2,
+            "fake_nice": 2,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q5a5",
+          "text": "I recognize that success comes in many forms and everyone's journey is different",
+          "weights": {
+            "know_it_all": 0,
+            "passive_aggressive": 0,
+            "narcissistic": 0,
+            "control_freak": 0,
+            "selfish_prick": 0,
+            "emotional_manipulator": 0,
+            "toxic_competitor": 0,
+            "judgmental_critic": 0,
+            "attention_whore": 0,
+            "boundary_stomper": 0,
+            "fake_nice": 0,
+            "surprisingly_decent": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "How do you handle being wrong about something important?",
+      "answers": [
+        {
+          "id": "q6a1",
+          "text": "Find ways to prove I was actually right, or at least partially right, and definitely more right than everyone else",
+          "weights": {
+            "know_it_all": 5,
+            "passive_aggressive": 2,
+            "narcissistic": 4,
+            "control_freak": 3,
+            "selfish_prick": 3,
+            "emotional_manipulator": 2,
+            "toxic_competitor": 3,
+            "judgmental_critic": 2,
+            "attention_whore": 2,
+            "boundary_stomper": 2,
+            "fake_nice": 2,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q6a2",
+          "text": "Blame external factors, other people, or circumstances beyond my control",
+          "weights": {
+            "know_it_all": 3,
+            "passive_aggressive": 3,
+            "narcissistic": 3,
+            "control_freak": 2,
+            "selfish_prick": 4,
+            "emotional_manipulator": 3,
+            "toxic_competitor": 2,
+            "judgmental_critic": 2,
+            "attention_whore": 2,
+            "boundary_stomper": 2,
+            "fake_nice": 3,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q6a3",
+          "text": "Get defensive and attack the person who corrected me instead of addressing the actual issue",
+          "weights": {
+            "know_it_all": 3,
+            "passive_aggressive": 2,
+            "narcissistic": 4,
+            "control_freak": 3,
+            "selfish_prick": 3,
+            "emotional_manipulator": 3,
+            "toxic_competitor": 4,
+            "judgmental_critic": 3,
+            "attention_whore": 2,
+            "boundary_stomper": 3,
+            "fake_nice": 1,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q6a4",
+          "text": "Acknowledge it publicly but secretly resent everyone involved and plot my comeback",
+          "weights": {
+            "know_it_all": 2,
+            "passive_aggressive": 5,
+            "narcissistic": 3,
+            "control_freak": 3,
+            "selfish_prick": 3,
+            "emotional_manipulator": 4,
+            "toxic_competitor": 4,
+            "judgmental_critic": 2,
+            "attention_whore": 2,
+            "boundary_stomper": 2,
+            "fake_nice": 3,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q6a5",
+          "text": "Actually admit I was wrong, learn from it, and thank the person who corrected me",
+          "weights": {
+            "know_it_all": 0,
+            "passive_aggressive": 0,
+            "narcissistic": 0,
+            "control_freak": 0,
+            "selfish_prick": 0,
+            "emotional_manipulator": 0,
+            "toxic_competitor": 0,
+            "judgmental_critic": 0,
+            "attention_whore": 0,
+            "boundary_stomper": 0,
+            "fake_nice": 0,
+            "surprisingly_decent": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "What's your approach to social situations where you're not the center of attention?",
+      "answers": [
+        {
+          "id": "q7a1",
+          "text": "Find ways to redirect the conversation back to me and my experiences",
+          "weights": {
+            "know_it_all": 2,
+            "passive_aggressive": 1,
+            "narcissistic": 4,
+            "control_freak": 2,
+            "selfish_prick": 4,
+            "emotional_manipulator": 2,
+            "toxic_competitor": 3,
+            "judgmental_critic": 1,
+            "attention_whore": 5,
+            "boundary_stomper": 3,
+            "fake_nice": 1,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q7a2",
+          "text": "Act bored or disinterested until someone notices and asks what's wrong",
+          "weights": {
+            "know_it_all": 1,
+            "passive_aggressive": 4,
+            "narcissistic": 3,
+            "control_freak": 2,
+            "selfish_prick": 3,
+            "emotional_manipulator": 3,
+            "toxic_competitor": 1,
+            "judgmental_critic": 2,
+            "attention_whore": 4,
+            "boundary_stomper": 2,
+            "fake_nice": 2,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q7a3",
+          "text": "Start judging everyone else's contributions and mentally composing critiques",
+          "weights": {
+            "know_it_all": 4,
+            "passive_aggressive": 2,
+            "narcissistic": 3,
+            "control_freak": 2,
+            "selfish_prick": 2,
+            "emotional_manipulator": 1,
+            "toxic_competitor": 3,
+            "judgmental_critic": 5,
+            "attention_whore": 2,
+            "boundary_stomper": 1,
+            "fake_nice": 2,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q7a4",
+          "text": "Try to one-up whatever story or achievement someone else is sharing",
+          "weights": {
+            "know_it_all": 3,
+            "passive_aggressive": 1,
+            "narcissistic": 4,
+            "control_freak": 2,
+            "selfish_prick": 3,
+            "emotional_manipulator": 2,
+            "toxic_competitor": 5,
+            "judgmental_critic": 2,
+            "attention_whore": 4,
+            "boundary_stomper": 3,
+            "fake_nice": 1,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q7a5",
+          "text": "Genuinely enjoy learning about other people and supporting their moment to shine",
+          "weights": {
+            "know_it_all": 0,
+            "passive_aggressive": 0,
+            "narcissistic": 0,
+            "control_freak": 0,
+            "selfish_prick": 0,
+            "emotional_manipulator": 0,
+            "toxic_competitor": 0,
+            "judgmental_critic": 0,
+            "attention_whore": 0,
+            "boundary_stomper": 0,
+            "fake_nice": 0,
+            "surprisingly_decent": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "How do you treat service workers, waitstaff, or customer service representatives?",
+      "answers": [
+        {
+          "id": "q8a1",
+          "text": "I'm demanding and impatient because they're paid to serve me and should be grateful for my business",
+          "weights": {
+            "know_it_all": 3,
+            "passive_aggressive": 2,
+            "narcissistic": 5,
+            "control_freak": 4,
+            "selfish_prick": 5,
+            "emotional_manipulator": 2,
+            "toxic_competitor": 2,
+            "judgmental_critic": 4,
+            "attention_whore": 3,
+            "boundary_stomper": 4,
+            "fake_nice": 1,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q8a2",
+          "text": "I'm polite to their face but complain loudly to my friends about how incompetent they are",
+          "weights": {
+            "know_it_all": 2,
+            "passive_aggressive": 4,
+            "narcissistic": 2,
+            "control_freak": 2,
+            "selfish_prick": 3,
+            "emotional_manipulator": 2,
+            "toxic_competitor": 1,
+            "judgmental_critic": 4,
+            "attention_whore": 2,
+            "boundary_stomper": 1,
+            "fake_nice": 5,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q8a3",
+          "text": "I lecture them about how they could do their job better while making them uncomfortable",
+          "weights": {
+            "know_it_all": 5,
+            "passive_aggressive": 2,
+            "narcissistic": 3,
+            "control_freak": 4,
+            "selfish_prick": 3,
+            "emotional_manipulator": 2,
+            "toxic_competitor": 1,
+            "judgmental_critic": 4,
+            "attention_whore": 2,
+            "boundary_stomper": 4,
+            "fake_nice": 1,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q8a4",
+          "text": "I use them as emotional punching bags when I'm having a bad day because they can't fight back",
+          "weights": {
+            "know_it_all": 2,
+            "passive_aggressive": 2,
+            "narcissistic": 3,
+            "control_freak": 3,
+            "selfish_prick": 5,
+            "emotional_manipulator": 3,
+            "toxic_competitor": 2,
+            "judgmental_critic": 3,
+            "attention_whore": 2,
+            "boundary_stomper": 5,
+            "fake_nice": 1,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q8a5",
+          "text": "I treat them with basic human respect and kindness because they're people doing their job",
+          "weights": {
+            "know_it_all": 0,
+            "passive_aggressive": 0,
+            "narcissistic": 0,
+            "control_freak": 0,
+            "selfish_prick": 0,
+            "emotional_manipulator": 0,
+            "toxic_competitor": 0,
+            "judgmental_critic": 0,
+            "attention_whore": 0,
+            "boundary_stomper": 0,
+            "fake_nice": 0,
+            "surprisingly_decent": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "What's your honest approach to keeping promises and commitments to friends?",
+      "answers": [
+        {
+          "id": "q9a1",
+          "text": "I only keep them if it's still convenient for me when the time comes",
+          "weights": {
+            "know_it_all": 1,
+            "passive_aggressive": 2,
+            "narcissistic": 3,
+            "control_freak": 1,
+            "selfish_prick": 5,
+            "emotional_manipulator": 2,
+            "toxic_competitor": 1,
+            "judgmental_critic": 1,
+            "attention_whore": 2,
+            "boundary_stomper": 3,
+            "fake_nice": 2,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q9a2",
+          "text": "I make elaborate excuses and act like the circumstances were beyond my control",
+          "weights": {
+            "know_it_all": 2,
+            "passive_aggressive": 4,
+            "narcissistic": 2,
+            "control_freak": 2,
+            "selfish_prick": 4,
+            "emotional_manipulator": 3,
+            "toxic_competitor": 1,
+            "judgmental_critic": 1,
+            "attention_whore": 2,
+            "boundary_stomper": 2,
+            "fake_nice": 3,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q9a3",
+          "text": "I keep score and make sure they owe me more than I owe them",
+          "weights": {
+            "know_it_all": 2,
+            "passive_aggressive": 3,
+            "narcissistic": 3,
+            "control_freak": 3,
+            "selfish_prick": 4,
+            "emotional_manipulator": 4,
+            "toxic_competitor": 4,
+            "judgmental_critic": 2,
+            "attention_whore": 1,
+            "boundary_stomper": 2,
+            "fake_nice": 2,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q9a4",
+          "text": "I promise things I know I can't deliver just to make them happy in the moment",
+          "weights": {
+            "know_it_all": 1,
+            "passive_aggressive": 3,
+            "narcissistic": 2,
+            "control_freak": 2,
+            "selfish_prick": 3,
+            "emotional_manipulator": 5,
+            "toxic_competitor": 1,
+            "judgmental_critic": 1,
+            "attention_whore": 3,
+            "boundary_stomper": 2,
+            "fake_nice": 4,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q9a5",
+          "text": "I honor my commitments because my word actually means something to me",
+          "weights": {
+            "know_it_all": 0,
+            "passive_aggressive": 0,
+            "narcissistic": 0,
+            "control_freak": 0,
+            "selfish_prick": 0,
+            "emotional_manipulator": 0,
+            "toxic_competitor": 0,
+            "judgmental_critic": 0,
+            "attention_whore": 0,
+            "boundary_stomper": 0,
+            "fake_nice": 0,
+            "surprisingly_decent": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "How do you react when someone else gets recognition or success that you wanted?",
+      "answers": [
+        {
+          "id": "q10a1",
+          "text": "Find ways to diminish their achievement and point out why I deserved it more",
+          "weights": {
+            "know_it_all": 3,
+            "passive_aggressive": 3,
+            "narcissistic": 4,
+            "control_freak": 2,
+            "selfish_prick": 4,
+            "emotional_manipulator": 3,
+            "toxic_competitor": 5,
+            "judgmental_critic": 4,
+            "attention_whore": 3,
+            "boundary_stomper": 2,
+            "fake_nice": 2,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q10a2",
+          "text": "Congratulate them publicly while privately seething and planning how to one-up them",
+          "weights": {
+            "know_it_all": 2,
+            "passive_aggressive": 5,
+            "narcissistic": 3,
+            "control_freak": 2,
+            "selfish_prick": 3,
+            "emotional_manipulator": 3,
+            "toxic_competitor": 4,
+            "judgmental_critic": 2,
+            "attention_whore": 2,
+            "boundary_stomper": 1,
+            "fake_nice": 4,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q10a3",
+          "text": "Make it about how this affects me and why I'm the real victim in this situation",
+          "weights": {
+            "know_it_all": 2,
+            "passive_aggressive": 2,
+            "narcissistic": 5,
+            "control_freak": 1,
+            "selfish_prick": 4,
+            "emotional_manipulator": 4,
+            "toxic_competitor": 3,
+            "judgmental_critic": 1,
+            "attention_whore": 4,
+            "boundary_stomper": 2,
+            "fake_nice": 1,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q10a4",
+          "text": "Immediately start bragging about my own achievements to steal their thunder",
+          "weights": {
+            "know_it_all": 2,
+            "passive_aggressive": 1,
+            "narcissistic": 4,
+            "control_freak": 1,
+            "selfish_prick": 3,
+            "emotional_manipulator": 2,
+            "toxic_competitor": 5,
+            "judgmental_critic": 1,
+            "attention_whore": 5,
+            "boundary_stomper": 3,
+            "fake_nice": 1,
+            "surprisingly_decent": 0
+          }
+        },
+        {
+          "id": "q10a5",
+          "text": "Feel disappointed but genuinely celebrate their success and learn from their approach",
+          "weights": {
+            "know_it_all": 0,
+            "passive_aggressive": 0,
+            "narcissistic": 0,
+            "control_freak": 0,
+            "selfish_prick": 0,
+            "emotional_manipulator": 0,
+            "toxic_competitor": 0,
+            "judgmental_critic": 0,
+            "attention_whore": 0,
+            "boundary_stomper": 0,
+            "fake_nice": 0,
+            "surprisingly_decent": 5
+          }
+        }
+      ]
+    }
+  ],
+  "personality_types": {
+    "know_it_all": {
+      "title": "Insufferable Know-It-All",
+      "subtitle": "Expert on everything, master of nothing",
+      "basic_analysis": "Congratulations, you're the human equivalent of a Wikipedia article that nobody asked for. You're that special kind of asshole who thinks having an opinion on everything makes you interesting, when really it just makes you exhausting. You can't let anyone have a conversation without correcting them, lecturing them, or showing off how much smarter you think you are.",
+      "detailed_analysis": [
+        "Your particular brand of assholery is rooted in intellectual insecurity disguised as superiority. You can't simply let people be wrong about things because their ignorance somehow threatens your carefully constructed image as the smartest person in the room. You've confused having strong opinions with having wisdom, and having information with having intelligence. Every conversation becomes a pop quiz where you're the self-appointed teacher, and everyone else is your unwilling student.",
+        "The brutal reality is that you're not as smart as you think you are, and everyone can tell. Your constant need to correct and educate others isn't helping anyone - it's just satisfying your own ego at everyone else's expense. People don't come to you for knowledge; they avoid you because being around you feels like being trapped in a lecture they didn't sign up for. You've turned social interaction into a competitive sport where the only goal is proving your intellectual superiority.",
+        "You probably think you're being helpful when you mansplain things to people who already know what they're talking about, or when you interrupt conversations to provide 'context' that nobody needed. But really, you're just being a condescending prick who can't stand not being the center of intellectual attention. You've made yourself the unofficial fact-checker of every group, and nobody asked for that service. Your need to be right isn't about truth - it's about validation.",
+        "The psychological root of your know-it-all behavior likely stems from childhood experiences where your intelligence was your primary source of approval or attention. Maybe you were the 'smart kid' who got praise for knowing things, so you learned that your worth was tied to being the smartest person in the room. Now you're an adult who still needs that validation, but you're getting it by making everyone else feel stupid.",
+        "Your know-it-all tendencies are also a defense mechanism against feeling vulnerable or uncertain. If you're always the expert, you never have to admit that you don't know something or that you might be wrong. But this creates a prison where you can't learn anything new because learning requires admitting ignorance, and admitting ignorance threatens your entire identity.",
+        "The irony is that your behavior actually makes you less intelligent over time. Real intelligence involves curiosity, humility, and the ability to change your mind when presented with new information. By always needing to be the smartest person in the room, you've closed yourself off to learning from others. You're so busy teaching that you've forgotten how to be a student.",
+        "Here's your reality check: being knowledgeable is great, but being insufferable about it makes all that knowledge worthless. Learn to listen, admit when you don't know something, and let other people have their moments without turning everything into a teaching opportunity. Your intelligence means nothing if it comes wrapped in arrogance. Start asking questions instead of providing answers, and watch how much more people enjoy being around you."
+      ]
+    },
+    "passive_aggressive": {
+      "title": "Passive-Aggressive Mastermind",
+      "subtitle": "Never directly saying what you mean since forever",
+      "basic_analysis": "You're the kind of asshole who would rather drop hints, make people guess what's wrong, and punish them for not being mind readers than just communicate like a normal human being. You've weaponized politeness and turned indirect communication into an art form of emotional torture.",
+      "detailed_analysis": [
+        "Your asshole strategy is death by a thousand cuts - never one big confrontation, just endless small acts of subtle hostility that slowly drive everyone insane. You say 'fine' when you mean 'I hate you,' agree to things you have no intention of doing well, and make people feel crazy for being upset about behavior you pretend is innocent. You've mastered the art of plausible deniability, always leaving yourself room to claim that people are 'overreacting' or 'reading too much into things.'",
+        "The brutal truth is that you're a coward who's too scared of conflict to address problems directly, so you create elaborate schemes of indirect revenge instead. You'd rather make everyone miserable than risk having an honest conversation about what's bothering you. You've turned emotional communication into a sadistic guessing game where everyone loses except you. Your passive-aggression is actually aggressive-aggression with extra steps.",
+        "You probably think you're being clever by never saying what you really mean, but really you're just being manipulative and exhausting. People don't appreciate your 'subtle' approach - they're just too tired to call you out on your bullshit. You're not mysterious or complex; you're just annoying. Your inability to communicate directly has turned every relationship into an emotional minefield that nobody wants to navigate.",
+        "The psychology behind your passive-aggressive behavior likely stems from a childhood where direct expression of anger or disappointment wasn't allowed or was met with punishment. So you learned to express negative feelings indirectly, through sulking, silent treatment, or subtle sabotage. You developed these skills as survival mechanisms, but now you're using them as weapons against people who actually care about you.",
+        "Your passive-aggression is also a power play disguised as powerlessness. By refusing to engage directly, you force other people to do all the emotional work of figuring out what's wrong and trying to fix it. You get to be the victim while simultaneously controlling the entire dynamic. It's manipulation masquerading as helplessness, and it's fucking exhausting for everyone around you.",
+        "The most insidious part of your behavior is how it erodes trust and intimacy in your relationships. When people can't trust that you'll say what you mean or mean what you say, they start walking on eggshells around you. They become hypervigilant, trying to read between the lines and decode your moods. This creates exactly the kind of anxious, unstable relationships that confirm your belief that people will eventually disappoint or abandon you.",
+        "Reality check: passive-aggression isn't a communication style, it's emotional terrorism. Learn to use your words like an adult and stop punishing people for not being psychic. Your refusal to be direct isn't protecting anyone - it's just making every interaction a minefield that nobody wants to navigate. Try saying what you actually mean and see how much better your relationships become."
+      ]
+    },
+    "narcissistic": {
+      "title": "Classic Narcissistic Dickhead",
+      "subtitle": "Main character syndrome with a PhD in self-importance",
+      "basic_analysis": "You're that special type of asshole who genuinely believes the world revolves around you and can't understand why everyone else doesn't see how obviously amazing you are. Every conversation is an opportunity to talk about yourself, every situation is about how it affects you, and every room you enter becomes your personal stage.",
+      "detailed_analysis": [
+        "Your assholery is pure, uncut narcissism - you literally cannot see other people as anything more than supporting characters in the movie of your life. You lack empathy not because you're evil, but because you're so self-absorbed that other people's experiences don't register as real to you. Everything is about you, even when it's clearly not about you.",
+        "The brutal reality is that you're not nearly as special as you think you are, and your constant need for admiration is exhausting everyone around you. You don't have friends - you have an audience that you've trapped through social obligation. People don't stick around because they enjoy your company; they stick around because leaving requires more energy than tolerating your bullshit.",
+        "You probably think people are jealous of your confidence and success, but really they're just tired of being treated like props in your personal drama. Your 'confidence' is actually just selfishness with better PR, and your 'success' means nothing if you have to step on everyone else to feel good about it.",
+        "Wake-up call: you're not the main character in everyone else's story, and your worth doesn't depend on being better than everyone around you. Learn to see other people as actual humans with their own lives and feelings, or accept that you'll die alone surrounded by people who were only there for what you could do for them."
+      ]
+    },
+    "control_freak": {
+      "title": "Micromanaging Control Freak",
+      "subtitle": "Attempting to run everyone else's life since birth",
+      "basic_analysis": "You're the kind of asshole who can't let anyone do anything without your input, supervision, or 'improvement.' You've appointed yourself as the manager of everyone else's choices and wonder why people find you suffocating. Your need to control everything and everyone around you makes you a nightmare to be around.",
+      "detailed_analysis": [
+        "Your asshole superpower is taking the joy out of everything by turning every activity into a project that needs your management. You can't let people make their own mistakes or learn their own lessons because you're convinced that your way is always the best way. You've confused being helpful with being controlling, and now nobody wants your 'help.'",
+        "The brutal truth is that your need to control everything comes from your own anxiety and insecurity, but you're making it everyone else's problem. You don't trust other people to make good decisions because you don't trust yourself to handle the consequences if they make bad ones. Your control isn't helping anyone - it's just feeding your own neuroses.",
+        "You probably think you're being responsible and caring when you tell people how to live their lives, but really you're just being an overbearing asshole who can't mind your own business. People don't need you to manage their existence, and your constant interference isn't appreciated - it's resented.",
+        "Reality check: other people's lives are not your responsibility to manage, and your anxiety about things going wrong doesn't give you the right to control everything. Learn to trust that people can handle their own shit, or accept that you'll push everyone away with your suffocating need to be in charge of everything."
+      ]
+    },
+    "selfish_prick": {
+      "title": "Garden-Variety Selfish Prick",
+      "subtitle": "It's all about you, all the time, forever",
+      "basic_analysis": "You're the classic asshole who puts yourself first in every situation and can't understand why people get upset about it. You take what you want, do what you want, and expect everyone else to deal with the consequences. Your empathy levels are in the negative numbers, and you're proud of it.",
+      "detailed_analysis": [
+        "Your asshole approach is refreshingly straightforward - you simply don't give a shit about anyone but yourself. You take the last slice of pizza, cancel plans when something better comes up, and expect people to be grateful for whatever scraps of attention you throw their way. You've turned selfishness into a lifestyle and somehow convinced yourself it's just 'looking out for number one.'",
+        "The brutal reality is that your selfishness isn't strength or independence - it's just being a shitty person who takes more than they give. You might get what you want in the short term, but you're burning through relationships faster than you can build them. People tolerate you until they don't, and then they're gone forever.",
+        "You probably justify your behavior by claiming that 'everyone does it' or that 'nice guys finish last,' but really you're just too lazy and entitled to consider how your actions affect other people. Your selfishness isn't strategic - it's just you being an asshole and calling it self-care.",
+        "Wake-up call: being selfish all the time isn't sustainable, and eventually you'll run out of people willing to put up with your shit. Learn to give as much as you take, or accept that you'll end up alone because nobody wants to be friends with someone who only cares about themselves."
+      ]
+    },
+    "emotional_manipulator": {
+      "title": "Emotional Manipulator Supreme",
+      "subtitle": "Turning feelings into weapons since childhood",
+      "basic_analysis": "You're the kind of asshole who has weaponized emotions and turned every interaction into a psychological chess game. You know exactly which buttons to push to make people feel guilty, scared, or responsible for your wellbeing, and you use these skills to get what you want without caring about the emotional damage you cause.",
+      "detailed_analysis": [
+        "Your particular brand of assholery is insidious because you've figured out how to make people feel bad for not giving you what you want. You use guilt, fear, obligation, and sympathy as tools to control others, and you're so good at it that your victims often don't realize they're being manipulated until it's too late. You've turned emotional intelligence into emotional terrorism.",
+        "The brutal truth is that you're not clever or strategic - you're just a predator who feeds on other people's kindness and empathy. You don't build genuine relationships; you create hostage situations where people feel too guilty or afraid to leave. Your 'love' comes with so many conditions and manipulations that it's not really love at all.",
+        "You probably think you're just being persuasive or that you're teaching people to care about your needs, but really you're just being an abusive asshole who can't get what they want through honest means. Your manipulation tactics work until people figure out what you're doing, and then they cut you off completely.",
+        "Reality check: manipulation isn't a relationship skill, it's emotional abuse. Learn to ask for what you need directly and accept 'no' as an answer, or continue to drive away everyone who might actually care about you. Your emotional games aren't sustainable, and eventually everyone will see through your act."
+      ]
+    },
+    "toxic_competitor": {
+      "title": "Toxic Competitor",
+      "subtitle": "Turning everything into a contest you must win",
+      "basic_analysis": "You're the kind of asshole who can't let anyone have a moment without turning it into a competition where you need to come out on top. Every conversation becomes a pissing contest, every achievement by someone else becomes a challenge to your superiority, and you measure your worth by how much better you are than everyone around you.",
+      "detailed_analysis": [
+        "Your asshole specialty is sucking the joy out of other people's success by making everything about winning and losing. You can't celebrate someone else's promotion without mentioning your bigger salary, can't listen to someone's vacation story without talking about your better trip, and can't let anyone have expertise in an area without proving you know more.",
+        "The brutal reality is that your need to win every interaction comes from deep insecurity about your own worth. You've tied your self-esteem to being better than others instead of being good at things for their own sake. Your competitive nature isn't driving you to excellence - it's driving everyone away from you.",
+        "You probably think your competitive spirit is motivating and inspiring, but really it's just exhausting and obnoxious. People don't want to be in constant competition with their friends, and your inability to let anyone else have a moment makes you a nightmare to be around.",
+        "Wake-up call: life isn't a zero-sum game where someone else's success takes away from yours. Learn to celebrate other people's achievements without making it about yourself, or accept that you'll spend your life surrounded by people who see you as a threat rather than a friend."
+      ]
+    },
+    "judgmental_critic": {
+      "title": "Professional Judgmental Critic",
+      "subtitle": "Finding fault in everything since you learned to talk",
+      "basic_analysis": "You're the kind of asshole who can't see anything without immediately identifying what's wrong with it. You're a walking criticism machine who thinks pointing out flaws makes you insightful, when really it just makes you a negative, draining person that nobody wants to be around.",
+      "detailed_analysis": [
+        "Your asshole superpower is being able to find the worst in every situation, person, and idea. You've convinced yourself that being critical makes you sophisticated and discerning, but really you're just a pessimistic buzzkill who sucks the life out of every room you enter. Your 'high standards' are really just an excuse to shit on everything and everyone.",
+        "The brutal truth is that your constant criticism isn't helping anyone improve - it's just satisfying your need to feel superior by tearing other things down. You don't build anything positive; you just destroy other people's enthusiasm and confidence. Your 'honesty' is really just cruelty with better packaging.",
+        "You probably think you're being helpful by pointing out all the problems you see, but really you're just being a miserable asshole who can't let people enjoy things. Your criticism isn't constructive - it's destructive, and it makes everyone around you feel worse about themselves and their choices.",
+        "Reality check: being able to find fault in everything doesn't make you smart or sophisticated - it makes you a negative person that people avoid. Learn to find something positive to say or keep your criticisms to yourself, because nobody asked for your running commentary on everything that's wrong with the world."
+      ]
+    },
+    "attention_whore": {
+      "title": "Shameless Attention Whore",
+      "subtitle": "Making everything about you since you could form words",
+      "basic_analysis": "You're the kind of asshole who needs to be the center of attention at all times and will do whatever it takes to redirect focus back to yourself. Every conversation becomes an opportunity to talk about your life, every situation becomes a chance to make yourself the star, and you can't stand when anyone else gets the spotlight.",
+      "detailed_analysis": [
+        "Your asshole method is emotional terrorism through neediness - you demand constant attention and validation, and you make everyone uncomfortable when you don't get it. You interrupt stories to tell your own, hijack conversations to make them about you, and create drama when people aren't paying you enough attention. You've turned social interaction into a performance where you're always the main character.",
+        "The brutal reality is that your desperate need for attention comes from a deep insecurity, but you're making it everyone else's problem to fix. You don't want genuine connection - you want an audience. You exhaust people with your constant need for validation and then wonder why they start avoiding you.",
+        "You probably think you're just being social and engaging, but really you're being a self-centered asshole who can't let anyone else have a moment. Your attention-seeking behavior isn't charming or entertaining - it's annoying and narcissistic.",
+        "Wake-up call: constantly demanding attention doesn't make you interesting - it makes you needy and exhausting. Learn to listen to other people and let them have their moments, or accept that you'll end up alone because nobody wants to be a supporting character in the one-person show of your life."
+      ]
+    },
+    "boundary_stomper": {
+      "title": "Boundary-Stomping Bulldozer",
+      "subtitle": "Personal limits are just suggestions to ignore",
+      "basic_analysis": "You're the kind of asshole who thinks other people's boundaries are just suggestions that don't apply to you. You push, prod, and bulldoze your way through everyone's comfort zones because you've decided that your needs are more important than their limits. You're basically a human boundary violation.",
+      "detailed_analysis": [
+        "Your asshole specialty is making people uncomfortable and then acting like they're being unreasonable for having limits. You show up uninvited, ask inappropriate questions, give unwanted advice, and generally treat other people's personal space like public property. You've confused being persistent with being respectful, and now you're just invasive.",
+        "The brutal truth is that you don't respect boundaries because you don't respect the people who set them. You think your intentions matter more than their comfort, and you use 'just trying to help' as an excuse to bulldoze through every limit people set. Your boundary-stomping isn't caring - it's controlling.",
+        "You probably think you're being friendly and involved when you ignore people's clearly stated limits, but really you're just being an asshole who can't take no for an answer. Your inability to respect boundaries makes you unsafe to be around, and people are starting to notice.",
+        "Reality check: other people's boundaries aren't negotiable, and your good intentions don't give you the right to ignore them. Learn to respect people's limits the first time they express them, or accept that you'll be known as the person everyone has to protect themselves from."
+      ]
+    },
+    "fake_nice": {
+      "title": "Fake Nice Manipulator",
+      "subtitle": "Sweetness with a side of poison",
+      "basic_analysis": "You're the kind of asshole who hides behind a mask of niceness while being secretly judgmental, manipulative, and mean. You say all the right things to people's faces and then trash them behind their backs. Your kindness comes with conditions, and your sweetness has an expiration date.",
+      "detailed_analysis": [
+        "Your asshole strategy is being two-faced - presenting yourself as caring and supportive while actually being judgmental and manipulative. You master the art of backhanded compliments, passive-aggressive 'help,' and conditional kindness. You're nice when it serves you and mean when you think you can get away with it.",
+        "The brutal truth is that your fake niceness is more harmful than honest assholery because at least honest assholes let people know where they stand. You create an atmosphere of distrust where people never know which version of you they're getting. Your false kindness is actually a form of emotional manipulation.",
+        "You probably think you're being diplomatic and maintaining relationships by being fake nice, but really you're just being a cowardly asshole who's too scared to be authentic. People can sense your insincerity, and they'd rather deal with an honest jerk than a fake friend.",
+        "Wake-up call: fake niceness is worse than honest rudeness because at least rude people are authentic about their assholery. Either be genuinely kind or be honestly difficult, but stop pretending to be nice while secretly being a judgmental manipulator. People deserve to know who they're really dealing with."
+      ]
+    },
+    "surprisingly_decent": {
+      "title": "Surprisingly Decent Human",
+      "subtitle": "Plot twist: you're not actually an asshole",
+      "basic_analysis": "Holy shit, you're actually a decent person who treats others with respect and kindness. You listen when people talk, respect their boundaries, and generally try to make the world a slightly better place. In a world full of assholes, you're that rare specimen - someone who's actually considerate of others.",
+      "detailed_analysis": [
+        "Your 'asshole type' is that you're not an asshole at all, which is honestly refreshing. You seem to have figured out that treating people well isn't rocket science - it just requires basic empathy and consideration. You listen more than you talk, support others without making it about yourself, and generally behave like a functional adult.",
+        "The reality is that you probably took this test expecting to discover your hidden asshole tendencies, but it turns out you're just a decent person who occasionally has bad days like everyone else. Your worst traits are probably just normal human flaws that don't rise to the level of true assholery.",
+        "You might sometimes feel like you're surrounded by assholes and wonder if you're missing something, but really you're just seeing clearly. Your decency isn't naivety - it's emotional intelligence and basic human kindness that seems rare because so many people struggle with it.",
+        "Keep being yourself because the world needs more people like you. Your kindness and consideration aren't weaknesses - they're strengths that make you someone people actually want to be around. Don't let the assholes convince you that being decent is somehow wrong or naive."
+      ]
+    }
+  }
+}

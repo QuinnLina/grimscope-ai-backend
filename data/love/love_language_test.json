@@ -1,0 +1,696 @@
+{
+  "testId": "love-language",
+  "title": "Love Language Analysis Test",
+  "description": "Discover how you give and receive love most effectively through deep emotional analysis",
+  "traits": {
+    "words_of_affirmation": "Needs verbal expressions of love and appreciation",
+    "acts_of_service": "Feels loved through helpful actions and practical support",
+    "quality_time": "Values focused attention and meaningful shared moments",
+    "physical_touch": "Connects through physical affection and intimate contact",
+    "receiving_gifts": "Appreciates thoughtful gestures and symbolic tokens of love",
+    "emotional_intimacy": "Craves deep vulnerable connection and authentic sharing",
+    "shared_experiences": "Bonds through creating memories and adventures together",
+    "thoughtful_gestures": "Values small, consistent acts of consideration and care",
+    "consistent_presence": "Needs reliable, steady emotional availability and support",
+    "verbal_validation": "Thrives on specific acknowledgment and meaningful praise"
+  },
+  "questions": [
+    {
+      "question": "When you feel most disconnected from someone you love, what's usually missing?",
+      "answers": [
+        {
+          "text": "They've stopped telling me how they feel about me or giving me compliments",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "consistent_presence": 2, "thoughtful_gestures": 1}
+        },
+        {
+          "text": "They no longer help me with things or make my life easier in practical ways",
+          "traits": {"acts_of_service": 5, "consistent_presence": 4, "thoughtful_gestures": 3, "shared_experiences": 2, "emotional_intimacy": 1}
+        },
+        {
+          "text": "We don't spend meaningful, uninterrupted time together anymore",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "verbal_validation": 1}
+        },
+        {
+          "text": "Physical affection and intimate touch have become rare or forced",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "consistent_presence": 3, "shared_experiences": 2, "thoughtful_gestures": 1}
+        },
+        {
+          "text": "They've stopped thinking of me when we're apart or bringing me little surprises",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "emotional_intimacy": 2, "acts_of_service": 1}
+        }
+      ]
+    },
+    {
+      "question": "What's your most vulnerable confession about how you need to be loved?",
+      "answers": [
+        {
+          "text": "I need to hear 'I love you' regularly, even when it feels repetitive to others",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "consistent_presence": 2, "shared_experiences": 1}
+        },
+        {
+          "text": "I feel most loved when someone anticipates my needs and takes care of things without being asked",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "emotional_intimacy": 2, "quality_time": 1}
+        },
+        {
+          "text": "I need someone's complete, undivided attention - no phones, no distractions, just us",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "I crave physical closeness and touch as a constant reassurance of love",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "consistent_presence": 3, "shared_experiences": 2, "verbal_validation": 1}
+        },
+        {
+          "text": "I need tangible proof that someone thinks about me when I'm not around",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you're falling in love, what behavior do you find yourself naturally doing?",
+      "answers": [
+        {
+          "text": "Constantly telling them how amazing they are and expressing my feelings verbally",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "shared_experiences": 2, "thoughtful_gestures": 1}
+        },
+        {
+          "text": "Looking for ways to solve their problems and make their daily life smoother",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "quality_time": 2, "emotional_intimacy": 1}
+        },
+        {
+          "text": "Wanting to spend every free moment together, talking and sharing experiences",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "Finding excuses to touch them - hand-holding, hugs, any physical connection",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "shared_experiences": 2, "consistent_presence": 1}
+        },
+        {
+          "text": "Bringing them little things that reminded me of them or made me think of them",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "What's your deepest fear about being misunderstood in relationships?",
+      "answers": [
+        {
+          "text": "That they'll think I'm needy when I actually just need verbal reassurance and affirmation",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "consistent_presence": 2, "shared_experiences": 1}
+        },
+        {
+          "text": "That they'll see me as lazy when I really just need them to show love through actions",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "quality_time": 2, "emotional_intimacy": 1}
+        },
+        {
+          "text": "That they'll call me clingy when I just need quality connection and presence",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "physical_touch": 1}
+        },
+        {
+          "text": "That they'll think I'm too sexual when I need physical affection for emotional connection",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "consistent_presence": 3, "quality_time": 2, "verbal_validation": 1}
+        },
+        {
+          "text": "That they'll think I'm materialistic when gifts represent thoughtfulness to me",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you're stressed or overwhelmed, what would comfort you most from a partner?",
+      "answers": [
+        {
+          "text": "Them telling me everything will be okay and reminding me of my strengths",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "consistent_presence": 2, "quality_time": 1}
+        },
+        {
+          "text": "Them handling my responsibilities so I can rest and recover",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "physical_touch": 2, "quality_time": 1}
+        },
+        {
+          "text": "Them sitting with me and listening without trying to fix anything",
+          "traits": {"quality_time": 5, "emotional_intimacy": 4, "shared_experiences": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "Physical comfort - being held, massaged, or just having them close",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "consistent_presence": 2, "thoughtful_gestures": 1}
+        },
+        {
+          "text": "A thoughtful surprise that shows they noticed I was struggling",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "acts_of_service": 3, "verbal_validation": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "What makes you feel most rejected or unloved in a relationship?",
+      "answers": [
+        {
+          "text": "Being criticized harshly or having cruel words said during arguments",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "quality_time": 2, "consistent_presence": 1}
+        },
+        {
+          "text": "Asking for help and being refused or ignored when I really need support",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "emotional_intimacy": 2, "quality_time": 1}
+        },
+        {
+          "text": "Being ignored for phones, TV, or other people when I need their attention",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "Being physically pushed away or having affection rejected",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "consistent_presence": 3, "quality_time": 2, "verbal_validation": 1}
+        },
+        {
+          "text": "Forgetting important dates or never making any effort to surprise me",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you typically sabotage relationships when your love needs aren't being met?",
+      "answers": [
+        {
+          "text": "I become critical and say hurtful things because words have become weapons for me",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "quality_time": 2, "thoughtful_gestures": 1}
+        },
+        {
+          "text": "I stop doing things for them and become passive-aggressive about helping",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "receiving_gifts": 2, "emotional_intimacy": 1}
+        },
+        {
+          "text": "I become possessive and jealous of anything that takes their attention from me",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "physical_touch": 1}
+        },
+        {
+          "text": "I become physically distant and reject any intimate advances they make",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "I become resentful and start keeping score of what they do or don't give me",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "acts_of_service": 3, "verbal_validation": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "What's your secret romantic fantasy about how someone would show you perfect love?",
+      "answers": [
+        {
+          "text": "They would write me love letters and tell me daily why they chose me",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "thoughtful_gestures": 2, "receiving_gifts": 1}
+        },
+        {
+          "text": "I'd come home to find they've taken care of everything I was worried about",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "quality_time": 2, "emotional_intimacy": 1}
+        },
+        {
+          "text": "We'd have hours of uninterrupted conversation where time stops existing",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "They would touch me constantly and I'd never have to ask for physical affection",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "shared_experiences": 2, "consistent_presence": 1}
+        },
+        {
+          "text": "They'd surprise me with meaningful gifts that show they really understand me",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you're angry with someone you love, what usually triggered that anger?",
+      "answers": [
+        {
+          "text": "Something hurtful they said or their failure to communicate appreciation",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "quality_time": 2, "consistent_presence": 1}
+        },
+        {
+          "text": "They promised to help with something and didn't follow through",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "receiving_gifts": 2, "quality_time": 1}
+        },
+        {
+          "text": "They were distracted or unavailable when I needed their focused attention",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "They rejected physical affection or pulled away when I tried to connect",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "consistent_presence": 2, "verbal_validation": 1}
+        },
+        {
+          "text": "They forgot something important or showed no effort to think of me",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "What happens to your personality when someone loves you in your preferred way?",
+      "answers": [
+        {
+          "text": "I become more confident and expressive when I feel verbally affirmed and appreciated",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "shared_experiences": 2, "consistent_presence": 1}
+        },
+        {
+          "text": "I become more relaxed and generous when my practical needs are consistently met",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "quality_time": 2, "receiving_gifts": 1}
+        },
+        {
+          "text": "I become more open and vulnerable when we have deep, meaningful connection time",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "I become more trusting and emotionally available when physical needs are met",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "shared_experiences": 2, "consistent_presence": 1}
+        },
+        {
+          "text": "I become more giving and appreciative when I feel thought of and remembered",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "What's your biggest insecurity about your love language needs?",
+      "answers": [
+        {
+          "text": "That needing constant verbal affirmation makes me seem emotionally high-maintenance",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "consistent_presence": 2, "quality_time": 1}
+        },
+        {
+          "text": "That needing help makes me appear lazy or incompetent to others",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "quality_time": 2, "emotional_intimacy": 1}
+        },
+        {
+          "text": "That needing quality time makes me seem clingy and suffocating",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "physical_touch": 1}
+        },
+        {
+          "text": "That needing physical touch makes me seem desperate or overly sexual",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "That needing thoughtful gifts makes me appear shallow and materialistic",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you recognize when someone truly understands your heart?",
+      "answers": [
+        {
+          "text": "They consistently tell me specific things they love about me without being prompted",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "thoughtful_gestures": 2, "consistent_presence": 1}
+        },
+        {
+          "text": "They notice what I'm struggling with and help without me having to ask",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "emotional_intimacy": 2, "quality_time": 1}
+        },
+        {
+          "text": "They prioritize our time together and give me their complete, undivided attention",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "They initiate physical affection and seem to crave touching me as much as I crave it",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "shared_experiences": 2, "consistent_presence": 1}
+        },
+        {
+          "text": "They surprise me with things that show they truly understand who I am",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "What's the most painful pattern you've noticed in your past relationships?",
+      "answers": [
+        {
+          "text": "Partners who said they loved me but never expressed it in ways that felt genuine",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "quality_time": 2, "thoughtful_gestures": 1}
+        },
+        {
+          "text": "Partners who expected me to handle everything alone and never offered support",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "receiving_gifts": 2, "emotional_intimacy": 1}
+        },
+        {
+          "text": "Partners who were always too busy or distracted for meaningful connection",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "Partners who made physical intimacy feel like obligation rather than desire",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "consistent_presence": 2, "verbal_validation": 1}
+        },
+        {
+          "text": "Partners who never made effort to surprise me or show they thought about me",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you imagine perfect love, what does the daily reality look like?",
+      "answers": [
+        {
+          "text": "Regular check-ins where we tell each other why we're grateful to be together",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "quality_time": 2, "shared_experiences": 1}
+        },
+        {
+          "text": "Naturally dividing responsibilities so we both feel supported and cared for",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "quality_time": 2, "emotional_intimacy": 1}
+        },
+        {
+          "text": "Protected time each day where we connect without any external distractions",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "Constant small touches and physical affection woven throughout our day",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "shared_experiences": 2, "consistent_presence": 1}
+        },
+        {
+          "text": "Small surprises and thoughtful gestures that show we're thinking of each other",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "What would make you feel most secure in a long-term relationship?",
+      "answers": [
+        {
+          "text": "Regular verbal confirmation that they still choose me and find me worthy of love",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "consistent_presence": 2, "quality_time": 1}
+        },
+        {
+          "text": "Consistent follow-through on promises and reliable support when I need it",
+          "traits": {"acts_of_service": 5, "consistent_presence": 4, "thoughtful_gestures": 3, "emotional_intimacy": 2, "quality_time": 1}
+        },
+        {
+          "text": "Knowing that I'm their priority and they'll always make time for our connection",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "consistent_presence": 3, "emotional_intimacy": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "Ongoing physical intimacy that doesn't fade as the relationship matures",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "consistent_presence": 2, "shared_experiences": 1}
+        },
+        {
+          "text": "Continued effort to surprise and delight me, showing our love is still growing",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you want someone to comfort you when you're at your lowest point?",
+      "answers": [
+        {
+          "text": "By reminding me of my worth and telling me all the reasons I matter to them",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "quality_time": 2, "consistent_presence": 1}
+        },
+        {
+          "text": "By taking care of practical things so I don't have to worry about anything",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "physical_touch": 2, "quality_time": 1}
+        },
+        {
+          "text": "By sitting with me for as long as it takes, just being present with my pain",
+          "traits": {"quality_time": 5, "emotional_intimacy": 4, "shared_experiences": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "By holding me and providing physical comfort without trying to 'fix' anything",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "consistent_presence": 2, "thoughtful_gestures": 1}
+        },
+        {
+          "text": "By bringing me something special that shows they understand what I need",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "acts_of_service": 3, "verbal_validation": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "What's your ultimate relationship goal in terms of how love is expressed?",
+      "answers": [
+        {
+          "text": "To never doubt their love because they express it clearly and frequently",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "consistent_presence": 2, "quality_time": 1}
+        },
+        {
+          "text": "To feel completely supported in life with a partner who shares the load",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "quality_time": 2, "emotional_intimacy": 1}
+        },
+        {
+          "text": "To have a deep, connected partnership where we truly see and know each other",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "To maintain passionate physical connection that deepens rather than fades over time",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "shared_experiences": 2, "consistent_presence": 1}
+        },
+        {
+          "text": "To always feel remembered and cherished through thoughtful gestures and surprises",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "What makes you feel most emotionally vulnerable in a relationship?",
+      "answers": [
+        {
+          "text": "When they stop telling me they love me or start criticizing me more than praising me",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "consistent_presence": 2, "quality_time": 1}
+        },
+        {
+          "text": "When I have to ask for help repeatedly and they seem annoyed by my needs",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "emotional_intimacy": 2, "receiving_gifts": 1}
+        },
+        {
+          "text": "When they're always busy and our conversations become rushed and surface-level",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "When they start avoiding physical contact or seem uncomfortable with my touch",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "consistent_presence": 2, "verbal_validation": 1}
+        },
+        {
+          "text": "When they stop making any effort to surprise me or remember things that matter to me",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you know when you're truly in love with someone?",
+      "answers": [
+        {
+          "text": "When I can't stop telling them how wonderful they are and expressing my feelings",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "shared_experiences": 2, "thoughtful_gestures": 1}
+        },
+        {
+          "text": "When I naturally start doing things to make their life easier and happier",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "quality_time": 2, "emotional_intimacy": 1}
+        },
+        {
+          "text": "When all I want is to spend time together and share every experience with them",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "When I crave physical closeness and can't keep my hands off them",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "shared_experiences": 2, "consistent_presence": 1}
+        },
+        {
+          "text": "When everything I see reminds me of them and I want to bring them little gifts",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "What would be the most romantic gesture someone could make for you?",
+      "answers": [
+        {
+          "text": "Writing me a heartfelt letter explaining exactly why they love me and what I mean to them",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "thoughtful_gestures": 2, "receiving_gifts": 1}
+        },
+        {
+          "text": "Secretly handling something stressful in my life so I can focus on what I love",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "quality_time": 2, "emotional_intimacy": 1}
+        },
+        {
+          "text": "Planning an entire day where we can be completely present with each other",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "Creating a beautiful intimate space where we can be physically close and connected",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "shared_experiences": 2, "thoughtful_gestures": 1}
+        },
+        {
+          "text": "Surprising me with something that shows they've been paying attention to my dreams",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you naturally show appreciation to people you care about?",
+      "answers": [
+        {
+          "text": "I tell them specifically what I appreciate about them and express my gratitude verbally",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "quality_time": 2, "thoughtful_gestures": 1}
+        },
+        {
+          "text": "I look for ways to help them and do things that make their life easier",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "receiving_gifts": 2, "quality_time": 1}
+        },
+        {
+          "text": "I make time to really listen to them and give them my full attention",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "I show affection through hugs, touches, and physical expressions of care",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "shared_experiences": 2, "consistent_presence": 1}
+        },
+        {
+          "text": "I find little gifts or surprises that remind them they're important to me",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "What do you secretly wish your partner understood about your emotional needs?",
+      "answers": [
+        {
+          "text": "That hearing 'I love you' and positive words never gets old - I need them regularly",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "consistent_presence": 2, "quality_time": 1}
+        },
+        {
+          "text": "That when I ask for help, I'm not being lazy - I'm asking to be loved",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "emotional_intimacy": 2, "quality_time": 1}
+        },
+        {
+          "text": "That I don't need expensive dates - just their complete, uninterrupted attention",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "That physical touch isn't just about sex - it's how I feel emotionally connected",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "consistent_presence": 2, "verbal_validation": 1}
+        },
+        {
+          "text": "That gifts don't need to be expensive - just thoughtful and from the heart",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you think about growing old with someone, what matters most to you?",
+      "answers": [
+        {
+          "text": "That we never stop telling each other how much we mean to one another",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "consistent_presence": 2, "shared_experiences": 1}
+        },
+        {
+          "text": "That we continue taking care of each other through all of life's challenges",
+          "traits": {"acts_of_service": 5, "consistent_presence": 4, "thoughtful_gestures": 3, "emotional_intimacy": 2, "quality_time": 1}
+        },
+        {
+          "text": "That we always make time for each other and maintain our deep connection",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "That we stay physically affectionate and maintain our intimate bond",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "consistent_presence": 2, "shared_experiences": 1}
+        },
+        {
+          "text": "That we keep finding new ways to surprise and delight each other",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "What's your deepest longing in terms of how you want to be loved?",
+      "answers": [
+        {
+          "text": "To be cherished with words that make me feel truly seen and valued every day",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "emotional_intimacy": 3, "thoughtful_gestures": 2, "consistent_presence": 1}
+        },
+        {
+          "text": "To have a partner who shows love by making my life easier and supporting my dreams",
+          "traits": {"acts_of_service": 5, "thoughtful_gestures": 4, "consistent_presence": 3, "emotional_intimacy": 2, "quality_time": 1}
+        },
+        {
+          "text": "To be someone's priority who they genuinely want to spend time with and connect with",
+          "traits": {"quality_time": 5, "shared_experiences": 4, "emotional_intimacy": 3, "consistent_presence": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "To be touched with tenderness and passion that makes me feel desired and safe",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "quality_time": 3, "shared_experiences": 2, "consistent_presence": 1}
+        },
+        {
+          "text": "To be surprised by someone who notices what I love and delights in making me happy",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    },
+    {
+      "question": "What would make you feel most emotionally safe and secure with a partner?",
+      "answers": [
+        {
+          "text": "Knowing they'll always express their love clearly and reassure me when I'm doubting",
+          "traits": {"words_of_affirmation": 5, "verbal_validation": 4, "consistent_presence": 3, "emotional_intimacy": 2, "quality_time": 1}
+        },
+        {
+          "text": "Having complete confidence they'll support me practically when life gets overwhelming",
+          "traits": {"acts_of_service": 5, "consistent_presence": 4, "thoughtful_gestures": 3, "emotional_intimacy": 2, "receiving_gifts": 1}
+        },
+        {
+          "text": "Trusting that no matter how busy life gets, they'll always prioritize our connection",
+          "traits": {"quality_time": 5, "consistent_presence": 4, "shared_experiences": 3, "emotional_intimacy": 2, "words_of_affirmation": 1}
+        },
+        {
+          "text": "Feeling confident that physical intimacy will remain a source of comfort and connection",
+          "traits": {"physical_touch": 5, "emotional_intimacy": 4, "consistent_presence": 3, "quality_time": 2, "verbal_validation": 1}
+        },
+        {
+          "text": "Believing they'll continue putting thought and effort into making me feel special",
+          "traits": {"receiving_gifts": 5, "thoughtful_gestures": 4, "verbal_validation": 3, "acts_of_service": 2, "emotional_intimacy": 1}
+        }
+      ]
+    }
+  ],
+  "results": {
+    "words_of_affirmation": {
+      "title": "The Verbal Validator",
+      "description": "You are someone whose heart speaks and receives love through words. Compliments, encouragement, and verbal expressions of love aren't just nice to have - they're emotional oxygen for your soul.",
+      "extended": "Your love language reveals a deep need for verbal connection and affirmation that goes far beyond surface-level compliments. You process love through language, and words carry profound emotional weight in your relationships. When someone tells you they love you, appreciate you, or find you attractive, it doesn't just make you happy - it actually fills your emotional tank and gives you the confidence to face the world.\n\nYou're naturally gifted at expressing appreciation and making others feel valued through your words. You notice details about people that others miss, and you have an intuitive understanding of how powerful words can be in building someone up or tearing them down. Your partners often feel truly seen and appreciated because of your verbal gifts, and you create emotional safety through consistent positive communication.\n\nHowever, you're also more vulnerable to verbal wounds than most people realize. Harsh words, criticism delivered poorly, or long periods of silence from loved ones can send you into emotional tailspins. You may find yourself replaying negative comments for days or weeks, while positive words can sustain you through difficult times. You screenshot loving texts, save voicemails, and hold onto written expressions of love like treasures.\n\nYour ideal partner understands that regular verbal affirmation isn't neediness - it's how you best receive and process love. They tell you specific things they appreciate about you, express their feelings clearly and frequently, and understand that their words have the power to either build you up or tear you down. They see your need for verbal connection as a beautiful aspect of your emotional depth rather than something to be minimized or criticized."
+    },
+    "acts_of_service": {
+      "title": "The Love Doer", 
+      "description": "You believe that actions speak louder than words because effort is the truest expression of love. When someone takes care of your responsibilities, solves your problems, or makes your life easier, you feel deeply cherished.",
+      "extended": "Your love language centers around the profound truth that love is a verb, not just a feeling. You understand that anyone can say 'I love you,' but it takes genuine care and effort to prove it through consistent helpful actions. When someone anticipates your needs, handles responsibilities for you, or goes out of their way to make your life easier, you feel truly valued and prioritized in their life.\n\nYou're naturally attuned to practical needs and have an instinct for helpful action. You express love by doing things - cooking meals, handling errands, fixing problems, or taking care of tasks that stress your loved ones. You find deep satisfaction in being useful and supportive, and you often show love by removing burdens from the people you care about. Your love is reliable, consistent, and demonstrated through tangible actions rather than grand gestures.\n\nHowever, you can become deeply hurt and resentful when your efforts aren't reciprocated or appreciated. When partners make promises they don't keep, expect you to handle everything alone, or fail to notice the countless ways you make their lives easier, you feel taken for granted and unloved. You may start keeping mental scorecards of who does what, and you can become passive-aggressive when you feel like you're giving more than you're receiving.\n\nYour ideal partner recognizes that your acts of service aren't just helpfulness - they're love letters written in action. They reciprocate by helping you with tasks, following through on commitments, and actively looking for ways to make your life easier. They understand that when you ask for help, you're not being lazy - you're asking them to love you in the language you understand best."
+    },
+    "quality_time": {
+      "title": "The Attention Seeker",
+      "description": "Your love language is focused presence - not just physical presence, but complete mental and emotional availability. You crave deep conversation, eye contact, and uninterrupted connection where you feel like the most important person in their world.",
+      "extended": "Your need for quality time goes far deeper than simply wanting to be around people - you crave genuine connection where you feel truly seen, heard, and prioritized. You can instantly tell the difference between someone spending time with you and someone being present with you. When you have someone's complete, undivided attention, you feel loved in the most profound way possible.\n\nYou're highly sensitive to the quality of attention you receive. You notice when people are multitasking during conversations, when they're distracted by phones or screens, or when they seem mentally elsewhere even while physically present. Conversely, when someone puts away distractions to focus entirely on you, makes eye contact during conversations, and gives you their full attention, you feel deeply valued and connected.\n\nYou express love by being fully present with others - listening deeply, asking meaningful questions, and creating space for authentic connection. You're often the person in relationships who suggests putting phones away during dinner, who wants to talk through issues rather than avoiding them, and who values deep conversation over small talk. Your relationships are characterized by emotional intimacy and genuine understanding.\n\nHowever, you can become hurt and disconnected when you feel like you're competing with distractions for someone's attention. Busy partners, people who are always on their phones, or those who prefer surface-level interactions can leave you feeling lonely even when you're together. Your ideal partner understands that giving you their focused attention isn't just nice - it's how they love you most effectively."
+    },
+    "physical_touch": {
+      "title": "The Contact Craver",
+      "description": "Your body is your emotional barometer, and physical connection is how you both give and receive love most naturally. Physical intimacy isn't just desire - it's emotional necessity.",
+      "extended": "Your love language is deeply connected to the profound emotional power of physical touch and connection. For you, physical affection isn't just pleasant - it's how you process emotional intimacy and feel most securely connected to others. Touch communicates safety, love, and acceptance in ways that words often cannot, and you have an intuitive understanding of how powerful physical connection can be.\n\nYou naturally express love through physical affection - holding hands, giving hugs, cuddling while watching movies, or simply sitting close to people you care about. You're often the one who initiates physical contact, and you have a gift for using touch to comfort others and create emotional connection. Your physical expressions of love are genuine and come from a place of deep emotional care.\n\nYou're highly sensitive to physical rejection or withdrawal. When someone pulls away from your touch, rejects your physical advances, or creates physical distance, you often interpret it as emotional rejection as well. Conversely, when someone initiates physical contact with you, welcomes your touch, and maintains regular physical affection, you feel deeply loved and secure in the relationship.\n\nYour need for physical touch can sometimes be misunderstood as being overly sexual or clingy, when in reality it's about emotional connection and security. Your ideal partner understands that your need for regular physical affection is part of how you're wired to connect, and they're comfortable with both giving and receiving physical expressions of love. They see your physically affectionate nature as a gift rather than neediness."
+    },
+    "receiving_gifts": {
+      "title": "The Thoughtfulness Tracker",
+      "description": "You're not materialistic - you're deeply sentimental about gestures that show you're remembered and thought of. It's never about the price tag; it's about the message that says 'you matter enough for me to put thought and effort into delighting you.'",
+      "extended": "Your love language centers around the profound emotional meaning behind thoughtful gestures and gifts. You understand that the most meaningful presents aren't necessarily the most expensive ones - they're the ones that show someone was thinking about you, understands who you are, and took time and effort to find something that would make you happy. Gifts, to you, are tangible symbols of love and thoughtfulness.\n\nYou have a deep appreciation for the effort and consideration that goes into meaningful gift-giving. You notice when someone remembers your preferences, pays attention to things you mention wanting, or surprises you with something that shows they truly see and understand you. You often keep meaningful gifts for years because they represent moments when you felt truly known and cared for.\n\nYou express love by giving thoughtful presents and surprises to others. You're often the person who remembers birthdays, brings back souvenirs from trips, or picks up little things that remind you of people you care about. You put considerable thought into your gift-giving because you understand how meaningful it can be to receive something that shows genuine care and attention.\n\nHowever, you can feel hurt and forgotten when important occasions pass without acknowledgment, or when you consistently put effort into giving while receiving little thought in return. You notice when people forget special dates, never bring you anything, or give obviously last-minute or thoughtless gifts. Your ideal partner understands that your appreciation for gifts isn't about materialism - it's about feeling remembered, understood, and valued enough to merit their time and thoughtful effort."
+    },
+    "emotional_intimacy": {
+      "title": "The Soul Connector",
+      "description": "You crave deep emotional vulnerability and authentic connection where both people can share their true selves without masks or pretense. Surface-level relationships leave you feeling empty.",
+      "extended": "Your love language transcends the traditional five categories because you need something deeper - genuine emotional intimacy and authentic soul connection. You're drawn to relationships where both people can be completely vulnerable, share their deepest truths, and create a sacred space where pretense falls away and real connection can flourish. You feel most loved when someone trusts you with their innermost thoughts and feelings.\n\nYou have a natural gift for creating emotional safety and encouraging others to open up authentically. You ask meaningful questions, listen without judgment, and share your own vulnerabilities in ways that invite deeper connection. Your relationships are characterized by emotional honesty, deep understanding, and the kind of intimacy that comes from truly knowing and being known by another person.\n\nYou can sense when someone is wearing emotional masks or keeping parts of themselves hidden, and surface-level interactions leave you feeling disconnected and unsatisfied. You need partners who are willing to do the hard work of emotional intimacy - sharing fears, discussing dreams, working through conflicts honestly, and continuously growing together in understanding and acceptance.\n\nYour ideal partner values emotional depth as much as you do and sees vulnerability as strength rather than weakness. They're willing to share their authentic selves, work through emotional challenges together, and create a relationship where both people can grow and evolve safely. They understand that your need for emotional intimacy isn't about being dramatic - it's about creating the kind of deep, meaningful connection that most people only dream of having."
+    },
+    "shared_experiences": {
+      "title": "The Memory Maker",
+      "description": "You feel most loved when creating meaningful experiences and memories together with your partner. You see love as something that's built through accumulated shared experiences and adventures.",
+      "extended": "Your love language focuses on the powerful bonding that happens when two people share experiences and create memories together. You understand that love grows stronger through shared adventures, mutual discoveries, and the accumulation of moments that become 'our story.' You feel most connected when you're actively building a life together rather than just coexisting in the same space.\n\nYou're naturally drawn to creating special moments and shared experiences with the people you love. You suggest new activities, plan adventures, and find joy in experiencing life together with your partner. You understand that relationships are built through shared memories, and you actively work to create positive experiences that bond you closer together.\n\nYou express love by inviting others into experiences with you and by being fully present during shared activities. You're often the one suggesting weekend trips, trying new restaurants, or finding fun activities to do together. You see every shared experience as an investment in your relationship and an opportunity to grow closer together.\n\nYour ideal partner shares your enthusiasm for creating memories together and understands that experiences are more valuable than material possessions. They're willing to try new things with you, be present during shared activities, and actively participate in building a rich tapestry of shared experiences that strengthen your bond over time."
+    },
+    "thoughtful_gestures": {
+      "title": "The Gesture Guardian",
+      "description": "You feel most loved through small, consistent gestures that show someone is thinking of you and cares about your happiness. You notice and remember every thoughtful gesture.",
+      "extended": "Your love language centers around the accumulation of small, thoughtful gestures that demonstrate consistent care and attention. You understand that love is often found in the details - the coffee made just how you like it, the text sent during a stressful day, the favorite snack picked up at the store. These small acts of thoughtfulness mean more to you than grand romantic gestures because they show ongoing consideration and care.\n\nYou have a keen eye for thoughtful details and you naturally express love through small acts of kindness and consideration. You remember what people like, pay attention to their needs and preferences, and consistently look for small ways to make their days brighter. Your love is expressed through countless tiny gestures that accumulate into a powerful demonstration of care.\n\nYou notice when people put thought into making you happy, and you also notice when they don't. You can feel taken for granted when your small gestures go unnoticed or unappreciated, and you feel deeply loved when someone reciprocates with their own thoughtful acts. You understand that consistent small gestures often mean more than occasional grand ones.\n\nYour ideal partner appreciates the value of small, thoughtful gestures and reciprocates with their own acts of consideration and care. They notice and acknowledge your thoughtful nature, and they understand that your attention to detail comes from a place of love rather than perfectionism."
+    },
+    "consistent_presence": {
+      "title": "The Steady Anchor",
+      "description": "You feel most loved through reliable, consistent presence and emotional availability from your partner. Your love language is about emotional reliability and the security that comes from knowing someone is consistently choosing you.",
+      "extended": "Your love language is built around the profound security and comfort that comes from consistent, reliable presence in your life. You understand that true love isn't just about passion or romance - it's about having someone who shows up consistently, keeps their promises, and provides emotional stability through all of life's ups and downs. You feel most loved when someone demonstrates their commitment through consistent presence and availability.\n\nYou value emotional reliability above almost everything else in relationships. You need partners who follow through on commitments, who are emotionally available when you need them, and who demonstrate their love through consistent, dependable behavior rather than just words or occasional grand gestures. You find deep comfort in knowing that someone will be there for you no matter what.\n\nYou express love through your own consistent presence and reliability. You're often the steady force in relationships, the one people can count on, and the person who shows up when others need support. You understand that consistency is one of the most powerful ways to demonstrate love and build trust over time.\n\nYour ideal partner shares your values around reliability and consistency. They understand that your need for steady presence isn't about being controlling or needy - it's about feeling secure enough in the relationship to be vulnerable and authentic. They show love through dependable behavior and consistent emotional availability."
+    },
+    "verbal_validation": {
+      "title": "The Affirmation Absorber",
+      "description": "You thrive on specific, meaningful verbal affirmation that validates your worth, acknowledges your efforts, and expresses appreciation for who you are. Generic compliments aren't enough.",
+      "extended": "Your love language goes beyond simple words of affirmation to specific verbal validation that shows someone truly sees and appreciates who you are. You need more than generic compliments - you crave specific acknowledgment of your efforts, appreciation for your unique qualities, and verbal recognition of your value and worth. Words have profound power in your emotional world.\n\nYou have a deep need to feel seen and valued for your specific contributions and qualities. When someone notices your efforts, acknowledges your strengths, or expresses specific appreciation for things you do or ways you are, it fills your emotional tank in profound ways. You remember specific compliments and words of appreciation for years because they validate your sense of self-worth.\n\nYou naturally give specific, meaningful compliments to others because you understand how powerful targeted appreciation can be. You notice unique qualities in people and you're generous with specific praise and acknowledgment. You have a gift for making others feel truly seen and valued through your words.\n\nYour ideal partner understands the difference between generic compliments and specific validation. They notice your unique qualities, acknowledge your efforts, and regularly express specific appreciation for who you are and what you bring to the relationship. They understand that your need for verbal validation isn't vanity - it's how you process feeling valued and loved."
+    }
+  }
+}

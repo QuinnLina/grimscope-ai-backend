@@ -1,0 +1,666 @@
+{
+  "testId": "imposter-syndrome",
+  "title": "Imposter Syndrome Scale Test",
+  "description": "When will they discover you're fake?",
+  "traits": {
+    "confident": "Authentic and secure in professional abilities",
+    "humble": "Balanced confidence with appropriate humility", 
+    "uncertain": "Fluctuating between confidence and self-doubt",
+    "doubting": "Persistent feelings of professional inadequacy",
+    "fraud": "Extreme conviction of being an impostor"
+  },
+  "questions": [
+    {
+      "question": "When someone genuinely compliments your work or achievements, your immediate internal response is:",
+      "answers": [
+        {
+          "text": "They're absolutely right - I did excellent work",
+          "traits": { "confident": 5, "humble": 3, "uncertain": 1, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "That's very kind of them to notice my effort",
+          "traits": { "confident": 3, "humble": 5, "uncertain": 2, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "They're just being polite and don't want to hurt my feelings",
+          "traits": { "confident": 0, "humble": 2, "uncertain": 5, "doubting": 3, "fraud": 1 }
+        },
+        {
+          "text": "They don't know the real truth about my incompetence",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "The jig is up - they're onto me and this is sarcasm",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "In your honest assessment, your professional success is primarily due to:",
+      "answers": [
+        {
+          "text": "My genuine skills, hard work, and deserved achievements",
+          "traits": { "confident": 5, "humble": 3, "uncertain": 0, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "A combination of effort, preparation, and some good timing",
+          "traits": { "confident": 3, "humble": 5, "uncertain": 2, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Mostly luck and being in the right place at the right time",
+          "traits": { "confident": 0, "humble": 1, "uncertain": 5, "doubting": 3, "fraud": 1 }
+        },
+        {
+          "text": "Successfully fooling everyone into thinking I'm competent",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "A massive clerical error that nobody has noticed yet",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Before an important meeting, presentation, or professional interaction, you typically feel:",
+      "answers": [
+        {
+          "text": "Prepared, confident, and ready to contribute meaningfully",
+          "traits": { "confident": 5, "humble": 3, "uncertain": 0, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Normal pre-performance nerves but overall capable",
+          "traits": { "confident": 2, "humble": 5, "uncertain": 3, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Worried they'll realize I don't belong in this room",
+          "traits": { "confident": 0, "humble": 1, "uncertain": 5, "doubting": 3, "fraud": 1 }
+        },
+        {
+          "text": "Mentally planning multiple escape routes from the building",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "Already drafting my resignation letter in my head",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "When someone asks you to explain your area of expertise or share your knowledge:",
+      "answers": [
+        {
+          "text": "I explain confidently because I know my subject well",
+          "traits": { "confident": 5, "humble": 3, "uncertain": 0, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "I share what I know while acknowledging I'm still learning",
+          "traits": { "confident": 2, "humble": 5, "uncertain": 3, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "I immediately say 'I'm not really an expert' before explaining anything",
+          "traits": { "confident": 0, "humble": 1, "uncertain": 5, "doubting": 3, "fraud": 1 }
+        },
+        {
+          "text": "I panic inside and try to deflect to someone more 'qualified'",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "I fake a sudden medical emergency to escape the situation",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Your educational and professional qualifications feel:",
+      "answers": [
+        {
+          "text": "Well-earned and representative of my genuine capabilities",
+          "traits": { "confident": 5, "humble": 3, "uncertain": 0, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Adequate and appropriate for my current role and responsibilities",
+          "traits": { "confident": 3, "humble": 5, "uncertain": 2, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Never quite enough - I always need more credentials",
+          "traits": { "confident": 0, "humble": 1, "uncertain": 5, "doubting": 3, "fraud": 1 }
+        },
+        {
+          "text": "Like a series of fortunate accidents and lucky breaks",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "Completely fabricated even though they're all 100% real",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "When you make a mistake or error in your professional work:",
+      "answers": [
+        {
+          "text": "I learn from it, fix it, and move forward productively",
+          "traits": { "confident": 5, "humble": 4, "uncertain": 1, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "I feel bad about it briefly, then focus on improvement",
+          "traits": { "confident": 2, "humble": 5, "uncertain": 3, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "It's proof that I don't really belong in this position",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 5, "doubting": 4, "fraud": 1 }
+        },
+        {
+          "text": "They finally caught me - this is evidence of my incompetence",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "Time to seriously consider changing careers entirely",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Compared to your colleagues and professional peers, you generally feel:",
+      "answers": [
+        {
+          "text": "Equally capable with different but valuable strengths",
+          "traits": { "confident": 5, "humble": 3, "uncertain": 1, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "We all have different strengths and areas for growth",
+          "traits": { "confident": 3, "humble": 5, "uncertain": 2, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Always behind and trying to catch up to their level",
+          "traits": { "confident": 0, "humble": 1, "uncertain": 5, "doubting": 3, "fraud": 1 }
+        },
+        {
+          "text": "Like a child pretending to be an adult in a grown-up meeting",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "Like three kids stacked in a trenchcoat trying to do adult work",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Your biggest fear in professional settings is:",
+      "answers": [
+        {
+          "text": "Normal challenges like difficult projects or tight deadlines",
+          "traits": { "confident": 5, "humble": 4, "uncertain": 1, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Making significant mistakes that could impact the team",
+          "traits": { "confident": 2, "humble": 5, "uncertain": 3, "doubting": 1, "fraud": 0 }
+        },
+        {
+          "text": "Being exposed as less competent than people think",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 5, "doubting": 4, "fraud": 1 }
+        },
+        {
+          "text": "The arrival of the professional fraud police",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "Someone actually checking my credentials and references",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "When you receive a promotion, new opportunity, or recognition:",
+      "answers": [
+        {
+          "text": "I feel excited and deserving of this advancement",
+          "traits": { "confident": 5, "humble": 3, "uncertain": 0, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "I feel grateful and slightly nervous about new responsibilities",
+          "traits": { "confident": 2, "humble": 5, "uncertain": 3, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Why me though? Surely there are more qualified people",
+          "traits": { "confident": 0, "humble": 1, "uncertain": 5, "doubting": 3, "fraud": 1 }
+        },
+        {
+          "text": "This is obviously a mistake that will be corrected soon",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "Time to flee the country and assume a new identity",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Your depth of knowledge in your professional field feels:",
+      "answers": [
+        {
+          "text": "Solid and continuously growing through experience",
+          "traits": { "confident": 5, "humble": 4, "uncertain": 1, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Good enough for my role with room for continued learning",
+          "traits": { "confident": 3, "humble": 5, "uncertain": 2, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Full of embarrassing gaps that I hope nobody discovers",
+          "traits": { "confident": 0, "humble": 1, "uncertain": 5, "doubting": 3, "fraud": 1 }
+        },
+        {
+          "text": "Held together with hope, duct tape, and frantic googling",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "Entirely dependent on Wikipedia and prayer",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "When someone asks you a question you genuinely don't know the answer to:",
+      "answers": [
+        {
+          "text": "I say I don't know but will find out the answer",
+          "traits": { "confident": 5, "humble": 4, "uncertain": 1, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "I admit I don't know and ask if they have insights",
+          "traits": { "confident": 3, "humble": 5, "uncertain": 2, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "I panic internally while trying to maintain composure",
+          "traits": { "confident": 0, "humble": 1, "uncertain": 5, "doubting": 3, "fraud": 1 }
+        },
+        {
+          "text": "They've discovered the extent of my ignorance - I'm finished",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "Time to enter witness protection immediately",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Your professional achievements and successes feel like:",
+      "answers": [
+        {
+          "text": "Earned victories that reflect my hard work and capabilities",
+          "traits": { "confident": 5, "humble": 3, "uncertain": 0, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Fortunate outcomes from good preparation and some luck",
+          "traits": { "confident": 2, "humble": 5, "uncertain": 3, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Completely accidental occurrences that I can't replicate",
+          "traits": { "confident": 0, "humble": 1, "uncertain": 5, "doubting": 3, "fraud": 1 }
+        },
+        {
+          "text": "Elaborate cons that I've somehow pulled off so far",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "Evidence that will be used against me in my inevitable trial",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "The phrase 'fake it til you make it' in relation to your career:",
+      "answers": [
+        {
+          "text": "Doesn't really apply to me - I prefer authentic growth",
+          "traits": { "confident": 5, "humble": 3, "uncertain": 0, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Sometimes necessary when learning new skills",
+          "traits": { "confident": 2, "humble": 5, "uncertain": 3, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Has basically become my unofficial life motto",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 5, "doubting": 3, "fraud": 2 }
+        },
+        {
+          "text": "I'm still in the 'faking it' phase with no end in sight",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "Bold of anyone to assume I'll ever 'make it'",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Your internal monologue during professional success or recognition is:",
+      "answers": [
+        {
+          "text": "I did that! I earned this through my efforts",
+          "traits": { "confident": 5, "humble": 3, "uncertain": 0, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "This team effort really paid off - I contributed well",
+          "traits": { "confident": 3, "humble": 5, "uncertain": 1, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Don't celebrate yet - the other shoe will drop soon",
+          "traits": { "confident": 0, "humble": 1, "uncertain": 5, "doubting": 3, "fraud": 1 }
+        },
+        {
+          "text": "They'll figure out the truth about me very soon",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "Act normal, act normal, don't let them see you sweat",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "When asked to lead a project or take charge of an initiative:",
+      "answers": [
+        {
+          "text": "I see it as a great opportunity to make an impact",
+          "traits": { "confident": 5, "humble": 3, "uncertain": 0, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "I feel nervous but believe I can handle the responsibility",
+          "traits": { "confident": 3, "humble": 5, "uncertain": 2, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Why would they pick me when there are better options?",
+          "traits": { "confident": 0, "humble": 1, "uncertain": 5, "doubting": 3, "fraud": 1 }
+        },
+        {
+          "text": "This is obviously a test to see how badly I'll fail",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "My cover is blown - they're setting me up for exposure",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Your resume or CV feels like:",
+      "answers": [
+        {
+          "text": "An accurate representation of my experience and skills",
+          "traits": { "confident": 5, "humble": 4, "uncertain": 0, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "A slightly polished but honest summary of my background",
+          "traits": { "confident": 3, "humble": 5, "uncertain": 2, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "A generous interpretation of my actual capabilities",
+          "traits": { "confident": 0, "humble": 1, "uncertain": 5, "doubting": 3, "fraud": 1 }
+        },
+        {
+          "text": "An exercise in creative writing and wishful thinking",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "Complete fiction even though everything on it is true",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "In terms of professional competence in your field, you consider yourself:",
+      "answers": [
+        {
+          "text": "A competent professional who continues to grow",
+          "traits": { "confident": 5, "humble": 4, "uncertain": 0, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Someone who's still learning but contributing meaningfully",
+          "traits": { "confident": 3, "humble": 5, "uncertain": 2, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Barely keeping up and hoping nobody notices",
+          "traits": { "confident": 0, "humble": 1, "uncertain": 5, "doubting": 3, "fraud": 1 }
+        },
+        {
+          "text": "A confused tourist who somehow ended up in the wrong building",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "Completely lost and googling everything in real-time",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Your absolute worst professional nightmare would be:",
+      "answers": [
+        {
+          "text": "Normal challenges like difficult projects or demanding clients",
+          "traits": { "confident": 5, "humble": 4, "uncertain": 1, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "A major public failure that disappoints my team",
+          "traits": { "confident": 2, "humble": 5, "uncertain": 3, "doubting": 1, "fraud": 0 }
+        },
+        {
+          "text": "Being given a skills test in front of everyone",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 5, "doubting": 4, "fraud": 1 }
+        },
+        {
+          "text": "A live competency audit broadcast to the entire organization",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "Someone standing up in a meeting and yelling 'PROVE IT!'",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "When you receive public praise or recognition for your work:",
+      "answers": [
+        {
+          "text": "I graciously accept it because I know I earned it",
+          "traits": { "confident": 5, "humble": 4, "uncertain": 0, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "I feel a bit embarrassed but appreciate the recognition",
+          "traits": { "confident": 3, "humble": 5, "uncertain": 2, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "I immediately deflect and credit everyone else",
+          "traits": { "confident": 0, "humble": 1, "uncertain": 5, "doubting": 3, "fraud": 1 }
+        },
+        {
+          "text": "They're obviously mocking me in some subtle way",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "This is definitely a trap designed to expose me",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Your sense of professional identity feels:",
+      "answers": [
+        {
+          "text": "Clear, authentic, and well-earned through my journey",
+          "traits": { "confident": 5, "humble": 3, "uncertain": 0, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Like a work in progress that's developing authentically",
+          "traits": { "confident": 3, "humble": 5, "uncertain": 2, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Like I'm wearing a borrowed costume that doesn't quite fit",
+          "traits": { "confident": 0, "humble": 1, "uncertain": 5, "doubting": 3, "fraud": 1 }
+        },
+        {
+          "text": "Like an elaborate performance I have to maintain constantly",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "Like identity theft, except the identity I stole is my own",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Professional success generally makes you feel:",
+      "answers": [
+        {
+          "text": "Proud, motivated, and excited for future challenges",
+          "traits": { "confident": 5, "humble": 3, "uncertain": 0, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Good about my efforts while staying humble about the outcome",
+          "traits": { "confident": 3, "humble": 5, "uncertain": 1, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Anxious about whether I can maintain this level next time",
+          "traits": { "confident": 0, "humble": 1, "uncertain": 5, "doubting": 3, "fraud": 1 }
+        },
+        {
+          "text": "Like I'm getting closer to inevitable exposure",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "Like a criminal who just successfully robbed a bank",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Your level of expertise in your professional field feels:",
+      "answers": [
+        {
+          "text": "Knowledgeable with a solid foundation and growing experience",
+          "traits": { "confident": 5, "humble": 4, "uncertain": 0, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Competent enough for my role with ongoing learning",
+          "traits": { "confident": 3, "humble": 5, "uncertain": 2, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Jack of all trades, master of none, but trying my best",
+          "traits": { "confident": 0, "humble": 1, "uncertain": 5, "doubting": 3, "fraud": 1 }
+        },
+        {
+          "text": "Master of none, jack of nothing, fooling everyone",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "I know nothing, Jon Snow, and even less than that",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "The idea that 'they'll discover you're fake' feels:",
+      "answers": [
+        {
+          "text": "Irrelevant because I'm not fake - I'm genuinely qualified",
+          "traits": { "confident": 5, "humble": 4, "uncertain": 0, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Like normal self-doubt that everyone experiences sometimes",
+          "traits": { "confident": 3, "humble": 5, "uncertain": 2, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Like an inevitable outcome - just a matter of time",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 5, "doubting": 3, "fraud": 2 }
+        },
+        {
+          "text": "Like it could happen any day now",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "I'm surprised they haven't figured it out already",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "When you reflect on your career journey so far, you feel:",
+      "answers": [
+        {
+          "text": "Proud of the progress I've made and excited for what's next",
+          "traits": { "confident": 5, "humble": 3, "uncertain": 1, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Grateful for opportunities while recognizing there's more to learn",
+          "traits": { "confident": 3, "humble": 5, "uncertain": 2, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Confused about how I've made it this far without being caught",
+          "traits": { "confident": 0, "humble": 1, "uncertain": 5, "doubting": 3, "fraud": 1 }
+        },
+        {
+          "text": "Like I've been playing an elaborate game of professional hide-and-seek",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "Amazed that no one has called security on me yet",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    },
+    {
+      "question": "Your deepest, most honest professional fear is:",
+      "answers": [
+        {
+          "text": "Not reaching my full potential or making the impact I want",
+          "traits": { "confident": 5, "humble": 4, "uncertain": 1, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Making mistakes that could negatively impact others",
+          "traits": { "confident": 3, "humble": 5, "uncertain": 2, "doubting": 0, "fraud": 0 }
+        },
+        {
+          "text": "Being found out as less competent than people believe",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 5, "doubting": 4, "fraud": 1 }
+        },
+        {
+          "text": "The inevitable unmasking in front of everyone I respect",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 1, "doubting": 5, "fraud": 3 }
+        },
+        {
+          "text": "LinkedIn introducing a professional credential verification system",
+          "traits": { "confident": 0, "humble": 0, "uncertain": 0, "doubting": 2, "fraud": 5 }
+        }
+      ]
+    }
+  ],
+  "results": {
+    "confident": {
+      "title": "The Authentic Professional",
+      "description": "Imposter syndrome? Never heard of her. You own your achievements and know your worth without arrogance or false humility. While others are sweating about being 'found out,' you're just out here being genuinely good at what you do. Your confidence isn't hollow bravado - it's earned through actual competence, hard work, and authentic self-awareness.",
+      "extended": "Your professional confidence represents a rare achievement in a world where imposter syndrome is practically an epidemic. This level of authentic self-assurance typically comes from a combination of genuine competence, positive early experiences with achievement, and the emotional intelligence to accurately assess your own abilities.\n\nYour confidence isn't based on delusion or overestimation - it's grounded in real evidence of your capabilities. You've likely developed what psychologists call 'earned security' in your professional identity, where your self-concept is based on actual experiences of competence rather than external validation or internal fears.\n\nThis authentic confidence creates a positive feedback loop: because you believe in your abilities, you take on appropriate challenges, perform well, and gain more evidence of your competence. You're also likely more resilient in the face of setbacks because your professional identity isn't fragile.\n\nYour challenge may be understanding and supporting those who struggle with imposter syndrome, as your natural confidence might seem impossible to those trapped in self-doubt cycles. Your presence can be incredibly stabilizing for teams and organizations because you provide a model of what healthy professional confidence looks like."
+    },
+    "humble": {
+      "title": "The Grounded Achiever",
+      "description": "You've found the sweet spot between confidence and humility - the professional equivalent of being well-adjusted. Sure, you might downplay your achievements sometimes, but you know deep down that you've earned your place at the table. You experience normal amounts of self-doubt without letting it paralyze you or send you into existential spirals.",
+      "extended": "Your balanced approach to professional identity represents the gold standard of emotional maturity in the workplace. You've achieved what many people struggle with their entire careers: the ability to be genuinely confident without being arrogant, and appropriately humble without being self-deprecating.\n\nThis balance likely comes from a realistic understanding of both your strengths and your growth areas, combined with secure attachment to your professional worth. You can celebrate your successes without feeling guilty and acknowledge your mistakes without catastrophizing them.\n\nYour humility isn't false modesty - it's genuine recognition that professional success involves both individual effort and external factors like teamwork, mentorship, and opportunity. This perspective makes you an excellent collaborator and leader because people trust that you'll give credit where it's due.\n\nThe challenge for someone with your balanced perspective is occasionally advocating strongly enough for yourself. Your natural humility might sometimes prevent you from fully claiming your achievements or asking for what you deserve. Learning when to lean into your confidence while maintaining your grounded perspective will serve you well."
+    },
+    "uncertain": {
+      "title": "The Questioning Mind",
+      "description": "You live in the gray area between 'I totally got this' and 'What am I even doing here?' Your achievements feel real on good days and like cosmic accidents on bad days. You're constantly seeking validation while simultaneously rejecting it when it comes. The imposter feelings come and go like unwelcome houseguests.",
+      "extended": "Your fluctuating confidence represents a common but exhausting experience where your professional identity feels like it's constantly under construction. This uncertainty often stems from perfectionist tendencies, high standards for yourself, and possibly early messages about needing to prove your worth rather than assuming it.\n\nThe inconsistency of your self-perception - feeling competent some days and fraudulent others - creates internal stress that can be more draining than consistent self-doubt. Your brain is constantly recalibrating your professional worth based on recent events rather than maintaining a stable sense of your capabilities.\n\nThis uncertainty can actually be adaptive in some ways: it keeps you humble, motivated to learn, and responsive to feedback. However, it can also prevent you from fully enjoying your successes or building momentum from your achievements.\n\nDeveloping a more stable professional identity might involve creating systematic ways to track and acknowledge your competence over time, rather than relying on day-to-day emotional fluctuations to determine your worth. Your uncertainty is often a sign that you care deeply about doing good work."
+    },
+    "doubting": {
+      "title": "The Perpetual Pretender",
+      "description": "You're convinced that professional success is just an elaborate game of pretend, and you're winning by accident. Every achievement feels borrowed, every compliment sounds sarcastic, and you've mentally planned escape routes from most professional situations. Your LinkedIn profile feels like creative fiction even though every word is true.",
+      "extended": "Your persistent self-doubt has created a parallel professional reality where you're simultaneously competent enough to succeed while convinced you're fooling everyone. This level of imposter syndrome often develops when your internal narrative about your abilities hasn't caught up with your actual performance.\n\nThe exhausting irony is that your fear of being exposed as incompetent has likely made you work harder, prepare more thoroughly, and pay closer attention to quality than your more naturally confident peers. Your imposter syndrome has become a demanding perfectionist coach that drives you to excellence while never letting you enjoy it.\n\nThis level of self-doubt often stems from early experiences where your worth felt conditional on performance, or from environments where you felt different or out of place. Your brain learned to be hypervigilant about competence as a survival strategy.\n\nThe tragedy is that you've probably accumulated substantial evidence of your capabilities, but your mind filters out positive data while amplifying any sign of inadequacy. Learning to trust the external evidence of your competence over your internal fears could dramatically improve both your performance and your quality of life."
+    },
+    "fraud": {
+      "title": "The Professional Fugitive",
+      "description": "You don't just have imposter syndrome - you've built your entire professional identity around it. Every day feels like you're three kids stacked in a business suit trying to do adult work. You're convinced there's a 'fraud squad' whose full-time job is exposing people like you, and you're honestly surprised they haven't caught up yet.",
+      "extended": "At this level, imposter syndrome has become so pervasive that it's essentially hijacked your professional identity. You're experiencing what psychologists call 'cognitive dissonance' - the uncomfortable tension between the external evidence of your competence and your internal conviction that you're inadequate.\n\nThis extreme self-doubt often develops as a protective mechanism when someone has experienced situations where their competence was questioned, undermined, or where they felt fundamentally different from their peers. Your brain has decided that expecting competence is too risky, so it defaults to assuming inadequacy.\n\nThe irony is that people with severe imposter syndrome often become exceptionally skilled because they compensate for their perceived inadequacy through intensive preparation and effort. You may actually be more competent than many of your 'naturally confident' colleagues precisely because you work harder to prove yourself.\n\nThis level of professional anxiety is not just uncomfortable - it can significantly limit your career growth and life satisfaction. The constant mental energy spent on managing these fears could be redirected toward actual professional development and achievement. Professional support could help you separate your actual competence from your anxiety about competence."
+    }
+  }
+}

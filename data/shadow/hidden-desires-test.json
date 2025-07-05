@@ -1,0 +1,708 @@
+{
+  "testId": "hidden-desires",
+  "title": "Hidden Desires Scanner",
+  "description": "What do you secretly want but would never admit out loud?",
+  "traits": {
+    "vindication": "Seeks validation and proof that they were right all along",
+    "power": "Craves control and influence over others and situations",
+    "authenticity": "Desperately wants to be genuine and accepted for who they truly are",
+    "desirability": "Wants to be wanted, pursued, and desired by everyone",
+    "significance": "Needs to matter deeply and be remembered",
+    "freedom_craver": "Seeks complete liberation from all constraints and expectations",
+    "superiority": "Believes they are fundamentally better than others",
+    "savior": "Wants to be needed and rescue others",
+    "manipulation": "Desires the ability to influence others without them knowing",
+    "invulnerability": "Wants to never be hurt or vulnerable again",
+    "reinvention": "Craves the ability to completely transform and become someone new",
+    "legacy": "Wants to create something that outlasts them and changes everything"
+  },
+  "questions": [
+    {
+      "question": "If no one would judge you and there were no consequences, what would you do right now?",
+      "answers": [
+        {
+          "text": "Tell someone exactly what I think of them, holding nothing back",
+          "traits": {"vindication": 4, "authenticity": 3, "power": 2, "superiority": 1, "desirability": 0}
+        },
+        {
+          "text": "Quit everything and disappear to travel the world indefinitely",
+          "traits": {"freedom_craver": 5, "reinvention": 3, "authenticity": 2, "power": 1, "legacy": 0}
+        },
+        {
+          "text": "Completely reinvent myself with a new identity and life",
+          "traits": {"reinvention": 5, "freedom_craver": 3, "authenticity": 2, "power": 1, "vindication": 0}
+        },
+        {
+          "text": "Admit that I have no idea what I'm doing in life",
+          "traits": {"authenticity": 5, "invulnerability": 1, "superiority": 0, "power": 0, "desirability": 0}
+        },
+        {
+          "text": "Create something wildly authentic that people might hate",
+          "traits": {"authenticity": 4, "legacy": 3, "freedom_craver": 2, "significance": 2, "desirability": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your secret fantasy about ultimate success involves:",
+      "answers": [
+        {
+          "text": "Everyone who doubted me having to publicly admit they were wrong",
+          "traits": {"vindication": 5, "superiority": 3, "power": 2, "significance": 2, "authenticity": 0}
+        },
+        {
+          "text": "Being so successful I can help or destroy anyone I choose",
+          "traits": {"power": 5, "savior": 3, "superiority": 3, "manipulation": 2, "desirability": 0}
+        },
+        {
+          "text": "Having enough money to disappear forever if I want",
+          "traits": {"freedom_craver": 5, "invulnerability": 3, "power": 2, "authenticity": 1, "significance": 0}
+        },
+        {
+          "text": "Being recognized as a genius whose work changes everything",
+          "traits": {"legacy": 5, "superiority": 4, "significance": 4, "vindication": 2, "authenticity": 0}
+        },
+        {
+          "text": "Creating something so beautiful it makes the world weep",
+          "traits": {"legacy": 5, "significance": 4, "authenticity": 3, "desirability": 2, "power": 0}
+        }
+      ]
+    },
+    {
+      "question": "If you could magically change one aspect of your personality, it would be:",
+      "answers": [
+        {
+          "text": "Completely stop caring what anyone thinks about me",
+          "traits": {"freedom_craver": 5, "authenticity": 4, "invulnerability": 3, "power": 2, "desirability": 0}
+        },
+        {
+          "text": "Become ruthlessly ambitious and cutthroat when needed",
+          "traits": {"power": 5, "superiority": 4, "manipulation": 3, "vindication": 2, "authenticity": 0}
+        },
+        {
+          "text": "Feel less deeply so things can't hurt me as much",
+          "traits": {"invulnerability": 5, "freedom_craver": 3, "power": 2, "authenticity": 1, "desirability": 0}
+        },
+        {
+          "text": "Be naturally confident instead of constantly faking it",
+          "traits": {"authenticity": 5, "invulnerability": 3, "superiority": 2, "power": 2, "desirability": 1}
+        },
+        {
+          "text": "Stop overthinking and analyzing everything to death",
+          "traits": {"freedom_craver": 4, "invulnerability": 3, "authenticity": 2, "power": 1, "significance": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your deepest, most secret wish about relationships is:",
+      "answers": [
+        {
+          "text": "Finding someone who sees through all my masks and chooses to stay",
+          "traits": {"authenticity": 5, "desirability": 3, "significance": 3, "invulnerability": 1, "power": 0}
+        },
+        {
+          "text": "Being the absolute center of someone's universe",
+          "traits": {"significance": 5, "desirability": 4, "power": 3, "superiority": 2, "authenticity": 0}
+        },
+        {
+          "text": "Finding someone who needs me as desperately as I need them",
+          "traits": {"savior": 5, "significance": 4, "desirability": 3, "power": 2, "freedom_craver": 0}
+        },
+        {
+          "text": "Having multiple people fighting for my attention and love",
+          "traits": {"desirability": 5, "power": 4, "significance": 3, "superiority": 2, "authenticity": 0}
+        },
+        {
+          "text": "Being completely understood without ever having to explain myself",
+          "traits": {"authenticity": 4, "significance": 3, "invulnerability": 3, "freedom_craver": 2, "power": 0}
+        }
+      ]
+    },
+    {
+      "question": "If you could possess any superpower, you'd secretly choose:",
+      "answers": [
+        {
+          "text": "Mind control - making people do exactly what I want",
+          "traits": {"power": 5, "manipulation": 5, "superiority": 3, "vindication": 2, "authenticity": 0}
+        },
+        {
+          "text": "Invisibility - observing everything without consequences",
+          "traits": {"invulnerability": 4, "power": 3, "freedom_craver": 3, "manipulation": 2, "desirability": 0}
+        },
+        {
+          "text": "Time travel - fixing every mistake and regret I've ever had",
+          "traits": {"vindication": 4, "power": 4, "invulnerability": 3, "authenticity": 2, "legacy": 1}
+        },
+        {
+          "text": "Shapeshifting - becoming anyone I want to be",
+          "traits": {"reinvention": 5, "desirability": 4, "manipulation": 3, "freedom_craver": 3, "authenticity": 0}
+        },
+        {
+          "text": "Immortality - experiencing everything the universe has to offer",
+          "traits": {"legacy": 4, "significance": 4, "freedom_craver": 3, "superiority": 2, "power": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your most shameful secret addiction is:",
+      "answers": [
+        {
+          "text": "Reading about other people's failures and downfalls",
+          "traits": {"superiority": 4, "vindication": 3, "power": 2, "manipulation": 2, "authenticity": 0}
+        },
+        {
+          "text": "Creating elaborate fantasy scenarios where I'm the hero",
+          "traits": {"significance": 5, "legacy": 4, "superiority": 3, "desirability": 2, "authenticity": 0}
+        },
+        {
+          "text": "Obsessively checking who's viewing my social media profiles",
+          "traits": {"desirability": 4, "significance": 3, "vindication": 2, "power": 2, "authenticity": 0}
+        },
+        {
+          "text": "Deep-diving into the lives of people from my past",
+          "traits": {"vindication": 3, "superiority": 3, "manipulation": 3, "power": 2, "authenticity": 0}
+        },
+        {
+          "text": "Planning detailed revenge scenarios I'll never execute",
+          "traits": {"vindication": 5, "power": 4, "superiority": 3, "manipulation": 2, "authenticity": 0}
+        }
+      ]
+    },
+    {
+      "question": "If you could know one secret about every person you meet, it would be:",
+      "answers": [
+        {
+          "text": "What they honestly think about me when I'm not around",
+          "traits": {"desirability": 4, "vindication": 4, "significance": 3, "invulnerability": 2, "authenticity": 1}
+        },
+        {
+          "text": "What they're most deeply ashamed of",
+          "traits": {"power": 4, "superiority": 4, "manipulation": 3, "vindication": 2, "authenticity": 0}
+        },
+        {
+          "text": "Exactly what would make them become obsessed with me",
+          "traits": {"manipulation": 5, "desirability": 5, "power": 4, "superiority": 2, "authenticity": 0}
+        },
+        {
+          "text": "What their deepest, darkest fear is",
+          "traits": {"power": 5, "manipulation": 4, "superiority": 3, "vindication": 2, "authenticity": 0}
+        },
+        {
+          "text": "What makes them feel most alive and passionate",
+          "traits": {"authenticity": 4, "savior": 3, "significance": 3, "manipulation": 2, "power": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your most forbidden desire about your past is:",
+      "answers": [
+        {
+          "text": "Going back and being cruel to everyone who hurt me",
+          "traits": {"vindication": 5, "power": 4, "superiority": 3, "invulnerability": 2, "authenticity": 0}
+        },
+        {
+          "text": "Reliving my peak moment of happiness forever",
+          "traits": {"significance": 4, "invulnerability": 3, "freedom_craver": 2, "legacy": 2, "power": 0}
+        },
+        {
+          "text": "Erasing everyone who's seen me at my absolute worst",
+          "traits": {"invulnerability": 5, "power": 4, "superiority": 3, "desirability": 3, "authenticity": 0}
+        },
+        {
+          "text": "Making completely different choices that led to a different life",
+          "traits": {"reinvention": 5, "freedom_craver": 4, "vindication": 3, "authenticity": 2, "power": 1}
+        },
+        {
+          "text": "Actually saying what I was thinking in every situation",
+          "traits": {"authenticity": 5, "vindication": 4, "power": 3, "freedom_craver": 2, "superiority": 1}
+        }
+      ]
+    },
+    {
+      "question": "If you could control how people perceive you, you'd want them to see you as:",
+      "answers": [
+        {
+          "text": "Mysterious and intriguingly unknowable",
+          "traits": {"desirability": 4, "superiority": 4, "power": 3, "significance": 3, "manipulation": 2}
+        },
+        {
+          "text": "Irresistibly attractive to absolutely everyone",
+          "traits": {"desirability": 5, "power": 3, "significance": 3, "superiority": 2, "vindication": 1}
+        },
+        {
+          "text": "Intimidatingly intelligent and superior",
+          "traits": {"superiority": 5, "power": 4, "vindication": 3, "significance": 2, "desirability": 1}
+        },
+        {
+          "text": "The person everyone wants to confide their secrets to",
+          "traits": {"significance": 4, "savior": 4, "power": 3, "manipulation": 3, "desirability": 2}
+        },
+        {
+          "text": "Completely unbothered and unaffected by anything",
+          "traits": {"invulnerability": 5, "superiority": 4, "power": 3, "freedom_craver": 3, "authenticity": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your darkest fantasy about your enemies involves them:",
+      "answers": [
+        {
+          "text": "Realizing I was right about everything and they were wrong",
+          "traits": {"vindication": 5, "superiority": 4, "power": 3, "significance": 2, "desirability": 1}
+        },
+        {
+          "text": "Becoming completely irrelevant while I achieve greatness",
+          "traits": {"superiority": 4, "legacy": 4, "significance": 4, "vindication": 3, "power": 2}
+        },
+        {
+          "text": "Experiencing exactly what they put me through",
+          "traits": {"vindication": 5, "power": 3, "superiority": 3, "invulnerability": 2, "authenticity": 1}
+        },
+        {
+          "text": "Desperately begging for my forgiveness",
+          "traits": {"power": 5, "superiority": 4, "vindication": 4, "desirability": 3, "significance": 2}
+        },
+        {
+          "text": "Never crossing my mind again because I've transcended them",
+          "traits": {"freedom_craver": 4, "invulnerability": 4, "superiority": 3, "authenticity": 2, "power": 1}
+        }
+      ]
+    },
+    {
+      "question": "If you could restart your life with your current knowledge, you'd:",
+      "answers": [
+        {
+          "text": "Be completely selfish from day one",
+          "traits": {"power": 4, "invulnerability": 4, "freedom_craver": 3, "superiority": 2, "authenticity": 1}
+        },
+        {
+          "text": "Take massive risks and never fear failure",
+          "traits": {"freedom_craver": 5, "authenticity": 4, "power": 3, "legacy": 2, "invulnerability": 1}
+        },
+        {
+          "text": "Be manipulative instead of naively honest",
+          "traits": {"manipulation": 5, "power": 4, "superiority": 3, "invulnerability": 3, "authenticity": 0}
+        },
+        {
+          "text": "Focus solely on accumulating power and wealth",
+          "traits": {"power": 5, "superiority": 3, "freedom_craver": 3, "vindication": 2, "authenticity": 0}
+        },
+        {
+          "text": "Follow my authentic desires instead of others' expectations",
+          "traits": {"authenticity": 5, "freedom_craver": 4, "power": 2, "vindication": 2, "significance": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your deepest desire about your physical appearance is:",
+      "answers": [
+        {
+          "text": "Being so attractive that people lose focus around me",
+          "traits": {"desirability": 5, "power": 4, "superiority": 3, "significance": 2, "manipulation": 2}
+        },
+        {
+          "text": "Looking exactly like how I feel on the inside",
+          "traits": {"authenticity": 5, "freedom_craver": 3, "significance": 2, "power": 1, "desirability": 1}
+        },
+        {
+          "text": "Being intimidating enough that no one dares mess with me",
+          "traits": {"power": 5, "invulnerability": 4, "superiority": 3, "vindication": 2, "desirability": 0}
+        },
+        {
+          "text": "Blending in so completely that I become invisible",
+          "traits": {"invulnerability": 5, "freedom_craver": 4, "authenticity": 2, "power": 1, "desirability": 0}
+        },
+        {
+          "text": "Having one feature so striking that everyone remembers me",
+          "traits": {"significance": 5, "desirability": 4, "superiority": 3, "legacy": 2, "power": 1}
+        }
+      ]
+    },
+    {
+      "question": "If you could experience one emotion at maximum intensity for a day, it would be:",
+      "answers": [
+        {
+          "text": "Pure, unshakeable confidence",
+          "traits": {"power": 4, "superiority": 4, "invulnerability": 3, "authenticity": 2, "desirability": 2}
+        },
+        {
+          "text": "Complete indifference to everyone's opinions",
+          "traits": {"freedom_craver": 5, "invulnerability": 4, "authenticity": 3, "power": 2, "superiority": 2}
+        },
+        {
+          "text": "Overwhelming gratitude for everything I have",
+          "traits": {"authenticity": 4, "freedom_craver": 3, "significance": 2, "invulnerability": 2, "power": 0}
+        },
+        {
+          "text": "Righteous fury at everyone who's wronged me",
+          "traits": {"vindication": 5, "power": 4, "superiority": 3, "invulnerability": 2, "authenticity": 1}
+        },
+        {
+          "text": "Unconditional love for myself exactly as I am",
+          "traits": {"authenticity": 5, "freedom_craver": 4, "invulnerability": 3, "significance": 2, "power": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your secret wish about social status involves:",
+      "answers": [
+        {
+          "text": "Being invited places just so people can say I was there",
+          "traits": {"significance": 5, "desirability": 4, "superiority": 3, "power": 2, "legacy": 2}
+        },
+        {
+          "text": "Having people compete desperately for my attention",
+          "traits": {"desirability": 5, "power": 4, "superiority": 3, "significance": 3, "manipulation": 2}
+        },
+        {
+          "text": "Being the person everyone else wants to impress",
+          "traits": {"superiority": 5, "power": 4, "significance": 3, "desirability": 3, "vindication": 2}
+        },
+        {
+          "text": "Never having to network or make small talk again",
+          "traits": {"freedom_craver": 4, "authenticity": 3, "invulnerability": 3, "power": 2, "superiority": 1}
+        },
+        {
+          "text": "Being powerful enough to help or destroy anyone",
+          "traits": {"power": 5, "savior": 4, "superiority": 3, "manipulation": 3, "significance": 2}
+        }
+      ]
+    },
+    {
+      "question": "If you could delete one personality trait forever, it would be:",
+      "answers": [
+        {
+          "text": "My desperate need for other people's approval",
+          "traits": {"freedom_craver": 5, "authenticity": 4, "invulnerability": 3, "power": 2, "superiority": 1}
+        },
+        {
+          "text": "My tendency to overthink every single thing",
+          "traits": {"freedom_craver": 4, "invulnerability": 4, "authenticity": 3, "power": 2, "significance": 1}
+        },
+        {
+          "text": "My inability to be truly vulnerable with anyone",
+          "traits": {"authenticity": 5, "freedom_craver": 3, "significance": 3, "desirability": 2, "power": 1}
+        },
+        {
+          "text": "My conscience when it comes to getting what I want",
+          "traits": {"power": 5, "manipulation": 4, "superiority": 3, "freedom_craver": 2, "authenticity": 0}
+        },
+        {
+          "text": "My fear of being ordinary and unremarkable",
+          "traits": {"significance": 4, "authenticity": 3, "freedom_craver": 3, "superiority": 2, "legacy": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your most forbidden fantasy about success involves:",
+      "answers": [
+        {
+          "text": "Being successful enough to reject everyone who rejected me",
+          "traits": {"vindication": 5, "power": 4, "superiority": 4, "desirability": 3, "significance": 2}
+        },
+        {
+          "text": "Having so much money that money becomes meaningless",
+          "traits": {"freedom_craver": 5, "power": 4, "superiority": 3, "invulnerability": 3, "significance": 2}
+        },
+        {
+          "text": "Being famous enough that my problems become entertainment",
+          "traits": {"significance": 5, "desirability": 4, "superiority": 3, "legacy": 3, "power": 2}
+        },
+        {
+          "text": "Success that finally makes my family proud of me",
+          "traits": {"vindication": 4, "desirability": 4, "significance": 3, "authenticity": 2, "power": 1}
+        },
+        {
+          "text": "Creating something so beautiful it moves people to tears",
+          "traits": {"legacy": 5, "significance": 4, "authenticity": 3, "desirability": 2, "superiority": 1}
+        }
+      ]
+    },
+    {
+      "question": "If you could have one conversation with your past self, you'd say:",
+      "answers": [
+        {
+          "text": "Stop trying so desperately to be liked by everyone",
+          "traits": {"authenticity": 4, "freedom_craver": 4, "invulnerability": 3, "power": 2, "superiority": 1}
+        },
+        {
+          "text": "Trust absolutely no one completely",
+          "traits": {"invulnerability": 5, "power": 3, "superiority": 3, "freedom_craver": 2, "authenticity": 0}
+        },
+        {
+          "text": "Take what you want instead of waiting for permission",
+          "traits": {"power": 4, "freedom_craver": 4, "authenticity": 3, "superiority": 2, "vindication": 1}
+        },
+        {
+          "text": "You're going to be okay, just hold on",
+          "traits": {"authenticity": 4, "significance": 3, "invulnerability": 2, "savior": 2, "freedom_craver": 1}
+        },
+        {
+          "text": "None of this matters as much as you think it does",
+          "traits": {"freedom_craver": 4, "invulnerability": 4, "authenticity": 3, "superiority": 2, "power": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your deepest desire about your mind is:",
+      "answers": [
+        {
+          "text": "To think faster and smarter than everyone around me",
+          "traits": {"superiority": 5, "power": 4, "vindication": 3, "significance": 2, "manipulation": 2}
+        },
+        {
+          "text": "To silence the constant internal criticism forever",
+          "traits": {"freedom_craver": 4, "authenticity": 4, "invulnerability": 4, "power": 2, "significance": 1}
+        },
+        {
+          "text": "To remember everything with perfect clarity",
+          "traits": {"power": 4, "superiority": 3, "vindication": 3, "manipulation": 2, "legacy": 2}
+        },
+        {
+          "text": "To turn off my emotions whenever I need to",
+          "traits": {"invulnerability": 5, "power": 4, "superiority": 3, "freedom_craver": 3, "authenticity": 0}
+        },
+        {
+          "text": "To understand people's motivations instantly",
+          "traits": {"manipulation": 4, "power": 4, "superiority": 3, "vindication": 2, "savior": 2}
+        }
+      ]
+    },
+    {
+      "question": "If you could have one guarantee in life, it would be:",
+      "answers": [
+        {
+          "text": "That I'll never be truly alone",
+          "traits": {"significance": 4, "desirability": 4, "savior": 3, "authenticity": 2, "invulnerability": 2}
+        },
+        {
+          "text": "That I'll always have enough money to do what I want",
+          "traits": {"freedom_craver": 5, "power": 4, "invulnerability": 3, "superiority": 2, "authenticity": 1}
+        },
+        {
+          "text": "That people will remember me long after I'm gone",
+          "traits": {"legacy": 5, "significance": 5, "superiority": 3, "desirability": 2, "vindication": 2}
+        },
+        {
+          "text": "That I'll never be vulnerable to anyone again",
+          "traits": {"invulnerability": 5, "power": 4, "superiority": 3, "freedom_craver": 3, "authenticity": 0}
+        },
+        {
+          "text": "That I'll figure out what I'm supposed to be doing",
+          "traits": {"authenticity": 4, "significance": 4, "freedom_craver": 3, "legacy": 2, "power": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your secret desire about emotions is:",
+      "answers": [
+        {
+          "text": "To feel everything more intensely than other people",
+          "traits": {"superiority": 4, "significance": 4, "authenticity": 3, "desirability": 2, "legacy": 2}
+        },
+        {
+          "text": "To never feel hurt or disappointment again",
+          "traits": {"invulnerability": 5, "freedom_craver": 4, "power": 3, "superiority": 2, "authenticity": 0}
+        },
+        {
+          "text": "To have emotions that actually make sense to me",
+          "traits": {"authenticity": 4, "freedom_craver": 3, "power": 3, "invulnerability": 2, "superiority": 2}
+        },
+        {
+          "text": "To make others feel exactly what I want them to feel",
+          "traits": {"manipulation": 5, "power": 5, "superiority": 3, "desirability": 2, "vindication": 2}
+        },
+        {
+          "text": "To feel genuine happiness without any guilt",
+          "traits": {"authenticity": 4, "freedom_craver": 4, "invulnerability": 3, "significance": 2, "power": 1}
+        }
+      ]
+    },
+    {
+      "question": "If you could go back to one moment and change your response, you'd:",
+      "answers": [
+        {
+          "text": "Actually fight back instead of taking it silently",
+          "traits": {"power": 4, "vindication": 4, "invulnerability": 3, "superiority": 2, "authenticity": 2}
+        },
+        {
+          "text": "Tell the brutal truth instead of what people wanted to hear",
+          "traits": {"authenticity": 5, "vindication": 4, "power": 3, "freedom_craver": 3, "superiority": 2}
+        },
+        {
+          "text": "Walk away instead of trying to fix everything",
+          "traits": {"freedom_craver": 4, "invulnerability": 4, "authenticity": 3, "power": 2, "savior": 0}
+        },
+        {
+          "text": "Take the risk instead of playing it safe",
+          "traits": {"freedom_craver": 4, "authenticity": 4, "power": 3, "legacy": 2, "significance": 2}
+        },
+        {
+          "text": "Be infinitely kinder to myself in that moment",
+          "traits": {"authenticity": 5, "freedom_craver": 3, "invulnerability": 3, "significance": 2, "savior": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your hidden desire about others' perception is that they:",
+      "answers": [
+        {
+          "text": "Are slightly afraid of what I'm capable of",
+          "traits": {"power": 5, "superiority": 4, "invulnerability": 3, "desirability": 2, "vindication": 2}
+        },
+        {
+          "text": "Think I'm effortlessly perfect at everything",
+          "traits": {"superiority": 5, "desirability": 4, "significance": 3, "invulnerability": 3, "vindication": 2}
+        },
+        {
+          "text": "Wonder constantly what I'm really thinking",
+          "traits": {"desirability": 4, "significance": 4, "superiority": 3, "power": 3, "manipulation": 2}
+        },
+        {
+          "text": "See me as someone who doesn't need anyone",
+          "traits": {"invulnerability": 5, "superiority": 4, "power": 3, "freedom_craver": 3, "desirability": 2}
+        },
+        {
+          "text": "Recognize that I'm fundamentally different from everyone else",
+          "traits": {"superiority": 5, "significance": 4, "desirability": 3, "legacy": 3, "authenticity": 2}
+        }
+      ]
+    },
+    {
+      "question": "If you could master one skill instantly, it would be:",
+      "answers": [
+        {
+          "text": "Reading people's true intentions and hidden agendas",
+          "traits": {"power": 4, "manipulation": 4, "superiority": 3, "invulnerability": 3, "vindication": 2}
+        },
+        {
+          "text": "Making anyone fall desperately in love with me",
+          "traits": {"desirability": 5, "manipulation": 4, "power": 4, "significance": 3, "superiority": 2}
+        },
+        {
+          "text": "Becoming wealthy through any means necessary",
+          "traits": {"power": 4, "freedom_craver": 4, "superiority": 3, "manipulation": 3, "vindication": 2}
+        },
+        {
+          "text": "Expressing myself so clearly that no one could ever misunderstand",
+          "traits": {"authenticity": 5, "significance": 4, "power": 3, "vindication": 3, "freedom_craver": 2}
+        },
+        {
+          "text": "Letting go of anything that doesn't serve me",
+          "traits": {"freedom_craver": 5, "invulnerability": 4, "authenticity": 3, "power": 3, "superiority": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your deepest secret about your dreams involves:",
+      "answers": [
+        {
+          "text": "Wanting to be worshipped, not just loved",
+          "traits": {"superiority": 5, "desirability": 4, "power": 4, "significance": 4, "vindication": 2}
+        },
+        {
+          "text": "Wanting to disappear and start completely over",
+          "traits": {"reinvention": 5, "freedom_craver": 5, "authenticity": 3, "invulnerability": 3, "power": 2}
+        },
+        {
+          "text": "Wanting enough power to never feel helpless again",
+          "traits": {"power": 5, "invulnerability": 5, "superiority": 3, "vindication": 3, "freedom_craver": 2}
+        },
+        {
+          "text": "Creating something that fundamentally changes the world",
+          "traits": {"legacy": 5, "significance": 5, "superiority": 4, "power": 3, "vindication": 3}
+        },
+        {
+          "text": "Finally finding peace with exactly who I am",
+          "traits": {"authenticity": 5, "freedom_craver": 4, "invulnerability": 3, "significance": 3, "power": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your ultimate secret desire is:",
+      "answers": [
+        {
+          "text": "To be so magnetic that people become obsessed with me",
+          "traits": {"desirability": 5, "power": 4, "superiority": 4, "significance": 4, "manipulation": 3}
+        },
+        {
+          "text": "To transcend all human limitations and become something more",
+          "traits": {"superiority": 5, "legacy": 4, "power": 4, "significance": 4, "reinvention": 3}
+        },
+        {
+          "text": "To find someone who completes me in every possible way",
+          "traits": {"significance": 4, "desirability": 4, "authenticity": 4, "savior": 3, "freedom_craver": 1}
+        },
+        {
+          "text": "To have unlimited resources to reshape reality itself",
+          "traits": {"power": 5, "superiority": 4, "freedom_craver": 4, "legacy": 4, "manipulation": 3}
+        },
+        {
+          "text": "To finally understand what the point of all this is",
+          "traits": {"authenticity": 4, "significance": 4, "freedom_craver": 3, "legacy": 3, "superiority": 2}
+        }
+      ]
+    }
+  ],
+  "results": {
+    "vindication": {
+      "title": "The Vindication Seeker",
+      "description": "Your deepest desire is to be proven right about everything. You secretly fantasize about the day when everyone who doubted, dismissed, or underestimated you will have to admit they were wrong. You don't just want success - you want your success to sting those who didn't believe in you.",
+      "extended": "Your hidden desire runs deeper than simple success - you crave vindication with the intensity of someone who has been deeply wounded by dismissal and doubt. Every achievement you pursue carries the shadow motivation of proving wrong those who underestimated you. You don't just want to succeed; you want your success to be so undeniable that it forces recognition from every person who ever dismissed your potential. Your fantasies often involve moments where former critics have to publicly acknowledge their mistake in doubting you.\n\nThis drive for vindication likely stems from experiences where your worth was questioned, your ideas dismissed, or your potential overlooked. Each slight became a fuel source for your ambition, but also a wound that demands healing through external validation. You've internalized the message that your value must be proven rather than simply accepted, creating a never-ending quest to demonstrate your worth to those who failed to see it initially.\n\nThe challenge with vindication-seeking is that it keeps you tethered to the past and to people whose opinions shouldn't define your present. Your energy becomes focused on proving rather than simply being, on external validation rather than internal satisfaction. This can lead to choices driven more by what will impress others than what genuinely fulfills you, creating a hollow victory even when you achieve what you set out to prove.\n\nTrue liberation comes when you realize that the opinion of those who couldn't see your worth was never a reflection of your actual value. Your worth doesn't require proof or external validation - it simply is. The most powerful vindication isn't making others admit they were wrong about you; it's reaching a place where their opinion no longer matters. When you can succeed for your own fulfillment rather than to prove a point, you'll find a freedom that no external vindication could ever provide."
+    },
+    "power": {
+      "title": "The Power Hungry",
+      "description": "What you truly crave is control and influence over others. Your secret desires revolve around having enough power to never feel vulnerable again. You fantasize about being the one who makes the decisions, sets the rules, and determines outcomes. You don't just want success - you want dominance.",
+      "extended": "Your hunger for power stems from a deep-seated need to never feel helpless or at the mercy of others again. Every fantasy of control, every desire for influence, every craving for authority traces back to moments when you felt powerless and vulnerable. Power represents safety to you - the ultimate protection against being hurt, dismissed, or controlled by others. You've learned that in this world, you're either the one with power or the one being acted upon, and you've chosen your side.\n\nYour secret desires often revolve around scenarios where you have enough influence to shape outcomes, protect yourself and those you care about, and ensure that you never have to beg, plead, or depend on anyone's mercy again. You fantasize about having the resources to solve problems with authority rather than persuasion, the status to be heard rather than ignored, and the influence to make things happen rather than wait for others to act.\n\nThe shadow side of power hunger is that it can become an endless quest where enough is never enough. Each level of control achieved reveals new vulnerabilities that require more power to address. You may find yourself becoming the very thing you once feared - someone who uses power over others in ways that create new cycles of harm. The isolation that comes with power can also be profound, as relationships become complicated by questions of genuine affection versus strategic alliance.\n\nTrue power paradoxically comes from recognizing that the ultimate control is self-control, and the greatest influence is the ability to inspire rather than dominate. When you can find security within yourself rather than in your ability to control external circumstances, you discover a form of power that can never be taken away. The most liberated use of power is in service of something greater than yourself, where control becomes a tool for creation rather than protection."
+    },
+    "authenticity": {
+      "title": "The Truth Seeker",
+      "description": "Your hidden desire is to finally stop pretending and show your real self to the world. You're exhausted from wearing masks and playing roles. What you secretly want most is the freedom to be genuine without fear of rejection, and to find people who love the real you - flaws and all.",
+      "extended": "Your deepest desire is for the radical freedom of complete authenticity - to show up exactly as you are without modification, performance, or strategic presentation. You're bone-tired of the constant calculation required to be acceptable to others, the exhausting work of monitoring your words, expressions, and reactions to fit what others expect. Your secret fantasy is to speak your truth without filter, to express your genuine thoughts and feelings, and to be loved not despite your flaws but because of your complete human complexity.\n\nThis craving for authenticity likely comes from years of learning that your natural self wasn't quite right - too intense, too sensitive, too different, too much or not enough in some crucial way. You've become masterful at reading rooms and adjusting yourself accordingly, but this skill has become a prison. You've almost forgotten what your authentic self even looks like underneath all the adaptive strategies you've developed to navigate social expectations.\n\nThe fear beneath your desire for authenticity is that your real self might truly be unlovable or unacceptable. You've protected this authentic core so carefully that showing it feels terrifyingly vulnerable. What if people reject the real you? What if your fears about being too much or not enough are actually true? This keeps you trapped in a cycle of performing acceptability while desperately longing for someone to see through the performance and choose you anyway.\n\nThe path to authentic living requires the courage to disappoint some people and the wisdom to recognize that those who can't handle your authenticity weren't your people anyway. True belonging doesn't require you to contort yourself into an acceptable shape - it requires you to show up fully and trust that the right connections will naturally emerge. When you can love and accept yourself completely, you give others permission to do the same, creating the authentic connections your soul has been craving."
+    },
+    "desirability": {
+      "title": "The Irresistible",
+      "description": "Your deepest craving is to be wanted, desired, and pursued by others. You fantasize about being so magnetic that people become obsessed with you. Your secret desire is to be the object of everyone's attention and affection - to be chosen above all others, always.",
+      "extended": "Your hidden desire centers around being irresistibly magnetic - the person everyone wants to be close to, talk to, touch, and possess. You fantasize about walking into rooms and feeling the shift in energy as people are drawn to you, about being pursued rather than pursuing, chosen rather than choosing. Your secret wish is to be so captivating that others find themselves thinking about you when you're not around, creating stories and fantasies about what it would be like to have you.\n\nThis desire for universal desirability often stems from experiences of feeling overlooked, rejected, or chosen last. Each time you weren't picked, noticed, or pursued became evidence that you lacked some essential magnetic quality that others possessed. You've studied what makes people irresistible and may have worked to cultivate those qualities, but the hunger goes deeper than mere attractiveness - you want to be the person others crave with an intensity that borders on obsession.\n\nThe challenge with seeking universal desirability is that it can become a performance that obscures your authentic self. You may find yourself becoming what you think others want rather than being who you are. This creates a hollow victory where you're desired for an image rather than your essence. Additionally, the need to be wanted by everyone can lead to boundary issues, as you struggle to disappoint anyone or risk losing their desire for you.\n\nTrue magnetism comes from being fully yourself rather than trying to be irresistible to everyone. When you can find your worth independent of others' desire for you, you naturally become more attractive because you're no longer needy or performing. The most magnetic people are those who are complete within themselves - their desirability comes from their authenticity, confidence, and the way they make others feel, not from their desperate need to be wanted. Real connection happens when you're chosen for who you are, not who you think others want you to be."
+    },
+    "significance": {
+      "title": "The Unforgettable",
+      "description": "What you truly hunger for is to matter in a way that can't be ignored or forgotten. Your hidden desires center around leaving an indelible mark on the world and the people in it. You don't just want to exist - you want to be essential, irreplaceable, and eternally remembered.",
+      "extended": "Your deepest desire is for significance that transcends ordinary existence - to be the person whose impact ripples through time, whose absence would be felt like a void, whose presence changes everything. You hunger to matter in a way that can't be dismissed, forgotten, or replaced. Your fantasies often involve being the irreplaceable figure in others' stories, the pivotal person whose influence shaped important outcomes, the one whose name is spoken with reverence long after you're gone.\n\nThis drive for significance often emerges from experiences of feeling invisible, replaceable, or forgotten. Perhaps you've watched others receive recognition while your contributions went unnoticed, or you've felt like you could disappear without anyone truly missing you. This created a wound around your inherent worth and a compensatory drive to become so significant that you could never again be overlooked or forgotten.\n\nThe shadow side of seeking significance can be an exhausting pursuit of external validation and a tendency to measure your worth by your impact on others. You might find yourself taking on more responsibility than healthy, trying to become indispensable, or making choices based on how memorable or impressive they'll be rather than what brings you joy. This can lead to burnout and a sense of emptiness when the recognition doesn't feel as fulfilling as you expected.\n\nTrue significance comes from understanding that your worth isn't determined by how much others need or remember you. Your value is inherent, not earned through impact or achievement. When you can find meaning in your own experience rather than your effect on others, you naturally become more significant because you're operating from authenticity rather than need. The most unforgettable people are often those who were fully themselves rather than those who tried hardest to be remembered."
+    },
+    "freedom_craver": {
+      "title": "The Escape Artist",
+      "description": "Your deepest desire is complete liberation from all constraints - social expectations, responsibilities, other people's needs. You secretly fantasize about disappearing and starting over, about having unlimited resources to do whatever you want, whenever you want, without having to answer to anyone.",
+      "extended": "Your hidden desire is for absolute freedom - the kind that allows you to live entirely according to your own rhythm, desires, and impulses without consideration for others' expectations or needs. You fantasize about having enough resources to travel indefinitely, change identities at will, or simply disappear from your current life and start fresh somewhere else. Your secret wish is for liberation from every form of obligation, commitment, or external pressure that constrains your choices.\n\nThis craving for complete freedom often develops as a response to feeling trapped, controlled, or overly responsible for others' well-being. You may have experienced relationships, jobs, or family dynamics where your autonomy was heavily restricted or where you felt suffocated by others' demands. Each constraint became evidence that freedom is the highest value, and you've developed a deep suspicion of anything that might limit your options or tie you down.\n\nThe challenge with extreme freedom-seeking is that it can become a form of running away from intimacy, responsibility, and growth. True connection requires some level of commitment and vulnerability, but your desire for total autonomy can make these feel threatening. You might find yourself sabotaging relationships or opportunities when they start to feel too constraining, missing out on depth and meaning in pursuit of unlimited options.\n\nParadoxically, true freedom often comes through conscious choice of meaningful constraints. When you can choose your commitments from a place of authentic desire rather than obligation, they become expressions of freedom rather than limitations. The most liberated people are often those who understand that some boundaries create rather than restrict possibilities, and that the deepest freedom comes from being able to choose authentically rather than having unlimited options."
+    },
+    "superiority": {
+      "title": "The Superior Being",
+      "description": "Your hidden desire is to be recognized as fundamentally better than others. You secretly crave intellectual, emotional, or creative superiority that's so obvious it can't be denied. You want to be the smartest person in the room, the most talented, the most evolved - and you want everyone to know it.",
+      "extended": "Your deepest secret is the belief that you are fundamentally different from and superior to most people you encounter. You possess a quiet conviction that you see things others miss, understand concepts others struggle with, and operate at a level that most people simply cannot reach. Your hidden desire is for this superiority to be universally recognized and acknowledged - not through arrogance or boasting, but through the simple, undeniable evidence of your exceptional abilities.\n\nThis sense of superiority often develops as a protective mechanism against feelings of inadequacy or as a way to make sense of feeling different or misunderstood. If you've always felt like an outsider or struggled to relate to others, claiming superiority can be a way to reframe that difference as an advantage rather than a deficit. Your intelligence, sensitivity, or insight becomes evidence that you're operating at a higher level rather than simply being different.\n\nThe shadow side of superiority-seeking is the loneliness and disconnection it creates. When you view yourself as fundamentally better than others, genuine relationships become difficult because you're relating to people from a position of looking down rather than meeting them as equals. This can create a cycle where your superiority complex actually prevents the kind of deep connections that might help you feel less isolated and different.\n\nTrue confidence doesn't require comparison or superiority over others. When you can appreciate your unique gifts without needing them to make you better than others, you discover a more sustainable form of self-worth. The most genuinely exceptional people are often those who use their abilities in service of connection and contribution rather than distinction. Your gifts become most powerful when they're expressions of your authentic self rather than evidence of your superiority."
+    },
+    "savior": {
+      "title": "The Savior Complex",
+      "description": "Your deepest desire is to be needed, to rescue others, and to be seen as indispensable. You fantasize about having the power and resources to solve everyone's problems and be their hero. Your hidden drive is to be loved not just for who you are, but for what you can do for others.",
+      "extended": "Your secret desire revolves around being the person others turn to in their darkest moments, the one with the wisdom, resources, and strength to solve problems that others cannot. You fantasize about having enough power, money, or influence to rescue those you care about from their struggles, to be the hero in their stories, and to be remembered as the person who made everything better. Your identity becomes deeply intertwined with your ability to help, heal, and save others.\n\nThis savior complex often develops from early experiences where your worth was tied to your usefulness, where love was conditional on what you could provide rather than who you were. You may have grown up in a chaotic environment where you learned to find stability through helping others, or you may have received the most positive attention when you were solving problems or meeting others' needs. This created a template where being needed equals being loved.\n\nThe shadow side of the savior complex is that it can create codependent relationships where you're more invested in others' problems than they are, and where your self-worth depends on maintaining others' dependence on you. You might unconsciously seek out broken people or crisis situations because they provide the opportunity to feel important and needed. This can prevent others from developing their own strength and agency while keeping you trapped in exhausting cycles of rescue and responsibility.\n\nTrue compassion involves helping others develop their own power rather than keeping them dependent on yours. When you can love and value yourself independent of what you provide to others, you can offer help from a place of genuine service rather than ego need. The most effective helpers are those who work themselves out of a job by empowering others to solve their own problems. Your gift for helping becomes most powerful when it comes from overflow rather than need."
+    },
+    "manipulation": {
+      "title": "The Puppet Master",
+      "description": "What you secretly crave is the ability to influence and control others without them realizing it. Your hidden desires revolve around being able to make people do what you want through charm, strategy, and psychological insight. You want to be the one pulling the strings behind the scenes.",
+      "extended": "Your hidden desire is for the sophisticated ability to influence others through subtle psychological manipulation - to understand people so deeply that you can predict and control their responses, to be so skilled at persuasion that others enthusiastically do what you want while believing it was their own idea. You fantasize about having the kind of social and emotional intelligence that allows you to navigate any situation to your advantage, reading people like books and pressing exactly the right buttons to achieve your desired outcomes.\n\nThis desire for manipulative control often stems from experiences of feeling powerless or outsmarted by others who seemed to have social advantages you lacked. You may have watched others effortlessly get what they wanted through charm or manipulation while you struggled with direct approaches. Learning to influence others indirectly became your way of leveling the playing field and ensuring you never again found yourself at a disadvantage in social or professional situations.\n\nThe shadow side of manipulation is that it prevents genuine connection and often creates the very isolation and distrust it was meant to protect against. When you're constantly strategizing and calculating in relationships, you lose the ability to be authentic and vulnerable. Others may sense that something feels 'off' about interactions with you, even if they can't pinpoint what it is. This can lead to paranoia on your part as you worry about others discovering your manipulative tactics.\n\nTrue influence comes from authenticity, genuine care for others' well-being, and the ability to create win-win situations rather than zero-sum games. When you can get your needs met through honest communication and mutual benefit rather than covert manipulation, you build relationships based on trust rather than control. The most influential people are often those who inspire others to be their best selves rather than those who trick others into compliance."
+    },
+    "invulnerability": {
+      "title": "The Untouchable",
+      "description": "Your deepest desire is to never be hurt again. You fantasize about becoming emotionally impervious, about having such strong boundaries and defenses that nothing and no one can wound you. Your secret wish is to be powerful enough that vulnerability becomes a choice, not a weakness.",
+      "extended": "Your hidden desire is for complete emotional invulnerability - the ability to remain untouched by others' words, actions, or rejections. You fantasize about having boundaries so strong that criticism bounces off you, about being so internally secure that others' opinions become irrelevant, about reaching a state where you can engage with the world without fear of being wounded. Your secret wish is to transform vulnerability from a liability into a choice you make consciously rather than a weakness others can exploit.\n\nThis desire for invulnerability almost certainly stems from experiences of being deeply hurt when you were open and vulnerable. Each wound became evidence that emotional openness is dangerous, that caring too much leads to pain, and that survival requires emotional armor. You've learned to view vulnerability as weakness and invulnerability as strength, building elaborate defenses to ensure you're never again caught off guard by betrayal, rejection, or abandonment.\n\nThe challenge with seeking complete invulnerability is that it can cut you off from the very connections and experiences that make life meaningful. Love, creativity, growth, and deep friendship all require some degree of vulnerability and risk. In protecting yourself from pain, you might also be protecting yourself from joy, intimacy, and the kind of authentic connections that heal old wounds. Your fortress becomes both protection and prison.\n\nTrue strength comes from learning to be vulnerable consciously and selectively rather than building walls against all potential hurt. When you can distinguish between safe people and situations versus dangerous ones, you can open your heart strategically rather than keeping it closed defensively. The most unshakeable people are often those who have learned to recover from hurt rather than those who have learned to avoid it entirely. Resilience, not invulnerability, is the key to lasting strength."
+    },
+    "reinvention": {
+      "title": "The Shape Shifter",
+      "description": "What you truly crave is the ability to become anyone you want to be. Your secret desires center around complete transformation - new identity, new life, new personality. You fantasize about shedding your current self like a snake sheds its skin and emerging as someone entirely different.",
+      "extended": "Your deepest desire is for the ultimate freedom of complete self-reinvention - the ability to shed your current identity, history, and personality like old clothes and emerge as whoever you choose to be. You fantasize about starting fresh in a new place where no one knows your past, about having the resources to completely transform your appearance, lifestyle, and even personality. Your secret wish is for the power to rewrite your story from scratch whenever your current identity feels limiting or painful.\n\nThis craving for reinvention often stems from feeling trapped by others' perceptions of you, by mistakes from your past, or by aspects of yourself that feel unchangeable. You may have been typecast by family, friends, or society in ways that feel restrictive, or you may carry shame about parts of your history that make you want to escape into a completely different identity. Reinvention represents the ultimate freedom from the limitations of your current circumstances and self-concept.\n\nThe shadow side of constant reinvention is that it can become a form of running away from yourself rather than growing into yourself. Each transformation might provide temporary relief, but if you're not addressing the underlying issues that make you want to escape, you'll eventually feel trapped in your new identity as well. Additionally, constantly changing who you are can prevent the development of authentic relationships and a stable sense of self.\n\nTrue transformation comes from evolving into your most authentic self rather than constantly trying to become someone else. When you can embrace and integrate all aspects of your identity - including the parts you'd rather change - you discover a form of reinvention that's sustainable and genuine. The most powerful transformations happen when you're becoming more yourself rather than less, when you're revealing rather than concealing your essential nature."
+    },
+    "legacy": {
+      "title": "The Immortal Creator",
+      "description": "Your deepest desire is to create something that outlasts you and changes the world. You secretly crave the kind of significance that transcends death - to be remembered, studied, and celebrated long after you're gone. You want your impact to echo through generations.",
+      "extended": "Your hidden desire is for the kind of legacy that makes you truly immortal - not just remembered, but actively influencing the world long after your physical presence is gone. You fantasize about creating art, ideas, institutions, or innovations that become permanent parts of human culture, about being studied by future generations trying to understand your genius, about having your name spoken with reverence centuries from now. Your secret wish is to solve problems, create beauty, or contribute insights that fundamentally change how humans experience life.\n\nThis drive for lasting legacy often stems from a deep awareness of mortality combined with a fierce desire for your existence to have mattered in permanent ways. You may be acutely conscious of how quickly most people are forgotten after death, how few individuals actually leave lasting marks on human history. This awareness can create urgency around making your mark before time runs out, driving you toward ambitious projects and bold creative endeavors.\n\nThe challenge with legacy-seeking is that it can become more about ego and immortality than genuine contribution. You might find yourself choosing projects based on their potential for fame rather than their authentic value, or becoming so focused on how history will remember you that you lose touch with present-moment meaning and connection. The pressure to create something lasting can also be paralyzing, preventing you from creating anything at all.\n\nThe most enduring legacies often come from people who were focused on authentic expression or genuine service rather than immortality itself. When you can create from love, curiosity, or genuine desire to contribute rather than from fear of being forgotten, your work naturally carries more power and authenticity. The irony is that those who create for legacy often achieve less lasting impact than those who create from genuine passion and authentic purpose."
+  }
+  }
+}

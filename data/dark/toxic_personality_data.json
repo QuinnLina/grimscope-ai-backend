@@ -1,0 +1,707 @@
+{
+  "title": "Toxic Personality Index",
+  "description": "Discover how poisonous you really are to others",
+  "traits": {
+    "manipulative": "Uses emotional manipulation to control others",
+    "narcissistic": "Excessive need for admiration and lack of empathy",
+    "passive_aggressive": "Indirect hostility and resistance to requests",
+    "boundary_violator": "Consistently ignores or crosses personal boundaries",
+    "gaslighter": "Makes others question their own reality and perceptions",
+    "energy_vampire": "Drains others emotionally and mentally",
+    "drama_creator": "Thrives on and creates conflict and chaos",
+    "victim_player": "Uses victimhood to manipulate and avoid responsibility",
+    "isolator": "Systematically separates partners from support systems",
+    "projection_master": "Blames others for their own toxic behaviors",
+    "love_bomber": "Uses excessive affection to manipulate and control",
+    "emotional_blackmailer": "Uses guilt, fear, and obligation to control"
+  },
+  "questions": [
+    {
+      "question": "When your friend gets promoted to the job you wanted, your first genuine reaction is:",
+      "answers": [
+        {
+          "text": "Genuinely celebrate their success and feel inspired by their achievement",
+          "traits": {"manipulative": 0, "narcissistic": 0, "passive_aggressive": 0, "boundary_violator": 0, "gaslighter": 0}
+        },
+        {
+          "text": "Feel happy for them but secretly wish it had been you instead",
+          "traits": {"manipulative": 1, "narcissistic": 2, "passive_aggressive": 1, "boundary_violator": 0, "gaslighter": 0}
+        },
+        {
+          "text": "Smile to their face while mentally cataloging all the reasons they don't deserve it",
+          "traits": {"manipulative": 3, "narcissistic": 4, "passive_aggressive": 3, "boundary_violator": 1, "gaslighter": 2}
+        },
+        {
+          "text": "Congratulate them while subtly undermining their qualifications to others",
+          "traits": {"manipulative": 4, "narcissistic": 5, "passive_aggressive": 4, "boundary_violator": 2, "gaslighter": 4}
+        },
+        {
+          "text": "Immediately start plotting ways to sabotage their success or reputation",
+          "traits": {"manipulative": 5, "narcissistic": 5, "passive_aggressive": 5, "boundary_violator": 5, "gaslighter": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your romantic relationships typically end because:",
+      "answers": [
+        {
+          "text": "Natural incompatibility or mutual decision to part ways",
+          "traits": {"energy_vampire": 0, "drama_creator": 0, "victim_player": 0, "isolator": 0, "projection_master": 0}
+        },
+        {
+          "text": "They say I'm 'too intense' or 'exhausting' to be around",
+          "traits": {"energy_vampire": 3, "drama_creator": 2, "victim_player": 1, "isolator": 2, "projection_master": 1}
+        },
+        {
+          "text": "They claim I'm 'toxic' but they're just too sensitive for real love",
+          "traits": {"energy_vampire": 4, "drama_creator": 3, "victim_player": 3, "isolator": 3, "projection_master": 4}
+        },
+        {
+          "text": "They abandon me after I've given them everything, proving people always leave",
+          "traits": {"energy_vampire": 5, "drama_creator": 4, "victim_player": 5, "isolator": 4, "projection_master": 3}
+        },
+        {
+          "text": "They become paranoid and accuse me of things I never did, clearly unstable",
+          "traits": {"energy_vampire": 5, "drama_creator": 5, "victim_player": 4, "isolator": 5, "projection_master": 5}
+        }
+      ]
+    },
+    {
+      "question": "When someone sets a boundary with you (like 'I need space' or 'Don't call after 9pm'), you:",
+      "answers": [
+        {
+          "text": "Respect their request completely and adjust my behavior accordingly",
+          "traits": {"boundary_violator": 0, "manipulative": 0, "love_bomber": 0, "emotional_blackmailer": 0, "passive_aggressive": 0}
+        },
+        {
+          "text": "Agree but occasionally 'forget' when something important comes up",
+          "traits": {"boundary_violator": 2, "manipulative": 2, "love_bomber": 1, "emotional_blackmailer": 1, "passive_aggressive": 2}
+        },
+        {
+          "text": "Test the boundary to see how serious they really are about it",
+          "traits": {"boundary_violator": 4, "manipulative": 3, "love_bomber": 2, "emotional_blackmailer": 3, "passive_aggressive": 3}
+        },
+        {
+          "text": "Make them feel guilty for 'pushing me away' when I just care about them",
+          "traits": {"boundary_violator": 5, "manipulative": 4, "love_bomber": 4, "emotional_blackmailer": 5, "passive_aggressive": 2}
+        },
+        {
+          "text": "Ignore it entirely - if they really cared, they'd want to hear from me anytime",
+          "traits": {"boundary_violator": 5, "manipulative": 5, "love_bomber": 5, "emotional_blackmailer": 4, "passive_aggressive": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your most effective manipulation tactic (be honest) is:",
+      "answers": [
+        {
+          "text": "I don't deliberately manipulate people - that's wrong",
+          "traits": {"manipulative": 0, "gaslighter": 0, "emotional_blackmailer": 0, "victim_player": 0, "love_bomber": 0}
+        },
+        {
+          "text": "Subtle guilt trips when I need something important",
+          "traits": {"manipulative": 2, "gaslighter": 1, "emotional_blackmailer": 3, "victim_player": 2, "love_bomber": 1}
+        },
+        {
+          "text": "Playing up my emotional pain until they give in to avoid hurting me more",
+          "traits": {"manipulative": 4, "gaslighter": 2, "emotional_blackmailer": 4, "victim_player": 5, "love_bomber": 2}
+        },
+        {
+          "text": "Making them question their memory or perception of events until they doubt themselves",
+          "traits": {"manipulative": 5, "gaslighter": 5, "emotional_blackmailer": 3, "victim_player": 3, "love_bomber": 1}
+        },
+        {
+          "text": "Overwhelming them with affection, then withdrawing it until they comply",
+          "traits": {"manipulative": 5, "gaslighter": 3, "emotional_blackmailer": 5, "victim_player": 2, "love_bomber": 5}
+        }
+      ]
+    },
+    {
+      "question": "How many people have blocked you on social media or cut contact entirely?",
+      "answers": [
+        {
+          "text": "None that I'm aware of - we either stay friends or drift apart naturally",
+          "traits": {"drama_creator": 0, "energy_vampire": 0, "projection_master": 0, "boundary_violator": 0, "isolator": 0}
+        },
+        {
+          "text": "One or two, but those were misunderstandings that got blown out of proportion",
+          "traits": {"drama_creator": 1, "energy_vampire": 2, "projection_master": 2, "boundary_violator": 1, "isolator": 1}
+        },
+        {
+          "text": "Several, but they're all overly sensitive people who can't handle honesty",
+          "traits": {"drama_creator": 3, "energy_vampire": 3, "projection_master": 4, "boundary_violator": 3, "isolator": 2}
+        },
+        {
+          "text": "More than I can count, but it proves how fake and disloyal people are",
+          "traits": {"drama_creator": 4, "energy_vampire": 4, "projection_master": 5, "boundary_violator": 4, "isolator": 4}
+        },
+        {
+          "text": "I've lost track - I consider it a badge of honor showing I don't fake friendships",
+          "traits": {"drama_creator": 5, "energy_vampire": 5, "projection_master": 5, "boundary_violator": 5, "isolator": 5}
+        }
+      ]
+    },
+    {
+      "question": "When you apologize, it usually sounds like:",
+      "answers": [
+        {
+          "text": "I'm sorry for what I did. I understand how it hurt you and I'll work to change.",
+          "traits": {"gaslighter": 0, "projection_master": 0, "narcissistic": 0, "victim_player": 0, "passive_aggressive": 0}
+        },
+        {
+          "text": "I'm sorry if I hurt you, that wasn't my intention at all.",
+          "traits": {"gaslighter": 1, "projection_master": 1, "narcissistic": 1, "victim_player": 1, "passive_aggressive": 1}
+        },
+        {
+          "text": "I'm sorry you feel that way, but you're misunderstanding what really happened.",
+          "traits": {"gaslighter": 4, "projection_master": 3, "narcissistic": 3, "victim_player": 2, "passive_aggressive": 3}
+        },
+        {
+          "text": "I'm sorry you can't see that I was actually trying to help you.",
+          "traits": {"gaslighter": 5, "projection_master": 4, "narcissistic": 4, "victim_player": 3, "passive_aggressive": 4}
+        },
+        {
+          "text": "Why should I apologize when you're the one who overreacted and hurt ME?",
+          "traits": {"gaslighter": 5, "projection_master": 5, "narcissistic": 5, "victim_player": 5, "passive_aggressive": 5}
+        }
+      ]
+    },
+    {
+      "question": "In group conversations, you're typically the person who:",
+      "answers": [
+        {
+          "text": "Listens actively and contributes thoughtful, supportive comments",
+          "traits": {"narcissistic": 0, "drama_creator": 0, "energy_vampire": 0, "manipulative": 0, "boundary_violator": 0}
+        },
+        {
+          "text": "Shares interesting stories and keeps the conversation flowing naturally",
+          "traits": {"narcissistic": 1, "drama_creator": 0, "energy_vampire": 1, "manipulative": 0, "boundary_violator": 1}
+        },
+        {
+          "text": "Subtly steers conversations to topics where you can shine or be the expert",
+          "traits": {"narcissistic": 3, "drama_creator": 1, "energy_vampire": 2, "manipulative": 2, "boundary_violator": 3}
+        },
+        {
+          "text": "Dominates with dramatic stories about your problems or achievements",
+          "traits": {"narcissistic": 4, "drama_creator": 3, "energy_vampire": 4, "manipulative": 2, "boundary_violator": 4}
+        },
+        {
+          "text": "Makes everything about you, even when others are sharing important news",
+          "traits": {"narcissistic": 5, "drama_creator": 4, "energy_vampire": 5, "manipulative": 3, "boundary_violator": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your friends and family would say you come to them because:",
+      "answers": [
+        {
+          "text": "You're genuinely interested in their lives and offer mutual support",
+          "traits": {"energy_vampire": 0, "narcissistic": 0, "victim_player": 0, "manipulative": 0, "emotional_blackmailer": 0}
+        },
+        {
+          "text": "You enjoy catching up and sharing what's happening in both your lives",
+          "traits": {"energy_vampire": 1, "narcissistic": 1, "victim_player": 0, "manipulative": 0, "emotional_blackmailer": 0}
+        },
+        {
+          "text": "You need advice and emotional support during difficult times",
+          "traits": {"energy_vampire": 2, "narcissistic": 2, "victim_player": 2, "manipulative": 1, "emotional_blackmailer": 1}
+        },
+        {
+          "text": "You're usually in crisis and need them to fix your problems or validate you",
+          "traits": {"energy_vampire": 4, "narcissistic": 3, "victim_player": 4, "manipulative": 3, "emotional_blackmailer": 3}
+        },
+        {
+          "text": "You're always in some drama and they're your only source of attention and sympathy",
+          "traits": {"energy_vampire": 5, "narcissistic": 4, "victim_player": 5, "manipulative": 4, "emotional_blackmailer": 4}
+        }
+      ]
+    },
+    {
+      "question": "When someone receives attention or praise that you wanted, you:",
+      "answers": [
+        {
+          "text": "Feel genuinely happy for them and celebrate their success",
+          "traits": {"narcissistic": 0, "manipulative": 0, "passive_aggressive": 0, "drama_creator": 0, "projection_master": 0}
+        },
+        {
+          "text": "Congratulate them sincerely but feel a twinge of envy",
+          "traits": {"narcissistic": 1, "manipulative": 1, "passive_aggressive": 1, "drama_creator": 0, "projection_master": 0}
+        },
+        {
+          "text": "Smile and congratulate them while planning how to one-up them later",
+          "traits": {"narcissistic": 3, "manipulative": 3, "passive_aggressive": 2, "drama_creator": 2, "projection_master": 1}
+        },
+        {
+          "text": "Make subtle comments about how they don't really deserve it or got lucky",
+          "traits": {"narcissistic": 4, "manipulative": 4, "passive_aggressive": 4, "drama_creator": 3, "projection_master": 3}
+        },
+        {
+          "text": "Find ways to redirect attention back to yourself or undermine their achievement",
+          "traits": {"narcissistic": 5, "manipulative": 5, "passive_aggressive": 5, "drama_creator": 5, "projection_master": 4}
+        }
+      ]
+    },
+    {
+      "question": "Your reaction when someone doesn't text you back within a few hours is:",
+      "answers": [
+        {
+          "text": "Assume they're busy and wait patiently for them to respond when they can",
+          "traits": {"boundary_violator": 0, "emotional_blackmailer": 0, "manipulative": 0, "victim_player": 0, "drama_creator": 0}
+        },
+        {
+          "text": "Wonder if something's wrong but give them space until they reply",
+          "traits": {"boundary_violator": 1, "emotional_blackmailer": 1, "manipulative": 1, "victim_player": 1, "drama_creator": 0}
+        },
+        {
+          "text": "Send a follow-up asking if they got your message or if everything's okay",
+          "traits": {"boundary_violator": 2, "emotional_blackmailer": 2, "manipulative": 2, "victim_player": 2, "drama_creator": 1}
+        },
+        {
+          "text": "Send multiple messages expressing hurt that they're ignoring you",
+          "traits": {"boundary_violator": 4, "emotional_blackmailer": 4, "manipulative": 3, "victim_player": 4, "drama_creator": 3}
+        },
+        {
+          "text": "Bombard them with texts, calls, and guilt trips until they respond",
+          "traits": {"boundary_violator": 5, "emotional_blackmailer": 5, "manipulative": 5, "victim_player": 4, "drama_creator": 5}
+        }
+      ]
+    },
+    {
+      "question": "When you're angry with someone, your typical approach is:",
+      "answers": [
+        {
+          "text": "Address the issue directly and calmly when you've cooled down",
+          "traits": {"passive_aggressive": 0, "manipulative": 0, "gaslighter": 0, "drama_creator": 0, "emotional_blackmailer": 0}
+        },
+        {
+          "text": "Try to talk it out, though you might be a bit heated at first",
+          "traits": {"passive_aggressive": 1, "manipulative": 1, "gaslighter": 0, "drama_creator": 1, "emotional_blackmailer": 1}
+        },
+        {
+          "text": "Give them the cold shoulder until they ask what's wrong, then explain",
+          "traits": {"passive_aggressive": 3, "manipulative": 2, "gaslighter": 1, "drama_creator": 2, "emotional_blackmailer": 2}
+        },
+        {
+          "text": "Act fine to their face but make snide comments and undermine them indirectly",
+          "traits": {"passive_aggressive": 4, "manipulative": 4, "gaslighter": 3, "drama_creator": 3, "emotional_blackmailer": 3}
+        },
+        {
+          "text": "Launch a calculated campaign to make them suffer while denying anything's wrong",
+          "traits": {"passive_aggressive": 5, "manipulative": 5, "gaslighter": 5, "drama_creator": 5, "emotional_blackmailer": 5}
+        }
+      ]
+    },
+    {
+      "question": "In your romantic relationships, your partner's friends usually:",
+      "answers": [
+        {
+          "text": "Become your friends too, creating a larger, supportive social circle",
+          "traits": {"isolator": 0, "manipulative": 0, "boundary_violator": 0, "drama_creator": 0, "projection_master": 0}
+        },
+        {
+          "text": "Remain friendly acquaintances who you get along with at social events",
+          "traits": {"isolator": 1, "manipulative": 1, "boundary_violator": 0, "drama_creator": 0, "projection_master": 0}
+        },
+        {
+          "text": "Gradually see less of your partner as your relationship becomes more serious",
+          "traits": {"isolator": 3, "manipulative": 2, "boundary_violator": 2, "drama_creator": 1, "projection_master": 1}
+        },
+        {
+          "text": "Develop concerns about your relationship and try to 'warn' your partner about you",
+          "traits": {"isolator": 4, "manipulative": 3, "boundary_violator": 3, "drama_creator": 4, "projection_master": 3}
+        },
+        {
+          "text": "Disappear entirely from your partner's life because they 'don't understand real love'",
+          "traits": {"isolator": 5, "manipulative": 4, "boundary_violator": 4, "drama_creator": 4, "projection_master": 4}
+        }
+      ]
+    },
+    {
+      "question": "Your favorite way to win an argument is:",
+      "answers": [
+        {
+          "text": "Present logical points and listen to understand the other person's perspective",
+          "traits": {"gaslighter": 0, "manipulative": 0, "emotional_blackmailer": 0, "projection_master": 0, "drama_creator": 0}
+        },
+        {
+          "text": "Use facts and evidence while staying focused on the actual issue",
+          "traits": {"gaslighter": 1, "manipulative": 1, "emotional_blackmailer": 0, "projection_master": 1, "drama_creator": 0}
+        },
+        {
+          "text": "Bring up their past mistakes to show they're not credible on this topic",
+          "traits": {"gaslighter": 2, "manipulative": 3, "emotional_blackmailer": 2, "projection_master": 2, "drama_creator": 2}
+        },
+        {
+          "text": "Make them feel guilty or cruel for disagreeing with you",
+          "traits": {"gaslighter": 3, "manipulative": 4, "emotional_blackmailer": 5, "projection_master": 2, "drama_creator": 3}
+        },
+        {
+          "text": "Confuse them by rewriting history until they question their own memory",
+          "traits": {"gaslighter": 5, "manipulative": 5, "emotional_blackmailer": 3, "projection_master": 4, "drama_creator": 4}
+        }
+      ]
+    },
+    {
+      "question": "People who have left your life typically do so:",
+      "answers": [
+        {
+          "text": "Through natural life changes or remain casual friends even after distance",
+          "traits": {"energy_vampire": 0, "drama_creator": 0, "boundary_violator": 0, "projection_master": 0, "isolator": 0}
+        },
+        {
+          "text": "Gradually drift apart due to different life directions or interests",
+          "traits": {"energy_vampire": 1, "drama_creator": 1, "boundary_violator": 1, "projection_master": 1, "isolator": 0}
+        },
+        {
+          "text": "After saying they need 'space' or that the relationship is 'too intense'",
+          "traits": {"energy_vampire": 3, "drama_creator": 2, "boundary_violator": 2, "projection_master": 2, "isolator": 2}
+        },
+        {
+          "text": "Abruptly, often blocking you and refusing to explain why",
+          "traits": {"energy_vampire": 4, "drama_creator": 4, "boundary_violator": 4, "projection_master": 3, "isolator": 3}
+        },
+        {
+          "text": "In fear, sometimes involving authorities or mutual friends as protection",
+          "traits": {"energy_vampire": 5, "drama_creator": 5, "boundary_violator": 5, "projection_master": 4, "isolator": 5}
+        }
+      ]
+    },
+    {
+      "question": "When someone says 'We need to talk,' your immediate response is:",
+      "answers": [
+        {
+          "text": "Feel nervous but open to hearing what's on their mind",
+          "traits": {"gaslighter": 0, "projection_master": 0, "victim_player": 0, "manipulative": 0, "drama_creator": 0}
+        },
+        {
+          "text": "Ask when and where, while mentally preparing for a difficult conversation",
+          "traits": {"gaslighter": 1, "projection_master": 1, "victim_player": 1, "manipulative": 1, "drama_creator": 0}
+        },
+        {
+          "text": "Immediately start planning your defense and counter-arguments",
+          "traits": {"gaslighter": 2, "projection_master": 2, "victim_player": 2, "manipulative": 2, "drama_creator": 2}
+        },
+        {
+          "text": "Turn it around by asking what YOU did wrong this time, playing the victim",
+          "traits": {"gaslighter": 3, "projection_master": 3, "victim_player": 4, "manipulative": 3, "drama_creator": 3}
+        },
+        {
+          "text": "Go on the offensive immediately, attacking them before they can attack you",
+          "traits": {"gaslighter": 5, "projection_master": 5, "victim_player": 2, "manipulative": 5, "drama_creator": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your social media presence is primarily:",
+      "answers": [
+        {
+          "text": "Authentic sharing of genuine moments and thoughts with friends",
+          "traits": {"narcissistic": 0, "drama_creator": 0, "victim_player": 0, "manipulative": 0, "passive_aggressive": 0}
+        },
+        {
+          "text": "Curated but honest glimpses into your life and interests",
+          "traits": {"narcissistic": 1, "drama_creator": 0, "victim_player": 1, "manipulative": 1, "passive_aggressive": 0}
+        },
+        {
+          "text": "Carefully crafted posts designed to get maximum likes and comments",
+          "traits": {"narcissistic": 3, "drama_creator": 1, "victim_player": 2, "manipulative": 2, "passive_aggressive": 1}
+        },
+        {
+          "text": "Passive-aggressive posts about people who have 'wronged' you",
+          "traits": {"narcissistic": 2, "drama_creator": 4, "victim_player": 4, "manipulative": 4, "passive_aggressive": 5}
+        },
+        {
+          "text": "A weapon for creating drama, seeking sympathy, or making people jealous",
+          "traits": {"narcissistic": 4, "drama_creator": 5, "victim_player": 5, "manipulative": 5, "passive_aggressive": 4}
+        }
+      ]
+    },
+    {
+      "question": "When you give someone a compliment, it's usually:",
+      "answers": [
+        {
+          "text": "Genuine appreciation for something specific you noticed about them",
+          "traits": {"manipulative": 0, "love_bomber": 0, "passive_aggressive": 0, "narcissistic": 0, "gaslighter": 0}
+        },
+        {
+          "text": "Sincere, though you might expect some appreciation in return",
+          "traits": {"manipulative": 1, "love_bomber": 1, "passive_aggressive": 0, "narcissistic": 1, "gaslighter": 0}
+        },
+        {
+          "text": "Strategic - you want something or are building up social capital",
+          "traits": {"manipulative": 3, "love_bomber": 2, "passive_aggressive": 1, "narcissistic": 2, "gaslighter": 1}
+        },
+        {
+          "text": "Backhanded - with a subtle dig or comparison that makes you look better",
+          "traits": {"manipulative": 4, "love_bomber": 1, "passive_aggressive": 4, "narcissistic": 4, "gaslighter": 3}
+        },
+        {
+          "text": "A setup to make them feel guilty later when you need something from them",
+          "traits": {"manipulative": 5, "love_bomber": 4, "passive_aggressive": 3, "narcissistic": 3, "gaslighter": 4}
+        }
+      ]
+    },
+    {
+      "question": "Your role in friend groups is typically:",
+      "answers": [
+        {
+          "text": "The supportive listener who helps resolve conflicts peacefully",
+          "traits": {"drama_creator": 0, "manipulative": 0, "energy_vampire": 0, "narcissistic": 0, "isolator": 0}
+        },
+        {
+          "text": "The reliable friend who's there for good times and bad",
+          "traits": {"drama_creator": 0, "manipulative": 1, "energy_vampire": 1, "narcissistic": 1, "isolator": 0}
+        },
+        {
+          "text": "The one who knows everyone's business and keeps people updated on drama",
+          "traits": {"drama_creator": 3, "manipulative": 2, "energy_vampire": 2, "narcissistic": 2, "isolator": 1}
+        },
+        {
+          "text": "The center of attention who somehow makes every gathering about them",
+          "traits": {"drama_creator": 2, "manipulative": 3, "energy_vampire": 4, "narcissistic": 5, "isolator": 2}
+        },
+        {
+          "text": "The puppet master who subtly controls group dynamics and creates alliances",
+          "traits": {"drama_creator": 5, "manipulative": 5, "energy_vampire": 3, "narcissistic": 4, "isolator": 4}
+        }
+      ]
+    },
+    {
+      "question": "When you're clearly wrong about something, you:",
+      "answers": [
+        {
+          "text": "Acknowledge your mistake and thank them for the correction",
+          "traits": {"gaslighter": 0, "projection_master": 0, "narcissistic": 0, "victim_player": 0, "manipulative": 0}
+        },
+        {
+          "text": "Admit you were wrong, though it might sting your pride a bit",
+          "traits": {"gaslighter": 1, "projection_master": 1, "narcissistic": 2, "victim_player": 1, "manipulative": 1}
+        },
+        {
+          "text": "Deflect by pointing out times when they were wrong about things",
+          "traits": {"gaslighter": 2, "projection_master": 4, "narcissistic": 3, "victim_player": 2, "manipulative": 3}
+        },
+        {
+          "text": "Argue that you were technically right from a certain point of view",
+          "traits": {"gaslighter": 4, "projection_master": 3, "narcissistic": 4, "victim_player": 1, "manipulative": 4}
+        },
+        {
+          "text": "Insist you never said that and make them question their memory",
+          "traits": {"gaslighter": 5, "projection_master": 2, "narcissistic": 5, "victim_player": 3, "manipulative": 5}
+        }
+      ]
+    },
+    {
+      "question": "If your toxicity was a chemical substance, it would be:",
+      "answers": [
+        {
+          "text": "Pure, clean water - refreshing and life-giving to those around you",
+          "traits": {"energy_vampire": 0, "manipulative": 0, "drama_creator": 0, "boundary_violator": 0, "gaslighter": 0}
+        },
+        {
+          "text": "Vitamin supplement - mostly beneficial with occasional side effects",
+          "traits": {"energy_vampire": 1, "manipulative": 1, "drama_creator": 1, "boundary_violator": 1, "gaslighter": 1}
+        },
+        {
+          "text": "Strong coffee - intense and addictive, but exhausting in large doses",
+          "traits": {"energy_vampire": 3, "manipulative": 2, "drama_creator": 3, "boundary_violator": 2, "gaslighter": 2}
+        },
+        {
+          "text": "Bleach - corrosive and damaging, but people don't realize until it's too late",
+          "traits": {"energy_vampire": 4, "manipulative": 4, "drama_creator": 4, "boundary_violator": 4, "gaslighter": 4}
+        },
+        {
+          "text": "Nuclear waste - contaminating everything you touch for generations",
+          "traits": {"energy_vampire": 5, "manipulative": 5, "drama_creator": 5, "boundary_violator": 5, "gaslighter": 5}
+        }
+      ]
+    },
+    {
+      "question": "People who know you best would say your biggest relationship red flag is:",
+      "answers": [
+        {
+          "text": "Maybe being too trusting or giving too much of yourself too quickly",
+          "traits": {"boundary_violator": 0, "manipulative": 0, "love_bomber": 1, "emotional_blackmailer": 0, "isolator": 0}
+        },
+        {
+          "text": "Getting too intense too fast or needing constant reassurance",
+          "traits": {"boundary_violator": 2, "manipulative": 1, "love_bomber": 3, "emotional_blackmailer": 2, "isolator": 1}
+        },
+        {
+          "text": "Being possessive and wanting to know where your partner is at all times",
+          "traits": {"boundary_violator": 3, "manipulative": 3, "love_bomber": 2, "emotional_blackmailer": 3, "isolator": 3}
+        },
+        {
+          "text": "Making your partner choose between you and their friends/family",
+          "traits": {"boundary_violator": 4, "manipulative": 4, "love_bomber": 3, "emotional_blackmailer": 4, "isolator": 5}
+        },
+        {
+          "text": "Completely taking over their life until they lose themselves entirely",
+          "traits": {"boundary_violator": 5, "manipulative": 5, "love_bomber": 5, "emotional_blackmailer": 5, "isolator": 5}
+        }
+      ]
+    },
+    {
+      "question": "When someone achieves something you've been working toward, your honest reaction is:",
+      "answers": [
+        {
+          "text": "Inspiration and motivation to work harder toward your own goals",
+          "traits": {"narcissistic": 0, "manipulative": 0, "projection_master": 0, "passive_aggressive": 0, "drama_creator": 0}
+        },
+        {
+          "text": "Genuine happiness for them mixed with some personal disappointment",
+          "traits": {"narcissistic": 1, "manipulative": 1, "projection_master": 1, "passive_aggressive": 1, "drama_creator": 0}
+        },
+        {
+          "text": "Resentment that they got 'your' opportunity or recognition",
+          "traits": {"narcissistic": 3, "manipulative": 2, "projection_master": 2, "passive_aggressive": 3, "drama_creator": 2}
+        },
+        {
+          "text": "Immediate need to diminish their achievement or find flaws in their success",
+          "traits": {"narcissistic": 4, "manipulative": 4, "projection_master": 4, "passive_aggressive": 4, "drama_creator": 3}
+        },
+        {
+          "text": "Rage that someone inferior dared to succeed where you haven't yet",
+          "traits": {"narcissistic": 5, "manipulative": 4, "projection_master": 5, "passive_aggressive": 5, "drama_creator": 5}
+        }
+      ]
+    },
+    {
+      "question": "The real reason people eventually distance themselves from you is:",
+      "answers": [
+        {
+          "text": "Natural life changes - we grow in different directions but part amicably",
+          "traits": {"energy_vampire": 0, "drama_creator": 0, "boundary_violator": 0, "manipulative": 0, "projection_master": 0}
+        },
+        {
+          "text": "Sometimes I can be demanding or need more emotional support than I give back",
+          "traits": {"energy_vampire": 3, "drama_creator": 1, "boundary_violator": 2, "manipulative": 2, "projection_master": 1}
+        },
+        {
+          "text": "I require a lot of attention and energy, which can be exhausting for others",
+          "traits": {"energy_vampire": 4, "drama_creator": 3, "boundary_violator": 3, "manipulative": 3, "projection_master": 2}
+        },
+        {
+          "text": "I create chaos in their lives and they can't handle real, intense relationships",
+          "traits": {"energy_vampire": 5, "drama_creator": 5, "boundary_violator": 4, "manipulative": 4, "projection_master": 4}
+        },
+        {
+          "text": "I leave them emotionally, mentally, and sometimes financially destroyed",
+          "traits": {"energy_vampire": 5, "drama_creator": 5, "boundary_violator": 5, "manipulative": 5, "projection_master": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your conscience, when you've hurt someone, feels like:",
+      "answers": [
+        {
+          "text": "A heavy weight that motivates you to make genuine amends immediately",
+          "traits": {"projection_master": 0, "gaslighter": 0, "narcissistic": 0, "victim_player": 0, "emotional_blackmailer": 0}
+        },
+        {
+          "text": "Uncomfortable guilt that you try to resolve by apologizing and changing behavior",
+          "traits": {"projection_master": 1, "gaslighter": 1, "narcissistic": 1, "victim_player": 1, "emotional_blackmailer": 1}
+        },
+        {
+          "text": "Frustration that they're making you feel bad when you didn't mean to hurt them",
+          "traits": {"projection_master": 3, "gaslighter": 2, "narcissistic": 3, "victim_player": 3, "emotional_blackmailer": 2}
+        },
+        {
+          "text": "Annoyance that they're being too sensitive about something so minor",
+          "traits": {"projection_master": 4, "gaslighter": 3, "narcissistic": 4, "victim_player": 2, "emotional_blackmailer": 3}
+        },
+        {
+          "text": "Nothing - they probably deserved it or brought it on themselves",
+          "traits": {"projection_master": 5, "gaslighter": 5, "narcissistic": 5, "victim_player": 4, "emotional_blackmailer": 4}
+        }
+      ]
+    },
+    {
+      "question": "Looking back honestly, your most toxic relationship pattern is:",
+      "answers": [
+        {
+          "text": "Being too trusting and giving partners the benefit of doubt even when they don't deserve it",
+          "traits": {"manipulative": 0, "isolator": 0, "love_bomber": 0, "boundary_violator": 0, "emotional_blackmailer": 0}
+        },
+        {
+          "text": "Moving too fast emotionally and overwhelming partners with intensity early on",
+          "traits": {"manipulative": 2, "isolator": 1, "love_bomber": 4, "boundary_violator": 2, "emotional_blackmailer": 2}
+        },
+        {
+          "text": "Gradually cutting my partner off from friends and family who 'don't understand us'",
+          "traits": {"manipulative": 4, "isolator": 5, "love_bomber": 3, "boundary_violator": 4, "emotional_blackmailer": 3}
+        },
+        {
+          "text": "Using emotional manipulation and guilt to control their behavior and decisions",
+          "traits": {"manipulative": 5, "isolator": 3, "love_bomber": 2, "boundary_violator": 4, "emotional_blackmailer": 5}
+        },
+        {
+          "text": "Systematically destroying their self-esteem until they believe they need me to survive",
+          "traits": {"manipulative": 5, "isolator": 5, "love_bomber": 4, "boundary_violator": 5, "emotional_blackmailer": 5}
+        }
+      ]
+    }
+  ],
+  "results": {
+    "manipulative": {
+      "title": "The Puppet Master",
+      "description": "You've turned emotional manipulation into an art form. You know exactly which strings to pull to get what you want, and you're skilled at making others feel like they chose to give it to you.",
+      "extended": "Your manipulative tendencies run deep, woven into the fabric of how you navigate relationships and social situations. You've developed an intuitive understanding of human psychology that you use to your advantage, often without fully realizing the extent of your influence. You're skilled at reading people's insecurities, desires, and pressure points, then crafting your approach to exploit these vulnerabilities.\n\nYou've mastered the art of making people feel special and chosen while simultaneously creating dependency. Your manipulation often comes disguised as care, concern, or love, making it particularly insidious. You might shower someone with attention and affection to establish emotional leverage, then withdraw it strategically when you need compliance. This creates a psychological addiction in others where they constantly seek to return to your good graces.\n\nYour manipulation extends beyond romantic relationships into friendships, family dynamics, and professional settings. You're the person who can make others feel guilty for setting boundaries, who can reframe any situation to make yourself the victim, and who can convince people that your needs should always take priority. You've become so skilled at this that you might even manipulate yourself, believing your own narratives about situations.\n\nThe most dangerous aspect of your manipulative nature is how normalized it's become in your thinking. You likely don't see it as manipulation but as 'getting your needs met' or 'showing people what they really want.' This self-deception allows you to maintain a positive self-image while engaging in fundamentally harmful behaviors that leave others emotionally depleted and questioning their own reality."
+    },
+    "narcissistic": {
+      "title": "The Center of the Universe",
+      "description": "Your world revolves around you, and you expect everyone else's to as well. You have an insatiable need for admiration and validation, viewing other people primarily as sources of supply for your ego rather than complete humans with their own needs and feelings.",
+      "extended": "Your narcissistic patterns stem from a deep-seated belief that you are fundamentally special and deserving of exceptional treatment. This isn't confidence—it's a fragile ego structure that requires constant external validation to maintain itself. You've learned to view relationships through the lens of what others can provide for you rather than what you can build together.\n\nYou have an uncanny ability to make every conversation, every situation, every gathering somehow about you. When others share their achievements, you quickly redirect to your own accomplishments. When they share their problems, you either minimize them by comparison to your own struggles or offer advice that positions you as the wise savior. You genuinely struggle to understand why this bothers people.\n\nYour empathy is largely cognitive rather than emotional—you can understand intellectually that others have feelings, but you struggle to genuinely care about those feelings when they conflict with your needs. You see other people's emotions as obstacles to navigate rather than experiences to honor. This creates relationships where others feel heard but not truly seen, understood but not valued.\n\nThe tragedy of narcissistic patterns is that they create the very rejection they fear. Your desperate need for admiration pushes people away, your inability to truly connect leaves you fundamentally lonely, and your expectation of special treatment ensures that you're perpetually disappointed. You're caught in a cycle where your attempts to feel important make you increasingly isolated from the genuine connection you actually crave."
+    },
+    "gaslighter": {
+      "title": "The Reality Warper",
+      "description": "You have a supernatural ability to make others question their own perceptions, memories, and sanity. You don't just lie—you create alternate realities where you're always the victim, always right, and others are always confused about what really happened.",
+      "extended": "Your gaslighting abilities represent one of the most insidious forms of psychological manipulation. You've mastered the art of making others doubt their own reality, creating a fog of confusion where truth becomes negotiable and your version of events always somehow wins. This isn't just about lying—it's about systematically undermining another person's trust in their own perceptions.\n\nYou employ a sophisticated arsenal of reality-distortion techniques: denying conversations that definitely happened, claiming you said things you never said, minimizing your actions while magnifying others' reactions, and presenting your emotional reality as objective fact. You're particularly skilled at the 'who are you going to believe, me or your lying eyes?' approach to conflict resolution.\n\nWhat makes your gaslighting so effective is your ability to sprinkle in just enough truth to make your distortions believable. You might acknowledge a small part of an incident while reframing the entire context, or admit to being 'imperfect' while positioning your victim as unreasonable for expecting basic respect. You've learned to use others' desire to be understanding against them.\n\nThe most chilling aspect of your gaslighting is how it destroys others' ability to trust themselves. Your victims begin to second-guess their own memories, emotions, and perceptions. They become dependent on you to tell them what's real, creating a psychological prison where escape feels impossible because they can no longer trust their own judgment about whether escape is even necessary."
+    },
+    "energy_vampire": {
+      "title": "The Emotional Black Hole",
+      "description": "You drain others' emotional resources like a supernatural creature feeding on life force. People leave interactions with you feeling mysteriously depleted, confused, and empty, though they can't always pinpoint why.",
+      "extended": "Your energy vampire nature operates through a complex system of emotional extraction that leaves others feeling fundamentally depleted after spending time with you. You've unconsciously developed strategies that pull energy from others while contributing very little in return, creating relationships that are fundamentally parasitic rather than mutually nourishing.\n\nYou're skilled at creating emotional crises that require others' immediate attention and care. Your problems always seem urgent, your emotions always intense, your needs always immediate. You have an uncanny ability to sense when others are feeling good and somehow redirect the focus to your own struggles or needs. You don't necessarily do this consciously, but the pattern is consistent.\n\nYour conversations tend to be monologues disguised as dialogues. You ask questions not out of genuine curiosity about others but as entry points to discuss yourself. When others share their experiences, you quickly relate it back to your own story, often in a way that positions your experience as more dramatic, more important, or more deserving of attention.\n\nThe most exhausting aspect of your energy vampire nature is how you make others feel guilty for having boundaries. You interpret others' need for space as rejection, their self-care as selfishness, their happiness as abandonment of your struggles. This creates relationships where others feel responsible for managing your emotions while receiving little emotional support in return, leading to the inevitable burnout and withdrawal that you then interpret as further evidence of your victimhood."
+    },
+    "boundary_violator": {
+      "title": "The Line Crosser",
+      "description": "You treat other people's boundaries like suggestions rather than requirements. You have an extraordinary ability to rationalize why the rules don't apply to you and why your needs should override others' clearly stated limits.",
+      "extended": "Your boundary violation patterns stem from a fundamental belief that your needs, desires, and comfort should take precedence over others' explicitly stated limits. You've developed an elaborate internal justification system that reframes boundary violations as acts of care, persistence, or authentic expression. In your mind, rules and limits are for people who don't truly understand relationships, love, or what people really need.\n\nYou're particularly skilled at identifying and exploiting the gray areas around boundaries. If someone says they need space, you might interpret that as 'not right now' rather than 'respect my request for distance.' If they ask you not to contact them after a certain time, you'll find ways to rationalize why your particular message is an exception. You've mastered the art of pushing just far enough to test boundaries without crossing lines so dramatically that you can't deny your intentions.\n\nYour boundary violations often come wrapped in concern, love, or urgency. You show up uninvited because you 'care too much to stay away.' You continue pursuing someone who's asked for space because you 'know they don't really mean it.' You read their private communications because you're 'worried about them.' This allows you to maintain the narrative that you're acting out of love rather than control.\n\nThe most damaging aspect of your boundary violations is how they erode others' sense of agency and self-trust. When people consistently fail to enforce their own limits with you, they begin to doubt their right to have boundaries at all. They start to internalize your message that their limits are unreasonable, selfish, or indicative of their inability to handle 'real' relationships. This creates a psychological environment where they become increasingly vulnerable to further violations, not just from you but from others who recognize their compromised sense of self-protection."
+    },
+    "passive_aggressive": {
+      "title": "The Silent Assassin",
+      "description": "You've weaponized politeness and turned indirect hostility into a masterclass in emotional warfare. You can destroy someone's peace of mind while maintaining plausible deniability about your intentions.",
+      "extended": "Your passive-aggressive nature represents a sophisticated form of emotional warfare disguised as civility. You've learned to express anger, resentment, and hostility through subtle acts of sabotage rather than direct confrontation. This allows you to maintain the moral high ground while systematically undermining others' happiness and success.\n\nYou're a master of the strategic 'forget'—selectively failing to remember commitments, promises, or requests when it serves your emotional agenda. You might consistently arrive late to events hosted by people you resent, 'accidentally' exclude someone from group communications, or develop mysterious illnesses that prevent you from fulfilling obligations you never wanted to honor in the first place.\n\nYour arsenal includes backhanded compliments that sting more than direct insults, deliberate misunderstandings that force others to over-explain themselves, and a talent for bringing up sensitive topics at precisely the wrong moments. You've perfected the art of making others feel like they're overreacting to your behavior while systematically pushing them toward emotional responses that you can then point to as evidence of their instability.\n\nThe most insidious aspect of your passive-aggressive patterns is how they gaslight others into questioning their own perceptions. Because your hostility is never direct, victims often feel crazy for sensing your animosity. They know something is wrong but can't point to specific actions that justify their discomfort. This creates a psychological environment where they're constantly walking on eggshells, trying to appease someone who will never acknowledge that there's even a problem to solve."
+    },
+    "drama_creator": {
+      "title": "The Chaos Architect",
+      "description": "You're addicted to turbulence and have an almost supernatural ability to create conflict from nothing. Peaceful environments make you uncomfortable, so you unconsciously engineer drama to feel at home in the chaos you understand.",
+      "extended": "Your drama creation patterns stem from a deep psychological comfort with chaos and conflict. You've learned to equate intensity with intimacy, turbulence with passion, and crisis with connection. Peaceful, stable relationships feel boring or threatening to you because they don't provide the emotional intensity you've come to associate with genuine engagement.\n\nYou're skilled at identifying and exploiting existing tensions between people, then amplifying them into full-scale conflicts. You might share information between parties that you know will cause problems, ask innocent-seeming questions that plant seeds of doubt, or express concerns about someone's behavior that are really designed to create suspicion and discord. You often position yourself as the helpful mediator in conflicts you've secretly orchestrated.\n\nYour drama creation serves multiple psychological functions: it keeps you at the center of attention, provides emotional stimulation when life feels mundane, and creates opportunities for you to play various roles (victim, rescuer, wise counselor) depending on how the situation unfolds. You've become addicted to the adrenaline rush of crisis and the sense of importance that comes from being needed during emotional emergencies.\n\nThe most destructive aspect of your drama creation is how it prevents genuine intimacy and stability from developing in your relationships. People learn they can't trust you with sensitive information, can't rely on you to maintain peace, and can't build anything lasting because you'll eventually undermine it. Your need for emotional intensity becomes a barrier to the very connection you're unconsciously seeking, leaving you surrounded by chaos but fundamentally alone."
+    },
+    "victim_player": {
+      "title": "The Professional Victim",
+      "description": "You've turned victimhood into an identity and a strategy. Every situation becomes about how you've been wronged, misunderstood, or unfairly treated, allowing you to avoid responsibility while extracting sympathy and special treatment from others.",
+      "extended": "Your victim playing represents a sophisticated psychological defense system that protects you from accountability while ensuring a steady supply of attention and special treatment. You've learned to frame every conflict, disappointment, or challenge as evidence of how the world conspires against you, rather than examining your own role in creating these patterns.\n\nYou're particularly skilled at rewriting history to cast yourself as the innocent party in situations where you bear significant responsibility. When relationships end, it's because the other person couldn't handle your authenticity. When you're fired from jobs, it's because you were too honest or because others were jealous of your abilities. When friends distance themselves, it's because they can't appreciate real friendship or because they're shallow and disloyal.\n\nYour victim narratives serve multiple purposes: they protect your self-image from having to acknowledge flaws or mistakes, they generate sympathy and attention from others, and they create a justification system for future harmful behaviors. If the world is always attacking you, then your defensive or retaliatory actions are always justified as self-protection rather than aggression.\n\nThe most tragic aspect of your victim playing is how it prevents genuine growth and authentic relationships. By refusing to acknowledge your role in creating problems, you ensure that the same patterns will repeat indefinitely. People eventually become exhausted by your constant need to be rescued and validated, but rather than examining why this happens repeatedly, you add their withdrawal to your growing list of evidence that everyone eventually betrays you."
+    },
+    "isolator": {
+      "title": "The Web Weaver",
+      "description": "You systematically separate your partners from their support systems, creating an isolated environment where you become their primary source of validation, guidance, and social connection. You're a master at making imprisonment feel like love.",
+      "extended": "Your isolation tactics represent one of the most dangerous forms of psychological control because they operate gradually and appear to stem from love and protectiveness. You've learned to identify and systematically eliminate your partner's external sources of support, validation, and perspective, creating a psychological environment where they become entirely dependent on you for their sense of reality and self-worth.\n\nYou begin subtly, expressing concern about friends who 'don't seem to really care' about your partner or family members who 'don't understand' your relationship. You create situations where your partner must choose between you and others, then frame their choice as evidence of their love and commitment. You gradually increase the cost of maintaining outside relationships until your partner finds it easier to let them atrophy than to deal with the constant conflict.\n\nYour isolation tactics extend beyond just eliminating people—you also work to separate your partner from activities, interests, and environments that provide them with independent sources of confidence and joy. You might express hurt that they want to pursue hobbies without you, create emergencies that prevent them from attending social events, or gradually convince them that their interests are shallow or unworthy of their time.\n\nThe most insidious aspect of your isolation tactics is how they create the dependency you claim to fear. By systematically removing your partner's other sources of support and validation, you ensure that they become entirely reliant on you for their emotional needs. This creates a psychological prison where leaving becomes almost impossible because they no longer trust their own judgment or believe they have anywhere else to go."
+    },
+    "projection_master": {
+      "title": "The Mirror Magician",
+      "description": "You've perfected the art of making your problems everyone else's fault. Whatever you're guilty of, you'll find a way to accuse others of first, deflecting attention from your behavior while putting them on the defensive.",
+      "extended": "Your projection patterns represent a sophisticated psychological defense mechanism that protects your self-image by attributing your own negative qualities, behaviors, and motivations to others. You've developed an unconscious ability to recognize your own flaws when they appear in other people while remaining completely blind to them in yourself.\n\nYou consistently accuse others of the very behaviors you engage in most frequently. If you're manipulative, you're constantly warning others about people who try to control them. If you're dishonest, you're always catching others in lies. If you're selfish, you're perpetually frustrated by other people's self-centeredness. This allows you to position yourself as the wise, observant person who can see through others' deceptions while maintaining complete denial about your own patterns.\n\nYour projection serves multiple psychological functions: it deflects attention from your own behaviors when conflicts arise, it makes others defensive and less likely to examine your actions critically, and it reinforces your internal narrative that you're the victim of others' bad behavior rather than the creator of relationship problems. You've learned to always be one step ahead, accusing others of what you're about to be accused of.\n\nThe most damaging aspect of your projection is how it prevents authentic self-reflection and growth. By constantly attributing your negative qualities to others, you never have to face the uncomfortable work of examining and changing your own patterns. This ensures that your relationships will continue to fail in the same ways while you accumulate more evidence that everyone else is the problem."
+    },
+    "love_bomber": {
+      "title": "The Emotional Tsunami",
+      "description": "You weaponize affection, overwhelming targets with excessive attention and declarations of love before they can evaluate whether you're actually a good partner. You mistake intensity for intimacy and use overwhelming gestures to create artificial dependency.",
+      "extended": "Your love bombing patterns represent a sophisticated form of manipulation disguised as romantic passion. You've learned to use excessive attention, gifts, affection, and declarations of commitment to overwhelm potential partners' critical thinking and create an artificial sense of specialness and destiny. This allows you to fast-track intimacy and commitment before the other person can properly evaluate your compatibility or character.\n\nYou shower new partners with constant communication, elaborate gestures, expensive gifts, and promises of a perfect future together. You might profess love within days or weeks of meeting someone, make grand plans for your life together, and express that you've never felt this way about anyone before. You create an intoxicating environment where your partner feels like they're living in a romantic fairy tale.\n\nYour love bombing serves several strategic purposes: it creates intense emotional highs that become addictive, it establishes a standard of treatment that makes normal relationship pacing feel cold by comparison, and it creates a sense of debt and obligation in your partner who feels they should reciprocate your overwhelming investment. You use the contrast between your intense affection and its withdrawal as a powerful tool for control.\n\nThe most dangerous aspect of your love bombing is how it creates trauma bonds rather than genuine connections. Your partners become addicted to the emotional highs you provide, making them willing to tolerate increasingly problematic behavior in hopes of returning to that initial euphoric phase. They mistake the intensity of your initial attention for evidence of your capacity for love, not recognizing that sustainable affection looks completely different from the overwhelming tsunami you provided at the beginning."
+    },
+    "emotional_blackmailer": {
+      "title": "The Guilt Assassin",
+      "description": "You've weaponized emotions to control others, using guilt, fear, and obligation as tools to get what you want. You're a master at making others feel responsible for your emotions while avoiding responsibility for theirs.",
+      "extended": "Your emotional blackmail patterns represent a systematic approach to using others' caring and empathy against them. You've learned to leverage guilt, fear, and obligation as powerful tools for controlling behavior, making others feel responsible for your emotional state while positioning yourself as the victim of their choices. You've turned emotional manipulation into a refined art form.\n\nYou excel at creating scenarios where others feel they must choose between their own needs and your emotional well-being. You might threaten self-harm if someone leaves you, express devastation when others set boundaries, or make others feel guilty for having commitments that don't include you. You've learned to present your emotional reactions as involuntary responses to others' behavior rather than choices you're making to influence them.\n\nYour emotional blackmail often involves making others feel responsible for outcomes they have no real control over. You might suggest that your depression will worsen if someone doesn't spend time with you, that your anxiety is caused by their failure to communicate enough, or that your success depends entirely on their support and validation. This creates a psychological environment where others feel they can't make choices without considering the impact on your emotional state.\n\nThe most toxic aspect of your emotional blackmail is how it destroys others' ability to trust their own feelings and needs. People learn to suppress their authentic desires because they've been conditioned to prioritize your emotional reactions above their own well-being. They become hypervigilant about your moods and increasingly disconnected from their own internal guidance system, creating relationships where their primary role becomes managing your emotions rather than building genuine connection."
+    }
+  }
+}

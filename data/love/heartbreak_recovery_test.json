@@ -1,0 +1,708 @@
+{
+  "testId": "heartbreak-recovery",
+  "title": "Heartbreak Recovery Timeline Test",
+  "description": "Find out your healing timeline and recovery style through deep emotional analysis",
+  "traits": {
+    "emotional_processing": "Deep Feeler - Heals through emotional courage and authentic processing",
+    "analytical_healing": "Wise Learner - Heals by understanding patterns and extracting lessons",
+    "social_support": "Community Healer - Heals through connections and shared experiences",
+    "protective_boundaries": "Guardian Spirit - Heals by creating safe spaces and healthy limits",
+    "productive_coping": "Action Healer - Heals through purposeful activity and achievement",
+    "introspective_growth": "Inner Explorer - Heals through solitude and self-discovery",
+    "optimistic_outlook": "Hope Keeper - Heals through faith in better days ahead",
+    "mature_acceptance": "Peaceful Warrior - Heals through grace and wisdom",
+    "transformational_healing": "Phoenix Rising - Heals by completely reinventing themselves",
+    "spiritual_recovery": "Soul Seeker - Heals through meaning-making and transcendence",
+    "avoidance_coping": "Escape Artist - Heals by staying busy and avoiding painful feelings",
+    "nostalgic_holding": "Memory Keeper - Heals by honoring and preserving what was beautiful"
+  },
+  "questions": [
+    {
+      "question": "When you first realize a relationship is truly over, what's your immediate emotional response?",
+      "answers": [
+        {
+          "text": "Complete shock and denial - this can't be happening to me",
+          "traits": {"emotional_processing": 4, "nostalgic_holding": 3, "avoidance_coping": 2, "protective_boundaries": 1, "analytical_healing": 1}
+        },
+        {
+          "text": "Numbness and disconnection from my feelings",
+          "traits": {"protective_boundaries": 5, "avoidance_coping": 3, "analytical_healing": 2, "introspective_growth": 1, "emotional_processing": 1}
+        },
+        {
+          "text": "Overwhelming sadness that feels like it will drown me",
+          "traits": {"emotional_processing": 5, "social_support": 3, "spiritual_recovery": 2, "nostalgic_holding": 1, "optimistic_outlook": 1}
+        },
+        {
+          "text": "Immediate analysis of what went wrong and why",
+          "traits": {"analytical_healing": 5, "introspective_growth": 3, "transformational_healing": 2, "mature_acceptance": 1, "productive_coping": 1}
+        },
+        {
+          "text": "Relief mixed with sadness - part of me knew it was coming",
+          "traits": {"mature_acceptance": 5, "analytical_healing": 3, "optimistic_outlook": 2, "transformational_healing": 1, "emotional_processing": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle the physical space you shared with your ex?",
+      "answers": [
+        {
+          "text": "I immediately remove or change everything that reminds me of them",
+          "traits": {"transformational_healing": 5, "protective_boundaries": 3, "productive_coping": 2, "avoidance_coping": 1, "analytical_healing": 1}
+        },
+        {
+          "text": "I keep everything exactly the same and find comfort in the memories",
+          "traits": {"nostalgic_holding": 5, "emotional_processing": 3, "spiritual_recovery": 2, "avoidance_coping": 1, "social_support": 1}
+        },
+        {
+          "text": "I gradually make small changes when I feel ready for each one",
+          "traits": {"introspective_growth": 5, "mature_acceptance": 3, "analytical_healing": 2, "emotional_processing": 1, "optimistic_outlook": 1}
+        },
+        {
+          "text": "I analyze what each item means to me before deciding what to do",
+          "traits": {"analytical_healing": 5, "introspective_growth": 3, "mature_acceptance": 2, "transformational_healing": 1, "protective_boundaries": 1}
+        },
+        {
+          "text": "I focus on making the space reflect who I'm becoming, not who I was",
+          "traits": {"transformational_healing": 5, "optimistic_outlook": 3, "productive_coping": 2, "introspective_growth": 1, "spiritual_recovery": 1}
+        }
+      ]
+    },
+    {
+      "question": "What's your relationship with crying during heartbreak?",
+      "answers": [
+        {
+          "text": "I cry deeply and often - it feels necessary and healing",
+          "traits": {"emotional_processing": 5, "social_support": 3, "spiritual_recovery": 2, "nostalgic_holding": 1, "mature_acceptance": 1}
+        },
+        {
+          "text": "I try not to cry because it makes me feel weak and out of control",
+          "traits": {"protective_boundaries": 5, "avoidance_coping": 3, "productive_coping": 2, "analytical_healing": 1, "transformational_healing": 1}
+        },
+        {
+          "text": "I cry in private but maintain composure in public",
+          "traits": {"introspective_growth": 5, "protective_boundaries": 3, "mature_acceptance": 2, "analytical_healing": 1, "emotional_processing": 1}
+        },
+        {
+          "text": "I schedule my crying time and analyze what triggers it",
+          "traits": {"analytical_healing": 5, "productive_coping": 3, "introspective_growth": 2, "protective_boundaries": 1, "transformational_healing": 1}
+        },
+        {
+          "text": "I cry with trusted friends who hold space for my pain",
+          "traits": {"social_support": 5, "emotional_processing": 3, "spiritual_recovery": 2, "optimistic_outlook": 1, "mature_acceptance": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle seeing your ex with someone new?",
+      "answers": [
+        {
+          "text": "It devastates me and I have to look away or leave immediately",
+          "traits": {"emotional_processing": 5, "protective_boundaries": 3, "avoidance_coping": 2, "nostalgic_holding": 1, "social_support": 1}
+        },
+        {
+          "text": "I study them obsessively, comparing myself and analyzing their choice",
+          "traits": {"analytical_healing": 4, "avoidance_coping": 4, "protective_boundaries": 2, "emotional_processing": 1, "introspective_growth": 1}
+        },
+        {
+          "text": "I feel a complex mix of pain, curiosity, and genuine happiness for them",
+          "traits": {"mature_acceptance": 5, "emotional_processing": 3, "optimistic_outlook": 2, "spiritual_recovery": 1, "social_support": 1}
+        },
+        {
+          "text": "I immediately post something to show how amazing my life is",
+          "traits": {"avoidance_coping": 5, "productive_coping": 3, "transformational_healing": 2, "protective_boundaries": 1, "analytical_healing": 1}
+        },
+        {
+          "text": "I use it as motivation to focus on my own growth and happiness",
+          "traits": {"transformational_healing": 5, "optimistic_outlook": 3, "productive_coping": 2, "introspective_growth": 1, "mature_acceptance": 1}
+        }
+      ]
+    },
+    {
+      "question": "What's your honest approach to social media after a breakup?",
+      "answers": [
+        {
+          "text": "I block them everywhere immediately to protect my peace",
+          "traits": {"protective_boundaries": 5, "mature_acceptance": 3, "transformational_healing": 2, "introspective_growth": 1, "analytical_healing": 1}
+        },
+        {
+          "text": "I check their profiles obsessively even though it hurts me",
+          "traits": {"avoidance_coping": 5, "nostalgic_holding": 3, "emotional_processing": 2, "analytical_healing": 1, "protective_boundaries": 1}
+        },
+        {
+          "text": "I post constantly to show how amazing my life is without them",
+          "traits": {"avoidance_coping": 4, "productive_coping": 4, "transformational_healing": 2, "optimistic_outlook": 1, "social_support": 1}
+        },
+        {
+          "text": "I take a complete social media break to focus on real life",
+          "traits": {"introspective_growth": 5, "protective_boundaries": 3, "spiritual_recovery": 2, "mature_acceptance": 1, "analytical_healing": 1}
+        },
+        {
+          "text": "I continue posting authentically about my actual life and feelings",
+          "traits": {"emotional_processing": 5, "social_support": 3, "optimistic_outlook": 2, "mature_acceptance": 1, "spiritual_recovery": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you deal with the loneliness that comes after losing your person?",
+      "answers": [
+        {
+          "text": "I sit with it fully and let it teach me about myself and my needs",
+          "traits": {"introspective_growth": 5, "spiritual_recovery": 3, "emotional_processing": 2, "mature_acceptance": 1, "analytical_healing": 1}
+        },
+        {
+          "text": "I immediately start dating again to fill the void",
+          "traits": {"avoidance_coping": 5, "social_support": 3, "optimistic_outlook": 2, "transformational_healing": 1, "productive_coping": 1}
+        },
+        {
+          "text": "I throw myself into work, hobbies, or fitness to stay busy",
+          "traits": {"productive_coping": 5, "avoidance_coping": 3, "transformational_healing": 2, "introspective_growth": 1, "optimistic_outlook": 1}
+        },
+        {
+          "text": "I reconnect with friends and family I may have neglected",
+          "traits": {"social_support": 5, "optimistic_outlook": 3, "mature_acceptance": 2, "emotional_processing": 1, "transformational_healing": 1}
+        },
+        {
+          "text": "I analyze why I feel so lonely and what it reveals about my attachment patterns",
+          "traits": {"analytical_healing": 5, "introspective_growth": 3, "mature_acceptance": 2, "protective_boundaries": 1, "spiritual_recovery": 1}
+        }
+      ]
+    },
+    {
+      "question": "What's your relationship with anger during the healing process?",
+      "answers": [
+        {
+          "text": "I feel guilty about being angry and try to suppress it",
+          "traits": {"avoidance_coping": 5, "nostalgic_holding": 3, "social_support": 2, "emotional_processing": 1, "protective_boundaries": 1}
+        },
+        {
+          "text": "I embrace my anger as a necessary part of healing and self-protection",
+          "traits": {"emotional_processing": 5, "protective_boundaries": 3, "mature_acceptance": 2, "transformational_healing": 1, "spiritual_recovery": 1}
+        },
+        {
+          "text": "I channel my anger into positive action and personal growth",
+          "traits": {"transformational_healing": 5, "productive_coping": 3, "optimistic_outlook": 2, "analytical_healing": 1, "introspective_growth": 1}
+        },
+        {
+          "text": "I analyze my anger to understand what boundaries were crossed",
+          "traits": {"analytical_healing": 5, "protective_boundaries": 3, "introspective_growth": 2, "mature_acceptance": 1, "emotional_processing": 1}
+        },
+        {
+          "text": "I share my anger with trusted friends who validate my feelings",
+          "traits": {"social_support": 5, "emotional_processing": 3, "optimistic_outlook": 2, "mature_acceptance": 1, "spiritual_recovery": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle mutual friends and shared social circles?",
+      "answers": [
+        {
+          "text": "I try to maintain all friendships without making anyone choose sides",
+          "traits": {"mature_acceptance": 5, "social_support": 3, "optimistic_outlook": 2, "emotional_processing": 1, "analytical_healing": 1}
+        },
+        {
+          "text": "I avoid group gatherings where they might be present",
+          "traits": {"protective_boundaries": 5, "avoidance_coping": 3, "introspective_growth": 2, "emotional_processing": 1, "nostalgic_holding": 1}
+        },
+        {
+          "text": "I expect friends to choose sides and get upset when they remain neutral",
+          "traits": {"emotional_processing": 4, "protective_boundaries": 4, "social_support": 2, "nostalgic_holding": 1, "avoidance_coping": 1}
+        },
+        {
+          "text": "I analyze which friendships were genuine vs. circumstantial",
+          "traits": {"analytical_healing": 5, "introspective_growth": 3, "mature_acceptance": 2, "transformational_healing": 1, "protective_boundaries": 1}
+        },
+        {
+          "text": "I use this as an opportunity to build new, independent friendships",
+          "traits": {"transformational_healing": 5, "optimistic_outlook": 3, "social_support": 2, "productive_coping": 1, "introspective_growth": 1}
+        }
+      ]
+    },
+    {
+      "question": "What role does hope play in your healing journey?",
+      "answers": [
+        {
+          "text": "I maintain hope that we might get back together someday",
+          "traits": {"nostalgic_holding": 5, "avoidance_coping": 3, "emotional_processing": 2, "optimistic_outlook": 1, "social_support": 1}
+        },
+        {
+          "text": "I lose all hope and feel like I'll never love or be loved again",
+          "traits": {"emotional_processing": 4, "protective_boundaries": 4, "avoidance_coping": 2, "introspective_growth": 1, "nostalgic_holding": 1}
+        },
+        {
+          "text": "I cultivate hope for my own growth and future happiness",
+          "traits": {"optimistic_outlook": 5, "transformational_healing": 3, "introspective_growth": 2, "mature_acceptance": 1, "spiritual_recovery": 1}
+        },
+        {
+          "text": "I analyze what hope is realistic vs. what is fantasy",
+          "traits": {"analytical_healing": 5, "mature_acceptance": 3, "introspective_growth": 2, "protective_boundaries": 1, "optimistic_outlook": 1}
+        },
+        {
+          "text": "I find hope in the spiritual meaning of this experience",
+          "traits": {"spiritual_recovery": 5, "optimistic_outlook": 3, "introspective_growth": 2, "mature_acceptance": 1, "emotional_processing": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle the dreams and future plans you had together?",
+      "answers": [
+        {
+          "text": "I grieve them deeply as a significant loss that needs to be mourned",
+          "traits": {"emotional_processing": 5, "nostalgic_holding": 3, "spiritual_recovery": 2, "social_support": 1, "mature_acceptance": 1}
+        },
+        {
+          "text": "I try to pursue them alone or find someone new to share them with",
+          "traits": {"optimistic_outlook": 5, "productive_coping": 3, "transformational_healing": 2, "analytical_healing": 1, "social_support": 1}
+        },
+        {
+          "text": "I completely abandon them and create entirely new goals",
+          "traits": {"transformational_healing": 5, "protective_boundaries": 3, "introspective_growth": 2, "productive_coping": 1, "optimistic_outlook": 1}
+        },
+        {
+          "text": "I analyze which dreams were truly mine vs. ours vs. theirs",
+          "traits": {"analytical_healing": 5, "introspective_growth": 3, "mature_acceptance": 2, "transformational_healing": 1, "protective_boundaries": 1}
+        },
+        {
+          "text": "I trust that better dreams will emerge as I heal and grow",
+          "traits": {"spiritual_recovery": 5, "optimistic_outlook": 3, "mature_acceptance": 2, "introspective_growth": 1, "transformational_healing": 1}
+        }
+      ]
+    },
+    {
+      "question": "What's your approach to physical reminders and mementos from the relationship?",
+      "answers": [
+        {
+          "text": "I keep everything as a shrine to what we had",
+          "traits": {"nostalgic_holding": 5, "emotional_processing": 3, "spiritual_recovery": 2, "avoidance_coping": 1, "social_support": 1}
+        },
+        {
+          "text": "I burn, throw away, or return everything immediately",
+          "traits": {"transformational_healing": 5, "protective_boundaries": 3, "avoidance_coping": 2, "productive_coping": 1, "analytical_healing": 1}
+        },
+        {
+          "text": "I keep meaningful items but store them away until I can handle them",
+          "traits": {"protective_boundaries": 5, "mature_acceptance": 3, "introspective_growth": 2, "analytical_healing": 1, "emotional_processing": 1}
+        },
+        {
+          "text": "I evaluate each item for its personal meaning and healing potential",
+          "traits": {"analytical_healing": 5, "introspective_growth": 3, "mature_acceptance": 2, "spiritual_recovery": 1, "transformational_healing": 1}
+        },
+        {
+          "text": "I transform them into art or symbols of my growth",
+          "traits": {"transformational_healing": 4, "spiritual_recovery": 4, "productive_coping": 2, "optimistic_outlook": 1, "introspective_growth": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you know when you're ready to love again?",
+      "answers": [
+        {
+          "text": "When I can think about my ex without pain and wish them well",
+          "traits": {"mature_acceptance": 5, "emotional_processing": 3, "spiritual_recovery": 2, "optimistic_outlook": 1, "social_support": 1}
+        },
+        {
+          "text": "When I've learned all the lessons this relationship came to teach me",
+          "traits": {"analytical_healing": 5, "introspective_growth": 3, "spiritual_recovery": 2, "transformational_healing": 1, "mature_acceptance": 1}
+        },
+        {
+          "text": "When I'm genuinely happy and complete on my own",
+          "traits": {"introspective_growth": 5, "optimistic_outlook": 3, "transformational_healing": 2, "mature_acceptance": 1, "protective_boundaries": 1}
+        },
+        {
+          "text": "When someone amazing comes along and I feel those butterflies again",
+          "traits": {"optimistic_outlook": 5, "emotional_processing": 3, "social_support": 2, "nostalgic_holding": 1, "transformational_healing": 1}
+        },
+        {
+          "text": "When I trust that I can love without losing myself again",
+          "traits": {"protective_boundaries": 5, "mature_acceptance": 3, "analytical_healing": 2, "introspective_growth": 1, "spiritual_recovery": 1}
+        }
+      ]
+    },
+    {
+      "question": "What's your biggest fear about healing from this heartbreak?",
+      "answers": [
+        {
+          "text": "That healing means forgetting how much I loved them",
+          "traits": {"nostalgic_holding": 5, "emotional_processing": 3, "spiritual_recovery": 2, "avoidance_coping": 1, "social_support": 1}
+        },
+        {
+          "text": "That I'll never love someone as deeply as I loved them",
+          "traits": {"emotional_processing": 4, "nostalgic_holding": 4, "avoidance_coping": 2, "protective_boundaries": 1, "optimistic_outlook": 1}
+        },
+        {
+          "text": "That this pain has changed me permanently and I'll never be the same",
+          "traits": {"protective_boundaries": 5, "introspective_growth": 3, "transformational_healing": 2, "emotional_processing": 1, "analytical_healing": 1}
+        },
+        {
+          "text": "That I'll make the same mistakes in my next relationship",
+          "traits": {"analytical_healing": 5, "protective_boundaries": 3, "introspective_growth": 2, "mature_acceptance": 1, "avoidance_coping": 1}
+        },
+        {
+          "text": "That I'll close my heart and never be vulnerable again",
+          "traits": {"protective_boundaries": 4, "avoidance_coping": 4, "introspective_growth": 2, "emotional_processing": 1, "transformational_healing": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you want to be different after healing from this experience?",
+      "answers": [
+        {
+          "text": "More emotionally intelligent and empathetic toward others' pain",
+          "traits": {"emotional_processing": 5, "social_support": 3, "spiritual_recovery": 2, "mature_acceptance": 1, "optimistic_outlook": 1}
+        },
+        {
+          "text": "Stronger and more independent, never needing anyone else for happiness",
+          "traits": {"protective_boundaries": 5, "introspective_growth": 3, "transformational_healing": 2, "avoidance_coping": 1, "analytical_healing": 1}
+        },
+        {
+          "text": "Wiser about love with better boundaries and standards",
+          "traits": {"analytical_healing": 5, "protective_boundaries": 3, "mature_acceptance": 2, "introspective_growth": 1, "transformational_healing": 1}
+        },
+        {
+          "text": "More spiritually connected and trusting in life's greater plan",
+          "traits": {"spiritual_recovery": 5, "optimistic_outlook": 3, "introspective_growth": 2, "mature_acceptance": 1, "emotional_processing": 1}
+        },
+        {
+          "text": "Able to love even more deeply but without attachment to outcomes",
+          "traits": {"mature_acceptance": 4, "spiritual_recovery": 4, "emotional_processing": 2, "optimistic_outlook": 1, "transformational_healing": 1}
+        }
+      ]
+    },
+    {
+      "question": "What does 'closure' mean to you in this situation?",
+      "answers": [
+        {
+          "text": "A conversation where we both get to say everything we need to say",
+          "traits": {"emotional_processing": 5, "social_support": 3, "nostalgic_holding": 2, "analytical_healing": 1, "mature_acceptance": 1}
+        },
+        {
+          "text": "Understanding exactly what went wrong and why it ended",
+          "traits": {"analytical_healing": 5, "introspective_growth": 3, "protective_boundaries": 2, "mature_acceptance": 1, "transformational_healing": 1}
+        },
+        {
+          "text": "Knowing they're happy and at peace, even without me",
+          "traits": {"mature_acceptance": 5, "spiritual_recovery": 3, "optimistic_outlook": 2, "emotional_processing": 1, "social_support": 1}
+        },
+        {
+          "text": "Finding inner peace without needing anything from them",
+          "traits": {"introspective_growth": 5, "spiritual_recovery": 3, "protective_boundaries": 2, "mature_acceptance": 1, "transformational_healing": 1}
+        },
+        {
+          "text": "Accepting that some questions will never be answered",
+          "traits": {"mature_acceptance": 5, "spiritual_recovery": 3, "introspective_growth": 2, "optimistic_outlook": 1, "emotional_processing": 1}
+        }
+      ]
+    },
+    {
+      "question": "What's your ultimate vision for your healed self?",
+      "answers": [
+        {
+          "text": "Someone who loved fully and has no regrets about opening my heart",
+          "traits": {"emotional_processing": 5, "optimistic_outlook": 3, "spiritual_recovery": 2, "mature_acceptance": 1, "nostalgic_holding": 1}
+        },
+        {
+          "text": "A wiser, stronger person who's prepared for healthy love",
+          "traits": {"analytical_healing": 5, "protective_boundaries": 3, "mature_acceptance": 2, "transformational_healing": 1, "introspective_growth": 1}
+        },
+        {
+          "text": "Someone completely whole and happy, with or without a partner",
+          "traits": {"introspective_growth": 5, "optimistic_outlook": 3, "mature_acceptance": 2, "spiritual_recovery": 1, "transformational_healing": 1}
+        },
+        {
+          "text": "A person who can help others heal from similar pain",
+          "traits": {"social_support": 5, "spiritual_recovery": 3, "emotional_processing": 2, "mature_acceptance": 1, "optimistic_outlook": 1}
+        },
+        {
+          "text": "Someone grateful for every moment, even the painful ones",
+          "traits": {"spiritual_recovery": 5, "mature_acceptance": 3, "optimistic_outlook": 2, "introspective_growth": 1, "emotional_processing": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you feel triggered by a memory, what's your go-to response?",
+      "answers": [
+        {
+          "text": "I let myself feel it fully, even if it's painful",
+          "traits": {"emotional_processing": 5, "spiritual_recovery": 3, "mature_acceptance": 2, "nostalgic_holding": 1, "social_support": 1}
+        },
+        {
+          "text": "I immediately distract myself with something else",
+          "traits": {"avoidance_coping": 5, "productive_coping": 3, "protective_boundaries": 2, "transformational_healing": 1, "analytical_healing": 1}
+        },
+        {
+          "text": "I analyze why this particular memory is triggering me",
+          "traits": {"analytical_healing": 5, "introspective_growth": 3, "protective_boundaries": 2, "mature_acceptance": 1, "transformational_healing": 1}
+        },
+        {
+          "text": "I call a friend or family member for support",
+          "traits": {"social_support": 5, "emotional_processing": 3, "optimistic_outlook": 2, "mature_acceptance": 1, "spiritual_recovery": 1}
+        },
+        {
+          "text": "I reframe it as a sign of how much growth I still need to do",
+          "traits": {"transformational_healing": 5, "optimistic_outlook": 3, "introspective_growth": 2, "spiritual_recovery": 1, "analytical_healing": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle well-meaning friends who give you advice?",
+      "answers": [
+        {
+          "text": "I appreciate their concern but trust my own healing process",
+          "traits": {"introspective_growth": 5, "mature_acceptance": 3, "protective_boundaries": 2, "spiritual_recovery": 1, "optimistic_outlook": 1}
+        },
+        {
+          "text": "I listen carefully and analyze which advice might actually help",
+          "traits": {"analytical_healing": 5, "social_support": 3, "mature_acceptance": 2, "introspective_growth": 1, "optimistic_outlook": 1}
+        },
+        {
+          "text": "I get frustrated because they don't understand my unique situation",
+          "traits": {"protective_boundaries": 5, "emotional_processing": 3, "avoidance_coping": 2, "nostalgic_holding": 1, "analytical_healing": 1}
+        },
+        {
+          "text": "I'm grateful for their love and support, even if the advice isn't perfect",
+          "traits": {"social_support": 5, "optimistic_outlook": 3, "mature_acceptance": 2, "emotional_processing": 1, "spiritual_recovery": 1}
+        },
+        {
+          "text": "I use it as an opportunity to articulate my own healing philosophy",
+          "traits": {"transformational_healing": 5, "analytical_healing": 3, "introspective_growth": 2, "social_support": 1, "productive_coping": 1}
+        }
+      ]
+    },
+    {
+      "question": "What gives you the most comfort during your darkest moments?",
+      "answers": [
+        {
+          "text": "Knowing that this pain is temporary and will eventually pass",
+          "traits": {"optimistic_outlook": 5, "spiritual_recovery": 3, "mature_acceptance": 2, "introspective_growth": 1, "emotional_processing": 1}
+        },
+        {
+          "text": "Remembering the beautiful moments we shared together",
+          "traits": {"nostalgic_holding": 5, "emotional_processing": 3, "spiritual_recovery": 2, "avoidance_coping": 1, "social_support": 1}
+        },
+        {
+          "text": "The support and love of my friends and family",
+          "traits": {"social_support": 5, "optimistic_outlook": 3, "emotional_processing": 2, "mature_acceptance": 1, "spiritual_recovery": 1}
+        },
+        {
+          "text": "Understanding that this experience is teaching me important lessons",
+          "traits": {"analytical_healing": 5, "spiritual_recovery": 3, "introspective_growth": 2, "transformational_healing": 1, "mature_acceptance": 1}
+        },
+        {
+          "text": "Believing that I'm becoming stronger and more resilient",
+          "traits": {"transformational_healing": 5, "optimistic_outlook": 3, "protective_boundaries": 2, "introspective_growth": 1, "productive_coping": 1}
+        }
+      ]
+    },
+    {
+      "question": "How do you approach self-care during your healing journey?",
+      "answers": [
+        {
+          "text": "I focus on activities that help me process and release emotions",
+          "traits": {"emotional_processing": 5, "introspective_growth": 3, "spiritual_recovery": 2, "social_support": 1, "mature_acceptance": 1}
+        },
+        {
+          "text": "I create strict routines and boundaries to protect my energy",
+          "traits": {"protective_boundaries": 5, "productive_coping": 3, "analytical_healing": 2, "introspective_growth": 1, "transformational_healing": 1}
+        },
+        {
+          "text": "I invest in new experiences and adventures that expand my world",
+          "traits": {"transformational_healing": 5, "optimistic_outlook": 3, "productive_coping": 2, "social_support": 1, "introspective_growth": 1}
+        },
+        {
+          "text": "I practice mindfulness and meditation to find inner peace",
+          "traits": {"spiritual_recovery": 5, "introspective_growth": 3, "mature_acceptance": 2, "emotional_processing": 1, "optimistic_outlook": 1}
+        },
+        {
+          "text": "I research and study healthy relationship patterns for the future",
+          "traits": {"analytical_healing": 5, "productive_coping": 3, "protective_boundaries": 2, "transformational_healing": 1, "mature_acceptance": 1}
+        }
+      ]
+    },
+    {
+      "question": "What do you think your ex would say about how you're handling the breakup?",
+      "answers": [
+        {
+          "text": "They'd be proud of how mature and graceful I'm being",
+          "traits": {"mature_acceptance": 5, "optimistic_outlook": 3, "social_support": 2, "protective_boundaries": 1, "emotional_processing": 1}
+        },
+        {
+          "text": "They'd be surprised by how strong and independent I've become",
+          "traits": {"transformational_healing": 5, "protective_boundaries": 3, "introspective_growth": 2, "productive_coping": 1, "optimistic_outlook": 1}
+        },
+        {
+          "text": "They'd understand that I'm taking the time I need to heal properly",
+          "traits": {"introspective_growth": 5, "emotional_processing": 3, "spiritual_recovery": 2, "mature_acceptance": 1, "analytical_healing": 1}
+        },
+        {
+          "text": "They'd be concerned about how much I'm still struggling",
+          "traits": {"emotional_processing": 4, "nostalgic_holding": 4, "avoidance_coping": 2, "social_support": 1, "protective_boundaries": 1}
+        },
+        {
+          "text": "They'd see that I'm using this experience to become a better person",
+          "traits": {"analytical_healing": 5, "transformational_healing": 3, "spiritual_recovery": 2, "optimistic_outlook": 1, "mature_acceptance": 1}
+        }
+      ]
+    },
+    {
+      "question": "What role does forgiveness play in your healing process?",
+      "answers": [
+        {
+          "text": "I'm working on forgiving them because I know it will free me",
+          "traits": {"spiritual_recovery": 5, "mature_acceptance": 3, "optimistic_outlook": 2, "emotional_processing": 1, "introspective_growth": 1}
+        },
+        {
+          "text": "I need to understand everything that happened before I can forgive",
+          "traits": {"analytical_healing": 5, "protective_boundaries": 3, "introspective_growth": 2, "mature_acceptance": 1, "emotional_processing": 1}
+        },
+        {
+          "text": "Forgiveness feels impossible right now, and that's okay",
+          "traits": {"emotional_processing": 5, "protective_boundaries": 3, "introspective_growth": 2, "avoidance_coping": 1, "nostalgic_holding": 1}
+        },
+        {
+          "text": "I'm focusing on forgiving myself first",
+          "traits": {"introspective_growth": 5, "transformational_healing": 3, "mature_acceptance": 2, "spiritual_recovery": 1, "emotional_processing": 1}
+        },
+        {
+          "text": "I'm talking about forgiveness with my support system",
+          "traits": {"social_support": 5, "emotional_processing": 3, "spiritual_recovery": 2, "mature_acceptance": 1, "optimistic_outlook": 1}
+        }
+      ]
+    },
+    {
+      "question": "How has this heartbreak changed your view of love itself?",
+      "answers": [
+        {
+          "text": "It's made me more cautious but not cynical about love",
+          "traits": {"mature_acceptance": 5, "protective_boundaries": 3, "analytical_healing": 2, "optimistic_outlook": 1, "introspective_growth": 1}
+        },
+        {
+          "text": "It's shown me that love isn't enough without compatibility and timing",
+          "traits": {"analytical_healing": 5, "mature_acceptance": 3, "introspective_growth": 2, "protective_boundaries": 1, "transformational_healing": 1}
+        },
+        {
+          "text": "It's deepened my appreciation for genuine, authentic connection",
+          "traits": {"emotional_processing": 5, "spiritual_recovery": 3, "introspective_growth": 2, "social_support": 1, "mature_acceptance": 1}
+        },
+        {
+          "text": "It's made me realize I need to love myself first and foremost",
+          "traits": {"introspective_growth": 5, "transformational_healing": 3, "protective_boundaries": 2, "spiritual_recovery": 1, "optimistic_outlook": 1}
+        },
+        {
+          "text": "It's taught me that love is both precious and fragile",
+          "traits": {"nostalgic_holding": 5, "emotional_processing": 3, "spiritual_recovery": 2, "mature_acceptance": 1, "social_support": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you imagine yourself completely healed, what does that look like?",
+      "answers": [
+        {
+          "text": "I can speak about the relationship with fondness but no pain",
+          "traits": {"mature_acceptance": 5, "emotional_processing": 3, "nostalgic_holding": 2, "optimistic_outlook": 1, "spiritual_recovery": 1}
+        },
+        {
+          "text": "I have clear boundaries and know exactly what I want in love",
+          "traits": {"analytical_healing": 5, "protective_boundaries": 3, "transformational_healing": 2, "introspective_growth": 1, "mature_acceptance": 1}
+        },
+        {
+          "text": "I'm genuinely excited about my future and new possibilities",
+          "traits": {"optimistic_outlook": 5, "transformational_healing": 3, "productive_coping": 2, "social_support": 1, "spiritual_recovery": 1}
+        },
+        {
+          "text": "I feel deeply connected to myself and my own worth",
+          "traits": {"introspective_growth": 5, "spiritual_recovery": 3, "transformational_healing": 2, "mature_acceptance": 1, "emotional_processing": 1}
+        },
+        {
+          "text": "I can be there for others going through similar experiences",
+          "traits": {"social_support": 5, "spiritual_recovery": 3, "emotional_processing": 2, "mature_acceptance": 1, "optimistic_outlook": 1}
+        }
+      ]
+    },
+    {
+      "question": "What would you tell someone else going through a similar heartbreak?",
+      "answers": [
+        {
+          "text": "Feel everything deeply - your emotions are valid and necessary",
+          "traits": {"emotional_processing": 5, "social_support": 3, "spiritual_recovery": 2, "mature_acceptance": 1, "optimistic_outlook": 1}
+        },
+        {
+          "text": "Protect your energy and don't rush the healing process",
+          "traits": {"protective_boundaries": 5, "introspective_growth": 3, "mature_acceptance": 2, "analytical_healing": 1, "transformational_healing": 1}
+        },
+        {
+          "text": "Use this time to really understand yourself and what you need",
+          "traits": {"analytical_healing": 5, "introspective_growth": 3, "transformational_healing": 2, "mature_acceptance": 1, "spiritual_recovery": 1}
+        },
+        {
+          "text": "Trust that this pain has a purpose and will make you stronger",
+          "traits": {"spiritual_recovery": 5, "optimistic_outlook": 3, "transformational_healing": 2, "mature_acceptance": 1, "emotional_processing": 1}
+        },
+        {
+          "text": "Lean on your loved ones - you don't have to go through this alone",
+          "traits": {"social_support": 5, "optimistic_outlook": 3, "emotional_processing": 2, "mature_acceptance": 1, "spiritual_recovery": 1}
+        }
+      ]
+    }
+  ],
+  "results": {
+    "emotional_processing": {
+      "title": "The Deep Feeler",
+      "description": "You heal by diving deep into your emotions and allowing yourself to feel everything fully. You don't rush the process or try to skip steps in your grief. You understand that the depth of your pain reflects the depth of your love, and you honor both.",
+      "extended": "Your healing approach is rooted in emotional courage and authentic processing. You understand that healing isn't about getting over someone quickly, but about moving through the full spectrum of emotions that come with loss. You allow yourself to feel sadness, anger, confusion, and even moments of relief without judgment, recognizing that each emotion carries important information about your experience.\n\nYou're willing to sit with discomfort rather than numbing or avoiding it, which allows for deep, lasting healing rather than surface-level recovery. Your tears are not seen as weakness but as a necessary release that cleanses and heals your heart. You may spend longer in the initial stages of grief than others, but this thorough processing prevents unresolved emotions from affecting future relationships.\n\nYour approach honors the love you shared while gradually releasing attachment to the relationship itself. You understand that forgetting or dismissing the relationship would dishonor what you experienced, so instead you integrate the love and lessons into your evolving sense of self. This process transforms pain into wisdom and broken pieces into a more compassionate heart.\n\nWhen you emerge from this healing journey, you'll have a deeper capacity for empathy, emotional intelligence, and authentic connection. Your willingness to feel deeply becomes a superpower that allows you to love more fully and relate more genuinely with others who have experienced similar pain."
+    },
+    "analytical_healing": {
+      "title": "The Wise Learner",
+      "description": "You heal by understanding what happened and extracting every possible lesson from the experience. You approach heartbreak like a puzzle to be solved, analyzing patterns, triggers, and dynamics to emerge with wisdom and self-awareness.",
+      "extended": "Your healing process is driven by a deep need to understand and make meaning from your experience. You believe that every relationship, even those that end, contains valuable lessons about love, compatibility, and personal growth. You spend considerable time analyzing what went wrong, what you contributed, and what you learned about yourself and your needs.\n\nYou're likely to journal extensively, perhaps even create timelines or lists of insights. You may read relationship books, take personality tests, or seek therapy to gain deeper understanding of your patterns and triggers. This intellectual approach to healing helps you feel more in control of your recovery and more prepared for future relationships.\n\nYour analytical nature helps you separate your worth from the relationship's outcome. You can objectively assess what worked and what didn't without taking the ending as a personal failure. This perspective allows you to maintain your self-esteem while still acknowledging areas for growth and improvement.\n\nWhile your approach is incredibly valuable for long-term growth, be mindful not to get stuck in analysis paralysis. Sometimes the heart needs to feel what the mind cannot understand. Your greatest strength lies in combining emotional processing with intellectual insight, creating a comprehensive understanding that serves both your healing and your future relationships."
+    },
+    "social_support": {
+      "title": "The Community Healer",
+      "description": "You heal through connection and shared experiences with others. Your support system becomes your lifeline, and you find comfort in knowing you're not alone in your pain. You process your feelings by talking them through with trusted friends and family.",
+      "extended": "Your healing journey is fundamentally relational - you need to feel witnessed, understood, and supported by others who care about you. You find that talking through your emotions, sharing your struggles, and receiving validation from trusted friends and family members helps you process the complex feelings that come with heartbreak.\n\nYou likely have a strong network of people who rally around you during difficult times, and you're not afraid to lean on them when you need support. You find comfort in hearing others' stories of heartbreak and recovery, knowing that you're not the first person to experience this pain and that others have emerged stronger on the other side.\n\nYour approach often involves group activities, heart-to-heart conversations, and finding community with others who understand what you're going through. You may join support groups, spend extra time with friends, or seek out others who have experienced similar losses. This communal approach to healing helps you feel less isolated and more hopeful about your recovery.\n\nWhile your relational approach to healing is deeply nurturing, be mindful of maintaining some independence in your recovery journey. Your friends and family are invaluable supports, but ultimately your healing must come from within. Use your community as a foundation while still developing your own internal resources for resilience and self-comfort."
+    },
+    "protective_boundaries": {
+      "title": "The Guardian Spirit",
+      "description": "You heal by creating safe spaces and healthy limits around your heart and energy. You understand that protection isn't about building walls, but about being selective with who and what you allow into your healing space.",
+      "extended": "Your healing approach prioritizes safety and self-protection above all else. You've learned that you can't heal in environments that continue to wound you, so you create clear boundaries around your time, energy, and emotional space. This might mean blocking your ex on social media, avoiding certain places or mutual friends, or limiting conversations about the relationship.\n\nYou understand that saying no to certain things allows you to say yes to your healing. You're selective about the media you consume, the people you spend time with, and the activities you engage in, choosing only those that support your recovery rather than trigger your pain. This discernment helps you create a cocoon of safety where your wounded heart can slowly mend.\n\nYour approach often involves creating new routines, establishing physical and emotional boundaries, and learning to advocate for your own needs even when others don't understand. You may need more alone time than usual, or you might be less available for social activities while you focus on your internal work.\n\nWhile your protective instincts serve you well during the acute phases of heartbreak, be mindful not to become so guarded that you shut out all possibility of future connection. Your boundaries should be flexible enough to expand as you heal, allowing for new relationships and experiences when you're ready. The goal is protection during vulnerability, not permanent isolation."
+    },
+    "productive_coping": {
+      "title": "The Action Healer",
+      "description": "You heal through purposeful activity and achievement. Staying busy with meaningful projects and goals helps you process your emotions while building a new identity and future for yourself.",
+      "extended": "Your healing strategy involves channeling your emotional energy into productive activities that help you feel accomplished and forward-moving. You might throw yourself into work projects, start a new fitness routine, learn a new skill, or pursue creative endeavors that have been on the back burner. This activity helps you feel like you're making progress rather than just sitting with your pain.\n\nYou find that achieving small goals and completing tasks gives you a sense of control and self-efficacy during a time when so much feels uncertain. Whether it's reorganizing your living space, training for a race, or pursuing a promotion at work, these accomplishments help rebuild your confidence and sense of purpose.\n\nYour approach often involves setting concrete goals and timelines for your healing, treating your recovery like a project to be managed and completed. You may track your progress, celebrate milestones, and use external achievements as markers of your internal growth. This structure provides comfort and direction during the chaos of heartbreak.\n\nWhile staying productive can be incredibly healing, be mindful that you're not just avoiding your emotions through constant activity. Make sure to balance your goal-oriented healing with time for emotional processing and rest. The most sustainable recovery involves both doing and being, achieving and feeling. Your natural drive can be a powerful tool for healing when combined with authentic emotional work."
+    },
+    "introspective_growth": {
+      "title": "The Inner Explorer",
+      "description": "You heal through solitude and deep self-discovery. You view this heartbreak as an opportunity to understand yourself better, explore your inner world, and emerge with greater self-awareness and wisdom.",
+      "extended": "Your healing journey is primarily an inward one - you turn to solitude, reflection, and self-exploration to process your experience and grow from it. You see this time as a rare opportunity to deeply examine your patterns, desires, fears, and dreams without the influence of a romantic partner. You embrace the alone time as sacred space for personal development.\n\nYou might spend hours journaling, meditating, reading self-help books, or simply sitting quietly with your thoughts and feelings. You're curious about what this experience reveals about you - your attachment style, your needs in relationships, your core values, and your personal growth edges. You use this knowledge to consciously evolve into a more self-aware and intentional person.\n\nYour approach often involves exploring new aspects of yourself that may have been dormant during the relationship. You might discover new interests, reconnect with old passions, or develop skills and qualities that were overshadowed by your couple identity. This process of self-rediscovery can be both exciting and challenging as you learn to be fully yourself again.\n\nWhile your introspective approach leads to profound personal growth, be mindful of not becoming too isolated during your healing process. Your inner work is invaluable, but connection with others can provide perspective and support that enriches your self-discovery. Balance your solo reflection with meaningful interactions that help you integrate and share your insights."
+    },
+    "optimistic_outlook": {
+      "title": "The Hope Keeper",
+      "description": "You heal through faith in better days ahead and trust in your own resilience. You naturally focus on the possibilities that this ending creates rather than dwelling on what you've lost.",
+      "extended": "Your healing approach is fundamentally hopeful - you believe that this painful experience is temporary and that something better awaits you on the other side. You have a natural ability to see the silver linings and potential opportunities that come with this ending, even while acknowledging the very real pain you're experiencing.\n\nYou often focus on the future rather than the past, spending energy visualizing the life you want to create and the love you want to experience. You might make vision boards, set new goals, or plan adventures for your single life. This forward-looking perspective helps you feel excited about your future rather than trapped by your pain.\n\nYour optimism isn't naive - you understand that healing takes time and involves difficult emotions. But you trust in your own strength and resilience, knowing that you've overcome challenges before and will do so again. You often serve as a source of hope and inspiration for others going through similar experiences.\n\nWhile your positive outlook is a tremendous asset in healing, be careful not to bypass necessary grief work in your rush toward the future. Sometimes the path to genuine optimism requires moving through darkness rather than around it. Allow yourself to feel the full spectrum of emotions while maintaining your core belief that things will get better. Your hope becomes most powerful when it's grounded in authentic emotional processing."
+    },
+    "mature_acceptance": {
+      "title": "The Peaceful Warrior",
+      "description": "You heal through grace, wisdom, and acceptance of what is. You understand that some things are beyond your control, and you find peace in focusing on what you can influence - your own growth and response.",
+      "extended": "Your healing approach is characterized by a deep wisdom and acceptance that goes beyond your years or experience. You understand that relationships sometimes end not because anyone is fundamentally flawed, but because of incompatibility, timing, or simply the natural evolution of two people's lives. This perspective helps you avoid the trap of blame and bitterness.\n\nYou focus on accepting reality as it is rather than fighting against what cannot be changed. This doesn't mean you're passive or that you don't feel pain - rather, you channel your energy into areas where you have agency: your own healing, growth, and future choices. You understand that acceptance is not resignation but rather a form of empowerment.\n\nYour approach often involves practices that cultivate peace and acceptance - perhaps meditation, time in nature, or spiritual practices that help you connect with something larger than your immediate pain. You're able to hold space for difficult emotions without being overwhelmed by them, and you often become a source of wisdom and comfort for others.\n\nWhile your mature perspective serves you well, be mindful not to bypass necessary emotional processing in your rush toward acceptance. Sometimes the path to genuine peace requires moving through anger, sadness, and other difficult emotions rather than immediately transcending them. Your wisdom becomes most powerful when it's grounded in authentic emotional experience rather than spiritual bypassing."
+    },
+    "transformational_healing": {
+      "title": "The Phoenix Rising",
+      "description": "You heal by completely reinventing yourself and your life. You see this heartbreak as a catalyst for profound change and use it as fuel to become the person you've always wanted to be.",
+      "extended": "Your healing approach is revolutionary - you don't just want to get over this heartbreak, you want to use it as a launching pad for complete personal transformation. You see this ending as an opportunity to shed old patterns, limiting beliefs, and aspects of yourself that no longer serve you. You're committed to emerging from this experience fundamentally changed.\n\nYou might completely overhaul your lifestyle, appearance, career, or social circle as part of your healing process. You're not afraid of dramatic change and may actually crave it as a way of marking the distance between who you were in the relationship and who you're becoming. This process of reinvention helps you feel empowered and in control of your destiny.\n\nYour approach often involves setting ambitious goals for yourself and pursuing growth opportunities that push you outside your comfort zone. You might move to a new city, change careers, travel solo, or take on challenges that the old version of yourself would never have attempted. This bold approach to healing can lead to incredible personal growth and expanded possibilities.\n\nWhile your transformational approach can lead to profound positive change, be mindful of not running away from necessary emotional processing in your quest for reinvention. Make sure your changes are coming from genuine desire for growth rather than avoidance of pain. The most sustainable transformations are rooted in authentic self-knowledge and emotional integration, not just external change."
+    },
+    "spiritual_recovery": {
+      "title": "The Soul Seeker",
+      "description": "You heal through meaning-making, faith, and connection to something greater than yourself. You view this experience as part of your spiritual journey and trust in divine timing and purpose.",
+      "extended": "Your healing approach is deeply spiritual - you see this heartbreak as part of a larger cosmic plan or spiritual lesson that you're meant to learn. You find comfort in believing that everything happens for a reason and that this painful experience is somehow serving your highest good, even if you can't see how yet.\n\nYou might turn to prayer, meditation, spiritual texts, or guidance from spiritual mentors to help you understand and process this experience. You're interested in the deeper meaning and lessons rather than just the surface pain, and you often find that your spiritual practices provide comfort and perspective that purely secular approaches cannot.\n\nYour approach often involves surrender and trust in forces beyond your control. You might practice letting go through ritual, prayer, or meditation, trusting that the universe will guide you toward what's meant for you. This spiritual framework helps you find peace and purpose even in the midst of pain.\n\nWhile your spiritual approach can provide profound comfort and meaning, be careful not to use it to bypass necessary emotional work or human support. Sometimes spiritual platitudes can be used to avoid feeling difficult emotions or taking practical action. Your spiritual practice becomes most powerful when it complements rather than replaces emotional processing and psychological healing."
+    },
+    "avoidance_coping": {
+      "title": "The Escape Artist",
+      "description": "You heal by staying busy and avoiding painful feelings whenever possible. You prefer to focus on anything other than the heartbreak itself, using distraction as your primary coping mechanism.",
+      "extended": "Your healing approach centers around avoiding the direct experience of painful emotions by keeping yourself constantly occupied with other activities, people, or thoughts. You might throw yourself into work, social activities, new relationships, or addictive behaviors as a way of not having to sit with the discomfort of grief and loss.\n\nYou find that staying busy helps time pass more quickly and prevents you from spiraling into dark thoughts about the relationship or your ex. You might book every free moment with activities, binge-watch shows, scroll social media for hours, or party frequently as ways of keeping your mind off your pain. This approach can provide temporary relief from intense emotions.\n\nYour instinct is to move forward quickly rather than dwelling on what's behind you. You might start dating again immediately, make major life changes, or pursue new experiences as a way of proving to yourself and others that you're fine and moving on. You often appear to recover more quickly than others, at least on the surface.\n\nWhile avoidance can provide temporary relief, be aware that unprocessed emotions often resurface later in more intense forms. Your coping style may help you get through the acute phase of heartbreak, but long-term healing usually requires some degree of emotional processing. Consider gradually incorporating small amounts of feeling and reflection into your busy schedule to support deeper healing."
+    },
+    "nostalgic_holding": {
+      "title": "The Memory Keeper",
+      "description": "You heal by honoring and preserving what was beautiful about your relationship. You find comfort in revisiting good memories and maintaining connection to the love you shared, even as you slowly let go.",
+      "extended": "Your healing approach involves cherishing and preserving the positive aspects of your relationship rather than trying to forget or dismiss them entirely. You understand that the love you shared was real and meaningful, and you want to honor that even as you accept that the relationship has ended. You find comfort in remembering the good times and acknowledging what you learned and gained.\n\nYou might keep meaningful mementos, look through old photos occasionally, or allow yourself to remember happy moments without judgment. You're not trying to live in the past, but you also don't want to erase or minimize what was genuinely beautiful about your connection. This approach helps you maintain a balanced perspective on the relationship.\n\nYour healing often involves a gradual process of integrating the relationship into your life story as a meaningful chapter that's now closed. You work toward being able to think of your ex with fondness rather than pain, and to feel grateful for what you shared while still being open to new love in the future.\n\nWhile honoring your past love can be healing, be mindful of not getting stuck in nostalgia in a way that prevents you from moving forward. The goal is integration rather than fixation - being able to remember with warmth while still being present for new experiences and relationships. Your love for the past becomes most healthy when it coexists with excitement for the future."
+    }
+  }
+}

@@ -1,0 +1,683 @@
+{
+  "title": "Narcissist Spectrum Test",
+  "description": "How self-obsessed are you really?",
+  "questions": [
+    {
+      "q": "When you enter a room full of people, what's your honest first thought?",
+      "options": [
+        {
+          "text": "I wonder who I'll connect with and what interesting conversations await",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 0 }
+        },
+        {
+          "text": "I hope I look presentable and make a good impression",
+          "weights": { "healthy": 3, "slight": 4, "moderate": 1, "high": 0, "extreme": 0, "covert": 2, "grandiose": 0, "malignant": 0, "communal": 0, "somatic": 2 }
+        },
+        {
+          "text": "Time to showcase my personality and make an impact",
+          "weights": { "healthy": 1, "slight": 3, "moderate": 4, "high": 2, "extreme": 0, "covert": 0, "grandiose": 3, "malignant": 0, "communal": 1, "somatic": 1 }
+        },
+        {
+          "text": "Everyone will definitely notice me and want to talk to me",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 3, "high": 4, "extreme": 2, "covert": 0, "grandiose": 5, "malignant": 1, "communal": 0, "somatic": 2 }
+        },
+        {
+          "text": "Finally, an audience worthy of my presence",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 3, "extreme": 5, "covert": 0, "grandiose": 4, "malignant": 3, "communal": 0, "somatic": 1 }
+        }
+      ]
+    },
+    {
+      "q": "Your friend gets promoted to a position you wanted. Your genuine internal reaction is:",
+      "options": [
+        {
+          "text": "Genuinely happy for them - they worked hard and deserve this success",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 0 }
+        },
+        {
+          "text": "Happy for them but can't help feeling disappointed for myself",
+          "weights": { "healthy": 4, "slight": 3, "moderate": 1, "high": 0, "extreme": 0, "covert": 1, "grandiose": 0, "malignant": 0, "communal": 0, "somatic": 0 }
+        },
+        {
+          "text": "They got lucky with timing - I would have been just as good",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 2, "extreme": 1, "covert": 3, "grandiose": 2, "malignant": 0, "communal": 0, "somatic": 0 }
+        },
+        {
+          "text": "I deserved it more - this is unfair and they know it",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 2, "grandiose": 3, "malignant": 2, "communal": 0, "somatic": 0 }
+        },
+        {
+          "text": "They must have manipulated someone or played politics to get this",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 4, "covert": 1, "grandiose": 2, "malignant": 5, "communal": 0, "somatic": 0 }
+        }
+      ]
+    },
+    {
+      "q": "How often do you find yourself correcting others or explaining why they're wrong?",
+      "options": [
+        {
+          "text": "Rarely - only when directly asked for my opinion or expertise",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 0 }
+        },
+        {
+          "text": "Sometimes, when I feel it really matters or could help them",
+          "weights": { "healthy": 3, "slight": 4, "moderate": 1, "high": 0, "extreme": 0, "covert": 1, "grandiose": 0, "malignant": 0, "communal": 2, "somatic": 0 }
+        },
+        {
+          "text": "Often - people frequently need guidance and I'm usually right",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 3, "extreme": 1, "covert": 2, "grandiose": 3, "malignant": 1, "communal": 3, "somatic": 0 }
+        },
+        {
+          "text": "Constantly - most people are misinformed and need education",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 1, "grandiose": 4, "malignant": 2, "communal": 2, "somatic": 0 }
+        },
+        {
+          "text": "All the time - I'm usually the smartest person in any room",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 3, "extreme": 5, "covert": 0, "grandiose": 5, "malignant": 3, "communal": 1, "somatic": 0 }
+        }
+      ]
+    },
+    {
+      "q": "When someone criticizes you, what happens inside your mind?",
+      "options": [
+        {
+          "text": "I genuinely consider if there's truth to it and how I can improve",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 0 }
+        },
+        {
+          "text": "It stings but I try to learn from it and grow",
+          "weights": { "healthy": 4, "slight": 3, "moderate": 1, "high": 0, "extreme": 0, "covert": 1, "grandiose": 0, "malignant": 0, "communal": 0, "somatic": 1 }
+        },
+        {
+          "text": "I get defensive and immediately explain why they're wrong",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 2, "extreme": 1, "covert": 2, "grandiose": 3, "malignant": 1, "communal": 1, "somatic": 2 }
+        },
+        {
+          "text": "I feel attacked and start plotting how to discredit them",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 3, "grandiose": 2, "malignant": 4, "communal": 0, "somatic": 1 }
+        },
+        {
+          "text": "They're obviously jealous and trying to tear me down",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 3, "extreme": 5, "covert": 2, "grandiose": 4, "malignant": 4, "communal": 0, "somatic": 2 }
+        }
+      ]
+    },
+    {
+      "q": "In your most honest fantasies about your future, you see yourself as:",
+      "options": [
+        {
+          "text": "Happy, fulfilled, and surrounded by people I love",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 1, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 0 }
+        },
+        {
+          "text": "Successful in my career and respected by my peers",
+          "weights": { "healthy": 3, "slight": 4, "moderate": 2, "high": 0, "extreme": 0, "covert": 1, "grandiose": 1, "malignant": 0, "communal": 2, "somatic": 1 }
+        },
+        {
+          "text": "Wealthy, influential, and someone people look up to",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 3, "extreme": 1, "covert": 1, "grandiose": 3, "malignant": 2, "communal": 1, "somatic": 2 }
+        },
+        {
+          "text": "Famous and admired by millions of people worldwide",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 0, "grandiose": 5, "malignant": 2, "communal": 0, "somatic": 3 }
+        },
+        {
+          "text": "The most powerful and important person in my field",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 3, "extreme": 5, "covert": 1, "grandiose": 4, "malignant": 4, "communal": 0, "somatic": 1 }
+        }
+      ]
+    },
+    {
+      "q": "How do you honestly feel about most people you encounter in daily life?",
+      "options": [
+        {
+          "text": "Curious and genuinely interested in their unique stories and perspectives",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 2, "somatic": 0 }
+        },
+        {
+          "text": "Neutral until I get to know them - everyone has something to offer",
+          "weights": { "healthy": 4, "slight": 3, "moderate": 1, "high": 0, "extreme": 0, "covert": 1, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 0 }
+        },
+        {
+          "text": "Slightly superior but I try to hide it and be kind",
+          "weights": { "healthy": 1, "slight": 3, "moderate": 4, "high": 2, "extreme": 0, "covert": 4, "grandiose": 1, "malignant": 1, "communal": 2, "somatic": 1 }
+        },
+        {
+          "text": "They're generally beneath my intellectual and social level",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 2, "grandiose": 4, "malignant": 3, "communal": 0, "somatic": 2 }
+        },
+        {
+          "text": "They exist primarily to serve a purpose in my life",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 5, "covert": 1, "grandiose": 3, "malignant": 5, "communal": 0, "somatic": 1 }
+        }
+      ]
+    },
+    {
+      "q": "When telling stories about your life experiences, you tend to:",
+      "options": [
+        {
+          "text": "Stick to the facts and share credit where it's due",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 0 }
+        },
+        {
+          "text": "Add small embellishments to make them more entertaining",
+          "weights": { "healthy": 3, "slight": 4, "moderate": 2, "high": 0, "extreme": 0, "covert": 1, "grandiose": 1, "malignant": 0, "communal": 1, "somatic": 1 }
+        },
+        {
+          "text": "Exaggerate your role to sound more impressive than it was",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 3, "extreme": 1, "covert": 2, "grandiose": 3, "malignant": 1, "communal": 2, "somatic": 2 }
+        },
+        {
+          "text": "Make yourself the hero of every story, minimizing others' contributions",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 1, "grandiose": 5, "malignant": 2, "communal": 1, "somatic": 2 }
+        },
+        {
+          "text": "Completely rewrite history with yourself at the center of everything",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 5, "covert": 0, "grandiose": 4, "malignant": 4, "communal": 0, "somatic": 1 }
+        }
+      ]
+    },
+    {
+      "q": "How much of your typical day is spent thinking about how others perceive you?",
+      "options": [
+        {
+          "text": "Barely any time - I'm focused on my goals and relationships",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 0, "somatic": 0 }
+        },
+        {
+          "text": "A few moments here and there, especially in social situations",
+          "weights": { "healthy": 3, "slight": 4, "moderate": 1, "high": 0, "extreme": 0, "covert": 2, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 2 }
+        },
+        {
+          "text": "Probably an hour total throughout the day",
+          "weights": { "healthy": 1, "slight": 3, "moderate": 4, "high": 2, "extreme": 0, "covert": 3, "grandiose": 2, "malignant": 0, "communal": 2, "somatic": 4 }
+        },
+        {
+          "text": "Several hours - I constantly wonder what people think of me",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 4, "grandiose": 3, "malignant": 1, "communal": 3, "somatic": 5 }
+        },
+        {
+          "text": "It's constantly on my mind - my image is everything",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 3, "extreme": 5, "covert": 2, "grandiose": 5, "malignant": 2, "communal": 1, "somatic": 4 }
+        }
+      ]
+    },
+    {
+      "q": "When someone doesn't give you the attention or respect you feel you deserve:",
+      "options": [
+        {
+          "text": "I don't really notice or care - everyone has their own concerns",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 0, "somatic": 0 }
+        },
+        {
+          "text": "It's mildly disappointing but I move on quickly",
+          "weights": { "healthy": 4, "slight": 3, "moderate": 1, "high": 0, "extreme": 0, "covert": 1, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 1 }
+        },
+        {
+          "text": "I feel insulted and remember their disrespect",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 3, "extreme": 1, "covert": 3, "grandiose": 2, "malignant": 2, "communal": 1, "somatic": 2 }
+        },
+        {
+          "text": "I get angry and may confront them about their behavior",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 2, "grandiose": 4, "malignant": 3, "communal": 0, "somatic": 2 }
+        },
+        {
+          "text": "They're dead to me and I'll make them regret disrespecting me",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 5, "covert": 1, "grandiose": 3, "malignant": 5, "communal": 0, "somatic": 1 }
+        }
+      ]
+    },
+    {
+      "q": "Your relationship with rules and social expectations is best described as:",
+      "options": [
+        {
+          "text": "They apply to everyone equally, including me - fairness matters",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 0 }
+        },
+        {
+          "text": "I follow them but sometimes question if they make sense",
+          "weights": { "healthy": 4, "slight": 3, "moderate": 1, "high": 0, "extreme": 0, "covert": 1, "grandiose": 0, "malignant": 0, "communal": 0, "somatic": 0 }
+        },
+        {
+          "text": "Some rules don't really apply to people in my position",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 3, "extreme": 1, "covert": 2, "grandiose": 3, "malignant": 2, "communal": 1, "somatic": 1 }
+        },
+        {
+          "text": "Rules are for average people - I'm exceptional and they know it",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 1, "grandiose": 5, "malignant": 3, "communal": 0, "somatic": 2 }
+        },
+        {
+          "text": "I make my own rules - society should adapt to people like me",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 5, "covert": 0, "grandiose": 4, "malignant": 5, "communal": 0, "somatic": 1 }
+        }
+      ]
+    },
+    {
+      "q": "When you see someone who is more successful than you, your first instinct is to:",
+      "options": [
+        {
+          "text": "Feel genuinely inspired by their achievement and learn from them",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 0 }
+        },
+        {
+          "text": "Wonder about their journey and what strategies they used",
+          "weights": { "healthy": 4, "slight": 3, "moderate": 1, "high": 0, "extreme": 0, "covert": 1, "grandiose": 0, "malignant": 0, "communal": 0, "somatic": 0 }
+        },
+        {
+          "text": "Find their flaws or limitations to feel better about myself",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 2, "extreme": 1, "covert": 4, "grandiose": 1, "malignant": 1, "communal": 0, "somatic": 1 }
+        },
+        {
+          "text": "Assume they had unfair advantages or connections I lack",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 3, "grandiose": 3, "malignant": 2, "communal": 0, "somatic": 1 }
+        },
+        {
+          "text": "Plan how to surpass and ultimately crush their achievement",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 5, "covert": 1, "grandiose": 4, "malignant": 5, "communal": 0, "somatic": 1 }
+        }
+      ]
+    },
+    {
+      "q": "How often do you bend the truth or manipulate situations to get what you want?",
+      "options": [
+        {
+          "text": "Never - honesty and integrity are core values for me",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 0 }
+        },
+        {
+          "text": "Rarely - only white lies to spare someone's feelings",
+          "weights": { "healthy": 4, "slight": 3, "moderate": 1, "high": 0, "extreme": 0, "covert": 1, "grandiose": 0, "malignant": 0, "communal": 2, "somatic": 0 }
+        },
+        {
+          "text": "Sometimes, when the stakes are high and it really matters",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 2, "extreme": 1, "covert": 2, "grandiose": 2, "malignant": 2, "communal": 1, "somatic": 1 }
+        },
+        {
+          "text": "Often - it's how the world works and everyone does it",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 2, "grandiose": 3, "malignant": 4, "communal": 0, "somatic": 2 }
+        },
+        {
+          "text": "Constantly - people are tools to be used for my goals",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 5, "covert": 1, "grandiose": 3, "malignant": 5, "communal": 0, "somatic": 1 }
+        }
+      ]
+    },
+    {
+      "q": "Your social media presence is primarily designed to:",
+      "options": [
+        {
+          "text": "Stay genuinely connected with friends and share real moments",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 1, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 0 }
+        },
+        {
+          "text": "Share life updates and some achievements with people I care about",
+          "weights": { "healthy": 3, "slight": 4, "moderate": 1, "high": 0, "extreme": 0, "covert": 1, "grandiose": 1, "malignant": 0, "communal": 2, "somatic": 1 }
+        },
+        {
+          "text": "Curate an impressive image of my life and accomplishments",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 3, "extreme": 1, "covert": 2, "grandiose": 3, "malignant": 1, "communal": 2, "somatic": 4 }
+        },
+        {
+          "text": "Show everyone how amazing and successful my life is",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 1, "grandiose": 5, "malignant": 2, "communal": 1, "somatic": 5 }
+        },
+        {
+          "text": "Build my personal brand and establish dominance in my field",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 5, "covert": 0, "grandiose": 4, "malignant": 3, "communal": 0, "somatic": 3 }
+        }
+      ]
+    },
+    {
+      "q": "When friends come to you with their personal problems, you typically:",
+      "options": [
+        {
+          "text": "Listen with genuine empathy and offer thoughtful support",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 2, "somatic": 0 }
+        },
+        {
+          "text": "Try to help but sometimes find my mind wandering",
+          "weights": { "healthy": 3, "slight": 4, "moderate": 2, "high": 0, "extreme": 0, "covert": 1, "grandiose": 1, "malignant": 0, "communal": 1, "somatic": 1 }
+        },
+        {
+          "text": "Quickly redirect the conversation to your own similar experiences",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 3, "extreme": 1, "covert": 2, "grandiose": 3, "malignant": 1, "communal": 0, "somatic": 1 }
+        },
+        {
+          "text": "Get bored unless their problem somehow involves you",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 1, "grandiose": 3, "malignant": 2, "communal": 0, "somatic": 2 }
+        },
+        {
+          "text": "See their vulnerability as weakness and lose respect for them",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 5, "covert": 0, "grandiose": 2, "malignant": 5, "communal": 0, "somatic": 1 }
+        }
+      ]
+    },
+    {
+      "q": "How do you typically react when you make a significant mistake?",
+      "options": [
+        {
+          "text": "Own it completely, apologize sincerely, and work to make it right",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 0 }
+        },
+        {
+          "text": "Admit the mistake but try to downplay its impact",
+          "weights": { "healthy": 3, "slight": 4, "moderate": 2, "high": 0, "extreme": 0, "covert": 2, "grandiose": 1, "malignant": 0, "communal": 2, "somatic": 1 }
+        },
+        {
+          "text": "Find others who contributed to the failure to share blame",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 3, "extreme": 1, "covert": 3, "grandiose": 2, "malignant": 2, "communal": 1, "somatic": 1 }
+        },
+        {
+          "text": "Blame circumstances, bad timing, or other people entirely",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 2, "grandiose": 4, "malignant": 3, "communal": 0, "somatic": 2 }
+        },
+        {
+          "text": "Deny it happened or completely rewrite the narrative",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 5, "covert": 1, "grandiose": 3, "malignant": 5, "communal": 0, "somatic": 1 }
+        }
+      ]
+    },
+    {
+      "q": "In romantic relationships, your approach tends to be:",
+      "options": [
+        {
+          "text": "Valuing my partner as an equal and building mutual respect",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 0 }
+        },
+        {
+          "text": "Expecting some level of admiration while giving love in return",
+          "weights": { "healthy": 3, "slight": 4, "moderate": 2, "high": 0, "extreme": 0, "covert": 1, "grandiose": 1, "malignant": 0, "communal": 2, "somatic": 2 }
+        },
+        {
+          "text": "Needing constant validation and praise to feel secure",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 3, "extreme": 1, "covert": 4, "grandiose": 2, "malignant": 1, "communal": 1, "somatic": 3 }
+        },
+        {
+          "text": "Seeing them as an attractive accessory to enhance my image",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 1, "grandiose": 4, "malignant": 2, "communal": 0, "somatic": 5 }
+        },
+        {
+          "text": "Using them until someone better or more useful comes along",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 5, "covert": 0, "grandiose": 3, "malignant": 5, "communal": 0, "somatic": 2 }
+        }
+      ]
+    },
+    {
+      "q": "Your emotional response to others' genuine success is usually:",
+      "options": [
+        {
+          "text": "Authentic happiness and excitement for their achievement",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 0 }
+        },
+        {
+          "text": "Mixed feelings but ultimately more positive than negative",
+          "weights": { "healthy": 4, "slight": 3, "moderate": 1, "high": 0, "extreme": 0, "covert": 1, "grandiose": 0, "malignant": 0, "communal": 0, "somatic": 0 }
+        },
+        {
+          "text": "Envy carefully disguised as congratulations",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 2, "extreme": 1, "covert": 4, "grandiose": 2, "malignant": 1, "communal": 1, "somatic": 1 }
+        },
+        {
+          "text": "Anger and resentment that it wasn't me instead",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 3, "grandiose": 3, "malignant": 3, "communal": 0, "somatic": 2 }
+        },
+        {
+          "text": "Rage and immediate plans to diminish their achievement",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 5, "covert": 1, "grandiose": 2, "malignant": 5, "communal": 0, "somatic": 1 }
+        }
+      ]
+    },
+    {
+      "q": "How often do you feel genuinely happy for others without thinking about yourself?",
+      "options": [
+        {
+          "text": "Frequently - others' joy naturally brings me joy too",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 2, "somatic": 0 }
+        },
+        {
+          "text": "Sometimes - depends on my mood and the situation",
+          "weights": { "healthy": 3, "slight": 4, "moderate": 2, "high": 0, "extreme": 0, "covert": 1, "grandiose": 1, "malignant": 0, "communal": 1, "somatic": 0 }
+        },
+        {
+          "text": "Rarely - I usually think about what it means for me",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 3, "extreme": 1, "covert": 3, "grandiose": 2, "malignant": 1, "communal": 0, "somatic": 1 }
+        },
+        {
+          "text": "Almost never - everything somehow relates back to me",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 2, "grandiose": 4, "malignant": 2, "communal": 0, "somatic": 2 }
+        },
+        {
+          "text": "Never - other people's happiness is largely irrelevant to me",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 5, "covert": 0, "grandiose": 3, "malignant": 5, "communal": 0, "somatic": 1 }
+        }
+      ]
+    },
+    {
+      "q": "When choosing friends or romantic partners, you primarily look for people who:",
+      "options": [
+        {
+          "text": "Share common values, interests, and treat others with kindness",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 0 }
+        },
+        {
+          "text": "Challenge and inspire you to become a better person",
+          "weights": { "healthy": 4, "slight": 3, "moderate": 1, "high": 0, "extreme": 0, "covert": 1, "grandiose": 0, "malignant": 0, "communal": 0, "somatic": 0 }
+        },
+        {
+          "text": "Make you look good by association and enhance your social status",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 3, "extreme": 1, "covert": 2, "grandiose": 3, "malignant": 1, "communal": 1, "somatic": 4 }
+        },
+        {
+          "text": "Worship and constantly admire your qualities and achievements",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 1, "grandiose": 5, "malignant": 2, "communal": 2, "somatic": 3 }
+        },
+        {
+          "text": "Can be easily controlled and manipulated to serve your needs",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 5, "covert": 0, "grandiose": 2, "malignant": 5, "communal": 0, "somatic": 1 }
+        }
+      ]
+    },
+    {
+      "q": "Your deepest, most honest fear is probably:",
+      "options": [
+        {
+          "text": "Losing the people I love most or failing to protect them",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 0 }
+        },
+        {
+          "text": "Not reaching my full potential or making a meaningful impact",
+          "weights": { "healthy": 3, "slight": 4, "moderate": 1, "high": 0, "extreme": 0, "covert": 1, "grandiose": 0, "malignant": 0, "communal": 2, "somatic": 0 }
+        },
+        {
+          "text": "Being seen as ordinary or unremarkable by others",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 3, "extreme": 1, "covert": 3, "grandiose": 3, "malignant": 1, "communal": 1, "somatic": 3 }
+        },
+        {
+          "text": "Being exposed as imperfect or having my flaws revealed",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 4, "grandiose": 2, "malignant": 2, "communal": 2, "somatic": 4 }
+        },
+        {
+          "text": "Others realizing I'm not as special as I've convinced them",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 5, "covert": 3, "grandiose": 4, "malignant": 3, "communal": 1, "somatic": 2 }
+        }
+      ]
+    },
+    {
+      "q": "How do you handle being in situations where you're not the center of attention?",
+      "options": [
+        {
+          "text": "Perfectly comfortable - I enjoy observing and learning from others",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 0 }
+        },
+        {
+          "text": "Generally fine but prefer some recognition for my contributions",
+          "weights": { "healthy": 3, "slight": 4, "moderate": 2, "high": 0, "extreme": 0, "covert": 1, "grandiose": 1, "malignant": 0, "communal": 2, "somatic": 1 }
+        },
+        {
+          "text": "Anxious and actively try to redirect focus back to myself",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 3, "extreme": 1, "covert": 2, "grandiose": 4, "malignant": 1, "communal": 2, "somatic": 2 }
+        },
+        {
+          "text": "Angry and may act out or interrupt to regain attention",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 1, "grandiose": 5, "malignant": 3, "communal": 0, "somatic": 3 }
+        },
+        {
+          "text": "Leave immediately or sabotage whoever is getting attention",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 5, "covert": 0, "grandiose": 3, "malignant": 5, "communal": 0, "somatic": 1 }
+        }
+      ]
+    },
+    {
+      "q": "When someone disagrees with your strongly held opinion, you typically:",
+      "options": [
+        {
+          "text": "Consider their perspective openly and engage in respectful dialogue",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 0 }
+        },
+        {
+          "text": "Defend your view passionately but remain civil and respectful",
+          "weights": { "healthy": 3, "slight": 4, "moderate": 2, "high": 0, "extreme": 0, "covert": 1, "grandiose": 1, "malignant": 0, "communal": 2, "somatic": 0 }
+        },
+        {
+          "text": "Get irritated and argue more aggressively than necessary",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 3, "extreme": 1, "covert": 2, "grandiose": 3, "malignant": 2, "communal": 1, "somatic": 1 }
+        },
+        {
+          "text": "Take it as a personal attack on your intelligence or character",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 3, "grandiose": 4, "malignant": 3, "communal": 0, "somatic": 2 }
+        },
+        {
+          "text": "Cut them off entirely and work to discredit them to others",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 5, "covert": 1, "grandiose": 3, "malignant": 5, "communal": 0, "somatic": 1 }
+        }
+      ]
+    },
+    {
+      "q": "Your ideal legacy would be to be remembered as someone who:",
+      "options": [
+        {
+          "text": "Was genuinely kind, loving, and made others feel valued",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 2, "somatic": 0 }
+        },
+        {
+          "text": "Made a positive difference in the world and helped others thrive",
+          "weights": { "healthy": 4, "slight": 3, "moderate": 1, "high": 0, "extreme": 0, "covert": 1, "grandiose": 0, "malignant": 0, "communal": 4, "somatic": 0 }
+        },
+        {
+          "text": "Achieved fame and will be remembered forever",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 3, "extreme": 1, "covert": 1, "grandiose": 4, "malignant": 1, "communal": 0, "somatic": 3 }
+        },
+        {
+          "text": "Was recognized as the best who ever lived in their field",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 2, "grandiose": 5, "malignant": 2, "communal": 0, "somatic": 2 }
+        },
+        {
+          "text": "Had absolute power and control over how history remembers them",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 5, "covert": 0, "grandiose": 3, "malignant": 5, "communal": 0, "somatic": 1 }
+        }
+      ]
+    },
+    {
+      "q": "How much of your self-worth genuinely depends on external validation and praise?",
+      "options": [
+        {
+          "text": "Very little - I have a strong internal sense of my own worth",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 0, "somatic": 0 }
+        },
+        {
+          "text": "Some, but I have solid internal confidence to fall back on",
+          "weights": { "healthy": 4, "slight": 3, "moderate": 1, "high": 0, "extreme": 0, "covert": 1, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 1 }
+        },
+        {
+          "text": "Quite a bit - I need regular reassurance to feel good about myself",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 3, "extreme": 1, "covert": 4, "grandiose": 2, "malignant": 1, "communal": 3, "somatic": 4 }
+        },
+        {
+          "text": "Most of it - without praise and admiration I feel worthless",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 3, "grandiose": 4, "malignant": 2, "communal": 2, "somatic": 5 }
+        },
+        {
+          "text": "All of it - I am essentially what others think of me",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 5, "covert": 2, "grandiose": 3, "malignant": 3, "communal": 1, "somatic": 3 }
+        }
+      ]
+    },
+    {
+      "q": "When you look in the mirror, what do you honestly see reflected back?",
+      "options": [
+        {
+          "text": "A regular person with both strengths and flaws like everyone else",
+          "weights": { "healthy": 5, "slight": 2, "moderate": 0, "high": 0, "extreme": 0, "covert": 0, "grandiose": 0, "malignant": 0, "communal": 0, "somatic": 0 }
+        },
+        {
+          "text": "Someone who's pretty good but always working to improve",
+          "weights": { "healthy": 4, "slight": 3, "moderate": 1, "high": 0, "extreme": 0, "covert": 1, "grandiose": 0, "malignant": 0, "communal": 1, "somatic": 1 }
+        },
+        {
+          "text": "Someone who is superior to most people in important ways",
+          "weights": { "healthy": 1, "slight": 2, "moderate": 4, "high": 3, "extreme": 1, "covert": 3, "grandiose": 3, "malignant": 2, "communal": 1, "somatic": 2 }
+        },
+        {
+          "text": "Perfection that others consistently fail to appreciate properly",
+          "weights": { "healthy": 0, "slight": 1, "moderate": 2, "high": 4, "extreme": 3, "covert": 2, "grandiose": 5, "malignant": 2, "communal": 0, "somatic": 4 }
+        },
+        {
+          "text": "A god among mortals who deserves worship and reverence",
+          "weights": { "healthy": 0, "slight": 0, "moderate": 1, "high": 2, "extreme": 5, "covert": 0, "grandiose": 4, "malignant": 4, "communal": 0, "somatic": 3 }
+        }
+      ]
+    }
+  ],
+  "results": {
+    "healthy": {
+      "title": "Healthy Self-Esteem",
+      "description": "You demonstrate genuinely healthy self-esteem - a rare and valuable trait. Your sense of self-worth comes from within rather than external validation, and you can celebrate others' successes without feeling threatened. You admit mistakes without crushing shame, form authentic connections based on mutual respect, and don't need to feel superior to others to feel good about yourself. This psychological foundation allows for genuine relationships, personal growth, and emotional resilience. You're comfortable being human, with both strengths and flaws."
+    },
+    "slight": {
+      "title": "Slight Narcissistic Traits",
+      "description": "You exhibit mild narcissistic tendencies that are actually quite common and often adaptive. Occasional self-centeredness, desire for recognition, and competitive impulses are normal human traits that can fuel ambition and confidence when kept in check. You sometimes embellish stories or seek validation, but you generally maintain perspective about yourself and others. These traits become problematic only if they intensify or begin interfering with your relationships and empathy for others."
+    },
+    "moderate": {
+      "title": "Moderate Narcissism",
+      "description": "You show clear narcissistic patterns that are beginning to impact your relationships and worldview. You often see yourself as special or superior to others, struggle with criticism, and may manipulate situations to maintain your self-image. Your need for admiration is strong, and you might use others primarily for personal gain. While you can still function in relationships and society, these patterns are limiting your ability to form deep, authentic connections and may be causing problems in your personal and professional life."
+    },
+    "high": {
+      "title": "High Narcissistic Traits",
+      "description": "Your narcissistic traits are pronounced and likely causing significant problems in your relationships and life functioning. You see others primarily as sources of validation or obstacles to overcome rather than as full human beings with their own worth. Criticism feels like personal attacks, and you may respond with rage or revenge fantasies. Your sense of entitlement is strong, empathy for others is limited, and you struggle to maintain long-term relationships. These patterns are seriously impacting your ability to connect authentically with others."
+    },
+    "extreme": {
+      "title": "Extreme Narcissism",
+      "description": "You exhibit extreme narcissistic traits that align closely with clinical narcissistic personality patterns. Your world revolves entirely around maintaining a grandiose self-image, often at devastating cost to others and ultimately to yourself. You see people as objects to manipulate rather than humans to connect with, feel entitled to special treatment regardless of circumstances, and react with fury when your superiority is challenged. This level of narcissism is destructive to both yourself and everyone around you, making genuine relationships nearly impossible."
+    },
+    "covert": {
+      "title": "Covert Narcissist",
+      "description": "You're a hidden narcissist - outwardly humble or even self-deprecating, but inwardly convinced of your superiority. You believe you're special and deserving of recognition, but feel the world has failed to acknowledge your greatness. You're hypersensitive to criticism, prone to passive-aggressive behavior, and secretly judge almost everyone as inferior while playing the victim. Your narcissism is masked by apparent vulnerability, but the core belief in your specialness and entitlement remains strong. This creates a particularly painful form of narcissism where you suffer while also causing suffering to others."
+    },
+    "grandiose": {
+      "title": "Grandiose Narcissist",
+      "description": "You're the classic overt narcissist - bold, attention-seeking, and absolutely convinced of your superiority. You dominate conversations, exaggerate achievements, demand constant admiration, and expect special treatment wherever you go. Unlike covert narcissists, you're not hiding your belief that you're exceptional - you wear your superiority complex proudly. You likely have a booming voice, dramatic gestures, and an inability to understand why everyone isn't as fascinated by you as you are by yourself. This makes you exhausting to be around, even if initially charismatic."
+    },
+    "malignant": {
+      "title": "Malignant Narcissist",
+      "description": "You represent the most dangerous form of narcissism, combining grandiosity with antisocial traits, paranoia, and sadistic tendencies. Not only do you see yourself as superior, but you also enjoy causing others pain and view them as threats to eliminate. You're willing to destroy anyone who challenges your self-image, feel justified in using any means necessary to maintain power, and may take pleasure in others' suffering. This combination makes you potentially dangerous to others and represents a severe personality disorder that typically requires professional intervention."
+    },
+    "communal": {
+      "title": "Communal Narcissist",
+      "description": "Your narcissism hides behind a mask of helpfulness and altruism. You see yourself as the most caring, most giving, most empathetic person around - and you need everyone to know it. Your 'good deeds' are performed primarily for admiration and recognition rather than genuine care for others. You're the martyr who constantly reminds others of your sacrifices, using perceived virtue and selflessness as your source of superiority. You may work in helping professions or volunteer extensively, but always with an eye toward being seen as exceptionally compassionate."
+    },
+    "somatic": {
+      "title": "Somatic Narcissist",
+      "description": "Your narcissism is focused intensely on your physical appearance, body, fitness, or sexual appeal. You derive your sense of superiority primarily from how you look, your physical achievements, or sexual conquests rather than intellectual or emotional qualities. You see your body as your ticket to admiration and use physical attractiveness to manipulate others and gain attention. Aging, weight gain, or any physical changes pose an existential threat to your identity, as your entire self-worth is tied to physical attributes. You likely spend excessive time and money on appearance and may have a history of using your looks to get what you want."
+    }
+  },
+  "deepAnalysis": {
+    "healthy": "Your healthy self-esteem represents a remarkable achievement in our narcissism-obsessed culture. You possess the rare ability to feel genuinely good about yourself without needing to feel superior to others. This emotional foundation allows you to form authentic relationships, take criticism constructively, and celebrate others' successes without feeling diminished.\n\nYour self-worth appears to come from internal values, personal growth, and meaningful connections rather than external validation or comparison to others. This suggests strong emotional intelligence and likely stems from secure attachment patterns in your early relationships. You understand that everyone has strengths and weaknesses, including yourself.\n\nIn relationships, you probably function as a secure base for others - offering genuine empathy, celebrating their achievements, and providing support during difficulties without making it about yourself. Your ability to admit mistakes and apologize sincerely makes you trustworthy and allows for deeper intimacy with others.\n\nThe challenge for people with healthy self-esteem is often dealing with those who don't share these qualities. You may find yourself confused or hurt by narcissistic behavior from others, struggling to understand why someone would need to put others down to feel good about themselves. Your empathy and authenticity are your greatest strengths, but guard against being exploited by those with darker intentions.",
+    "slight": "Your slight narcissistic traits place you in the normal range of human psychology. Most people have some degree of narcissistic tendencies - they're actually adaptive in many situations and can drive healthy ambition, confidence, and self-advocacy. The key is maintaining awareness of these tendencies so they don't grow into something more problematic.\n\nYour occasional self-centeredness and desire for recognition are natural human impulses that become concerning only when they begin to interfere with your empathy for others or your ability to maintain balanced relationships. You likely still have the capacity for genuine connection and can feel authentic happiness for others' successes, even if there's sometimes a twinge of envy.\n\nThese traits may actually serve you well in competitive environments or when you need to advocate for yourself. The confidence that comes with mild narcissistic tendencies can be an asset in leadership roles, job interviews, or social situations where self-promotion is necessary.\n\nYour growth opportunity lies in continuing to develop your empathy and emotional intelligence while maintaining healthy confidence. Pay attention to moments when you find yourself making conversations about you or feeling threatened by others' success. Practice genuine curiosity about others and celebrate their achievements without reservation.",
+    "moderate": "Your moderate narcissistic traits are beginning to create meaningful problems in your life, even if you don't fully recognize it yet. You likely have a strong need to see yourself as special or superior, which requires constant maintenance through external validation, putting others down, or avoiding situations where you might appear ordinary.\n\nThis level of narcissism often manifests as difficulty maintaining long-term relationships, problems with authority figures who don't give you special treatment, and a tendency to blame others when things go wrong. You may find that people initially like you but gradually become frustrated with your need for attention and lack of genuine interest in their experiences.\n\nYour self-image probably feels fragile, requiring constant protection through various defense mechanisms. Criticism hits particularly hard because it threatens your carefully maintained sense of superiority. You might find yourself manipulating situations or people to ensure you come out looking good, often without fully realizing you're doing it.\n\nThe good news is that moderate narcissism is still within the range where significant change is possible with effort and often professional help. Developing genuine empathy, learning to handle criticism, and finding sources of self-worth beyond comparison to others can dramatically improve your relationships and life satisfaction. The first step is honest self-reflection about how your behavior affects others.",
+    "high": "Your high level of narcissistic traits is significantly impacting your ability to function effectively in relationships and society. You likely see others primarily as sources of validation, obstacles to overcome, or tools to be used rather than as complete human beings deserving of respect and consideration.\n\nThis level of narcissism typically creates a pattern of unstable relationships characterized by idealization followed by devaluation. You may initially charm people but then become angry or dismissive when they fail to provide the constant admiration you need. Criticism feels like devastating attacks on your core identity, leading to defensive reactions that can include rage, blame, or revenge fantasies.\n\nYour sense of entitlement probably extends to most areas of life - you expect special treatment, feel rules don't fully apply to you, and become genuinely angry when the world doesn't accommodate your needs. This creates ongoing conflict with employers, friends, family members, and romantic partners who eventually tire of the one-sided nature of their relationship with you.\n\nProfessional help is strongly recommended at this level, as these patterns are unlikely to change through willpower alone. Therapy can help you develop genuine empathy, learn to handle criticism without devastating emotional reactions, and find healthier sources of self-esteem. The alternative is likely continued relationship failures and increasing isolation as people learn to avoid the emotional cost of being close to you.",
+    "extreme": "Your extreme narcissistic traits represent a severe personality pattern that is causing devastating damage to your relationships and likely to your own long-term wellbeing. You appear to live in a reality where you are the central character and others exist primarily to serve your needs or validate your superiority.\n\nThis level of narcissism typically involves a complete inability to genuinely empathize with others, seeing them instead as objects to be manipulated or obstacles to be eliminated. When people fail to provide the worship you feel you deserve, you may respond with rage, revenge, or complete dismissal of their worth as human beings.\n\nYour relationships are likely characterized by a pattern of intense idealization followed by brutal devaluation and discard. You may go through romantic partners, friendships, and even family relationships in cycles, always blaming others for the failures while never examining your own role in these destructive patterns.\n\nThe most concerning aspect of extreme narcissism is the complete lack of genuine self-reflection or ability to take responsibility for harm caused to others. You likely experience any criticism or challenge to your grandiose self-image as an attack worthy of retaliation, making it nearly impossible for others to have honest relationships with you.\n\nProfessional intervention is crucial at this level, though the irony is that extreme narcissists rarely seek help voluntarily since they don't believe anything is wrong with them. The alternative trajectory involves increasing isolation, failed relationships, and potential legal or professional consequences as your behavior becomes increasingly destructive to others.",
+    "covert": "Your covert narcissism represents a particularly painful form of the disorder, combining grandiose self-perception with a victim mentality that makes you suffer while also damaging your relationships. Unlike grandiose narcissists who openly display their superiority, you hide your belief in your specialness behind a mask of humility or vulnerability.\n\nYou likely feel that you're more sensitive, more intelligent, more artistic, or more spiritually advanced than others, but you believe the world has failed to recognize your exceptional qualities. This creates a chronic sense of being misunderstood and underappreciated, leading to passive-aggressive behavior, sulking, and subtle putdowns of others disguised as insight or concern.\n\nYour hypersensitivity to criticism stems from the gap between your internal grandiose self-image and the reality of how others see you. When people don't treat you as the special person you believe yourself to be, you may withdraw, become depressed, or engage in subtle forms of revenge while maintaining your image as the victim.\n\nCovert narcissism is particularly damaging to close relationships because your partners or family members often feel confused and guilty. They sense your judgmental attitude and need for special treatment, but you present yourself as selfless or suffering, making it difficult for them to address the problem directly.\n\nRecovery requires honest acknowledgment of your grandiose beliefs and sense of entitlement, developing genuine (rather than performed) empathy, and learning to find self-worth through authentic connections rather than feelings of superiority. Professional help is often necessary to break through the complex defense mechanisms that maintain this pattern.",
+    "grandiose": "Your grandiose narcissism makes you the most recognizable type of narcissist - bold, attention-seeking, and completely convinced of your superiority. Unlike covert narcissists who hide their grandiosity, you display it proudly, expecting others to recognize and celebrate your exceptional qualities.\n\nYou likely dominate social situations, steer conversations toward yourself, and have difficulty understanding why others might not be as fascinated by your thoughts and experiences as you are. Your need for admiration is constant and obvious, and you probably become genuinely confused or angry when people don't provide the level of attention and praise you feel you deserve.\n\nYour relationships typically follow a predictable pattern: initial charm and intensity that attracts people, followed by increasing demands for admiration and decreasing interest in others' needs or experiences. Partners may initially be swept up by your confidence and charisma, but eventually become exhausted by the one-sided nature of the relationship.\n\nThe grandiose presentation often masks deep insecurity and fragility. When your superiority is challenged or when you face genuine failure, you may experience what feels like a complete collapse of self-worth. This vulnerability is typically hidden behind increased aggression, blame of others, or desperate attempts to reassert dominance.\n\nYour path to healthier functioning involves developing genuine interest in others as complete human beings rather than sources of validation. Learning to listen without redirecting conversations to yourself, celebrating others' achievements without feeling diminished, and finding self-worth beyond constant comparison to others are crucial steps. Professional help can provide the structure and accountability needed for this difficult but essential transformation.",
+    "malignant": "Your malignant narcissism represents the most dangerous form of narcissistic personality pathology, combining grandiose narcissism with antisocial, paranoid, and sadistic features. This combination makes you potentially harmful to others and indicates a severe personality disorder that typically requires intensive professional intervention.\n\nUnlike other forms of narcissism that primarily seek admiration, malignant narcissism involves a desire to dominate and control others through fear, manipulation, and cruelty. You may take genuine pleasure in others' pain, viewing their suffering as confirmation of your power and superiority. This sadistic element distinguishes malignant narcissism from other forms and makes it particularly destructive.\n\nYour paranoid tendencies likely lead you to see threats everywhere, interpreting neutral actions as attacks on your status or authority. This creates a cycle where you strike out preemptively against perceived enemies, often destroying relationships and opportunities in the process. Your antisocial traits mean you feel little genuine remorse for the harm you cause others.\n\nRelationships in your life are likely characterized by extreme manipulation, emotional or psychological abuse, and cycles of punishment for those who fail to submit to your control. You may use intimidation, threats, or actual aggression to maintain dominance, and you probably view any attempt at equality in relationships as an intolerable challenge to your authority.\n\nThe prognosis for malignant narcissism is generally poor because the condition typically involves a complete lack of motivation to change, combined with an inability to form the therapeutic alliance necessary for effective treatment. However, if legal consequences, complete social isolation, or other major life crises create sufficient motivation, intensive therapy focusing on developing empathy, impulse control, and healthy relationship patterns may offer some hope for improvement."
+  }
+}

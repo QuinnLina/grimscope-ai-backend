@@ -1,0 +1,702 @@
+{
+  "testId": "shadow-self",
+  "title": "Shadow Self Test",
+  "description": "Uncover the parts of your personality you hide from others and yourself",
+  "traits": {
+    "people_pleaser": "Desperately seeks approval while building internal resentment",
+    "narcissist": "Believes they are fundamentally superior to others",
+    "vindictive": "Keeps detailed records of slights and plans elaborate revenge",
+    "anxious": "Constantly worries and prepares for worst-case scenarios",
+    "overthinker": "Dissects every interaction searching for hidden meanings",
+    "judgmental": "Maintains harsh internal criticism of everyone and everything",
+    "insecure": "Fears being exposed as inadequate or fraudulent",
+    "attention_seeker": "Needs constant validation and recognition to feel worthy",
+    "passive_aggressive": "Expresses anger through indirect methods and subtle sabotage",
+    "obsessive": "Cannot let things go and researches compulsively",
+    "balanced": "Has integrated their shadow and light aspects healthily"
+  },
+  "questions": [
+    {
+      "question": "When someone cuts in front of you in line, the voice in your head immediately says:",
+      "answers": [
+        {
+          "text": "They probably have an emergency or didn't see me",
+          "traits": {"people_pleaser": 4, "anxious": 2, "balanced": 1, "insecure": 0, "vindictive": 0}
+        },
+        {
+          "text": "I should politely let them know there's a line here",
+          "traits": {"balanced": 3, "people_pleaser": 2, "anxious": 1, "vindictive": 0, "passive_aggressive": 0}
+        },
+        {
+          "text": "What an inconsiderate piece of shit",
+          "traits": {"vindictive": 4, "judgmental": 3, "narcissist": 2, "people_pleaser": 0, "balanced": 0}
+        },
+        {
+          "text": "I hope karma comes for them later today",
+          "traits": {"vindictive": 4, "passive_aggressive": 3, "judgmental": 2, "people_pleaser": 0, "balanced": 0}
+        },
+        {
+          "text": "I will remember their face and this moment forever",
+          "traits": {"obsessive": 4, "vindictive": 3, "passive_aggressive": 2, "anxious": 1, "balanced": 0}
+        }
+      ]
+    },
+    {
+      "question": "You discover a wallet on the ground containing $500 cash, credit cards, but no clear ID. Your gut reaction:",
+      "answers": [
+        {
+          "text": "Turn it into the police immediately - someone is probably panicking",
+          "traits": {"balanced": 4, "people_pleaser": 3, "narcissist": 0, "vindictive": 0, "obsessive": 0}
+        },
+        {
+          "text": "Post about it everywhere online to find the owner",
+          "traits": {"attention_seeker": 4, "people_pleaser": 3, "narcissist": 1, "balanced": 2, "vindictive": 0}
+        },
+        {
+          "text": "Keep the cash, turn in the wallet - they'll never know",
+          "traits": {"narcissist": 4, "vindictive": 3, "balanced": 0, "people_pleaser": 0, "anxious": 0}
+        },
+        {
+          "text": "Spend twenty minutes having an internal moral debate",
+          "traits": {"overthinker": 4, "anxious": 3, "people_pleaser": 2, "balanced": 1, "narcissist": 0}
+        },
+        {
+          "text": "Consider it a gift from the universe - I clearly needed this",
+          "traits": {"narcissist": 5, "vindictive": 2, "balanced": 0, "people_pleaser": 0, "anxious": 0}
+        }
+      ]
+    },
+    {
+      "question": "At 3 AM when you're alone with your thoughts, you're most likely:",
+      "answers": [
+        {
+          "text": "Replaying every humiliating moment from the past decade",
+          "traits": {"overthinker": 4, "anxious": 4, "insecure": 3, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "Planning elaborate comebacks to arguments that will never happen",
+          "traits": {"vindictive": 3, "passive_aggressive": 4, "overthinker": 2, "narcissist": 1, "balanced": 0}
+        },
+        {
+          "text": "Deep-diving into people's social media from years ago",
+          "traits": {"obsessive": 4, "insecure": 3, "attention_seeker": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Writing brutal messages you'll never send",
+          "traits": {"passive_aggressive": 4, "vindictive": 3, "insecure": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Actually at peace, maybe reading or reflecting",
+          "traits": {"balanced": 4, "people_pleaser": 1, "narcissist": 0, "vindictive": 0, "obsessive": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your deepest fear is people discovering that you:",
+      "answers": [
+        {
+          "text": "Secretly despise most of the people you're sweet to",
+          "traits": {"people_pleaser": 4, "passive_aggressive": 4, "vindictive": 3, "balanced": 0, "narcissist": 1}
+        },
+        {
+          "text": "Genuinely believe you're superior to almost everyone",
+          "traits": {"narcissist": 4, "judgmental": 4, "insecure": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Have absolutely no clue what you're doing in life",
+          "traits": {"insecure": 4, "anxious": 3, "people_pleaser": 2, "balanced": 1, "narcissist": 0}
+        },
+        {
+          "text": "Would sacrifice anyone to save yourself",
+          "traits": {"narcissist": 4, "vindictive": 3, "balanced": 0, "people_pleaser": 0, "insecure": 0}
+        },
+        {
+          "text": "Are far more broken and damaged than you appear",
+          "traits": {"insecure": 4, "people_pleaser": 3, "anxious": 3, "balanced": 0, "narcissist": 0}
+        }
+      ]
+    },
+    {
+      "question": "When someone unloads their problems on you, internally you:",
+      "answers": [
+        {
+          "text": "Feel genuinely moved and want to help them heal",
+          "traits": {"balanced": 4, "people_pleaser": 3, "narcissist": 0, "vindictive": 0, "judgmental": 0}
+        },
+        {
+          "text": "Listen while mentally cataloging how your problems are worse",
+          "traits": {"narcissist": 4, "attention_seeker": 3, "insecure": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Nod sympathetically while planning what to share about yourself",
+          "traits": {"attention_seeker": 4, "narcissist": 3, "people_pleaser": 2, "balanced": 0, "vindictive": 0}
+        },
+        {
+          "text": "Feel annoyed that they've made you their unpaid therapist",
+          "traits": {"judgmental": 4, "passive_aggressive": 3, "vindictive": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Wonder if they're exaggerating for sympathy and attention",
+          "traits": {"judgmental": 4, "narcissist": 3, "insecure": 2, "balanced": 0, "people_pleaser": 0}
+        }
+      ]
+    },
+    {
+      "question": "You spot your ex with someone significantly more attractive. Your honest reaction:",
+      "answers": [
+        {
+          "text": "Feel a brief pang but genuinely hope they're happy",
+          "traits": {"balanced": 4, "people_pleaser": 2, "narcissist": 0, "vindictive": 0, "insecure": 0}
+        },
+        {
+          "text": "Feel the sting but quickly redirect your energy elsewhere",
+          "traits": {"balanced": 3, "insecure": 2, "people_pleaser": 1, "narcissist": 0, "vindictive": 0}
+        },
+        {
+          "text": "Immediately analyze what they have that you lack",
+          "traits": {"insecure": 4, "overthinker": 4, "anxious": 3, "balanced": 0, "narcissist": 1}
+        },
+        {
+          "text": "Hope they're terrible in bed and boring to talk to",
+          "traits": {"vindictive": 4, "passive_aggressive": 3, "narcissist": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Start mentally planning your revenge glow-up",
+          "traits": {"vindictive": 3, "narcissist": 4, "attention_seeker": 3, "balanced": 0, "people_pleaser": 0}
+        }
+      ]
+    },
+    {
+      "question": "If you could read minds for one day, you'd be most tempted to discover:",
+      "answers": [
+        {
+          "text": "What people really think about me when I'm not around",
+          "traits": {"insecure": 4, "attention_seeker": 4, "anxious": 3, "balanced": 0, "narcissist": 1}
+        },
+        {
+          "text": "Who has been talking behind my back and what they said",
+          "traits": {"vindictive": 4, "obsessive": 3, "insecure": 3, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "My crush's honest thoughts and feelings about me",
+          "traits": {"obsessive": 3, "insecure": 3, "attention_seeker": 2, "balanced": 1, "narcissist": 0}
+        },
+        {
+          "text": "How to genuinely help people with their hidden pain",
+          "traits": {"balanced": 4, "people_pleaser": 3, "narcissist": 0, "vindictive": 0, "judgmental": 0}
+        },
+        {
+          "text": "Everyone's most shameful and embarrassing secrets",
+          "traits": {"judgmental": 4, "narcissist": 3, "obsessive": 3, "balanced": 0, "people_pleaser": 0}
+        }
+      ]
+    },
+    {
+      "question": "Looking back at your childhood, you were most likely the kid who:",
+      "answers": [
+        {
+          "text": "Desperately tried to make everyone happy and comfortable",
+          "traits": {"people_pleaser": 4, "anxious": 3, "insecure": 2, "balanced": 1, "narcissist": 0}
+        },
+        {
+          "text": "Always needed to be right and prove others wrong",
+          "traits": {"narcissist": 4, "vindictive": 3, "insecure": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Worried obsessively about everything that could go wrong",
+          "traits": {"anxious": 4, "overthinker": 4, "insecure": 3, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "Got revenge in subtle, creative ways when hurt",
+          "traits": {"vindictive": 4, "passive_aggressive": 4, "narcissist": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Felt like an alien studying human behavior",
+          "traits": {"obsessive": 4, "overthinker": 3, "insecure": 3, "balanced": 2, "people_pleaser": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your social media presence primarily serves to:",
+      "answers": [
+        {
+          "text": "Share genuine moments and authentic experiences",
+          "traits": {"balanced": 4, "people_pleaser": 2, "narcissist": 0, "attention_seeker": 0, "vindictive": 0}
+        },
+        {
+          "text": "Carefully curate an image of success and happiness",
+          "traits": {"attention_seeker": 4, "insecure": 3, "narcissist": 2, "balanced": 0, "people_pleaser": 1}
+        },
+        {
+          "text": "Send passive-aggressive messages to specific people",
+          "traits": {"passive_aggressive": 4, "vindictive": 3, "obsessive": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Rarely post - I'm too paranoid about judgment",
+          "traits": {"anxious": 3, "insecure": 4, "overthinker": 3, "balanced": 1, "attention_seeker": 0}
+        },
+        {
+          "text": "Lurk silently while mentally judging everyone else's posts",
+          "traits": {"judgmental": 4, "obsessive": 3, "narcissist": 2, "balanced": 0, "people_pleaser": 0}
+        }
+      ]
+    },
+    {
+      "question": "When someone doesn't respond to your text within a few hours, you:",
+      "answers": [
+        {
+          "text": "Assume they're busy and patiently wait for their response",
+          "traits": {"balanced": 3, "people_pleaser": 2, "anxious": 0, "insecure": 0, "vindictive": 0}
+        },
+        {
+          "text": "Start drafting increasingly desperate follow-up messages",
+          "traits": {"anxious": 4, "insecure": 3, "people_pleaser": 3, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "Obsessively analyze your last message for hidden offenses",
+          "traits": {"overthinker": 4, "anxious": 3, "insecure": 3, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "Plan to deliberately ignore them when they finally respond",
+          "traits": {"passive_aggressive": 4, "vindictive": 3, "narcissist": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Immediately spiral into 'they must hate me' territory",
+          "traits": {"insecure": 4, "anxious": 4, "overthinker": 3, "balanced": 0, "narcissist": 0}
+        }
+      ]
+    },
+    {
+      "question": "The secret driving force behind most of your life choices is:",
+      "answers": [
+        {
+          "text": "Proving wrong everyone who ever doubted or dismissed you",
+          "traits": {"vindictive": 4, "narcissist": 3, "insecure": 3, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Being universally liked and accepted by everyone",
+          "traits": {"people_pleaser": 4, "attention_seeker": 4, "insecure": 3, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "Avoiding any situation where you might fail or look foolish",
+          "traits": {"anxious": 4, "insecure": 3, "people_pleaser": 2, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "Demonstrating your superiority and intelligence to others",
+          "traits": {"narcissist": 4, "attention_seeker": 3, "insecure": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Finding genuine inner peace and contentment",
+          "traits": {"balanced": 4, "people_pleaser": 1, "narcissist": 0, "vindictive": 0, "anxious": 0}
+        }
+      ]
+    },
+    {
+      "question": "When someone achieves something you desperately wanted, your gut reaction is:",
+      "answers": [
+        {
+          "text": "Genuinely celebrate their success and feel inspired",
+          "traits": {"balanced": 4, "people_pleaser": 2, "narcissist": 0, "vindictive": 0, "insecure": 0}
+        },
+        {
+          "text": "Congratulate them while dying a thousand deaths inside",
+          "traits": {"people_pleaser": 4, "insecure": 4, "passive_aggressive": 3, "balanced": 0, "narcissist": 1}
+        },
+        {
+          "text": "Immediately point out how they probably just got lucky",
+          "traits": {"narcissist": 4, "judgmental": 4, "vindictive": 3, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Start aggressively one-upping them with your own achievements",
+          "traits": {"narcissist": 4, "attention_seeker": 4, "insecure": 3, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Use their success as fuel to work even harder",
+          "traits": {"vindictive": 3, "narcissist": 2, "balanced": 2, "insecure": 1, "people_pleaser": 0}
+        }
+      ]
+    },
+    {
+      "question": "If someone examined your browser history, they'd discover you:",
+      "answers": [
+        {
+          "text": "Obsessively research symptoms for diseases you might have",
+          "traits": {"anxious": 4, "overthinker": 4, "insecure": 3, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "Compulsively stalk people from your past on social media",
+          "traits": {"obsessive": 4, "vindictive": 3, "insecure": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Compare yourself to more successful people constantly",
+          "traits": {"insecure": 4, "narcissist": 3, "attention_seeker": 3, "balanced": 0, "people_pleaser": 1}
+        },
+        {
+          "text": "Read endless articles about psychology and self-improvement",
+          "traits": {"balanced": 3, "overthinker": 3, "insecure": 2, "people_pleaser": 1, "narcissist": 0}
+        },
+        {
+          "text": "Mainly watch videos of cute animals and wholesome content",
+          "traits": {"balanced": 3, "people_pleaser": 2, "anxious": 1, "narcissist": 0, "vindictive": 0}
+        }
+      ]
+    },
+    {
+      "question": "If you possessed one superpower, you'd choose:",
+      "answers": [
+        {
+          "text": "Invisibility - to observe people when they think no one's watching",
+          "traits": {"obsessive": 4, "insecure": 3, "judgmental": 3, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Mind control - to make people genuinely like and accept you",
+          "traits": {"insecure": 4, "people_pleaser": 3, "narcissist": 2, "balanced": 0, "vindictive": 0}
+        },
+        {
+          "text": "Time travel - to undo every mistake and embarrassment",
+          "traits": {"insecure": 4, "anxious": 3, "overthinker": 3, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "Telepathy - to know what people really think about you",
+          "traits": {"insecure": 4, "anxious": 3, "attention_seeker": 3, "balanced": 0, "narcissist": 1}
+        },
+        {
+          "text": "Healing powers - to take away people's pain and suffering",
+          "traits": {"balanced": 4, "people_pleaser": 3, "narcissist": 0, "vindictive": 0, "judgmental": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your most honest confession would be:",
+      "answers": [
+        {
+          "text": "I care way too much about what strangers think of me",
+          "traits": {"people_pleaser": 4, "insecure": 4, "anxious": 3, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "I genuinely think I'm better than most people I encounter",
+          "traits": {"narcissist": 4, "judgmental": 4, "insecure": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "I hold grudges for years and never truly forgive",
+          "traits": {"vindictive": 4, "passive_aggressive": 4, "obsessive": 3, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "I'm terrified of anyone truly knowing the real me",
+          "traits": {"insecure": 4, "anxious": 4, "people_pleaser": 3, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "I'm actually pretty happy with who I am",
+          "traits": {"balanced": 4, "people_pleaser": 1, "narcissist": 0, "vindictive": 0, "insecure": 0}
+        }
+      ]
+    },
+    {
+      "question": "In group conversations, you typically:",
+      "answers": [
+        {
+          "text": "Listen thoughtfully and contribute meaningfully when appropriate",
+          "traits": {"balanced": 3, "people_pleaser": 2, "narcissist": 0, "attention_seeker": 0, "vindictive": 0}
+        },
+        {
+          "text": "Wait impatiently for your turn to share something about yourself",
+          "traits": {"attention_seeker": 4, "narcissist": 4, "insecure": 3, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Silently judge everyone's intelligence and contributions",
+          "traits": {"judgmental": 4, "narcissist": 3, "obsessive": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Agree with whoever seems most popular or dominant",
+          "traits": {"people_pleaser": 4, "insecure": 3, "anxious": 2, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "Plan your escape route and count down until you can leave",
+          "traits": {"anxious": 3, "insecure": 3, "overthinker": 2, "balanced": 1, "attention_seeker": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your ideal form of revenge would be:",
+      "answers": [
+        {
+          "text": "I don't believe in revenge - forgiveness is more powerful",
+          "traits": {"balanced": 4, "people_pleaser": 2, "narcissist": 0, "vindictive": 0, "passive_aggressive": 0}
+        },
+        {
+          "text": "Making them realize exactly what they lost when they lost me",
+          "traits": {"vindictive": 3, "narcissist": 3, "attention_seeker": 3, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Becoming so successful it makes them feel small and insignificant",
+          "traits": {"narcissist": 4, "vindictive": 3, "attention_seeker": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Slowly, methodically destroying their reputation and relationships",
+          "traits": {"vindictive": 4, "obsessive": 4, "passive_aggressive": 3, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Having them come crawling back, begging for forgiveness",
+          "traits": {"narcissist": 4, "vindictive": 4, "attention_seeker": 3, "balanced": 0, "people_pleaser": 0}
+        }
+      ]
+    },
+    {
+      "question": "If you could erase one memory from everyone's minds, it would be:",
+      "answers": [
+        {
+          "text": "Nothing - our mistakes and failures make us human",
+          "traits": {"balanced": 4, "people_pleaser": 2, "narcissist": 0, "insecure": 0, "vindictive": 0}
+        },
+        {
+          "text": "That time I completely humiliated myself in public",
+          "traits": {"insecure": 4, "anxious": 4, "overthinker": 3, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "When I showed my true feelings and got brutally rejected",
+          "traits": {"insecure": 4, "people_pleaser": 3, "vindictive": 2, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "The moment someone saw through my carefully crafted facade",
+          "traits": {"insecure": 4, "people_pleaser": 3, "narcissist": 2, "balanced": 0, "vindictive": 0}
+        },
+        {
+          "text": "Every instance where I appeared weak or vulnerable",
+          "traits": {"narcissist": 4, "insecure": 3, "vindictive": 2, "balanced": 0, "people_pleaser": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your secret guilty pleasure is:",
+      "answers": [
+        {
+          "text": "Watching cocky people fail spectacularly and publicly",
+          "traits": {"vindictive": 4, "judgmental": 3, "narcissist": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Being the person everyone comes to for wisdom and advice",
+          "traits": {"narcissist": 3, "attention_seeker": 3, "people_pleaser": 2, "balanced": 1, "vindictive": 0}
+        },
+        {
+          "text": "Knowing people's secrets that they think are hidden",
+          "traits": {"obsessive": 4, "narcissist": 3, "judgmental": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Being underestimated then shocking people with your abilities",
+          "traits": {"vindictive": 3, "narcissist": 3, "attention_seeker": 2, "balanced": 1, "people_pleaser": 0}
+        },
+        {
+          "text": "Finding genuine peace in simple, quiet moments",
+          "traits": {"balanced": 4, "people_pleaser": 1, "narcissist": 0, "vindictive": 0, "attention_seeker": 0}
+        }
+      ]
+    },
+    {
+      "question": "When someone fails to acknowledge your help or kindness, you:",
+      "answers": [
+        {
+          "text": "Feel deeply hurt but suffer in silence",
+          "traits": {"people_pleaser": 4, "insecure": 4, "passive_aggressive": 3, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "Make sure they eventually know exactly what you did for them",
+          "traits": {"attention_seeker": 4, "passive_aggressive": 3, "narcissist": 2, "balanced": 0, "people_pleaser": 1}
+        },
+        {
+          "text": "Remember it forever and gradually help them less",
+          "traits": {"vindictive": 4, "passive_aggressive": 4, "obsessive": 3, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Assume they're distracted and genuinely didn't notice",
+          "traits": {"balanced": 3, "people_pleaser": 3, "narcissist": 0, "vindictive": 0, "passive_aggressive": 0}
+        },
+        {
+          "text": "Question your own motivations for helping in the first place",
+          "traits": {"balanced": 3, "overthinker": 3, "insecure": 2, "people_pleaser": 1, "narcissist": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your biggest relationship fear is:",
+      "answers": [
+        {
+          "text": "Being abandoned when they see who I really am underneath",
+          "traits": {"insecure": 4, "people_pleaser": 4, "anxious": 3, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "Caring more deeply than they do about the relationship",
+          "traits": {"insecure": 4, "anxious": 3, "people_pleaser": 3, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "Them realizing they could easily do better than me",
+          "traits": {"insecure": 4, "people_pleaser": 3, "anxious": 3, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "Having to be completely vulnerable and emotionally honest",
+          "traits": {"insecure": 4, "anxious": 3, "narcissist": 2, "balanced": 0, "people_pleaser": 1}
+        },
+        {
+          "text": "Losing my hard-won independence and sense of self",
+          "traits": {"balanced": 3, "narcissist": 2, "vindictive": 1, "people_pleaser": 0, "insecure": 0}
+        }
+      ]
+    },
+    {
+      "question": "If you discovered someone spreading gossip about you, you'd:",
+      "answers": [
+        {
+          "text": "Confront them directly and ask for an honest conversation",
+          "traits": {"balanced": 3, "vindictive": 1, "narcissist": 1, "people_pleaser": 0, "passive_aggressive": 0}
+        },
+        {
+          "text": "Start an underground campaign spreading worse gossip about them",
+          "traits": {"vindictive": 4, "passive_aggressive": 3, "obsessive": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Obsess endlessly over what they might be saying",
+          "traits": {"anxious": 4, "overthinker": 4, "obsessive": 3, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "Desperately try to figure out what you did wrong",
+          "traits": {"people_pleaser": 3, "insecure": 4, "anxious": 3, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "Cut them completely out of your life without explanation",
+          "traits": {"vindictive": 4, "passive_aggressive": 3, "narcissist": 2, "balanced": 0, "people_pleaser": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your relationship with money reveals that you:",
+      "answers": [
+        {
+          "text": "Hoard it obsessively because poverty terrifies you",
+          "traits": {"anxious": 4, "insecure": 3, "overthinker": 2, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "Spend it strategically to impress and gain social status",
+          "traits": {"insecure": 4, "attention_seeker": 3, "narcissist": 2, "balanced": 0, "people_pleaser": 1}
+        },
+        {
+          "text": "Use it as a tool to control situations and people",
+          "traits": {"narcissist": 4, "vindictive": 4, "passive_aggressive": 3, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "Give it away freely to make people like you",
+          "traits": {"people_pleaser": 4, "insecure": 3, "attention_seeker": 2, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "Have a healthy, balanced relationship with it",
+          "traits": {"balanced": 4, "people_pleaser": 1, "narcissist": 0, "vindictive": 0, "insecure": 0}
+        }
+      ]
+    },
+    {
+      "question": "Your biggest internal struggle is between:",
+      "answers": [
+        {
+          "text": "Desperately wanting to be special while feeling utterly ordinary",
+          "traits": {"narcissist": 4, "insecure": 4, "attention_seeker": 3, "balanced": 0, "people_pleaser": 1}
+        },
+        {
+          "text": "Needing people desperately but not trusting anyone completely",
+          "traits": {"insecure": 4, "anxious": 4, "people_pleaser": 3, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "Wanting to help others but resenting being constantly used",
+          "traits": {"people_pleaser": 3, "passive_aggressive": 4, "vindictive": 3, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "Knowing I'm deeply flawed while pretending to be perfect",
+          "traits": {"insecure": 4, "people_pleaser": 3, "narcissist": 2, "balanced": 0, "vindictive": 0}
+        },
+        {
+          "text": "Accepting myself as I am while still wanting to grow",
+          "traits": {"balanced": 4, "people_pleaser": 1, "narcissist": 0, "vindictive": 0, "insecure": 0}
+        }
+      ]
+    },
+    {
+      "question": "When you say 'I'm fine' but you're really not, you mean:",
+      "answers": [
+        {
+          "text": "I'm not fine but don't want to burden you with my problems",
+          "traits": {"people_pleaser": 4, "insecure": 4, "anxious": 3, "balanced": 0, "narcissist": 0}
+        },
+        {
+          "text": "I'm not fine and you should have figured that out by now",
+          "traits": {"passive_aggressive": 4, "narcissist": 3, "vindictive": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "I'm not fine but you wouldn't understand my pain anyway",
+          "traits": {"narcissist": 3, "insecure": 4, "judgmental": 3, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "I'm not fine and I'm angry that you even have to ask",
+          "traits": {"passive_aggressive": 4, "vindictive": 3, "narcissist": 2, "balanced": 0, "people_pleaser": 0}
+        },
+        {
+          "text": "I'm genuinely working through it and will be okay",
+          "traits": {"balanced": 4, "people_pleaser": 1, "narcissist": 0, "vindictive": 0, "passive_aggressive": 0}
+        }
+      ]
+    }
+  ],
+  "results": {
+    "people_pleaser": {
+      "title": "The Shadow Pleaser",
+      "description": "Your shadow self is a resentful people-pleaser who smiles through gritted teeth. You've become addicted to approval while secretly building mountains of rage.",
+      "extended": "Deep beneath your agreeable surface lies a seething ocean of resentment. You've spent so long saying yes when you mean no, smiling when you're furious, and accommodating when you want to scream, that your shadow has become a pressure cooker of suppressed emotions. You genuinely believe that your worth depends on making others happy, but your shadow knows the terrible truth: you're starting to hate the very people you're trying so desperately to please.\n\nYour shadow whispers the words you'll never say out loud: 'Why can't they see how much I sacrifice for them?' It keeps a detailed mental ledger of every favor given and never returned, every time you put others first while being taken for granted. The irony is devastating - in your quest to be loved, you've become invisible to yourself. Your shadow has transformed your kindness into a weapon of self-destruction.\n\nThe most painful part? Your shadow suspects that people don't actually love the real you - they love the convenient, agreeable version you've created. You're terrified that if you ever said no, set a boundary, or expressed a genuine need, everyone would abandon you. So you continue the exhausting performance, while your shadow grows more bitter with each curtain call, documenting every moment of being taken for granted.\n\nYour healing journey begins with the revolutionary act of disappointing someone. Start small - say no to something that doesn't serve you. Notice that the world doesn't end. Your shadow isn't your enemy; it's your inner child screaming to be seen and valued for who you truly are, not what you can provide. The rage you feel is actually love turned inward - love that deserves to be directed toward your own well-being."
+    },
+    "narcissist": {
+      "title": "The Shadow Superior",
+      "description": "Your shadow self believes you're fundamentally better than others. Behind your humble mask lies an unshakeable conviction of your own specialness.",
+      "extended": "Your shadow operates from a carefully hidden throne, surveying the world with barely concealed disdain. You've become masterful at appearing humble and relatable while internally ranking yourself above nearly everyone you encounter. Your shadow doesn't just think you're smart - it believes you're the smartest person in most rooms. It doesn't just believe you have good taste - it's convinced your preferences are objectively superior.\n\nThe exhausting part is maintaining the facade. Your shadow is constantly managing your image, ensuring you appear appropriately modest while strategically revealing your superiority. You've learned to phrase your corrections as questions ('Don't you think it might be more like...?') and disguise your judgment as concern ('I'm just worried that approach might not work because...'). Every interaction becomes a chess match where you must appear humble while ensuring your brilliance is recognized.\n\nYour shadow feeds on being right, being chosen, being recognized as special. When someone achieves something you wanted, your shadow doesn't just feel disappointed - it feels confused. How could the universe make such an obvious mistake? When people don't immediately recognize your brilliance, your shadow assumes they're too limited to appreciate quality. This creates a constant state of frustrated entitlement that eats away at your peace.\n\nThe loneliness is real, though your shadow would never admit it. It's hard to connect authentically when you secretly believe you're playing a different game than everyone else. Your healing begins with the humbling recognition that your need to feel superior often stems from deep insecurity. True confidence doesn't need to diminish others to feel tall. The very need to be 'better than' reveals how 'less than' you actually feel inside."
+    },
+    "vindictive": {
+      "title": "The Shadow Avenger",
+      "description": "Your shadow self is a master record-keeper of slights and betrayals. You forgive with your mouth but never with your heart.",
+      "extended": "Your shadow operates like a meticulous historian of hurt, cataloging every slight, betrayal, and moment of disrespect with perfect clarity. While you may smile and say 'it's fine' on the surface, your shadow is already calculating the perfect moment for karmic justice. You remember who didn't invite you to their wedding in 2018, who interrupted you during that meeting last month, and exactly how each person has disappointed you. Your memory for grievances is photographic.\n\nWhat makes your shadow particularly dangerous is its patience. You don't explode in rage - you simmer. You plot. You wait for the perfect opportunity to remind people exactly who they're dealing with. Your revenge fantasies are elaborate productions where everyone finally understands your worth and regrets underestimating you. Your shadow believes that justice delayed is justice savored, and it's willing to wait years for the perfect moment to strike back.\n\nYour shadow justifies this by calling it 'justice' or 'karma.' You genuinely believe that people need to face consequences for their actions, and if the universe won't provide them, you will. The problem is that your shadow's definition of 'wrongs that need righting' includes minor slights that others forgot within hours. Your shadow has appointed itself judge, jury, and executioner for infractions that exist primarily in your own mind.\n\nThe weight of carrying all these grudges is crushing, though you'd never admit it. Your shadow has convinced you that letting go means letting people 'win,' but the truth is that forgiveness isn't about them - it's about freeing yourself from the prison of perpetual resentment. Your healing begins when you realize that the person being most hurt by your unforgiveness is you. Every grudge you hold is a chain that keeps you tied to the past, preventing you from fully experiencing the present."
+    },
+    "anxious": {
+      "title": "The Shadow Catastrophist",
+      "description": "Your shadow self is convinced that disaster lurks around every corner. You've turned worry into a full-time occupation.",
+      "extended": "Your shadow runs a 24/7 emergency response center in your mind, constantly scanning for threats and preparing for the worst-case scenarios that might never come. While others see you as responsible and prepared, your shadow is actually trapped in a state of perpetual fight-or-flight, treating everyday uncertainties like life-or-death emergencies. Every unanswered text becomes potential rejection, every unusual sound becomes danger, every change becomes catastrophe.\n\nYour shadow has convinced you that worry equals care, that anxiety equals wisdom, and that constant vigilance equals safety. It whispers that if you just think through every possible bad outcome, you can somehow prevent them all. So you mentally rehearse conversations that may never happen, prepare for rejections that may never come, and solve problems that don't yet exist. Your shadow has turned your imagination into a torture device.\n\nThe cruelest part is how your shadow disguises itself as helpfulness. It tells you that your anxiety is actually intuition, that your catastrophic thinking is just being 'realistic.' But the truth is that your shadow has become addicted to adrenaline and control, creating chaos in your mind to feel purposeful. The very act of worrying gives your shadow the illusion that it's doing something productive about uncontrollable situations.\n\nWhat your shadow fears most is uncertainty - the terrifying reality that life is largely unpredictable and uncontrollable. So it works overtime trying to script every interaction, predict every outcome, and prepare for every possibility. The irony is that all this mental preparation often prevents you from actually living in the present moment. Your healing begins with radical acceptance of uncertainty. Start with small acts of spontaneity. Let some conversations happen without rehearsal. Your shadow isn't trying to harm you - it's a wounded protector that needs to learn that safety doesn't come from control, but from resilience."
+    },
+    "overthinker": {
+      "title": "The Shadow Analyzer",
+      "description": "Your shadow self dissects every interaction like a detective. You can't let anything be simple or surface-level.",
+      "extended": "Your shadow has turned your mind into a crime lab where every conversation, gesture, and silence gets forensically analyzed for hidden meanings. You replay interactions obsessively, searching for subtext that may not even exist. Your shadow whispers that people always mean more than they say, that every pause has significance, that every word choice reveals secret intentions. What should be simple human connection becomes an exhausting puzzle to decode.\n\nWhat started as emotional intelligence has become emotional torture. Your shadow can't accept that sometimes 'fine' just means fine, that delayed text responses are usually about busy schedules, not rejection. You've become so skilled at reading between the lines that you've forgotten how to read the actual lines. Every social interaction becomes a complex equation to solve, every relationship a mystery that needs unraveling.\n\nYour shadow believes this hyperanalysis protects you from being blindsided, but it actually creates the very problems it's trying to prevent. By assuming complexity where none exists, you create tension in relationships that were perfectly healthy. Your overthinking becomes a self-fulfilling prophecy, pushing people away with your need to decode their every move. Your shadow's 'protective' analysis actually generates the rejection it fears.\n\nThe tragic irony is that all this mental detective work keeps you from being present in actual relationships. While you're busy analyzing what someone meant by their tone, you miss the simple truth of what they're actually saying. Your healing begins with practicing radical acceptance of surface-level communication. Sometimes a compliment is just a compliment, sometimes silence is just comfortable, and sometimes people mean exactly what they say. Your shadow's analytical gifts are valuable, but they need boundaries to avoid becoming a prison."
+    },
+    "judgmental": {
+      "title": "The Shadow Critic",
+      "description": "Your shadow self has opinions about everyone and everything. Behind your diplomatic exterior lies a harsh internal judge.",
+      "extended": "Your shadow operates like a supreme court justice, constantly evaluating everyone's choices, appearances, and life decisions with ruthless precision. You maintain a friendly, accepting exterior while internally rating people's outfits, relationships, career moves, and even their grocery choices. Your shadow has developed impossibly high standards that nobody - including yourself - can meet. Every person becomes a defendant in your internal courtroom.\n\nWhat makes your shadow particularly insidious is how it disguises judgment as discernment, criticism as wisdom. Your shadow tells you that your harsh internal commentary is just 'having good taste' or 'seeing things clearly.' But the truth is that your constant evaluation of others has become a compulsive way to feel superior in a world that often makes you feel inadequate. Each critical observation becomes a small victory that temporarily boosts your ego.\n\nYour shadow's judgment extends mercilessly to yourself as well. The same harsh critic that notices everyone else's flaws is hyperaware of your own shortcomings. This creates an exhausting cycle where you judge others to feel better about yourself, then judge yourself for being judgmental, creating an endless loop of internal criticism. Your shadow has become both prosecutor and defendant, never allowing anyone - including you - to simply be human.\n\nThe loneliness of living with such a harsh internal critic is profound. Your shadow's impossible standards make it difficult to truly enjoy anything or anyone, including yourself. Every experience gets filtered through this critical lens, preventing you from experiencing the simple joy of acceptance. Your healing begins with recognizing that your judgment often stems from your own unmet needs and unprocessed pain. When you can extend compassion to your own humanity, you naturally become more accepting of others' imperfections."
+    },
+    "insecure": {
+      "title": "The Shadow Impostor",
+      "description": "Your shadow self is convinced everyone will discover you're not enough. You've built an impressive exterior while feeling fraudulent inside.",
+      "extended": "Your shadow lives in constant terror of being exposed as inadequate, incompetent, or fundamentally flawed. Despite external evidence of your capabilities and worth, your shadow whispers that you've somehow fooled everyone and that discovery is imminent. You've become masterful at performing competence while internally feeling like you're perpetually on the verge of being found out. Every achievement feels like a lucky accident rather than earned success.\n\nYour shadow compulsively compares you to others, always finding ways you fall short. It notices how confidently others speak in meetings while you question every word. It sees how effortlessly others seem to navigate social situations while you analyze every interaction for signs of rejection. Your shadow has convinced you that everyone else received a manual for life that you somehow missed, leaving you to fumble through while pretending you know what you're doing.\n\nThe exhaustion of maintaining your facade is overwhelming. Your shadow works overtime to present a polished version of yourself while hiding what it perceives as your true, inadequate self. You over-prepare for everything, second-guess your instincts, and deflect compliments because your shadow knows you don't deserve them. This constant performance prevents authentic connections because people can only love the character you're playing, not who you really are.\n\nWhat your shadow doesn't realize is that this feeling of 'not being enough' is often the shadow of being 'too much' - too sensitive, too intense, too different. Your insecurity may be protection against a world that taught you to dim your authentic self. Your healing begins with the radical acceptance that you are both flawed and worthy, both learning and capable. The impostor syndrome dissolves when you realize that everyone is making it up as they go along, and your particular way of figuring it out is perfectly valid."
+    },
+    "attention_seeker": {
+      "title": "The Shadow Performer",
+      "description": "Your shadow self needs constant validation to feel real. You measure your worth in likes, comments, and recognition.",
+      "extended": "Your shadow has turned life into a perpetual performance where your worth is determined by audience reaction. You've become addicted to the dopamine hit of recognition, whether it's through social media engagement, being the center of conversation, or having your achievements acknowledged. Your shadow whispers that if you're not being noticed, you might as well not exist. Every interaction becomes an opportunity to perform rather than connect.\n\nWhat started as a natural desire for connection has become a compulsive need for validation. Your shadow carefully curates every interaction for maximum impact, crafting stories for their entertainment value, sharing experiences for their shareability rather than their personal meaning. You've become so focused on how others perceive your life that you've lost touch with how you actually experience it. Your shadow has transformed you into a brand rather than a person.\n\nYour shadow's hunger for attention is bottomless because external validation can never fill an internal void. No amount of likes, compliments, or recognition satisfies for long. Each hit of attention provides temporary relief, but your shadow quickly needs another fix. This creates an exhausting cycle where you perform increasingly dramatic versions of yourself to maintain relevance, always raising the stakes to keep the audience engaged.\n\nThe tragic irony is that all this performing actually prevents the genuine connection your shadow craves. People are drawn to your entertaining personality, but they're loving the character you've created, not your authentic self. Your shadow fears that without the performance, you're boring, ordinary, forgettable. Your healing begins with the courageous experiment of being unremarkably yourself and discovering that your inherent worth doesn't depend on applause. True connection happens when you stop performing and start showing up."
+    },
+    "passive_aggressive": {
+      "title": "The Shadow Saboteur",
+      "description": "Your shadow self expresses anger through sweet smiles and convenient forgetfulness. You're an artist of indirect warfare.",
+      "extended": "Your shadow has perfected the art of expressing anger without ever appearing angry. You've learned to weaponize politeness, turning 'of course' into a weapon and 'no problem' into a promise of future problems. Your shadow operates through strategic silence, selective memory, and comments that sting with surgical precision while maintaining plausible deniability. You've become a master of saying one thing while meaning another.\n\nWhat makes your shadow particularly masterful is its ability to make others feel crazy. You can deliver devastating criticism through concerned questions, express contempt through excessive sweetness, and punish through strategic incompetence. Your shadow has learned that direct confrontation is dangerous, so it's developed an elaborate system of indirect communication that keeps you safe while ensuring your displeasure is felt. Every interaction becomes a chess match played with emotions.\n\nYour shadow's passive-aggressive tactics stem from a deep fear of direct conflict and a belief that your needs don't matter enough to state clearly. You learned early that expressing anger directly was dangerous, so you developed these underground channels for your frustration. Your shadow believes it's protecting you from rejection while still ensuring your voice is heard, even if it's speaking in code that others struggle to decipher.\n\nThe cost of this indirect approach is enormous. Your relationships become minefields where others walk on eggshells, never sure what might trigger your silent treatment or subtle retaliation. Your shadow's refusal to communicate directly creates the very rejection it's trying to avoid. Your healing begins with the terrifying recognition that your needs and feelings are valid enough to express directly. Learning to say 'I'm angry because...' instead of 'Fine, whatever' is revolutionary for your shadow. Direct communication feels dangerous because it makes you vulnerable, but it's the only path to authentic connection."
+    },
+    "obsessive": {
+      "title": "The Shadow Stalker",
+      "description": "Your shadow self can't let things go. You research, ruminate, and revisit until you know everything about everyone.",
+      "extended": "Your shadow has turned curiosity into compulsion, transforming normal interest into obsessive investigation. Whether it's researching an ex-partner's new relationship, deep-diving into someone who wronged you, or fixating on a missed opportunity, your shadow can't accept uncertainty or closure. It needs to know everything, understand completely, and analyze endlessly until every mystery is solved. Your shadow has turned information gathering into an addiction.\n\nWhat makes your shadow particularly exhausting is its ability to turn any trigger into a research project. A chance encounter with someone from your past becomes a six-hour social media investigation. A rejection becomes an archaeological dig into every interaction, searching for clues about what went wrong. Your shadow believes that if it just gathers enough information, it can prevent future pain or somehow change past outcomes. Knowledge becomes your drug of choice.\n\nYour shadow's obsessive nature stems from a deep need for control in an uncontrollable world. By obsessively researching and analyzing, your shadow feels like it's doing something productive about situations that are actually beyond your influence. This creates an illusion of agency while actually keeping you trapped in cycles of mental rumination that prevent you from moving forward. Your shadow mistakes motion for progress.\n\nThe cruel irony is that all this obsessive research rarely provides the closure your shadow seeks. Instead, it usually generates more questions, more pain, and more reasons to continue the obsessive cycle. Your shadow's need to know everything keeps you stuck in the past instead of present in your actual life. Your healing begins with accepting that some questions don't have answers, some people will remain mysteries, and some situations will never make complete sense. Learning to sit with uncertainty without immediately reaching for your phone to investigate is revolutionary for your shadow."
+    },
+    "balanced": {
+      "title": "The Integrated Shadow",
+      "description": "Your shadow and light have learned to dance together. You've done the hard work of integration and acceptance.",
+      "extended": "Your shadow is perhaps the most unsettling of all - not because it's dark, but because it's surprisingly healthy. You've done something most people spend their entire lives avoiding: you've turned toward your darkness with curiosity instead of judgment. Your shadow doesn't hide; it sits at the table with your light, contributing to decisions with honest input about your full range of human emotions and motivations. You've learned to listen to your shadow without being controlled by it.\n\nThis doesn't mean you're perfect - it means you're honest about your imperfections. When you feel jealous, you acknowledge it rather than spiritualizing it away. When you feel angry, you honor it rather than immediately trying to be 'positive.' Your shadow has taught you that wholeness isn't about being good all the time; it's about being authentic all the time. You've discovered that your darkness contains wisdom, not just problems to be solved.\n\nWhat's remarkable is how this integration actually makes you safer to be around. People can trust you because you're not performing perfection. You can admit when you're wrong, apologize genuinely when you've caused harm, and set boundaries without making others responsible for your emotional reactions. Your shadow's darkness doesn't make you dangerous - it makes you human, relatable, and surprisingly trustworthy.\n\nYour continued growth isn't about fixing what's broken - it's about deepening your capacity to hold complexity, contradiction, and paradox without needing to resolve everything into neat categories. Your shadow reminds you that humans are beautifully, messily, perfectly imperfect. You've learned that the goal isn't to eliminate your shadow, but to dance with it consciously. This integration allows you to access the full spectrum of human experience without being overwhelmed by any single aspect of yourself."
+    }
+  }
+}

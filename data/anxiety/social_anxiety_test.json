@@ -1,0 +1,708 @@
+{
+  "testId": "social-discomfort-scanner",
+  "title": "Social Aniety Scanner",
+  "description": "How broken is your social wiring really?",
+  "traits": {
+    "avoidant": "Actively dodges social interactions to prevent potential embarrassment or judgment",
+    "hypervigilant": "Constantly monitors social cues and potential threats in every interaction",
+    "perfectionist": "Sets impossibly high standards for social performance to avoid criticism", 
+    "catastrophizer": "Assumes the worst possible outcome in every social scenario",
+    "people_pleaser": "Sacrifices own needs and authenticity to maintain others' approval",
+    "overthinking": "Replays and analyzes social interactions obsessively before and after they happen",
+    "frozen": "Becomes paralyzed when faced with unexpected social situations",
+    "invisible": "Tries to blend into backgrounds and avoid being noticed or remembered",
+    "apologetic": "Takes responsibility for others' emotions and reactions constantly",
+    "self_critic": "Maintains harsh internal commentary about own social performance",
+    "projection": "Assumes others are judging them as harshly as they judge themselves",
+    "escape_artist": "Always planning exit strategies from social situations"
+  },
+  "questions": [
+    {
+      "question": "When someone knocks on your door unexpectedly, your first instinct is:",
+      "answers": [
+        {
+          "text": "Answer it like a normal person - unexpected visitors are fine",
+          "traits": {"avoidant": 0, "hypervigilant": 1, "perfectionist": 0, "catastrophizer": 0, "people_pleaser": 2, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 1, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Peek through the window first to see who it is and prepare mentally",
+          "traits": {"avoidant": 2, "hypervigilant": 4, "perfectionist": 2, "catastrophizer": 2, "people_pleaser": 1, "overthinking": 3, "frozen": 1, "invisible": 1, "apologetic": 0, "self_critic": 1, "projection": 2, "escape_artist": 2}
+        },
+        {
+          "text": "Pretend you're not home and wait silently for them to leave",
+          "traits": {"avoidant": 5, "hypervigilant": 3, "perfectionist": 1, "catastrophizer": 3, "people_pleaser": 0, "overthinking": 2, "frozen": 2, "invisible": 4, "apologetic": 1, "self_critic": 2, "projection": 3, "escape_artist": 4}
+        },
+        {
+          "text": "Hide somewhere and wait in complete silence until they're gone",
+          "traits": {"avoidant": 4, "hypervigilant": 2, "perfectionist": 0, "catastrophizer": 4, "people_pleaser": 0, "overthinking": 1, "frozen": 4, "invisible": 5, "apologetic": 2, "self_critic": 3, "projection": 4, "escape_artist": 5}
+        },
+        {
+          "text": "Turn off all lights and lay flat on the floor like a crime scene",
+          "traits": {"avoidant": 5, "hypervigilant": 1, "perfectionist": 0, "catastrophizer": 5, "people_pleaser": 0, "overthinking": 0, "frozen": 5, "invisible": 4, "apologetic": 3, "self_critic": 4, "projection": 5, "escape_artist": 4}
+        }
+      ]
+    },
+    {
+      "question": "Your phone rings with an unknown number. Your immediate response is:",
+      "answers": [
+        {
+          "text": "Answer it normally because it might be important",
+          "traits": {"avoidant": 0, "hypervigilant": 1, "perfectionist": 1, "catastrophizer": 0, "people_pleaser": 3, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 2, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Let it ring and maybe check the voicemail later when ready",
+          "traits": {"avoidant": 3, "hypervigilant": 2, "perfectionist": 2, "catastrophizer": 1, "people_pleaser": 1, "overthinking": 3, "frozen": 1, "invisible": 2, "apologetic": 0, "self_critic": 1, "projection": 1, "escape_artist": 2}
+        },
+        {
+          "text": "Silence it immediately and feel your heart rate spike",
+          "traits": {"avoidant": 4, "hypervigilant": 4, "perfectionist": 1, "catastrophizer": 4, "people_pleaser": 0, "overthinking": 2, "frozen": 3, "invisible": 2, "apologetic": 1, "self_critic": 3, "projection": 3, "escape_artist": 3}
+        },
+        {
+          "text": "Watch it ring in absolute horror, paralyzed by possibilities",
+          "traits": {"avoidant": 3, "hypervigilant": 3, "perfectionist": 2, "catastrophizer": 5, "people_pleaser": 0, "overthinking": 4, "frozen": 5, "invisible": 1, "apologetic": 2, "self_critic": 4, "projection": 4, "escape_artist": 2}
+        },
+        {
+          "text": "Throw your phone across the room like it's contaminated",
+          "traits": {"avoidant": 5, "hypervigilant": 2, "perfectionist": 0, "catastrophizer": 4, "people_pleaser": 0, "overthinking": 1, "frozen": 4, "invisible": 3, "apologetic": 3, "self_critic": 5, "projection": 5, "escape_artist": 5}
+        }
+      ]
+    },
+    {
+      "question": "Walking past a group of teenagers laughing, your brain automatically thinks:",
+      "answers": [
+        {
+          "text": "Nothing specific, just people having fun - doesn't involve me",
+          "traits": {"avoidant": 0, "hypervigilant": 0, "perfectionist": 0, "catastrophizer": 0, "people_pleaser": 1, "overthinking": 0, "frozen": 0, "invisible": 1, "apologetic": 0, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Hope they don't notice me or say anything about how I look",
+          "traits": {"avoidant": 2, "hypervigilant": 3, "perfectionist": 2, "catastrophizer": 2, "people_pleaser": 1, "overthinking": 2, "frozen": 1, "invisible": 4, "apologetic": 1, "self_critic": 3, "projection": 3, "escape_artist": 2}
+        },
+        {
+          "text": "They're definitely talking about me and how weird I look",
+          "traits": {"avoidant": 1, "hypervigilant": 2, "perfectionist": 1, "catastrophizer": 4, "people_pleaser": 0, "overthinking": 3, "frozen": 2, "invisible": 2, "apologetic": 2, "self_critic": 4, "projection": 5, "escape_artist": 1}
+        },
+        {
+          "text": "They're laughing at how I walk and will remember this forever",
+          "traits": {"avoidant": 2, "hypervigilant": 1, "perfectionist": 3, "catastrophizer": 5, "people_pleaser": 0, "overthinking": 4, "frozen": 1, "invisible": 3, "apologetic": 3, "self_critic": 5, "projection": 4, "escape_artist": 2}
+        },
+        {
+          "text": "Everyone can see what a complete fraud I am just by looking",
+          "traits": {"avoidant": 3, "hypervigilant": 1, "perfectionist": 4, "catastrophizer": 4, "people_pleaser": 0, "overthinking": 2, "frozen": 3, "invisible": 2, "apologetic": 4, "self_critic": 5, "projection": 5, "escape_artist": 3}
+        }
+      ]
+    },
+    {
+      "question": "Before making a simple phone call like ordering pizza, you typically:",
+      "answers": [
+        {
+          "text": "Just call when you're ready - no big preparation needed",
+          "traits": {"avoidant": 0, "hypervigilant": 0, "perfectionist": 0, "catastrophizer": 0, "people_pleaser": 1, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 1, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Think about what you want to say first, basic mental prep",
+          "traits": {"avoidant": 1, "hypervigilant": 2, "perfectionist": 3, "catastrophizer": 1, "people_pleaser": 2, "overthinking": 3, "frozen": 1, "invisible": 1, "apologetic": 1, "self_critic": 2, "projection": 1, "escape_artist": 1}
+        },
+        {
+          "text": "Write down exactly what you need to say word for word",
+          "traits": {"avoidant": 2, "hypervigilant": 3, "perfectionist": 5, "catastrophizer": 2, "people_pleaser": 1, "overthinking": 4, "frozen": 2, "invisible": 1, "apologetic": 2, "self_critic": 3, "projection": 2, "escape_artist": 1}
+        },
+        {
+          "text": "Practice the entire conversation multiple times out loud",
+          "traits": {"avoidant": 1, "hypervigilant": 4, "perfectionist": 4, "catastrophizer": 3, "people_pleaser": 2, "overthinking": 5, "frozen": 2, "invisible": 2, "apologetic": 2, "self_critic": 4, "projection": 3, "escape_artist": 1}
+        },
+        {
+          "text": "Order online to avoid all human contact entirely",
+          "traits": {"avoidant": 5, "hypervigilant": 1, "perfectionist": 2, "catastrophizer": 2, "people_pleaser": 0, "overthinking": 1, "frozen": 3, "invisible": 4, "apologetic": 1, "self_critic": 2, "projection": 2, "escape_artist": 5}
+        }
+      ]
+    },
+    {
+      "question": "When you trip or stumble in public, your immediate thought is:",
+      "answers": [
+        {
+          "text": "Oops, oh well, these things happen to everyone sometimes",
+          "traits": {"avoidant": 0, "hypervigilant": 0, "perfectionist": 0, "catastrophizer": 0, "people_pleaser": 1, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 1, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Hope nobody saw that embarrassing moment",
+          "traits": {"avoidant": 2, "hypervigilant": 3, "perfectionist": 2, "catastrophizer": 1, "people_pleaser": 1, "overthinking": 2, "frozen": 1, "invisible": 3, "apologetic": 2, "self_critic": 3, "projection": 2, "escape_artist": 1}
+        },
+        {
+          "text": "Everyone definitely saw that and is judging me harshly",
+          "traits": {"avoidant": 1, "hypervigilant": 2, "perfectionist": 3, "catastrophizer": 4, "people_pleaser": 0, "overthinking": 3, "frozen": 2, "invisible": 2, "apologetic": 1, "self_critic": 4, "projection": 5, "escape_artist": 1}
+        },
+        {
+          "text": "They'll remember this forever and tell other people about it",
+          "traits": {"avoidant": 2, "hypervigilant": 1, "perfectionist": 2, "catastrophizer": 5, "people_pleaser": 0, "overthinking": 4, "frozen": 1, "invisible": 3, "apologetic": 2, "self_critic": 4, "projection": 4, "escape_artist": 2}
+        },
+        {
+          "text": "I can never come back to this location ever again",
+          "traits": {"avoidant": 5, "hypervigilant": 1, "perfectionist": 1, "catastrophizer": 4, "people_pleaser": 0, "overthinking": 2, "frozen": 3, "invisible": 4, "apologetic": 3, "self_critic": 5, "projection": 3, "escape_artist": 5}
+        }
+      ]
+    },
+    {
+      "question": "At a party where you only know one person, your strategy is:",
+      "answers": [
+        {
+          "text": "Mingle around and try to meet new people - good opportunity",
+          "traits": {"avoidant": 0, "hypervigilant": 1, "perfectionist": 1, "catastrophizer": 0, "people_pleaser": 2, "overthinking": 1, "frozen": 0, "invisible": 0, "apologetic": 1, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Stick close to the person you know most of the time",
+          "traits": {"avoidant": 2, "hypervigilant": 2, "perfectionist": 1, "catastrophizer": 1, "people_pleaser": 3, "overthinking": 2, "frozen": 1, "invisible": 2, "apologetic": 2, "self_critic": 1, "projection": 1, "escape_artist": 1}
+        },
+        {
+          "text": "Find the pet or position yourself in a corner safely",
+          "traits": {"avoidant": 4, "hypervigilant": 3, "perfectionist": 1, "catastrophizer": 2, "people_pleaser": 1, "overthinking": 1, "frozen": 2, "invisible": 4, "apologetic": 1, "self_critic": 2, "projection": 2, "escape_artist": 3}
+        },
+        {
+          "text": "Hide in the bathroom periodically to recharge and escape",
+          "traits": {"avoidant": 3, "hypervigilant": 2, "perfectionist": 0, "catastrophizer": 3, "people_pleaser": 0, "overthinking": 2, "frozen": 3, "invisible": 3, "apologetic": 2, "self_critic": 3, "projection": 2, "escape_artist": 5}
+        },
+        {
+          "text": "Leave within 20 minutes claiming a sudden emergency",
+          "traits": {"avoidant": 5, "hypervigilant": 1, "perfectionist": 0, "catastrophizer": 4, "people_pleaser": 0, "overthinking": 1, "frozen": 4, "invisible": 4, "apologetic": 3, "self_critic": 4, "projection": 3, "escape_artist": 4}
+        }
+      ]
+    },
+    {
+      "question": "When the waiter brings you the completely wrong order, you:",
+      "answers": [
+        {
+          "text": "Politely tell them about the mistake - mistakes happen",
+          "traits": {"avoidant": 0, "hypervigilant": 1, "perfectionist": 1, "catastrophizer": 0, "people_pleaser": 2, "overthinking": 1, "frozen": 0, "invisible": 0, "apologetic": 2, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Hesitate for a moment but eventually speak up politely",
+          "traits": {"avoidant": 1, "hypervigilant": 2, "perfectionist": 2, "catastrophizer": 1, "people_pleaser": 3, "overthinking": 3, "frozen": 2, "invisible": 1, "apologetic": 3, "self_critic": 2, "projection": 1, "escape_artist": 1}
+        },
+        {
+          "text": "Eat the wrong food anyway to avoid any confrontation",
+          "traits": {"avoidant": 4, "hypervigilant": 1, "perfectionist": 1, "catastrophizer": 2, "people_pleaser": 5, "overthinking": 2, "frozen": 3, "invisible": 3, "apologetic": 4, "self_critic": 3, "projection": 2, "escape_artist": 2}
+        },
+        {
+          "text": "Eat it, pay full price, and leave an extra big tip",
+          "traits": {"avoidant": 3, "hypervigilant": 1, "perfectionist": 0, "catastrophizer": 1, "people_pleaser": 4, "overthinking": 1, "frozen": 2, "invisible": 2, "apologetic": 5, "self_critic": 4, "projection": 2, "escape_artist": 1}
+        },
+        {
+          "text": "Eat it, tip 30%, and apologize for existing at all",
+          "traits": {"avoidant": 2, "hypervigilant": 0, "perfectionist": 0, "catastrophizer": 3, "people_pleaser": 4, "overthinking": 1, "frozen": 3, "invisible": 4, "apologetic": 5, "self_critic": 5, "projection": 3, "escape_artist": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your emotional reaction to receiving a 'We need to talk' text:",
+      "answers": [
+        {
+          "text": "Mild curiosity about what they want to discuss",
+          "traits": {"avoidant": 0, "hypervigilant": 1, "perfectionist": 0, "catastrophizer": 0, "people_pleaser": 1, "overthinking": 1, "frozen": 0, "invisible": 0, "apologetic": 1, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Slight concern but manageable anxiety levels",
+          "traits": {"avoidant": 1, "hypervigilant": 3, "perfectionist": 1, "catastrophizer": 2, "people_pleaser": 2, "overthinking": 3, "frozen": 1, "invisible": 1, "apologetic": 2, "self_critic": 2, "projection": 2, "escape_artist": 1}
+        },
+        {
+          "text": "Immediate panic and worst-case scenario thinking",
+          "traits": {"avoidant": 2, "hypervigilant": 4, "perfectionist": 2, "catastrophizer": 5, "people_pleaser": 1, "overthinking": 4, "frozen": 3, "invisible": 1, "apologetic": 3, "self_critic": 4, "projection": 4, "escape_artist": 2}
+        },
+        {
+          "text": "Mental list of everything you've done wrong in life",
+          "traits": {"avoidant": 1, "hypervigilant": 2, "perfectionist": 3, "catastrophizer": 4, "people_pleaser": 2, "overthinking": 5, "frozen": 2, "invisible": 2, "apologetic": 4, "self_critic": 5, "projection": 3, "escape_artist": 1}
+        },
+        {
+          "text": "Consider changing identity and moving to another country",
+          "traits": {"avoidant": 5, "hypervigilant": 1, "perfectionist": 1, "catastrophizer": 5, "people_pleaser": 0, "overthinking": 3, "frozen": 4, "invisible": 5, "apologetic": 2, "self_critic": 4, "projection": 4, "escape_artist": 5}
+        }
+      ]
+    },
+    {
+      "question": "When someone says 'Hey, can I ask you something?' your response:",
+      "answers": [
+        {
+          "text": "Sure, what's up? No big deal at all",
+          "traits": {"avoidant": 0, "hypervigilant": 0, "perfectionist": 0, "catastrophizer": 0, "people_pleaser": 2, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 1, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Cautiously agree while wondering what they want",
+          "traits": {"avoidant": 1, "hypervigilant": 4, "perfectionist": 1, "catastrophizer": 2, "people_pleaser": 2, "overthinking": 3, "frozen": 1, "invisible": 1, "apologetic": 2, "self_critic": 1, "projection": 2, "escape_artist": 1}
+        },
+        {
+          "text": "Brace for emotional impact and prepare for the worst",
+          "traits": {"avoidant": 2, "hypervigilant": 3, "perfectionist": 2, "catastrophizer": 4, "people_pleaser": 1, "overthinking": 3, "frozen": 3, "invisible": 1, "apologetic": 2, "self_critic": 3, "projection": 4, "escape_artist": 2}
+        },
+        {
+          "text": "Assume you're definitely in trouble for something",
+          "traits": {"avoidant": 1, "hypervigilant": 2, "perfectionist": 3, "catastrophizer": 5, "people_pleaser": 2, "overthinking": 4, "frozen": 2, "invisible": 2, "apologetic": 4, "self_critic": 5, "projection": 4, "escape_artist": 1}
+        },
+        {
+          "text": "Start mentally planning escape route from conversation",
+          "traits": {"avoidant": 4, "hypervigilant": 1, "perfectionist": 1, "catastrophizer": 3, "people_pleaser": 0, "overthinking": 2, "frozen": 4, "invisible": 3, "apologetic": 1, "self_critic": 3, "projection": 2, "escape_artist": 5}
+        }
+      ]
+    },
+    {
+      "question": "In a completely quiet waiting room, your stomach growls loudly:",
+      "answers": [
+        {
+          "text": "Don't even think about it - stomachs make noise naturally",
+          "traits": {"avoidant": 0, "hypervigilant": 0, "perfectionist": 0, "catastrophizer": 0, "people_pleaser": 0, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 0, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Hope nobody heard that and feel slightly embarrassed",
+          "traits": {"avoidant": 1, "hypervigilant": 2, "perfectionist": 2, "catastrophizer": 1, "people_pleaser": 1, "overthinking": 2, "frozen": 1, "invisible": 2, "apologetic": 2, "self_critic": 2, "projection": 2, "escape_artist": 1}
+        },
+        {
+          "text": "Tense up completely and feel your face burning red",
+          "traits": {"avoidant": 2, "hypervigilant": 3, "perfectionist": 3, "catastrophizer": 3, "people_pleaser": 2, "overthinking": 2, "frozen": 3, "invisible": 3, "apologetic": 3, "self_critic": 4, "projection": 3, "escape_artist": 2}
+        },
+        {
+          "text": "Consider loudly explaining to everyone that you're hungry",
+          "traits": {"avoidant": 1, "hypervigilant": 1, "perfectionist": 1, "catastrophizer": 2, "people_pleaser": 4, "overthinking": 3, "frozen": 2, "invisible": 1, "apologetic": 4, "self_critic": 3, "projection": 1, "escape_artist": 1}
+        },
+        {
+          "text": "Leave immediately to escape the mortifying situation",
+          "traits": {"avoidant": 5, "hypervigilant": 1, "perfectionist": 2, "catastrophizer": 4, "people_pleaser": 0, "overthinking": 1, "frozen": 3, "invisible": 4, "apologetic": 2, "self_critic": 5, "projection": 4, "escape_artist": 5}
+        }
+      ]
+    },
+    {
+      "question": "When you really need the bathroom during a movie, you:",
+      "answers": [
+        {
+          "text": "Just get up and go like a normal human being",
+          "traits": {"avoidant": 0, "hypervigilant": 0, "perfectionist": 0, "catastrophizer": 0, "people_pleaser": 1, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 1, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Wait for a loud action scene to mask your movement",
+          "traits": {"avoidant": 1, "hypervigilant": 3, "perfectionist": 2, "catastrophizer": 1, "people_pleaser": 3, "overthinking": 2, "frozen": 1, "invisible": 2, "apologetic": 2, "self_critic": 1, "projection": 1, "escape_artist": 1}
+        },
+        {
+          "text": "Hold it until physical pain to avoid disturbing anyone",
+          "traits": {"avoidant": 3, "hypervigilant": 2, "perfectionist": 3, "catastrophizer": 2, "people_pleaser": 5, "overthinking": 1, "frozen": 3, "invisible": 3, "apologetic": 4, "self_critic": 3, "projection": 2, "escape_artist": 2}
+        },
+        {
+          "text": "Plan your entire route and timing strategy first",
+          "traits": {"avoidant": 2, "hypervigilant": 4, "perfectionist": 4, "catastrophizer": 2, "people_pleaser": 2, "overthinking": 5, "frozen": 2, "invisible": 2, "apologetic": 2, "self_critic": 2, "projection": 2, "escape_artist": 1}
+        },
+        {
+          "text": "Hold it for entire movie no matter how much it hurts",
+          "traits": {"avoidant": 4, "hypervigilant": 1, "perfectionist": 2, "catastrophizer": 3, "people_pleaser": 4, "overthinking": 1, "frozen": 4, "invisible": 4, "apologetic": 5, "self_critic": 4, "projection": 3, "escape_artist": 3}
+        }
+      ]
+    },
+    {
+      "question": "At self-checkout when an item won't scan properly, you:",
+      "answers": [
+        {
+          "text": "Ask for help from the attendant immediately",
+          "traits": {"avoidant": 0, "hypervigilant": 1, "perfectionist": 1, "catastrophizer": 0, "people_pleaser": 2, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 1, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Try scanning a few more times then ask for help",
+          "traits": {"avoidant": 1, "hypervigilant": 2, "perfectionist": 2, "catastrophizer": 1, "people_pleaser": 2, "overthinking": 2, "frozen": 1, "invisible": 1, "apologetic": 2, "self_critic": 1, "projection": 1, "escape_artist": 1}
+        },
+        {
+          "text": "Panic internally but eventually get help after struggling",
+          "traits": {"avoidant": 2, "hypervigilant": 3, "perfectionist": 3, "catastrophizer": 3, "people_pleaser": 1, "overthinking": 3, "frozen": 3, "invisible": 2, "apologetic": 3, "self_critic": 3, "projection": 3, "escape_artist": 2}
+        },
+        {
+          "text": "Seriously consider abandoning all your groceries",
+          "traits": {"avoidant": 4, "hypervigilant": 2, "perfectionist": 1, "catastrophizer": 4, "people_pleaser": 0, "overthinking": 2, "frozen": 4, "invisible": 3, "apologetic": 2, "self_critic": 4, "projection": 3, "escape_artist": 4}
+        },
+        {
+          "text": "Actually leave the store without buying anything",
+          "traits": {"avoidant": 5, "hypervigilant": 1, "perfectionist": 0, "catastrophizer": 3, "people_pleaser": 0, "overthinking": 1, "frozen": 5, "invisible": 4, "apologetic": 1, "self_critic": 5, "projection": 2, "escape_artist": 5}
+        }
+      ]
+    },
+    {
+      "question": "When someone sits directly next to you on public transportation:",
+      "answers": [
+        {
+          "text": "Don't care at all - it's public transport, that's normal",
+          "traits": {"avoidant": 0, "hypervigilant": 0, "perfectionist": 0, "catastrophizer": 0, "people_pleaser": 1, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 0, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Scoot over slightly to give them more room politely",
+          "traits": {"avoidant": 1, "hypervigilant": 2, "perfectionist": 1, "catastrophizer": 0, "people_pleaser": 4, "overthinking": 1, "frozen": 0, "invisible": 1, "apologetic": 3, "self_critic": 1, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Become hyperaware of breathing and every movement",
+          "traits": {"avoidant": 2, "hypervigilant": 5, "perfectionist": 3, "catastrophizer": 2, "people_pleaser": 2, "overthinking": 3, "frozen": 2, "invisible": 2, "apologetic": 1, "self_critic": 3, "projection": 2, "escape_artist": 1}
+        },
+        {
+          "text": "Completely forget how to sit like a normal person",
+          "traits": {"avoidant": 1, "hypervigilant": 3, "perfectionist": 2, "catastrophizer": 3, "people_pleaser": 1, "overthinking": 4, "frozen": 4, "invisible": 3, "apologetic": 2, "self_critic": 4, "projection": 3, "escape_artist": 2}
+        },
+        {
+          "text": "Get off at very next stop regardless of destination",
+          "traits": {"avoidant": 5, "hypervigilant": 1, "perfectionist": 0, "catastrophizer": 3, "people_pleaser": 0, "overthinking": 1, "frozen": 3, "invisible": 4, "apologetic": 1, "self_critic": 3, "projection": 2, "escape_artist": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your neighbor waves at you from across the street. You:",
+      "answers": [
+        {
+          "text": "Wave back normally and maybe say hello cheerfully",
+          "traits": {"avoidant": 0, "hypervigilant": 0, "perfectionist": 0, "catastrophizer": 0, "people_pleaser": 2, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 1, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Give a quick wave back and then look away",
+          "traits": {"avoidant": 2, "hypervigilant": 2, "perfectionist": 1, "catastrophizer": 1, "people_pleaser": 2, "overthinking": 1, "frozen": 1, "invisible": 2, "apologetic": 1, "self_critic": 1, "projection": 1, "escape_artist": 1}
+        },
+        {
+          "text": "Do awkward half-wave that looks more like swatting flies",
+          "traits": {"avoidant": 1, "hypervigilant": 3, "perfectionist": 3, "catastrophizer": 2, "people_pleaser": 1, "overthinking": 3, "frozen": 3, "invisible": 2, "apologetic": 2, "self_critic": 4, "projection": 2, "escape_artist": 1}
+        },
+        {
+          "text": "Pretend you didn't see them and feel guilty about it",
+          "traits": {"avoidant": 4, "hypervigilant": 1, "perfectionist": 2, "catastrophizer": 2, "people_pleaser": 1, "overthinking": 2, "frozen": 2, "invisible": 4, "apologetic": 4, "self_critic": 3, "projection": 3, "escape_artist": 3}
+        },
+        {
+          "text": "Immediately go back inside your house to hide",
+          "traits": {"avoidant": 5, "hypervigilant": 1, "perfectionist": 0, "catastrophizer": 3, "people_pleaser": 0, "overthinking": 1, "frozen": 4, "invisible": 5, "apologetic": 2, "self_critic": 4, "projection": 3, "escape_artist": 5}
+        }
+      ]
+    },
+    {
+      "question": "When the barista calls out the wrong name for your order:",
+      "answers": [
+        {
+          "text": "Politely correct them about your actual name",
+          "traits": {"avoidant": 0, "hypervigilant": 1, "perfectionist": 1, "catastrophizer": 0, "people_pleaser": 1, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 2, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Let it slide this time - it's not worth the hassle",
+          "traits": {"avoidant": 2, "hypervigilant": 1, "perfectionist": 1, "catastrophizer": 1, "people_pleaser": 3, "overthinking": 1, "frozen": 1, "invisible": 2, "apologetic": 2, "self_critic": 1, "projection": 1, "escape_artist": 1}
+        },
+        {
+          "text": "Take the drink silently and feel weird about it",
+          "traits": {"avoidant": 3, "hypervigilant": 2, "perfectionist": 2, "catastrophizer": 2, "people_pleaser": 4, "overthinking": 2, "frozen": 2, "invisible": 3, "apologetic": 3, "self_critic": 3, "projection": 2, "escape_artist": 2}
+        },
+        {
+          "text": "Wonder if that's actually your name now",
+          "traits": {"avoidant": 1, "hypervigilant": 1, "perfectionist": 0, "catastrophizer": 3, "people_pleaser": 3, "overthinking": 4, "frozen": 3, "invisible": 2, "apologetic": 4, "self_critic": 4, "projection": 3, "escape_artist": 1}
+        },
+        {
+          "text": "Fully accept your new coffee shop identity forever",
+          "traits": {"avoidant": 4, "hypervigilant": 0, "perfectionist": 0, "catastrophizer": 2, "people_pleaser": 5, "overthinking": 2, "frozen": 4, "invisible": 4, "apologetic": 5, "self_critic": 3, "projection": 2, "escape_artist": 3}
+        }
+      ]
+    },
+    {
+      "question": "You realize you've been walking in completely wrong direction:",
+      "answers": [
+        {
+          "text": "Turn around immediately without caring who sees",
+          "traits": {"avoidant": 0, "hypervigilant": 0, "perfectionist": 0, "catastrophizer": 0, "people_pleaser": 0, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 0, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Casually check your phone and then turn around",
+          "traits": {"avoidant": 1, "hypervigilant": 2, "perfectionist": 2, "catastrophizer": 1, "people_pleaser": 1, "overthinking": 2, "frozen": 1, "invisible": 2, "apologetic": 1, "self_critic": 1, "projection": 2, "escape_artist": 1}
+        },
+        {
+          "text": "Pretend to get important text before changing direction",
+          "traits": {"avoidant": 2, "hypervigilant": 3, "perfectionist": 3, "catastrophizer": 2, "people_pleaser": 2, "overthinking": 2, "frozen": 2, "invisible": 3, "apologetic": 2, "self_critic": 3, "projection": 3, "escape_artist": 2}
+        },
+        {
+          "text": "Walk to next corner first to make it look planned",
+          "traits": {"avoidant": 3, "hypervigilant": 4, "perfectionist": 4, "catastrophizer": 3, "people_pleaser": 3, "overthinking": 3, "frozen": 2, "invisible": 3, "apologetic": 2, "self_critic": 4, "projection": 4, "escape_artist": 2}
+        },
+        {
+          "text": "Take elaborate 10-minute detour to hide your mistake",
+          "traits": {"avoidant": 4, "hypervigilant": 2, "perfectionist": 3, "catastrophizer": 4, "people_pleaser": 2, "overthinking": 4, "frozen": 3, "invisible": 4, "apologetic": 3, "self_critic": 5, "projection": 5, "escape_artist": 3}
+        }
+      ]
+    },
+    {
+      "question": "When someone gives you a genuine compliment, your first instinct:",
+      "answers": [
+        {
+          "text": "Say thank you and feel good about it",
+          "traits": {"avoidant": 0, "hypervigilant": 0, "perfectionist": 0, "catastrophizer": 0, "people_pleaser": 1, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 1, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Deflect it or downplay what they're complimenting",
+          "traits": {"avoidant": 1, "hypervigilant": 1, "perfectionist": 2, "catastrophizer": 1, "people_pleaser": 2, "overthinking": 2, "frozen": 1, "invisible": 2, "apologetic": 3, "self_critic": 4, "projection": 2, "escape_artist": 1}
+        },
+        {
+          "text": "Assume they want something from you",
+          "traits": {"avoidant": 2, "hypervigilant": 4, "perfectionist": 1, "catastrophizer": 3, "people_pleaser": 1, "overthinking": 3, "frozen": 1, "invisible": 1, "apologetic": 1, "self_critic": 3, "projection": 5, "escape_artist": 2}
+        },
+        {
+          "text": "Think they're secretly mocking you somehow",
+          "traits": {"avoidant": 1, "hypervigilant": 3, "perfectionist": 2, "catastrophizer": 4, "people_pleaser": 0, "overthinking": 4, "frozen": 2, "invisible": 2, "apologetic": 2, "self_critic": 4, "projection": 5, "escape_artist": 1}
+        },
+        {
+          "text": "Be suspicious about their motives for days",
+          "traits": {"avoidant": 3, "hypervigilant": 2, "perfectionist": 1, "catastrophizer": 5, "people_pleaser": 0, "overthinking": 5, "frozen": 1, "invisible": 1, "apologetic": 1, "self_critic": 3, "projection": 4, "escape_artist": 2}
+        }
+      ]
+    },
+    {
+      "question": "In an elevator with just one other person, you:",
+      "answers": [
+        {
+          "text": "Stand normally and don't think about it",
+          "traits": {"avoidant": 0, "hypervigilant": 0, "perfectionist": 0, "catastrophizer": 0, "people_pleaser": 0, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 0, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Check your phone to have something to do",
+          "traits": {"avoidant": 2, "hypervigilant": 2, "perfectionist": 1, "catastrophizer": 1, "people_pleaser": 1, "overthinking": 2, "frozen": 1, "invisible": 2, "apologetic": 1, "self_critic": 1, "projection": 1, "escape_artist": 1}
+        },
+        {
+          "text": "Stare intensely at floor numbers like they're fascinating",
+          "traits": {"avoidant": 3, "hypervigilant": 3, "perfectionist": 2, "catastrophizer": 2, "people_pleaser": 2, "overthinking": 2, "frozen": 2, "invisible": 4, "apologetic": 1, "self_critic": 2, "projection": 2, "escape_artist": 2}
+        },
+        {
+          "text": "Hold your breath to minimize any possible awkwardness",
+          "traits": {"avoidant": 2, "hypervigilant": 4, "perfectionist": 3, "catastrophizer": 3, "people_pleaser": 3, "overthinking": 3, "frozen": 4, "invisible": 3, "apologetic": 2, "self_critic": 3, "projection": 3, "escape_artist": 2}
+        },
+        {
+          "text": "Get off on wrong floor to escape the situation",
+          "traits": {"avoidant": 5, "hypervigilant": 1, "perfectionist": 0, "catastrophizer": 4, "people_pleaser": 0, "overthinking": 1, "frozen": 3, "invisible": 4, "apologetic": 1, "self_critic": 4, "projection": 3, "escape_artist": 5}
+        }
+      ]
+    },
+    {
+      "question": "Your card gets declined at checkout in front of other people:",
+      "answers": [
+        {
+          "text": "Calmly try another card or payment method",
+          "traits": {"avoidant": 0, "hypervigilant": 1, "perfectionist": 1, "catastrophizer": 0, "people_pleaser": 1, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 1, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Nervous laugh while you try to figure it out",
+          "traits": {"avoidant": 1, "hypervigilant": 2, "perfectionist": 2, "catastrophizer": 2, "people_pleaser": 2, "overthinking": 2, "frozen": 2, "invisible": 1, "apologetic": 3, "self_critic": 2, "projection": 2, "escape_artist": 1}
+        },
+        {
+          "text": "Immediately explain to everyone you definitely have money",
+          "traits": {"avoidant": 1, "hypervigilant": 1, "perfectionist": 2, "catastrophizer": 3, "people_pleaser": 4, "overthinking": 2, "frozen": 1, "invisible": 1, "apologetic": 4, "self_critic": 3, "projection": 3, "escape_artist": 1}
+        },
+        {
+          "text": "Feel everyone behind you judging your entire life",
+          "traits": {"avoidant": 2, "hypervigilant": 3, "perfectionist": 2, "catastrophizer": 4, "people_pleaser": 1, "overthinking": 3, "frozen": 3, "invisible": 2, "apologetic": 2, "self_critic": 4, "projection": 5, "escape_artist": 2}
+        },
+        {
+          "text": "Never shop at this store again out of pure shame",
+          "traits": {"avoidant": 5, "hypervigilant": 1, "perfectionist": 1, "catastrophizer": 4, "people_pleaser": 0, "overthinking": 2, "frozen": 3, "invisible": 4, "apologetic": 3, "self_critic": 5, "projection": 3, "escape_artist": 4}
+        }
+      ]
+    },
+    {
+      "question": "When you accidentally make eye contact with a stranger:",
+      "answers": [
+        {
+          "text": "Smile politely or give a small nod",
+          "traits": {"avoidant": 0, "hypervigilant": 0, "perfectionist": 0, "catastrophizer": 0, "people_pleaser": 2, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 1, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Look away quickly but not rudely",
+          "traits": {"avoidant": 2, "hypervigilant": 2, "perfectionist": 1, "catastrophizer": 1, "people_pleaser": 2, "overthinking": 1, "frozen": 1, "invisible": 2, "apologetic": 1, "self_critic": 1, "projection": 1, "escape_artist": 1}
+        },
+        {
+          "text": "Pretend you were looking at something behind them",
+          "traits": {"avoidant": 3, "hypervigilant": 3, "perfectionist": 2, "catastrophizer": 2, "people_pleaser": 1, "overthinking": 2, "frozen": 2, "invisible": 3, "apologetic": 2, "self_critic": 2, "projection": 2, "escape_artist": 2}
+        },
+        {
+          "text": "Panic and look everywhere except at them",
+          "traits": {"avoidant": 2, "hypervigilant": 4, "perfectionist": 1, "catastrophizer": 4, "people_pleaser": 1, "overthinking": 3, "frozen": 4, "invisible": 2, "apologetic": 2, "self_critic": 3, "projection": 3, "escape_artist": 3}
+        },
+        {
+          "text": "Close your eyes entirely until the moment passes",
+          "traits": {"avoidant": 4, "hypervigilant": 1, "perfectionist": 0, "catastrophizer": 3, "people_pleaser": 0, "overthinking": 1, "frozen": 5, "invisible": 4, "apologetic": 1, "self_critic": 4, "projection": 2, "escape_artist": 4}
+        }
+      ]
+    },
+    {
+      "question": "At a restaurant when you need something from the waiter:",
+      "answers": [
+        {
+          "text": "Make eye contact and politely flag them down",
+          "traits": {"avoidant": 0, "hypervigilant": 1, "perfectionist": 1, "catastrophizer": 0, "people_pleaser": 1, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 1, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Wait patiently for them to come by your table",
+          "traits": {"avoidant": 2, "hypervigilant": 2, "perfectionist": 2, "catastrophizer": 1, "people_pleaser": 3, "overthinking": 1, "frozen": 1, "invisible": 2, "apologetic": 2, "self_critic": 1, "projection": 1, "escape_artist": 1}
+        },
+        {
+          "text": "Hope they notice you desperately looking in their direction",
+          "traits": {"avoidant": 3, "hypervigilant": 3, "perfectionist": 2, "catastrophizer": 2, "people_pleaser": 4, "overthinking": 2, "frozen": 2, "invisible": 3, "apologetic": 3, "self_critic": 2, "projection": 2, "escape_artist": 2}
+        },
+        {
+          "text": "Suffer in complete silence rather than bother them",
+          "traits": {"avoidant": 4, "hypervigilant": 1, "perfectionist": 3, "catastrophizer": 3, "people_pleaser": 5, "overthinking": 2, "frozen": 3, "invisible": 4, "apologetic": 5, "self_critic": 3, "projection": 2, "escape_artist": 3}
+        },
+        {
+          "text": "Leave restaurant without getting what you needed",
+          "traits": {"avoidant": 5, "hypervigilant": 1, "perfectionist": 1, "catastrophizer": 4, "people_pleaser": 2, "overthinking": 1, "frozen": 4, "invisible": 4, "apologetic": 3, "self_critic": 4, "projection": 2, "escape_artist": 5}
+        }
+      ]
+    },
+    {
+      "question": "Someone mishears what you said and responds to something else entirely:",
+      "answers": [
+        {
+          "text": "Repeat yourself clearly and politely",
+          "traits": {"avoidant": 0, "hypervigilant": 1, "perfectionist": 1, "catastrophizer": 0, "people_pleaser": 1, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 1, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Try saying it one more time a bit louder",
+          "traits": {"avoidant": 1, "hypervigilant": 2, "perfectionist": 2, "catastrophizer": 1, "people_pleaser": 2, "overthinking": 1, "frozen": 1, "invisible": 1, "apologetic": 2, "self_critic": 1, "projection": 1, "escape_artist": 1}
+        },
+        {
+          "text": "Say 'never mind' and drop the topic entirely",
+          "traits": {"avoidant": 4, "hypervigilant": 1, "perfectionist": 2, "catastrophizer": 2, "people_pleaser": 3, "overthinking": 1, "frozen": 2, "invisible": 3, "apologetic": 3, "self_critic": 3, "projection": 2, "escape_artist": 3}
+        },
+        {
+          "text": "Pretend they heard you correctly and go with it",
+          "traits": {"avoidant": 3, "hypervigilant": 2, "perfectionist": 1, "catastrophizer": 3, "people_pleaser": 5, "overthinking": 2, "frozen": 3, "invisible": 2, "apologetic": 4, "self_critic": 2, "projection": 1, "escape_artist": 2}
+        },
+        {
+          "text": "Vow to never speak to another human again",
+          "traits": {"avoidant": 5, "hypervigilant": 0, "perfectionist": 0, "catastrophizer": 5, "people_pleaser": 0, "overthinking": 3, "frozen": 4, "invisible": 5, "apologetic": 2, "self_critic": 5, "projection": 3, "escape_artist": 5}
+        }
+      ]
+    },
+    {
+      "question": "When happy birthday is being sung to you at a restaurant:",
+      "answers": [
+        {
+          "text": "Smile and enjoy the sweet gesture from friends",
+          "traits": {"avoidant": 0, "hypervigilant": 0, "perfectionist": 0, "catastrophizer": 0, "people_pleaser": 1, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 0, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Smile awkwardly but appreciate the thought",
+          "traits": {"avoidant": 1, "hypervigilant": 2, "perfectionist": 1, "catastrophizer": 1, "people_pleaser": 2, "overthinking": 1, "frozen": 1, "invisible": 2, "apologetic": 1, "self_critic": 1, "projection": 1, "escape_artist": 1}
+        },
+        {
+          "text": "Have no idea where to look or what to do with hands",
+          "traits": {"avoidant": 2, "hypervigilant": 3, "perfectionist": 2, "catastrophizer": 2, "people_pleaser": 1, "overthinking": 3, "frozen": 3, "invisible": 3, "apologetic": 2, "self_critic": 3, "projection": 2, "escape_artist": 2}
+        },
+        {
+          "text": "Want to completely disappear from existence",
+          "traits": {"avoidant": 3, "hypervigilant": 2, "perfectionist": 1, "catastrophizer": 4, "people_pleaser": 0, "overthinking": 2, "frozen": 4, "invisible": 5, "apologetic": 2, "self_critic": 4, "projection": 3, "escape_artist": 4}
+        },
+        {
+          "text": "Seriously consider faking your own death to escape",
+          "traits": {"avoidant": 5, "hypervigilant": 1, "perfectionist": 0, "catastrophizer": 5, "people_pleaser": 0, "overthinking": 2, "frozen": 3, "invisible": 4, "apologetic": 1, "self_critic": 5, "projection": 4, "escape_artist": 5}
+        }
+      ]
+    },
+    {
+      "question": "What represents your biggest social fear?",
+      "answers": [
+        {
+          "text": "I don't really have major social fears honestly",
+          "traits": {"avoidant": 0, "hypervigilant": 0, "perfectionist": 0, "catastrophizer": 0, "people_pleaser": 0, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 0, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Having to give presentations or speak publicly",
+          "traits": {"avoidant": 2, "hypervigilant": 3, "perfectionist": 4, "catastrophizer": 2, "people_pleaser": 1, "overthinking": 3, "frozen": 2, "invisible": 2, "apologetic": 1, "self_critic": 3, "projection": 2, "escape_artist": 1}
+        },
+        {
+          "text": "Being the center of attention in any situation",
+          "traits": {"avoidant": 3, "hypervigilant": 2, "perfectionist": 3, "catastrophizer": 3, "people_pleaser": 2, "overthinking": 2, "frozen": 3, "invisible": 4, "apologetic": 2, "self_critic": 3, "projection": 3, "escape_artist": 2}
+        },
+        {
+          "text": "The possibility that everyone secretly hates me",
+          "traits": {"avoidant": 2, "hypervigilant": 4, "perfectionist": 2, "catastrophizer": 5, "people_pleaser": 3, "overthinking": 4, "frozen": 1, "invisible": 2, "apologetic": 3, "self_critic": 5, "projection": 5, "escape_artist": 2}
+        },
+        {
+          "text": "The basic act of existing in public spaces",
+          "traits": {"avoidant": 5, "hypervigilant": 3, "perfectionist": 1, "catastrophizer": 4, "people_pleaser": 1, "overthinking": 3, "frozen": 5, "invisible": 5, "apologetic": 2, "self_critic": 4, "projection": 3, "escape_artist": 4}
+        }
+      ]
+    },
+    {
+      "question": "Your honest reaction when someone compliments your outfit:",
+      "answers": [
+        {
+          "text": "Say thank you and feel genuinely pleased about it",
+          "traits": {"avoidant": 0, "hypervigilant": 0, "perfectionist": 0, "catastrophizer": 0, "people_pleaser": 1, "overthinking": 0, "frozen": 0, "invisible": 0, "apologetic": 1, "self_critic": 0, "projection": 0, "escape_artist": 0}
+        },
+        {
+          "text": "Feel awkward but manage to say thanks politely",
+          "traits": {"avoidant": 1, "hypervigilant": 2, "perfectionist": 1, "catastrophizer": 1, "people_pleaser": 2, "overthinking": 2, "frozen": 1, "invisible": 2, "apologetic": 2, "self_critic": 1, "projection": 1, "escape_artist": 1}
+        },
+        {
+          "text": "Immediately point out everything wrong with the outfit",
+          "traits": {"avoidant": 1, "hypervigilant": 1, "perfectionist": 3, "catastrophizer": 2, "people_pleaser": 1, "overthinking": 2, "frozen": 1, "invisible": 1, "apologetic": 3, "self_critic": 5, "projection": 2, "escape_artist": 1}
+        },
+        {
+          "text": "Assume they're being sarcastic or setting you up",
+          "traits": {"avoidant": 2, "hypervigilant": 4, "perfectionist": 1, "catastrophizer": 4, "people_pleaser": 0, "overthinking": 3, "frozen": 1, "invisible": 1, "apologetic": 1, "self_critic": 3, "projection": 5, "escape_artist": 2}
+        },
+        {
+          "text": "Panic and explain where you bought every single item",
+          "traits": {"avoidant": 1, "hypervigilant": 3, "perfectionist": 2, "catastrophizer": 3, "people_pleaser": 4, "overthinking": 4, "frozen": 3, "invisible": 1, "apologetic": 4, "self_critic": 2, "projection": 2, "escape_artist": 1}
+        }
+      ]
+    }
+  ],
+  "results": {
+    "avoidant": {
+      "title": "The Social Dodger",
+      "description": "You've mastered the art of strategic avoidance. Your superpower is finding creative ways to sidestep social situations before they become problems. While others are suffering through small talk, you're safely hidden in your fortress of solitude, ordering everything online and pretending you didn't see that text.",
+      "extended": "Your avoidant tendencies have evolved into a sophisticated life management system designed to minimize social friction and potential embarrassment. You've become an expert at reading social situations and extracting yourself before things get uncomfortable. This isn't just shyness - it's strategic social navigation based on a careful cost-benefit analysis of human interaction.\n\nYour avoidance likely developed as a protective mechanism after experiencing social rejection, embarrassment, or overstimulation. Each avoided interaction reinforces the belief that social situations are potentially dangerous and that safety lies in solitude. You've learned that you can't be hurt by people you don't engage with, and you can't be judged for performances you don't give.\n\nThe challenge with chronic avoidance is that it can become a prison of your own making. While you successfully prevent social discomfort, you also miss opportunities for connection, growth, and the kind of positive social experiences that could help retrain your nervous system. Your world gradually shrinks to accommodate your comfort zone, which can lead to isolation and a sense of being disconnected from the human experience.\n\nTrue freedom comes from learning to approach rather than avoid - selectively and safely. When you can distinguish between genuinely risky social situations and those that only feel risky, you can begin to expand your comfort zone gradually. The goal isn't to become socially fearless, but to develop enough social confidence that avoidance becomes a choice rather than a compulsion."
+    },
+    "hypervigilant": {
+      "title": "The Social Radar",
+      "description": "You possess supernatural awareness of every micro-expression, tone shift, and social undercurrent in any room. Your brain runs constant background scans for potential threats, awkwardness, or signs that you've committed some invisible social crime. You're basically a human early warning system.",
+      "extended": "Your hypervigilance represents a highly developed social survival mechanism - your nervous system has learned to treat every interaction as a potential source of danger that requires constant monitoring. You notice things others miss: the slight change in someone's tone, the micro-expression that suggests annoyance, the group dynamic shift that signals trouble ahead. This isn't paranoia; it's pattern recognition on steroids.\n\nThis heightened awareness likely developed as an adaptive response to unpredictable or emotionally volatile environments where social threats were real and monitoring others' moods was necessary for emotional or physical safety. Your brain learned that survival depends on reading the room correctly and staying one step ahead of potential conflicts or rejections.\n\nThe exhausting part of hypervigilance is that your threat detection system rarely gets to rest. Even in safe situations, you're scanning for danger, analyzing interactions, and preparing for problems that may never materialize. This constant state of alertness can make social situations feel like work rather than connection, leaving you drained after even positive interactions.\n\nHealing hypervigilance involves learning to distinguish between situations that genuinely require careful monitoring and those where you can safely let your guard down. When you can recognize safe people and environments, you can begin to practice relaxing your vigilance gradually, allowing yourself to be present in interactions rather than constantly analyzing them."
+    },
+    "perfectionist": {
+      "title": "The Social Performer",
+      "description": "You approach every social interaction like it's an audition for the role of 'Acceptable Human Being.' Every word is carefully chosen, every gesture calculated, every response rehearsed. You're not just having conversations - you're giving Oscar-worthy performances of normalcy.",
+      "extended": "Your social perfectionism stems from the belief that acceptance is conditional on flawless performance. Every interaction becomes an opportunity to either succeed or fail at being human, with very little middle ground for simple, imperfect authenticity. You've internalized the message that your natural self isn't quite good enough and requires constant improvement and careful presentation.\n\nThis perfectionist approach likely developed from experiences where your authentic self was criticized, rejected, or deemed insufficient. Perhaps you received the message that love and acceptance were earned through perfect behavior, or you learned that mistakes had disproportionately harsh consequences. Your brain concluded that safety lies in controlling every aspect of your social presentation.\n\nThe exhausting reality of social perfectionism is that it prevents genuine connection. When you're performing rather than being, others connect with your presentation rather than your authentic self. This creates a hollow victory - you achieve acceptance, but for someone you're pretending to be rather than who you actually are. The fear becomes that if people saw the real you, they would reject you.\n\nTrue confidence comes from accepting that imperfection is not only acceptable but essential for genuine human connection. When you can embrace your quirks, mistakes, and authentic responses rather than hiding them, you discover that people often connect more deeply with your humanity than with your performance. The goal isn't perfect social execution; it's authentic interaction."
+    },
+    "catastrophizer": {
+      "title": "The Worst-Case Scenario Specialist",
+      "description": "Your brain operates like a disaster movie trailer generator, instantly creating vivid, dramatic narratives about how every social interaction could go horribly wrong. You don't just worry about embarrassment - you mentally prepare for social apocalypse scenarios that would make Shakespeare weep.",
+      "extended": "Your catastrophizing represents your brain's attempt to prepare you for every possible negative outcome by imagining them in vivid detail. This isn't simple pessimism - it's an elaborate mental rehearsal system designed to help you feel more prepared for potential disasters. Your mind creates detailed scenarios of social humiliation, rejection, and consequences that seem far more intense and permanent than reality typically delivers.\n\nThis pattern often develops from experiences where social mistakes did have serious consequences, or from observing others experience significant social fallout. Your brain learned that the stakes of social interaction are high and that preparation for worst-case scenarios is essential for survival. Each imagined disaster becomes a way of trying to maintain control over uncertain outcomes.\n\nThe challenge with catastrophic thinking is that it often creates more suffering than the actual events you're trying to prevent. You experience the emotional pain of rejection, humiliation, and judgment repeatedly in your imagination, even when none of these things actually happen. This mental rehearsal of disasters can become more distressing than reality itself.\n\nHealing catastrophic thinking involves learning to distinguish between possible outcomes and probable outcomes. When you can recognize that your brain's disaster scenarios are protection mechanisms rather than accurate predictions, you can begin to question their validity. The goal isn't to stop considering potential challenges, but to develop a more realistic assessment of both the likelihood and the actual consequences of social difficulties."
+    },
+    "people_pleaser": {
+      "title": "The Human Pretzel",
+      "description": "You've mastered the art of contorting yourself into whatever shape others need you to be. Your default setting is 'agreeable,' and you'd rather eat glass than disappoint someone. You've turned people-pleasing into an Olympic sport, and you're going for gold every single interaction.",
+      "extended": "Your people-pleasing represents a sophisticated strategy for maintaining connection and avoiding conflict by anticipating and meeting others' needs before your own. You've learned to read others' desires and expectations with remarkable accuracy, often sacrificing your own preferences, boundaries, and authenticity to ensure others' comfort and approval.\n\nThis pattern typically develops in environments where your worth was tied to your usefulness, where conflict was dangerous or overwhelming, or where others' emotional states felt like your responsibility. You learned that keeping others happy was the key to staying safe, loved, and accepted. Your nervous system became calibrated to others' needs rather than your own.\n\nThe exhausting reality of chronic people-pleasing is that it often leads to relationships where others know the version of you that serves them best, but not necessarily who you actually are. You may find yourself feeling resentful, depleted, or invisible despite being surrounded by people who 'like' you. The fear is that if you stopped accommodating others, they would no longer want you around.\n\nTrue connection requires the courage to show up authentically, even when it risks disappointing others. When you can learn to balance others' needs with your own, express your genuine preferences, and set boundaries when necessary, you discover that healthy relationships can handle your full humanity. The people who stay when you stop performing are the ones worth keeping."
+    },
+    "overthinking": {
+      "title": "The Mental Time Traveler",
+      "description": "Your brain operates like a social interaction DVR, constantly rewinding, replaying, and analyzing every conversation for hidden meanings, missed opportunities, and alternative responses. You don't just think about social situations - you conduct full forensic investigations on them.",
+      "extended": "Your overthinking represents your mind's attempt to achieve mastery over social situations through exhaustive analysis. Every interaction becomes a complex puzzle to be solved, with layers of meaning to decode and implications to consider. You replay conversations searching for clues about how you were perceived, what you should have said differently, and what the other person 'really' meant.\n\nThis mental pattern often develops from experiences where social nuances mattered significantly - perhaps in environments where reading between the lines was necessary for safety, or where small social mistakes had large consequences. Your brain learned that careful analysis could prevent future problems and help you navigate complex social terrain more successfully.\n\nThe challenge with chronic overthinking is that it keeps you stuck in past interactions rather than present in current ones. While you're analyzing yesterday's conversation, you might miss important cues in today's interaction. The mental energy spent on analysis often exceeds the actual importance of the situations you're analyzing, creating exhaustion without necessarily improving your social outcomes.\n\nFinding peace from overthinking involves learning to distinguish between analysis that serves you and analysis that traps you. When you can recognize the difference between helpful reflection and obsessive rumination, you can begin to set boundaries with your own mind. The goal isn't to stop thinking about social interactions entirely, but to think about them in proportion to their actual significance in your life."
+    },
+    "frozen": {
+      "title": "The Social Statue",
+      "description": "When social pressure mounts, you transform into a human deer-in-headlights situation. Your brain's fight-or-flight response has chosen 'freeze' as its go-to strategy, leaving you standing there like a malfunctioning robot while your internal systems scramble to reboot.",
+      "extended": "Your freezing response represents your nervous system's protective mechanism when it perceives social threats but can't find a clear path to fight or flee. In these moments, your brain essentially hits the pause button, leaving you unable to access your normal social skills, wit, or even basic conversational abilities. This isn't a character flaw - it's a neurobiological response to perceived danger.\n\nThis freeze response often develops when previous attempts at fight (asserting yourself) or flight (avoiding situations) didn't provide adequate protection from social stress. Your nervous system learned that sometimes the safest option is to become very still and wait for the threat to pass. This can happen in situations where you feel trapped, overwhelmed, or unable to predict the safe response.\n\nThe frustrating aspect of social freezing is that it often occurs when you most want to perform well - during important conversations, when meeting new people, or in situations where you have strong opinions but can't access them. After the moment passes, you're often flooded with all the things you wish you had said, which can create a cycle of self-criticism and increased anxiety about future interactions.\n\nHealing the freeze response involves learning to regulate your nervous system before, during, and after social interactions. When you can recognize the early signs of overwhelm and have tools to help yourself feel safer in the moment, you can often prevent the complete shutdown. The goal isn't to never feel overwhelmed, but to maintain access to your capabilities even when you're feeling stressed."
+    },
+    "invisible": {
+      "title": "The Background Character",
+      "description": "You've perfected the art of human camouflage, blending into backgrounds like a social chameleon. Your superpower is being so unremarkable that you could probably rob a bank and witnesses would describe you as 'that person who was definitely there but I can't remember anything about them.'",
+      "extended": "Your invisibility strategy represents a sophisticated approach to social safety through strategic unremarkability. You've learned to navigate social situations by drawing as little attention to yourself as possible, operating on the principle that you can't be rejected, criticized, or judged if no one really notices you're there. This isn't just shyness - it's intentional social stealth mode.\n\nThis pattern often develops after experiences where being noticed led to unwanted attention, criticism, or pressure. Perhaps you learned that visibility brought scrutiny you weren't prepared for, or that standing out resulted in becoming a target. Your nervous system concluded that safety lies in the shadows, where you can observe without being observed and participate without being evaluated.\n\nThe protective power of invisibility is also its limitation. While you successfully avoid negative attention, you also miss opportunities for positive recognition, meaningful connections, and the kind of visibility that could lead to opportunities and relationships. Your skills, humor, insights, and unique perspective remain hidden, not just from potential critics but from potential allies and friends.\n\nEmbracing healthy visibility involves learning to share yourself selectively and safely rather than hiding entirely. When you can identify trustworthy people and environments where your authentic self would be welcomed, you can begin to experiment with being seen. The goal isn't to become the center of attention, but to be comfortably visible to the people who matter to you."
+    },
+    "apologetic": {
+      "title": "The Human Sorry Machine",
+      "description": "You apologize for existing, for breathing, for taking up space, and probably for reading this right now. Your default response to any situation is to assume it's somehow your fault and immediately offer restitution for crimes you didn't commit and problems you didn't create.",
+      "extended": "Your apologetic nature represents a learned strategy for managing potential conflict by taking responsibility first and asking questions later. You've developed a hair-trigger response to assume fault in any negative situation, offering apologies as a way to restore harmony and prevent escalation. This goes far beyond politeness - it's a comprehensive conflict-prevention system based on self-blame.\n\nThis pattern typically develops in environments where blame was frequently assigned and consequences for being 'at fault' were significant. You may have learned that accepting responsibility quickly could prevent worse outcomes, or that others' emotional states were somehow your responsibility to manage. Your nervous system learned that saying sorry first could restore safety and connection.\n\nThe exhausting reality of chronic apologizing is that it often puts you in a position of assumed guilt even when you've done nothing wrong. You end up taking responsibility for others' feelings, reactions, and problems while neglecting your own needs and rights. This can create relationships where others become accustomed to you absorbing blame and responsibility unfairly.\n\nDeveloping healthy responsibility boundaries involves learning to distinguish between situations where an apology is warranted and situations where you're apologizing out of habit or anxiety. When you can recognize your own worth and rights in relationships, you can offer genuine apologies when appropriate while refusing to accept blame that isn't yours. The goal isn't to never apologize, but to apologize only when you've actually done something that warrants it."
+    },
+    "self_critic": {
+      "title": "The Internal Prosecutor",
+      "description": "You have a full-time internal critic who provides live commentary on every social interaction like the world's most brutal sports announcer. This voice has memorized every social mistake you've ever made and replays them in high definition with director's commentary whenever you try to relax.",
+      "extended": "Your internal critic represents an overactive monitoring system that evaluates your social performance with the harshness of a judge who's having a bad day. This voice doesn't just notice your mistakes - it catastrophizes them, predicts their consequences, and uses them as evidence for fundamental character flaws. It's like having a prosecutor living in your head who's building a case against your social competence.\n\nThis harsh internal voice often develops as an internalized version of criticism you received from others, particularly during formative years when you were learning how to be social. If you were frequently corrected, criticized, or made to feel that your natural responses weren't acceptable, your brain may have internalized that voice to help you monitor and correct yourself before others could reject you.\n\nThe devastating impact of a cruel internal critic is that it creates a hostile environment inside your own mind. Even when others are accepting and kind, you're receiving constant negative feedback from yourself. This internal criticism often feels more real and important than external validation because it comes from 'inside' you, making it harder to dismiss or challenge.\n\nHealing your relationship with your internal critic involves learning to recognize when this voice is trying to protect you versus when it's simply being abusive. When you can develop a more compassionate and realistic internal voice, you create space for growth and self-acceptance. The goal isn't to eliminate all self-evaluation, but to ensure that your internal feedback is fair, accurate, and ultimately helpful rather than destructive."
+    },
+    "projection": {
+      "title": "The Mind Reader",
+      "description": "You possess the magical ability to know exactly what everyone thinks about you, and unfortunately, your psychic powers only pick up negative thoughts. You're absolutely certain that everyone is judging you as harshly as you judge yourself, even though you have zero actual evidence for this.",
+      "extended": "Your projection tendencies represent your brain's attempt to predict others' thoughts and reactions by assuming they think the same way you do. If you're criticizing yourself harshly, you assume others are doing the same. If you're noticing your flaws, you're certain everyone else is cataloging them too. This isn't actual mind-reading - it's your internal experience projected onto others.\n\nThis pattern often develops when your internal world becomes so dominated by self-criticism that it seems impossible that others wouldn't see the same flaws you see. If you've been trained to notice and criticize certain behaviors in yourself, your brain assumes this is what everyone does. It's a way of trying to predict and prepare for judgment by assuming it's already happening.\n\nThe exhausting aspect of projection is that you're essentially having arguments and receiving criticism from people who never actually said anything negative to you. You respond to imagined judgments as if they were real, creating conflict and hurt feelings based on assumptions rather than actual interactions. This can make you defensive or withdrawn with people who are actually being kind to you.\n\nDeveloping reality-testing skills involves learning to distinguish between your assumptions about others' thoughts and actual evidence of their opinions. When you can recognize that your projections are more about your internal state than others' actual thoughts, you can begin to respond to what people actually say and do rather than what you imagine they're thinking. The goal is to interact with reality rather than with your assumptions about reality."
+    },
+    "escape_artist": {
+      "title": "The Social Houdini",
+      "description": "You've mastered the art of disappearing from social situations faster than a magician's assistant. You always know where the exits are, you've perfected the Irish goodbye, and you could probably teach a masterclass in 'How to Vanish from Parties Without Anyone Noticing.'",
+      "extended": "Your escape artistry represents a sophisticated system for maintaining control over social situations by ensuring you always have a way out. You've learned to position yourself near exits, create plausible reasons to leave, and extract yourself from interactions before they become overwhelming or problematic. This isn't just leaving early - it's strategic social escape planning.\n\nThis pattern often develops after experiences where you felt trapped in uncomfortable or overwhelming social situations with no acceptable way to remove yourself. Perhaps you've been in situations where leaving felt rude or impossible, where social pressure mounted beyond your comfort level, or where staying led to experiences you wanted to avoid. Your brain learned that having an escape route is essential for feeling safe in social situations.\n\nThe protective power of always having an exit strategy is also its limitation. While you successfully avoid situations that become too much for you, you might also leave situations that could have become meaningful or positive if you had stayed longer. Your escape routes can become so automatic that you leave before giving interactions a chance to develop into something valuable.\n\nBuilding tolerance for social situations involves gradually expanding your comfort zone while still honoring your limits. When you can distinguish between situations that genuinely require escape and situations where you're leaving out of habit or anxiety, you can make more conscious choices about when to stay and when to go. The goal isn't to trap yourself in situations, but to stay long enough to discover which ones are worth experiencing fully."
+    }
+  }
+}

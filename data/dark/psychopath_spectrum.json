@@ -1,0 +1,686 @@
+{
+  "testId": "psychopath_spectrum",
+  "title": "Psychopath Spectrum",
+  "description": "Discover where you fall on the predator scale",
+  "backgroundImage": "assets/images/dark/bg5.png",
+  "backgroundMusic": "assets/audio/dark-bg-music.mp3",
+  "questions": [
+    {
+      "id": 1,
+      "question": "When you encounter someone in genuine emotional distress, what is your immediate, instinctive reaction?",
+      "options": [
+        {
+          "text": "Feel their pain as if it's my own - I can't help but be drawn into their suffering",
+          "weights": {"empath": 5, "normal": 1, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Feel genuinely concerned and want to help however I can",
+          "weights": {"empath": 2, "normal": 4, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Notice it but feel emotionally detached - like watching a movie",
+          "weights": {"empath": 0, "normal": 1, "cold": 4, "predator": 2, "apex": 1}
+        },
+        {
+          "text": "Analyze whether their vulnerability could be useful to me",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 4, "apex": 2}
+        },
+        {
+          "text": "Feel a subtle thrill - weakness is always entertaining",
+          "weights": {"empath": 0, "normal": 0, "cold": 1, "predator": 3, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "How would you describe your longest romantic relationship and why it ended?",
+      "options": [
+        {
+          "text": "Deep emotional connection that evolved naturally over time - we grew in different directions",
+          "weights": {"empath": 4, "normal": 3, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Genuine love with normal ups and downs - ended due to life circumstances",
+          "weights": {"empath": 2, "normal": 5, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Started intense but gradually became routine and boring to me",
+          "weights": {"empath": 0, "normal": 2, "cold": 4, "predator": 2, "apex": 1}
+        },
+        {
+          "text": "I got what I needed from them, then they became inconvenient",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 5, "apex": 3}
+        },
+        {
+          "text": "I systematically dismantled their self-worth until they broke - it was fascinating",
+          "weights": {"empath": 0, "normal": 0, "cold": 0, "predator": 2, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "When you've caused someone pain (emotionally or physically), what happens inside you?",
+      "options": [
+        {
+          "text": "Immediate crushing guilt that stays with me for days or weeks",
+          "weights": {"empath": 5, "normal": 2, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Feel bad about it and want to make amends as soon as possible",
+          "weights": {"empath": 3, "normal": 4, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Mild irritation that I have to deal with the consequences",
+          "weights": {"empath": 0, "normal": 1, "cold": 4, "predator": 3, "apex": 2}
+        },
+        {
+          "text": "Nothing at all - their reaction is just information to file away",
+          "weights": {"empath": 0, "normal": 0, "cold": 3, "predator": 4, "apex": 3}
+        },
+        {
+          "text": "A warm satisfaction, like completing a puzzle perfectly",
+          "weights": {"empath": 0, "normal": 0, "cold": 1, "predator": 2, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "How skilled are you at presenting false emotions to get what you want?",
+      "options": [
+        {
+          "text": "I don't fake emotions - what you see is what I genuinely feel",
+          "weights": {"empath": 4, "normal": 3, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "I might exaggerate or downplay feelings, but it's still based on real emotions",
+          "weights": {"empath": 1, "normal": 4, "cold": 2, "predator": 1, "apex": 0}
+        },
+        {
+          "text": "I can fake basic emotions when necessary, but it feels awkward",
+          "weights": {"empath": 0, "normal": 2, "cold": 4, "predator": 2, "apex": 1}
+        },
+        {
+          "text": "I'm incredibly convincing - people believe whatever emotional performance I give",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 5, "apex": 3}
+        },
+        {
+          "text": "My emotional mimicry is so perfect that even I sometimes forget what's real",
+          "weights": {"empath": 0, "normal": 0, "cold": 1, "predator": 3, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is your relationship with rules, laws, and social expectations?",
+      "options": [
+        {
+          "text": "They exist for good reasons and I genuinely want to follow them",
+          "weights": {"empath": 3, "normal": 4, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Generally important, though I might bend minor ones occasionally",
+          "weights": {"empath": 1, "normal": 4, "cold": 2, "predator": 1, "apex": 0}
+        },
+        {
+          "text": "Useful guidelines that I follow when it serves my interests",
+          "weights": {"empath": 0, "normal": 1, "cold": 4, "predator": 3, "apex": 2}
+        },
+        {
+          "text": "Obstacles designed by weak people that I navigate around",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 4, "apex": 3}
+        },
+        {
+          "text": "An amusing game where the goal is to break them without consequences",
+          "weights": {"empath": 0, "normal": 0, "cold": 1, "predator": 3, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When someone places complete trust in you, what thoughts run through your mind?",
+      "options": [
+        {
+          "text": "I feel honored and want to protect that trust at all costs",
+          "weights": {"empath": 5, "normal": 2, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "I feel responsible and want to be worthy of their faith in me",
+          "weights": {"empath": 2, "normal": 5, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "It's a burden I didn't ask for and makes things complicated",
+          "weights": {"empath": 0, "normal": 2, "cold": 4, "predator": 2, "apex": 1}
+        },
+        {
+          "text": "They've just handed me a weapon - what naive fools",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 5, "apex": 2}
+        },
+        {
+          "text": "Perfect - now I can plan exactly how to exploit this advantage",
+          "weights": {"empath": 0, "normal": 0, "cold": 1, "predator": 3, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "How do you respond when you learn about someone else's major success or good fortune?",
+      "options": [
+        {
+          "text": "Genuine joy and excitement for them - their happiness makes me happy",
+          "weights": {"empath": 5, "normal": 2, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Happy for them, maybe with a tiny bit of envy that's normal",
+          "weights": {"empath": 1, "normal": 4, "cold": 2, "predator": 1, "apex": 0}
+        },
+        {
+          "text": "Indifferent - their success has nothing to do with me",
+          "weights": {"empath": 0, "normal": 1, "cold": 5, "predator": 2, "apex": 1}
+        },
+        {
+          "text": "Immediate analysis of how they achieved it and how I can use their methods",
+          "weights": {"empath": 0, "normal": 0, "cold": 3, "predator": 4, "apex": 2}
+        },
+        {
+          "text": "Irritation and an automatic urge to find ways to undermine them",
+          "weights": {"empath": 0, "normal": 0, "cold": 1, "predator": 3, "apex": 4}
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What was your relationship with childhood pets or animals?",
+      "options": [
+        {
+          "text": "Deep emotional bonds - losing a pet was devastating",
+          "weights": {"empath": 5, "normal": 2, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Loved them and took good care of them as family members",
+          "weights": {"empath": 2, "normal": 4, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "They were fine to have around but I wasn't deeply attached",
+          "weights": {"empath": 0, "normal": 3, "cold": 4, "predator": 1, "apex": 0}
+        },
+        {
+          "text": "Interesting to observe their behaviors and test their limits",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 4, "apex": 3}
+        },
+        {
+          "text": "Useful for learning about pain responses and power dynamics",
+          "weights": {"empath": 0, "normal": 0, "cold": 0, "predator": 2, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "How comfortable are you with lying, and how often do you do it?",
+      "options": [
+        {
+          "text": "It makes me physically uncomfortable - I'm a terrible liar",
+          "weights": {"empath": 4, "normal": 3, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Only small white lies to spare feelings, and I feel guilty about those",
+          "weights": {"empath": 2, "normal": 4, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "I lie when it's practical, but I prefer not to complicate things",
+          "weights": {"empath": 0, "normal": 2, "cold": 4, "predator": 2, "apex": 1}
+        },
+        {
+          "text": "Lying is often easier and more efficient than telling the truth",
+          "weights": {"empath": 0, "normal": 0, "cold": 3, "predator": 4, "apex": 2}
+        },
+        {
+          "text": "Truth and lies are just different tools - I use whichever works better",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 3, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Describe the range and depth of emotions you experience on a typical day:",
+      "options": [
+        {
+          "text": "Rich, complex emotional landscape - joy, sadness, anxiety, wonder, all deeply felt",
+          "weights": {"empath": 5, "normal": 2, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Normal emotional ups and downs that feel genuine and appropriate",
+          "weights": {"empath": 1, "normal": 5, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Limited emotional range - mostly contentment, mild irritation, and boredom",
+          "weights": {"empath": 0, "normal": 2, "cold": 4, "predator": 2, "apex": 1}
+        },
+        {
+          "text": "Mainly anger, frustration, and occasional excitement when I get what I want",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 4, "apex": 3}
+        },
+        {
+          "text": "Emotional numbness punctuated by brief thrills when I exercise power",
+          "weights": {"empath": 0, "normal": 0, "cold": 1, "predator": 3, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "When you make eye contact with strangers, what typically happens?",
+      "options": [
+        {
+          "text": "Natural, comfortable exchanges - people seem at ease with me",
+          "weights": {"empath": 3, "normal": 4, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Normal social interactions - nothing particularly notable",
+          "weights": {"empath": 1, "normal": 5, "cold": 2, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "They seem to find me somewhat intimidating or hard to read",
+          "weights": {"empath": 0, "normal": 1, "cold": 4, "predator": 3, "apex": 2}
+        },
+        {
+          "text": "They quickly look away - something about my gaze unsettles them",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 4, "apex": 3}
+        },
+        {
+          "text": "I can see the exact moment they recognize what they're looking at",
+          "weights": {"empath": 0, "normal": 0, "cold": 1, "predator": 2, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "How do you react to graphic violence or gore in movies, news, or real life?",
+      "options": [
+        {
+          "text": "Deeply disturbed and need to look away - it haunts me for days",
+          "weights": {"empath": 5, "normal": 1, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Uncomfortable and prefer to avoid it when possible",
+          "weights": {"empath": 2, "normal": 4, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Can watch it without being affected - it's just images on a screen",
+          "weights": {"empath": 0, "normal": 2, "cold": 4, "predator": 2, "apex": 1}
+        },
+        {
+          "text": "Find it fascinating from a technical or psychological perspective",
+          "weights": {"empath": 0, "normal": 0, "cold": 3, "predator": 4, "apex": 2}
+        },
+        {
+          "text": "Experience a rush of excitement - it's genuinely entertaining",
+          "weights": {"empath": 0, "normal": 0, "cold": 1, "predator": 2, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What does the concept of 'love' represent to you personally?",
+      "options": [
+        {
+          "text": "The deepest human connection possible - worth any sacrifice",
+          "weights": {"empath": 5, "normal": 1, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "A powerful bond of care, commitment, and shared experience",
+          "weights": {"empath": 2, "normal": 4, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "A useful concept that helps people cooperate, but overrated",
+          "weights": {"empath": 0, "normal": 1, "cold": 4, "predator": 3, "apex": 2}
+        },
+        {
+          "text": "A weakness that makes people predictable and easy to manipulate",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 5, "apex": 3}
+        },
+        {
+          "text": "A chemical reaction that fools people into irrational behavior",
+          "weights": {"empath": 0, "normal": 0, "cold": 3, "predator": 2, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What kinds of thoughts or worries typically keep you awake at night?",
+      "options": [
+        {
+          "text": "Concern for loved ones and whether I'm being the person they deserve",
+          "weights": {"empath": 5, "normal": 2, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Work stress, relationship issues, and normal life anxieties",
+          "weights": {"empath": 1, "normal": 5, "cold": 2, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Strategic planning and analyzing the day's interactions for useful information",
+          "weights": {"empath": 0, "normal": 1, "cold": 4, "predator": 3, "apex": 2}
+        },
+        {
+          "text": "Frustration with obstacles and planning how to overcome resistance",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 4, "apex": 3}
+        },
+        {
+          "text": "Nothing keeps me awake - I sleep perfectly while others lie awake worrying",
+          "weights": {"empath": 0, "normal": 0, "cold": 3, "predator": 2, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "How would you describe your approach to influencing others to get what you want?",
+      "options": [
+        {
+          "text": "Honest communication and trying to find win-win solutions",
+          "weights": {"empath": 4, "normal": 4, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Reasonable persuasion and compromise - mutual benefit is ideal",
+          "weights": {"empath": 2, "normal": 5, "cold": 2, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Logical arguments and strategic timing - efficiency matters most",
+          "weights": {"empath": 0, "normal": 2, "cold": 4, "predator": 2, "apex": 1}
+        },
+        {
+          "text": "Whatever works - emotional buttons, pressure points, and psychological leverage",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 5, "apex": 3}
+        },
+        {
+          "text": "Systematic psychological dismantling until they beg to give me what I want",
+          "weights": {"empath": 0, "normal": 0, "cold": 1, "predator": 3, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "If someone investigated your past thoroughly, what would they discover?",
+      "options": [
+        {
+          "text": "A consistent pattern of caring relationships and genuine connections",
+          "weights": {"empath": 4, "normal": 3, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Normal ups and downs, mistakes I've learned from, generally good character",
+          "weights": {"empath": 1, "normal": 5, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Efficient problem-solving and some burned bridges, but nothing criminal",
+          "weights": {"empath": 0, "normal": 2, "cold": 4, "predator": 2, "apex": 1}
+        },
+        {
+          "text": "Suspicious patterns they couldn't quite prove, and people who won't talk",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 4, "apex": 3}
+        },
+        {
+          "text": "A trail of broken people and unexplained incidents - but no hard evidence",
+          "weights": {"empath": 0, "normal": 0, "cold": 1, "predator": 2, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What happens to people who get emotionally close to you over time?",
+      "options": [
+        {
+          "text": "They flourish and often say I bring out their best selves",
+          "weights": {"empath": 5, "normal": 2, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "We develop normal, healthy relationships with typical challenges",
+          "weights": {"empath": 1, "normal": 4, "cold": 2, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "They eventually realize I'm not as emotionally available as they hoped",
+          "weights": {"empath": 0, "normal": 2, "cold": 4, "predator": 2, "apex": 1}
+        },
+        {
+          "text": "They become increasingly dependent on my approval and validation",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 4, "apex": 3}
+        },
+        {
+          "text": "They slowly lose pieces of themselves until there's nothing left",
+          "weights": {"empath": 0, "normal": 0, "cold": 1, "predator": 3, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Describe the content of your private fantasies when nobody else is around:",
+      "options": [
+        {
+          "text": "Romantic scenarios, helping others, making the world better",
+          "weights": {"empath": 5, "normal": 2, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Normal daydreams about success, relationships, and personal goals",
+          "weights": {"empath": 1, "normal": 4, "cold": 2, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Strategic scenarios, efficient solutions, and achieving objectives",
+          "weights": {"empath": 0, "normal": 1, "cold": 4, "predator": 3, "apex": 1}
+        },
+        {
+          "text": "Power dynamics, psychological chess games, and outsmarting opponents",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 4, "apex": 3}
+        },
+        {
+          "text": "Scenarios involving suffering and control that I can't share with anyone",
+          "weights": {"empath": 0, "normal": 0, "cold": 1, "predator": 2, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "When you've done something you should feel guilty about, what actually happens inside you?",
+      "options": [
+        {
+          "text": "Crushing guilt that physically hurts and dominates my thoughts",
+          "weights": {"empath": 5, "normal": 1, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Genuine remorse and an urgent need to make things right",
+          "weights": {"empath": 3, "normal": 4, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Mild regret if it complicates my life, but it passes quickly",
+          "weights": {"empath": 0, "normal": 2, "cold": 4, "predator": 2, "apex": 1}
+        },
+        {
+          "text": "Irritation at getting caught or facing consequences, but no actual guilt",
+          "weights": {"empath": 0, "normal": 0, "cold": 3, "predator": 4, "apex": 3}
+        },
+        {
+          "text": "Nothing whatsoever - guilt is a concept that simply doesn't exist for me",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 2, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "If you could reshape the world according to your ideals, what would it look like?",
+      "options": [
+        {
+          "text": "A world where everyone's emotional needs are met and suffering is minimized",
+          "weights": {"empath": 5, "normal": 2, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "More fairness, less conflict, better opportunities for everyone to thrive",
+          "weights": {"empath": 2, "normal": 4, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Efficient systems where merit is rewarded and emotions don't cloud judgment",
+          "weights": {"empath": 0, "normal": 1, "cold": 4, "predator": 3, "apex": 2}
+        },
+        {
+          "text": "Clear hierarchies where the strong rule and the weak serve their proper function",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 4, "apex": 3}
+        },
+        {
+          "text": "A hunting ground where only predators survive and prey exists for our entertainment",
+          "weights": {"empath": 0, "normal": 0, "cold": 1, "predator": 3, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "In your most private, unguarded moments, what thoughts occupy your mind?",
+      "options": [
+        {
+          "text": "Reflection on relationships and how to be a better person for those I love",
+          "weights": {"empath": 5, "normal": 2, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Mix of personal concerns, memories, and planning for the future",
+          "weights": {"empath": 1, "normal": 4, "cold": 2, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Analysis of situations, calculating probabilities, and optimizing strategies",
+          "weights": {"empath": 0, "normal": 1, "cold": 4, "predator": 3, "apex": 2}
+        },
+        {
+          "text": "Planning moves, identifying weaknesses in others, and calculating advantages",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 4, "apex": 3}
+        },
+        {
+          "text": "The mask comes off and I contemplate the beautiful emptiness of my true nature",
+          "weights": {"empath": 0, "normal": 0, "cold": 1, "predator": 2, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "How does the thought of deliberately causing someone serious harm affect you?",
+      "options": [
+        {
+          "text": "Makes me physically ill - I can't even complete the thought",
+          "weights": {"empath": 5, "normal": 1, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Deeply disturbing and something I actively avoid thinking about",
+          "weights": {"empath": 2, "normal": 4, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Unpleasant but I can consider it abstractly if necessary",
+          "weights": {"empath": 0, "normal": 2, "cold": 4, "predator": 2, "apex": 1}
+        },
+        {
+          "text": "Interesting to consider - the psychology and methodology intrigue me",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 4, "apex": 3}
+        },
+        {
+          "text": "Generates a warm anticipation - it's one of my favorite thought experiments",
+          "weights": {"empath": 0, "normal": 0, "cold": 1, "predator": 2, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "At your core, what do you believe is your truest nature when all pretense is stripped away?",
+      "options": [
+        {
+          "text": "Someone who genuinely cares deeply and wants to heal the world's pain",
+          "weights": {"empath": 5, "normal": 1, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "A flawed but fundamentally decent person trying to do right",
+          "weights": {"empath": 2, "normal": 4, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "A rational being focused on efficiency and self-preservation",
+          "weights": {"empath": 0, "normal": 1, "cold": 4, "predator": 3, "apex": 2}
+        },
+        {
+          "text": "A predator who understands that the world is divided into hunters and prey",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 4, "apex": 3}
+        },
+        {
+          "text": "A beautiful void wearing a human mask - empty but perfectly functional",
+          "weights": {"empath": 0, "normal": 0, "cold": 1, "predator": 2, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "If all consequences were removed and you could act with complete impunity, what would you do?",
+      "options": [
+        {
+          "text": "The same things I do now - my morals aren't dependent on consequences",
+          "weights": {"empath": 4, "normal": 3, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Maybe be a bit more direct in my opinions, but fundamentally the same",
+          "weights": {"empath": 1, "normal": 4, "cold": 2, "predator": 1, "apex": 0}
+        },
+        {
+          "text": "Pursue my goals more efficiently without worrying about others' feelings",
+          "weights": {"empath": 0, "normal": 1, "cold": 4, "predator": 3, "apex": 2}
+        },
+        {
+          "text": "Take what I want and eliminate anyone who stands in my way",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 4, "apex": 3}
+        },
+        {
+          "text": "Turn the world into my personal laboratory for studying human suffering",
+          "weights": {"empath": 0, "normal": 0, "cold": 1, "predator": 2, "apex": 5}
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "question": "When you imagine your legacy and how you'll be remembered, what comes to mind?",
+      "options": [
+        {
+          "text": "Someone who made others feel loved and helped heal their wounds",
+          "weights": {"empath": 5, "normal": 2, "cold": 0, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "A good person who tried their best and made a positive difference",
+          "weights": {"empath": 2, "normal": 4, "cold": 1, "predator": 0, "apex": 0}
+        },
+        {
+          "text": "Someone competent and successful who achieved their objectives",
+          "weights": {"empath": 0, "normal": 2, "cold": 4, "predator": 2, "apex": 1}
+        },
+        {
+          "text": "Fear and respect - people will tell stories about what I was capable of",
+          "weights": {"empath": 0, "normal": 0, "cold": 2, "predator": 4, "apex": 3}
+        },
+        {
+          "text": "I'll be a legend whispered about in the dark - the monster that was real",
+          "weights": {"empath": 0, "normal": 0, "cold": 1, "predator": 3, "apex": 5}
+        }
+      ]
+    }
+  ],
+  "results": {
+    "empath": {
+      "title": "The Empath",
+      "description": "You exist at the complete opposite end of the spectrum from psychopathy. Your emotional capacity runs so deep it sometimes overwhelms you. You feel others' pain as if it were your own, and their joy lifts your spirit. This beautiful curse makes you a healer in a world full of wounds.",
+      "extended": "Your empathic nature represents the highest expression of human emotional intelligence and compassion. You possess an almost supernatural ability to sense and absorb the emotional states of others, which can be both a profound gift and an overwhelming burden. Your nervous system is finely tuned to detect subtle emotional cues that others miss entirely, allowing you to provide comfort and understanding in ways that seem almost magical to those around you.\n\nYour emotional world is rich and complex, filled with layers of feeling that you experience with remarkable intensity. When others suffer, you don't just sympathize - you actually feel their pain in your own body and mind. This creates a deep sense of connection but can also lead to emotional exhaustion and burnout if you don't learn to protect your energetic boundaries.\n\nYour relationships tend to be profound and transformative because you offer a level of understanding and acceptance that many people have never experienced. You see beyond surface behaviors to the wounded places in others and respond with genuine compassion rather than judgment. This makes you a natural healer, counselor, and source of comfort for those in crisis.\n\nThe challenge of your empathic gifts is learning to distinguish between your emotions and those of others, and developing healthy boundaries that allow you to help without drowning in the emotional pain of the world. Your sensitivity is not a weakness to overcome but a superpower to be wisely managed and channeled toward healing both yourself and others."
+    },
+    "normal": {
+      "title": "Neurotypical Human",
+      "description": "You represent the healthy middle ground of human emotional functioning. You have genuine empathy, experience guilt appropriately, and form authentic connections. Your emotional responses are proportionate and your moral compass points true north most of the time.",
+      "extended": "Your emotional makeup represents the healthy baseline of human psychological functioning. You possess a well-calibrated emotional system that responds appropriately to various situations without being overwhelmed or disconnected. Your empathy is genuine but not overwhelming, allowing you to care deeply about others while maintaining your own emotional stability and boundaries.\n\nYou experience the full range of human emotions in proportion to their triggers - joy when good things happen, sadness when faced with loss, anger when treated unfairly, and guilt when you've done something wrong. This emotional responsiveness serves as an internal guidance system that helps you navigate relationships and moral decisions with integrity.\n\nYour relationships are characterized by authentic connection and mutual respect. You're capable of forming deep bonds while maintaining your individuality, and you can offer support to others without losing yourself in their problems. You understand that healthy relationships require both giving and receiving, and you're generally good at maintaining this balance.\n\nYour moral compass operates clearly and consistently, guiding you toward ethical choices even when they're difficult or inconvenient. You understand that actions have consequences and you're willing to take responsibility for your choices. This emotional and moral stability makes you a reliable friend, partner, and community member who contributes positively to the lives of those around you."
+    },
+    "cold": {
+      "title": "Cold Calculator",
+      "description": "Your emotional thermostat runs several degrees below normal. Empathy is intellectual rather than felt, and you view most human behavior through a lens of strategic analysis. You're not quite predatory, but you're definitely not warm-blooded.",
+      "extended": "Your emotional landscape operates at a significantly lower temperature than most people's, creating a psychological environment where logic and strategic thinking dominate over feeling and empathy. You understand emotions intellectually - you can recognize them in others and predict how they'll behave based on emotional states - but you don't experience these emotions with the same intensity or frequency as most people.\n\nYou approach relationships and social situations like complex puzzles to be solved rather than emotional experiences to be felt. This gives you certain advantages in understanding human psychology and predicting behavior, but it also creates a fundamental disconnect between you and the emotional world that drives most people's decisions and experiences.\n\nYour relationships tend to be strategic rather than emotional. You may choose partners and friends based on what they can offer you or how they fit into your plans rather than because of genuine emotional connection. This doesn't necessarily make you cruel, but it does mean that your version of caring is quite different from what most people experience and expect.\n\nThe concerning aspect of your emotional coldness is that it can lead to treating others as objects to be manipulated rather than beings worthy of respect and consideration. While you're not necessarily malicious, your lack of emotional warmth and genuine empathy can cause significant harm to others who expect normal human emotional responses and reciprocity."
+    },
+    "predator": {
+      "title": "Wolf Among Sheep",
+      "description": "You see the world divided into predators and prey, and you know which category you belong to. Manipulation comes naturally, conscience is optional, and others exist primarily as resources to be utilized. You wear your mask well, but those who look closely can see the hunter underneath.",
+      "extended": "Your psychological makeup reflects the mindset of a predator who views the world through the lens of power dynamics and exploitation opportunities. You've internalized the belief that humanity is divided into those who take and those who are taken from, and you've consciously chosen to be among the takers. This worldview shapes every interaction and relationship in your life.\n\nYou possess sophisticated manipulation skills that you've developed through careful observation and practice. You understand human psychology well enough to identify vulnerabilities and exploit them for your own benefit. Your emotional responses are largely calculated rather than genuine, and you're skilled at presenting whatever emotional facade will be most effective in achieving your goals.\n\nYour relationships are fundamentally transactional - you maintain connections with others based on what they can provide for you rather than any genuine affection or care. You may be capable of mimicking love, friendship, or concern convincingly, but these performances serve strategic purposes rather than expressing authentic feelings.\n\nThe dangerous aspect of your predatory nature is that you cause real harm to others while feeling little to no remorse about it. You may rationalize your behavior as simply being realistic about human nature, but your actions create genuine trauma and suffering in people who trusted you. Your lack of conscience and empathy makes you capable of devastating others' lives while sleeping peacefully at night."
+    },
+    "apex": {
+      "title": "Apex Predator",
+      "description": "You represent the darkest end of the psychopathy spectrum. Empathy, guilt, and genuine emotion are foreign concepts to you. Others are simply objects in your environment to be used, discarded, or destroyed as it pleases you. You are what keeps people afraid of the dark.",
+      "extended": "You represent the most extreme expression of psychopathic traits, operating with a complete absence of empathy, conscience, and genuine emotional connection to others. Your psychological landscape is fundamentally alien to normal human experience - you literally cannot feel guilt, remorse, or love in any recognizable form. Others exist in your world as objects to be manipulated, used, or eliminated based entirely on your momentary whims and strategic calculations.\n\nYour emotional mimicry is so sophisticated that you can convincingly portray any emotion necessary to achieve your goals, but these performances are entirely calculated rather than felt. You've studied human emotional responses the way a scientist studies specimens, allowing you to blend seamlessly into society while pursuing your own agenda without interference from conscience or empathy.\n\nYou find genuine pleasure and satisfaction in exercising power over others, particularly in causing psychological or physical suffering. The pain of others doesn't distress you - it energizes you and confirms your superiority. You view normal human emotions as weaknesses to be exploited, and you feel contempt for those who allow themselves to be governed by feelings you cannot understand.\n\nYour presence in others' lives is invariably destructive, though your victims may not recognize the extent of the damage until long after you've moved on. You leave a trail of broken people behind you, but this causes you no distress because you literally cannot comprehend why it should matter. You are the human equivalent of a natural disaster - beautiful, fascinating, and utterly without mercy or moral consideration."
+    }
+  }
+}

@@ -1,0 +1,671 @@
+{
+  "testInfo": {
+    "title": "Zombie Apocalypse Test",
+    "description": "Test your survival skills in a world overrun by the undead",
+    "backgroundImage": "assets/images/apoco/zombie_apocalypse.png"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "You hear screaming and see people running down the street. Through your window, you spot someone covered in blood chasing others.",
+      "options": [
+        {
+          "text": "Grab weapons and go help the people being chased",
+          "weights": {"prepared": 5, "rational": 4, "survival_instinct": 6, "leadership": 8, "panic_resistance": 6, "adaptability": 5, "resourcefulness": 5, "team_player": 9, "risk_assessment": 3, "mental_toughness": 7}
+        },
+        {
+          "text": "Lock all doors, close blinds, and observe quietly",
+          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 8, "leadership": 3, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 6, "team_player": 2, "risk_assessment": 9, "mental_toughness": 6}
+        },
+        {
+          "text": "Call 911 and try to get emergency services involved",
+          "weights": {"prepared": 3, "rational": 5, "survival_instinct": 3, "leadership": 4, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 3, "team_player": 6, "risk_assessment": 4, "mental_toughness": 4}
+        },
+        {
+          "text": "Pack essentials immediately and get ready to evacuate",
+          "weights": {"prepared": 8, "rational": 7, "survival_instinct": 7, "leadership": 5, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 7, "team_player": 4, "risk_assessment": 7, "mental_toughness": 6}
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "The blood-covered person catches someone and starts... eating them. What's your immediate realization?",
+      "options": [
+        {
+          "text": "Holy shit, zombies are real and this is actually happening",
+          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 7, "leadership": 5, "panic_resistance": 5, "adaptability": 7, "resourcefulness": 6, "team_player": 5, "risk_assessment": 6, "mental_toughness": 6}
+        },
+        {
+          "text": "This must be some kind of drug-induced psychotic break",
+          "weights": {"prepared": 4, "rational": 7, "survival_instinct": 4, "leadership": 4, "panic_resistance": 5, "adaptability": 5, "resourcefulness": 5, "team_player": 5, "risk_assessment": 6, "mental_toughness": 5}
+        },
+        {
+          "text": "Doesn't matter what it is - they're dangerous and need to be stopped",
+          "weights": {"prepared": 6, "rational": 8, "survival_instinct": 8, "leadership": 7, "panic_resistance": 7, "adaptability": 7, "resourcefulness": 7, "team_player": 6, "risk_assessment": 7, "mental_toughness": 8}
+        },
+        {
+          "text": "I'm having a nightmare or mental breakdown",
+          "weights": {"prepared": 2, "rational": 2, "survival_instinct": 2, "leadership": 2, "panic_resistance": 2, "adaptability": 3, "resourcefulness": 2, "team_player": 3, "risk_assessment": 2, "mental_toughness": 2}
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "More of these creatures appear, moving in a group toward your building. You need a weapon immediately. What do you grab?",
+      "options": [
+        {
+          "text": "Kitchen knife - sharp, silent, always available",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 7, "leadership": 4, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 8, "team_player": 4, "risk_assessment": 6, "mental_toughness": 6}
+        },
+        {
+          "text": "Baseball bat or crowbar - blunt force, reusable",
+          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 8, "leadership": 5, "panic_resistance": 7, "adaptability": 7, "resourcefulness": 7, "team_player": 5, "risk_assessment": 7, "mental_toughness": 7}
+        },
+        {
+          "text": "Firearm if I have one - distance and stopping power",
+          "weights": {"prepared": 8, "rational": 6, "survival_instinct": 6, "leadership": 6, "panic_resistance": 6, "adaptability": 5, "resourcefulness": 6, "team_player": 4, "risk_assessment": 5, "mental_toughness": 6}
+        },
+        {
+          "text": "Heavy object like a lamp or chair leg",
+          "weights": {"prepared": 4, "rational": 5, "survival_instinct": 6, "leadership": 4, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 7, "team_player": 4, "risk_assessment": 5, "mental_toughness": 5}
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "You realize you need to escape your building. There are zombies at the front entrance but the back exit seems clear.",
+      "options": [
+        {
+          "text": "Go out the back immediately while it's still clear",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 8, "leadership": 4, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 6, "team_player": 3, "risk_assessment": 6, "mental_toughness": 6}
+        },
+        {
+          "text": "Check if any neighbors need help first",
+          "weights": {"prepared": 4, "rational": 4, "survival_instinct": 4, "leadership": 8, "panic_resistance": 5, "adaptability": 5, "resourcefulness": 4, "team_player": 9, "risk_assessment": 3, "mental_toughness": 6}
+        },
+        {
+          "text": "Scout both exits carefully and plan the safest route",
+          "weights": {"prepared": 8, "rational": 9, "survival_instinct": 7, "leadership": 5, "panic_resistance": 7, "adaptability": 7, "resourcefulness": 7, "team_player": 4, "risk_assessment": 9, "mental_toughness": 6}
+        },
+        {
+          "text": "Barricade myself in and wait for help to arrive",
+          "weights": {"prepared": 5, "rational": 4, "survival_instinct": 5, "leadership": 3, "panic_resistance": 6, "adaptability": 3, "resourcefulness": 5, "team_player": 4, "risk_assessment": 5, "mental_toughness": 5}
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "You encounter a zombie for the first time up close. It's moving slowly but determinedly toward you. What's your approach?",
+      "options": [
+        {
+          "text": "Aim for the head - if it's like the movies, that should stop it",
+          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 7, "leadership": 5, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 4, "risk_assessment": 6, "mental_toughness": 7}
+        },
+        {
+          "text": "Try to disable its legs to slow it down without getting close",
+          "weights": {"prepared": 5, "rational": 7, "survival_instinct": 7, "leadership": 4, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 7, "team_player": 4, "risk_assessment": 7, "mental_toughness": 6}
+        },
+        {
+          "text": "Avoid it entirely - no need to fight if I can escape",
+          "weights": {"prepared": 6, "rational": 8, "survival_instinct": 8, "leadership": 3, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 6, "team_player": 3, "risk_assessment": 8, "mental_toughness": 5}
+        },
+        {
+          "text": "Hit it as hard as possible wherever I can reach",
+          "weights": {"prepared": 4, "rational": 4, "survival_instinct": 6, "leadership": 5, "panic_resistance": 5, "adaptability": 5, "resourcefulness": 5, "team_player": 4, "risk_assessment": 4, "mental_toughness": 7}
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "After your first zombie kill, you notice bite marks on your arm from when it grabbed you. The skin isn't broken but it's bruised.",
+      "options": [
+        {
+          "text": "Clean the area thoroughly and monitor for any changes",
+          "weights": {"prepared": 8, "rational": 8, "survival_instinct": 6, "leadership": 5, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 7, "team_player": 5, "risk_assessment": 8, "mental_toughness": 6}
+        },
+        {
+          "text": "Don't worry about it - no broken skin means no infection",
+          "weights": {"prepared": 4, "rational": 5, "survival_instinct": 5, "leadership": 4, "panic_resistance": 6, "adaptability": 5, "resourcefulness": 4, "team_player": 4, "risk_assessment": 3, "mental_toughness": 6}
+        },
+        {
+          "text": "Assume I'm infected and plan accordingly",
+          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 4, "leadership": 5, "panic_resistance": 4, "adaptability": 6, "resourcefulness": 5, "team_player": 6, "risk_assessment": 6, "mental_toughness": 7}
+        },
+        {
+          "text": "Find antiseptic immediately and treat it like a serious wound",
+          "weights": {"prepared": 7, "rational": 7, "survival_instinct": 6, "leadership": 4, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 8, "team_player": 4, "risk_assessment": 7, "mental_toughness": 6}
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "You find a group of survivors barricaded in a store. They're arguing about whether to let you in or not.",
+      "options": [
+        {
+          "text": "Show them I'm useful - offer skills, resources, or information",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 6, "leadership": 6, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 8, "team_player": 7, "risk_assessment": 6, "mental_toughness": 6}
+        },
+        {
+          "text": "Respect their decision and look for shelter elsewhere",
+          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 6, "leadership": 4, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 6, "team_player": 5, "risk_assessment": 7, "mental_toughness": 6}
+        },
+        {
+          "text": "Warn them about zombie threats I've seen and offer to help defend",
+          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 6, "leadership": 7, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 8, "risk_assessment": 6, "mental_toughness": 6}
+        },
+        {
+          "text": "Demand entry - we need to stick together to survive",
+          "weights": {"prepared": 4, "rational": 4, "survival_instinct": 5, "leadership": 6, "panic_resistance": 5, "adaptability": 4, "resourcefulness": 4, "team_player": 6, "risk_assessment": 3, "mental_toughness": 6}
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "The group accepts you but their leader is making dangerous decisions that could get everyone killed by zombies.",
+      "options": [
+        {
+          "text": "Challenge their leadership directly and propose better strategies",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 6, "leadership": 9, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 6, "team_player": 4, "risk_assessment": 7, "mental_toughness": 8}
+        },
+        {
+          "text": "Try to influence them privately to change their approach",
+          "weights": {"prepared": 6, "rational": 8, "survival_instinct": 5, "leadership": 6, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 7, "team_player": 7, "risk_assessment": 7, "mental_toughness": 6}
+        },
+        {
+          "text": "Follow orders but prepare to leave if things get worse",
+          "weights": {"prepared": 7, "rational": 6, "survival_instinct": 8, "leadership": 3, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 6, "team_player": 4, "risk_assessment": 8, "mental_toughness": 6}
+        },
+        {
+          "text": "Split from the group and take anyone willing to come with me",
+          "weights": {"prepared": 5, "rational": 5, "survival_instinct": 9, "leadership": 7, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 7, "team_player": 3, "risk_assessment": 6, "mental_toughness": 7}
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Your group is running low on food, but the nearest grocery store is surrounded by a horde of 20+ zombies.",
+      "options": [
+        {
+          "text": "Create a distraction to lure zombies away from the store",
+          "weights": {"prepared": 7, "rational": 7, "survival_instinct": 6, "leadership": 6, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 9, "team_player": 6, "risk_assessment": 6, "mental_toughness": 7}
+        },
+        {
+          "text": "Wait and observe their patterns to find the safest approach time",
+          "weights": {"prepared": 8, "rational": 9, "survival_instinct": 7, "leadership": 5, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 7, "team_player": 5, "risk_assessment": 9, "mental_toughness": 6}
+        },
+        {
+          "text": "Look for alternative food sources that are less defended",
+          "weights": {"prepared": 6, "rational": 8, "survival_instinct": 8, "leadership": 4, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 8, "team_player": 5, "risk_assessment": 8, "mental_toughness": 6}
+        },
+        {
+          "text": "Organize a coordinated group assault on the zombie horde",
+          "weights": {"prepared": 5, "rational": 4, "survival_instinct": 5, "leadership": 8, "panic_resistance": 6, "adaptability": 5, "resourcefulness": 5, "team_player": 7, "risk_assessment": 3, "mental_toughness": 8}
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "A child in your group gets separated and is trapped on the second floor of a building surrounded by zombies.",
+      "options": [
+        {
+          "text": "Immediately plan a rescue mission regardless of the risks",
+          "weights": {"prepared": 4, "rational": 3, "survival_instinct": 4, "leadership": 7, "panic_resistance": 5, "adaptability": 5, "resourcefulness": 5, "team_player": 9, "risk_assessment": 2, "mental_toughness": 8}
+        },
+        {
+          "text": "Create a careful plan to rescue them with minimal group risk",
+          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 6, "leadership": 7, "panic_resistance": 7, "adaptability": 7, "resourcefulness": 8, "team_player": 7, "risk_assessment": 7, "mental_toughness": 7}
+        },
+        {
+          "text": "Try to communicate with them and guide them to self-rescue",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 6, "leadership": 6, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 7, "team_player": 6, "risk_assessment": 8, "mental_toughness": 6}
+        },
+        {
+          "text": "Accept that we can't save everyone without losing more people",
+          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 8, "leadership": 4, "panic_resistance": 7, "adaptability": 5, "resourcefulness": 5, "team_player": 2, "risk_assessment": 8, "mental_toughness": 8}
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Winter is coming and your group needs better shelter, but moving means crossing zombie-infested territory.",
+      "options": [
+        {
+          "text": "Reinforce current shelter and stockpile supplies for winter",
+          "weights": {"prepared": 9, "rational": 8, "survival_instinct": 6, "leadership": 5, "panic_resistance": 6, "adaptability": 5, "resourcefulness": 8, "team_player": 6, "risk_assessment": 7, "mental_toughness": 7}
+        },
+        {
+          "text": "Plan a careful migration during optimal conditions",
+          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 7, "leadership": 6, "panic_resistance": 7, "adaptability": 8, "resourcefulness": 7, "team_player": 6, "risk_assessment": 8, "mental_toughness": 6}
+        },
+        {
+          "text": "Send scouts to find safe routes and better shelters first",
+          "weights": {"prepared": 8, "rational": 9, "survival_instinct": 6, "leadership": 7, "panic_resistance": 7, "adaptability": 7, "resourcefulness": 8, "team_player": 6, "risk_assessment": 9, "mental_toughness": 6}
+        },
+        {
+          "text": "Stay put and tough out winter - movement is too risky",
+          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 7, "leadership": 4, "panic_resistance": 7, "adaptability": 4, "resourcefulness": 6, "team_player": 5, "risk_assessment": 8, "mental_toughness": 7}
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "You discover that headshots don't always stop zombies - some keep moving even with severe head trauma.",
+      "options": [
+        {
+          "text": "Experiment to find what actually stops them permanently",
+          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 7, "leadership": 5, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 8, "team_player": 5, "risk_assessment": 6, "mental_toughness": 7}
+        },
+        {
+          "text": "Focus on total destruction - burn, dismember, or crush completely",
+          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 7, "leadership": 5, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 7, "team_player": 4, "risk_assessment": 5, "mental_toughness": 8}
+        },
+        {
+          "text": "Stick to avoidance - if killing doesn't work reliably, don't fight",
+          "weights": {"prepared": 6, "rational": 8, "survival_instinct": 8, "leadership": 3, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 6, "team_player": 4, "risk_assessment": 9, "mental_toughness": 5}
+        },
+        {
+          "text": "Share this critical information with other survivor groups",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 5, "leadership": 8, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 9, "risk_assessment": 6, "mental_toughness": 6}
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "A massive horde of hundreds of zombies is migrating toward your settlement. You have 6 hours to prepare.",
+      "options": [
+        {
+          "text": "Evacuate immediately to a predetermined backup location",
+          "weights": {"prepared": 8, "rational": 8, "survival_instinct": 8, "leadership": 6, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 6, "team_player": 6, "risk_assessment": 8, "mental_toughness": 6}
+        },
+        {
+          "text": "Fortify defenses and prepare for siege warfare",
+          "weights": {"prepared": 7, "rational": 6, "survival_instinct": 6, "leadership": 7, "panic_resistance": 7, "adaptability": 5, "resourcefulness": 7, "team_player": 7, "risk_assessment": 5, "mental_toughness": 8}
+        },
+        {
+          "text": "Create diversions to redirect the horde away from settlement",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 6, "leadership": 6, "panic_resistance": 7, "adaptability": 8, "resourcefulness": 9, "team_player": 6, "risk_assessment": 6, "mental_toughness": 7}
+        },
+        {
+          "text": "Split the group - some evacuate, others stay to defend resources",
+          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 7, "leadership": 7, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 6, "team_player": 5, "risk_assessment": 6, "mental_toughness": 7}
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "You encounter other survivors who shoot zombies on sight, but also kill anyone who shows bite marks or symptoms.",
+      "options": [
+        {
+          "text": "Join them - their survival rate is probably higher with that policy",
+          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 8, "leadership": 4, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 5, "team_player": 4, "risk_assessment": 6, "mental_toughness": 7}
+        },
+        {
+          "text": "Negotiate for a more humane approach while still staying safe",
+          "weights": {"prepared": 5, "rational": 7, "survival_instinct": 5, "leadership": 7, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 6, "team_player": 8, "risk_assessment": 6, "mental_toughness": 6}
+        },
+        {
+          "text": "Keep my distance - their methods are too extreme",
+          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 6, "leadership": 4, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 5, "risk_assessment": 7, "mental_toughness": 6}
+        },
+        {
+          "text": "Oppose them - murdering scared survivors makes them the real monsters",
+          "weights": {"prepared": 4, "rational": 5, "survival_instinct": 4, "leadership": 7, "panic_resistance": 5, "adaptability": 5, "resourcefulness": 4, "team_player": 8, "risk_assessment": 3, "mental_toughness": 7}
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "text": "Six months into the zombie apocalypse, you realize this isn't ending anytime soon. What's your long-term strategy?",
+      "options": [
+        {
+          "text": "Build a sustainable, fortified community with agriculture and defenses",
+          "weights": {"prepared": 9, "rational": 9, "survival_instinct": 6, "leadership": 8, "panic_resistance": 7, "adaptability": 7, "resourcefulness": 8, "team_player": 8, "risk_assessment": 7, "mental_toughness": 7}
+        },
+        {
+          "text": "Stay mobile and nomadic - permanent settlements attract trouble",
+          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 8, "leadership": 4, "panic_resistance": 6, "adaptability": 9, "resourcefulness": 7, "team_player": 3, "risk_assessment": 7, "mental_toughness": 7}
+        },
+        {
+          "text": "Focus on finding other large survivor communities to join or trade with",
+          "weights": {"prepared": 5, "rational": 7, "survival_instinct": 5, "leadership": 6, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 7, "team_player": 9, "risk_assessment": 6, "mental_toughness": 5}
+        },
+        {
+          "text": "Research the zombie condition - maybe there's a cure or solution",
+          "weights": {"prepared": 6, "rational": 8, "survival_instinct": 4, "leadership": 6, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 8, "team_player": 7, "risk_assessment": 5, "mental_toughness": 6}
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "text": "You find a zombie that seems different - it's not attacking and appears to retain some human intelligence.",
+      "options": [
+        {
+          "text": "Study it carefully from a safe distance to understand the difference",
+          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 6, "leadership": 5, "panic_resistance": 7, "adaptability": 7, "resourcefulness": 7, "team_player": 5, "risk_assessment": 7, "mental_toughness": 6}
+        },
+        {
+          "text": "Kill it immediately - a smart zombie is more dangerous than a dumb one",
+          "weights": {"prepared": 5, "rational": 5, "survival_instinct": 8, "leadership": 5, "panic_resistance": 6, "adaptability": 4, "resourcefulness": 5, "team_player": 4, "risk_assessment": 6, "mental_toughness": 7}
+        },
+        {
+          "text": "Try to communicate with it to see if it's truly sentient",
+          "weights": {"prepared": 4, "rational": 6, "survival_instinct": 3, "leadership": 6, "panic_resistance": 5, "adaptability": 7, "resourcefulness": 6, "team_player": 6, "risk_assessment": 3, "mental_toughness": 6}
+        },
+        {
+          "text": "Capture it for research while maintaining safety protocols",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 5, "leadership": 6, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 8, "team_player": 6, "risk_assessment": 6, "mental_toughness": 6}
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "text": "Your group finds a radio broadcast claiming there's a safe zone, but it requires crossing through the heart of a zombie-infested city.",
+      "options": [
+        {
+          "text": "Plan a careful route through the city using stealth and timing",
+          "weights": {"prepared": 8, "rational": 8, "survival_instinct": 7, "leadership": 6, "panic_resistance": 7, "adaptability": 7, "resourcefulness": 8, "team_player": 6, "risk_assessment": 8, "mental_toughness": 6}
+        },
+        {
+          "text": "Send a small scouting party first to verify the broadcast is real",
+          "weights": {"prepared": 7, "rational": 9, "survival_instinct": 6, "leadership": 7, "panic_resistance": 7, "adaptability": 7, "resourcefulness": 7, "team_player": 6, "risk_assessment": 9, "mental_toughness": 6}
+        },
+        {
+          "text": "Ignore it - radio broadcasts could be traps or false hope",
+          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 7, "leadership": 4, "panic_resistance": 6, "adaptability": 5, "resourcefulness": 5, "team_player": 4, "risk_assessment": 8, "mental_toughness": 6}
+        },
+        {
+          "text": "Go for it immediately - this might be our only chance at real safety",
+          "weights": {"prepared": 4, "rational": 3, "survival_instinct": 6, "leadership": 5, "panic_resistance": 4, "adaptability": 6, "resourcefulness": 4, "team_player": 6, "risk_assessment": 2, "mental_toughness": 6}
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "text": "A member of your group gets bitten but the wound is small and they're begging not to be abandoned or killed.",
+      "options": [
+        {
+          "text": "Quarantine them and monitor for signs of infection",
+          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 5, "leadership": 6, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 7, "risk_assessment": 7, "mental_toughness": 6}
+        },
+        {
+          "text": "Try immediate medical intervention - clean, cauterize, amputate if needed",
+          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 5, "leadership": 5, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 8, "team_player": 8, "risk_assessment": 5, "mental_toughness": 7}
+        },
+        {
+          "text": "Give them a weapon and let them choose their own fate",
+          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 6, "leadership": 5, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 5, "team_player": 6, "risk_assessment": 6, "mental_toughness": 7}
+        },
+        {
+          "text": "Follow established protocol - infection means immediate death",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 8, "leadership": 6, "panic_resistance": 7, "adaptability": 4, "resourcefulness": 5, "team_player": 3, "risk_assessment": 8, "mental_toughness": 8}
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "text": "You discover that zombies are attracted to more than just sound - they seem to hunt by scent, body heat, and movement patterns.",
+      "options": [
+        {
+          "text": "Develop new camouflage and masking techniques based on this knowledge",
+          "weights": {"prepared": 8, "rational": 8, "survival_instinct": 7, "leadership": 5, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 9, "team_player": 5, "risk_assessment": 7, "mental_toughness": 6}
+        },
+        {
+          "text": "Share this information with other survivor groups immediately",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 5, "leadership": 8, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 9, "risk_assessment": 6, "mental_toughness": 6}
+        },
+        {
+          "text": "Use this knowledge to set better traps and defenses",
+          "weights": {"prepared": 7, "rational": 7, "survival_instinct": 6, "leadership": 6, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 8, "team_player": 6, "risk_assessment": 7, "mental_toughness": 6}
+        },
+        {
+          "text": "Focus on finding environments where these senses don't work as well",
+          "weights": {"prepared": 6, "rational": 8, "survival_instinct": 7, "leadership": 4, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 7, "team_player": 4, "risk_assessment": 8, "mental_toughness": 6}
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "text": "A year into the apocalypse, you must choose between joining a militaristic survivor faction or a more peaceful community.",
+      "options": [
+        {
+          "text": "Join the military group - they're more likely to survive long-term",
+          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 8, "leadership": 6, "panic_resistance": 7, "adaptability": 5, "resourcefulness": 6, "team_player": 5, "risk_assessment": 7, "mental_toughness": 7}
+        },
+        {
+          "text": "Choose the peaceful community - survival isn't worth losing humanity",
+          "weights": {"prepared": 5, "rational": 5, "survival_instinct": 4, "leadership": 5, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 5, "team_player": 9, "risk_assessment": 4, "mental_toughness": 6}
+        },
+        {
+          "text": "Try to broker cooperation between both groups",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 5, "leadership": 8, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 7, "team_player": 8, "risk_assessment": 6, "mental_toughness": 6}
+        },
+        {
+          "text": "Stay independent and work with both as needed",
+          "weights": {"prepared": 7, "rational": 7, "survival_instinct": 7, "leadership": 5, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 8, "team_player": 4, "risk_assessment": 7, "mental_toughness": 7}
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "text": "You learn that the zombie outbreak was caused by a government experiment gone wrong. How do you use this information?",
+      "options": [
+        {
+          "text": "Look for government facilities that might have cures or answers",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 6, "leadership": 6, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 8, "team_player": 6, "risk_assessment": 6, "mental_toughness": 6}
+        },
+        {
+          "text": "Share the truth with other survivors - they deserve to know",
+          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 4, "leadership": 7, "panic_resistance": 5, "adaptability": 5, "resourcefulness": 5, "team_player": 9, "risk_assessment": 4, "mental_toughness": 6}
+        },
+        {
+          "text": "Keep it secret - this knowledge won't help survival and could cause chaos",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 6, "leadership": 5, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 5, "team_player": 4, "risk_assessment": 8, "mental_toughness": 7}
+        },
+        {
+          "text": "Use it to find and help any surviving government scientists",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 5, "leadership": 6, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 7, "team_player": 7, "risk_assessment": 5, "mental_toughness": 6}
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "text": "Two years in, zombie numbers are actually decreasing as they decompose, but human survivors are becoming the bigger threat.",
+      "options": [
+        {
+          "text": "Focus on rebuilding civilization with strong moral foundations",
+          "weights": {"prepared": 7, "rational": 7, "survival_instinct": 5, "leadership": 8, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 7, "team_player": 9, "risk_assessment": 6, "mental_toughness": 7}
+        },
+        {
+          "text": "Strengthen defenses against human threats while maintaining ethics",
+          "weights": {"prepared": 8, "rational": 8, "survival_instinct": 6, "leadership": 7, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 7, "team_player": 6, "risk_assessment": 8, "mental_toughness": 7}
+        },
+        {
+          "text": "Adapt to the new reality - might makes right in this world",
+          "weights": {"prepared": 6, "rational": 5, "survival_instinct": 8, "leadership": 6, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 7, "team_player": 3, "risk_assessment": 6, "mental_toughness": 8}
+        },
+        {
+          "text": "Find isolated areas away from other human survivors",
+          "weights": {"prepared": 7, "rational": 6, "survival_instinct": 8, "leadership": 3, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 7, "team_player": 2, "risk_assessment": 8, "mental_toughness": 6}
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "text": "You encounter a group of children who survived on their own. They're feral, violent, and don't trust adults.",
+      "options": [
+        {
+          "text": "Patiently work to gain their trust and help rehabilitate them",
+          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 4, "leadership": 7, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 6, "team_player": 9, "risk_assessment": 4, "mental_toughness": 7}
+        },
+        {
+          "text": "Provide supplies and protection while respecting their independence",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 5, "leadership": 6, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 7, "team_player": 7, "risk_assessment": 6, "mental_toughness": 6}
+        },
+        {
+          "text": "Keep them at arm's length - they're too dangerous to integrate",
+          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 7, "leadership": 4, "panic_resistance": 6, "adaptability": 5, "resourcefulness": 5, "team_player": 3, "risk_assessment": 8, "mental_toughness": 6}
+        },
+        {
+          "text": "Try to use their survival skills while teaching them social behavior",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 6, "leadership": 7, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 7, "team_player": 6, "risk_assessment": 6, "mental_toughness": 7}
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "text": "Three years after the outbreak, you must decide between staying in your established safe zone or exploring the recovering world.",
+      "options": [
+        {
+          "text": "Stay and continue building the most secure community possible",
+          "weights": {"prepared": 8, "rational": 7, "survival_instinct": 6, "leadership": 7, "panic_resistance": 7, "adaptability": 4, "resourcefulness": 7, "team_player": 8, "risk_assessment": 7, "mental_toughness": 6}
+        },
+        {
+          "text": "Explore to establish trade networks and gather intelligence",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 7, "leadership": 6, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 8, "team_player": 6, "risk_assessment": 7, "mental_toughness": 7}
+        },
+        {
+          "text": "Help other survivor communities by sharing our success model",
+          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 4, "leadership": 8, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 7, "team_player": 9, "risk_assessment": 5, "mental_toughness": 6}
+        },
+        {
+          "text": "Maintain low profile - success makes us a target for raiders",
+          "weights": {"prepared": 7, "rational": 7, "survival_instinct": 8, "leadership": 4, "panic_resistance": 6, "adaptability": 5, "resourcefulness": 6, "team_player": 4, "risk_assessment": 9, "mental_toughness": 6}
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "text": "Looking back on surviving the zombie apocalypse, what was your most crucial survival trait?",
+      "options": [
+        {
+          "text": "Adaptability - ability to change tactics as threats evolved",
+          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 7, "leadership": 5, "panic_resistance": 6, "adaptability": 9, "resourcefulness": 8, "team_player": 5, "risk_assessment": 6, "mental_toughness": 7}
+        },
+        {
+          "text": "Leadership - keeping groups together and making hard decisions",
+          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 6, "leadership": 9, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 6, "team_player": 7, "risk_assessment": 6, "mental_toughness": 8}
+        },
+        {
+          "text": "Preparedness - having plans and resources ready before crises hit",
+          "weights": {"prepared": 9, "rational": 8, "survival_instinct": 7, "leadership": 5, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 8, "team_player": 5, "risk_assessment": 8, "mental_toughness": 6}
+        },
+        {
+          "text": "Community building - creating trust and cooperation under pressure",
+          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 4, "leadership": 7, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 9, "risk_assessment": 5, "mental_toughness": 6}
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "zombie_slayer",
+      "title": "Zombie Slayer",
+      "shortDescription": "You've become a master of zombie combat. Your tactical skills and fearlessness in battle make you the person others call when the undead need to be cleared out.",
+      "extendedDescription": [
+        "When the dead started walking, you didn't just learn to survive them - you learned to hunt them. Your combat skills, tactical thinking, and fearless approach to zombie encounters have made you the go-to person for clearing infected areas and protecting survivor communities. You've turned zombie killing into an art form.",
+        "Your approach to the undead is methodical and aggressive. You've studied zombie behavior, tested different weapons and techniques, and developed strategies that maximize efficiency while minimizing risk. Your experience in direct combat with the undead has taught you things that can't be learned from books or secondhand accounts.",
+        "What sets you apart is your combination of tactical knowledge and psychological resilience. While others freeze up or panic when facing hordes, you think clearly and execute precise combat plans. Your reputation as someone who can handle any zombie threat has made you invaluable to survivor communities who need areas cleared or defenses tested.",
+        "Your legacy will be the safe zones you've carved out through direct action and the combat techniques you've developed that keep communities protected. Your willingness to face the undead head-on has expanded the boundaries of what survivor groups consider possible and given them the confidence to reclaim zombie-infested territory."
+      ]
+    },
+    {
+      "id": "survival_strategist",
+      "title": "Survival Strategist",
+      "shortDescription": "You've mastered the chess game of zombie survival. Your strategic thinking and careful planning keep groups alive through impossible situations.",
+      "extendedDescription": [
+        "In the zombie apocalypse, you've become the master of the long game. Your strategic thinking, careful resource management, and ability to plan multiple moves ahead have made you the brain that keeps survivor communities alive and thriving. You understand that zombie survival is about more than just killing the undead - it's about building sustainable systems.",
+        "Your strength lies in seeing patterns and planning for contingencies that others miss. You've developed evacuation procedures, supply chain strategies, and defensive protocols that account for everything from seasonal zombie behavior changes to human psychology under stress. Your systematic approach has prevented countless disasters before they happened.",
+        "What makes you invaluable is your ability to balance immediate survival needs with long-term community building. You think in terms of sustainable food production, defensible positions, and social structures that can withstand both zombie threats and human conflicts. Your strategies create stability in an unstable world.",
+        "Your legacy will be the resilient communities you've helped design that can not only survive zombie threats but thrive despite them. Your strategic frameworks provide the foundation for rebuilding civilization in a world where the dead walk among the living."
+      ]
+    },
+    {
+      "id": "group_protector",
+      "title": "Group Protector",
+      "shortDescription": "You've dedicated yourself to keeping others alive. Your protective instincts and leadership skills build strong, loyal communities in the zombie wasteland.",
+      "extendedDescription": [
+        "When the zombies came, your first instinct wasn't self-preservation - it was protecting others. Your natural leadership abilities and strong protective instincts have made you the heart of survivor communities, the person others look to for guidance, hope, and security when the world seems determined to kill everyone.",
+        "Your approach to zombie survival is fundamentally about people. You understand that surviving the undead isn't just about avoiding bites - it's about maintaining human connections, building trust, and creating reasons to keep fighting when despair threatens to overwhelm. Your emotional intelligence keeps groups together when fear and stress could tear them apart.",
+        "What makes you essential is your ability to inspire loyalty and cooperation under extreme pressure. People follow you not because you're the strongest or smartest, but because they trust that you genuinely care about their survival and wellbeing. Your leadership style creates communities rather than just temporary alliances.",
+        "Your legacy will be the strong, unified communities you've built that prove human cooperation and compassion can survive even the zombie apocalypse. Your focus on protecting and nurturing others has created models for how society can maintain its humanity while adapting to unthinkable threats."
+      ]
+    },
+    {
+      "id": "zombie_researcher",
+      "title": "Zombie Researcher",
+      "shortDescription": "You've turned studying the undead into a survival skill. Your knowledge of zombie behavior and biology makes you an expert on understanding and predicting threats.",
+      "extendedDescription": [
+        "While others focused on killing zombies, you focused on understanding them. Your scientific approach to studying zombie behavior, biology, and patterns has made you an invaluable expert on predicting and countering undead threats. You've turned knowledge into the ultimate survival tool.",
+        "Your survival strategy is built on observation, analysis, and evidence-based decision making. You've documented zombie migration patterns, tested theories about their senses and motivations, and developed predictive models that help communities avoid threats before they become deadly. Your research has saved countless lives through better preparation.",
+        "What sets you apart is your combination of scientific rigor with practical application. You don't just theorize about zombies - you've proven your knowledge under field conditions and used it to develop better survival strategies. Your expertise helps communities make informed decisions rather than just reacting to immediate threats.",
+        "Your research will be essential for long-term human survival in a zombie-infested world. The knowledge you've gathered about undead behavior, weaknesses, and patterns provides the foundation for developing more effective defenses, weapons, and strategies as humanity learns to coexist with or eliminate the zombie threat."
+      ]
+    },
+    {
+      "id": "resource_scavenger",
+      "title": "Resource Scavenger",
+      "shortDescription": "You've mastered the art of finding supplies in a zombie-infested world. Your scavenging skills and resource management keep communities supplied and functional.",
+      "extendedDescription": [
+        "In a world where supply chains have collapsed and stores are death traps, you've become the master of finding what people need to survive. Your scavenging skills, knowledge of hidden resources, and ability to navigate zombie-infested areas safely have made you the lifeline that keeps communities supplied and functional.",
+        "Your approach to survival focuses on the logistics that others overlook. You understand which locations are worth the risk, how to move through zombie territory efficiently, and what supplies are truly essential versus what people think they need. Your resource management skills prevent communities from falling into scarcity-driven conflicts.",
+        "What makes you valuable is your combination of tactical skills and practical knowledge. You can read zombie behavior to plan safe supply runs, identify valuable resources that others miss, and establish supply caches that provide security for your community. Your work allows others to focus on defense and building while you handle procurement.",
+        "Your expertise in resource acquisition and management will be crucial for communities trying to rebuild in a zombie-infested world. Your knowledge of hidden supplies, safe routes, and effective scavenging techniques provides the foundation for establishing sustainable communities that can grow rather than just survive."
+      ]
+    },
+    {
+      "id": "fortress_builder",
+      "title": "Fortress Builder",
+      "shortDescription": "You've mastered the art of creating safe zones. Your defensive strategies and construction skills build communities that can withstand any zombie threat.",
+      "extendedDescription": [
+        "When zombies overran the world, you became the architect of humanity's survival. Your expertise in defensive construction, strategic positioning, and fortress design has created safe zones that can withstand massive zombie hordes and provide secure bases for rebuilding civilization.",
+        "Your approach to zombie survival is fundamentally about creating security through superior defenses. You understand zombie behavior well enough to design barriers they can't overcome, create kill zones that maximize defensive efficiency, and build structures that provide both immediate safety and long-term sustainability.",
+        "What sets you apart is your combination of engineering knowledge with tactical thinking. You don't just build walls - you create integrated defensive systems that account for zombie behavior, resource management, and human psychology. Your fortifications provide both physical security and psychological stability.",
+        "Your legacy will be the safe zones and defensive strategies that allow human communities to not just survive zombie threats but establish permanent settlements. Your fortification designs provide the foundation for rebuilding civilization in territories that can be defended against any undead threat."
+      ]
+    },
+    {
+      "id": "zombie_survivor",
+      "title": "Zombie Survivor",
+      "shortDescription": "You've survived zombie encounters that killed others. Your experience with the undead and hard-won knowledge make you tough and resilient.",
+      "extendedDescription": [
+        "You didn't just avoid zombies - you survived direct encounters with them. Your body might bear scars from close calls, but your mind carries the invaluable knowledge of what it's really like to face the undead and live to tell about it. Your survival has given you insights that can't be learned any other way.",
+        "Your approach to zombie survival is informed by harsh personal experience with undead encounters, escape techniques, and recovery from zombie attacks. You understand the real timeline of zombie infections, what zombie behavior actually looks like up close, and what survival techniques work under extreme pressure.",
+        "What makes you unique is your combination of practical knowledge and proven resilience. You can speak with authority about both zombie behavior and human psychology under extreme stress. Your credibility comes from your scars, and other survivors listen to you because they know you've been where they fear to go.",
+        "Your survival story provides hope to others who face zombie encounters, and your practical knowledge helps communities prepare for worst-case scenarios. You've proven that zombie attacks aren't always fatal, and your example inspires others to keep fighting even when surrounded by the undead."
+      ]
+    },
+    {
+      "id": "nomadic_survivor",
+      "title": "Nomadic Survivor",
+      "shortDescription": "You've learned that staying mobile is key to zombie survival. Your nomadic lifestyle and knowledge of safe routes keep you ahead of undead threats.",
+      "extendedDescription": [
+        "While others tried to build permanent fortifications, you learned that mobility is the ultimate defense against zombie hordes. Your nomadic approach to survival, constantly moving ahead of undead concentrations and shifting threats, has kept you alive when static communities have been overwhelmed.",
+        "Your survival strategy is built on speed, flexibility, and minimal dependencies. You've learned to travel light while carrying essential zombie protection, read environmental signs to predict undead movement, and find temporary shelter in any environment. Your knowledge of routes, hideouts, and resource caches spans vast zombie-infested territories.",
+        "What keeps you alive is your ability to think like zombie hordes - always moving, following food sources, and adapting to environmental conditions. You understand that in the zombie apocalypse, yesterday's safe zone is tomorrow's death trap, and your willingness to abandon comfortable situations has saved your life repeatedly.",
+        "Your nomadic lifestyle makes you valuable as a messenger, scout, and guide between isolated survivor communities. Your knowledge of zombie migration patterns across wide areas and your ability to safely traverse undead territory makes you an essential link in the network of human survival."
+      ]
+    },
+    {
+      "id": "community_leader",
+      "title": "Community Leader",
+      "shortDescription": "You've built and maintained thriving communities in the zombie apocalypse. Your leadership skills create cooperation and hope when others would give up.",
+      "extendedDescription": [
+        "In a world where civilization collapsed under zombie teeth, you've become a builder of new societies. Your leadership abilities, diplomatic skills, and vision for the future have created thriving communities that prove human civilization can not only survive the zombie apocalypse but emerge stronger.",
+        "Your approach to zombie survival focuses on rebuilding rather than just enduring. You understand that defeating zombies requires more than individual survival skills - it requires coordinated human effort, sustainable systems, and social structures that can maintain morale and purpose over years of hardship.",
+        "What makes you essential is your ability to inspire people to work toward long-term goals rather than just immediate survival. Your communities don't just defend against zombies - they plan for the future, establish trade networks, and create the social bonds that make life worth living even in a zombie-infested world.",
+        "Your legacy will be the functioning societies you've built that prove human civilization can adapt to and overcome even the zombie apocalypse. Your leadership models provide templates for rebuilding the world and demonstrate that humanity's future isn't just about survival, but about thriving."
+      ]
+    },
+    {
+      "id": "undead_wanderer",
+      "title": "Undead Wanderer",
+      "shortDescription": "You've survived through luck, grit, and sheer determination. You're still breathing when many others aren't, even if you're not sure how.",
+      "extendedDescription": [
+        "You're living proof that sometimes zombie survival is less about perfect tactics and more about sheer fucking determination to keep breathing in a world full of walking corpses. You might not have the best weapons, the most knowledge, or the perfect hideout, but you have something equally valuable - an unbreakable will to live.",
+        "Your survival has been a combination of good instincts, decent luck, and a talent for learning from your zombie encounters without dying in the process. You've picked up survival skills through trial and error, formed alliances based on gut feelings rather than strategic planning, and somehow managed to avoid the worst zombie hordes through a mixture of caution and circumstance.",
+        "What keeps you alive is your authenticity and relatability to other survivors. You're not intimidating with perfect zombie-killing skills, which makes people more likely to help you or accept you into their groups. Your honest reactions to undead threats remind others of their own humanity, and your determination to keep going despite everything inspires hope.",
+        "Your proof that ordinary people can survive the zombie apocalypse gives hope to everyone still fighting to stay alive. While you may not be the most prepared or skilled zombie survivor, your persistence and refusal to give up demonstrates that the undead apocalypse isn't just survivable by experts - regular people can make it through too."
+      ]
+    }
+  ]
+}
