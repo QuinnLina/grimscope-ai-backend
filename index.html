@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Brutus AI Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #0a0a0a;
+            color: white;
+        }
+        .container {
+            background: #1a1a1a;
+            padding: 30px;
+            border-radius: 10px;
+            border: 2px solid #8b5cf6;
+        }
+        h1 {
+            color: #8b5cf6;
+            text-align: center;
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #2a2a2a;
+            border-radius: 8px;
+        }
+        button {
+            background: #8b5cf6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        button:hover {
+            background: #7c3aed;
+        }
+        .response {
+            background: #333;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+            white-space: pre-wrap;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .loading {
+            color: #8b5cf6;
+            font-style: italic;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            background: #333;
+            color: white;
+            border: 1px solid #666;
+            border-radius: 5px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            color: #8b5cf6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 Dr. Brutus AI Test</h1>
+        
+        <div class="test-section">
+            <h3>Test 1: Start Therapy Session</h3>
+            <label>Category:</label>
+            <input type="text" id="category" value="shadow" placeholder="shadow, love, brutal, etc.">
+            
+            <label>Test Title:</label>
+            <input type="text" id="testTitle" value="Hidden Desires Scanner" placeholder="Test name">
+            
+            <button onclick="startTherapy()">Start Dr. Brutus Session</button>
+            <div id="therapyResponse" class="response" style="display:none;"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>Test 2: Chat with Dr. Brutus</h3>
+            <label>Your Message:</label>
+            <textarea id="userMessage" rows="3" placeholder="Type your message to Dr. Brutus..."></textarea>
+            
+            <label>Your Test Result:</label>
+            <input type="text" id="userResult" value="The Vindication Seeker" placeholder="Your test result">
+            
+            <button onclick="chatWithDrBrutus()">Send Message</button>
+            <div id="chatResponse" class="response" style="display:none;"></div>
+        </div>
+
+        <div class="test-section">
+            <h3>Quick Test Buttons</h3>
+            <button onclick="testShadow()">Test Shadow Test</button>
+            <button onclick="testBrutal()">Test Brutal Test</button>
+            <button onclick="testLove()">Test Love Test</button>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'https://grimscope-ai-backend.vercel.app';
+
+        async function startTherapy() {
+            const category = document.getElementById('category').value;
+            const testTitle = document.getElementById('testTitle').value;
+            const responseDiv = document.getElementById('therapyResponse');
+            
+            responseDiv.style.display = 'block';
+            responseDiv.innerHTML = '<div class="loading">🧠 Dr. Brutus is analyzing your test...</div>';
+
+            try {
+                const response = await fetch(`${API_BASE}/therapist/start`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        category: category,
+                        testTitle: testTitle
+                    })
+                });
+
+                const data = await response.json();
+                
+                if (response.ok) {
+                    responseDiv.innerHTML = `
+                        <strong>✅ Dr. Brutus says:</strong><br><br>
+                        ${data.message}
+                        <br><br>
+                        <small><strong>Test Data:</strong> ${data.testData?.title} (${data.testData?.traitsCount || 0} traits)</small>
+                    `;
+                } else {
+                    responseDiv.innerHTML = `<strong>❌ Error:</strong><br>${data.error || 'Unknown error'}`;
+                }
+            } catch (error) {
+                responseDiv.innerHTML = `<strong>❌ Network Error:</strong><br>${error.message}`;
+            }
+        }
+
+        async function chatWithDrBrutus() {
+            const message = document.getElementById('userMessage').value;
+            const userResult = document.getElementById('userResult').value;
+            const responseDiv = document.getElementById('chatResponse');
+            
+            if (!message.trim()) {
+                alert('Please enter a message!');
+                return;
+            }
+
+            responseDiv.style.display = 'block';
+            responseDiv.innerHTML = '<div class="loading">🧠 Dr. Brutus is thinking...</div>';
+
+            try {
+                const response = await fetch(`${API_BASE}/therapist/chat`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        message: message,
+                        category: 'shadow',
+                        testTitle: 'Hidden Desires Scanner',
+                        conversationHistory: [],
+                        userResult: userResult,
+                        messageCount: 1
+                    })
+                });
+
+                const data = await response.json();
+                
+                if (response.ok) {
+                    responseDiv.innerHTML = `
+                        <strong>✅ Dr. Brutus responds:</strong><br><br>
+                        ${data.message}
+                        ${data.adBreak ? '<br><br><em>🎬 (This would trigger an ad)</em>' : ''}
+                    `;
+                } else {
+                    responseDiv.innerHTML = `<strong>❌ Error:</strong><br>${data.error || 'Unknown error'}`;
+                }
+            } catch (error) {
+                responseDiv.innerHTML = `<strong>❌ Network Error:</strong><br>${error.message}`;
+            }
+        }
+
+        function testShadow() {
+            document.getElementById('category').value = 'shadow';
+            document.getElementById('testTitle').value = 'Hidden Desires Scanner';
+            startTherapy();
+        }
+
+        function testBrutal() {
+            document.getElementById('category').value = 'brutal';
+            document.getElementById('testTitle').value = 'Damage Test';
+            startTherapy();
+        }
+
+        function testLove() {
+            document.getElementById('category').value = 'love';
+            document.getElementById('testTitle').value = 'Love Language Test';
+            startTherapy();
+        }
+    </script>
+</body>
+</html>
