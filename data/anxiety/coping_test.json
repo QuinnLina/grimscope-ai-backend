@@ -1,0 +1,690 @@
+{
+  "test_id": "coping_test",
+  "title": "How Toxic Is Your Coping Mechanism?",
+  "description": "Time for some brutal honesty about how you handle life's bullshit. This test will expose exactly how you're fucking up your own healing process and making your problems worse. We're talking about your drinking, your shopping, your emotional eating, your social media addiction, and all those other 'harmless' habits that are slowly destroying your life. Buckle up, buttercup.",
+  "questions": [
+    {
+      "question": "When you're stressed out of your mind, what's your honest go-to move?",
+      "answers": [
+        {
+          "text": "Pour myself a drink (or three) because liquid courage is the only courage I trust",
+          "traits": {"substance_abuse": 5, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 1, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 2, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Eat my feelings until I hate myself, then eat some more to cope with the self-hatred",
+          "traits": {"substance_abuse": 1, "emotional_eating": 5, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 3, "isolation_hermit": 2, "adrenaline_junkie": 0, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 1, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Buy shit I don't need with money I don't have because capitalism told me retail therapy is real therapy",
+          "traits": {"substance_abuse": 1, "emotional_eating": 1, "shopping_addiction": 5, "social_media_spiral": 2, "self_harm": 1, "isolation_hermit": 1, "adrenaline_junkie": 1, "workaholic_burnout": 2, "people_pleasing": 2, "anger_explosion": 1, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Disappear into my phone and scroll until my eyes bleed and my brain turns to mush",
+          "traits": {"substance_abuse": 1, "emotional_eating": 2, "shopping_addiction": 2, "social_media_spiral": 5, "self_harm": 1, "isolation_hermit": 3, "adrenaline_junkie": 0, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 1, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Actually talk to someone I trust or do something genuinely helpful for my mental health",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 0, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle emotional pain that feels too big to process?",
+      "answers": [
+        {
+          "text": "Numb it with whatever substance is closest - alcohol, weed, pills, whatever works",
+          "traits": {"substance_abuse": 5, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 1, "self_harm": 3, "isolation_hermit": 2, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 1, "denial_delusion": 4, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Hurt myself physically because external pain is easier to understand than internal pain",
+          "traits": {"substance_abuse": 2, "emotional_eating": 1, "shopping_addiction": 0, "social_media_spiral": 1, "self_harm": 5, "isolation_hermit": 3, "adrenaline_junkie": 2, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 2, "denial_delusion": 1, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Lock myself away from the world until the feeling passes or I forget what I was upset about",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 3, "self_harm": 2, "isolation_hermit": 5, "adrenaline_junkie": 0, "workaholic_burnout": 1, "people_pleasing": 0, "anger_explosion": 1, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Do something reckless and dangerous because feeling alive is better than feeling empty",
+          "traits": {"substance_abuse": 3, "emotional_eating": 0, "shopping_addiction": 1, "social_media_spiral": 1, "self_harm": 3, "isolation_hermit": 1, "adrenaline_junkie": 5, "workaholic_burnout": 1, "people_pleasing": 0, "anger_explosion": 2, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Actually feel the feeling and work through it like a functional human being",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 0, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "What's your relationship with work when life gets overwhelming?",
+      "answers": [
+        {
+          "text": "Work becomes my entire identity because if I'm busy enough, I can't think about how empty I feel inside",
+          "traits": {"substance_abuse": 1, "emotional_eating": 1, "shopping_addiction": 2, "social_media_spiral": 1, "self_harm": 1, "isolation_hermit": 3, "adrenaline_junkie": 1, "workaholic_burnout": 5, "people_pleasing": 3, "anger_explosion": 2, "denial_delusion": 4, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I can't focus on anything and my productivity goes to shit while I spiral internally",
+          "traits": {"substance_abuse": 2, "emotional_eating": 3, "shopping_addiction": 1, "social_media_spiral": 4, "self_harm": 2, "isolation_hermit": 4, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 2, "anger_explosion": 2, "denial_delusion": 3, "surprisingly_healthy": 1}
+        },
+        {
+          "text": "I become a people-pleasing machine, saying yes to everything because rejection feels like death",
+          "traits": {"substance_abuse": 1, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 1, "isolation_hermit": 1, "adrenaline_junkie": 1, "workaholic_burnout": 3, "people_pleasing": 5, "anger_explosion": 0, "denial_delusion": 2, "surprisingly_healthy": 1}
+        },
+        {
+          "text": "I rage-quit everything and burn bridges because if I'm going down, I'm taking everyone with me",
+          "traits": {"substance_abuse": 2, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 3, "workaholic_burnout": 1, "people_pleasing": 0, "anger_explosion": 5, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I communicate with my boss and colleagues about needing support and adjust my workload accordingly",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 1, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "How do you deal with feelings of anxiety or panic?",
+      "answers": [
+        {
+          "text": "Pop a Xanax, smoke a joint, or find whatever chemical solution will make my brain shut the fuck up",
+          "traits": {"substance_abuse": 5, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 1, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 1, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Scroll through social media until I'm either distracted or feeling worse about my life",
+          "traits": {"substance_abuse": 1, "emotional_eating": 2, "shopping_addiction": 2, "social_media_spiral": 5, "self_harm": 1, "isolation_hermit": 2, "adrenaline_junkie": 1, "workaholic_burnout": 2, "people_pleasing": 2, "anger_explosion": 1, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Clean obsessively, organize everything, or throw myself into tasks until I'm too exhausted to feel anxious",
+          "traits": {"substance_abuse": 1, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 1, "self_harm": 1, "isolation_hermit": 2, "adrenaline_junkie": 2, "workaholic_burnout": 4, "people_pleasing": 2, "anger_explosion": 1, "denial_delusion": 3, "surprisingly_healthy": 2}
+        },
+        {
+          "text": "Become irrationally angry at everything and everyone because rage feels more powerful than fear",
+          "traits": {"substance_abuse": 2, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 3, "workaholic_burnout": 2, "people_pleasing": 0, "anger_explosion": 5, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Use breathing techniques, grounding exercises, or other healthy coping strategies I've actually learned",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 0, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "What happens when you feel rejected or abandoned?",
+      "answers": [
+        {
+          "text": "I become a human doormat, agreeing with everyone and apologizing for existing",
+          "traits": {"substance_abuse": 1, "emotional_eating": 3, "shopping_addiction": 2, "social_media_spiral": 2, "self_harm": 3, "isolation_hermit": 2, "adrenaline_junkie": 0, "workaholic_burnout": 2, "people_pleasing": 5, "anger_explosion": 0, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I disappear completely and convince myself I don't need anyone anyway",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 5, "adrenaline_junkie": 1, "workaholic_burnout": 2, "people_pleasing": 1, "anger_explosion": 2, "denial_delusion": 4, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I lash out and try to hurt them before they can hurt me more",
+          "traits": {"substance_abuse": 2, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 3, "workaholic_burnout": 1, "people_pleasing": 0, "anger_explosion": 5, "denial_delusion": 1, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I go on a self-destructive spree - drinking, drugs, risky behavior, whatever will make the pain stop",
+          "traits": {"substance_abuse": 4, "emotional_eating": 2, "shopping_addiction": 3, "social_media_spiral": 2, "self_harm": 4, "isolation_hermit": 2, "adrenaline_junkie": 4, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 3, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I process the hurt, reach out to supportive people, and work through it like an emotionally mature person",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 0, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle boredom or feeling empty inside?",
+      "answers": [
+        {
+          "text": "Buy random shit online until my credit card screams and my apartment looks like a storage unit",
+          "traits": {"substance_abuse": 1, "emotional_eating": 1, "shopping_addiction": 5, "social_media_spiral": 3, "self_harm": 1, "isolation_hermit": 2, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 1, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Endlessly scroll through social media comparing my boring life to everyone else's highlight reel",
+          "traits": {"substance_abuse": 1, "emotional_eating": 2, "shopping_addiction": 2, "social_media_spiral": 5, "self_harm": 2, "isolation_hermit": 3, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 1, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Eat everything in my kitchen, then order takeout because apparently my stomach is a bottomless pit of sadness",
+          "traits": {"substance_abuse": 1, "emotional_eating": 5, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 0, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 1, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Start fights with people I care about because drama is more interesting than emptiness",
+          "traits": {"substance_abuse": 1, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 3, "self_harm": 2, "isolation_hermit": 1, "adrenaline_junkie": 3, "workaholic_burnout": 1, "people_pleasing": 0, "anger_explosion": 5, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Engage in actually fulfilling activities or explore new interests that genuinely interest me",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 1, "workaholic_burnout": 0, "people_pleasing": 0, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "What's your honest relationship with social media when you're struggling?",
+      "answers": [
+        {
+          "text": "I post cryptic quotes and vague statuses hoping someone will ask if I'm okay without actually asking for help",
+          "traits": {"substance_abuse": 1, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 4, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 3, "anger_explosion": 2, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I scroll for hours comparing myself to others until I'm convinced I'm the worst person alive",
+          "traits": {"substance_abuse": 2, "emotional_eating": 3, "shopping_addiction": 2, "social_media_spiral": 5, "self_harm": 3, "isolation_hermit": 3, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 2, "anger_explosion": 2, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I overshare my trauma and personal business because external validation fills the void temporarily",
+          "traits": {"substance_abuse": 1, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 4, "self_harm": 2, "isolation_hermit": 1, "adrenaline_junkie": 2, "workaholic_burnout": 1, "people_pleasing": 4, "anger_explosion": 2, "denial_delusion": 1, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I start arguments in comments sections because being angry at strangers is easier than dealing with my real problems",
+          "traits": {"substance_abuse": 1, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 3, "self_harm": 1, "isolation_hermit": 2, "adrenaline_junkie": 2, "workaholic_burnout": 1, "people_pleasing": 0, "anger_explosion": 5, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I either take a break from social media or use it mindfully to connect with supportive people",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 1, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "How do you deal with shame or guilt about your past mistakes?",
+      "answers": [
+        {
+          "text": "Pretend it never happened and get angry if anyone brings it up because denial is a river I live on",
+          "traits": {"substance_abuse": 2, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 1, "isolation_hermit": 3, "adrenaline_junkie": 1, "workaholic_burnout": 2, "people_pleasing": 1, "anger_explosion": 4, "denial_delusion": 5, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Punish myself with self-destructive behavior because I deserve to suffer for what I've done",
+          "traits": {"substance_abuse": 4, "emotional_eating": 4, "shopping_addiction": 2, "social_media_spiral": 2, "self_harm": 5, "isolation_hermit": 3, "adrenaline_junkie": 3, "workaholic_burnout": 2, "people_pleasing": 2, "anger_explosion": 2, "denial_delusion": 1, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Become overly helpful and agreeable to everyone to prove I'm actually a good person deep down",
+          "traits": {"substance_abuse": 1, "emotional_eating": 2, "shopping_addiction": 2, "social_media_spiral": 2, "self_harm": 1, "isolation_hermit": 1, "adrenaline_junkie": 1, "workaholic_burnout": 3, "people_pleasing": 5, "anger_explosion": 0, "denial_delusion": 2, "surprisingly_healthy": 1}
+        },
+        {
+          "text": "Drown it out with substances, distractions, or anything that makes the guilty thoughts shut up",
+          "traits": {"substance_abuse": 5, "emotional_eating": 3, "shopping_addiction": 3, "social_media_spiral": 4, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 2, "workaholic_burnout": 3, "people_pleasing": 1, "anger_explosion": 1, "denial_delusion": 4, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Actually process the guilt, make amends where possible, and work on forgiving myself",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 1, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "What happens when you feel overwhelmed by responsibilities or life demands?",
+      "answers": [
+        {
+          "text": "I shut down completely and hope everything goes away if I ignore it long enough",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 3, "self_harm": 2, "isolation_hermit": 5, "adrenaline_junkie": 0, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 1, "denial_delusion": 4, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I say yes to even more things because clearly what I need is to be busier and more stressed",
+          "traits": {"substance_abuse": 1, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 1, "self_harm": 1, "isolation_hermit": 1, "adrenaline_junkie": 2, "workaholic_burnout": 4, "people_pleasing": 5, "anger_explosion": 1, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I have a complete meltdown and rage at everything and everyone for making my life so difficult",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 2, "workaholic_burnout": 2, "people_pleasing": 1, "anger_explosion": 5, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I escape into whatever addiction or distraction makes me feel temporarily free from responsibility",
+          "traits": {"substance_abuse": 4, "emotional_eating": 3, "shopping_addiction": 4, "social_media_spiral": 4, "self_harm": 2, "isolation_hermit": 3, "adrenaline_junkie": 3, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 2, "denial_delusion": 4, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I prioritize my responsibilities, ask for help when needed, and set realistic boundaries",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 1, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle conflict or confrontation with people you care about?",
+      "answers": [
+        {
+          "text": "I avoid it at all costs and then drink/eat/shop my way through the anxiety of unresolved issues",
+          "traits": {"substance_abuse": 3, "emotional_eating": 3, "shopping_addiction": 3, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 4, "adrenaline_junkie": 1, "workaholic_burnout": 2, "people_pleasing": 4, "anger_explosion": 1, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I explode like a nuclear bomb and say things I can't take back, then hate myself afterwards",
+          "traits": {"substance_abuse": 2, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 3, "isolation_hermit": 2, "adrenaline_junkie": 3, "workaholic_burnout": 1, "people_pleasing": 0, "anger_explosion": 5, "denial_delusion": 1, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I immediately apologize for everything and take all the blame even when it's not my fault",
+          "traits": {"substance_abuse": 1, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 1, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 0, "workaholic_burnout": 2, "people_pleasing": 5, "anger_explosion": 0, "denial_delusion": 1, "surprisingly_healthy": 1}
+        },
+        {
+          "text": "I shut down emotionally and disappear until they stop being mad at me",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 3, "self_harm": 2, "isolation_hermit": 5, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 2, "anger_explosion": 1, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I communicate openly about the issue and work toward a resolution like a mature adult",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 1, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "When someone criticizes you or gives you negative feedback, your knee-jerk reaction is?",
+      "answers": [
+        {
+          "text": "Immediately get defensive and either shut down or start a fight because criticism feels like an attack",
+          "traits": {"substance_abuse": 2, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 3, "adrenaline_junkie": 2, "workaholic_burnout": 1, "people_pleasing": 0, "anger_explosion": 5, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Agree with everything they say and apologize profusely, even if they're being unfair or wrong",
+          "traits": {"substance_abuse": 1, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 3, "isolation_hermit": 2, "adrenaline_junkie": 0, "workaholic_burnout": 2, "people_pleasing": 5, "anger_explosion": 0, "denial_delusion": 1, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Smile and nod while planning my revenge or mentally destroying their entire existence",
+          "traits": {"substance_abuse": 1, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 3, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 3, "workaholic_burnout": 2, "people_pleasing": 2, "anger_explosion": 4, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Go home and numb the hurt with whatever substance or behavior makes me feel better",
+          "traits": {"substance_abuse": 4, "emotional_eating": 4, "shopping_addiction": 3, "social_media_spiral": 3, "self_harm": 3, "isolation_hermit": 3, "adrenaline_junkie": 2, "workaholic_burnout": 2, "people_pleasing": 1, "anger_explosion": 1, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Listen to what they're saying, consider if there's truth in it, and respond thoughtfully",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 1, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "What's your go-to strategy when you feel like everyone around you is succeeding and you're failing?",
+      "answers": [
+        {
+          "text": "Spend hours on social media torturing myself with everyone else's highlight reels",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 2, "social_media_spiral": 5, "self_harm": 3, "isolation_hermit": 3, "adrenaline_junkie": 1, "workaholic_burnout": 2, "people_pleasing": 1, "anger_explosion": 2, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Isolate myself completely because if I don't try, I can't fail any worse than I already have",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 5, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 1, "denial_delusion": 4, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Throw myself into work so obsessively that I burn out trying to catch up to everyone else",
+          "traits": {"substance_abuse": 2, "emotional_eating": 1, "shopping_addiction": 2, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 2, "workaholic_burnout": 5, "people_pleasing": 3, "anger_explosion": 1, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Get drunk/high/whatever and tell myself that success is overrated and everyone else is fake anyway",
+          "traits": {"substance_abuse": 5, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 3, "adrenaline_junkie": 2, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 2, "denial_delusion": 4, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Remember that everyone moves at their own pace and focus on my own progress instead of comparing",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 0, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle it when someone you trust betrays or disappoints you?",
+      "answers": [
+        {
+          "text": "Decide I can never trust anyone again and build walls higher than the Great Wall of China",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 5, "adrenaline_junkie": 1, "workaholic_burnout": 2, "people_pleasing": 1, "anger_explosion": 3, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Blame myself for being stupid enough to trust them and punish myself for my poor judgment",
+          "traits": {"substance_abuse": 3, "emotional_eating": 4, "shopping_addiction": 2, "social_media_spiral": 2, "self_harm": 4, "isolation_hermit": 3, "adrenaline_junkie": 1, "workaholic_burnout": 2, "people_pleasing": 3, "anger_explosion": 1, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Plot elaborate revenge scenarios in my head while pretending everything is fine",
+          "traits": {"substance_abuse": 2, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 3, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 3, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 4, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Immediately start shopping/drinking/eating to numb the pain of being betrayed",
+          "traits": {"substance_abuse": 4, "emotional_eating": 4, "shopping_addiction": 4, "social_media_spiral": 3, "self_harm": 3, "isolation_hermit": 2, "adrenaline_junkie": 2, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 2, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Feel the hurt, process it, and then decide if the relationship is worth repairing or if I need to move on",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 0, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "What's your relationship with sleep when you're going through a tough time?",
+      "answers": [
+        {
+          "text": "I sleep way too much because unconsciousness is the only break I get from my own brain",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 4, "adrenaline_junkie": 0, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 1, "denial_delusion": 3, "surprisingly_healthy": 1}
+        },
+        {
+          "text": "I can't sleep at all so I stay up all night scrolling my phone or doing meaningless tasks",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 2, "social_media_spiral": 4, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 2, "workaholic_burnout": 3, "people_pleasing": 2, "anger_explosion": 2, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I work myself to exhaustion so I'm too tired to think about my problems",
+          "traits": {"substance_abuse": 1, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 1, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 2, "workaholic_burnout": 5, "people_pleasing": 2, "anger_explosion": 1, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I use substances to knock myself out because natural sleep is apparently too difficult",
+          "traits": {"substance_abuse": 5, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 1, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 1, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I try to maintain good sleep hygiene and use relaxation techniques to help me rest properly",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 0, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "When you're feeling really low about yourself, what do you do to try to feel better?",
+      "answers": [
+        {
+          "text": "Buy myself something expensive because material objects are easier to love than I am",
+          "traits": {"substance_abuse": 1, "emotional_eating": 1, "shopping_addiction": 5, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 1, "workaholic_burnout": 2, "people_pleasing": 2, "anger_explosion": 1, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Post thirst traps on social media and chase validation from strangers because my own opinion doesn't count",
+          "traits": {"substance_abuse": 1, "emotional_eating": 1, "shopping_addiction": 2, "social_media_spiral": 4, "self_harm": 2, "isolation_hermit": 1, "adrenaline_junkie": 2, "workaholic_burnout": 1, "people_pleasing": 4, "anger_explosion": 1, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Do something reckless or dangerous because at least adrenaline feels like something other than self-hatred",
+          "traits": {"substance_abuse": 3, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 3, "isolation_hermit": 1, "adrenaline_junkie": 5, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 2, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Hurt myself in some way because external pain is more manageable than internal pain",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 1, "self_harm": 5, "isolation_hermit": 3, "adrenaline_junkie": 2, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 2, "denial_delusion": 1, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Practice self-compassion and do genuinely nurturing things for myself like I would for a good friend",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 0, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle major life changes or transitions?",
+      "answers": [
+        {
+          "text": "Pretend nothing is changing and get angry when reality forces me to acknowledge it",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 2, "social_media_spiral": 2, "self_harm": 1, "isolation_hermit": 3, "adrenaline_junkie": 1, "workaholic_burnout": 2, "people_pleasing": 1, "anger_explosion": 4, "denial_delusion": 5, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Shut down completely and avoid making any decisions until someone else forces my hand",
+          "traits": {"substance_abuse": 3, "emotional_eating": 3, "shopping_addiction": 1, "social_media_spiral": 3, "self_harm": 2, "isolation_hermit": 5, "adrenaline_junkie": 0, "workaholic_burnout": 1, "people_pleasing": 2, "anger_explosion": 1, "denial_delusion": 4, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Throw myself into controlling every detail I can because if I can't control the change, I'll control everything else",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 3, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 2, "workaholic_burnout": 4, "people_pleasing": 3, "anger_explosion": 3, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Numb out with whatever substance or behavior helps me avoid feeling the uncertainty and fear",
+          "traits": {"substance_abuse": 4, "emotional_eating": 3, "shopping_addiction": 3, "social_media_spiral": 3, "self_harm": 2, "isolation_hermit": 3, "adrenaline_junkie": 2, "workaholic_burnout": 2, "people_pleasing": 1, "anger_explosion": 1, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Allow myself to feel scared and uncertain while taking practical steps to adapt to the new situation",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 0, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "What's your honest strategy for dealing with loneliness?",
+      "answers": [
+        {
+          "text": "Drink alone while pretending I'm having a great time and that I chose to be by myself",
+          "traits": {"substance_abuse": 5, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 3, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 2, "denial_delusion": 4, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Scroll through social media stalking people from my past and imagining alternate realities where I'm not alone",
+          "traits": {"substance_abuse": 1, "emotional_eating": 2, "shopping_addiction": 2, "social_media_spiral": 5, "self_harm": 2, "isolation_hermit": 3, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 2, "anger_explosion": 1, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Eat everything in sight because food never leaves me and never judges me",
+          "traits": {"substance_abuse": 1, "emotional_eating": 5, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 3, "adrenaline_junkie": 0, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 1, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Convince myself I'm better off alone and that other people are the problem anyway",
+          "traits": {"substance_abuse": 2, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 1, "isolation_hermit": 4, "adrenaline_junkie": 1, "workaholic_burnout": 2, "people_pleasing": 0, "anger_explosion": 3, "denial_delusion": 5, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Reach out to friends, engage in activities I enjoy, or work on building genuine connections",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 1, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "When you make a mistake or fail at something important, your first instinct is to?",
+      "answers": [
+        {
+          "text": "Immediately start beating myself up and listing all the ways I'm a worthless failure",
+          "traits": {"substance_abuse": 3, "emotional_eating": 3, "shopping_addiction": 2, "social_media_spiral": 2, "self_harm": 4, "isolation_hermit": 3, "adrenaline_junkie": 1, "workaholic_burnout": 2, "people_pleasing": 2, "anger_explosion": 2, "denial_delusion": 1, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Find someone or something else to blame because clearly it wasn't my fault",
+          "traits": {"substance_abuse": 2, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 1, "isolation_hermit": 2, "adrenaline_junkie": 2, "workaholic_burnout": 1, "people_pleasing": 0, "anger_explosion": 4, "denial_delusion": 5, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Immediately throw myself into work to prove I'm not actually incompetent",
+          "traits": {"substance_abuse": 1, "emotional_eating": 1, "shopping_addiction": 2, "social_media_spiral": 1, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 2, "workaholic_burnout": 5, "people_pleasing": 3, "anger_explosion": 1, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Hide from everyone until the shame subsides and hopefully people forget about it",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 5, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 3, "anger_explosion": 1, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Acknowledge the mistake, learn from it, and figure out how to do better next time",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 1, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "How do you deal with feeling jealous or envious of other people?",
+      "answers": [
+        {
+          "text": "Stalk their social media until I've convinced myself they're actually miserable too",
+          "traits": {"substance_abuse": 1, "emotional_eating": 2, "shopping_addiction": 2, "social_media_spiral": 5, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 1, "workaholic_burnout": 2, "people_pleasing": 1, "anger_explosion": 3, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Try to sabotage them or find ways to make myself feel superior to them",
+          "traits": {"substance_abuse": 2, "emotional_eating": 1, "shopping_addiction": 2, "social_media_spiral": 3, "self_harm": 1, "isolation_hermit": 2, "adrenaline_junkie": 3, "workaholic_burnout": 2, "people_pleasing": 0, "anger_explosion": 4, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Use their success as motivation to work myself into the ground trying to catch up",
+          "traits": {"substance_abuse": 2, "emotional_eating": 1, "shopping_addiction": 3, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 1, "adrenaline_junkie": 2, "workaholic_burnout": 5, "people_pleasing": 2, "anger_explosion": 2, "denial_delusion": 1, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Numb the jealousy with whatever substance or behavior makes me forget about their success",
+          "traits": {"substance_abuse": 4, "emotional_eating": 4, "shopping_addiction": 3, "social_media_spiral": 3, "self_harm": 3, "isolation_hermit": 3, "adrenaline_junkie": 2, "workaholic_burnout": 2, "people_pleasing": 1, "anger_explosion": 2, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Use their success as inspiration and focus on my own journey instead of comparing",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 0, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "What's your go-to move when you're feeling overwhelmed by emotions you can't name or understand?",
+      "answers": [
+        {
+          "text": "Drink until the feelings become fuzzy and manageable, or at least until I stop caring about them",
+          "traits": {"substance_abuse": 5, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 1, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 2, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Shut down completely and wait for the emotional storm to pass while hiding from everyone",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 5, "adrenaline_junkie": 0, "workaholic_burnout": 2, "people_pleasing": 1, "anger_explosion": 1, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Get angry at random things because anger is easier to understand than whatever the hell I'm actually feeling",
+          "traits": {"substance_abuse": 2, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 3, "workaholic_burnout": 2, "people_pleasing": 0, "anger_explosion": 5, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Distract myself with whatever addiction or compulsive behavior temporarily drowns out the confusion",
+          "traits": {"substance_abuse": 3, "emotional_eating": 4, "shopping_addiction": 4, "social_media_spiral": 4, "self_harm": 3, "isolation_hermit": 2, "adrenaline_junkie": 3, "workaholic_burnout": 3, "people_pleasing": 2, "anger_explosion": 2, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Sit with the feelings and try to understand what they're telling me, even if it's uncomfortable",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 0, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "When you're at your absolute lowest point, what keeps you going?",
+      "answers": [
+        {
+          "text": "Pure spite and the desire to prove wrong everyone who ever doubted me",
+          "traits": {"substance_abuse": 2, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 3, "workaholic_burnout": 3, "people_pleasing": 1, "anger_explosion": 4, "denial_delusion": 2, "surprisingly_healthy": 1}
+        },
+        {
+          "text": "The fear of what would happen to the people who depend on me if I completely fell apart",
+          "traits": {"substance_abuse": 1, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 1, "self_harm": 2, "isolation_hermit": 1, "adrenaline_junkie": 1, "workaholic_burnout": 3, "people_pleasing": 5, "anger_explosion": 1, "denial_delusion": 1, "surprisingly_healthy": 2}
+        },
+        {
+          "text": "Honestly, nothing healthy - just whatever substance or behavior numbs the pain enough to survive another day",
+          "traits": {"substance_abuse": 4, "emotional_eating": 3, "shopping_addiction": 2, "social_media_spiral": 2, "self_harm": 4, "isolation_hermit": 3, "adrenaline_junkie": 2, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 2, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "The belief that things can change and that I'm capable of creating a better life for myself",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "How do you typically handle it when plans fall through or things don't go as expected?",
+      "answers": [
+        {
+          "text": "Have a complete meltdown and rage at the universe for personally fucking me over again",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 2, "workaholic_burnout": 2, "people_pleasing": 0, "anger_explosion": 5, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Immediately blame myself and spiral into self-hatred about how I ruin everything I touch",
+          "traits": {"substance_abuse": 2, "emotional_eating": 3, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 4, "isolation_hermit": 3, "adrenaline_junkie": 1, "workaholic_burnout": 2, "people_pleasing": 3, "anger_explosion": 1, "denial_delusion": 1, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Pretend I don't care and that I didn't really want it anyway, while secretly being devastated",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 2, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 3, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 2, "denial_delusion": 5, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Immediately start drinking/shopping/eating to deal with the disappointment",
+          "traits": {"substance_abuse": 4, "emotional_eating": 4, "shopping_addiction": 4, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 2, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 2, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Feel disappointed but adapt and look for alternative solutions or new opportunities",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "What's your honest relationship with money when you're emotionally struggling?",
+      "answers": [
+        {
+          "text": "I either spend money I don't have or hoard it obsessively because control over money feels like control over life",
+          "traits": {"substance_abuse": 1, "emotional_eating": 2, "shopping_addiction": 5, "social_media_spiral": 2, "self_harm": 1, "isolation_hermit": 2, "adrenaline_junkie": 2, "workaholic_burnout": 3, "people_pleasing": 2, "anger_explosion": 2, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Money becomes a weapon I use to hurt myself - either by denying myself things I need or buying shit to punish my bank account",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 4, "social_media_spiral": 1, "self_harm": 4, "isolation_hermit": 2, "adrenaline_junkie": 2, "workaholic_burnout": 2, "people_pleasing": 1, "anger_explosion": 2, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I throw myself into making money obsessively because financial success will definitely fix my emotional problems",
+          "traits": {"substance_abuse": 1, "emotional_eating": 1, "shopping_addiction": 2, "social_media_spiral": 1, "self_harm": 1, "isolation_hermit": 2, "adrenaline_junkie": 2, "workaholic_burnout": 5, "people_pleasing": 2, "anger_explosion": 1, "denial_delusion": 4, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I avoid dealing with money entirely and let my finances turn into a disaster while I hide from adult responsibilities",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 4, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 1, "denial_delusion": 5, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "I try to maintain a healthy relationship with money and make financial decisions based on my actual needs and goals",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 1, "people_pleasing": 0, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle it when you feel like you're not good enough compared to others?",
+      "answers": [
+        {
+          "text": "Punish myself for being inadequate through self-destructive behavior because clearly I deserve to suffer",
+          "traits": {"substance_abuse": 3, "emotional_eating": 4, "shopping_addiction": 2, "social_media_spiral": 3, "self_harm": 5, "isolation_hermit": 3, "adrenaline_junkie": 2, "workaholic_burnout": 2, "people_pleasing": 2, "anger_explosion": 1, "denial_delusion": 1, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Become a people-pleasing machine trying to prove my worth through how useful I can be to others",
+          "traits": {"substance_abuse": 1, "emotional_eating": 2, "shopping_addiction": 2, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 1, "adrenaline_junkie": 1, "workaholic_burnout": 4, "people_pleasing": 5, "anger_explosion": 0, "denial_delusion": 2, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Get angry and defensive, tearing down others to make myself feel superior",
+          "traits": {"substance_abuse": 2, "emotional_eating": 1, "shopping_addiction": 1, "social_media_spiral": 3, "self_harm": 1, "isolation_hermit": 2, "adrenaline_junkie": 3, "workaholic_burnout": 2, "people_pleasing": 0, "anger_explosion": 5, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Disappear from everyone so I don't have to face the constant reminder of how much better everyone else is",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 5, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 1, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Remind myself that everyone has their own struggles and focus on my own growth instead of comparison",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 0, "people_pleasing": 1, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    },
+    {
+      "question": "When you're dealing with chronic stress or ongoing problems, what's your long-term strategy?",
+      "answers": [
+        {
+          "text": "Double down on whatever substance or behavior temporarily makes me feel better, even though it's clearly making everything worse",
+          "traits": {"substance_abuse": 4, "emotional_eating": 4, "shopping_addiction": 3, "social_media_spiral": 3, "self_harm": 3, "isolation_hermit": 2, "adrenaline_junkie": 3, "workaholic_burnout": 2, "people_pleasing": 1, "anger_explosion": 2, "denial_delusion": 4, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Convince myself that if I just work hard enough, I can control and fix everything that's wrong",
+          "traits": {"substance_abuse": 1, "emotional_eating": 1, "shopping_addiction": 2, "social_media_spiral": 1, "self_harm": 2, "isolation_hermit": 2, "adrenaline_junkie": 2, "workaholic_burnout": 5, "people_pleasing": 3, "anger_explosion": 2, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Gradually become more bitter and angry at the world for being so unfair to me specifically",
+          "traits": {"substance_abuse": 2, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 2, "self_harm": 2, "isolation_hermit": 3, "adrenaline_junkie": 2, "workaholic_burnout": 2, "people_pleasing": 1, "anger_explosion": 4, "denial_delusion": 3, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Withdraw from life entirely and wait for either the problems to magically solve themselves or for me to stop caring",
+          "traits": {"substance_abuse": 3, "emotional_eating": 2, "shopping_addiction": 1, "social_media_spiral": 3, "self_harm": 2, "isolation_hermit": 5, "adrenaline_junkie": 1, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 1, "denial_delusion": 4, "surprisingly_healthy": 0}
+        },
+        {
+          "text": "Develop sustainable coping strategies, seek appropriate help, and work on building resilience over time",
+          "traits": {"substance_abuse": 0, "emotional_eating": 0, "shopping_addiction": 0, "social_media_spiral": 0, "self_harm": 0, "isolation_hermit": 0, "adrenaline_junkie": 0, "workaholic_burnout": 1, "people_pleasing": 1, "anger_explosion": 0, "denial_delusion": 0, "surprisingly_healthy": 5}
+        }
+      ]
+    }
+  ],
+  "results": {
+    "substance_abuse": {
+      "title": "Chemical Coping Champion",
+      "description": "Congratulations, you've achieved peak toxicity by turning your bloodstream into a pharmacy. Your coping mechanism is basically 'better living through chemistry,' and spoiler alert: it's not working. You're not solving problems - you're just adding chemical dependency to your growing list of issues while pretending that numbness equals healing.",
+      "extended": "Your damage is that you've outsourced your emotional regulation to substances because feeling feelings is apparently too fucking hard. Whether it's alcohol, weed, pills, or whatever else you're putting in your body, you've convinced yourself that chemical solutions are the answer to psychological problems. Plot twist: they're not. You've essentially hired drugs to do the job that your brain is supposed to do naturally, and now your brain has gotten lazy and forgotten how to cope without pharmaceutical assistance.\n\nThe brutal reality is that every time you reach for a substance instead of dealing with your emotions, you're choosing temporary relief over permanent healing. You're not coping - you're postponing. Every drink, every pill, every hit is just kicking the can down the road, and eventually you're going to run out of road. You're treating symptoms instead of causes, like taking painkillers for a broken leg instead of setting the bone.\n\nYou probably tell yourself you 'have it under control' and that you're 'not like those other people' with addiction problems. But here's the thing - if your first response to stress is to alter your consciousness, you're already in problematic territory. You've made substances your emotional support system, which is like using a flamethrower to light a candle. Sure, it works, but it's wildly inappropriate and potentially destructive.\n\nThe hard truth: your substances aren't helping you cope - they're preventing you from learning how to cope. Every time you numb out instead of working through, you're keeping yourself emotionally stunted. You need actual coping skills, not better drugs. Get professional help before your 'solution' becomes a bigger problem than what you were trying to escape."
+    },
+    "emotional_eating": {
+      "title": "Feelings Buffet Manager",
+      "description": "You've turned food into your therapist, and your stomach into an emotional dumping ground. Every feeling gets fed instead of felt, and you wonder why you hate yourself more after every binge. Your relationship with food is so fucked up that you're literally consuming your problems instead of solving them.",
+      "extended": "Your damage is that you've confused nourishing your body with numbing your soul. Food has become your drug of choice, your comfort, your punishment, and your reward all rolled into one dysfunctional package. You eat when you're sad, mad, glad, or just existing, because apparently your mouth is the only way emotions can escape your body.\n\nThe brutal reality is that you're not actually hungry - you're empty. But no amount of food is going to fill the void inside you because emotional hunger isn't solved by physical consumption. You're trying to eat your way out of feelings, which is like trying to drink the ocean - impossible and ultimately destructive.\n\nYou probably have a complicated relationship with shame around food, alternating between 'fuck it' binges and self-hatred spirals. You use food to punish yourself for having feelings, then feel guilty about eating, then eat more to deal with the guilt. It's a perfect storm of dysfunction disguised as a coping mechanism.\n\nReality check: food is fuel, not therapy. You need to learn to sit with your emotions instead of swallowing them. Every time you eat your feelings, you're choosing temporary fullness over permanent healing. Get therapy, learn actual emotional regulation skills, and stop using your digestive system as an emotional processing unit."
+    },
+    "shopping_addiction": {
+      "title": "Retail Therapy Overdose Patient",
+      "description": "You've convinced yourself that material possessions can fill emotional voids, and your credit card statement reads like a diary of your mental health crises. Every purchase is a temporary hit of dopamine that lasts about as long as it takes for the package to arrive, leaving you broker and emptier than before.",
+      "extended": "Your damage is that you've confused having stuff with having meaning. Every emotional crisis gets solved with a shopping spree, every bad day gets 'fixed' with a purchase, and every feeling gets buried under a pile of shit you don't need with money you don't have. You're literally buying into the lie that external things can fix internal problems.\n\nThe brutal truth is that you're not shopping - you're self-medicating with capitalism. Every 'add to cart' click is you trying to purchase an identity, buy self-worth, or shop your way out of depression. But here's the kicker: you can't buy happiness, and your Amazon cart isn't a therapy session.\n\nYou probably justify every purchase with elaborate reasons why you 'need' it, while your home looks like a warehouse and your bank account looks like a crime scene. You've turned consumption into your primary coping mechanism, which is basically trying to heal emotional wounds with material band-aids.\n\nWake-up call: no amount of stuff is going to make you feel like enough. Every purchase that promises to fix your life is lying to you. You need to learn to sit with emptiness instead of filling it with things. Get financial counseling, address your underlying emotional issues, and stop treating Target like your therapist's office."
+    },
+    "social_media_spiral": {
+      "title": "Digital Doom Scroller",
+      "description": "You've turned your phone into a portal to misery and called it 'staying connected.' Your coping mechanism is scrolling through other people's fake lives until you're convinced you're the worst person on earth. You're literally addicted to feeling bad about yourself, and somehow this counts as dealing with your problems.",
+      "extended": "Your damage is that you've turned social media into emotional self-harm. Every scroll session is you volunteering to feel worse about your life by comparing your behind-the-scenes to everyone else's carefully curated performance. You're basically paying for the privilege of feeling inadequate, except the currency is your mental health and self-esteem.\n\nThe brutal reality is that you're not connecting with people - you're disconnecting from reality. You spend hours consuming other people's lives instead of living your own, seeking validation from strangers while ignoring the actual relationships in front of you. You've made your phone your emotional support device, which is like trying to get hugs from a brick.\n\nYou probably know it's toxic but can't stop because the scroll is hypnotic and the comparison is addictive. You use social media to avoid your real problems, then wonder why you feel worse. You're literally poisoning your own well-being and calling it 'staying informed' or 'keeping up with friends.'\n\nReality check: other people's highlight reels aren't documentary footage of their actual lives. You're comparing your rough draft to their final edit, and it's making you miserable. Put the fucking phone down, engage with your actual life, and stop outsourcing your self-worth to strangers on the internet."
+    },
+    "self_harm": {
+      "title": "Pain Processing Disorder",
+      "description": "You've turned your body into a canvas for your emotional pain because apparently external wounds feel more manageable than internal ones. Your coping mechanism is literally self-inflicted damage, which is like trying to fix a broken heart by breaking your arm. You're hurting yourself to deal with hurt, which is the definition of counterproductive.",
+      "extended": "Your damage runs so deep that you've confused self-destruction with self-care. You hurt yourself to feel in control, to punish yourself, to feel something other than emptiness, or to express pain you can't verbalize. But here's the brutal truth - you're not solving anything, you're just creating more problems while avoiding the real work of healing.\n\nThe reality is that self-harm is a symptom of much deeper issues that need professional attention. You're trying to use physical pain to regulate emotional pain, which is like trying to fix a computer by hitting it with a hammer. It might provide temporary relief, but it's ultimately destructive and doesn't address the underlying issues.\n\nYou probably feel ashamed about it while simultaneously feeling like it's the only thing that helps. You might hide it, lie about it, or minimize it, but the urge to hurt yourself when you're overwhelmed isn't normal and it's not sustainable. You deserve better than turning your body into a punching bag for your emotions.\n\nThis is serious shit that requires professional help immediately. Self-harm is a red flag that your coping mechanisms are dangerously broken. You need therapy, possibly medication, and definitely a support system. There are healthier ways to process pain that don't involve hurting yourself. Please reach out for help - you're worth saving, even if you don't feel like it right now."
+    },
+    "isolation_hermit": {
+      "title": "Professional Hermit",
+      "description": "Your coping mechanism is basically becoming a human turtle - retreating into your shell whenever life gets hard and hoping the world forgets you exist. You've convinced yourself that isolation is protection, but really you're just marinating in your own misery while pretending that avoiding people equals avoiding problems.",
+      "extended": "Your damage is that you've confused solitude with isolation and called it self-care. Every time life gets overwhelming, you disappear like you're in witness protection, cutting off the very connections that could help you heal. You've made loneliness your comfort zone, which is like trying to cure depression by avoiding joy.\n\nThe brutal truth is that you're not protecting yourself by hiding - you're punishing yourself with isolation. Humans are social creatures, and you're essentially putting yourself in emotional solitary confinement every time you get stressed. You're starving yourself of connection while wondering why you feel empty.\n\nYou probably tell yourself that people are the problem and that you're better off alone, but really you're just scared of being vulnerable or rejected. You've made isolation your default because it feels safer than risking being hurt, but safety without connection isn't living - it's just existing.\n\nReality check: you can't heal in isolation from the very relationships you need for healing. You're choosing loneliness over the risk of disappointment, which guarantees you'll be disappointed anyway. You need to gradually rebuild connections and learn that isolation isn't protection - it's just another form of self-harm."
+    },
+    "adrenaline_junkie": {
+      "title": "Danger Dopamine Addict",
+      "description": "Your coping mechanism is basically playing Russian roulette with your life because feeling alive is better than feeling empty. You chase danger like it's therapy, seeking adrenaline rushes to feel something other than the numbness inside. You're literally risking your life to avoid dealing with your feelings, which is peak self-destructive behavior.",
+      "extended": "Your damage is that you've confused feeling alive with almost dying. You seek out dangerous, risky, or extreme situations because the adrenaline temporarily drowns out whatever emotional pain you're trying to avoid. You're basically using near-death experiences as antidepressants, which is like treating a headache with a sledgehammer.\n\nThe brutal reality is that you're not living life to the fullest - you're running from life so fast that you're willing to risk losing it. Every dangerous activity is you trying to feel something other than the emptiness inside, but the rush is temporary and the underlying issues remain untouched.\n\nYou probably justify your behavior as 'living life' or 'being adventurous,' but there's a difference between healthy risk-taking and emotional self-medication through danger. You're using adrenaline to avoid processing emotions, which is like trying to solve depression by bungee jumping.\n\nWake-up call: you can't outrun your problems by literally running toward death. The high you get from risky behavior is just another form of avoidance, and eventually your luck will run out. You need to find healthier ways to feel alive that don't involve risking your actual life. Get therapy and learn to sit with emotions instead of jumping off cliffs to avoid them."
+    },
+    "workaholic_burnout": {
+      "title": "Productivity Poisoning Victim",
+      "description": "You've turned busyness into a drug and exhaustion into an identity. Your coping mechanism is working yourself to death because if you're busy enough, you can't think about how empty you feel inside. You've convinced yourself that productivity equals worth, and now you're burnt out, bitter, and wondering why success feels so hollow.",
+      "extended": "Your damage is that you've confused being busy with being fulfilled and made your job your entire personality. You throw yourself into work to avoid dealing with emotions, relationships, or any aspect of life that can't be solved with a to-do list. You're essentially trying to work your way out of existential dread, which is like trying to cure loneliness with overtime.\n\nThe brutal truth is that you're not successful - you're avoidant. Every extra hour you work is an hour you're not dealing with your actual problems. You've made work your escape from life, but life is still waiting for you when you finally stop running. You're building a career on the foundation of emotional avoidance.\n\nYou probably justify your workaholism as ambition or dedication, but really you're just scared of what you might feel if you sit still for five minutes. You've made being busy your identity because having an identity based on anything deeper feels too risky or complicated.\n\nReality check: you can't work your way to happiness, and achievement isn't a substitute for fulfillment. You're going to burn out, realize your relationships have suffered, and wonder why success feels so empty. Learn to value yourself beyond your productivity and develop a life outside of work before work becomes the only life you have."
+    },
+    "people_pleasing": {
+      "title": "Human Doormat Extraordinaire",
+      "description": "Your coping mechanism is becoming a human yes-machine because you've confused being needed with being loved. You sacrifice your own needs, boundaries, and sanity to keep everyone else happy, then wonder why you feel invisible and resentful. You're basically running a one-person charity for everyone's comfort except your own.",
+      "extended": "Your damage is that you've made other people's approval your emotional life support system. You say yes when you mean no, apologize for existing, and twist yourself into pretzels trying to avoid conflict or rejection. You've confused being liked with being valued, and now you're exhausted from performing happiness for everyone else's benefit.\n\nThe brutal reality is that you're not actually kind - you're conflict-avoidant. Your people-pleasing isn't generosity; it's fear disguised as niceness. You're so terrified of rejection that you reject yourself first by never expressing your actual needs or boundaries. You've made everyone else's comfort more important than your own existence.\n\nYou probably think you're being selfless and caring, but really you're just scared of people not liking you. You've built relationships on the foundation of your own self-sacrifice, which means people don't actually know or love the real you - they love the performance you put on for their benefit.\n\nWake-up call: you can't please your way to genuine love and respect. People-pleasing doesn't prevent rejection - it just ensures that when people accept you, they're accepting a fake version. Learn to set boundaries, express your needs, and discover that people who matter will like you even when you're not constantly serving their every whim."
+    },
+    "anger_explosion": {
+      "title": "Emotional Nuclear Reactor",
+      "description": "Your coping mechanism is basically emotional terrorism - when you can't handle your feelings, you make them everyone else's problem through explosive rage. You turn every minor inconvenience into World War III because anger feels more powerful than vulnerability, but really you're just a toddler having tantrums in an adult body.",
+      "extended": "Your damage is that you've confused anger with strength and explosions with expression. Every time you feel hurt, scared, or overwhelmed, you translate it into rage because anger feels safer than admitting you're in pain. You're essentially using emotional violence to avoid emotional vulnerability, which is like using a flamethrower to light a birthday candle.\n\nThe brutal reality is that your anger isn't protecting you - it's isolating you. Every explosive outburst pushes people further away while confirming your belief that you're unlovable. You're creating the very rejection and abandonment you're trying to prevent, all while convincing yourself that being feared is the same as being respected.\n\nYou probably justify your rage as 'passion' or 'standing up for yourself,' but there's a difference between healthy anger and emotional terrorism. You've made everyone around you responsible for managing your emotions by walking on eggshells to avoid triggering your explosions.\n\nReality check: anger is a secondary emotion that usually covers hurt, fear, or sadness. Every time you explode instead of expressing what you really feel, you're choosing destruction over connection. Learn to identify what's underneath the rage and express that instead of burning down every relationship you have."
+    },
+    "denial_delusion": {
+      "title": "Reality Avoidance Specialist",
+      "description": "Your coping mechanism is basically sticking your fingers in your ears and screaming 'LA LA LA' whenever reality gets uncomfortable. You've built an entire fantasy world where your problems don't exist, your mistakes never happened, and everything is fine. Spoiler alert: denial doesn't make things disappear - it just makes them worse.",
+      "extended": "Your damage is that you've confused ignoring problems with solving them. You live in a carefully constructed reality where anything unpleasant is either someone else's fault, not that serious, or simply non-existent. You've made denial your full-time job, and reality is your biggest enemy.\n\nThe brutal truth is that problems don't disappear because you refuse to acknowledge them - they just grow bigger in the dark. Every issue you pretend doesn't exist is still affecting your life, your relationships, and your future. You're not protecting yourself with denial; you're just postponing the inevitable reckoning.\n\nYou probably get angry when people try to point out reality to you because maintaining your delusions requires constant vigilance against truth. You've surrounded yourself with people who enable your denial or you've isolated yourself from anyone who might challenge your fantasy version of events.\n\nWake-up call: reality always wins in the end. The longer you avoid dealing with problems, the bigger and more complicated they become. You can't live in a fantasy forever, and when reality finally forces its way in, it's going to hurt more than if you'd dealt with it honestly from the beginning."
+    },
+    "surprisingly_healthy": {
+      "title": "Emotionally Functional Human Being",
+      "description": "Holy shit, you're actually doing this whole 'coping with life' thing correctly. Your mechanisms for dealing with stress and problems are... healthy? Revolutionary. You process emotions instead of numbing them, seek support instead of isolation, and handle problems instead of avoiding them. In today's world of toxic coping, you're basically a unicorn.",
+      "extended": "Your 'damage' is that you're surprisingly well-adjusted in a world full of people using shopping carts as therapists and social media as antidepressants. You've somehow figured out that feeling feelings doesn't kill you, that problems are meant to be solved rather than avoided, and that asking for help is strength, not weakness.\n\nThe reality is that you probably still struggle sometimes - everyone does - but you've developed actual coping skills instead of elaborate avoidance strategies. You use healthy outlets like exercise, therapy, creative pursuits, or genuine social connection to process difficult emotions. You're living proof that functional coping mechanisms exist.\n\nYou might sometimes feel like you're the only adult in a world of emotional toddlers, which can be isolating. Your healthy approach to problems might make others uncomfortable because it highlights their own dysfunction. Don't let other people's chaos convince you to abandon your healthy habits.\n\nKeep doing what you're doing because you've cracked the code that most people spend decades trying to figure out. Your coping mechanisms actually cope instead of creating more problems. You're not perfect, but you're functional, which in today's world makes you basically a superhero."
+    }
+  }
+}

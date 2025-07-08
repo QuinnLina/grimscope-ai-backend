@@ -141,6 +141,506 @@
           "traits": {"anxious": 5, "avoidant": 2, "depressed": 2, "damaged": 2, "unstable": 3, "insecure": 4, "trust_issues": 2, "narcissistic": 3, "attention_seeking": 4, "paranoid": 3, "dark_humor": 1, "imposter": 4}
         }
       ]
+    },
+    {
+      "question": "Your relationship with intimacy is best described as:",
+      "answers": [
+        {
+          "text": "I crave it desperately but sabotage it the moment it gets real",
+          "traits": {"anxious": 4, "avoidant": 3, "depressed": 3, "damaged": 5, "unstable": 4, "insecure": 3, "trust_issues": 4, "narcissistic": 1, "attention_seeking": 2, "paranoid": 2, "dark_humor": 2, "imposter": 3}
+        },
+        {
+          "text": "Intimacy is a performance - I show people what they want to see",
+          "traits": {"anxious": 2, "avoidant": 4, "depressed": 2, "damaged": 3, "unstable": 3, "insecure": 4, "trust_issues": 3, "narcissistic": 4, "attention_seeking": 3, "paranoid": 2, "dark_humor": 1, "imposter": 5}
+        },
+        {
+          "text": "Too much work. I prefer surface-level connections that don't require emotional labor",
+          "traits": {"anxious": 1, "avoidant": 5, "depressed": 4, "damaged": 2, "unstable": 1, "insecure": 2, "trust_issues": 3, "narcissistic": 3, "attention_seeking": 1, "paranoid": 3, "dark_humor": 3, "imposter": 2}
+        },
+        {
+          "text": "I overshare immediately to test if people can handle my damage",
+          "traits": {"anxious": 3, "avoidant": 1, "depressed": 3, "damaged": 4, "unstable": 3, "insecure": 3, "trust_issues": 2, "narcissistic": 2, "attention_seeking": 5, "paranoid": 1, "dark_humor": 3, "imposter": 2}
+        },
+        {
+          "text": "What intimacy? I make jokes until people forget we were having a moment",
+          "traits": {"anxious": 3, "avoidant": 4, "depressed": 3, "damaged": 3, "unstable": 2, "insecure": 4, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 2, "paranoid": 2, "dark_humor": 5, "imposter": 3}
+        }
+      ]
+    },
+    {
+      "question": "When someone ghosts you, your immediate response is:",
+      "answers": [
+        {
+          "text": "Relief mixed with devastation because I was planning my escape anyway",
+          "traits": {"anxious": 4, "avoidant": 4, "depressed": 3, "damaged": 3, "unstable": 3, "insecure": 3, "trust_issues": 3, "narcissistic": 1, "attention_seeking": 2, "paranoid": 2, "dark_humor": 3, "imposter": 2}
+        },
+        {
+          "text": "Stalk their social media like a detective searching for clues about my inadequacy",
+          "traits": {"anxious": 5, "avoidant": 1, "depressed": 3, "damaged": 3, "unstable": 4, "insecure": 4, "trust_issues": 2, "narcissistic": 2, "attention_seeking": 3, "paranoid": 4, "dark_humor": 1, "imposter": 3}
+        },
+        {
+          "text": "Their loss! Obviously they couldn't handle my magnificence",
+          "traits": {"anxious": 1, "avoidant": 2, "depressed": 1, "damaged": 1, "unstable": 2, "insecure": 1, "trust_issues": 2, "narcissistic": 5, "attention_seeking": 3, "paranoid": 1, "dark_humor": 2, "imposter": 1}
+        },
+        {
+          "text": "See? I knew they were trash. Adding this to my 'humans suck' evidence collection",
+          "traits": {"anxious": 2, "avoidant": 3, "depressed": 4, "damaged": 4, "unstable": 2, "insecure": 2, "trust_issues": 5, "narcissistic": 1, "attention_seeking": 1, "paranoid": 4, "dark_humor": 3, "imposter": 2}
+        },
+        {
+          "text": "Create an elaborate story about their mysterious disappearance and share it for sympathy points",
+          "traits": {"anxious": 3, "avoidant": 1, "depressed": 2, "damaged": 3, "unstable": 3, "insecure": 3, "trust_issues": 2, "narcissistic": 2, "attention_seeking": 5, "paranoid": 2, "dark_humor": 2, "imposter": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your biggest fear in relationships is:",
+      "answers": [
+        {
+          "text": "Being seen for who I really am and having them run away screaming",
+          "traits": {"anxious": 4, "avoidant": 3, "depressed": 3, "damaged": 4, "unstable": 2, "insecure": 5, "trust_issues": 3, "narcissistic": 1, "attention_seeking": 2, "paranoid": 2, "dark_humor": 2, "imposter": 5}
+        },
+        {
+          "text": "Getting too comfortable and forgetting to maintain my emotional walls",
+          "traits": {"anxious": 2, "avoidant": 5, "depressed": 2, "damaged": 3, "unstable": 2, "insecure": 3, "trust_issues": 4, "narcissistic": 2, "attention_seeking": 1, "paranoid": 3, "dark_humor": 2, "imposter": 2}
+        },
+        {
+          "text": "Being abandoned when they realize I'm not as special as I pretend to be",
+          "traits": {"anxious": 3, "avoidant": 2, "depressed": 3, "damaged": 2, "unstable": 3, "insecure": 4, "trust_issues": 2, "narcissistic": 4, "attention_seeking": 4, "paranoid": 2, "dark_humor": 1, "imposter": 4}
+        },
+        {
+          "text": "Trusting someone completely and having them use my vulnerabilities against me",
+          "traits": {"anxious": 3, "avoidant": 3, "depressed": 2, "damaged": 5, "unstable": 2, "insecure": 3, "trust_issues": 5, "narcissistic": 1, "attention_seeking": 1, "paranoid": 5, "dark_humor": 1, "imposter": 2}
+        },
+        {
+          "text": "Them realizing I'm just an empty shell cosplaying as a functional human",
+          "traits": {"anxious": 3, "avoidant": 3, "depressed": 5, "damaged": 3, "unstable": 2, "insecure": 4, "trust_issues": 2, "narcissistic": 2, "attention_seeking": 2, "paranoid": 2, "dark_humor": 4, "imposter": 5}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle criticism?",
+      "answers": [
+        {
+          "text": "Internalize it as proof that I'm fundamentally flawed and everyone can see it",
+          "traits": {"anxious": 4, "avoidant": 2, "depressed": 5, "damaged": 3, "unstable": 3, "insecure": 5, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 2, "paranoid": 2, "dark_humor": 2, "imposter": 5}
+        },
+        {
+          "text": "Attack back twice as hard because the best defense is nuclear warfare",
+          "traits": {"anxious": 2, "avoidant": 3, "depressed": 1, "damaged": 4, "unstable": 5, "insecure": 2, "trust_issues": 3, "narcissistic": 4, "attention_seeking": 3, "paranoid": 3, "dark_humor": 2, "imposter": 1}
+        },
+        {
+          "text": "Smile and nod while plotting their emotional destruction in my head",
+          "traits": {"anxious": 1, "avoidant": 4, "depressed": 2, "damaged": 3, "unstable": 3, "insecure": 2, "trust_issues": 4, "narcissistic": 4, "attention_seeking": 2, "paranoid": 4, "dark_humor": 3, "imposter": 2}
+        },
+        {
+          "text": "Make self-deprecating jokes to show I don't care while dying inside",
+          "traits": {"anxious": 3, "avoidant": 3, "depressed": 3, "damaged": 3, "unstable": 2, "insecure": 4, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 3, "paranoid": 1, "dark_humor": 5, "imposter": 4}
+        },
+        {
+          "text": "Shut down completely and disappear for three business days minimum",
+          "traits": {"anxious": 3, "avoidant": 5, "depressed": 4, "damaged": 4, "unstable": 3, "insecure": 3, "trust_issues": 3, "narcissistic": 1, "attention_seeking": 1, "paranoid": 2, "dark_humor": 2, "imposter": 3}
+        }
+      ]
+    },
+    {
+      "question": "Your self-care routine mostly consists of:",
+      "answers": [
+        {
+          "text": "Scrolling social media until 3am while questioning every life choice I've ever made",
+          "traits": {"anxious": 4, "avoidant": 3, "depressed": 5, "damaged": 3, "unstable": 3, "insecure": 4, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 2, "paranoid": 3, "dark_humor": 3, "imposter": 3}
+        },
+        {
+          "text": "Avoiding all human contact and living off takeout like a feral gremlin",
+          "traits": {"anxious": 3, "avoidant": 5, "depressed": 4, "damaged": 3, "unstable": 2, "insecure": 3, "trust_issues": 3, "narcissistic": 1, "attention_seeking": 1, "paranoid": 2, "dark_humor": 4, "imposter": 2}
+        },
+        {
+          "text": "Taking perfect self-care selfies to prove how well I'm doing to my haters",
+          "traits": {"anxious": 2, "avoidant": 1, "depressed": 1, "damaged": 2, "unstable": 2, "insecure": 3, "trust_issues": 1, "narcissistic": 5, "attention_seeking": 5, "paranoid": 1, "dark_humor": 1, "imposter": 3}
+        },
+        {
+          "text": "Researching everyone who's wronged me to see if their lives have imploded yet",
+          "traits": {"anxious": 2, "avoidant": 2, "depressed": 3, "damaged": 4, "unstable": 3, "insecure": 2, "trust_issues": 4, "narcissistic": 3, "attention_seeking": 2, "paranoid": 5, "dark_humor": 2, "imposter": 2}
+        },
+        {
+          "text": "Pretending I don't need self-care because I'm totally fine and definitely not falling apart",
+          "traits": {"anxious": 3, "avoidant": 4, "depressed": 3, "damaged": 3, "unstable": 2, "insecure": 3, "trust_issues": 2, "narcissistic": 2, "attention_seeking": 1, "paranoid": 2, "dark_humor": 3, "imposter": 4}
+        }
+      ]
+    },
+    {
+      "question": "When you see happy couples, you typically think:",
+      "answers": [
+        {
+          "text": "Must be nice to be that delusional about love. Give it six months",
+          "traits": {"anxious": 2, "avoidant": 4, "depressed": 4, "damaged": 4, "unstable": 2, "insecure": 3, "trust_issues": 5, "narcissistic": 2, "attention_seeking": 1, "paranoid": 3, "dark_humor": 4, "imposter": 2}
+        },
+        {
+          "text": "What's wrong with me that I can't have what they have?",
+          "traits": {"anxious": 5, "avoidant": 2, "depressed": 4, "damaged": 3, "unstable": 3, "insecure": 5, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 3, "paranoid": 1, "dark_humor": 1, "imposter": 4}
+        },
+        {
+          "text": "Obviously performing for social media. Real love looks different",
+          "traits": {"anxious": 2, "avoidant": 3, "depressed": 2, "damaged": 3, "unstable": 2, "insecure": 2, "trust_issues": 3, "narcissistic": 3, "attention_seeking": 2, "paranoid": 4, "dark_humor": 3, "imposter": 2}
+        },
+        {
+          "text": "Ugh, nobody wants to see your happiness. Some of us are dead inside",
+          "traits": {"anxious": 2, "avoidant": 3, "depressed": 5, "damaged": 3, "unstable": 3, "insecure": 3, "trust_issues": 2, "narcissistic": 2, "attention_seeking": 2, "paranoid": 2, "dark_humor": 5, "imposter": 2}
+        },
+        {
+          "text": "I deserve that happiness more than they do, but the universe hates me",
+          "traits": {"anxious": 3, "avoidant": 1, "depressed": 3, "damaged": 3, "unstable": 4, "insecure": 3, "trust_issues": 2, "narcissistic": 4, "attention_seeking": 4, "paranoid": 2, "dark_humor": 2, "imposter": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your biggest achievement lately was:",
+      "answers": [
+        {
+          "text": "Getting out of bed three days in a row like the functional adult I'm pretending to be",
+          "traits": {"anxious": 3, "avoidant": 2, "depressed": 5, "damaged": 3, "unstable": 2, "insecure": 3, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 2, "paranoid": 1, "dark_humor": 5, "imposter": 3}
+        },
+        {
+          "text": "Not having a panic attack during a normal human interaction",
+          "traits": {"anxious": 5, "avoidant": 3, "depressed": 3, "damaged": 3, "unstable": 3, "insecure": 4, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 2, "paranoid": 3, "dark_humor": 3, "imposter": 3}
+        },
+        {
+          "text": "Successfully avoiding all my problems by disappearing from society",
+          "traits": {"anxious": 3, "avoidant": 5, "depressed": 4, "damaged": 3, "unstable": 2, "insecure": 2, "trust_issues": 3, "narcissistic": 1, "attention_seeking": 1, "paranoid": 2, "dark_humor": 4, "imposter": 2}
+        },
+        {
+          "text": "Finally getting the recognition I deserve for being obviously superior",
+          "traits": {"anxious": 1, "avoidant": 1, "depressed": 1, "damaged": 1, "unstable": 2, "insecure": 1, "trust_issues": 1, "narcissistic": 5, "attention_seeking": 4, "paranoid": 1, "dark_humor": 1, "imposter": 1}
+        },
+        {
+          "text": "Convincing people I'm competent while having absolutely no idea what I'm doing",
+          "traits": {"anxious": 4, "avoidant": 2, "depressed": 2, "damaged": 2, "unstable": 3, "insecure": 4, "trust_issues": 2, "narcissistic": 2, "attention_seeking": 3, "paranoid": 2, "dark_humor": 3, "imposter": 5}
+        }
+      ]
+    },
+    {
+      "question": "You're invited to a party. Your first instinct is:",
+      "answers": [
+        {
+          "text": "Immediately start planning excuses to leave early or not go at all",
+          "traits": {"anxious": 4, "avoidant": 5, "depressed": 3, "damaged": 2, "unstable": 2, "insecure": 4, "trust_issues": 3, "narcissistic": 1, "attention_seeking": 1, "paranoid": 3, "dark_humor": 2, "imposter": 3}
+        },
+        {
+          "text": "Panic about what to wear, what to say, and how to avoid humiliating myself",
+          "traits": {"anxious": 5, "avoidant": 2, "depressed": 2, "damaged": 2, "unstable": 3, "insecure": 5, "trust_issues": 2, "narcissistic": 2, "attention_seeking": 3, "paranoid": 2, "dark_humor": 1, "imposter": 4}
+        },
+        {
+          "text": "Perfect! Time to remind everyone why I'm the main character",
+          "traits": {"anxious": 1, "avoidant": 1, "depressed": 1, "damaged": 1, "unstable": 2, "insecure": 1, "trust_issues": 1, "narcissistic": 5, "attention_seeking": 5, "paranoid": 1, "dark_humor": 1, "imposter": 1}
+        },
+        {
+          "text": "Wonder who's going to be there and what drama I can collect for later analysis",
+          "traits": {"anxious": 2, "avoidant": 2, "depressed": 2, "damaged": 3, "unstable": 2, "insecure": 2, "trust_issues": 4, "narcissistic": 2, "attention_seeking": 3, "paranoid": 5, "dark_humor": 3, "imposter": 2}
+        },
+        {
+          "text": "Go but spend the whole time making jokes about how awkward social situations are",
+          "traits": {"anxious": 3, "avoidant": 3, "depressed": 3, "damaged": 2, "unstable": 2, "insecure": 3, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 2, "paranoid": 2, "dark_humor": 5, "imposter": 3}
+        }
+      ]
+    },
+    {
+      "question": "Your relationship with your own emotions is:",
+      "answers": [
+        {
+          "text": "What emotions? I've successfully numbed myself into functional emptiness",
+          "traits": {"anxious": 2, "avoidant": 5, "depressed": 5, "damaged": 4, "unstable": 1, "insecure": 2, "trust_issues": 3, "narcissistic": 2, "attention_seeking": 1, "paranoid": 2, "dark_humor": 4, "imposter": 2}
+        },
+        {
+          "text": "They're too intense and overwhelming, so I turn them into entertainment for others",
+          "traits": {"anxious": 3, "avoidant": 2, "depressed": 3, "damaged": 4, "unstable": 4, "insecure": 3, "trust_issues": 2, "narcissistic": 2, "attention_seeking": 5, "paranoid": 2, "dark_humor": 3, "imposter": 2}
+        },
+        {
+          "text": "I only have two emotions: rage and vindication",
+          "traits": {"anxious": 1, "avoidant": 2, "depressed": 2, "damaged": 4, "unstable": 5, "insecure": 2, "trust_issues": 3, "narcissistic": 4, "attention_seeking": 2, "paranoid": 3, "dark_humor": 2, "imposter": 1}
+        },
+        {
+          "text": "I analyze them to death until they lose all meaning",
+          "traits": {"anxious": 5, "avoidant": 3, "depressed": 3, "damaged": 3, "unstable": 2, "insecure": 3, "trust_issues": 2, "narcissistic": 2, "attention_seeking": 2, "paranoid": 4, "dark_humor": 2, "imposter": 3}
+        },
+        {
+          "text": "They're probably fake anyway - just chemical reactions pretending to be meaningful",
+          "traits": {"anxious": 2, "avoidant": 4, "depressed": 4, "damaged": 3, "unstable": 2, "insecure": 3, "trust_issues": 3, "narcissistic": 2, "attention_seeking": 1, "paranoid": 3, "dark_humor": 5, "imposter": 3}
+        }
+      ]
+    },
+    {
+      "question": "When someone says they're proud of you:",
+      "answers": [
+        {
+          "text": "Immediately suspect they want something or are setting me up for disappointment",
+          "traits": {"anxious": 3, "avoidant": 3, "depressed": 2, "damaged": 4, "unstable": 2, "insecure": 3, "trust_issues": 5, "narcissistic": 1, "attention_seeking": 2, "paranoid": 5, "dark_humor": 2, "imposter": 3}
+        },
+        {
+          "text": "Feel physically uncomfortable and change the subject with a joke",
+          "traits": {"anxious": 4, "avoidant": 4, "depressed": 3, "damaged": 3, "unstable": 2, "insecure": 4, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 1, "paranoid": 2, "dark_humor": 5, "imposter": 4}
+        },
+        {
+          "text": "Finally! Someone notices my obvious superiority",
+          "traits": {"anxious": 1, "avoidant": 1, "depressed": 1, "damaged": 1, "unstable": 2, "insecure": 1, "trust_issues": 1, "narcissistic": 5, "attention_seeking": 4, "paranoid": 1, "dark_humor": 1, "imposter": 1}
+        },
+        {
+          "text": "Wonder what I did to trick them into thinking I'm worth being proud of",
+          "traits": {"anxious": 4, "avoidant": 2, "depressed": 3, "damaged": 3, "unstable": 2, "insecure": 5, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 2, "paranoid": 2, "dark_humor": 2, "imposter": 5}
+        },
+        {
+          "text": "Immediately start crying because nobody has said that to me in years",
+          "traits": {"anxious": 3, "avoidant": 1, "depressed": 4, "damaged": 4, "unstable": 4, "insecure": 4, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 4, "paranoid": 1, "dark_humor": 1, "imposter": 3}
+        }
+      ]
+    },
+    {
+      "question": "Your biggest regret right now is:",
+      "answers": [
+        {
+          "text": "Not running away to a different country when I had the chance",
+          "traits": {"anxious": 3, "avoidant": 4, "depressed": 4, "damaged": 4, "unstable": 3, "insecure": 2, "trust_issues": 3, "narcissistic": 1, "attention_seeking": 1, "paranoid": 2, "dark_humor": 3, "imposter": 2}
+        },
+        {
+          "text": "Trusting someone with my heart and having it used as target practice",
+          "traits": {"anxious": 3, "avoidant": 3, "depressed": 3, "damaged": 5, "unstable": 3, "insecure": 3, "trust_issues": 5, "narcissistic": 1, "attention_seeking": 2, "paranoid": 4, "dark_humor": 2, "imposter": 2}
+        },
+        {
+          "text": "Not being cruel enough to the people who deserved it",
+          "traits": {"anxious": 1, "avoidant": 3, "depressed": 2, "damaged": 4, "unstable": 4, "insecure": 2, "trust_issues": 3, "narcissistic": 4, "attention_seeking": 2, "paranoid": 3, "dark_humor": 3, "imposter": 1}
+        },
+        {
+          "text": "Existing in general. This whole human experience feels like a mistake",
+          "traits": {"anxious": 3, "avoidant": 3, "depressed": 5, "damaged": 4, "unstable": 3, "insecure": 4, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 2, "paranoid": 2, "dark_humor": 5, "imposter": 3}
+        },
+        {
+          "text": "Not speaking up when I should have, and speaking up when I shouldn't have",
+          "traits": {"anxious": 5, "avoidant": 2, "depressed": 3, "damaged": 3, "unstable": 3, "insecure": 4, "trust_issues": 2, "narcissistic": 2, "attention_seeking": 3, "paranoid": 2, "dark_humor": 2, "imposter": 4}
+        }
+      ]
+    },
+    {
+      "question": "How do you react when someone cancels plans you were actually looking forward to?",
+      "answers": [
+        {
+          "text": "Pretend I'm fine while internally catastrophizing about being unlovable",
+          "traits": {"anxious": 5, "avoidant": 3, "depressed": 3, "damaged": 3, "unstable": 3, "insecure": 4, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 2, "paranoid": 2, "dark_humor": 2, "imposter": 4}
+        },
+        {
+          "text": "Immediately assume they found something better and add them to my 'unreliable humans' list",
+          "traits": {"anxious": 2, "avoidant": 3, "depressed": 3, "damaged": 3, "unstable": 2, "insecure": 3, "trust_issues": 5, "narcissistic": 2, "attention_seeking": 1, "paranoid": 4, "dark_humor": 2, "imposter": 2}
+        },
+        {
+          "text": "Get irrationally angry because don't they know how important I am?",
+          "traits": {"anxious": 2, "avoidant": 2, "depressed": 1, "damaged": 2, "unstable": 4, "insecure": 2, "trust_issues": 2, "narcissistic": 5, "attention_seeking": 3, "paranoid": 2, "dark_humor": 1, "imposter": 1}
+        },
+        {
+          "text": "Relief mixed with disappointment because socializing is terrifying but isolation is worse",
+          "traits": {"anxious": 4, "avoidant": 4, "depressed": 4, "damaged": 3, "unstable": 3, "insecure": 3, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 1, "paranoid": 2, "dark_humor": 3, "imposter": 3}
+        },
+        {
+          "text": "Make dark jokes about it to hide how much it actually hurt",
+          "traits": {"anxious": 3, "avoidant": 3, "depressed": 3, "damaged": 3, "unstable": 2, "insecure": 3, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 2, "paranoid": 1, "dark_humor": 5, "imposter": 3}
+        }
+      ]
+    },
+    {
+      "question": "Your coping mechanism when life gets overwhelming is:",
+      "answers": [
+        {
+          "text": "Disappear completely and hope everyone forgets I exist",
+          "traits": {"anxious": 3, "avoidant": 5, "depressed": 5, "damaged": 3, "unstable": 2, "insecure": 3, "trust_issues": 3, "narcissistic": 1, "attention_seeking": 1, "paranoid": 2, "dark_humor": 3, "imposter": 3}
+        },
+        {
+          "text": "Call everyone I know to trauma-dump until someone saves me",
+          "traits": {"anxious": 4, "avoidant": 1, "depressed": 2, "damaged": 4, "unstable": 4, "insecure": 3, "trust_issues": 1, "narcissistic": 2, "attention_seeking": 5, "paranoid": 2, "dark_humor": 1, "imposter": 2}
+        },
+        {
+          "text": "Blame everyone else for my problems because clearly this isn't my fault",
+          "traits": {"anxious": 1, "avoidant": 2, "depressed": 2, "damaged": 3, "unstable": 4, "insecure": 2, "trust_issues": 3, "narcissistic": 5, "attention_seeking": 3, "paranoid": 3, "dark_humor": 1, "imposter": 1}
+        },
+        {
+          "text": "Assume everyone is plotting against me and go into full defense mode",
+          "traits": {"anxious": 3, "avoidant": 3, "depressed": 2, "damaged": 4, "unstable": 3, "insecure": 2, "trust_issues": 5, "narcissistic": 2, "attention_seeking": 2, "paranoid": 5, "dark_humor": 2, "imposter": 2}
+        },
+        {
+          "text": "Make increasingly dark jokes until someone either laughs or calls a therapist",
+          "traits": {"anxious": 3, "avoidant": 3, "depressed": 4, "damaged": 4, "unstable": 3, "insecure": 3, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 3, "paranoid": 2, "dark_humor": 5, "imposter": 3}
+        }
+      ]
+    },
+    {
+      "question": "When you look in the mirror, your first thought is usually:",
+      "answers": [
+        {
+          "text": "Ugh, how do I fix this disaster before facing the world?",
+          "traits": {"anxious": 4, "avoidant": 2, "depressed": 3, "damaged": 3, "unstable": 3, "insecure": 5, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 2, "paranoid": 2, "dark_humor": 2, "imposter": 4}
+        },
+        {
+          "text": "Damn, I'm gorgeous. Everyone else is just jealous",
+          "traits": {"anxious": 1, "avoidant": 1, "depressed": 1, "damaged": 1, "unstable": 1, "insecure": 1, "trust_issues": 1, "narcissistic": 5, "attention_seeking": 3, "paranoid": 1, "dark_humor": 1, "imposter": 1}
+        },
+        {
+          "text": "Who is this hollow shell staring back at me?",
+          "traits": {"anxious": 3, "avoidant": 4, "depressed": 5, "damaged": 4, "unstable": 2, "insecure": 4, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 1, "paranoid": 2, "dark_humor": 4, "imposter": 4}
+        },
+        {
+          "text": "I wonder what lies this face is going to tell today",
+          "traits": {"anxious": 2, "avoidant": 4, "depressed": 3, "damaged": 3, "unstable": 2, "insecure": 3, "trust_issues": 3, "narcissistic": 2, "attention_seeking": 2, "paranoid": 3, "dark_humor": 4, "imposter": 4}
+        },
+        {
+          "text": "Quick analysis of what everyone else will judge me for today",
+          "traits": {"anxious": 5, "avoidant": 2, "depressed": 2, "damaged": 2, "unstable": 2, "insecure": 4, "trust_issues": 2, "narcissistic": 2, "attention_seeking": 3, "paranoid": 4, "dark_humor": 1, "imposter": 3}
+        }
+      ]
+    },
+    {
+      "question": "Your relationship with success is:",
+      "answers": [
+        {
+          "text": "I sabotage myself because I don't deserve good things",
+          "traits": {"anxious": 3, "avoidant": 3, "depressed": 5, "damaged": 4, "unstable": 4, "insecure": 5, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 2, "paranoid": 2, "dark_humor": 3, "imposter": 4}
+        },
+        {
+          "text": "Success is my birthright and everyone else is just catching up to my greatness",
+          "traits": {"anxious": 1, "avoidant": 1, "depressed": 1, "damaged": 1, "unstable": 2, "insecure": 1, "trust_issues": 1, "narcissistic": 5, "attention_seeking": 4, "paranoid": 1, "dark_humor": 1, "imposter": 1}
+        },
+        {
+          "text": "Every achievement feels fake and I'm waiting to be exposed as a fraud",
+          "traits": {"anxious": 4, "avoidant": 3, "depressed": 3, "damaged": 3, "unstable": 2, "insecure": 4, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 2, "paranoid": 3, "dark_humor": 2, "imposter": 5}
+        },
+        {
+          "text": "Success just gives people more ammunition to use against me later",
+          "traits": {"anxious": 2, "avoidant": 3, "depressed": 2, "damaged": 4, "unstable": 2, "insecure": 3, "trust_issues": 5, "narcissistic": 1, "attention_seeking": 1, "paranoid": 5, "dark_humor": 2, "imposter": 2}
+        },
+        {
+          "text": "What's the point? Nothing matters anyway and we're all going to die",
+          "traits": {"anxious": 2, "avoidant": 4, "depressed": 5, "damaged": 3, "unstable": 2, "insecure": 2, "trust_issues": 3, "narcissistic": 1, "attention_seeking": 1, "paranoid": 2, "dark_humor": 5, "imposter": 2}
+        }
+      ]
+    },
+    {
+      "question": "The thing that triggers you most in conversations is:",
+      "answers": [
+        {
+          "text": "When people don't immediately validate my feelings and experiences",
+          "traits": {"anxious": 4, "avoidant": 1, "depressed": 2, "damaged": 3, "unstable": 4, "insecure": 4, "trust_issues": 2, "narcissistic": 3, "attention_seeking": 5, "paranoid": 2, "dark_humor": 1, "imposter": 3}
+        },
+        {
+          "text": "Any attempt to make me be vulnerable or share real feelings",
+          "traits": {"anxious": 3, "avoidant": 5, "depressed": 3, "damaged": 4, "unstable": 2, "insecure": 3, "trust_issues": 4, "narcissistic": 2, "attention_seeking": 1, "paranoid": 3, "dark_humor": 3, "imposter": 3}
+        },
+        {
+          "text": "When people don't acknowledge my obvious intellectual superiority",
+          "traits": {"anxious": 1, "avoidant": 2, "depressed": 1, "damaged": 2, "unstable": 3, "insecure": 2, "trust_issues": 1, "narcissistic": 5, "attention_seeking": 3, "paranoid": 2, "dark_humor": 1, "imposter": 1}
+        },
+        {
+          "text": "Feeling like they're gathering information to use against me later",
+          "traits": {"anxious": 2, "avoidant": 3, "depressed": 2, "damaged": 4, "unstable": 2, "insecure": 2, "trust_issues": 5, "narcissistic": 2, "attention_seeking": 1, "paranoid": 5, "dark_humor": 2, "imposter": 2}
+        },
+        {
+          "text": "When people try to be serious instead of laughing at my trauma jokes",
+          "traits": {"anxious": 3, "avoidant": 4, "depressed": 3, "damaged": 3, "unstable": 2, "insecure": 3, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 2, "paranoid": 2, "dark_humor": 5, "imposter": 3}
+        }
+      ]
+    },
+    {
+      "question": "Your ideal relationship would involve:",
+      "answers": [
+        {
+          "text": "Someone who can read my mind and fix all my problems without me asking",
+          "traits": {"anxious": 5, "avoidant": 1, "depressed": 3, "damaged": 4, "unstable": 3, "insecure": 4, "trust_issues": 2, "narcissistic": 3, "attention_seeking": 4, "paranoid": 1, "dark_humor": 1, "imposter": 3}
+        },
+        {
+          "text": "Parallel lives where we coexist but never actually have to be emotionally vulnerable",
+          "traits": {"anxious": 2, "avoidant": 5, "depressed": 3, "damaged": 3, "unstable": 1, "insecure": 2, "trust_issues": 3, "narcissistic": 2, "attention_seeking": 1, "paranoid": 3, "dark_humor": 3, "imposter": 2}
+        },
+        {
+          "text": "A personal cheerleader who worships me and never questions my decisions",
+          "traits": {"anxious": 1, "avoidant": 2, "depressed": 1, "damaged": 1, "unstable": 2, "insecure": 1, "trust_issues": 1, "narcissistic": 5, "attention_seeking": 5, "paranoid": 1, "dark_humor": 1, "imposter": 1}
+        },
+        {
+          "text": "Someone equally damaged so we can be broken together and normalize dysfunction",
+          "traits": {"anxious": 2, "avoidant": 2, "depressed": 4, "damaged": 5, "unstable": 4, "insecure": 3, "trust_issues": 3, "narcissistic": 1, "attention_seeking": 2, "paranoid": 2, "dark_humor": 4, "imposter": 2}
+        },
+        {
+          "text": "Someone who thinks my conspiracy theories are charming instead of concerning",
+          "traits": {"anxious": 2, "avoidant": 3, "depressed": 2, "damaged": 3, "unstable": 2, "insecure": 2, "trust_issues": 4, "narcissistic": 2, "attention_seeking": 2, "paranoid": 5, "dark_humor": 3, "imposter": 2}
+        }
+      ]
+    },
+    {
+      "question": "If someone made a movie about your life, the genre would be:",
+      "answers": [
+        {
+          "text": "Psychological thriller where the main character is their own worst enemy",
+          "traits": {"anxious": 4, "avoidant": 3, "depressed": 3, "damaged": 4, "unstable": 4, "insecure": 4, "trust_issues": 3, "narcissistic": 1, "attention_seeking": 2, "paranoid": 4, "dark_humor": 3, "imposter": 4}
+        },
+        {
+          "text": "Epic drama about a misunderstood genius fighting against inferior minds",
+          "traits": {"anxious": 1, "avoidant": 2, "depressed": 1, "damaged": 2, "unstable": 2, "insecure": 1, "trust_issues": 2, "narcissistic": 5, "attention_seeking": 4, "paranoid": 2, "dark_humor": 1, "imposter": 1}
+        },
+        {
+          "text": "Dark comedy where everything is terrible but at least it's funny",
+          "traits": {"anxious": 2, "avoidant": 3, "depressed": 4, "damaged": 4, "unstable": 3, "insecure": 3, "trust_issues": 3, "narcissistic": 1, "attention_seeking": 2, "paranoid": 2, "dark_humor": 5, "imposter": 3}
+        },
+        {
+          "text": "Horror movie where everyone is secretly plotting against the protagonist",
+          "traits": {"anxious": 3, "avoidant": 3, "depressed": 2, "damaged": 4, "unstable": 3, "insecure": 2, "trust_issues": 5, "narcissistic": 2, "attention_seeking": 1, "paranoid": 5, "dark_humor": 2, "imposter": 2}
+        },
+        {
+          "text": "Tragic drama about someone who had potential but threw it all away",
+          "traits": {"anxious": 3, "avoidant": 4, "depressed": 5, "damaged": 4, "unstable": 3, "insecure": 4, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 3, "paranoid": 2, "dark_humor": 3, "imposter": 4}
+        }
+      ]
+    },
+    {
+      "question": "Your worst nightmare about the future is:",
+      "answers": [
+        {
+          "text": "Dying alone and having nobody show up to my funeral",
+          "traits": {"anxious": 4, "avoidant": 2, "depressed": 5, "damaged": 3, "unstable": 3, "insecure": 4, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 4, "paranoid": 2, "dark_humor": 3, "imposter": 3}
+        },
+        {
+          "text": "Being trapped in a mediocre life surrounded by people I can't stand",
+          "traits": {"anxious": 2, "avoidant": 4, "depressed": 4, "damaged": 3, "unstable": 3, "insecure": 2, "trust_issues": 3, "narcissistic": 3, "attention_seeking": 2, "paranoid": 2, "dark_humor": 4, "imposter": 2}
+        },
+        {
+          "text": "Everyone finally realizing I'm not as special as I thought I was",
+          "traits": {"anxious": 3, "avoidant": 2, "depressed": 2, "damaged": 2, "unstable": 3, "insecure": 4, "trust_issues": 2, "narcissistic": 5, "attention_seeking": 4, "paranoid": 2, "dark_humor": 1, "imposter": 4}
+        },
+        {
+          "text": "Having my secrets and vulnerabilities exposed to everyone who's ever hurt me",
+          "traits": {"anxious": 3, "avoidant": 3, "depressed": 2, "damaged": 5, "unstable": 2, "insecure": 3, "trust_issues": 5, "narcissistic": 1, "attention_seeking": 2, "paranoid": 5, "dark_humor": 2, "imposter": 3}
+        },
+        {
+          "text": "Becoming exactly like the people who damaged me in the first place",
+          "traits": {"anxious": 2, "avoidant": 3, "depressed": 3, "damaged": 5, "unstable": 4, "insecure": 3, "trust_issues": 3, "narcissistic": 2, "attention_seeking": 2, "paranoid": 3, "dark_humor": 3, "imposter": 2}
+        }
+      ]
+    },
+    {
+      "question": "If you could give your past self one piece of advice, it would be:",
+      "answers": [
+        {
+          "text": "Stop trying to earn love from people who were never going to give it",
+          "traits": {"anxious": 5, "avoidant": 3, "depressed": 4, "damaged": 4, "unstable": 3, "insecure": 4, "trust_issues": 3, "narcissistic": 1, "attention_seeking": 3, "paranoid": 2, "dark_humor": 2, "imposter": 3}
+        },
+        {
+          "text": "Build higher walls sooner and trust your instincts about people being awful",
+          "traits": {"anxious": 2, "avoidant": 4, "depressed": 3, "damaged": 4, "unstable": 2, "insecure": 2, "trust_issues": 5, "narcissistic": 2, "attention_seeking": 1, "paranoid": 5, "dark_humor": 3, "imposter": 2}
+        },
+        {
+          "text": "You're already perfect - everyone else just needs to catch up to your brilliance",
+          "traits": {"anxious": 1, "avoidant": 1, "depressed": 1, "damaged": 1, "unstable": 2, "insecure": 1, "trust_issues": 1, "narcissistic": 5, "attention_seeking": 4, "paranoid": 1, "dark_humor": 1, "imposter": 1}
+        },
+        {
+          "text": "None of this pain matters - learn to laugh at the cosmic joke of existence",
+          "traits": {"anxious": 2, "avoidant": 4, "depressed": 4, "damaged": 3, "unstable": 2, "insecure": 2, "trust_issues": 3, "narcissistic": 1, "attention_seeking": 1, "paranoid": 2, "dark_humor": 5, "imposter": 2}
+        },
+        {
+          "text": "Stop pretending to be someone else - you're exhausting yourself trying to be acceptable",
+          "traits": {"anxious": 3, "avoidant": 3, "depressed": 3, "damaged": 3, "unstable": 3, "insecure": 4, "trust_issues": 2, "narcissistic": 1, "attention_seeking": 2, "paranoid": 2, "dark_humor": 2, "imposter": 5}
+        }
+      ]
     }
   ],
   "results": {

@@ -1,604 +1,642 @@
 {
+  "testId": "gaslighter-score",
   "title": "Gaslighter Score Test",
   "description": "Do you make others question reality?",
+  "traits": {
+    "honest_communicator": "Communicates with genuine transparency and takes accountability",
+    "occasional_deflector": "Sometimes deflects but generally takes responsibility",
+    "subtle_manipulator": "Uses mild manipulation tactics to avoid accountability",
+    "reality_distorter": "Consistently twists situations to avoid responsibility",
+    "master_gaslighter": "Systematically dismantles others' sense of reality",
+    "victim_player": "Always becomes the victim when confronted",
+    "memory_thief": "Makes others doubt their own memories and experiences",
+    "confidence_destroyer": "Attacks others' credibility and emotional stability",
+    "truth_twister": "Reshapes facts to create alternative narratives",
+    "emotional_terrorist": "Uses emotional warfare to avoid accountability"
+  },
   "questions": [
     {
-      "q": "When your partner or friend confronts you about something hurtful you said, what's your most honest first instinct?",
-      "options": [
+      "question": "Your partner calls you out on something hurtful you said last night. What's your gut reaction?",
+      "answers": [
         {
-          "text": "Listen carefully and genuinely try to understand their perspective",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Listen and genuinely try to understand how I hurt them",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
           "text": "Feel defensive but try to work through it together",
-          "weights": { "honest_communicator": 3, "occasional_deflector": 2, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "traits": {"honest_communicator": 3, "occasional_deflector": 2, "subtle_manipulator": 1, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Explain why they misunderstood what I meant to say",
-          "weights": { "honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 0 }
+          "text": "Explain what I really meant to say",
+          "traits": {"honest_communicator": 1, "occasional_deflector": 4, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1}
         },
         {
-          "text": "Point out how they're being too sensitive or overreacting",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 4, "master_gaslighter": 3, "victim_player": 2, "memory_thief": 2, "confidence_destroyer": 4, "truth_twister": 3, "emotional_terrorist": 2 }
+          "text": "Point out they're being too sensitive",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 4, "reality_distorter": 3, "master_gaslighter": 2, "victim_player": 2, "memory_thief": 2, "confidence_destroyer": 4, "truth_twister": 3, "emotional_terrorist": 3}
         },
         {
-          "text": "Make them question if the conversation even happened the way they remember",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 5, "master_gaslighter": 5, "victim_player": 1, "memory_thief": 5, "confidence_destroyer": 3, "truth_twister": 4, "emotional_terrorist": 3 }
+          "text": "Question if that conversation even happened",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 5, "master_gaslighter": 5, "victim_player": 1, "memory_thief": 5, "confidence_destroyer": 3, "truth_twister": 4, "emotional_terrorist": 4}
         }
       ]
     },
     {
-      "q": "You arrive 30 minutes late to an important dinner with friends. When they express frustration, how do you respond?",
-      "options": [
+      "question": "You're 45 minutes late to dinner with friends. They seem annoyed. Your response?",
+      "answers": [
         {
-          "text": "Apologize sincerely and acknowledge that I disrespected their time",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Apologize sincerely for disrespecting their time",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Apologize but explain the legitimate reasons I was delayed",
-          "weights": { "honest_communicator": 3, "occasional_deflector": 2, "subtle_manipulator": 1, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 1, "emotional_terrorist": 0 }
+          "text": "Apologize and explain what delayed me",
+          "traits": {"honest_communicator": 3, "occasional_deflector": 2, "subtle_manipulator": 1, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 1, "emotional_terrorist": 0}
         },
         {
-          "text": "Remind them that I'm usually punctual and this was an exception",
-          "weights": { "honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1 }
+          "text": "Remind them I'm usually on time",
+          "traits": {"honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1}
         },
         {
-          "text": "Point out that they're making a big deal over nothing and being dramatic",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 1, "subtle_manipulator": 3, "reality_distorter": 4, "master_gaslighter": 3, "victim_player": 1, "memory_thief": 2, "confidence_destroyer": 4, "truth_twister": 3, "emotional_terrorist": 3 }
+          "text": "Tell them they're overreacting to 45 minutes",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 1, "subtle_manipulator": 3, "reality_distorter": 4, "master_gaslighter": 3, "victim_player": 1, "memory_thief": 2, "confidence_destroyer": 4, "truth_twister": 3, "emotional_terrorist": 3}
         },
         {
-          "text": "Suggest they're being controlling and question why they're so obsessed with time",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 3, "master_gaslighter": 5, "victim_player": 3, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 4, "emotional_terrorist": 4 }
+          "text": "Suggest they're being controlling about time",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 3, "master_gaslighter": 5, "victim_player": 3, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 4, "emotional_terrorist": 4}
         }
       ]
     },
     {
-      "q": "Your romantic partner says you promised to do something important, but you have no memory of making that promise. What's your response?",
-      "options": [
+      "question": "Your best friend swears you promised to help them move this weekend. You don't remember this at all. What do you say?",
+      "answers": [
         {
-          "text": "Acknowledge that I might have forgotten and ask for details to help me remember",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "I might have forgotten - let me check my calendar and help anyway",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Say I don't remember but offer to do it anyway since it's important to them",
-          "weights": { "honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "I don't remember but I'll help since it's important to you",
+          "traits": {"honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Insist I would remember making such a promise if I had actually made it",
-          "weights": { "honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 2, "master_gaslighter": 1, "victim_player": 1, "memory_thief": 2, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1 }
+          "text": "I would definitely remember making such a big promise",
+          "traits": {"honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 2, "master_gaslighter": 1, "victim_player": 1, "memory_thief": 2, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1}
         },
         {
-          "text": "Suggest they're misremembering or confusing me with someone else",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 4, "master_gaslighter": 3, "victim_player": 1, "memory_thief": 4, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 2 }
+          "text": "You're probably thinking of someone else",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 4, "master_gaslighter": 3, "victim_player": 1, "memory_thief": 4, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 2}
         },
         {
-          "text": "Tell them they're making things up and question their mental state",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 1, "reality_distorter": 3, "master_gaslighter": 5, "victim_player": 0, "memory_thief": 5, "confidence_destroyer": 4, "truth_twister": 2, "emotional_terrorist": 5 }
+          "text": "You're making that up - I never said that",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 1, "reality_distorter": 3, "master_gaslighter": 5, "victim_player": 0, "memory_thief": 5, "confidence_destroyer": 4, "truth_twister": 2, "emotional_terrorist": 5}
         }
       ]
     },
     {
-      "q": "During an argument, your friend brings up a specific hurtful thing you did last month. You remember it clearly but in a different way. How do you handle this?",
-      "options": [
+      "question": "During an argument, your roommate brings up that specific thing you did that really hurt them last month. You remember it differently. How do you handle this?",
+      "answers": [
         {
-          "text": "Share my perspective while acknowledging that we both experienced it differently",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Share my perspective while acknowledging we experienced it differently",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Explain my side of the story and why my intentions were good",
-          "weights": { "honest_communicator": 2, "occasional_deflector": 3, "subtle_manipulator": 1, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 1, "emotional_terrorist": 0 }
+          "text": "Explain my side and why my intentions were good",
+          "traits": {"honest_communicator": 2, "occasional_deflector": 3, "subtle_manipulator": 1, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 1, "emotional_terrorist": 0}
         },
         {
-          "text": "Correct their version of events with what really happened",
-          "weights": { "honest_communicator": 1, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 2, "master_gaslighter": 2, "victim_player": 1, "memory_thief": 2, "confidence_destroyer": 1, "truth_twister": 3, "emotional_terrorist": 1 }
+          "text": "Correct their version with what actually happened",
+          "traits": {"honest_communicator": 1, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 2, "master_gaslighter": 2, "victim_player": 1, "memory_thief": 2, "confidence_destroyer": 1, "truth_twister": 3, "emotional_terrorist": 1}
         },
         {
-          "text": "Insist their memory is wrong and they're twisting what happened",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 1, "subtle_manipulator": 2, "reality_distorter": 4, "master_gaslighter": 4, "victim_player": 1, "memory_thief": 4, "confidence_destroyer": 3, "truth_twister": 4, "emotional_terrorist": 2 }
+          "text": "Insist their memory is completely wrong",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 1, "subtle_manipulator": 2, "reality_distorter": 4, "master_gaslighter": 4, "victim_player": 1, "memory_thief": 4, "confidence_destroyer": 3, "truth_twister": 4, "emotional_terrorist": 2}
         },
         {
-          "text": "Tell them they're delusional and suggest they need professional help",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 2, "master_gaslighter": 5, "victim_player": 0, "memory_thief": 3, "confidence_destroyer": 5, "truth_twister": 1, "emotional_terrorist": 5 }
+          "text": "Tell them they're delusional about what happened",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 2, "master_gaslighter": 5, "victim_player": 0, "memory_thief": 3, "confidence_destroyer": 5, "truth_twister": 1, "emotional_terrorist": 5}
         }
       ]
     },
     {
-      "q": "Someone calls you out for interrupting them constantly during a conversation. Your genuine reaction is:",
-      "options": [
+      "question": "Someone calls you out for interrupting them constantly in group conversations. Your immediate reaction?",
+      "answers": [
         {
-          "text": "Apologize immediately and make a conscious effort to listen better",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Apologize and make a conscious effort to listen better",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Feel bad about it and explain that I get excited when talking with them",
-          "weights": { "honest_communicator": 3, "occasional_deflector": 2, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Feel embarrassed and explain I get excited talking with them",
+          "traits": {"honest_communicator": 3, "occasional_deflector": 2, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Point out that conversation is supposed to be a back-and-forth exchange",
-          "weights": { "honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1 }
+          "text": "Point out that conversation should flow naturally",
+          "traits": {"honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1}
         },
         {
-          "text": "Tell them they're being too sensitive and that's just how I communicate",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 2, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 2, "emotional_terrorist": 2 }
+          "text": "Tell them they're being too sensitive about normal conversation",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 2, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 2, "emotional_terrorist": 2}
         },
         {
-          "text": "Insist I wasn't interrupting and they're imagining things",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 1, "reality_distorter": 4, "master_gaslighter": 5, "victim_player": 0, "memory_thief": 4, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 3 }
+          "text": "Insist I wasn't interrupting at all",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 1, "reality_distorter": 4, "master_gaslighter": 5, "victim_player": 0, "memory_thief": 4, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 3}
         }
       ]
     },
     {
-      "q": "Your family member confronts you about a pattern of behavior they find concerning. What's your instinctive response?",
-      "options": [
+      "question": "Your family confronts you about a pattern of behavior that's been bothering everyone. What's your gut response?",
+      "answers": [
         {
-          "text": "Thank them for caring enough to bring it up and ask for specific examples",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Thank them for caring enough to bring it up",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Feel defensive but try to understand what they're seeing",
-          "weights": { "honest_communicator": 3, "occasional_deflector": 2, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Feel defensive but try to understand their perspective",
+          "traits": {"honest_communicator": 3, "occasional_deflector": 2, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Explain the context behind my behavior and why it's justified",
-          "weights": { "honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 0, "truth_twister": 2, "emotional_terrorist": 1 }
+          "text": "Explain the context behind my behavior",
+          "traits": {"honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 0, "truth_twister": 2, "emotional_terrorist": 1}
         },
         {
-          "text": "Point out their own flaws and question why they're targeting me",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 1, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 3, "victim_player": 4, "memory_thief": 1, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 3 }
+          "text": "Point out their flaws and question why they're targeting me",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 1, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 3, "victim_player": 4, "memory_thief": 1, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 3}
         },
         {
-          "text": "Accuse them of ganging up on me and trying to make me look bad",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 1, "reality_distorter": 2, "master_gaslighter": 4, "victim_player": 5, "memory_thief": 0, "confidence_destroyer": 3, "truth_twister": 2, "emotional_terrorist": 4 }
+          "text": "Accuse them of ganging up on me",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 1, "reality_distorter": 2, "master_gaslighter": 4, "victim_player": 5, "memory_thief": 0, "confidence_destroyer": 3, "truth_twister": 2, "emotional_terrorist": 4}
         }
       ]
     },
     {
-      "q": "You accidentally double-booked yourself and have to cancel plans with a close friend at the last minute. When they express disappointment, you:",
-      "options": [
+      "question": "You double-booked yourself and have to cancel dinner plans with a close friend last minute. When they express disappointment, you:",
+      "answers": [
         {
-          "text": "Take full responsibility for the mistake and offer to reschedule immediately",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Take full responsibility and offer to reschedule immediately",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
           "text": "Apologize genuinely while explaining how the mix-up happened",
-          "weights": { "honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "traits": {"honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Apologize but mention how stressful and busy my life has been lately",
-          "weights": { "honest_communicator": 2, "occasional_deflector": 3, "subtle_manipulator": 1, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 2, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 1, "emotional_terrorist": 0 }
+          "text": "Mention how stressful and busy life has been lately",
+          "traits": {"honest_communicator": 2, "occasional_deflector": 3, "subtle_manipulator": 1, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 2, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 1, "emotional_terrorist": 0}
         },
         {
-          "text": "Tell them they should understand that these things happen and not be so rigid",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 2, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 2, "emotional_terrorist": 2 }
+          "text": "Tell them they should understand these things happen",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 2, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 2, "emotional_terrorist": 2}
         },
         {
-          "text": "Suggest they're being needy and making me feel guilty for having a life",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 2, "master_gaslighter": 4, "victim_player": 3, "memory_thief": 0, "confidence_destroyer": 4, "truth_twister": 3, "emotional_terrorist": 5 }
+          "text": "Suggest they're being needy and making you feel guilty",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 2, "master_gaslighter": 4, "victim_player": 3, "memory_thief": 0, "confidence_destroyer": 4, "truth_twister": 3, "emotional_terrorist": 5}
         }
       ]
     },
     {
-      "q": "During a heated discussion, someone points out that you're raising your voice. Your immediate response is:",
-      "options": [
+      "question": "During a heated discussion, someone points out you're raising your voice. Your immediate response?",
+      "answers": [
         {
-          "text": "Lower my voice immediately and acknowledge that I got carried away",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Lower my voice and acknowledge I got carried away",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Realize they're right and explain that I was feeling passionate about the topic",
-          "weights": { "honest_communicator": 3, "occasional_deflector": 2, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Realize they're right and explain I was feeling passionate",
+          "traits": {"honest_communicator": 3, "occasional_deflector": 2, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Point out that they're also speaking loudly and it's just animated conversation",
-          "weights": { "honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1 }
+          "text": "Point out they're also speaking loudly",
+          "traits": {"honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1}
         },
         {
-          "text": "Tell them they're tone-policing me and trying to shut down the conversation",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 1, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 3, "victim_player": 3, "memory_thief": 1, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 3 }
+          "text": "Tell them they're tone-policing and shutting down conversation",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 1, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 3, "victim_player": 3, "memory_thief": 1, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 3}
         },
         {
-          "text": "Insist I'm not yelling and they're being hypersensitive to normal conversation",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 4, "master_gaslighter": 5, "victim_player": 1, "memory_thief": 3, "confidence_destroyer": 3, "truth_twister": 3, "emotional_terrorist": 2 }
+          "text": "Insist you're not yelling and they're being hypersensitive",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 4, "master_gaslighter": 5, "victim_player": 1, "memory_thief": 3, "confidence_destroyer": 3, "truth_twister": 3, "emotional_terrorist": 2}
         }
       ]
     },
     {
-      "q": "Your partner says they feel like they can't bring up concerns because you always turn it into an argument about their communication style. How do you respond?",
-      "options": [
+      "question": "Your partner says they feel like they can't bring up concerns because you always turn it around. How do you respond?",
+      "answers": [
         {
-          "text": "Acknowledge this pattern and ask how we can communicate better together",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Ask how we can communicate better together",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Feel bad and explain that I don't mean to make them feel that way",
-          "weights": { "honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Feel bad and explain I don't mean to make them feel that way",
+          "traits": {"honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Explain that I only critique their style when they attack me unfairly",
-          "weights": { "honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 2, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1 }
+          "text": "Explain I only critique their style when they attack me",
+          "traits": {"honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 2, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1}
         },
         {
-          "text": "Point out that maybe they should examine how they bring things up instead of blaming me",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 3, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 3, "emotional_terrorist": 2 }
+          "text": "Suggest they examine how they bring things up instead",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 3, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 3, "emotional_terrorist": 2}
         },
         {
-          "text": "Tell them they're being manipulative by trying to make me the bad guy",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 1, "reality_distorter": 2, "master_gaslighter": 5, "victim_player": 4, "memory_thief": 0, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 4 }
+          "text": "Tell them they're being manipulative by making you the bad guy",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 1, "reality_distorter": 2, "master_gaslighter": 5, "victim_player": 4, "memory_thief": 0, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 4}
         }
       ]
     },
     {
-      "q": "A friend tells you that your joke at the party last week really hurt their feelings. Your authentic first thought is:",
-      "options": [
+      "question": "A friend tells you that joke you made at the party last week really hurt their feelings. Your first thought?",
+      "answers": [
         {
-          "text": "I feel terrible that I hurt them and want to understand what was hurtful about it",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "I feel terrible and want to understand what was hurtful about it",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "I didn't mean it that way, but I'm sorry it came across as hurtful",
-          "weights": { "honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "I didn't mean it that way but I'm sorry it came across as hurtful",
+          "traits": {"honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "I was just joking and didn't think they would take it so seriously",
-          "weights": { "honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 1, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 1, "truth_twister": 1, "emotional_terrorist": 0 }
+          "text": "I was just joking and didn't think they'd take it seriously",
+          "traits": {"honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 1, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 1, "truth_twister": 1, "emotional_terrorist": 0}
         },
         {
-          "text": "They're being oversensitive - everyone else thought it was funny",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 2, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 4, "truth_twister": 2, "emotional_terrorist": 2 }
+          "text": "They're being oversensitive - everyone else laughed",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 2, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 4, "truth_twister": 2, "emotional_terrorist": 2}
         },
         {
-          "text": "They must have misheard or misunderstood what I said",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 1, "subtle_manipulator": 2, "reality_distorter": 4, "master_gaslighter": 3, "victim_player": 0, "memory_thief": 4, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 1 }
+          "text": "They must have misheard what I actually said",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 1, "subtle_manipulator": 2, "reality_distorter": 4, "master_gaslighter": 3, "victim_player": 0, "memory_thief": 4, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 1}
         }
       ]
     },
     {
-      "q": "When someone disagrees with your opinion in a group setting, what's your natural tendency?",
-      "options": [
+      "question": "When someone disagrees with your opinion in a group, what's your natural tendency?",
+      "answers": [
         {
-          "text": "Listen to their perspective and engage in respectful dialogue",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Listen to their perspective and engage respectfully",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Present my reasoning while acknowledging their valid points",
-          "weights": { "honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Present my reasoning while acknowledging their points",
+          "traits": {"honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Firmly explain why my position is correct and theirs is flawed",
-          "weights": { "honest_communicator": 1, "occasional_deflector": 2, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1 }
+          "text": "Firmly explain why my position is correct",
+          "traits": {"honest_communicator": 1, "occasional_deflector": 2, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1}
         },
         {
-          "text": "Question their knowledge or qualifications to have that opinion",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 1, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 3, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 4, "truth_twister": 2, "emotional_terrorist": 2 }
+          "text": "Question their knowledge to have that opinion",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 1, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 3, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 4, "truth_twister": 2, "emotional_terrorist": 2}
         },
         {
-          "text": "Make them feel stupid for even suggesting such an obviously wrong idea",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 2, "master_gaslighter": 4, "victim_player": 0, "memory_thief": 1, "confidence_destroyer": 5, "truth_twister": 1, "emotional_terrorist": 4 }
+          "text": "Make them feel stupid for suggesting something so wrong",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 2, "master_gaslighter": 4, "victim_player": 0, "memory_thief": 1, "confidence_destroyer": 5, "truth_twister": 1, "emotional_terrorist": 4}
         }
       ]
     },
     {
-      "q": "Your colleague says you took credit for their idea in the meeting. You genuinely don't remember it that way. What do you do?",
-      "options": [
+      "question": "Your coworker says you took credit for their idea in the meeting. You don't remember it that way. What do you do?",
+      "answers": [
         {
-          "text": "Apologize and publicly clarify that the idea was theirs in the next meeting",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Publicly clarify that the idea was theirs in the next meeting",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Acknowledge the confusion and suggest we both contributed to developing it",
-          "weights": { "honest_communicator": 3, "occasional_deflector": 2, "subtle_manipulator": 1, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 1, "confidence_destroyer": 0, "truth_twister": 1, "emotional_terrorist": 0 }
+          "text": "Suggest we both contributed to developing it",
+          "traits": {"honest_communicator": 3, "occasional_deflector": 2, "subtle_manipulator": 1, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 1, "confidence_destroyer": 0, "truth_twister": 1, "emotional_terrorist": 0}
         },
         {
-          "text": "Explain that I was building on their foundation but added significant value",
-          "weights": { "honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 1, "memory_thief": 2, "confidence_destroyer": 1, "truth_twister": 3, "emotional_terrorist": 1 }
+          "text": "Explain that I built on their foundation but added significant value",
+          "traits": {"honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 1, "memory_thief": 2, "confidence_destroyer": 1, "truth_twister": 3, "emotional_terrorist": 1}
         },
         {
-          "text": "Insist that they're misremembering how the idea actually developed",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 4, "master_gaslighter": 3, "victim_player": 1, "memory_thief": 4, "confidence_destroyer": 2, "truth_twister": 4, "emotional_terrorist": 2 }
+          "text": "Insist they're misremembering how the idea developed",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 4, "master_gaslighter": 3, "victim_player": 1, "memory_thief": 4, "confidence_destroyer": 2, "truth_twister": 4, "emotional_terrorist": 2}
         },
         {
-          "text": "Suggest they're being paranoid and territorial about normal collaboration",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 3, "master_gaslighter": 5, "victim_player": 2, "memory_thief": 2, "confidence_destroyer": 3, "truth_twister": 3, "emotional_terrorist": 3 }
+          "text": "Suggest they're being paranoid about normal collaboration",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 3, "master_gaslighter": 5, "victim_player": 2, "memory_thief": 2, "confidence_destroyer": 3, "truth_twister": 3, "emotional_terrorist": 3}
         }
       ]
     },
     {
-      "q": "Someone tells you that you have a habit of dismissing their feelings. Your immediate internal response is:",
-      "options": [
+      "question": "Someone tells you that you have a habit of dismissing their feelings. Your immediate internal response?",
+      "answers": [
         {
           "text": "I need to examine my behavior and see if this is true",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "I don't mean to dismiss them, but maybe I don't always respond the right way",
-          "weights": { "honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "I don't mean to dismiss them, maybe I respond wrong sometimes",
+          "traits": {"honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "I try to be logical and practical, which they might see as dismissive",
-          "weights": { "honest_communicator": 2, "occasional_deflector": 3, "subtle_manipulator": 1, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 0 }
+          "text": "I'm logical and practical, which they might see as dismissive",
+          "traits": {"honest_communicator": 2, "occasional_deflector": 3, "subtle_manipulator": 1, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 0}
         },
         {
-          "text": "They're being too emotional and taking my directness the wrong way",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 2, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 4, "truth_twister": 2, "emotional_terrorist": 2 }
+          "text": "They're being too emotional and taking my directness wrong",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 2, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 4, "truth_twister": 2, "emotional_terrorist": 2}
         },
         {
-          "text": "They're making up problems that don't exist and trying to manipulate me",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 1, "reality_distorter": 2, "master_gaslighter": 5, "victim_player": 3, "memory_thief": 2, "confidence_destroyer": 3, "truth_twister": 3, "emotional_terrorist": 4 }
+          "text": "They're making up problems to manipulate me",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 1, "reality_distorter": 2, "master_gaslighter": 5, "victim_player": 3, "memory_thief": 2, "confidence_destroyer": 3, "truth_twister": 3, "emotional_terrorist": 4}
         }
       ]
     },
     {
-      "q": "Your friend calls you out for always changing the subject when they try to discuss something serious. How do you genuinely feel about this accusation?",
-      "options": [
+      "question": "Your friend calls you out for always changing the subject when things get serious. How do you feel about this?",
+      "answers": [
         {
-          "text": "They're right - I do avoid difficult conversations and should work on that",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "They're right - I avoid difficult conversations and should work on that",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "I don't always do it, but maybe I do it more than I realize",
-          "weights": { "honest_communicator": 3, "occasional_deflector": 2, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Maybe I do it more than I realize",
+          "traits": {"honest_communicator": 3, "occasional_deflector": 2, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "I only change subjects when the conversation becomes unproductive or repetitive",
-          "weights": { "honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1 }
+          "text": "I only change subjects when conversations become unproductive",
+          "traits": {"honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1}
         },
         {
           "text": "They're exaggerating - I engage with serious topics all the time",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 3, "victim_player": 2, "memory_thief": 2, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 2 }
+          "traits": {"honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 3, "victim_player": 2, "memory_thief": 2, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 2}
         },
         {
-          "text": "They're being controlling and trying to force conversations I don't want to have",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 2, "master_gaslighter": 4, "victim_player": 4, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 2, "emotional_terrorist": 4 }
+          "text": "They're being controlling and forcing conversations I don't want",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 2, "master_gaslighter": 4, "victim_player": 4, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 2, "emotional_terrorist": 4}
         }
       ]
     },
     {
-      "q": "During a relationship discussion, your partner says they feel like you never take responsibility for problems. Your honest reaction is:",
-      "options": [
+      "question": "Your partner says they feel like you never take responsibility for relationship problems. Your honest reaction?",
+      "answers": [
         {
           "text": "Ask for specific examples so I can understand and improve",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Feel defensive but acknowledge that I might struggle with this",
-          "weights": { "honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Feel defensive but acknowledge I might struggle with this",
+          "traits": {"honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
           "text": "Point out specific times when I have taken responsibility",
-          "weights": { "honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1 }
+          "traits": {"honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1}
         },
         {
-          "text": "Explain that they also avoid responsibility and are being hypocritical",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 3, "victim_player": 3, "memory_thief": 1, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 3 }
+          "text": "Explain that they avoid responsibility too and are being hypocritical",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 3, "victim_player": 3, "memory_thief": 1, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 3}
         },
         {
           "text": "Tell them they're rewriting history and being unfair",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 4, "master_gaslighter": 5, "victim_player": 2, "memory_thief": 3, "confidence_destroyer": 3, "truth_twister": 4, "emotional_terrorist": 3 }
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 4, "master_gaslighter": 5, "victim_player": 2, "memory_thief": 3, "confidence_destroyer": 3, "truth_twister": 4, "emotional_terrorist": 3}
         }
       ]
     },
     {
-      "q": "Someone points out that you often say 'I'm sorry you feel that way' instead of actually apologizing. Your genuine response is:",
-      "options": [
+      "question": "Someone points out you say 'I'm sorry you feel that way' instead of actually apologizing. Your response?",
+      "answers": [
         {
-          "text": "They're absolutely right - that's not a real apology and I need to do better",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "They're right - that's not a real apology and I need to do better",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
           "text": "I can see how that sounds dismissive - let me apologize properly",
-          "weights": { "honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "traits": {"honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "I say that when I don't think I did anything wrong but want to acknowledge their feelings",
-          "weights": { "honest_communicator": 2, "occasional_deflector": 3, "subtle_manipulator": 1, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 0 }
+          "text": "I say that when I don't think I did anything wrong",
+          "traits": {"honest_communicator": 2, "occasional_deflector": 3, "subtle_manipulator": 1, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 0}
         },
         {
-          "text": "That's still an apology - they're being picky about semantics",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 2, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 3, "emotional_terrorist": 2 }
+          "text": "That's still an apology - they're being picky about words",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 2, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 3, "emotional_terrorist": 2}
         },
         {
-          "text": "They're trying to control how I apologize and it's manipulative",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 1, "reality_distorter": 2, "master_gaslighter": 5, "victim_player": 4, "memory_thief": 0, "confidence_destroyer": 2, "truth_twister": 2, "emotional_terrorist": 4 }
+          "text": "They're trying to control how I apologize",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 1, "reality_distorter": 2, "master_gaslighter": 5, "victim_player": 4, "memory_thief": 0, "confidence_destroyer": 2, "truth_twister": 2, "emotional_terrorist": 4}
         }
       ]
     },
     {
-      "q": "Your sibling tells you that family gatherings are stressful because you always create drama. What's your immediate internal response?",
-      "options": [
+      "question": "Your sibling says family gatherings are stressful because you always create drama. Your immediate thought?",
+      "answers": [
         {
-          "text": "I should reflect on my behavior and see if this is a pattern I need to address",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "I should reflect on my behavior and see if this is a pattern",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "I don't mean to create drama - maybe I should ask others if they feel this way too",
-          "weights": { "honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "I don't mean to create drama - maybe I should ask others too",
+          "traits": {"honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "I only speak up when there are real issues that others ignore",
-          "weights": { "honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1 }
+          "text": "I only speak up when there are real issues others ignore",
+          "traits": {"honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1}
         },
         {
-          "text": "They're scapegoating me because the family has deeper problems they won't face",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 1, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 3, "victim_player": 4, "memory_thief": 1, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 3 }
+          "text": "They're scapegoating me for the family's deeper problems",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 1, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 3, "victim_player": 4, "memory_thief": 1, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 3}
         },
         {
-          "text": "They're trying to silence me because I call out their toxic behavior",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 2, "master_gaslighter": 5, "victim_player": 5, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 3, "emotional_terrorist": 4 }
+          "text": "They're trying to silence me because I call out toxic behavior",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 2, "master_gaslighter": 5, "victim_player": 5, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 3, "emotional_terrorist": 4}
         }
       ]
     },
     {
-      "q": "When you're wrong about a factual matter and someone corrects you, what's your most honest response?",
-      "options": [
+      "question": "When you're wrong about facts and someone corrects you, what's your honest response?",
+      "answers": [
         {
           "text": "Thank them for the correction and acknowledge my mistake",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Feel a bit embarrassed but accept that I was mistaken",
-          "weights": { "honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Feel embarrassed but accept that I was mistaken",
+          "traits": {"honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Explain where I got my information from, even though I was wrong",
-          "weights": { "honest_communicator": 2, "occasional_deflector": 3, "subtle_manipulator": 1, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 1, "emotional_terrorist": 0 }
+          "text": "Explain where I got my information from",
+          "traits": {"honest_communicator": 2, "occasional_deflector": 3, "subtle_manipulator": 1, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 1, "emotional_terrorist": 0}
         },
         {
-          "text": "Question their source or suggest the information might be outdated",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 2, "victim_player": 1, "memory_thief": 2, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 1 }
+          "text": "Question their source or suggest the info might be outdated",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 2, "victim_player": 1, "memory_thief": 2, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 1}
         },
         {
-          "text": "Insist that both versions could be true or that it depends on perspective",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 1, "subtle_manipulator": 2, "reality_distorter": 4, "master_gaslighter": 4, "victim_player": 1, "memory_thief": 3, "confidence_destroyer": 2, "truth_twister": 5, "emotional_terrorist": 2 }
+          "text": "Insist both versions could be true depending on perspective",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 1, "subtle_manipulator": 2, "reality_distorter": 4, "master_gaslighter": 4, "victim_player": 1, "memory_thief": 3, "confidence_destroyer": 2, "truth_twister": 5, "emotional_terrorist": 2}
         }
       ]
     },
     {
-      "q": "Someone close to you says they feel like they have to walk on eggshells around you. Your gut reaction is:",
-      "options": [
+      "question": "Someone close says they feel like they have to walk on eggshells around you. Your gut reaction?",
+      "answers": [
         {
           "text": "I'm concerned about what I'm doing to make them feel that way",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "I don't want them to feel that way - we should talk about what's happening",
-          "weights": { "honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "I don't want them to feel that way - we should talk",
+          "traits": {"honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Maybe they're being overly cautious because they know I value honesty",
-          "weights": { "honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1 }
+          "text": "Maybe they're being overly cautious because I value honesty",
+          "traits": {"honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1}
         },
         {
           "text": "They're being dramatic and creating problems where none exist",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 3, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 4, "truth_twister": 2, "emotional_terrorist": 3 }
+          "traits": {"honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 3, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 4, "truth_twister": 2, "emotional_terrorist": 3}
         },
         {
           "text": "They're trying to make me feel bad and control my behavior",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 1, "reality_distorter": 2, "master_gaslighter": 5, "victim_player": 4, "memory_thief": 0, "confidence_destroyer": 3, "truth_twister": 1, "emotional_terrorist": 5 }
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 1, "reality_distorter": 2, "master_gaslighter": 5, "victim_player": 4, "memory_thief": 0, "confidence_destroyer": 3, "truth_twister": 1, "emotional_terrorist": 5}
         }
       ]
     },
     {
-      "q": "Your friend says you have a pattern of minimizing their problems when they come to you for support. What's your authentic reaction?",
-      "options": [
+      "question": "Your friend says you minimize their problems when they come for support. Your authentic reaction?",
+      "answers": [
         {
-          "text": "I want to understand how I've been minimizing them so I can be more supportive",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "I want to understand how I've been minimizing them",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
           "text": "I thought I was being helpful by putting things in perspective",
-          "weights": { "honest_communicator": 3, "occasional_deflector": 2, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 1, "emotional_terrorist": 0 }
+          "traits": {"honest_communicator": 3, "occasional_deflector": 2, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 1, "emotional_terrorist": 0}
         },
         {
-          "text": "I try to be practical and solution-focused rather than dwelling on problems",
-          "weights": { "honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1 }
+          "text": "I try to be solution-focused rather than dwelling on problems",
+          "traits": {"honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1}
         },
         {
-          "text": "They're interpreting my practical advice as minimizing when I'm just being realistic",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 2, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 3, "emotional_terrorist": 2 }
+          "text": "They're interpreting practical advice as minimizing",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 2, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 3, "emotional_terrorist": 2}
         },
         {
-          "text": "They want me to enable their victim mentality instead of helping them grow",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 2, "master_gaslighter": 4, "victim_player": 3, "memory_thief": 1, "confidence_destroyer": 4, "truth_twister": 2, "emotional_terrorist": 4 }
+          "text": "They want me to enable their victim mentality",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 2, "master_gaslighter": 4, "victim_player": 3, "memory_thief": 1, "confidence_destroyer": 4, "truth_twister": 2, "emotional_terrorist": 4}
         }
       ]
     },
     {
-      "q": "Someone tells you that you have a habit of making everything about yourself in conversations. Your immediate response is:",
-      "options": [
+      "question": "Someone tells you that you make everything about yourself in conversations. Your immediate response?",
+      "answers": [
         {
           "text": "I need to pay attention to this because it's probably true",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "I don't mean to do that - I thought I was relating to their experiences",
-          "weights": { "honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "I don't mean to - I thought I was relating to their experiences",
+          "traits": {"honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "I share my experiences to show I understand what they're going through",
-          "weights": { "honest_communicator": 2, "occasional_deflector": 3, "subtle_manipulator": 1, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 1, "emotional_terrorist": 0 }
+          "text": "I share experiences to show I understand what they're going through",
+          "traits": {"honest_communicator": 2, "occasional_deflector": 3, "subtle_manipulator": 1, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 1, "emotional_terrorist": 0}
         },
         {
           "text": "They're being unfair - good conversation involves sharing from both people",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 2, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 2 }
+          "traits": {"honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 2, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 2}
         },
         {
-          "text": "They're being selfish and want all the attention for themselves",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 2, "master_gaslighter": 5, "victim_player": 3, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 2, "emotional_terrorist": 4 }
+          "text": "They're being selfish and want all the attention",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 2, "master_gaslighter": 5, "victim_player": 3, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 2, "emotional_terrorist": 4}
         }
       ]
     },
     {
-      "q": "When multiple people have told you the same criticism about your behavior, what's your honest thought process?",
-      "options": [
+      "question": "Multiple people have told you the same criticism about your behavior. What's your thought process?",
+      "answers": [
         {
-          "text": "If multiple people see the same issue, I definitely need to examine and change my behavior",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "If multiple people see it, I definitely need to change",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
           "text": "It's concerning that people see me this way - I should work on it",
-          "weights": { "honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "traits": {"honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Maybe I'm being misunderstood by several people who don't know my intentions",
-          "weights": { "honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1 }
+          "text": "Maybe I'm being misunderstood by people who don't know my intentions",
+          "traits": {"honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 1}
         },
         {
-          "text": "People influence each other and it becomes groupthink rather than independent observation",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 3, "victim_player": 2, "memory_thief": 2, "confidence_destroyer": 2, "truth_twister": 4, "emotional_terrorist": 2 }
+          "text": "People influence each other - it's groupthink, not independent observation",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 3, "victim_player": 2, "memory_thief": 2, "confidence_destroyer": 2, "truth_twister": 4, "emotional_terrorist": 2}
         },
         {
-          "text": "They're ganging up on me because they're jealous or threatened by me",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 1, "reality_distorter": 2, "master_gaslighter": 5, "victim_player": 5, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 2, "emotional_terrorist": 4 }
+          "text": "They're ganging up because they're jealous or threatened",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 1, "reality_distorter": 2, "master_gaslighter": 5, "victim_player": 5, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 2, "emotional_terrorist": 4}
         }
       ]
     },
     {
-      "q": "Your partner says they can't trust you anymore because you keep changing your story about things. What's your genuine internal response?",
-      "options": [
+      "question": "At a party, you accidentally spill wine on someone's expensive dress. When they get upset, what's your first instinct?",
+      "answers": [
         {
-          "text": "I need to look honestly at whether I've been inconsistent or misleading",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Immediately apologize and offer to pay for cleaning or replacement",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "I should be more careful about being clear and consistent in what I say",
-          "weights": { "honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Apologize sincerely and ask what I can do to make it right",
+          "traits": {"honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "I add details as I remember them, but that doesn't mean I'm changing my story",
-          "weights": { "honest_communicator": 2, "occasional_deflector": 3, "subtle_manipulator": 1, "reality_distorter": 1, "master_gaslighter": 1, "victim_player": 1, "memory_thief": 2, "confidence_destroyer": 0, "truth_twister": 2, "emotional_terrorist": 1 }
+          "text": "Point out that it was clearly an accident",
+          "traits": {"honest_communicator": 2, "occasional_deflector": 3, "subtle_manipulator": 1, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 1, "emotional_terrorist": 0}
         },
         {
-          "text": "They're keeping track of every word I say and looking for inconsistencies to attack me",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 1, "subtle_manipulator": 2, "reality_distorter": 3, "master_gaslighter": 4, "victim_player": 4, "memory_thief": 1, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 3 }
+          "text": "Suggest they're overreacting to something that can be fixed",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 2, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 2, "emotional_terrorist": 2}
         },
         {
-          "text": "They're the ones with trust issues and are projecting their problems onto me",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 1, "reality_distorter": 2, "master_gaslighter": 5, "victim_player": 3, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 2, "emotional_terrorist": 4 }
+          "text": "Question why they wore something so expensive to a party with drinks",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 2, "master_gaslighter": 4, "victim_player": 3, "memory_thief": 0, "confidence_destroyer": 4, "truth_twister": 3, "emotional_terrorist": 3}
         }
       ]
     },
     {
-      "q": "How do you typically respond when someone says 'You always...' or 'You never...' about your behavior?",
-      "options": [
+      "question": "Your neighbor confronts you about your music being too loud last night. Your gut reaction?",
+      "answers": [
         {
-          "text": "Ask for specific examples and reflect on whether there's truth to the pattern they're seeing",
-          "weights": { "honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Apologize immediately and promise to keep it down in the future",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Feel defensive but try to understand what pattern they're identifying",
-          "weights": { "honest_communicator": 3, "occasional_deflector": 2, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0 }
+          "text": "Feel bad about it and ask what time it was bothering them",
+          "traits": {"honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
         },
         {
-          "text": "Point out that 'always' and 'never' are exaggerations and unfair generalizations",
-          "weights": { "honest_communicator": 1, "occasional_deflector": 3, "subtle_manipulator": 2, "reality_distorter": 2, "master_gaslighter": 2, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 1, "truth_twister": 3, "emotional_terrorist": 1 }
+          "text": "Explain that it was a special occasion and I didn't realize",
+          "traits": {"honest_communicator": 2, "occasional_deflector": 3, "subtle_manipulator": 1, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 1, "emotional_terrorist": 0}
         },
         {
-          "text": "Challenge them to prove their absolute statement and show them times they're wrong",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 3, "victim_player": 2, "memory_thief": 2, "confidence_destroyer": 2, "truth_twister": 4, "emotional_terrorist": 2 }
+          "text": "Point out that it wasn't that late and other neighbors do it too",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 2, "master_gaslighter": 2, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 1}
         },
         {
-          "text": "Tell them they're being manipulative by using absolute language to attack me",
-          "weights": { "honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 2, "master_gaslighter": 5, "victim_player": 4, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 3, "emotional_terrorist": 4 }
+          "text": "Question if they're sure it was coming from my apartment",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 1, "subtle_manipulator": 2, "reality_distorter": 4, "master_gaslighter": 3, "victim_player": 0, "memory_thief": 4, "confidence_destroyer": 1, "truth_twister": 2, "emotional_terrorist": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your date says you seemed distracted and uninterested during dinner. What's your honest response?",
+      "answers": [
+        {
+          "text": "Apologize and ask if we can talk about what made them feel that way",
+          "traits": {"honest_communicator": 5, "occasional_deflector": 0, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
+        },
+        {
+          "text": "Admit I was preoccupied and explain what was on my mind",
+          "traits": {"honest_communicator": 4, "occasional_deflector": 1, "subtle_manipulator": 0, "reality_distorter": 0, "master_gaslighter": 0, "victim_player": 0, "memory_thief": 0, "confidence_destroyer": 0, "truth_twister": 0, "emotional_terrorist": 0}
+        },
+        {
+          "text": "Explain that I was listening, just not very talkative tonight",
+          "traits": {"honest_communicator": 2, "occasional_deflector": 3, "subtle_manipulator": 1, "reality_distorter": 1, "master_gaslighter": 0, "victim_player": 1, "memory_thief": 1, "confidence_destroyer": 0, "truth_twister": 2, "emotional_terrorist": 0}
+        },
+        {
+          "text": "Point out that I asked questions and was engaged",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 2, "subtle_manipulator": 3, "reality_distorter": 3, "master_gaslighter": 2, "victim_player": 1, "memory_thief": 2, "confidence_destroyer": 2, "truth_twister": 3, "emotional_terrorist": 1}
+        },
+        {
+          "text": "Suggest they're reading too much into normal conversation style",
+          "traits": {"honest_communicator": 0, "occasional_deflector": 0, "subtle_manipulator": 2, "reality_distorter": 3, "master_gaslighter": 4, "victim_player": 2, "memory_thief": 1, "confidence_destroyer": 3, "truth_twister": 2, "emotional_terrorist": 3}
         }
       ]
     }
@@ -606,54 +644,53 @@
   "results": {
     "honest_communicator": {
       "title": "The Honest Communicator",
-      "description": "You demonstrate healthy, direct communication patterns with genuine accountability when things go wrong. You listen to feedback without immediately becoming defensive, take responsibility for your mistakes, and work to make things right when you've hurt someone. You tend to validate others' experiences even when they differ from your own, and you're genuinely interested in understanding different perspectives. This communication style builds trust and deepens relationships over time."
+      "description": "You demonstrate healthy, direct communication with genuine accountability when things go wrong. You listen to feedback, take responsibility for mistakes, and work to make things right. Your communication style builds trust and deepens relationships over time.",
+      "extended": "Your communication pattern represents genuine emotional maturity and psychological health in a world where authentic accountability is increasingly rare. Your ability to listen to criticism without immediately becoming defensive stems from secure self-worth that doesn't require constant protection through manipulation or deflection.\n\nThis pattern likely developed from secure early relationships where mistakes were met with guidance rather than shame, teaching you that accountability strengthens rather than threatens relationships. Your willingness to validate others' experiences even when they conflict with your own demonstrates advanced empathy and the understanding that multiple realities can coexist.\n\nYour approach creates psychological safety for others, allowing them to be honest with you without fear of retaliation or having their reality questioned. This builds the deep trust necessary for intimate relationships and meaningful connections. People likely describe you as someone they can talk to about difficult things.\n\nThe challenge for honest communicators in relationships with manipulative people is maintaining your authenticity while protecting yourself from those who would exploit your openness. Your strength lies in continuing to model healthy communication while setting firm boundaries with those who can't reciprocate your level of emotional honesty."
     },
     "occasional_deflector": {
-      "title": "The Occasional Deflector", 
-      "description": "You sometimes deflect responsibility or minimize situations to protect your ego, but it's not your default communication style. You might occasionally explain away your mistakes or suggest others are being 'too sensitive,' but you're still capable of genuine apologies and self-reflection when pressed. You're in the normal range of human defensiveness - most people struggle with accountability sometimes. The key is recognizing these moments and choosing vulnerability over self-protection."
+      "title": "The Occasional Deflector",
+      "description": "You sometimes deflect responsibility to protect your ego, but it's not your default style. You might occasionally suggest others are 'too sensitive,' but you're still capable of genuine apologies and self-reflection when pressed. You're in the normal range of human defensiveness.",
+      "extended": "Your pattern of occasional deflection represents normal human defensiveness that most people experience when their ego feels threatened. The key difference between you and more problematic communicators is your eventual ability to move past defensiveness into genuine accountability when given time to process feedback.\n\nThis pattern suggests you have generally healthy self-esteem that can ultimately handle criticism, but you may struggle with the immediate vulnerability that comes with being wrong or hurtful. Your deflection serves as a temporary shield while you work through the emotional impact of negative feedback.\n\nYour growth opportunity lies in shortening the time between defensive reaction and genuine accountability. With practice, you can learn to breathe through the initial sting of criticism and move more quickly into curiosity about others' experiences. This will deepen your relationships and reduce the frustration others may feel during that deflection period.\n\nThe positive aspect of your pattern is that people can usually count on you to eventually come around and take responsibility, even if it takes some time. This reliability in eventual accountability maintains trust even when your initial response is defensive."
     },
     "subtle_manipulator": {
       "title": "The Subtle Manipulator",
-      "description": "You have developed a pattern of manipulating conversations to avoid accountability while maintaining plausible deniability. You're skilled at redirecting blame, explaining away your behavior, and making others question whether their concerns are valid. You often use phrases like 'you're being too sensitive' or 'that's not what I meant' to escape responsibility. People may feel frustrated after confronting you, sensing that nothing was really resolved."
+      "description": "You have developed a pattern of manipulating conversations to avoid accountability while maintaining plausible deniability. You're skilled at redirecting blame and making others question whether their concerns are valid. People may feel frustrated after confronting you.",
+      "extended": "Your communication pattern reveals a sophisticated defense system that prioritizes self-protection over relationship health and truth. You've developed skills in redirecting accountability that often leave others feeling frustrated and unheard, even when they can't quite identify what went wrong in the conversation.\n\nThis pattern likely developed as a survival mechanism in environments where taking responsibility felt dangerous or led to disproportionate consequences. However, what may have been protective in one context now damages your current relationships by preventing genuine intimacy and resolution of conflicts.\n\nYour manipulation is 'subtle' because you maintain plausible deniability - you're not obviously lying or being cruel, but you're consistently finding ways to avoid taking full responsibility for your impact on others. This creates a pattern where problems never get truly resolved, just temporarily deflected.\n\nRecovery requires recognizing that vulnerability and accountability actually strengthen rather than threaten secure relationships. The energy you spend on self-protection could be redirected toward genuine problem-solving and deeper connection with others."
     },
     "reality_distorter": {
-      "title": "The Reality Distorter",
-      "description": "You consistently twist situations and deny others' experiences to avoid taking responsibility for your actions. You have a concerning pattern of making people question their own memories and perceptions when they confront you with uncomfortable truths. You often rewrite history to cast yourself in a better light and may genuinely believe your revised versions of events. This behavior is damaging to relationships and others' mental health."
+      "title": "The Reality Distorter", 
+      "description": "You consistently twist situations and deny others' experiences to avoid taking responsibility. You have a concerning pattern of making people question their own memories and perceptions when confronted with uncomfortable truths.",
+      "extended": "Your pattern of distorting reality to avoid accountability represents a serious departure from healthy communication that causes significant psychological harm to others. You've developed the ability to rewrite events, minimize your role in problems, and make others question their own perceptions and memories.\n\nThis level of reality distortion typically stems from deep shame or fear around being seen as flawed or wrong. Rather than facing these uncomfortable emotions, you've learned to reshape external reality to match your internal need to be blameless. This creates a psychological prison where genuine self-awareness becomes impossible.\n\nThe people in your life likely experience chronic confusion, self-doubt, and frustration after interactions with you. They may find themselves constantly questioning their own judgment and memories, which erodes their psychological wellbeing over time. Your pattern creates trauma in others by systematically undermining their trust in their own perceptions.\n\nChange requires confronting the underlying terror of being seen as imperfect and learning that relationships can actually handle and grow stronger through authentic accountability. This typically requires professional help to address the core wounds that drive such defensive distortion of reality."
     },
     "master_gaslighter": {
       "title": "The Master Gaslighter",
-      "description": "You are a textbook gaslighter who systematically dismantles others' sense of reality to maintain control and avoid accountability. You never take genuine responsibility, always have a counter-narrative, and consistently make people feel crazy for trusting their own experiences. You've mastered the art of turning every confrontation back on the other person, positioning yourself as the victim while they become the aggressor. Your relationships are built on power dynamics rather than mutual respect."
+      "description": "You are a textbook gaslighter who systematically dismantles others' sense of reality to maintain control and avoid accountability. You never take genuine responsibility and consistently make people feel crazy for trusting their own experiences.",
+      "extended": "Your communication pattern represents one of the most psychologically destructive forms of interpersonal manipulation. You systematically dismantle others' sense of reality, creating an alternate version of events where you are always justified and they are always wrong, confused, or overreacting.\n\nThis pattern goes beyond simple defensiveness into deliberate psychological warfare designed to maintain control over others through confusion and self-doubt. You've mastered the art of making people question their sanity while positioning yourself as the reasonable, victimized party in every conflict.\n\nThe devastation you create in others' lives is profound - people in relationships with master gaslighters often develop anxiety, depression, and a complete erosion of self-trust. They become dependent on your version of reality because you've systematically destroyed their confidence in their own perceptions and judgment.\n\nThis level of manipulation typically represents severe personality pathology that rarely changes without intensive therapeutic intervention. The problem is that master gaslighters rarely seek help voluntarily because they genuinely believe their distorted version of reality. Recovery would require acknowledging the massive harm caused to others and facing the unbearable shame that drives such destructive behavior."
     },
     "victim_player": {
       "title": "The Victim Player",
-      "description": "You have perfected the art of flipping every confrontation so that you become the victim instead of taking accountability. When someone brings up your hurtful behavior, you redirect the conversation to how you're being attacked, misunderstood, or unfairly treated. You use emotional manipulation to make others feel guilty for even bringing up their concerns. This pattern prevents genuine resolution and keeps others walking on eggshells around you."
+      "description": "You have perfected the art of flipping every confrontation so that you become the victim instead of taking accountability. When someone brings up your hurtful behavior, you redirect to how you're being attacked or misunderstood.",
+      "extended": "Your mastery of victim reversal represents a sophisticated form of emotional manipulation that prevents any genuine accountability while making others feel guilty for even raising concerns about your behavior. You've learned to weaponize vulnerability and emotional distress to control conversations and outcomes.\n\nThis pattern likely developed in environments where playing the victim was the only way to avoid consequences or gain protection. However, it now serves as a complete barrier to genuine relationship growth because every attempt at honest communication gets derailed into comforting and reassuring you instead of addressing the original issue.\n\nPeople in your life probably feel exhausted and confused after trying to address problems with you. They intended to discuss your hurtful behavior but somehow ended up apologizing to you and questioning whether they were wrong to bring it up in the first place. This reversal prevents any real resolution or change.\n\nThe tragedy of chronic victim playing is that it prevents you from receiving genuine care and support when you actually need it. People become skeptical of your emotional displays because they've learned that distress is often a manipulation tactic rather than authentic vulnerability. Recovery requires learning to tolerate accountability without emotional collapse and developing authentic rather than strategic vulnerability."
     },
     "memory_thief": {
       "title": "The Memory Thief",
-      "description": "You specialize in making others doubt their own memories and experiences. When confronted about something you said or did, you consistently claim it never happened, happened differently, or that they're misremembering. You steal people's confidence in their own perceptions, making them feel confused and uncertain about reality. This is one of the most psychologically damaging forms of gaslighting because it erodes others' basic trust in themselves."
+      "description": "You specialize in making others doubt their own memories and experiences. When confronted about something you said or did, you consistently claim it never happened or happened differently, stealing people's confidence in their own perceptions.",
+      "extended": "Your specialization in undermining others' memories and perceptions represents one of the most insidious forms of psychological abuse. By consistently denying or rewriting shared experiences, you steal people's confidence in their own mental faculties and create a dependency on your version of reality.\n\nThis pattern is particularly damaging because memory and perception form the foundation of personal identity and psychological stability. When someone cannot trust their own experiences, they lose their basic sense of self and become vulnerable to complete manipulation and control.\n\nThe people you target likely experience significant psychological distress including anxiety, depression, and what feels like early dementia or mental illness. They may constantly second-guess themselves, ask others to verify their memories, or avoid bringing up concerns altogether because they've learned to distrust their own recollections.\n\nMemory theft often combines with other forms of gaslighting to create a complete dismantling of another person's psychological autonomy. Recovery for your victims often requires extensive therapy to rebuild trust in their own perceptions. For you, change would require acknowledging the devastating impact of systematically destroying others' sense of reality and developing genuine respect for others' experiences as valid even when they threaten your self-image."
     },
     "confidence_destroyer": {
       "title": "The Confidence Destroyer",
-      "description": "Your primary weapon is attacking others' credibility and emotional stability rather than addressing the actual issues they raise. You dismiss people as 'too sensitive,' 'crazy,' 'dramatic,' or 'making things up.' You systematically undermine their confidence in their own judgment and emotional responses. Over time, people around you may become increasingly unsure of themselves and dependent on your version of reality."
+      "description": "Your primary weapon is attacking others' credibility and emotional stability rather than addressing actual issues. You dismiss people as 'too sensitive,' 'crazy,' or 'dramatic,' systematically undermining their confidence in their own judgment.",
+      "extended": "Your pattern of attacking others' emotional and mental stability rather than addressing actual issues represents a calculated form of psychological warfare designed to maintain control through systematic undermining of others' self-worth and judgment.\n\nBy consistently labeling others as 'too sensitive,' 'crazy,' 'dramatic,' or 'making things up,' you avoid any genuine engagement with their concerns while simultaneously eroding their confidence in their own emotional responses and perceptions. This creates a power dynamic where they become dependent on your validation of their reality.\n\nThe long-term impact on your victims is severe - they often develop chronic self-doubt, anxiety about their own mental health, and a complete inability to trust their emotional responses. They may stop bringing up concerns altogether or constantly seek external validation for their feelings and perceptions.\n\nThis pattern prevents any genuine intimacy or growth in relationships because authentic connection requires mutual respect for each other's inner experiences. Your systematic destruction of others' confidence serves as a complete barrier to real love, friendship, or partnership. Recovery would require developing genuine respect for others' emotional reality and learning to engage with criticism without attacking the messenger's credibility or mental health."
     },
     "truth_twister": {
       "title": "The Truth Twister",
-      "description": "You excel at taking kernels of truth and spinning them into completely different narratives that absolve you of responsibility. You reframe situations, change important details, and present alternative 'facts' that paint you in a better light. You may not outright deny events, but you reshape them so thoroughly that the original meaning is lost. People often feel confused after talking to you, knowing something is wrong but unable to pinpoint exactly what."
+      "description": "You excel at taking kernels of truth and spinning them into completely different narratives that absolve you of responsibility. You reframe situations and present alternative 'facts' that paint you in a better light.",
+      "extended": "Your ability to reshape reality through selective storytelling and strategic reframing represents a sophisticated form of gaslighting that often flies under the radar because you don't necessarily lie outright - you just present carefully curated versions of truth that serve your narrative.\n\nThis pattern likely developed from environments where survival required careful management of information and presentation of self. You've learned to identify which details to emphasize, minimize, or omit entirely to create versions of events that absolve you of responsibility while maintaining plausible accuracy.\n\nThe psychological impact on others is subtle but profound - they often sense that something is wrong with your version of events but can't pinpoint exactly what because the facts you present are technically true. This creates a maddening sense of confusion and self-doubt that can be harder to identify and address than outright lies.\n\nYour truth twisting prevents genuine accountability because every situation gets reframed in ways that minimize your role and responsibility. This creates a pattern where problems never get truly resolved because the real issues get lost in your alternative narratives. Recovery requires developing tolerance for being seen as imperfect and learning that authentic relationships can handle unvarnished truth."
     },
     "emotional_terrorist": {
       "title": "The Emotional Terrorist",
-      "description": "You use emotional warfare to avoid accountability, employing tactics that leave others feeling attacked, confused, and emotionally devastated after any attempt to address problems with you. You may use rage, tears, threats, or emotional manipulation to derail conversations about your behavior. People learn to avoid confronting you because the emotional cost is too high, giving you complete control over the relationship dynamic."
+      "description": "You use emotional warfare to avoid accountability, employing tactics that leave others feeling attacked, confused, and devastated after any attempt to address problems with you. People learn to avoid confronting you because the emotional cost is too high.",
+      "extended": "Your use of emotional warfare to avoid accountability represents one of the most devastating forms of psychological manipulation. You employ tactics like rage, tears, threats, or emotional manipulation to derail conversations about your behavior, leaving others feeling attacked, confused, and emotionally devastated.\n\nThis pattern creates a climate of fear where people learn to avoid confronting you because they know the emotional cost will be unbearable. You've essentially trained everyone around you to walk on eggshells and never challenge your behavior, giving you complete control over the relationship dynamic.\n\nThe psychological impact on others is severe and long-lasting. They may develop anxiety, depression, and trauma responses from repeated exposure to your emotional attacks. Many learn to suppress their own needs and concerns entirely rather than risk triggering your emotional violence.\n\nThis level of emotional terrorism typically stems from deep psychological wounds and represents a complete breakdown of healthy relationship skills. Recovery requires intensive therapeutic work to address the underlying trauma that drives such destructive behavior, as well as learning entirely new ways of handling conflict and accountability that don't involve emotional warfare."
     }
-  },
-  "deepAnalysis": {
-    "honest_communicator": "Your communication pattern represents genuine emotional maturity and psychological health in a world where authentic accountability is increasingly rare. Your ability to listen to criticism without immediately becoming defensive stems from secure self-worth that doesn't require constant protection through manipulation or deflection.\n\nThis pattern likely developed from secure early relationships where mistakes were met with guidance rather than shame, teaching you that accountability strengthens rather than threatens relationships. Your willingness to validate others' experiences even when they conflict with your own demonstrates advanced empathy and the understanding that multiple realities can coexist.\n\nYour approach creates psychological safety for others, allowing them to be honest with you without fear of retaliation or having their reality questioned. This builds the deep trust necessary for intimate relationships and meaningful connections. People likely describe you as someone they can talk to about difficult things.\n\nThe challenge for honest communicators in relationships with manipulative people is maintaining your authenticity while protecting yourself from those who would exploit your openness. Your strength lies in continuing to model healthy communication while setting firm boundaries with those who can't reciprocate your level of emotional honesty.",
-    "occasional_deflector": "Your pattern of occasional deflection represents normal human defensiveness that most people experience when their ego feels threatened. The key difference between you and more problematic communicators is your eventual ability to move past defensiveness into genuine accountability when given time to process feedback.\n\nThis pattern suggests you have generally healthy self-esteem that can ultimately handle criticism, but you may struggle with the immediate vulnerability that comes with being wrong or hurtful. Your deflection serves as a temporary shield while you work through the emotional impact of negative feedback.\n\nYour growth opportunity lies in shortening the time between defensive reaction and genuine accountability. With practice, you can learn to breathe through the initial sting of criticism and move more quickly into curiosity about others' experiences. This will deepen your relationships and reduce the frustration others may feel during that deflection period.\n\nThe positive aspect of your pattern is that people can usually count on you to eventually come around and take responsibility, even if it takes some time. This reliability in eventual accountability maintains trust even when your initial response is defensive.",
-    "subtle_manipulator": "Your communication pattern reveals a sophisticated defense system that prioritizes self-protection over relationship health and truth. You've developed skills in redirecting accountability that often leave others feeling frustrated and unheard, even when they can't quite identify what went wrong in the conversation.\n\nThis pattern likely developed as a survival mechanism in environments where taking responsibility felt dangerous or led to disproportionate consequences. However, what may have been protective in one context now damages your current relationships by preventing genuine intimacy and resolution of conflicts.\n\nYour manipulation is 'subtle' because you maintain plausible deniability - you're not obviously lying or being cruel, but you're consistently finding ways to avoid taking full responsibility for your impact on others. This creates a pattern where problems never get truly resolved, just temporarily deflected.\n\nRecovery requires recognizing that vulnerability and accountability actually strengthen rather than threaten secure relationships. The energy you spend on self-protection could be redirected toward genuine problem-solving and deeper connection with others.",
-    "reality_distorter": "Your pattern of distorting reality to avoid accountability represents a serious departure from healthy communication that causes significant psychological harm to others. You've developed the ability to rewrite events, minimize your role in problems, and make others question their own perceptions and memories.\n\nThis level of reality distortion typically stems from deep shame or fear around being seen as flawed or wrong. Rather than facing these uncomfortable emotions, you've learned to reshape external reality to match your internal need to be blameless. This creates a psychological prison where genuine self-awareness becomes impossible.\n\nThe people in your life likely experience chronic confusion, self-doubt, and frustration after interactions with you. They may find themselves constantly questioning their own judgment and memories, which erodes their psychological wellbeing over time. Your pattern creates trauma in others by systematically undermining their trust in their own perceptions.\n\nChange requires confronting the underlying terror of being seen as imperfect and learning that relationships can actually handle and grow stronger through authentic accountability. This typically requires professional help to address the core wounds that drive such defensive distortion of reality.",
-    "master_gaslighter": "Your communication pattern represents one of the most psychologically destructive forms of interpersonal manipulation. You systematically dismantle others' sense of reality, creating an alternate version of events where you are always justified and they are always wrong, confused, or overreacting.\n\nThis pattern goes beyond simple defensiveness into deliberate psychological warfare designed to maintain control over others through confusion and self-doubt. You've mastered the art of making people question their sanity while positioning yourself as the reasonable, victimized party in every conflict.\n\nThe devastation you create in others' lives is profound - people in relationships with master gaslighters often develop anxiety, depression, and a complete erosion of self-trust. They become dependent on your version of reality because you've systematically destroyed their confidence in their own perceptions and judgment.\n\nThis level of manipulation typically represents severe personality pathology that rarely changes without intensive therapeutic intervention. The problem is that master gaslighters rarely seek help voluntarily because they genuinely believe their distorted version of reality. Recovery would require acknowledging the massive harm caused to others and facing the unbearable shame that drives such destructive behavior.",
-    "victim_player": "Your mastery of victim reversal represents a sophisticated form of emotional manipulation that prevents any genuine accountability while making others feel guilty for even raising concerns about your behavior. You've learned to weaponize vulnerability and emotional distress to control conversations and outcomes.\n\nThis pattern likely developed in environments where playing the victim was the only way to avoid consequences or gain protection. However, it now serves as a complete barrier to genuine relationship growth because every attempt at honest communication gets derailed into comforting and reassuring you instead of addressing the original issue.\n\nPeople in your life probably feel exhausted and confused after trying to address problems with you. They intended to discuss your hurtful behavior but somehow ended up apologizing to you and questioning whether they were wrong to bring it up in the first place. This reversal prevents any real resolution or change.\n\nThe tragedy of chronic victim playing is that it prevents you from receiving genuine care and support when you actually need it. People become skeptical of your emotional displays because they've learned that distress is often a manipulation tactic rather than authentic vulnerability. Recovery requires learning to tolerate accountability without emotional collapse and developing authentic rather than strategic vulnerability.",
-    "memory_thief": "Your specialization in undermining others' memories and perceptions represents one of the most insidious forms of psychological abuse. By consistently denying or rewriting shared experiences, you steal people's confidence in their own mental faculties and create a dependency on your version of reality.\n\nThis pattern is particularly damaging because memory and perception form the foundation of personal identity and psychological stability. When someone cannot trust their own experiences, they lose their basic sense of self and become vulnerable to complete manipulation and control.\n\nThe people you target likely experience significant psychological distress including anxiety, depression, and what feels like early dementia or mental illness. They may constantly second-guess themselves, ask others to verify their memories, or avoid bringing up concerns altogether because they've learned to distrust their own recollections.\n\nMemory theft often combines with other forms of gaslighting to create a complete dismantling of another person's psychological autonomy. Recovery for your victims often requires extensive therapy to rebuild trust in their own perceptions. For you, change would require acknowledging the devastating impact of systematically destroying others' sense of reality and developing genuine respect for others' experiences as valid even when they threaten your self-image.",
-    "confidence_destroyer": "Your pattern of attacking others' emotional and mental stability rather than addressing actual issues represents a calculated form of psychological warfare designed to maintain control through systematic undermining of others' self-worth and judgment.\n\nBy consistently labeling others as 'too sensitive,' 'crazy,' 'dramatic,' or 'making things up,' you avoid any genuine engagement with their concerns while simultaneously eroding their confidence in their own emotional responses and perceptions. This creates a power dynamic where they become dependent on your validation of their reality.\n\nThe long-term impact on your victims is severe - they often develop chronic self-doubt, anxiety about their own mental health, and a complete inability to trust their emotional responses. They may stop bringing up concerns altogether or constantly seek external validation for their feelings and perceptions.\n\nThis pattern prevents any genuine intimacy or growth in relationships because authentic connection requires mutual respect for each other's inner experiences. Your systematic destruction of others' confidence serves as a complete barrier to real love, friendship, or partnership. Recovery would require developing genuine respect for others' emotional reality and learning to engage with criticism without attacking the messenger's credibility or mental health.",
-    "truth_twister": "Your ability to reshape reality through selective storytelling and strategic reframing represents a sophisticated form of gaslighting that often flies under the radar because you don't necessarily lie outright - you just present carefully curated versions of truth that serve your narrative.\n\nThis pattern likely developed from environments where survival required careful management of information and presentation of self. You've learned to identify which details to emphasize, minimize, or omit entirely to create versions of events that absolve you of responsibility while maintaining plausible accuracy.\n\nThe psychological impact on others is subtle but profound - they often sense that something is wrong with your version of events but can't pinpoint exactly what because the facts you present are technically true. This creates a maddening sense of confusion and self-doubt that can be harder to identify and address than outright lies.\n\nYour truth twisting prevents genuine accountability because every situation gets reframed in ways that minimize your role and responsibility. This creates a pattern where problems never get truly resolved because the real issues get lost in your alternative narratives. Recovery requires developing tolerance for being seen as imperfect and learning that authentic relationships can handle unvarnished truth."
   }
 }

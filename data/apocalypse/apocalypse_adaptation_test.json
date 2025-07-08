@@ -1,682 +1,708 @@
 {
-  "testInfo": {
-    "title": "Apocalypse Adaptation Test",
-    "description": "Test your ability to adapt in extreme survival scenarios",
-    "backgroundImage": "assets/images/apoco/apocalypse_adaptation.png"
+  "testId": "apocalypse-adaptation",
+  "title": "Apocalypse Adaptation Scanner",
+  "description": "Discover how you adapt when the world ends forever",
+  "traits": {
+    "flexible": "Adapts quickly to changing circumstances and new realities",
+    "innovative": "Creates new solutions when old methods no longer work",
+    "resilient": "Bounces back from setbacks and maintains mental strength",
+    "pragmatic": "Focuses on practical solutions over idealistic approaches",
+    "optimistic": "Maintains hope and sees opportunities in disasters",
+    "learning": "Rapidly acquires new skills and knowledge as needed",
+    "strategic": "Plans for multiple scenarios and long-term success",
+    "stable": "Provides emotional stability and grounding for others",
+    "creative": "Finds unexpected solutions to unprecedented problems",
+    "realistic": "Accepts hard truths and makes difficult but necessary changes",
+    "social": "Helps communities navigate change and stay cohesive",
+    "tough": "Maintains function under extreme stress and pressure"
   },
   "questions": [
     {
-      "id": 1,
-      "text": "The old world is gone forever. How do you emotionally process this reality?",
-      "options": [
+      "question": "The old world is gone forever. How do you emotionally process this reality?",
+      "answers": [
         {
-          "text": "Mourn what's lost but focus on building something new",
-          "weights": {"adaptability": 8, "resilience": 7, "optimism": 6, "pragmatism": 7, "innovation": 6, "stress_tolerance": 6, "flexibility": 7, "learning_ability": 6, "emotional_stability": 6, "change_acceptance": 8}
+          "text": "Mourn what's lost but focus on building something new from the ashes",
+          "traits": {"flexible": 4, "innovative": 3, "resilient": 4, "pragmatic": 3, "optimistic": 4, "learning": 3, "strategic": 3, "stable": 4, "creative": 3, "realistic": 4, "social": 3, "tough": 3}
         },
         {
-          "text": "Accept it immediately - dwelling on the past is pointless",
-          "weights": {"adaptability": 9, "resilience": 8, "optimism": 5, "pragmatism": 9, "innovation": 5, "stress_tolerance": 8, "flexibility": 8, "learning_ability": 7, "emotional_stability": 7, "change_acceptance": 9}
+          "text": "Accept it immediately - dwelling on the past is pointless waste of energy",
+          "traits": {"flexible": 5, "innovative": 3, "resilient": 4, "pragmatic": 5, "optimistic": 2, "learning": 3, "strategic": 4, "stable": 3, "creative": 2, "realistic": 5, "social": 2, "tough": 4}
         },
         {
-          "text": "Fight to restore what we had before",
-          "weights": {"adaptability": 3, "resilience": 6, "optimism": 7, "pragmatism": 3, "innovation": 4, "stress_tolerance": 5, "flexibility": 2, "learning_ability": 4, "emotional_stability": 5, "change_acceptance": 2}
+          "text": "Fight to restore what we had before because it was better",
+          "traits": {"flexible": 1, "innovative": 2, "resilient": 3, "pragmatic": 1, "optimistic": 3, "learning": 2, "strategic": 2, "stable": 3, "creative": 2, "realistic": 1, "social": 3, "tough": 3}
         },
         {
-          "text": "Feel overwhelmed and try to process it gradually",
-          "weights": {"adaptability": 4, "resilience": 4, "optimism": 4, "pragmatism": 5, "innovation": 3, "stress_tolerance": 3, "flexibility": 4, "learning_ability": 5, "emotional_stability": 3, "change_acceptance": 4}
+          "text": "Feel overwhelmed and try to process it gradually over time",
+          "traits": {"flexible": 2, "innovative": 2, "resilient": 2, "pragmatic": 2, "optimistic": 2, "learning": 3, "strategic": 2, "stable": 2, "creative": 2, "realistic": 3, "social": 3, "tough": 1}
+        },
+        {
+          "text": "See it as freedom from old constraints and limitations",
+          "traits": {"flexible": 5, "innovative": 4, "resilient": 3, "pragmatic": 3, "optimistic": 5, "learning": 4, "strategic": 3, "stable": 2, "creative": 4, "realistic": 3, "social": 2, "tough": 3}
         }
       ]
     },
     {
-      "id": 2,
-      "text": "You need to learn completely new skills to survive. How do you approach this challenge?",
-      "options": [
+      "question": "You need to learn completely new skills to survive. What's your approach?",
+      "answers": [
         {
-          "text": "Embrace it as an opportunity to discover hidden talents",
-          "weights": {"adaptability": 8, "resilience": 6, "optimism": 8, "pragmatism": 6, "innovation": 8, "stress_tolerance": 6, "flexibility": 7, "learning_ability": 9, "emotional_stability": 6, "change_acceptance": 7}
+          "text": "Embrace it as an exciting opportunity to discover hidden talents",
+          "traits": {"flexible": 4, "innovative": 3, "resilient": 3, "pragmatic": 3, "optimistic": 5, "learning": 5, "strategic": 3, "stable": 3, "creative": 4, "realistic": 3, "social": 3, "tough": 3}
         },
         {
-          "text": "Learn systematically and practice until I master them",
-          "weights": {"adaptability": 7, "resilience": 8, "optimism": 6, "pragmatism": 8, "innovation": 6, "stress_tolerance": 7, "flexibility": 6, "learning_ability": 9, "emotional_stability": 7, "change_acceptance": 6}
+          "text": "Learn systematically and practice until I master every detail",
+          "traits": {"flexible": 3, "innovative": 3, "resilient": 4, "pragmatic": 4, "optimistic": 3, "learning": 5, "strategic": 4, "stable": 4, "creative": 3, "realistic": 4, "social": 3, "tough": 4}
         },
         {
-          "text": "Focus on basic competency - don't need to be perfect",
-          "weights": {"adaptability": 6, "resilience": 6, "optimism": 5, "pragmatism": 8, "innovation": 5, "stress_tolerance": 6, "flexibility": 7, "learning_ability": 6, "emotional_stability": 6, "change_acceptance": 6}
+          "text": "Focus on basic competency - don't need perfection to survive",
+          "traits": {"flexible": 3, "innovative": 3, "resilient": 3, "pragmatic": 5, "optimistic": 3, "learning": 3, "strategic": 4, "stable": 3, "creative": 3, "realistic": 4, "social": 3, "tough": 3}
         },
         {
-          "text": "Feel anxious about learning so many new things",
-          "weights": {"adaptability": 3, "resilience": 3, "optimism": 3, "pragmatism": 4, "innovation": 3, "stress_tolerance": 2, "flexibility": 3, "learning_ability": 4, "emotional_stability": 2, "change_acceptance": 3}
+          "text": "Feel anxious about learning so many new things at once",
+          "traits": {"flexible": 1, "innovative": 1, "resilient": 1, "pragmatic": 2, "optimistic": 1, "learning": 2, "strategic": 2, "stable": 1, "creative": 1, "realistic": 2, "social": 2, "tough": 1}
+        },
+        {
+          "text": "Find creative shortcuts and unconventional learning methods",
+          "traits": {"flexible": 4, "innovative": 5, "resilient": 3, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 3, "stable": 3, "creative": 5, "realistic": 3, "social": 3, "tough": 3}
         }
       ]
     },
     {
-      "id": 3,
-      "text": "Your moral compass from the old world conflicts with survival needs. How do you handle this?",
-      "options": [
+      "question": "Your moral compass conflicts with survival needs. How do you handle this?",
+      "answers": [
         {
-          "text": "Evolve my morals to fit the new reality while keeping core values",
-          "weights": {"adaptability": 8, "resilience": 7, "optimism": 5, "pragmatism": 8, "innovation": 7, "stress_tolerance": 6, "flexibility": 8, "learning_ability": 7, "emotional_stability": 6, "change_acceptance": 8}
+          "text": "Evolve my morals to fit new reality while keeping core values",
+          "traits": {"flexible": 5, "innovative": 3, "resilient": 4, "pragmatic": 4, "optimistic": 3, "learning": 4, "strategic": 4, "stable": 3, "creative": 3, "realistic": 4, "social": 4, "tough": 3}
         },
         {
-          "text": "Stick to my principles no matter what - some things don't change",
-          "weights": {"adaptability": 3, "resilience": 7, "optimism": 6, "pragmatism": 3, "innovation": 3, "stress_tolerance": 5, "flexibility": 2, "learning_ability": 4, "emotional_stability": 6, "change_acceptance": 2}
+          "text": "Stick to principles no matter what - some things never change",
+          "traits": {"flexible": 1, "innovative": 2, "resilient": 4, "pragmatic": 1, "optimistic": 3, "learning": 2, "strategic": 2, "stable": 5, "creative": 2, "realistic": 2, "social": 3, "tough": 4}
         },
         {
-          "text": "Abandon old morals entirely - survival comes first",
-          "weights": {"adaptability": 7, "resilience": 6, "optimism": 4, "pragmatism": 9, "innovation": 5, "stress_tolerance": 7, "flexibility": 8, "learning_ability": 6, "emotional_stability": 5, "change_acceptance": 8}
+          "text": "Abandon old morals entirely - survival comes first always",
+          "traits": {"flexible": 4, "innovative": 3, "resilient": 3, "pragmatic": 5, "optimistic": 2, "learning": 3, "strategic": 4, "stable": 2, "creative": 3, "realistic": 5, "social": 2, "tough": 5}
         },
         {
-          "text": "Struggle with the conflict and make decisions case by case",
-          "weights": {"adaptability": 5, "resilience": 4, "optimism": 4, "pragmatism": 5, "innovation": 4, "stress_tolerance": 3, "flexibility": 5, "learning_ability": 5, "emotional_stability": 3, "change_acceptance": 4}
+          "text": "Struggle with conflict and make decisions case by case",
+          "traits": {"flexible": 3, "innovative": 2, "resilient": 2, "pragmatic": 3, "optimistic": 2, "learning": 3, "strategic": 3, "stable": 2, "creative": 2, "realistic": 3, "social": 3, "tough": 2}
+        },
+        {
+          "text": "Create new moral framework that works for this world",
+          "traits": {"flexible": 4, "innovative": 5, "resilient": 3, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 4, "stable": 3, "creative": 5, "realistic": 4, "social": 4, "tough": 3}
         }
       ]
     },
     {
-      "id": 4,
-      "text": "Technology you relied on is gone forever. How do you adapt to low-tech living?",
-      "options": [
+      "question": "Technology you relied on is gone forever. How do you adapt?",
+      "answers": [
         {
-          "text": "Learn traditional skills and find non-tech solutions",
-          "weights": {"adaptability": 8, "resilience": 7, "optimism": 6, "pragmatism": 8, "innovation": 7, "stress_tolerance": 6, "flexibility": 8, "learning_ability": 8, "emotional_stability": 6, "change_acceptance": 8}
+          "text": "Learn traditional skills and find non-tech solutions quickly",
+          "traits": {"flexible": 4, "innovative": 3, "resilient": 4, "pragmatic": 4, "optimistic": 3, "learning": 5, "strategic": 4, "stable": 3, "creative": 3, "realistic": 4, "social": 3, "tough": 3}
         },
         {
-          "text": "Improvise new tools and methods from available materials",
-          "weights": {"adaptability": 9, "resilience": 6, "optimism": 7, "pragmatism": 7, "innovation": 9, "stress_tolerance": 6, "flexibility": 8, "learning_ability": 7, "emotional_stability": 6, "change_acceptance": 7}
+          "text": "Improvise new tools from available materials creatively",
+          "traits": {"flexible": 5, "innovative": 5, "resilient": 3, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 3, "stable": 3, "creative": 5, "realistic": 3, "social": 3, "tough": 3}
         },
         {
-          "text": "Focus on maintaining and repairing what technology still exists",
-          "weights": {"adaptability": 6, "resilience": 7, "optimism": 5, "pragmatism": 7, "innovation": 6, "stress_tolerance": 6, "flexibility": 5, "learning_ability": 7, "emotional_stability": 6, "change_acceptance": 5}
+          "text": "Focus on maintaining what technology still exists somehow",
+          "traits": {"flexible": 2, "innovative": 3, "resilient": 3, "pragmatic": 4, "optimistic": 2, "learning": 4, "strategic": 4, "stable": 4, "creative": 3, "realistic": 3, "social": 3, "tough": 3}
         },
         {
-          "text": "Feel lost without the technology I'm used to",
-          "weights": {"adaptability": 2, "resilience": 3, "optimism": 3, "pragmatism": 3, "innovation": 2, "stress_tolerance": 2, "flexibility": 2, "learning_ability": 3, "emotional_stability": 2, "change_acceptance": 2}
+          "text": "Feel lost without the technology I'm used to using",
+          "traits": {"flexible": 1, "innovative": 1, "resilient": 1, "pragmatic": 1, "optimistic": 1, "learning": 1, "strategic": 1, "stable": 1, "creative": 1, "realistic": 2, "social": 2, "tough": 1}
+        },
+        {
+          "text": "See it as liberation from technology dependence completely",
+          "traits": {"flexible": 4, "innovative": 4, "resilient": 4, "pragmatic": 3, "optimistic": 5, "learning": 3, "strategic": 3, "stable": 3, "creative": 4, "realistic": 3, "social": 3, "tough": 4}
         }
       ]
     },
     {
-      "id": 5,
-      "text": "Social rules and laws no longer exist. How do you navigate this new social landscape?",
-      "options": [
+      "question": "Social rules and laws no longer exist. How do you navigate this?",
+      "answers": [
         {
           "text": "Help create new social rules that work for current conditions",
-          "weights": {"adaptability": 7, "resilience": 6, "optimism": 7, "pragmatism": 7, "innovation": 8, "stress_tolerance": 6, "flexibility": 7, "learning_ability": 7, "emotional_stability": 6, "change_acceptance": 7}
+          "traits": {"flexible": 4, "innovative": 4, "resilient": 3, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 4, "stable": 4, "creative": 4, "realistic": 4, "social": 5, "tough": 3}
         },
         {
-          "text": "Adapt my behavior to whatever social system emerges",
-          "weights": {"adaptability": 9, "resilience": 6, "optimism": 5, "pragmatism": 8, "innovation": 5, "stress_tolerance": 6, "flexibility": 9, "learning_ability": 6, "emotional_stability": 6, "change_acceptance": 8}
+          "text": "Adapt behavior to whatever social system emerges naturally",
+          "traits": {"flexible": 5, "innovative": 2, "resilient": 3, "pragmatic": 4, "optimistic": 3, "learning": 3, "strategic": 3, "stable": 3, "creative": 2, "realistic": 4, "social": 4, "tough": 3}
         },
         {
-          "text": "Maintain old social standards and try to enforce them",
-          "weights": {"adaptability": 3, "resilience": 6, "optimism": 5, "pragmatism": 4, "innovation": 3, "stress_tolerance": 5, "flexibility": 2, "learning_ability": 4, "emotional_stability": 5, "change_acceptance": 3}
+          "text": "Maintain old standards and try to enforce them on others",
+          "traits": {"flexible": 1, "innovative": 1, "resilient": 3, "pragmatic": 2, "optimistic": 2, "learning": 2, "strategic": 2, "stable": 4, "creative": 1, "realistic": 2, "social": 3, "tough": 4}
         },
         {
-          "text": "Take advantage of the lawlessness for personal gain",
-          "weights": {"adaptability": 6, "resilience": 5, "optimism": 4, "pragmatism": 8, "innovation": 5, "stress_tolerance": 6, "flexibility": 7, "learning_ability": 5, "emotional_stability": 4, "change_acceptance": 6}
+          "text": "Take advantage of lawlessness for personal gain",
+          "traits": {"flexible": 3, "innovative": 3, "resilient": 2, "pragmatic": 5, "optimistic": 2, "learning": 2, "strategic": 4, "stable": 1, "creative": 3, "realistic": 4, "social": 1, "tough": 4}
+        },
+        {
+          "text": "Feel paralyzed by the lack of clear social structure",
+          "traits": {"flexible": 1, "innovative": 1, "resilient": 1, "pragmatic": 1, "optimistic": 1, "learning": 2, "strategic": 1, "stable": 1, "creative": 1, "realistic": 2, "social": 2, "tough": 1}
         }
       ]
     },
     {
-      "id": 6,
-      "text": "Your comfortable lifestyle is replaced by constant uncertainty. How do you cope with this change?",
-      "options": [
+      "question": "Comfortable lifestyle replaced by constant uncertainty. How do you cope?",
+      "answers": [
         {
           "text": "Find new sources of comfort and stability in small things",
-          "weights": {"adaptability": 7, "resilience": 8, "optimism": 7, "pragmatism": 6, "innovation": 6, "stress_tolerance": 7, "flexibility": 6, "learning_ability": 6, "emotional_stability": 7, "change_acceptance": 7}
+          "traits": {"flexible": 3, "innovative": 3, "resilient": 4, "pragmatic": 3, "optimistic": 4, "learning": 3, "strategic": 3, "stable": 5, "creative": 3, "realistic": 3, "social": 4, "tough": 3}
         },
         {
-          "text": "Embrace uncertainty as freedom from old constraints",
-          "weights": {"adaptability": 9, "resilience": 6, "optimism": 8, "pragmatism": 5, "innovation": 8, "stress_tolerance": 7, "flexibility": 9, "learning_ability": 7, "emotional_stability": 6, "change_acceptance": 9}
+          "text": "Embrace uncertainty as freedom from old constraints completely",
+          "traits": {"flexible": 5, "innovative": 4, "resilient": 3, "pragmatic": 3, "optimistic": 5, "learning": 4, "strategic": 3, "stable": 2, "creative": 4, "realistic": 3, "social": 3, "tough": 4}
         },
         {
           "text": "Work constantly to recreate stability and predictability",
-          "weights": {"adaptability": 5, "resilience": 7, "optimism": 5, "pragmatism": 7, "innovation": 5, "stress_tolerance": 5, "flexibility": 4, "learning_ability": 6, "emotional_stability": 6, "change_acceptance": 4}
+          "traits": {"flexible": 2, "innovative": 3, "resilient": 4, "pragmatic": 4, "optimistic": 3, "learning": 3, "strategic": 4, "stable": 5, "creative": 2, "realistic": 3, "social": 3, "tough": 4}
         },
         {
           "text": "Feel constantly anxious about what might happen next",
-          "weights": {"adaptability": 3, "resilience": 2, "optimism": 2, "pragmatism": 4, "innovation": 3, "stress_tolerance": 1, "flexibility": 3, "learning_ability": 4, "emotional_stability": 1, "change_acceptance": 2}
+          "traits": {"flexible": 1, "innovative": 1, "resilient": 1, "pragmatic": 2, "optimistic": 1, "learning": 2, "strategic": 2, "stable": 1, "creative": 1, "realistic": 2, "social": 2, "tough": 1}
+        },
+        {
+          "text": "Develop systems to manage uncertainty more effectively",
+          "traits": {"flexible": 4, "innovative": 4, "resilient": 4, "pragmatic": 5, "optimistic": 3, "learning": 4, "strategic": 5, "stable": 4, "creative": 4, "realistic": 4, "social": 3, "tough": 4}
         }
       ]
     },
     {
-      "id": 7,
-      "text": "You encounter a completely new type of threat you've never faced before. What's your response?",
-      "options": [
+      "question": "You encounter a completely new threat never faced before. Your response?",
+      "answers": [
         {
           "text": "Study it carefully and develop innovative countermeasures",
-          "weights": {"adaptability": 8, "resilience": 6, "optimism": 6, "pragmatism": 7, "innovation": 9, "stress_tolerance": 6, "flexibility": 7, "learning_ability": 9, "emotional_stability": 6, "change_acceptance": 7}
+          "traits": {"flexible": 4, "innovative": 5, "resilient": 3, "pragmatic": 4, "optimistic": 3, "learning": 5, "strategic": 4, "stable": 3, "creative": 4, "realistic": 4, "social": 3, "tough": 3}
         },
         {
-          "text": "Adapt existing strategies and see what works",
-          "weights": {"adaptability": 8, "resilience": 7, "optimism": 6, "pragmatism": 8, "innovation": 6, "stress_tolerance": 6, "flexibility": 8, "learning_ability": 7, "emotional_stability": 6, "change_acceptance": 7}
+          "text": "Adapt existing strategies and see what works best",
+          "traits": {"flexible": 5, "innovative": 3, "resilient": 4, "pragmatic": 4, "optimistic": 3, "learning": 4, "strategic": 4, "stable": 3, "creative": 3, "realistic": 4, "social": 3, "tough": 4}
         },
         {
           "text": "Apply proven methods from similar past threats",
-          "weights": {"adaptability": 5, "resilience": 6, "optimism": 5, "pragmatism": 7, "innovation": 4, "stress_tolerance": 6, "flexibility": 4, "learning_ability": 5, "emotional_stability": 6, "change_acceptance": 4}
+          "traits": {"flexible": 2, "innovative": 2, "resilient": 3, "pragmatic": 4, "optimistic": 3, "learning": 3, "strategic": 4, "stable": 4, "creative": 2, "realistic": 4, "social": 3, "tough": 3}
         },
         {
-          "text": "Feel overwhelmed by yet another thing I have to figure out",
-          "weights": {"adaptability": 2, "resilience": 2, "optimism": 2, "pragmatism": 3, "innovation": 2, "stress_tolerance": 1, "flexibility": 2, "learning_ability": 3, "emotional_stability": 1, "change_acceptance": 2}
+          "text": "Feel overwhelmed by yet another thing to figure out",
+          "traits": {"flexible": 1, "innovative": 1, "resilient": 1, "pragmatic": 1, "optimistic": 1, "learning": 2, "strategic": 1, "stable": 1, "creative": 1, "realistic": 2, "social": 2, "tough": 1}
+        },
+        {
+          "text": "Rally others to face the threat together as team",
+          "traits": {"flexible": 3, "innovative": 3, "resilient": 4, "pragmatic": 4, "optimistic": 4, "learning": 3, "strategic": 4, "stable": 4, "creative": 3, "realistic": 3, "social": 5, "tough": 4}
         }
       ]
     },
     {
-      "id": 8,
-      "text": "Resources that were abundant before are now scarce. How do you adjust your consumption and expectations?",
-      "options": [
+      "question": "Resources once abundant are now scarce. How do you adjust expectations?",
+      "answers": [
         {
-          "text": "Find creative alternatives and substitutes",
-          "weights": {"adaptability": 8, "resilience": 7, "optimism": 7, "pragmatism": 7, "innovation": 9, "stress_tolerance": 6, "flexibility": 8, "learning_ability": 8, "emotional_stability": 6, "change_acceptance": 7}
+          "text": "Find creative alternatives and substitutes for everything",
+          "traits": {"flexible": 4, "innovative": 5, "resilient": 3, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 3, "stable": 3, "creative": 5, "realistic": 3, "social": 3, "tough": 3}
         },
         {
-          "text": "Reduce consumption and learn to need less",
-          "weights": {"adaptability": 7, "resilience": 8, "optimism": 5, "pragmatism": 8, "innovation": 5, "stress_tolerance": 7, "flexibility": 6, "learning_ability": 6, "emotional_stability": 7, "change_acceptance": 8}
+          "text": "Reduce consumption and learn to need much less",
+          "traits": {"flexible": 3, "innovative": 2, "resilient": 4, "pragmatic": 5, "optimistic": 2, "learning": 3, "strategic": 4, "stable": 4, "creative": 2, "realistic": 5, "social": 3, "tough": 4}
         },
         {
-          "text": "Compete aggressively for limited resources",
-          "weights": {"adaptability": 5, "resilience": 6, "optimism": 4, "pragmatism": 7, "innovation": 4, "stress_tolerance": 6, "flexibility": 4, "learning_ability": 4, "emotional_stability": 5, "change_acceptance": 3}
+          "text": "Compete aggressively for limited resources available",
+          "traits": {"flexible": 2, "innovative": 2, "resilient": 3, "pragmatic": 4, "optimistic": 2, "learning": 2, "strategic": 4, "stable": 2, "creative": 2, "realistic": 4, "social": 1, "tough": 5}
         },
         {
-          "text": "Feel frustrated by the constant shortages",
-          "weights": {"adaptability": 3, "resilience": 3, "optimism": 2, "pragmatism": 4, "innovation": 3, "stress_tolerance": 2, "flexibility": 3, "learning_ability": 3, "emotional_stability": 2, "change_acceptance": 2}
+          "text": "Feel frustrated by the constant shortages everywhere",
+          "traits": {"flexible": 1, "innovative": 1, "resilient": 1, "pragmatic": 2, "optimistic": 1, "learning": 2, "strategic": 2, "stable": 1, "creative": 1, "realistic": 2, "social": 2, "tough": 1}
+        },
+        {
+          "text": "Organize community sharing and resource management systems",
+          "traits": {"flexible": 4, "innovative": 4, "resilient": 3, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 5, "stable": 4, "creative": 4, "realistic": 4, "social": 5, "tough": 3}
         }
       ]
     },
     {
-      "id": 9,
-      "text": "Your role in society has changed completely from what you did before. How do you handle this identity shift?",
-      "options": [
+      "question": "Your role in society has changed completely. How do you handle this identity shift?",
+      "answers": [
         {
-          "text": "Embrace my new role and discover new aspects of myself",
-          "weights": {"adaptability": 9, "resilience": 7, "optimism": 8, "pragmatism": 6, "innovation": 7, "stress_tolerance": 7, "flexibility": 8, "learning_ability": 8, "emotional_stability": 7, "change_acceptance": 9}
+          "text": "Embrace new role and discover new aspects of myself",
+          "traits": {"flexible": 5, "innovative": 4, "resilient": 4, "pragmatic": 3, "optimistic": 5, "learning": 4, "strategic": 3, "stable": 3, "creative": 4, "realistic": 3, "social": 4, "tough": 3}
         },
         {
-          "text": "Focus on how my old skills can apply to new situations",
-          "weights": {"adaptability": 6, "resilience": 7, "optimism": 6, "pragmatism": 8, "innovation": 6, "stress_tolerance": 6, "flexibility": 6, "learning_ability": 7, "emotional_stability": 6, "change_acceptance": 6}
+          "text": "Focus on how old skills apply to new situations",
+          "traits": {"flexible": 3, "innovative": 3, "resilient": 3, "pragmatic": 4, "optimistic": 3, "learning": 4, "strategic": 4, "stable": 4, "creative": 3, "realistic": 4, "social": 3, "tough": 3}
         },
         {
-          "text": "Try to recreate my old role in the new environment",
-          "weights": {"adaptability": 3, "resilience": 5, "optimism": 5, "pragmatism": 4, "innovation": 3, "stress_tolerance": 4, "flexibility": 2, "learning_ability": 4, "emotional_stability": 5, "change_acceptance": 2}
+          "text": "Try to recreate old role in new environment",
+          "traits": {"flexible": 1, "innovative": 2, "resilient": 2, "pragmatic": 2, "optimistic": 2, "learning": 2, "strategic": 2, "stable": 3, "creative": 2, "realistic": 2, "social": 2, "tough": 3}
         },
         {
-          "text": "Feel lost without my old professional identity",
-          "weights": {"adaptability": 2, "resilience": 2, "optimism": 2, "pragmatism": 3, "innovation": 2, "stress_tolerance": 2, "flexibility": 2, "learning_ability": 3, "emotional_stability": 2, "change_acceptance": 1}
+          "text": "Feel lost without old professional identity completely",
+          "traits": {"flexible": 1, "innovative": 1, "resilient": 1, "pragmatic": 1, "optimistic": 1, "learning": 2, "strategic": 1, "stable": 1, "creative": 1, "realistic": 1, "social": 2, "tough": 1}
+        },
+        {
+          "text": "See it as chance to become who I really am",
+          "traits": {"flexible": 4, "innovative": 4, "resilient": 4, "pragmatic": 3, "optimistic": 5, "learning": 4, "strategic": 3, "stable": 3, "creative": 4, "realistic": 3, "social": 3, "tough": 4}
         }
       ]
     },
     {
-      "id": 10,
-      "text": "The pace of change is accelerating - new challenges appear constantly. How do you manage this?",
-      "options": [
+      "question": "Change accelerates - new challenges appear constantly. How do you manage?",
+      "answers": [
         {
           "text": "Develop systems for rapid learning and quick adaptation",
-          "weights": {"adaptability": 9, "resilience": 7, "optimism": 6, "pragmatism": 8, "innovation": 8, "stress_tolerance": 7, "flexibility": 9, "learning_ability": 9, "emotional_stability": 6, "change_acceptance": 8}
+          "traits": {"flexible": 5, "innovative": 4, "resilient": 4, "pragmatic": 4, "optimistic": 3, "learning": 5, "strategic": 5, "stable": 3, "creative": 4, "realistic": 4, "social": 3, "tough": 4}
         },
         {
           "text": "Focus on building resilience to handle whatever comes",
-          "weights": {"adaptability": 7, "resilience": 9, "optimism": 6, "pragmatism": 7, "innovation": 6, "stress_tolerance": 8, "flexibility": 7, "learning_ability": 7, "emotional_stability": 8, "change_acceptance": 7}
+          "traits": {"flexible": 4, "innovative": 3, "resilient": 5, "pragmatic": 4, "optimistic": 3, "learning": 3, "strategic": 4, "stable": 4, "creative": 3, "realistic": 4, "social": 3, "tough": 5}
         },
         {
-          "text": "Try to slow down the rate of change in my immediate area",
-          "weights": {"adaptability": 4, "resilience": 6, "optimism": 4, "pragmatism": 5, "innovation": 4, "stress_tolerance": 4, "flexibility": 3, "learning_ability": 4, "emotional_stability": 5, "change_acceptance": 3}
+          "text": "Try to slow down rate of change in immediate area",
+          "traits": {"flexible": 2, "innovative": 2, "resilient": 3, "pragmatic": 3, "optimistic": 2, "learning": 2, "strategic": 3, "stable": 4, "creative": 2, "realistic": 3, "social": 3, "tough": 3}
         },
         {
-          "text": "Feel overwhelmed and struggle to keep up",
-          "weights": {"adaptability": 2, "resilience": 2, "optimism": 2, "pragmatism": 3, "innovation": 2, "stress_tolerance": 1, "flexibility": 2, "learning_ability": 3, "emotional_stability": 1, "change_acceptance": 2}
+          "text": "Feel overwhelmed and struggle to keep up with everything",
+          "traits": {"flexible": 1, "innovative": 1, "resilient": 1, "pragmatic": 1, "optimistic": 1, "learning": 2, "strategic": 1, "stable": 1, "creative": 1, "realistic": 2, "social": 2, "tough": 1}
+        },
+        {
+          "text": "Thrive on chaos and see opportunity in rapid change",
+          "traits": {"flexible": 5, "innovative": 5, "resilient": 4, "pragmatic": 3, "optimistic": 5, "learning": 4, "strategic": 3, "stable": 2, "creative": 5, "realistic": 3, "social": 3, "tough": 5}
         }
       ]
     },
     {
-      "id": 11,
-      "text": "You realize that some aspects of the apocalypse actually improve certain parts of life. How do you process this?",
-      "options": [
+      "question": "Some aspects of apocalypse actually improve life. How do you process this?",
+      "answers": [
         {
-          "text": "Appreciate the improvements while acknowledging the costs",
-          "weights": {"adaptability": 7, "resilience": 7, "optimism": 8, "pragmatism": 8, "innovation": 6, "stress_tolerance": 7, "flexibility": 7, "learning_ability": 7, "emotional_stability": 8, "change_acceptance": 8}
+          "text": "Appreciate improvements while acknowledging the costs honestly",
+          "traits": {"flexible": 4, "innovative": 3, "resilient": 4, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 4, "stable": 4, "creative": 3, "realistic": 5, "social": 4, "tough": 3}
         },
         {
-          "text": "Focus on maximizing these unexpected benefits",
-          "weights": {"adaptability": 8, "resilience": 6, "optimism": 9, "pragmatism": 7, "innovation": 8, "stress_tolerance": 6, "flexibility": 8, "learning_ability": 7, "emotional_stability": 7, "change_acceptance": 8}
+          "text": "Focus on maximizing these unexpected benefits completely",
+          "traits": {"flexible": 4, "innovative": 4, "resilient": 3, "pragmatic": 4, "optimistic": 5, "learning": 4, "strategic": 4, "stable": 3, "creative": 4, "realistic": 3, "social": 3, "tough": 3}
         },
         {
-          "text": "Feel guilty about finding any positives in a disaster",
-          "weights": {"adaptability": 4, "resilience": 4, "optimism": 3, "pragmatism": 4, "innovation": 3, "stress_tolerance": 3, "flexibility": 4, "learning_ability": 4, "emotional_stability": 3, "change_acceptance": 4}
+          "text": "Feel guilty about finding any positives in disaster",
+          "traits": {"flexible": 2, "innovative": 2, "resilient": 2, "pragmatic": 2, "optimistic": 1, "learning": 2, "strategic": 2, "stable": 3, "creative": 2, "realistic": 2, "social": 3, "tough": 2}
         },
         {
-          "text": "Dismiss them - nothing good can come from this disaster",
-          "weights": {"adaptability": 3, "resilience": 4, "optimism": 2, "pragmatism": 4, "innovation": 3, "stress_tolerance": 4, "flexibility": 3, "learning_ability": 3, "emotional_stability": 4, "change_acceptance": 2}
+          "text": "Dismiss them - nothing good comes from disasters",
+          "traits": {"flexible": 1, "innovative": 1, "resilient": 2, "pragmatic": 2, "optimistic": 1, "learning": 2, "strategic": 2, "stable": 2, "creative": 1, "realistic": 2, "social": 2, "tough": 3}
+        },
+        {
+          "text": "Document what works to preserve lessons learned",
+          "traits": {"flexible": 3, "innovative": 3, "resilient": 3, "pragmatic": 4, "optimistic": 3, "learning": 5, "strategic": 4, "stable": 4, "creative": 3, "realistic": 4, "social": 4, "tough": 3}
         }
       ]
     },
     {
-      "id": 12,
-      "text": "Your survival group needs to make major changes to their operating procedures. How do you facilitate this?",
-      "options": [
+      "question": "Survival group needs major changes to operating procedures. How do you facilitate?",
+      "answers": [
         {
-          "text": "Lead by example and demonstrate the benefits of new approaches",
-          "weights": {"adaptability": 8, "resilience": 7, "optimism": 7, "pragmatism": 7, "innovation": 7, "stress_tolerance": 6, "flexibility": 7, "learning_ability": 7, "emotional_stability": 7, "change_acceptance": 8}
+          "text": "Lead by example and demonstrate benefits of new approaches",
+          "traits": {"flexible": 4, "innovative": 4, "resilient": 4, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 4, "stable": 4, "creative": 3, "realistic": 4, "social": 5, "tough": 4}
         },
         {
           "text": "Experiment with small changes before implementing major ones",
-          "weights": {"adaptability": 7, "resilience": 6, "optimism": 6, "pragmatism": 8, "innovation": 7, "stress_tolerance": 6, "flexibility": 7, "learning_ability": 8, "emotional_stability": 6, "change_acceptance": 7}
+          "traits": {"flexible": 4, "innovative": 3, "resilient": 3, "pragmatic": 5, "optimistic": 3, "learning": 4, "strategic": 5, "stable": 4, "creative": 3, "realistic": 4, "social": 4, "tough": 3}
         },
         {
           "text": "Focus on explaining why changes are necessary for survival",
-          "weights": {"adaptability": 6, "resilience": 6, "optimism": 5, "pragmatism": 8, "innovation": 5, "stress_tolerance": 6, "flexibility": 6, "learning_ability": 7, "emotional_stability": 6, "change_acceptance": 6}
+          "traits": {"flexible": 3, "innovative": 2, "resilient": 3, "pragmatic": 4, "optimistic": 3, "learning": 4, "strategic": 4, "stable": 4, "creative": 2, "realistic": 4, "social": 4, "tough": 3}
         },
         {
           "text": "Resist changes unless absolutely forced by circumstances",
-          "weights": {"adaptability": 2, "resilience": 5, "optimism": 3, "pragmatism": 4, "innovation": 2, "stress_tolerance": 4, "flexibility": 2, "learning_ability": 3, "emotional_stability": 4, "change_acceptance": 2}
+          "traits": {"flexible": 1, "innovative": 1, "resilient": 2, "pragmatic": 2, "optimistic": 2, "learning": 1, "strategic": 2, "stable": 3, "creative": 1, "realistic": 2, "social": 2, "tough": 3}
+        },
+        {
+          "text": "Push for radical overhaul of all outdated systems",
+          "traits": {"flexible": 4, "innovative": 5, "resilient": 3, "pragmatic": 3, "optimistic": 4, "learning": 4, "strategic": 3, "stable": 2, "creative": 5, "realistic": 3, "social": 3, "tough": 4}
         }
       ]
     },
     {
-      "id": 13,
-      "text": "Environmental conditions are becoming increasingly unpredictable and extreme. How do you adapt?",
-      "options": [
+      "question": "Environmental conditions become increasingly unpredictable. How do you adapt?",
+      "answers": [
         {
           "text": "Develop multiple backup plans for different scenarios",
-          "weights": {"adaptability": 8, "resilience": 8, "optimism": 5, "pragmatism": 9, "innovation": 7, "stress_tolerance": 7, "flexibility": 8, "learning_ability": 8, "emotional_stability": 6, "change_acceptance": 7}
+          "traits": {"flexible": 4, "innovative": 3, "resilient": 4, "pragmatic": 5, "optimistic": 3, "learning": 4, "strategic": 5, "stable": 4, "creative": 3, "realistic": 4, "social": 3, "tough": 4}
         },
         {
           "text": "Build maximum flexibility into all systems and structures",
-          "weights": {"adaptability": 9, "resilience": 7, "optimism": 6, "pragmatism": 8, "innovation": 8, "stress_tolerance": 6, "flexibility": 9, "learning_ability": 7, "emotional_stability": 6, "change_acceptance": 8}
+          "traits": {"flexible": 5, "innovative": 4, "resilient": 4, "pragmatic": 4, "optimistic": 3, "learning": 4, "strategic": 4, "stable": 3, "creative": 4, "realistic": 4, "social": 3, "tough": 4}
         },
         {
-          "text": "Create the strongest possible defenses against all threats",
-          "weights": {"adaptability": 5, "resilience": 8, "optimism": 5, "pragmatism": 7, "innovation": 6, "stress_tolerance": 7, "flexibility": 4, "learning_ability": 6, "emotional_stability": 7, "change_acceptance": 4}
+          "text": "Create strongest possible defenses against all threats",
+          "traits": {"flexible": 2, "innovative": 3, "resilient": 4, "pragmatic": 4, "optimistic": 3, "learning": 3, "strategic": 4, "stable": 4, "creative": 3, "realistic": 4, "social": 3, "tough": 5}
         },
         {
           "text": "Feel constantly stressed by the unpredictability",
-          "weights": {"adaptability": 2, "resilience": 2, "optimism": 2, "pragmatism": 3, "innovation": 2, "stress_tolerance": 1, "flexibility": 2, "learning_ability": 3, "emotional_stability": 1, "change_acceptance": 2}
+          "traits": {"flexible": 1, "innovative": 1, "resilient": 1, "pragmatic": 1, "optimistic": 1, "learning": 2, "strategic": 1, "stable": 1, "creative": 1, "realistic": 2, "social": 2, "tough": 1}
+        },
+        {
+          "text": "Move frequently to stay ahead of environmental changes",
+          "traits": {"flexible": 5, "innovative": 4, "resilient": 4, "pragmatic": 4, "optimistic": 3, "learning": 4, "strategic": 4, "stable": 2, "creative": 4, "realistic": 4, "social": 2, "tough": 4}
         }
       ]
     },
     {
-      "id": 14,
-      "text": "You encounter other survivors who have adapted in ways that seem extreme or disturbing to you. How do you respond?",
-      "options": [
+      "question": "Other survivors adapted in ways that seem extreme. How do you respond?",
+      "answers": [
         {
-          "text": "Try to understand their perspective and learn from their methods",
-          "weights": {"adaptability": 8, "resilience": 6, "optimism": 5, "pragmatism": 7, "innovation": 6, "stress_tolerance": 6, "flexibility": 8, "learning_ability": 8, "emotional_stability": 6, "change_acceptance": 8}
+          "text": "Try to understand their perspective and learn from methods",
+          "traits": {"flexible": 5, "innovative": 3, "resilient": 3, "pragmatic": 4, "optimistic": 3, "learning": 5, "strategic": 4, "stable": 3, "creative": 3, "realistic": 4, "social": 4, "tough": 3}
         },
         {
-          "text": "Adapt what works while maintaining my own moral boundaries",
-          "weights": {"adaptability": 7, "resilience": 7, "optimism": 6, "pragmatism": 8, "innovation": 6, "stress_tolerance": 6, "flexibility": 7, "learning_ability": 7, "emotional_stability": 7, "change_acceptance": 6}
+          "text": "Adapt what works while maintaining moral boundaries",
+          "traits": {"flexible": 4, "innovative": 3, "resilient": 4, "pragmatic": 4, "optimistic": 3, "learning": 4, "strategic": 4, "stable": 4, "creative": 3, "realistic": 4, "social": 4, "tough": 4}
         },
         {
           "text": "Judge them for losing their humanity to survive",
-          "weights": {"adaptability": 3, "resilience": 5, "optimism": 4, "pragmatism": 3, "innovation": 3, "stress_tolerance": 4, "flexibility": 2, "learning_ability": 3, "emotional_stability": 4, "change_acceptance": 2}
+          "traits": {"flexible": 1, "innovative": 1, "resilient": 2, "pragmatic": 1, "optimistic": 2, "learning": 2, "strategic": 2, "stable": 3, "creative": 1, "realistic": 2, "social": 2, "tough": 3}
         },
         {
           "text": "Worry that I might have to become like them eventually",
-          "weights": {"adaptability": 4, "resilience": 3, "optimism": 2, "pragmatism": 5, "innovation": 3, "stress_tolerance": 2, "flexibility": 4, "learning_ability": 4, "emotional_stability": 2, "change_acceptance": 4}
+          "traits": {"flexible": 2, "innovative": 2, "resilient": 2, "pragmatic": 3, "optimistic": 1, "learning": 2, "strategic": 3, "stable": 2, "creative": 2, "realistic": 3, "social": 2, "tough": 2}
+        },
+        {
+          "text": "Help them find better ways that preserve their humanity",
+          "traits": {"flexible": 3, "innovative": 4, "resilient": 4, "pragmatic": 3, "optimistic": 4, "learning": 4, "strategic": 4, "stable": 4, "creative": 4, "realistic": 3, "social": 5, "tough": 3}
         }
       ]
     },
     {
-      "id": 15,
-      "text": "Two years into the apocalypse, you realize this is permanent. How does this affect your approach?",
-      "options": [
+      "question": "Two years in, you realize this is permanent. How does this affect your approach?",
+      "answers": [
         {
-          "text": "Shift from survival mode to building a sustainable new life",
-          "weights": {"adaptability": 8, "resilience": 8, "optimism": 8, "pragmatism": 8, "innovation": 7, "stress_tolerance": 7, "flexibility": 7, "learning_ability": 8, "emotional_stability": 8, "change_acceptance": 9}
+          "text": "Shift from survival mode to building sustainable new life",
+          "traits": {"flexible": 4, "innovative": 4, "resilient": 5, "pragmatic": 4, "optimistic": 5, "learning": 4, "strategic": 5, "stable": 4, "creative": 4, "realistic": 5, "social": 4, "tough": 4}
         },
         {
-          "text": "Focus on mastering the skills needed for long-term success",
-          "weights": {"adaptability": 7, "resilience": 8, "optimism": 6, "pragmatism": 9, "innovation": 6, "stress_tolerance": 7, "flexibility": 6, "learning_ability": 9, "emotional_stability": 7, "change_acceptance": 7}
+          "text": "Focus on mastering skills needed for long-term success",
+          "traits": {"flexible": 3, "innovative": 3, "resilient": 4, "pragmatic": 5, "optimistic": 3, "learning": 5, "strategic": 5, "stable": 4, "creative": 3, "realistic": 4, "social": 3, "tough": 4}
         },
         {
           "text": "Double down on trying to restore the old world",
-          "weights": {"adaptability": 2, "resilience": 6, "optimism": 6, "pragmatism": 2, "innovation": 3, "stress_tolerance": 4, "flexibility": 1, "learning_ability": 3, "emotional_stability": 4, "change_acceptance": 1}
+          "traits": {"flexible": 1, "innovative": 2, "resilient": 3, "pragmatic": 1, "optimistic": 3, "learning": 2, "strategic": 2, "stable": 3, "creative": 2, "realistic": 1, "social": 3, "tough": 4}
         },
         {
           "text": "Feel despair that things will never go back to normal",
-          "weights": {"adaptability": 2, "resilience": 2, "optimism": 1, "pragmatism": 3, "innovation": 2, "stress_tolerance": 1, "flexibility": 2, "learning_ability": 2, "emotional_stability": 1, "change_acceptance": 1}
+          "traits": {"flexible": 1, "innovative": 1, "resilient": 1, "pragmatic": 1, "optimistic": 1, "learning": 1, "strategic": 1, "stable": 1, "creative": 1, "realistic": 2, "social": 2, "tough": 1}
+        },
+        {
+          "text": "Accept it and focus on making this world better",
+          "traits": {"flexible": 4, "innovative": 4, "resilient": 4, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 4, "stable": 4, "creative": 4, "realistic": 5, "social": 4, "tough": 4}
         }
       ]
     },
     {
-      "id": 16,
-      "text": "You discover abilities and strengths you never knew you had before the apocalypse. How do you integrate this?",
-      "options": [
+      "question": "You discover abilities you never knew you had. How do you integrate this?",
+      "answers": [
         {
-          "text": "Embrace this new version of myself and explore further potential",
-          "weights": {"adaptability": 9, "resilience": 7, "optimism": 9, "pragmatism": 6, "innovation": 8, "stress_tolerance": 7, "flexibility": 8, "learning_ability": 8, "emotional_stability": 8, "change_acceptance": 9}
+          "text": "Embrace new version of myself and explore further potential",
+          "traits": {"flexible": 5, "innovative": 4, "resilient": 4, "pragmatic": 3, "optimistic": 5, "learning": 5, "strategic": 4, "stable": 3, "creative": 4, "realistic": 4, "social": 4, "tough": 4}
         },
         {
-          "text": "Use these new abilities while staying grounded in who I was",
-          "weights": {"adaptability": 7, "resilience": 7, "optimism": 7, "pragmatism": 7, "innovation": 6, "stress_tolerance": 6, "flexibility": 6, "learning_ability": 7, "emotional_stability": 7, "change_acceptance": 6}
+          "text": "Use new abilities while staying grounded in who I was",
+          "traits": {"flexible": 3, "innovative": 3, "resilient": 4, "pragmatic": 4, "optimistic": 3, "learning": 4, "strategic": 4, "stable": 5, "creative": 3, "realistic": 4, "social": 4, "tough": 3}
         },
         {
           "text": "Feel confused about who I really am anymore",
-          "weights": {"adaptability": 4, "resilience": 3, "optimism": 4, "pragmatism": 4, "innovation": 4, "stress_tolerance": 3, "flexibility": 4, "learning_ability": 4, "emotional_stability": 2, "change_acceptance": 4}
+          "traits": {"flexible": 2, "innovative": 2, "resilient": 2, "pragmatic": 2, "optimistic": 2, "learning": 2, "strategic": 2, "stable": 1, "creative": 2, "realistic": 2, "social": 2, "tough": 2}
         },
         {
-          "text": "Try to return to my old self - this isn't really me",
-          "weights": {"adaptability": 2, "resilience": 4, "optimism": 3, "pragmatism": 3, "innovation": 2, "stress_tolerance": 3, "flexibility": 2, "learning_ability": 3, "emotional_stability": 3, "change_acceptance": 1}
+          "text": "Try to return to old self - this isn't really me",
+          "traits": {"flexible": 1, "innovative": 1, "resilient": 2, "pragmatic": 1, "optimistic": 1, "learning": 1, "strategic": 1, "stable": 2, "creative": 1, "realistic": 1, "social": 2, "tough": 2}
+        },
+        {
+          "text": "Study these new abilities to understand their full potential",
+          "traits": {"flexible": 4, "innovative": 4, "resilient": 3, "pragmatic": 4, "optimistic": 4, "learning": 5, "strategic": 4, "stable": 3, "creative": 4, "realistic": 4, "social": 3, "tough": 3}
         }
       ]
     },
     {
-      "id": 17,
-      "text": "The community you've built starts developing its own unique culture different from the old world. How do you respond?",
-      "options": [
+      "question": "Community develops unique culture different from old world. How do you respond?",
+      "answers": [
         {
-          "text": "Help guide the development of this new culture positively",
-          "weights": {"adaptability": 8, "resilience": 7, "optimism": 8, "pragmatism": 7, "innovation": 8, "stress_tolerance": 6, "flexibility": 7, "learning_ability": 7, "emotional_stability": 7, "change_acceptance": 8}
+          "text": "Help guide development of this new culture positively",
+          "traits": {"flexible": 4, "innovative": 4, "resilient": 4, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 4, "stable": 4, "creative": 4, "realistic": 4, "social": 5, "tough": 3}
         },
         {
           "text": "Document both old and new ways so nothing is lost",
-          "weights": {"adaptability": 6, "resilience": 7, "optimism": 6, "pragmatism": 7, "innovation": 6, "stress_tolerance": 6, "flexibility": 6, "learning_ability": 8, "emotional_stability": 6, "change_acceptance": 6}
+          "traits": {"flexible": 3, "innovative": 3, "resilient": 3, "pragmatic": 4, "optimistic": 3, "learning": 5, "strategic": 4, "stable": 4, "creative": 3, "realistic": 4, "social": 4, "tough": 3}
         },
         {
           "text": "Try to preserve old cultural traditions and values",
-          "weights": {"adaptability": 4, "resilience": 6, "optimism": 5, "pragmatism": 4, "innovation": 3, "stress_tolerance": 5, "flexibility": 3, "learning_ability": 5, "emotional_stability": 6, "change_acceptance": 3}
+          "traits": {"flexible": 2, "innovative": 2, "resilient": 3, "pragmatic": 2, "optimistic": 3, "learning": 3, "strategic": 3, "stable": 4, "creative": 2, "realistic": 2, "social": 3, "tough": 3}
         },
         {
           "text": "Feel concerned about losing connection to human heritage",
-          "weights": {"adaptability": 3, "resilience": 4, "optimism": 3, "pragmatism": 4, "innovation": 3, "stress_tolerance": 3, "flexibility": 3, "learning_ability": 4, "emotional_stability": 3, "change_acceptance": 3}
+          "traits": {"flexible": 2, "innovative": 2, "resilient": 2, "pragmatic": 2, "optimistic": 2, "learning": 2, "strategic": 2, "stable": 3, "creative": 2, "realistic": 2, "social": 3, "tough": 2}
+        },
+        {
+          "text": "Celebrate emergence of something completely new and unique",
+          "traits": {"flexible": 4, "innovative": 5, "resilient": 3, "pragmatic": 3, "optimistic": 5, "learning": 4, "strategic": 3, "stable": 3, "creative": 5, "realistic": 3, "social": 4, "tough": 3}
         }
       ]
     },
     {
-      "id": 18,
-      "text": "Three years in, younger people born after the apocalypse think differently than pre-apocalypse survivors. How do you bridge this gap?",
-      "options": [
+      "question": "Younger people think differently than pre-apocalypse survivors. How bridge this gap?",
+      "answers": [
         {
-          "text": "Learn from their fresh perspectives while sharing hard-won wisdom",
-          "weights": {"adaptability": 8, "resilience": 7, "optimism": 8, "pragmatism": 7, "innovation": 7, "stress_tolerance": 6, "flexibility": 8, "learning_ability": 9, "emotional_stability": 7, "change_acceptance": 8}
+          "text": "Learn from their perspectives while sharing hard-won wisdom",
+          "traits": {"flexible": 5, "innovative": 4, "resilient": 4, "pragmatic": 4, "optimistic": 4, "learning": 5, "strategic": 4, "stable": 4, "creative": 4, "realistic": 4, "social": 5, "tough": 3}
         },
         {
-          "text": "Adapt my communication style to connect with their worldview",
-          "weights": {"adaptability": 9, "resilience": 6, "optimism": 7, "pragmatism": 7, "innovation": 7, "stress_tolerance": 6, "flexibility": 9, "learning_ability": 8, "emotional_stability": 6, "change_acceptance": 8}
+          "text": "Adapt communication style to connect with their worldview",
+          "traits": {"flexible": 5, "innovative": 3, "resilient": 3, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 4, "stable": 3, "creative": 4, "realistic": 3, "social": 5, "tough": 3}
         },
         {
           "text": "Focus on teaching them about the world that was lost",
-          "weights": {"adaptability": 4, "resilience": 6, "optimism": 5, "pragmatism": 5, "innovation": 4, "stress_tolerance": 5, "flexibility": 3, "learning_ability": 6, "emotional_stability": 5, "change_acceptance": 3}
+          "traits": {"flexible": 2, "innovative": 2, "resilient": 3, "pragmatic": 3, "optimistic": 2, "learning": 3, "strategic": 3, "stable": 4, "creative": 2, "realistic": 3, "social": 3, "tough": 3}
         },
         {
-          "text": "Feel like there's an unbridgeable generational divide",
-          "weights": {"adaptability": 2, "resilience": 3, "optimism": 2, "pragmatism": 3, "innovation": 2, "stress_tolerance": 2, "flexibility": 2, "learning_ability": 3, "emotional_stability": 2, "change_acceptance": 2}
+          "text": "Feel like there's unbridgeable generational divide",
+          "traits": {"flexible": 1, "innovative": 1, "resilient": 1, "pragmatic": 2, "optimistic": 1, "learning": 2, "strategic": 2, "stable": 2, "creative": 1, "realistic": 2, "social": 1, "tough": 2}
+        },
+        {
+          "text": "Create new traditions that honor both old and new perspectives",
+          "traits": {"flexible": 4, "innovative": 5, "resilient": 4, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 4, "stable": 4, "creative": 5, "realistic": 4, "social": 5, "tough": 3}
         }
       ]
     },
     {
-      "id": 19,
-      "text": "You realize that some of your adaptations have changed you in ways you didn't expect. How do you feel about this?",
-      "options": [
+      "question": "Adaptations have changed you in unexpected ways. How do you feel?",
+      "answers": [
         {
           "text": "Accept that growth and change are natural parts of life",
-          "weights": {"adaptability": 8, "resilience": 8, "optimism": 7, "pragmatism": 7, "innovation": 6, "stress_tolerance": 7, "flexibility": 7, "learning_ability": 7, "emotional_stability": 8, "change_acceptance": 9}
+          "traits": {"flexible": 5, "innovative": 3, "resilient": 5, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 4, "stable": 4, "creative": 3, "realistic": 5, "social": 4, "tough": 4}
         },
         {
-          "text": "Evaluate which changes serve me and which I want to modify",
-          "weights": {"adaptability": 7, "resilience": 7, "optimism": 6, "pragmatism": 8, "innovation": 7, "stress_tolerance": 6, "flexibility": 7, "learning_ability": 8, "emotional_stability": 7, "change_acceptance": 7}
+          "text": "Evaluate which changes serve me and which to modify",
+          "traits": {"flexible": 4, "innovative": 3, "resilient": 4, "pragmatic": 5, "optimistic": 3, "learning": 4, "strategic": 5, "stable": 4, "creative": 3, "realistic": 4, "social": 3, "tough": 4}
         },
         {
-          "text": "Try to reverse changes that feel foreign to my core identity",
-          "weights": {"adaptability": 3, "resilience": 5, "optimism": 4, "pragmatism": 4, "innovation": 3, "stress_tolerance": 4, "flexibility": 3, "learning_ability": 4, "emotional_stability": 4, "change_acceptance": 2}
+          "text": "Try to reverse changes that feel foreign to core identity",
+          "traits": {"flexible": 1, "innovative": 2, "resilient": 2, "pragmatic": 2, "optimistic": 2, "learning": 2, "strategic": 2, "stable": 3, "creative": 2, "realistic": 2, "social": 2, "tough": 3}
         },
         {
           "text": "Worry that I'm becoming someone I don't recognize",
-          "weights": {"adaptability": 3, "resilience": 2, "optimism": 2, "pragmatism": 3, "innovation": 2, "stress_tolerance": 2, "flexibility": 3, "learning_ability": 3, "emotional_stability": 1, "change_acceptance": 2}
+          "traits": {"flexible": 2, "innovative": 1, "resilient": 1, "pragmatic": 2, "optimistic": 1, "learning": 2, "strategic": 2, "stable": 1, "creative": 1, "realistic": 2, "social": 2, "tough": 2}
+        },
+        {
+          "text": "Document the changes to understand my evolution better",
+          "traits": {"flexible": 3, "innovative": 3, "resilient": 3, "pragmatic": 4, "optimistic": 3, "learning": 5, "strategic": 4, "stable": 3, "creative": 3, "realistic": 4, "social": 3, "tough": 3}
         }
       ]
     },
     {
-      "id": 20,
-      "text": "Signs emerge that the apocalyptic conditions might be improving. How do you prepare for potential recovery?",
-      "options": [
+      "question": "Signs emerge that conditions might be improving. How do you prepare?",
+      "answers": [
         {
           "text": "Start planning for transition while maintaining current adaptations",
-          "weights": {"adaptability": 8, "resilience": 7, "optimism": 8, "pragmatism": 9, "innovation": 7, "stress_tolerance": 7, "flexibility": 8, "learning_ability": 8, "emotional_stability": 7, "change_acceptance": 8}
+          "traits": {"flexible": 4, "innovative": 4, "resilient": 4, "pragmatic": 5, "optimistic": 4, "learning": 4, "strategic": 5, "stable": 4, "creative": 4, "realistic": 4, "social": 4, "tough": 4}
         },
         {
           "text": "Remain flexible and ready to adapt to whatever comes next",
-          "weights": {"adaptability": 9, "resilience": 7, "optimism": 7, "pragmatism": 8, "innovation": 7, "stress_tolerance": 7, "flexibility": 9, "learning_ability": 7, "emotional_stability": 7, "change_acceptance": 9}
+          "traits": {"flexible": 5, "innovative": 4, "resilient": 4, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 4, "stable": 3, "creative": 4, "realistic": 4, "social": 3, "tough": 4}
         },
         {
           "text": "Hope to return to something like the old world",
-          "weights": {"adaptability": 4, "resilience": 5, "optimism": 7, "pragmatism": 4, "innovation": 3, "stress_tolerance": 5, "flexibility": 3, "learning_ability": 4, "emotional_stability": 6, "change_acceptance": 3}
+          "traits": {"flexible": 2, "innovative": 2, "resilient": 2, "pragmatic": 2, "optimistic": 4, "learning": 2, "strategic": 2, "stable": 3, "creative": 2, "realistic": 2, "social": 3, "tough": 2}
         },
         {
-          "text": "Feel anxious about having to adapt to yet another major change",
-          "weights": {"adaptability": 3, "resilience": 2, "optimism": 3, "pragmatism": 4, "innovation": 2, "stress_tolerance": 1, "flexibility": 3, "learning_ability": 3, "emotional_stability": 1, "change_acceptance": 2}
+          "text": "Feel anxious about having to adapt to yet another change",
+          "traits": {"flexible": 1, "innovative": 1, "resilient": 1, "pragmatic": 2, "optimistic": 1, "learning": 2, "strategic": 2, "stable": 1, "creative": 1, "realistic": 2, "social": 2, "tough": 1}
+        },
+        {
+          "text": "See opportunity to apply lessons learned to rebuilding",
+          "traits": {"flexible": 4, "innovative": 5, "resilient": 4, "pragmatic": 4, "optimistic": 5, "learning": 5, "strategic": 5, "stable": 3, "creative": 5, "realistic": 4, "social": 4, "tough": 4}
         }
       ]
     },
     {
-      "id": 21,
-      "text": "You meet pre-apocalypse authority figures who want to restore old systems exactly as they were. How do you respond?",
-      "options": [
+      "question": "Pre-apocalypse authorities want to restore old systems exactly. How do you respond?",
+      "answers": [
         {
           "text": "Share lessons learned and push for improved systems",
-          "weights": {"adaptability": 7, "resilience": 7, "optimism": 7, "pragmatism": 8, "innovation": 8, "stress_tolerance": 6, "flexibility": 7, "learning_ability": 8, "emotional_stability": 7, "change_acceptance": 7}
+          "traits": {"flexible": 4, "innovative": 5, "resilient": 4, "pragmatic": 4, "optimistic": 4, "learning": 5, "strategic": 5, "stable": 4, "creative": 4, "realistic": 4, "social": 5, "tough": 4}
         },
         {
           "text": "Evaluate each old system to see what's worth keeping",
-          "weights": {"adaptability": 6, "resilience": 6, "optimism": 6, "pragmatism": 9, "innovation": 6, "stress_tolerance": 6, "flexibility": 6, "learning_ability": 8, "emotional_stability": 6, "change_acceptance": 6}
+          "traits": {"flexible": 4, "innovative": 3, "resilient": 3, "pragmatic": 5, "optimistic": 3, "learning": 4, "strategic": 5, "stable": 4, "creative": 3, "realistic": 5, "social": 4, "tough": 3}
         },
         {
           "text": "Support restoration - the old ways were better",
-          "weights": {"adaptability": 3, "resilience": 5, "optimism": 6, "pragmatism": 4, "innovation": 2, "stress_tolerance": 5, "flexibility": 2, "learning_ability": 3, "emotional_stability": 5, "change_acceptance": 2}
+          "traits": {"flexible": 1, "innovative": 1, "resilient": 2, "pragmatic": 2, "optimistic": 3, "learning": 2, "strategic": 2, "stable": 4, "creative": 1, "realistic": 2, "social": 3, "tough": 3}
         },
         {
           "text": "Resist - we've evolved beyond those old systems",
-          "weights": {"adaptability": 6, "resilience": 6, "optimism": 5, "pragmatism": 5, "innovation": 7, "stress_tolerance": 6, "flexibility": 5, "learning_ability": 6, "emotional_stability": 6, "change_acceptance": 7}
+          "traits": {"flexible": 3, "innovative": 4, "resilient": 3, "pragmatic": 3, "optimistic": 3, "learning": 3, "strategic": 3, "stable": 2, "creative": 4, "realistic": 3, "social": 3, "tough": 4}
+        },
+        {
+          "text": "Propose hybrid approach combining old and new wisdom",
+          "traits": {"flexible": 5, "innovative": 4, "resilient": 4, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 5, "stable": 4, "creative": 4, "realistic": 4, "social": 5, "tough": 3}
         }
       ]
     },
     {
-      "id": 22,
-      "text": "Five years later, you're helping establish new permanent institutions. What's your approach?",
-      "options": [
+      "question": "Five years later, establishing new permanent institutions. What's your approach?",
+      "answers": [
         {
           "text": "Design flexible institutions that can evolve with changing needs",
-          "weights": {"adaptability": 9, "resilience": 7, "optimism": 8, "pragmatism": 8, "innovation": 9, "stress_tolerance": 7, "flexibility": 9, "learning_ability": 8, "emotional_stability": 7, "change_acceptance": 8}
+          "traits": {"flexible": 5, "innovative": 5, "resilient": 4, "pragmatic": 4, "optimistic": 4, "learning": 5, "strategic": 5, "stable": 4, "creative": 5, "realistic": 4, "social": 5, "tough": 4}
         },
         {
           "text": "Combine the best of old and new approaches",
-          "weights": {"adaptability": 7, "resilience": 7, "optimism": 7, "pragmatism": 8, "innovation": 7, "stress_tolerance": 6, "flexibility": 7, "learning_ability": 8, "emotional_stability": 7, "change_acceptance": 7}
+          "traits": {"flexible": 4, "innovative": 4, "resilient": 4, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 4, "stable": 4, "creative": 4, "realistic": 4, "social": 4, "tough": 3}
         },
         {
           "text": "Focus on recreating proven institutional models from before",
-          "weights": {"adaptability": 4, "resilience": 6, "optimism": 5, "pragmatism": 6, "innovation": 3, "stress_tolerance": 5, "flexibility": 3, "learning_ability": 5, "emotional_stability": 6, "change_acceptance": 3}
+          "traits": {"flexible": 2, "innovative": 2, "resilient": 3, "pragmatic": 3, "optimistic": 3, "learning": 3, "strategic": 3, "stable": 4, "creative": 2, "realistic": 3, "social": 3, "tough": 3}
         },
         {
           "text": "Create entirely new institutions based on apocalypse lessons",
-          "weights": {"adaptability": 7, "resilience": 6, "optimism": 7, "pragmatism": 6, "innovation": 9, "stress_tolerance": 6, "flexibility": 7, "learning_ability": 7, "emotional_stability": 6, "change_acceptance": 8}
+          "traits": {"flexible": 4, "innovative": 5, "resilient": 4, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 4, "stable": 3, "creative": 5, "realistic": 4, "social": 4, "tough": 4}
+        },
+        {
+          "text": "Build institutions that prioritize crisis response capabilities",
+          "traits": {"flexible": 4, "innovative": 4, "resilient": 5, "pragmatic": 5, "optimistic": 3, "learning": 4, "strategic": 5, "stable": 4, "creative": 4, "realistic": 5, "social": 4, "tough": 5}
         }
       ]
     },
     {
-      "id": 23,
-      "text": "Children who don't remember the old world ask you what it was like. How do you explain it?",
-      "options": [
+      "question": "Children ask what the old world was like. How do you explain?",
+      "answers": [
         {
-          "text": "Share both the good and bad aspects honestly",
-          "weights": {"adaptability": 7, "resilience": 7, "optimism": 6, "pragmatism": 8, "innovation": 6, "stress_tolerance": 6, "flexibility": 6, "learning_ability": 7, "emotional_stability": 7, "change_acceptance": 7}
+          "text": "Share both good and bad aspects honestly and completely",
+          "traits": {"flexible": 3, "innovative": 3, "resilient": 4, "pragmatic": 4, "optimistic": 3, "learning": 4, "strategic": 4, "stable": 4, "creative": 3, "realistic": 5, "social": 4, "tough": 3}
         },
         {
-          "text": "Focus on lessons that can help them build a better future",
-          "weights": {"adaptability": 7, "resilience": 7, "optimism": 8, "pragmatism": 7, "innovation": 7, "stress_tolerance": 6, "flexibility": 7, "learning_ability": 8, "emotional_stability": 7, "change_acceptance": 7}
+          "text": "Focus on lessons that can help them build better future",
+          "traits": {"flexible": 4, "innovative": 4, "resilient": 4, "pragmatic": 4, "optimistic": 5, "learning": 5, "strategic": 4, "stable": 4, "creative": 4, "realistic": 4, "social": 5, "tough": 3}
         },
         {
-          "text": "Emphasize what was wonderful and worth preserving",
-          "weights": {"adaptability": 4, "resilience": 6, "optimism": 7, "pragmatism": 4, "innovation": 4, "stress_tolerance": 5, "flexibility": 4, "learning_ability": 5, "emotional_stability": 6, "change_acceptance": 4}
+          "text": "Emphasize what was wonderful and worth preserving always",
+          "traits": {"flexible": 2, "innovative": 2, "resilient": 3, "pragmatic": 2, "optimistic": 4, "learning": 3, "strategic": 2, "stable": 4, "creative": 2, "realistic": 2, "social": 4, "tough": 2}
         },
         {
-          "text": "Tell them they're better off not knowing",
-          "weights": {"adaptability": 5, "resilience": 4, "optimism": 3, "pragmatism": 5, "innovation": 3, "stress_tolerance": 4, "flexibility": 4, "learning_ability": 3, "emotional_stability": 4, "change_acceptance": 4}
+          "text": "Tell them they're better off not knowing those details",
+          "traits": {"flexible": 2, "innovative": 2, "resilient": 2, "pragmatic": 3, "optimistic": 2, "learning": 2, "strategic": 3, "stable": 3, "creative": 2, "realistic": 3, "social": 2, "tough": 3}
+        },
+        {
+          "text": "Help them understand how past shaped present opportunities",
+          "traits": {"flexible": 4, "innovative": 4, "resilient": 4, "pragmatic": 4, "optimistic": 4, "learning": 5, "strategic": 4, "stable": 4, "creative": 4, "realistic": 4, "social": 4, "tough": 3}
         }
       ]
     },
     {
-      "id": 24,
-      "text": "Looking toward the future, you must choose between stability and continued evolution. What do you prioritize?",
-      "options": [
+      "question": "Choose between stability and continued evolution. What do you prioritize?",
+      "answers": [
         {
           "text": "Build in capacity for ongoing adaptation and growth",
-          "weights": {"adaptability": 9, "resilience": 7, "optimism": 8, "pragmatism": 7, "innovation": 9, "stress_tolerance": 7, "flexibility": 9, "learning_ability": 9, "emotional_stability": 7, "change_acceptance": 9}
+          "traits": {"flexible": 5, "innovative": 5, "resilient": 4, "pragmatic": 4, "optimistic": 4, "learning": 5, "strategic": 5, "stable": 3, "creative": 5, "realistic": 4, "social": 4, "tough": 4}
         },
         {
           "text": "Balance stability with controlled, gradual change",
-          "weights": {"adaptability": 7, "resilience": 8, "optimism": 7, "pragmatism": 9, "innovation": 6, "stress_tolerance": 7, "flexibility": 7, "learning_ability": 7, "emotional_stability": 8, "change_acceptance": 7}
+          "traits": {"flexible": 4, "innovative": 3, "resilient": 4, "pragmatic": 5, "optimistic": 3, "learning": 4, "strategic": 5, "stable": 5, "creative": 3, "realistic": 4, "social": 4, "tough": 4}
         },
         {
-          "text": "Prioritize stability - we've had enough change",
-          "weights": {"adaptability": 4, "resilience": 7, "optimism": 5, "pragmatism": 6, "innovation": 3, "stress_tolerance": 6, "flexibility": 3, "learning_ability": 4, "emotional_stability": 7, "change_acceptance": 3}
+          "text": "Prioritize stability - we've had enough change for now",
+          "traits": {"flexible": 2, "innovative": 2, "resilient": 3, "pragmatic": 3, "optimistic": 3, "learning": 2, "strategic": 3, "stable": 5, "creative": 2, "realistic": 3, "social": 3, "tough": 3}
         },
         {
           "text": "Keep evolving rapidly - stagnation leads to death",
-          "weights": {"adaptability": 8, "resilience": 6, "optimism": 7, "pragmatism": 5, "innovation": 9, "stress_tolerance": 6, "flexibility": 8, "learning_ability": 8, "emotional_stability": 5, "change_acceptance": 8}
+          "traits": {"flexible": 5, "innovative": 5, "resilient": 4, "pragmatic": 3, "optimistic": 4, "learning": 5, "strategic": 4, "stable": 2, "creative": 5, "realistic": 3, "social": 3, "tough": 5}
+        },
+        {
+          "text": "Create systems that automatically adapt to changing conditions",
+          "traits": {"flexible": 5, "innovative": 5, "resilient": 4, "pragmatic": 4, "optimistic": 4, "learning": 5, "strategic": 5, "stable": 4, "creative": 5, "realistic": 4, "social": 4, "tough": 4}
         }
       ]
     },
     {
-      "id": 25,
-      "text": "Reflecting on your journey, what aspect of adaptation do you consider most important for long-term survival?",
-      "options": [
+      "question": "Most important aspect of adaptation for long-term survival?",
+      "answers": [
         {
-          "text": "Mental flexibility - the ability to change thinking patterns",
-          "weights": {"adaptability": 8, "resilience": 6, "optimism": 6, "pragmatism": 7, "innovation": 7, "stress_tolerance": 6, "flexibility": 9, "learning_ability": 8, "emotional_stability": 6, "change_acceptance": 8}
+          "text": "Mental flexibility - ability to change thinking patterns completely",
+          "traits": {"flexible": 5, "innovative": 4, "resilient": 4, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 4, "stable": 3, "creative": 4, "realistic": 4, "social": 3, "tough": 4}
         },
         {
           "text": "Continuous learning - always acquiring new skills and knowledge",
-          "weights": {"adaptability": 7, "resilience": 7, "optimism": 7, "pragmatism": 8, "innovation": 8, "stress_tolerance": 6, "flexibility": 7, "learning_ability": 9, "emotional_stability": 6, "change_acceptance": 7}
+          "traits": {"flexible": 4, "innovative": 4, "resilient": 4, "pragmatic": 4, "optimistic": 4, "learning": 5, "strategic": 4, "stable": 4, "creative": 4, "realistic": 4, "social": 4, "tough": 4}
         },
         {
-          "text": "Emotional resilience - bouncing back from setbacks",
-          "weights": {"adaptability": 6, "resilience": 9, "optimism": 7, "pragmatism": 6, "innovation": 5, "stress_tolerance": 8, "flexibility": 6, "learning_ability": 6, "emotional_stability": 9, "change_acceptance": 6}
+          "text": "Emotional resilience - bouncing back from setbacks strongly",
+          "traits": {"flexible": 3, "innovative": 3, "resilient": 5, "pragmatic": 4, "optimistic": 4, "learning": 3, "strategic": 4, "stable": 5, "creative": 3, "realistic": 4, "social": 4, "tough": 5}
         },
         {
           "text": "Innovation - creating new solutions to unprecedented problems",
-          "weights": {"adaptability": 7, "resilience": 6, "optimism": 8, "pragmatism": 6, "innovation": 9, "stress_tolerance": 6, "flexibility": 7, "learning_ability": 8, "emotional_stability": 6, "change_acceptance": 7}
+          "traits": {"flexible": 4, "innovative": 5, "resilient": 3, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 4, "stable": 3, "creative": 5, "realistic": 4, "social": 3, "tough": 4}
+        },
+        {
+          "text": "Community building - nobody survives alone in new world",
+          "traits": {"flexible": 4, "innovative": 4, "resilient": 4, "pragmatic": 4, "optimistic": 4, "learning": 4, "strategic": 4, "stable": 4, "creative": 4, "realistic": 4, "social": 5, "tough": 4}
         }
       ]
     }
   ],
-  "results": [
-    {
-      "id": "evolution_master",
-      "title": "Evolution Master",
-      "shortDescription": "You don't just adapt to change - you evolve with it. Your ability to transform challenges into opportunities makes you a master of continuous growth and improvement.",
-      "extendedDescription": [
-        "You've transcended mere survival to become something more - a conscious agent of your own evolution. Your approach to the apocalypse isn't just about adapting to circumstances, but about using every challenge as a catalyst for personal and collective growth. You see change not as a threat to be endured, but as raw material for becoming something better than you were before.",
-        "Your mindset is fundamentally generative - you don't just respond to problems, you transform them into solutions that didn't exist before. Your ability to find opportunities within disasters, to discover strengths you never knew you had, and to help others do the same has made you a force for positive transformation in the worst of circumstances.",
-        "What sets you apart is your embrace of uncertainty as creative potential. While others fear the unknown, you approach it with curiosity and confidence, knowing that your ability to learn, adapt, and innovate will turn whatever comes into something valuable. Your flexibility isn't just reactive - it's proactive and intentional.",
-        "Your legacy will be the transformed communities and evolved humans you've helped create. You've proven that apocalyptic disasters don't have to diminish humanity - they can be the crucible that forges something stronger, wiser, and more resilient than what came before."
-      ]
+  "results": {
+    "flexible": {
+      "title": "The Adaptive Shapeshifter",
+      "description": "You bend without breaking when the world changes around you. Your flexibility allows you to adjust to any situation while maintaining your core identity and purpose.",
+      "extended": "Your superpower in the post-apocalyptic world is your incredible ability to adapt your thinking, behavior, and approach to match whatever reality throws at you. You don't fight change - you dance with it, finding ways to make every new circumstance work in your favor while staying true to your essential self.\n\nYour flexibility isn't just reactive; it's intelligent and strategic. You can read situations quickly, assess what needs to change, and implement adjustments without getting stuck in old patterns that no longer serve you. This mental agility has kept you alive when more rigid personalities have broken under pressure.\n\nWhat makes you valuable to any community is your ability to help others navigate change without losing their identity. You show people that adaptation doesn't mean abandoning who they are - it means becoming the best version of themselves for the current reality. Your example helps others embrace change instead of fighting it.\n\nYour legacy will be the communities you've helped transition successfully through impossible changes, proving that flexibility is not weakness but the ultimate strength. You've demonstrated that those who can bend with the storm not only survive but thrive in ways that seemed impossible before the world ended."
     },
-    {
-      "id": "adaptive_innovator",
-      "title": "Adaptive Innovator",
-      "shortDescription": "You turn limitations into innovations. Your creative problem-solving and rapid adaptation have revolutionized survival techniques and community building.",
-      "extendedDescription": [
-        "When the old world's tools and methods became useless, you didn't just learn to do without - you invented better alternatives. Your combination of creative thinking and practical adaptation has made you the person who finds solutions where others see only problems. You've turned resource scarcity into an opportunity for innovation.",
-        "Your approach to survival is fundamentally creative. You see limitations as design challenges, problems as puzzles to solve, and constraints as parameters that inspire ingenious solutions. Your innovations don't just help you survive - they improve the quality of life for entire communities and create new possibilities that didn't exist before.",
-        "What makes you valuable is your ability to think outside conventional frameworks. You don't just adapt existing methods to new circumstances - you create entirely new approaches that are often better than what they replaced. Your innovations have changed how people think about what's possible in the post-apocalyptic world.",
-        "Your legacy will be the revolutionary techniques, tools, and systems you've developed that have fundamentally improved how humanity survives and thrives. Your innovations will influence reconstruction efforts and provide templates for building a better civilization from the ground up."
-      ]
+    "innovative": {
+      "title": "The Solution Creator",
+      "description": "You turn problems into opportunities by inventing new ways to do everything. Your creative problem-solving has revolutionized survival and given hope when old methods failed.",
+      "extended": "When everyone else sees obstacles, you see puzzles waiting to be solved. Your innovative mind has become humanity's secret weapon against extinction, consistently finding solutions where others see only dead ends. You've turned the apocalypse into an invention laboratory, creating better ways to live from the wreckage of the old world.\n\nYour innovations aren't just clever tricks - they're fundamental improvements that make life better for everyone around you. You've taken the constraints of the post-apocalyptic world and used them as design parameters for creating something entirely new and often superior to what existed before.\n\nWhat sets you apart is your ability to think outside conventional frameworks completely. You don't just modify existing solutions; you create entirely new approaches that often work better than anything from the old world. Your creativity has changed how people think about what's possible when everything seems impossible.\n\nYour legacy will be the revolutionary techniques, tools, and systems that fundamentally improve human survival and prosperity. Your innovations will provide the foundation for rebuilding civilization in ways that are stronger, smarter, and more sustainable than what came before. You've proven that destruction can be the beginning of creation."
     },
-    {
-      "id": "flexible_strategist",
-      "title": "Flexible Strategist",
-      "shortDescription": "You plan for multiple futures simultaneously. Your strategic thinking combined with tactical flexibility has created robust systems that work in any scenario.",
-      "extendedDescription": [
-        "You've mastered the art of planning for uncertainty. Your strategic mind doesn't just create single plans - it develops adaptive frameworks that can shift and evolve as circumstances change. Your approach combines long-term vision with short-term flexibility, creating strategies that are both robust and responsive.",
-        "Your strength lies in systems thinking that accounts for change as a constant. You build redundancy, flexibility, and evolution into every plan, creating structures that don't just survive disruption but use it as fuel for improvement. Your strategies are living documents that grow stronger through testing and refinement.",
-        "What sets you apart is your ability to balance multiple timelines and scenarios simultaneously. You can make immediate tactical decisions while maintaining strategic coherence, ensuring that short-term adaptations serve long-term goals. Your planning creates stability through flexibility rather than rigidity.",
-        "Your legacy will be the adaptive systems and strategic frameworks you've developed that allow communities to navigate uncertainty with confidence. Your planning methods will become essential tools for building resilient societies that can thrive regardless of what challenges emerge."
-      ]
+    "resilient": {
+      "title": "The Unbreakable Spirit",
+      "description": "You bounce back stronger from every setback and help others find hope in the darkest times. Your mental toughness has become a beacon of hope for struggling communities.",
+      "extended": "While others break under the weight of constant stress and loss, you've developed an almost supernatural ability to absorb punishment and emerge stronger. Your resilience isn't just about enduring hardship - it's about transforming pain into power and using every setback as fuel for future success.\n\nYour strength goes beyond personal survival; you've become a source of psychological stability for entire communities. When others are ready to give up, your example reminds them that recovery is possible and that human spirit is ultimately unbreakable. Your resilience has saved not just your own life but the lives of countless others who found hope through your example.\n\nWhat makes you essential is your combination of personal toughness with compassionate support for others. You don't just endure hardship alone - you help others develop their own capacity for resilience, creating networks of mutual support that make entire communities more resistant to psychological collapse.\n\nYour legacy will be the psychological frameworks and support systems that help humans maintain their humanity under extreme stress. Your resilience-building techniques will be crucial for helping future generations handle whatever challenges emerge, proving that the human spirit can survive anything when properly supported and nurtured."
     },
-    {
-      "id": "resilience_champion",
-      "title": "Resilience Champion",
-      "shortDescription": "You bounce back stronger from every setback. Your emotional resilience and mental toughness help others find hope and strength in the darkest times.",
-      "extendedDescription": [
-        "You've become a living example of what human resilience can achieve. Your ability to absorb incredible stress, process devastating losses, and emerge stronger from each challenge has made you a source of hope and inspiration for others facing their own breaking points. Your resilience isn't just personal - it's contagious.",
-        "Your approach to adaptation is fundamentally psychological. You understand that surviving the apocalypse is as much about maintaining mental health and emotional stability as it is about physical survival. Your techniques for processing trauma, managing stress, and finding meaning in chaos have helped countless others avoid psychological collapse.",
-        "What makes you essential is your combination of personal toughness with compassionate support for others. You don't just endure hardship - you help others develop their own capacity for resilience. Your emotional strength becomes a foundation that allows entire communities to maintain hope and purpose.",
-        "Your legacy will be the psychological frameworks and support systems you've developed that help humans maintain their humanity under extreme stress. Your resilience-building techniques will be crucial for helping future generations handle whatever challenges they face."
-      ]
+    "pragmatic": {
+      "title": "The Practical Survivor",
+      "description": "You focus on what works rather than what feels good. Your practical approach cuts through emotion and sentiment to make the hard choices that actually improve survival odds.",
+      "extended": "You've stripped survival down to its essentials and mastered the art of making decisions based on evidence rather than emotion. Your pragmatic approach means you can navigate impossible choices without getting paralyzed by sentiment, tradition, or wishful thinking about how things should be.\n\nYour strength lies in your ability to see reality clearly and respond to it effectively, regardless of how uncomfortable that reality might be. You don't waste energy on denial or false hope - you invest it in practical solutions that actually work. This clear-eyed approach has kept you and others alive when more idealistic approaches have failed.\n\nWhat makes you valuable is your ability to separate what's essential from what's merely preferred. You can abandon methods, relationships, and even beliefs that no longer serve survival needs while maintaining focus on core objectives. Your flexibility is purposeful and strategic rather than merely reactive.\n\nYour legacy will be the practical frameworks and evidence-based approaches that help others make effective decisions during chaotic times. Your pragmatic methods will provide stable foundations for rebuilding efforts based on what actually works rather than what people wish would work, ensuring that new societies are built on solid ground."
     },
-    {
-      "id": "learning_machine",
-      "title": "Learning Machine",
-      "shortDescription": "You turn every experience into education. Your rapid learning ability and knowledge synthesis have made you a master of any skill the apocalypse demands.",
-      "extendedDescription": [
-        "You've transformed yourself into a continuous learning system that can master any skill or knowledge domain that survival requires. Your ability to rapidly acquire new competencies, synthesize information from multiple sources, and apply learning in practical contexts has made you incredibly versatile and valuable.",
-        "Your approach to adaptation is fundamentally educational. You see every challenge as a learning opportunity, every failure as data for improvement, and every success as a foundation for building more knowledge. Your learning methods are efficient, practical, and immediately applicable to real-world problems.",
-        "What sets you apart is your meta-learning skills - you don't just learn things, you learn how to learn better. Your techniques for rapid skill acquisition, knowledge retention, and practical application have not only served your own adaptation but have helped you teach others more effectively.",
-        "Your legacy will be the learning systems and educational methods you've developed that allow people to rapidly adapt to changing circumstances. Your teaching and learning techniques will be essential for helping communities build the diverse skill sets needed for long-term survival and prosperity."
-      ]
+    "optimistic": {
+      "title": "The Hope Keeper",
+      "description": "You find opportunity in every disaster and maintain hope when others despair. Your positive outlook has kept communities motivated through seemingly impossible challenges.",
+      "extended": "You've maintained something precious that many others have lost - the ability to find hope, opportunity, and even joy in the midst of apocalyptic destruction. Your optimistic approach to adaptation has not only kept your own spirits up but has become a vital source of community morale when despair threatens to overwhelm survival efforts.\n\nYour strength lies in reframing challenges as opportunities and finding silver linings that others miss completely. You don't ignore the reality of loss and hardship, but you consistently identify ways that change and upheaval can lead to better outcomes. Your positive vision helps others see possibilities they couldn't see alone.\n\nWhat sets you apart is your ability to maintain hope without denial and optimism without naivety. Your positive outlook is grounded in real evidence of human potential and practical possibilities for improvement. Your hope is infectious and helps others find their own reasons to keep fighting and building instead of giving up.\n\nYour legacy will be the communities you've helped maintain hope during their darkest hours and the optimistic frameworks that help people find meaning and possibility even in devastating circumstances. You've proven that hope itself is a survival skill and that optimism can be the foundation for rebuilding a better world from the ashes of the old."
     },
-    {
-      "id": "change_navigator",
-      "title": "Change Navigator",
-      "shortDescription": "You guide others through transitions. Your ability to help people and communities adapt to change has made you essential for group survival and growth.",
-      "extendedDescription": [
-        "You've become the person others turn to when change feels overwhelming and the path forward is unclear. Your talent for helping individuals and groups navigate transitions, process difficult changes, and find stability in uncertainty has made you a crucial leader during humanity's most challenging adaptation period.",
-        "Your approach to adaptation focuses on the human element of change management. You understand that successful adaptation isn't just about individual flexibility - it's about helping entire communities move through transitions together while maintaining social cohesion and shared purpose. Your guidance helps groups evolve without losing their essential identity.",
-        "What makes you invaluable is your combination of empathy with practical change management skills. You can read the emotional and social dynamics that make adaptation difficult, address resistance and fear constructively, and create processes that help people embrace rather than fight necessary changes.",
-        "Your legacy will be the thriving communities you've helped successfully navigate major transitions and the change management techniques that enable groups to adapt collectively rather than fragmenting under pressure. Your methods will be essential for helping humanity rebuild cohesive societies."
-      ]
+    "learning": {
+      "title": "The Knowledge Machine",
+      "description": "You turn every experience into education and can master any skill survival demands. Your rapid learning ability makes you invaluable in constantly changing circumstances.",
+      "extended": "You've transformed yourself into a continuous learning system that can master any skill or knowledge domain that survival requires. Your ability to rapidly acquire new competencies, synthesize information from multiple sources, and apply learning in practical contexts has made you incredibly versatile and valuable in the post-apocalyptic world.\n\nYour approach to adaptation is fundamentally educational. You see every challenge as a learning opportunity, every failure as data for improvement, and every success as a foundation for building more knowledge. Your learning methods are efficient, practical, and immediately applicable to real-world survival problems.\n\nWhat sets you apart is your meta-learning skills - you don't just learn things, you learn how to learn better and faster. Your techniques for rapid skill acquisition, knowledge retention, and practical application have not only served your own adaptation but have helped you teach others more effectively than traditional educational methods.\n\nYour legacy will be the learning systems and educational methods that allow people to rapidly adapt to changing circumstances. Your teaching and learning techniques will be essential for helping communities build the diverse skill sets needed for long-term survival and prosperity, ensuring that human knowledge continues to grow even in the darkest times."
     },
-    {
-      "id": "optimistic_adapter",
-      "title": "Optimistic Adapter",
-      "shortDescription": "You find hope in every change. Your positive outlook and ability to see opportunities in disasters have helped communities maintain morale through impossible challenges.",
-      "extendedDescription": [
-        "You've maintained something precious that many others lost - the ability to find hope, opportunity, and even joy in the midst of apocalyptic destruction. Your optimistic approach to adaptation has not only kept your own spirits up but has become a vital source of community morale and motivation when despair threatens to overwhelm survival efforts.",
-        "Your strength lies in reframing challenges as opportunities and finding silver linings that others miss. You don't ignore the reality of loss and hardship, but you consistently identify ways that change and upheaval can lead to better outcomes. Your positive vision helps others see possibilities they couldn't see alone.",
-        "What sets you apart is your ability to maintain hope without denial and optimism without naivety. Your positive outlook is grounded in real evidence of human potential and practical possibilities for improvement. Your hope is infectious and helps others find their own reasons to keep fighting and building.",
-        "Your legacy will be the communities you've helped maintain hope during their darkest hours and the optimistic frameworks that help people find meaning and possibility even in devastating circumstances. Your positive adaptation has proven that hope itself is a survival skill."
-      ]
+    "strategic": {
+      "title": "The Master Planner",
+      "description": "You plan for multiple futures simultaneously and create systems that work in any scenario. Your strategic thinking has built robust foundations for long-term survival.",
+      "extended": "You've mastered the art of planning for uncertainty by developing adaptive frameworks that can shift and evolve as circumstances change. Your strategic mind doesn't just create single plans - it builds systems that are both robust and responsive, creating stability through flexibility rather than rigidity.\n\nYour strength lies in systems thinking that accounts for change as a constant factor. You build redundancy, flexibility, and evolution into every plan, creating structures that don't just survive disruption but use it as fuel for improvement. Your strategies are living documents that grow stronger through testing and refinement.\n\nWhat sets you apart is your ability to balance multiple timelines and scenarios simultaneously. You can make immediate tactical decisions while maintaining strategic coherence, ensuring that short-term adaptations serve long-term goals. Your planning creates predictable outcomes even in unpredictable circumstances.\n\nYour legacy will be the adaptive systems and strategic frameworks that allow communities to navigate uncertainty with confidence. Your planning methods will become essential tools for building resilient societies that can thrive regardless of what challenges emerge, providing roadmaps for sustainable success in an uncertain world."
     },
-    {
-      "id": "pragmatic_survivor",
-      "title": "Pragmatic Survivor",
-      "shortDescription": "You adapt without sentiment. Your practical approach to change focuses on what works rather than what feels comfortable, keeping you effective when others are paralyzed.",
-      "extendedDescription": [
-        "You've stripped adaptation down to its essentials - what works, what doesn't, and what needs to change. Your pragmatic approach to survival means you can make difficult transitions without getting bogged down in emotional attachment to the past or anxiety about the future. You focus on evidence, results, and practical effectiveness.",
-        "Your survival strategy is built on clear-eyed assessment of reality and willingness to change course based on new information. You don't let sentiment, tradition, or personal preference interfere with making the choices that actually improve survival outcomes. Your decisions are based on data and results rather than comfort or familiarity.",
-        "What makes you effective is your ability to separate what's essential from what's merely preferred. You can abandon methods, relationships, and even beliefs that no longer serve survival needs while maintaining focus on core objectives. Your flexibility is purposeful and strategic rather than reactive.",
-        "Your legacy will be the practical frameworks and evidence-based approaches that help others make effective decisions during chaotic times. Your pragmatic methods will provide stable foundations for rebuilding efforts based on what actually works rather than what people wish would work."
-      ]
+    "stable": {
+      "title": "The Steady Foundation",
+      "description": "You provide emotional stability and grounding when everything else is chaos. Your calm presence helps others maintain their sanity and purpose during impossible times.",
+      "extended": "While the world transforms around you, you've become the steady foundation that others can rely on when everything else feels uncertain. Your emotional stability and consistent presence provide the psychological anchor that keeps communities from fragmenting under extreme pressure and constant change.\n\nYour strength isn't resistance to change but rather the ability to remain centered and grounded while adapting to new realities. You provide continuity of identity and purpose that helps others navigate transitions without losing themselves completely. Your stability creates safe spaces where others can process trauma and plan for the future.\n\nWhat makes you essential is your combination of personal steadiness with adaptive flexibility. You don't just maintain your own equilibrium - you help create stable platforms from which others can launch their own adaptations. Your presence reminds people that some things endure even when everything seems to be falling apart.\n\nYour legacy will be the communities you've helped maintain their core identity and values while successfully adapting to new realities. Your stability has proven that change doesn't require losing everything that matters, and that adaptation can honor the past while embracing the future."
     },
-    {
-      "id": "stress_warrior",
-      "title": "Stress Warrior",
-      "shortDescription": "You thrive under pressure. Your ability to maintain peak performance during high-stress situations has made you the person others depend on during crises.",
-      "extendedDescription": [
-        "While others crack under pressure, you seem to get stronger and more focused. Your exceptional stress tolerance and ability to maintain clear thinking during chaotic situations has made you the person communities turn to when everything is falling apart and immediate action is required.",
-        "Your adaptation is fundamentally about performance under pressure. You've developed techniques for managing stress, maintaining focus, and making good decisions when time is short and stakes are high. Your calm presence in crisis situations helps others function effectively when they might otherwise panic.",
-        "What sets you apart is your ability to use stress as fuel rather than allowing it to impair your function. You've learned to channel pressure into enhanced performance, turning crisis energy into productive action. Your stress management techniques help entire groups maintain effectiveness during emergencies.",
-        "Your legacy will be the crisis management systems and stress tolerance techniques that help communities maintain function during their most challenging moments. Your methods for thriving under pressure will be essential for handling the ongoing challenges of rebuilding civilization."
-      ]
+    "creative": {
+      "title": "The Imagination Engineer",
+      "description": "You find unexpected solutions by thinking completely outside conventional frameworks. Your creativity has solved problems that seemed impossible using traditional approaches.",
+      "extended": "Your creative mind has become a survival tool that turns impossible situations into opportunities for breakthrough solutions. You don't just think outside the box - you redesign the box entirely, creating new frameworks for understanding and solving problems that nobody else even recognizes as solvable.\n\nYour creativity isn't just artistic expression; it's practical imagination applied to life-and-death challenges. You've developed the ability to see connections and possibilities that others miss, combining elements in unexpected ways to create solutions that are both elegant and effective.\n\nWhat sets you apart is your ability to apply creative thinking to every aspect of survival, from resource management to social organization to technological innovation. Your imagination has become a practical tool that consistently produces real-world improvements in how people live, work, and survive together.\n\nYour legacy will be the creative solutions and innovative approaches that have fundamentally changed how humans adapt to extreme circumstances. Your imagination has opened new possibilities for survival and prosperity that will influence how communities approach challenges for generations to come."
     },
-    {
-      "id": "equilibrium_seeker",
-      "title": "Equilibrium Seeker",
-      "shortDescription": "You balance stability with change. Your ability to find equilibrium between adaptation and consistency helps communities evolve without losing their identity.",
-      "extendedDescription": [
-        "You've mastered the delicate art of balancing change with continuity. Your approach to adaptation focuses on finding sustainable equilibrium points that allow for necessary evolution while maintaining stability and identity. You understand that successful adaptation requires both flexibility and grounding.",
-        "Your strength lies in recognizing when change is necessary and when stability is needed. You help communities and individuals navigate the tension between adaptation and preservation, ensuring that evolution serves rather than destroys essential values and relationships.",
-        "What makes you valuable is your ability to create stable platforms from which further adaptation can occur. You don't just manage change - you create foundations that make healthy change possible while preventing destructive upheaval. Your balanced approach creates sustainable adaptation patterns.",
-        "Your legacy will be the stable yet flexible communities you've helped build that can evolve without losing their core identity. Your equilibrium-seeking approach will provide models for sustainable development that balance progress with preservation."
-      ]
+    "realistic": {
+      "title": "The Truth Teller",
+      "description": "You see and accept hard truths that others avoid. Your realistic assessment of situations helps communities make decisions based on facts rather than wishful thinking.",
+      "extended": "You've developed the rare ability to see situations exactly as they are rather than as you wish they were, and this clear vision has become a crucial asset for community survival. Your realistic assessments cut through denial, false hope, and wishful thinking to provide the accurate information needed for effective decision-making.\n\nYour strength lies in your willingness to acknowledge difficult truths and work with them constructively rather than fighting against reality. You help others understand what they're actually facing so they can respond appropriately instead of wasting energy on ineffective approaches based on false assumptions.\n\nWhat makes you valuable is your ability to deliver hard truths in ways that motivate action rather than paralyze people with despair. Your realism isn't pessimistic - it's accurately optimistic, focusing on real possibilities and genuine solutions rather than false comfort or impossible dreams.\n\nYour legacy will be the decision-making frameworks and assessment methods that help communities base their choices on accurate information rather than comfortable illusions. Your realistic approach has saved countless lives by ensuring that survival strategies are based on facts rather than fantasies."
     },
-    {
-      "id": "adaptation_survivor",
-      "title": "Adaptation Survivor",
-      "shortDescription": "You're still here when others aren't. Your basic adaptation skills and determination to keep changing have carried you through when more rigid personalities failed.",
-      "extendedDescription": [
-        "You may not be the most sophisticated adapter, but you have something equally valuable - the basic willingness to keep changing when change is necessary for survival. Your straightforward approach to adaptation and persistence in the face of constant challenges has kept you alive when more complex strategies have failed.",
-        "Your survival has been built on simple but effective principles: stay flexible, keep learning, don't get too attached to any particular way of doing things, and never give up trying to improve your situation. Your adaptation may not be elegant, but it's reliable and sustainable.",
-        "What keeps you going is your practical acceptance that survival requires constant small adjustments and occasional major changes. You don't overthink adaptation - you just do what needs to be done and learn from the results. Your straightforward approach helps others see that adaptation doesn't have to be complicated to be effective.",
-        "Your legacy will be the proof that ordinary people can successfully adapt to extraordinary circumstances through persistence and willingness to change. Your survival story demonstrates that basic adaptation skills, consistently applied, are often more effective than complex theories."
-      ]
+    "social": {
+      "title": "The Community Weaver",
+      "description": "You help groups navigate change together while maintaining social cohesion. Your social skills have kept communities united when pressure threatened to tear them apart.",
+      "extended": "You've mastered the art of helping groups adapt collectively rather than fragmenting under pressure. Your social intelligence and community-building skills have become essential for maintaining human connections and cooperative survival when individual adaptation isn't enough.\n\nYour strength lies in understanding the social dynamics that make adaptation difficult and addressing resistance and fear constructively. You create processes that help people embrace necessary changes together while maintaining their sense of shared identity and purpose. Your guidance helps groups evolve without losing their essential cohesion.\n\nWhat makes you invaluable is your combination of empathy with practical change management skills. You can read the emotional and social currents that determine whether communities will thrive or collapse, and you know how to guide those currents toward positive outcomes.\n\nYour legacy will be the thriving communities you've helped successfully navigate major transitions together and the social techniques that enable groups to adapt collectively rather than fragmenting under pressure. Your methods will be essential for helping humanity rebuild cohesive societies from the ground up."
+    },
+    "tough": {
+      "title": "The Pressure Forge",
+      "description": "You thrive under extreme stress and maintain peak performance when others crack. Your toughness has made you the person communities depend on during their worst crises.",
+      "extended": "While others crack under pressure, you seem to get stronger and more focused as stress increases. Your exceptional stress tolerance and ability to maintain clear thinking during chaotic situations has made you the person communities turn to when everything is falling apart and immediate action is required.\n\nYour adaptation is fundamentally about performance under pressure. You've developed techniques for managing stress, maintaining focus, and making good decisions when time is short and stakes are high. Your calm presence in crisis situations helps others function effectively when they might otherwise panic and make fatal mistakes.\n\nWhat sets you apart is your ability to use stress as fuel rather than allowing it to impair your function. You've learned to channel pressure into enhanced performance, turning crisis energy into productive action. Your stress management techniques help entire groups maintain effectiveness during emergencies.\n\nYour legacy will be the crisis management systems and stress tolerance techniques that help communities maintain function during their most challenging moments. Your methods for thriving under pressure will be essential for handling the ongoing challenges of rebuilding civilization in an uncertain world."
     }
-  ]
+  }
 }

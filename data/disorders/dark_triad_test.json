@@ -1,652 +1,691 @@
 {
+  "testId": "dark-triad",
   "title": "Dark Triad Personality Test",
   "description": "Rate your Narcissism, Machiavellianism, and Psychopathy",
+  "traits": {
+    "balanced": "Shows healthy psychological balance with low dark traits",
+    "grandiose_narcissist": "Openly superior and attention-seeking with grandiose self-image",
+    "covert_narcissist": "Hidden narcissism masked by false humility and victimhood",
+    "manipulative_genius": "Masters strategic manipulation and exploits others skillfully",
+    "corporate_psychopath": "Ruthless and charming predator in professional settings",
+    "sadistic_controller": "Takes pleasure in dominating and causing others to suffer",
+    "charming_predator": "Uses superficial charm to exploit and discard victims",
+    "emotional_vampire": "Drains others emotionally while playing victim or savior",
+    "power_addict": "Obsessed with control and authority over people and situations",
+    "chaos_agent": "Creates disruption and thrives on drama and unpredictability",
+    "dark_empath": "Uses empathy as a weapon to manipulate others more effectively"
+  },
   "questions": [
     {
       "q": "When you walk into a restaurant and see a long line, but notice there's a VIP section that's nearly empty, what's your immediate instinct?",
-      "options": [
+      "answers": [
         {
           "text": "Wait patiently in line like everyone else - fairness matters",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 0 }
+          "traits": {"balanced": 5, "dark_empath": 2, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "Ask politely if there's a way to access the VIP section",
-          "weights": { "narcissism": 1, "machiavellianism": 1, "psychopathy": 0, "grandiose_narcissist": 1, "covert_narcissist": 0, "manipulative_genius": 1, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 0, "power_addict": 1, "chaos_agent": 0, "dark_empath": 0 }
+          "traits": {"balanced": 2, "dark_empath": 1, "grandiose_narcissist": 2, "covert_narcissist": 1, "manipulative_genius": 1, "corporate_psychopath": 1, "sadistic_controller": 0, "charming_predator": 2, "emotional_vampire": 1, "power_addict": 2, "chaos_agent": 0}
         },
         {
           "text": "Confidently approach the VIP host and expect them to accommodate you",
-          "weights": { "narcissism": 3, "machiavellianism": 2, "psychopathy": 1, "grandiose_narcissist": 4, "covert_narcissist": 0, "manipulative_genius": 2, "corporate_psychopath": 1, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 1, "power_addict": 3, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 1, "manipulative_genius": 2, "corporate_psychopath": 2, "sadistic_controller": 1, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 1}
         },
         {
           "text": "Charm or manipulate the host with a sob story to get special treatment",
-          "weights": { "narcissism": 2, "machiavellianism": 4, "psychopathy": 2, "grandiose_narcissist": 1, "covert_narcissist": 3, "manipulative_genius": 5, "corporate_psychopath": 2, "sadistic_controller": 1, "charming_predator": 4, "emotional_vampire": 3, "power_addict": 2, "chaos_agent": 1, "dark_empath": 4 }
+          "traits": {"balanced": 0, "dark_empath": 4, "grandiose_narcissist": 2, "covert_narcissist": 4, "manipulative_genius": 5, "corporate_psychopath": 3, "sadistic_controller": 2, "charming_predator": 4, "emotional_vampire": 4, "power_addict": 3, "chaos_agent": 2}
         },
         {
           "text": "Find a way to make the people in front of you uncomfortable enough to leave",
-          "weights": { "narcissism": 1, "machiavellianism": 3, "psychopathy": 5, "grandiose_narcissist": 0, "covert_narcissist": 1, "manipulative_genius": 3, "corporate_psychopath": 3, "sadistic_controller": 5, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 2, "chaos_agent": 4, "dark_empath": 1 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 1, "covert_narcissist": 2, "manipulative_genius": 3, "corporate_psychopath": 4, "sadistic_controller": 5, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 5}
         }
       ]
     },
     {
       "q": "Your closest friend confides in you about a deeply personal trauma they've never shared with anyone. Your honest first thought is:",
-      "options": [
+      "answers": [
         {
           "text": "I feel honored they trust me, and I want to support them however I can",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 5, "dark_empath": 2, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "This is valuable information that shows how much they depend on me",
-          "weights": { "narcissism": 2, "machiavellianism": 2, "psychopathy": 1, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 2, "corporate_psychopath": 1, "sadistic_controller": 1, "charming_predator": 1, "emotional_vampire": 3, "power_addict": 2, "chaos_agent": 0, "dark_empath": 2 }
+          "traits": {"balanced": 1, "dark_empath": 3, "grandiose_narcissist": 3, "covert_narcissist": 3, "manipulative_genius": 2, "corporate_psychopath": 2, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 4, "power_addict": 3, "chaos_agent": 1}
         },
         {
           "text": "I wonder what I can share about myself that's even more dramatic",
-          "weights": { "narcissism": 4, "machiavellianism": 1, "psychopathy": 0, "grandiose_narcissist": 5, "covert_narcissist": 3, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 2, "power_addict": 1, "chaos_agent": 0, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 4, "manipulative_genius": 1, "corporate_psychopath": 1, "sadistic_controller": 0, "charming_predator": 2, "emotional_vampire": 3, "power_addict": 2, "chaos_agent": 1}
         },
         {
           "text": "This gives me leverage over them if I ever need it in the future",
-          "weights": { "narcissism": 1, "machiavellianism": 5, "psychopathy": 3, "grandiose_narcissist": 0, "covert_narcissist": 1, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 2, "dark_empath": 3 }
+          "traits": {"balanced": 0, "dark_empath": 3, "grandiose_narcissist": 1, "covert_narcissist": 2, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 4, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 2}
         },
         {
           "text": "I wonder how I could use this vulnerability to control them",
-          "weights": { "narcissism": 1, "machiavellianism": 4, "psychopathy": 5, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 4, "corporate_psychopath": 3, "sadistic_controller": 5, "charming_predator": 2, "emotional_vampire": 1, "power_addict": 3, "chaos_agent": 1, "dark_empath": 1 }
+          "traits": {"balanced": 0, "dark_empath": 2, "grandiose_narcissist": 1, "covert_narcissist": 1, "manipulative_genius": 4, "corporate_psychopath": 4, "sadistic_controller": 5, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 2}
         }
       ]
     },
     {
       "q": "You discover that a colleague has been taking credit for ideas you shared in private conversations. How do you handle this situation?",
-      "options": [
+      "answers": [
         {
           "text": "Speak to them privately first to give them a chance to make it right",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 5, "dark_empath": 2, "grandiose_narcissist": 0, "covert_narcissist": 1, "manipulative_genius": 1, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "Document everything and report it through proper channels",
-          "weights": { "narcissism": 1, "machiavellianism": 1, "psychopathy": 0, "grandiose_narcissist": 1, "covert_narcissist": 1, "manipulative_genius": 1, "corporate_psychopath": 1, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 1, "power_addict": 1, "chaos_agent": 0, "dark_empath": 0 }
+          "traits": {"balanced": 3, "dark_empath": 1, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 2, "corporate_psychopath": 2, "sadistic_controller": 1, "charming_predator": 1, "emotional_vampire": 2, "power_addict": 2, "chaos_agent": 1}
         },
         {
           "text": "Publicly confront them in the next meeting to expose their theft",
-          "weights": { "narcissism": 3, "machiavellianism": 2, "psychopathy": 2, "grandiose_narcissist": 4, "covert_narcissist": 1, "manipulative_genius": 1, "corporate_psychopath": 2, "sadistic_controller": 3, "charming_predator": 1, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 2, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 2, "manipulative_genius": 2, "corporate_psychopath": 3, "sadistic_controller": 4, "charming_predator": 2, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 3}
         },
         {
           "text": "Strategically sabotage their reputation while appearing innocent",
-          "weights": { "narcissism": 2, "machiavellianism": 5, "psychopathy": 3, "grandiose_narcissist": 1, "covert_narcissist": 4, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 2, "chaos_agent": 3, "dark_empath": 4 }
+          "traits": {"balanced": 0, "dark_empath": 4, "grandiose_narcissist": 2, "covert_narcissist": 4, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 4, "emotional_vampire": 4, "power_addict": 3, "chaos_agent": 4}
         },
         {
           "text": "Destroy their career systematically and enjoy watching them suffer",
-          "weights": { "narcissism": 1, "machiavellianism": 3, "psychopathy": 5, "grandiose_narcissist": 0, "covert_narcissist": 1, "manipulative_genius": 3, "corporate_psychopath": 3, "sadistic_controller": 5, "charming_predator": 2, "emotional_vampire": 1, "power_addict": 2, "chaos_agent": 4, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 1, "covert_narcissist": 2, "manipulative_genius": 3, "corporate_psychopath": 4, "sadistic_controller": 5, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 4}
         }
       ]
     },
     {
       "q": "When you see someone experiencing genuine emotional pain or crying, what happens inside you?",
-      "options": [
+      "answers": [
         {
           "text": "I feel their pain deeply and am compelled to help comfort them",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 2 }
+          "traits": {"balanced": 5, "dark_empath": 3, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 1, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "I feel sympathetic but also worry about how their drama affects me",
-          "weights": { "narcissism": 2, "machiavellianism": 1, "psychopathy": 1, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 1, "corporate_psychopath": 1, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 2, "power_addict": 1, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 2, "dark_empath": 2, "grandiose_narcissist": 3, "covert_narcissist": 3, "manipulative_genius": 1, "corporate_psychopath": 1, "sadistic_controller": 0, "charming_predator": 2, "emotional_vampire": 3, "power_addict": 2, "chaos_agent": 1}
         },
         {
           "text": "I analyze their emotional state intellectually rather than feeling it",
-          "weights": { "narcissism": 1, "machiavellianism": 2, "psychopathy": 3, "grandiose_narcissist": 1, "covert_narcissist": 1, "manipulative_genius": 2, "corporate_psychopath": 3, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 1, "power_addict": 1, "chaos_agent": 1, "dark_empath": 0 }
+          "traits": {"balanced": 1, "dark_empath": 1, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 3, "corporate_psychopath": 4, "sadistic_controller": 2, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 2, "chaos_agent": 2}
         },
         {
           "text": "I see an opportunity to position myself as their savior and gain loyalty",
-          "weights": { "narcissism": 3, "machiavellianism": 4, "psychopathy": 2, "grandiose_narcissist": 3, "covert_narcissist": 2, "manipulative_genius": 4, "corporate_psychopath": 2, "sadistic_controller": 2, "charming_predator": 3, "emotional_vampire": 4, "power_addict": 3, "chaos_agent": 1, "dark_empath": 3 }
+          "traits": {"balanced": 0, "dark_empath": 4, "grandiose_narcissist": 4, "covert_narcissist": 3, "manipulative_genius": 4, "corporate_psychopath": 3, "sadistic_controller": 2, "charming_predator": 4, "emotional_vampire": 5, "power_addict": 4, "chaos_agent": 2}
         },
         {
           "text": "I feel nothing, or sometimes even mild satisfaction at their weakness",
-          "weights": { "narcissism": 1, "machiavellianism": 2, "psychopathy": 5, "grandiose_narcissist": 1, "covert_narcissist": 0, "manipulative_genius": 1, "corporate_psychopath": 4, "sadistic_controller": 5, "charming_predator": 1, "emotional_vampire": 0, "power_addict": 1, "chaos_agent": 3, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 0, "grandiose_narcissist": 2, "covert_narcissist": 1, "manipulative_genius": 2, "corporate_psychopath": 5, "sadistic_controller": 5, "charming_predator": 2, "emotional_vampire": 1, "power_addict": 2, "chaos_agent": 4}
         }
       ]
     },
     {
       "q": "You're in a group project where someone suggests an idea that's clearly inferior to yours. How do you typically respond?",
-      "options": [
+      "answers": [
         {
           "text": "Build on their idea constructively or suggest alternatives diplomatically",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 5, "dark_empath": 2, "grandiose_narcissist": 0, "covert_narcissist": 1, "manipulative_genius": 1, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "Present my superior idea in a way that makes theirs look weak by comparison",
-          "weights": { "narcissism": 3, "machiavellianism": 2, "psychopathy": 1, "grandiose_narcissist": 4, "covert_narcissist": 2, "manipulative_genius": 2, "corporate_psychopath": 1, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 1, "power_addict": 3, "chaos_agent": 1, "dark_empath": 0 }
+          "traits": {"balanced": 1, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 3, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 2, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 2}
         },
         {
           "text": "Subtly undermine their confidence while appearing supportive",
-          "weights": { "narcissism": 2, "machiavellianism": 4, "psychopathy": 2, "grandiose_narcissist": 1, "covert_narcissist": 4, "manipulative_genius": 5, "corporate_psychopath": 3, "sadistic_controller": 3, "charming_predator": 3, "emotional_vampire": 4, "power_addict": 2, "chaos_agent": 2, "dark_empath": 3 }
+          "traits": {"balanced": 0, "dark_empath": 4, "grandiose_narcissist": 2, "covert_narcissist": 5, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 4, "charming_predator": 4, "emotional_vampire": 4, "power_addict": 3, "chaos_agent": 3}
         },
         {
           "text": "Directly tell them their idea is stupid and explain why mine is better",
-          "weights": { "narcissism": 4, "machiavellianism": 1, "psychopathy": 3, "grandiose_narcissist": 5, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 2, "sadistic_controller": 4, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 4, "chaos_agent": 3, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 0, "grandiose_narcissist": 5, "covert_narcissist": 1, "manipulative_genius": 1, "corporate_psychopath": 3, "sadistic_controller": 4, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 4}
         },
         {
           "text": "Let them embarrass themselves, then swoop in as the genius who saves the project",
-          "weights": { "narcissism": 3, "machiavellianism": 5, "psychopathy": 4, "grandiose_narcissist": 2, "covert_narcissist": 3, "manipulative_genius": 4, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 4, "dark_empath": 1 }
+          "traits": {"balanced": 0, "dark_empath": 2, "grandiose_narcissist": 3, "covert_narcissist": 4, "manipulative_genius": 4, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 4, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 5}
         }
       ]
     },
     {
       "q": "Someone at work gets promoted to a position you wanted and deserved more. What's your genuine emotional reaction?",
-      "options": [
+      "answers": [
         {
           "text": "Disappointed but genuinely happy for them and motivated to improve myself",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 5, "dark_empath": 2, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "Frustrated that my obvious superiority wasn't recognized by management",
-          "weights": { "narcissism": 3, "machiavellianism": 1, "psychopathy": 1, "grandiose_narcissist": 4, "covert_narcissist": 3, "manipulative_genius": 1, "corporate_psychopath": 1, "sadistic_controller": 1, "charming_predator": 1, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 1, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 4, "manipulative_genius": 2, "corporate_psychopath": 2, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 2}
         },
         {
           "text": "Convinced they must have manipulated or cheated their way to the position",
-          "weights": { "narcissism": 2, "machiavellianism": 3, "psychopathy": 2, "grandiose_narcissist": 2, "covert_narcissist": 3, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 2, "charming_predator": 1, "emotional_vampire": 2, "power_addict": 2, "chaos_agent": 2, "dark_empath": 1 }
+          "traits": {"balanced": 0, "dark_empath": 2, "grandiose_narcissist": 3, "covert_narcissist": 4, "manipulative_genius": 3, "corporate_psychopath": 3, "sadistic_controller": 2, "charming_predator": 2, "emotional_vampire": 3, "power_addict": 3, "chaos_agent": 3}
         },
         {
           "text": "Immediately start planning how to undermine them and take what's rightfully mine",
-          "weights": { "narcissism": 2, "machiavellianism": 5, "psychopathy": 3, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 3, "dark_empath": 2 }
+          "traits": {"balanced": 0, "dark_empath": 3, "grandiose_narcissist": 3, "covert_narcissist": 3, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 4, "charming_predator": 4, "emotional_vampire": 3, "power_addict": 5, "chaos_agent": 4}
         },
         {
           "text": "Filled with rage and fantasies of destroying their career and reputation",
-          "weights": { "narcissism": 2, "machiavellianism": 3, "psychopathy": 5, "grandiose_narcissist": 1, "covert_narcissist": 1, "manipulative_genius": 2, "corporate_psychopath": 3, "sadistic_controller": 5, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 2, "chaos_agent": 4, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 3, "corporate_psychopath": 4, "sadistic_controller": 5, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 5}
         }
       ]
     },
     {
       "q": "When you lie to someone, what motivates you most?",
-      "options": [
+      "answers": [
         {
           "text": "I rarely lie - honesty is fundamental to who I am",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 0 }
+          "traits": {"balanced": 5, "dark_empath": 1, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "To spare their feelings or avoid unnecessary conflict",
-          "weights": { "narcissism": 1, "machiavellianism": 1, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 1, "manipulative_genius": 1, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 0, "chaos_agent": 0, "dark_empath": 2 }
+          "traits": {"balanced": 3, "dark_empath": 3, "grandiose_narcissist": 1, "covert_narcissist": 2, "manipulative_genius": 2, "corporate_psychopath": 1, "sadistic_controller": 0, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 1, "chaos_agent": 1}
         },
         {
           "text": "To maintain my image and avoid looking bad",
-          "weights": { "narcissism": 4, "machiavellianism": 2, "psychopathy": 1, "grandiose_narcissist": 5, "covert_narcissist": 4, "manipulative_genius": 2, "corporate_psychopath": 1, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 2, "chaos_agent": 1, "dark_empath": 1 }
+          "traits": {"balanced": 1, "dark_empath": 2, "grandiose_narcissist": 5, "covert_narcissist": 5, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 1, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 3, "chaos_agent": 2}
         },
         {
           "text": "To gain an advantage or get something I want",
-          "weights": { "narcissism": 2, "machiavellianism": 5, "psychopathy": 3, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 4, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 2, "dark_empath": 3 }
+          "traits": {"balanced": 0, "dark_empath": 3, "grandiose_narcissist": 3, "covert_narcissist": 3, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 5, "emotional_vampire": 4, "power_addict": 4, "chaos_agent": 3}
         },
         {
           "text": "For the thrill of deception and control over their reality",
-          "weights": { "narcissism": 1, "machiavellianism": 3, "psychopathy": 5, "grandiose_narcissist": 0, "covert_narcissist": 1, "manipulative_genius": 3, "corporate_psychopath": 3, "sadistic_controller": 5, "charming_predator": 3, "emotional_vampire": 1, "power_addict": 2, "chaos_agent": 5, "dark_empath": 1 }
+          "traits": {"balanced": 0, "dark_empath": 2, "grandiose_narcissist": 1, "covert_narcissist": 2, "manipulative_genius": 4, "corporate_psychopath": 4, "sadistic_controller": 5, "charming_predator": 4, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 5}
         }
       ]
     },
     {
       "q": "You notice a homeless person asking for help outside an expensive restaurant where you're dining. What do you think?",
-      "options": [
+      "answers": [
         {
           "text": "They're a human being who deserves compassion regardless of their circumstances",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 2 }
+          "traits": {"balanced": 5, "dark_empath": 3, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 1, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "I hope they don't ruin the atmosphere of this nice establishment",
-          "weights": { "narcissism": 2, "machiavellianism": 1, "psychopathy": 1, "grandiose_narcissist": 3, "covert_narcissist": 1, "manipulative_genius": 1, "corporate_psychopath": 1, "sadistic_controller": 1, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 2, "chaos_agent": 0, "dark_empath": 0 }
+          "traits": {"balanced": 1, "dark_empath": 1, "grandiose_narcissist": 4, "covert_narcissist": 2, "manipulative_genius": 2, "corporate_psychopath": 2, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 1}
         },
         {
           "text": "They chose their path and I shouldn't have to deal with their problems",
-          "weights": { "narcissism": 3, "machiavellianism": 2, "psychopathy": 3, "grandiose_narcissist": 4, "covert_narcissist": 2, "manipulative_genius": 2, "corporate_psychopath": 3, "sadistic_controller": 2, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 3, "chaos_agent": 1, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 4, "covert_narcissist": 3, "manipulative_genius": 3, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 2}
         },
         {
           "text": "Their misery makes me appreciate my own success even more",
-          "weights": { "narcissism": 3, "machiavellianism": 2, "psychopathy": 4, "grandiose_narcissist": 4, "covert_narcissist": 2, "manipulative_genius": 1, "corporate_psychopath": 3, "sadistic_controller": 3, "charming_predator": 1, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 2, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 3, "manipulative_genius": 2, "corporate_psychopath": 4, "sadistic_controller": 4, "charming_predator": 2, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 3}
         },
         {
           "text": "They're weak and pathetic - exactly what happens to losers in life",
-          "weights": { "narcissism": 2, "machiavellianism": 1, "psychopathy": 5, "grandiose_narcissist": 2, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 3, "sadistic_controller": 4, "charming_predator": 1, "emotional_vampire": 0, "power_addict": 2, "chaos_agent": 3, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 0, "grandiose_narcissist": 3, "covert_narcissist": 1, "manipulative_genius": 1, "corporate_psychopath": 4, "sadistic_controller": 5, "charming_predator": 2, "emotional_vampire": 1, "power_addict": 3, "chaos_agent": 4}
         }
       ]
     },
     {
       "q": "How do you typically respond when someone challenges your authority or expertise in front of others?",
-      "options": [
+      "answers": [
         {
           "text": "Listen to their perspective and engage in respectful dialogue",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 5, "dark_empath": 2, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 1, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "Feel defensive but try to maintain composure while proving them wrong",
-          "weights": { "narcissism": 2, "machiavellianism": 1, "psychopathy": 1, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 1, "corporate_psychopath": 1, "sadistic_controller": 1, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 2, "chaos_agent": 0, "dark_empath": 0 }
+          "traits": {"balanced": 2, "dark_empath": 1, "grandiose_narcissist": 3, "covert_narcissist": 3, "manipulative_genius": 2, "corporate_psychopath": 2, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 1}
         },
         {
           "text": "Feel personally attacked and immediately assert my dominance",
-          "weights": { "narcissism": 4, "machiavellianism": 2, "psychopathy": 2, "grandiose_narcissist": 5, "covert_narcissist": 2, "manipulative_genius": 1, "corporate_psychopath": 2, "sadistic_controller": 3, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 2, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 3, "manipulative_genius": 2, "corporate_psychopath": 3, "sadistic_controller": 4, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 5, "chaos_agent": 3}
         },
         {
           "text": "Smile while mentally planning how to humiliate them later",
-          "weights": { "narcissism": 2, "machiavellianism": 5, "psychopathy": 3, "grandiose_narcissist": 1, "covert_narcissist": 4, "manipulative_genius": 5, "corporate_psychopath": 3, "sadistic_controller": 4, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 3, "chaos_agent": 3, "dark_empath": 2 }
+          "traits": {"balanced": 0, "dark_empath": 3, "grandiose_narcissist": 2, "covert_narcissist": 5, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 4, "charming_predator": 4, "emotional_vampire": 4, "power_addict": 4, "chaos_agent": 4}
         },
         {
           "text": "Feel rage and an urge to destroy them completely for their insubordination",
-          "weights": { "narcissism": 2, "machiavellianism": 3, "psychopathy": 5, "grandiose_narcissist": 2, "covert_narcissist": 1, "manipulative_genius": 2, "corporate_psychopath": 3, "sadistic_controller": 5, "charming_predator": 2, "emotional_vampire": 1, "power_addict": 3, "chaos_agent": 4, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 0, "grandiose_narcissist": 3, "covert_narcissist": 2, "manipulative_genius": 3, "corporate_psychopath": 4, "sadistic_controller": 5, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 5}
         }
       ]
     },
     {
       "q": "When you're alone with your thoughts, what do you spend the most time thinking about?",
-      "options": [
+      "answers": [
         {
           "text": "My relationships, personal growth, and how I can help others",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 2 }
+          "traits": {"balanced": 5, "dark_empath": 3, "grandiose_narcissist": 0, "covert_narcissist": 1, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 1, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "My goals, achievements, and how others perceive my success",
-          "weights": { "narcissism": 3, "machiavellianism": 1, "psychopathy": 0, "grandiose_narcissist": 4, "covert_narcissist": 3, "manipulative_genius": 1, "corporate_psychopath": 1, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 2, "dark_empath": 2, "grandiose_narcissist": 5, "covert_narcissist": 4, "manipulative_genius": 2, "corporate_psychopath": 2, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 1}
         },
         {
           "text": "Strategies for advancing my position and outmaneuvering competitors",
-          "weights": { "narcissism": 2, "machiavellianism": 5, "psychopathy": 2, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 2, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 2, "dark_empath": 1 }
+          "traits": {"balanced": 0, "dark_empath": 2, "grandiose_narcissist": 3, "covert_narcissist": 3, "manipulative_genius": 5, "corporate_psychopath": 5, "sadistic_controller": 3, "charming_predator": 4, "emotional_vampire": 3, "power_addict": 5, "chaos_agent": 3}
         },
         {
           "text": "Fantasies about power, control, and people who have wronged me",
-          "weights": { "narcissism": 3, "machiavellianism": 3, "psychopathy": 4, "grandiose_narcissist": 3, "covert_narcissist": 2, "manipulative_genius": 3, "corporate_psychopath": 3, "sadistic_controller": 4, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 5, "chaos_agent": 3, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 4, "covert_narcissist": 3, "manipulative_genius": 4, "corporate_psychopath": 4, "sadistic_controller": 5, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 5, "chaos_agent": 4}
         },
         {
           "text": "Dark scenarios where I inflict suffering on those who deserve it",
-          "weights": { "narcissism": 1, "machiavellianism": 2, "psychopathy": 5, "grandiose_narcissist": 0, "covert_narcissist": 1, "manipulative_genius": 1, "corporate_psychopath": 2, "sadistic_controller": 5, "charming_predator": 1, "emotional_vampire": 0, "power_addict": 2, "chaos_agent": 5, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 0, "grandiose_narcissist": 1, "covert_narcissist": 2, "manipulative_genius": 2, "corporate_psychopath": 3, "sadistic_controller": 5, "charming_predator": 2, "emotional_vampire": 1, "power_addict": 3, "chaos_agent": 5}
         }
       ]
     },
     {
       "q": "Your romantic partner starts getting more attention from others due to a promotion or achievement. How does this make you feel?",
-      "options": [
+      "answers": [
         {
           "text": "Proud and happy that they're getting the recognition they deserve",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 5, "dark_empath": 2, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "Happy for them but worried about how it affects our dynamic",
-          "weights": { "narcissism": 2, "machiavellianism": 1, "psychopathy": 0, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 1, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 2, "power_addict": 1, "chaos_agent": 0, "dark_empath": 0 }
+          "traits": {"balanced": 3, "dark_empath": 1, "grandiose_narcissist": 2, "covert_narcissist": 3, "manipulative_genius": 1, "corporate_psychopath": 1, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 3, "power_addict": 2, "chaos_agent": 1}
         },
         {
           "text": "Threatened because I should be the one getting that level of attention",
-          "weights": { "narcissism": 4, "machiavellianism": 2, "psychopathy": 1, "grandiose_narcissist": 5, "covert_narcissist": 3, "manipulative_genius": 2, "corporate_psychopath": 1, "sadistic_controller": 1, "charming_predator": 1, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 1, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 4, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 2, "charming_predator": 2, "emotional_vampire": 4, "power_addict": 5, "chaos_agent": 2}
         },
         {
           "text": "Compelled to sabotage their success so I remain the dominant partner",
-          "weights": { "narcissism": 3, "machiavellianism": 5, "psychopathy": 3, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 5, "corporate_psychopath": 3, "sadistic_controller": 4, "charming_predator": 3, "emotional_vampire": 4, "power_addict": 4, "chaos_agent": 2, "dark_empath": 1 }
+          "traits": {"balanced": 0, "dark_empath": 2, "grandiose_narcissist": 3, "covert_narcissist": 3, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 4, "charming_predator": 4, "emotional_vampire": 5, "power_addict": 5, "chaos_agent": 3}
         },
         {
           "text": "Angry and planning to punish them for overshadowing me",
-          "weights": { "narcissism": 2, "machiavellianism": 3, "psychopathy": 5, "grandiose_narcissist": 1, "covert_narcissist": 1, "manipulative_genius": 2, "corporate_psychopath": 2, "sadistic_controller": 5, "charming_predator": 1, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 4, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 0, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 3, "corporate_psychopath": 3, "sadistic_controller": 5, "charming_predator": 2, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 5}
         }
       ]
     },
     {
       "q": "How do you view the concept of 'fairness' in life?",
-      "options": [
+      "answers": [
         {
           "text": "Essential - everyone deserves equal treatment and opportunities",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 5, "dark_empath": 2, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "Important in theory, but the world doesn't always work that way",
-          "weights": { "narcissism": 1, "machiavellianism": 2, "psychopathy": 1, "grandiose_narcissist": 1, "covert_narcissist": 1, "manipulative_genius": 2, "corporate_psychopath": 1, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 1, "chaos_agent": 1, "dark_empath": 0 }
+          "traits": {"balanced": 3, "dark_empath": 1, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 2, "chaos_agent": 2}
         },
         {
           "text": "A naive concept - some people naturally deserve more than others",
-          "weights": { "narcissism": 4, "machiavellianism": 3, "psychopathy": 2, "grandiose_narcissist": 5, "covert_narcissist": 3, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 2, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 1, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 4, "manipulative_genius": 4, "corporate_psychopath": 3, "sadistic_controller": 3, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 5, "chaos_agent": 2}
         },
         {
           "text": "A tool used by the weak to hold back the strong and capable",
-          "weights": { "narcissism": 3, "machiavellianism": 5, "psychopathy": 3, "grandiose_narcissist": 3, "covert_narcissist": 2, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 3, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 4, "covert_narcissist": 3, "manipulative_genius": 5, "corporate_psychopath": 5, "sadistic_controller": 4, "charming_predator": 4, "emotional_vampire": 3, "power_addict": 5, "chaos_agent": 4}
         },
         {
           "text": "Completely irrelevant - life is about taking what you can get",
-          "weights": { "narcissism": 2, "machiavellianism": 4, "psychopathy": 5, "grandiose_narcissist": 1, "covert_narcissist": 0, "manipulative_genius": 3, "corporate_psychopath": 4, "sadistic_controller": 4, "charming_predator": 3, "emotional_vampire": 1, "power_addict": 3, "chaos_agent": 5, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 0, "grandiose_narcissist": 2, "covert_narcissist": 1, "manipulative_genius": 4, "corporate_psychopath": 5, "sadistic_controller": 5, "charming_predator": 4, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 5}
         }
       ]
     },
     {
       "q": "When you make a serious mistake that hurts someone else, your first instinct is to:",
-      "options": [
+      "answers": [
         {
           "text": "Take full responsibility and work sincerely to make amends",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 5, "dark_empath": 2, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "Apologize but also explain the circumstances that led to the mistake",
-          "weights": { "narcissism": 2, "machiavellianism": 1, "psychopathy": 0, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 1, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 1, "chaos_agent": 0, "dark_empath": 0 }
+          "traits": {"balanced": 3, "dark_empath": 1, "grandiose_narcissist": 3, "covert_narcissist": 3, "manipulative_genius": 2, "corporate_psychopath": 1, "sadistic_controller": 0, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 2, "chaos_agent": 1}
         },
         {
           "text": "Focus on protecting my reputation while minimizing the damage",
-          "weights": { "narcissism": 4, "machiavellianism": 3, "psychopathy": 2, "grandiose_narcissist": 5, "covert_narcissist": 3, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 1, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 4, "manipulative_genius": 4, "corporate_psychopath": 3, "sadistic_controller": 2, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 2}
         },
         {
           "text": "Find ways to shift blame to others or external circumstances",
-          "weights": { "narcissism": 3, "machiavellianism": 5, "psychopathy": 3, "grandiose_narcissist": 3, "covert_narcissist": 4, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 2, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 2, "chaos_agent": 2, "dark_empath": 1 }
+          "traits": {"balanced": 0, "dark_empath": 2, "grandiose_narcissist": 4, "covert_narcissist": 5, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 4, "emotional_vampire": 4, "power_addict": 3, "chaos_agent": 3}
         },
         {
           "text": "Deny it happened or convince them they're overreacting",
-          "weights": { "narcissism": 2, "machiavellianism": 4, "psychopathy": 5, "grandiose_narcissist": 2, "covert_narcissist": 1, "manipulative_genius": 3, "corporate_psychopath": 3, "sadistic_controller": 4, "charming_predator": 2, "emotional_vampire": 1, "power_addict": 2, "chaos_agent": 4, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 3, "covert_narcissist": 2, "manipulative_genius": 4, "corporate_psychopath": 4, "sadistic_controller": 4, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 5}
         }
       ]
     },
     {
       "q": "What drives your career ambitions most honestly?",
-      "options": [
+      "answers": [
         {
           "text": "Wanting to make a meaningful contribution and find personal fulfillment",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 5, "dark_empath": 2, "grandiose_narcissist": 0, "covert_narcissist": 1, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 1, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "Achieving success and earning respect from peers and society",
-          "weights": { "narcissism": 2, "machiavellianism": 1, "psychopathy": 0, "grandiose_narcissist": 3, "covert_narcissist": 2, "manipulative_genius": 1, "corporate_psychopath": 1, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 2, "chaos_agent": 0, "dark_empath": 0 }
+          "traits": {"balanced": 3, "dark_empath": 1, "grandiose_narcissist": 4, "covert_narcissist": 3, "manipulative_genius": 2, "corporate_psychopath": 2, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 1}
         },
         {
           "text": "Being recognized as superior and more capable than others",
-          "weights": { "narcissism": 4, "machiavellianism": 2, "psychopathy": 1, "grandiose_narcissist": 5, "covert_narcissist": 3, "manipulative_genius": 2, "corporate_psychopath": 1, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 0, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 4, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 2, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 5, "chaos_agent": 1}
         },
         {
           "text": "Gaining power and influence to control outcomes and people",
-          "weights": { "narcissism": 3, "machiavellianism": 5, "psychopathy": 3, "grandiose_narcissist": 3, "covert_narcissist": 2, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 4, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 5, "chaos_agent": 2, "dark_empath": 1 }
+          "traits": {"balanced": 0, "dark_empath": 2, "grandiose_narcissist": 4, "covert_narcissist": 3, "manipulative_genius": 5, "corporate_psychopath": 5, "sadistic_controller": 4, "charming_predator": 4, "emotional_vampire": 4, "power_addict": 5, "chaos_agent": 3}
         },
         {
           "text": "The thrill of dominating and crushing competitors beneath me",
-          "weights": { "narcissism": 2, "machiavellianism": 3, "psychopathy": 5, "grandiose_narcissist": 1, "covert_narcissist": 0, "manipulative_genius": 2, "corporate_psychopath": 4, "sadistic_controller": 5, "charming_predator": 2, "emotional_vampire": 1, "power_addict": 3, "chaos_agent": 4, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 0, "grandiose_narcissist": 2, "covert_narcissist": 1, "manipulative_genius": 3, "corporate_psychopath": 5, "sadistic_controller": 5, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 5}
         }
       ]
     },
     {
       "q": "How do you typically behave at social gatherings or parties?",
-      "options": [
+      "answers": [
         {
           "text": "Focus on connecting with others and learning about their lives",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 2 }
+          "traits": {"balanced": 5, "dark_empath": 3, "grandiose_narcissist": 0, "covert_narcissist": 1, "manipulative_genius": 1, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "Share my achievements and experiences while showing interest in others",
-          "weights": { "narcissism": 2, "machiavellianism": 1, "psychopathy": 0, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 1, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 1, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 3, "dark_empath": 2, "grandiose_narcissist": 3, "covert_narcissist": 3, "manipulative_genius": 2, "corporate_psychopath": 1, "sadistic_controller": 0, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 2, "chaos_agent": 1}
         },
         {
           "text": "Ensure I'm the center of attention and most impressive person there",
-          "weights": { "narcissism": 5, "machiavellianism": 2, "psychopathy": 1, "grandiose_narcissist": 5, "covert_narcissist": 2, "manipulative_genius": 2, "corporate_psychopath": 1, "sadistic_controller": 1, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 1, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 3, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 2, "charming_predator": 4, "emotional_vampire": 3, "power_addict": 5, "chaos_agent": 2}
         },
         {
           "text": "Network strategically and identify people who could be useful to me",
-          "weights": { "narcissism": 2, "machiavellianism": 5, "psychopathy": 2, "grandiose_narcissist": 2, "covert_narcissist": 1, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 2, "charming_predator": 4, "emotional_vampire": 3, "power_addict": 3, "chaos_agent": 1, "dark_empath": 2 }
+          "traits": {"balanced": 0, "dark_empath": 3, "grandiose_narcissist": 3, "covert_narcissist": 2, "manipulative_genius": 5, "corporate_psychopath": 5, "sadistic_controller": 3, "charming_predator": 5, "emotional_vampire": 4, "power_addict": 4, "chaos_agent": 2}
         },
         {
           "text": "Study people's weaknesses and gather information for future leverage",
-          "weights": { "narcissism": 1, "machiavellianism": 4, "psychopathy": 5, "grandiose_narcissist": 0, "covert_narcissist": 1, "manipulative_genius": 4, "corporate_psychopath": 4, "sadistic_controller": 4, "charming_predator": 4, "emotional_vampire": 2, "power_addict": 2, "chaos_agent": 3, "dark_empath": 1 }
+          "traits": {"balanced": 0, "dark_empath": 2, "grandiose_narcissist": 1, "covert_narcissist": 2, "manipulative_genius": 5, "corporate_psychopath": 5, "sadistic_controller": 4, "charming_predator": 5, "emotional_vampire": 3, "power_addict": 3, "chaos_agent": 4}
         }
       ]
     },
     {
       "q": "When someone trusts you with a secret that could damage them if revealed, you:",
-      "options": [
+      "answers": [
         {
           "text": "Feel honored by their trust and would never betray their confidence",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 5, "dark_empath": 2, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "Keep it secret but occasionally think about the power it gives you",
-          "weights": { "narcissism": 2, "machiavellianism": 3, "psychopathy": 1, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 1, "dark_empath": 1 }
+          "traits": {"balanced": 2, "dark_empath": 2, "grandiose_narcissist": 3, "covert_narcissist": 3, "manipulative_genius": 3, "corporate_psychopath": 3, "sadistic_controller": 2, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 2}
         },
         {
           "text": "Store it away as potential ammunition if they ever cross you",
-          "weights": { "narcissism": 2, "machiavellianism": 5, "psychopathy": 3, "grandiose_narcissist": 1, "covert_narcissist": 3, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 3, "chaos_agent": 2, "dark_empath": 2 }
+          "traits": {"balanced": 0, "dark_empath": 3, "grandiose_narcissist": 2, "covert_narcissist": 4, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 4, "charming_predator": 4, "emotional_vampire": 4, "power_addict": 4, "chaos_agent": 3}
         },
         {
           "text": "Consider how you could use this information to advance your own interests",
-          "weights": { "narcissism": 3, "machiavellianism": 4, "psychopathy": 4, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 4, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 3, "dark_empath": 1 }
+          "traits": {"balanced": 0, "dark_empath": 2, "grandiose_narcissist": 3, "covert_narcissist": 3, "manipulative_genius": 5, "corporate_psychopath": 5, "sadistic_controller": 4, "charming_predator": 4, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 4}
         },
         {
           "text": "Feel excited about having something to destroy them with if desired",
-          "weights": { "narcissism": 1, "machiavellianism": 3, "psychopathy": 5, "grandiose_narcissist": 0, "covert_narcissist": 1, "manipulative_genius": 2, "corporate_psychopath": 3, "sadistic_controller": 5, "charming_predator": 2, "emotional_vampire": 1, "power_addict": 2, "chaos_agent": 4, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 1, "covert_narcissist": 2, "manipulative_genius": 3, "corporate_psychopath": 4, "sadistic_controller": 5, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 5}
         }
       ]
     },
     {
       "q": "Your ideal romantic relationship would be one where:",
-      "options": [
+      "answers": [
         {
           "text": "Both partners support each other's growth and share equal power",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 5, "dark_empath": 2, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "Your partner admires you deeply and supports your ambitions",
-          "weights": { "narcissism": 3, "machiavellianism": 1, "psychopathy": 0, "grandiose_narcissist": 4, "covert_narcissist": 3, "manipulative_genius": 1, "corporate_psychopath": 0, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 3, "power_addict": 2, "chaos_agent": 0, "dark_empath": 0 }
+          "traits": {"balanced": 2, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 4, "manipulative_genius": 2, "corporate_psychopath": 1, "sadistic_controller": 1, "charming_predator": 3, "emotional_vampire": 4, "power_addict": 3, "chaos_agent": 1}
         },
         {
           "text": "You are clearly the dominant partner who makes the important decisions",
-          "weights": { "narcissism": 4, "machiavellianism": 3, "psychopathy": 2, "grandiose_narcissist": 5, "covert_narcissist": 2, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 3, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 1, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 3, "manipulative_genius": 4, "corporate_psychopath": 3, "sadistic_controller": 4, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 5, "chaos_agent": 2}
         },
         {
           "text": "Your partner depends on you completely and can't function without you",
-          "weights": { "narcissism": 3, "machiavellianism": 4, "psychopathy": 3, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 4, "corporate_psychopath": 3, "sadistic_controller": 4, "charming_predator": 3, "emotional_vampire": 5, "power_addict": 3, "chaos_agent": 2, "dark_empath": 2 }
+          "traits": {"balanced": 0, "dark_empath": 3, "grandiose_narcissist": 3, "covert_narcissist": 3, "manipulative_genius": 4, "corporate_psychopath": 4, "sadistic_controller": 4, "charming_predator": 4, "emotional_vampire": 5, "power_addict": 4, "chaos_agent": 3}
         },
         {
           "text": "You have total control over them and can shape them however you want",
-          "weights": { "narcissism": 2, "machiavellianism": 4, "psychopathy": 5, "grandiose_narcissist": 1, "covert_narcissist": 1, "manipulative_genius": 3, "corporate_psychopath": 3, "sadistic_controller": 5, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 3, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 4, "corporate_psychopath": 4, "sadistic_controller": 5, "charming_predator": 4, "emotional_vampire": 4, "power_addict": 5, "chaos_agent": 4}
         }
       ]
     },
     {
       "q": "How do you feel about following rules and social conventions?",
-      "options": [
+      "answers": [
         {
           "text": "They're important for society to function and everyone should follow them",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 5, "dark_empath": 2, "grandiose_narcissist": 0, "covert_narcissist": 1, "manipulative_genius": 1, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "I follow them but sometimes question whether they apply to someone like me",
-          "weights": { "narcissism": 3, "machiavellianism": 2, "psychopathy": 1, "grandiose_narcissist": 4, "covert_narcissist": 3, "manipulative_genius": 2, "corporate_psychopath": 1, "sadistic_controller": 1, "charming_predator": 1, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 1, "dark_empath": 0 }
+          "traits": {"balanced": 1, "dark_empath": 1, "grandiose_narcissist": 4, "covert_narcissist": 4, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 2, "charming_predator": 2, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 2}
         },
         {
           "text": "They're guidelines for ordinary people but don't really limit me",
-          "weights": { "narcissism": 4, "machiavellianism": 3, "psychopathy": 2, "grandiose_narcissist": 5, "covert_narcissist": 2, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 2, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 2, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 3, "manipulative_genius": 4, "corporate_psychopath": 3, "sadistic_controller": 3, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 5, "chaos_agent": 3}
         },
         {
           "text": "Useful tools for controlling others, but I work around them for myself",
-          "weights": { "narcissism": 2, "machiavellianism": 5, "psychopathy": 3, "grandiose_narcissist": 1, "covert_narcissist": 2, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 3, "dark_empath": 1 }
+          "traits": {"balanced": 0, "dark_empath": 2, "grandiose_narcissist": 2, "covert_narcissist": 3, "manipulative_genius": 5, "corporate_psychopath": 5, "sadistic_controller": 4, "charming_predator": 4, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 4}
         },
         {
           "text": "Meaningless obstacles created by weak people to limit the strong",
-          "weights": { "narcissism": 2, "machiavellianism": 3, "psychopathy": 5, "grandiose_narcissist": 2, "covert_narcissist": 0, "manipulative_genius": 2, "corporate_psychopath": 3, "sadistic_controller": 4, "charming_predator": 2, "emotional_vampire": 1, "power_addict": 3, "chaos_agent": 5, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 0, "grandiose_narcissist": 3, "covert_narcissist": 1, "manipulative_genius": 3, "corporate_psychopath": 4, "sadistic_controller": 5, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 5}
         }
       ]
     },
     {
       "q": "When you see someone more successful than you, your immediate reaction is:",
-      "options": [
+      "answers": [
         {
           "text": "Inspired to learn from them and improve myself",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 5, "dark_empath": 2, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 1, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "Curious about their methods while feeling slightly envious",
-          "weights": { "narcissism": 2, "machiavellianism": 2, "psychopathy": 0, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 2, "corporate_psychopath": 1, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 2, "power_addict": 1, "chaos_agent": 0, "dark_empath": 0 }
+          "traits": {"balanced": 3, "dark_empath": 2, "grandiose_narcissist": 3, "covert_narcissist": 3, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 3, "power_addict": 2, "chaos_agent": 1}
         },
         {
           "text": "Annoyed that they're getting recognition that should be mine",
-          "weights": { "narcissism": 4, "machiavellianism": 2, "psychopathy": 1, "grandiose_narcissist": 5, "covert_narcissist": 4, "manipulative_genius": 1, "corporate_psychopath": 1, "sadistic_controller": 1, "charming_predator": 1, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 1, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 5, "manipulative_genius": 2, "corporate_psychopath": 2, "sadistic_controller": 2, "charming_predator": 2, "emotional_vampire": 4, "power_addict": 5, "chaos_agent": 2}
         },
         {
           "text": "Determined to find their weaknesses and surpass them using any means",
-          "weights": { "narcissism": 3, "machiavellianism": 5, "psychopathy": 3, "grandiose_narcissist": 2, "covert_narcissist": 3, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 3, "dark_empath": 1 }
+          "traits": {"balanced": 0, "dark_empath": 2, "grandiose_narcissist": 3, "covert_narcissist": 4, "manipulative_genius": 5, "corporate_psychopath": 5, "sadistic_controller": 4, "charming_predator": 4, "emotional_vampire": 4, "power_addict": 5, "chaos_agent": 4}
         },
         {
           "text": "Compelled to destroy them and take their place",
-          "weights": { "narcissism": 2, "machiavellianism": 3, "psychopathy": 5, "grandiose_narcissist": 1, "covert_narcissist": 1, "manipulative_genius": 2, "corporate_psychopath": 3, "sadistic_controller": 5, "charming_predator": 2, "emotional_vampire": 1, "power_addict": 3, "chaos_agent": 4, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 0, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 3, "corporate_psychopath": 4, "sadistic_controller": 5, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 5}
         }
       ]
     },
     {
       "q": "How much do you think about the impact of your actions on other people's feelings?",
-      "options": [
+      "answers": [
         {
           "text": "Constantly - it's one of my primary concerns in any situation",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 2 }
+          "traits": {"balanced": 5, "dark_empath": 3, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 1, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "Often, though I sometimes get caught up in my own concerns",
-          "weights": { "narcissism": 1, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 1, "covert_narcissist": 1, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 0, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 3, "dark_empath": 2, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 1, "corporate_psychopath": 1, "sadistic_controller": 0, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 1, "chaos_agent": 1}
         },
         {
           "text": "Sometimes, but mainly when it could affect how they see me",
-          "weights": { "narcissism": 3, "machiavellianism": 2, "psychopathy": 1, "grandiose_narcissist": 3, "covert_narcissist": 3, "manipulative_genius": 2, "corporate_psychopath": 1, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 2, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 1, "dark_empath": 2, "grandiose_narcissist": 4, "covert_narcissist": 4, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 1, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 3, "chaos_agent": 1}
         },
         {
           "text": "Rarely - I'm more focused on achieving my goals",
-          "weights": { "narcissism": 3, "machiavellianism": 4, "psychopathy": 3, "grandiose_narcissist": 3, "covert_narcissist": 2, "manipulative_genius": 4, "corporate_psychopath": 3, "sadistic_controller": 2, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 2, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 4, "covert_narcissist": 3, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 3}
         },
         {
           "text": "Never - their feelings are their responsibility, not mine",
-          "weights": { "narcissism": 2, "machiavellianism": 3, "psychopathy": 5, "grandiose_narcissist": 2, "covert_narcissist": 0, "manipulative_genius": 2, "corporate_psychopath": 4, "sadistic_controller": 4, "charming_predator": 1, "emotional_vampire": 0, "power_addict": 2, "chaos_agent": 4, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 0, "grandiose_narcissist": 3, "covert_narcissist": 1, "manipulative_genius": 3, "corporate_psychopath": 5, "sadistic_controller": 5, "charming_predator": 2, "emotional_vampire": 1, "power_addict": 3, "chaos_agent": 5}
         }
       ]
     },
     {
       "q": "When planning your future, what role do other people play in your vision?",
-      "options": [
+      "answers": [
         {
           "text": "Central - my happiness is deeply connected to my relationships with others",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 5, "dark_empath": 3, "grandiose_narcissist": 0, "covert_narcissist": 1, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 1, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "Important - I want to share my success with people I care about",
-          "weights": { "narcissism": 1, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 2, "covert_narcissist": 1, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 1, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 4, "dark_empath": 2, "grandiose_narcissist": 3, "covert_narcissist": 2, "manipulative_genius": 1, "corporate_psychopath": 1, "sadistic_controller": 0, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 2, "chaos_agent": 1}
         },
         {
           "text": "Supportive - they're there to witness and celebrate my achievements",
-          "weights": { "narcissism": 4, "machiavellianism": 2, "psychopathy": 1, "grandiose_narcissist": 5, "covert_narcissist": 3, "manipulative_genius": 2, "corporate_psychopath": 1, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 3, "power_addict": 3, "chaos_agent": 0, "dark_empath": 0 }
+          "traits": {"balanced": 1, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 4, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 2, "charming_predator": 3, "emotional_vampire": 4, "power_addict": 4, "chaos_agent": 1}
         },
         {
           "text": "Strategic - they're resources to help me achieve my goals",
-          "weights": { "narcissism": 2, "machiavellianism": 5, "psychopathy": 3, "grandiose_narcissist": 1, "covert_narcissist": 1, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 4, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 2, "dark_empath": 1 }
+          "traits": {"balanced": 0, "dark_empath": 2, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 5, "corporate_psychopath": 5, "sadistic_controller": 4, "charming_predator": 5, "emotional_vampire": 4, "power_addict": 5, "chaos_agent": 3}
         },
         {
           "text": "Irrelevant - I don't need anyone else to achieve greatness",
-          "weights": { "narcissism": 3, "machiavellianism": 2, "psychopathy": 5, "grandiose_narcissist": 3, "covert_narcissist": 1, "manipulative_genius": 1, "corporate_psychopath": 4, "sadistic_controller": 4, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 3, "chaos_agent": 4, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 0, "grandiose_narcissist": 4, "covert_narcissist": 2, "manipulative_genius": 2, "corporate_psychopath": 5, "sadistic_controller": 5, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 5}
         }
       ]
     },
     {
       "q": "Your deepest fear is probably:",
-      "options": [
+      "answers": [
         {
           "text": "Losing the people I love most or failing to protect them",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 2 }
+          "traits": {"balanced": 5, "dark_empath": 3, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 1, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "Being seen as ordinary or unremarkable by others",
-          "weights": { "narcissism": 4, "machiavellianism": 1, "psychopathy": 0, "grandiose_narcissist": 5, "covert_narcissist": 4, "manipulative_genius": 1, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 2, "emotional_vampire": 3, "power_addict": 3, "chaos_agent": 0, "dark_empath": 0 }
+          "traits": {"balanced": 1, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 5, "manipulative_genius": 2, "corporate_psychopath": 1, "sadistic_controller": 1, "charming_predator": 3, "emotional_vampire": 4, "power_addict": 4, "chaos_agent": 1}
         },
         {
           "text": "Losing control over my situation or having others control me",
-          "weights": { "narcissism": 3, "machiavellianism": 4, "psychopathy": 2, "grandiose_narcissist": 3, "covert_narcissist": 2, "manipulative_genius": 4, "corporate_psychopath": 3, "sadistic_controller": 3, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 5, "chaos_agent": 2, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 4, "covert_narcissist": 3, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 4, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 5, "chaos_agent": 3}
         },
         {
           "text": "Being exposed as flawed or having my weaknesses revealed",
-          "weights": { "narcissism": 3, "machiavellianism": 3, "psychopathy": 1, "grandiose_narcissist": 2, "covert_narcissist": 5, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 1, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 2, "chaos_agent": 1, "dark_empath": 1 }
+          "traits": {"balanced": 0, "dark_empath": 2, "grandiose_narcissist": 3, "covert_narcissist": 5, "manipulative_genius": 4, "corporate_psychopath": 3, "sadistic_controller": 2, "charming_predator": 4, "emotional_vampire": 3, "power_addict": 3, "chaos_agent": 2}
         },
         {
           "text": "Being vulnerable or dependent on others for anything",
-          "weights": { "narcissism": 2, "machiavellianism": 2, "psychopathy": 5, "grandiose_narcissist": 1, "covert_narcissist": 1, "manipulative_genius": 2, "corporate_psychopath": 4, "sadistic_controller": 4, "charming_predator": 2, "emotional_vampire": 1, "power_addict": 3, "chaos_agent": 3, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 0, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 3, "corporate_psychopath": 5, "sadistic_controller": 5, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 4}
         }
       ]
     },
     {
       "q": "How do you typically handle criticism from people you respect?",
-      "options": [
+      "answers": [
         {
           "text": "Listen carefully and use it as an opportunity for growth",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 5, "dark_empath": 2, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 1, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "Feel hurt but eventually accept it if it's constructive",
-          "weights": { "narcissism": 1, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 1, "covert_narcissist": 2, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 1, "power_addict": 0, "chaos_agent": 0, "dark_empath": 0 }
+          "traits": {"balanced": 3, "dark_empath": 1, "grandiose_narcissist": 2, "covert_narcissist": 3, "manipulative_genius": 1, "corporate_psychopath": 1, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 2, "power_addict": 1, "chaos_agent": 1}
         },
         {
           "text": "Get defensive and explain why they're wrong or misunderstanding me",
-          "weights": { "narcissism": 4, "machiavellianism": 2, "psychopathy": 1, "grandiose_narcissist": 5, "covert_narcissist": 3, "manipulative_genius": 2, "corporate_psychopath": 1, "sadistic_controller": 2, "charming_predator": 1, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 1, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 4, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 3, "charming_predator": 2, "emotional_vampire": 3, "power_addict": 4, "chaos_agent": 2}
         },
         {
           "text": "Smile and nod while secretly planning to prove them wrong",
-          "weights": { "narcissism": 2, "machiavellianism": 5, "psychopathy": 2, "grandiose_narcissist": 1, "covert_narcissist": 4, "manipulative_genius": 5, "corporate_psychopath": 3, "sadistic_controller": 2, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 2, "chaos_agent": 2, "dark_empath": 2 }
+          "traits": {"balanced": 0, "dark_empath": 3, "grandiose_narcissist": 2, "covert_narcissist": 5, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 4, "emotional_vampire": 4, "power_addict": 3, "chaos_agent": 3}
         },
         {
           "text": "Feel rage and lose respect for them permanently",
-          "weights": { "narcissism": 3, "machiavellianism": 2, "psychopathy": 5, "grandiose_narcissist": 2, "covert_narcissist": 2, "manipulative_genius": 1, "corporate_psychopath": 2, "sadistic_controller": 4, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 3, "chaos_agent": 4, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 0, "grandiose_narcissist": 4, "covert_narcissist": 3, "manipulative_genius": 2, "corporate_psychopath": 3, "sadistic_controller": 5, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 5}
         }
       ]
     },
     {
       "q": "What would be your ideal way to be remembered after you're gone?",
-      "options": [
+      "answers": [
         {
           "text": "As someone who was genuinely kind and made others feel loved",
-          "weights": { "narcissism": 0, "machiavellianism": 0, "psychopathy": 0, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 0, "power_addict": 0, "chaos_agent": 0, "dark_empath": 2 }
+          "traits": {"balanced": 5, "dark_empath": 3, "grandiose_narcissist": 0, "covert_narcissist": 0, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 1, "power_addict": 0, "chaos_agent": 0}
         },
         {
           "text": "As someone who achieved great things and inspired others",
-          "weights": { "narcissism": 2, "machiavellianism": 1, "psychopathy": 0, "grandiose_narcissist": 3, "covert_narcissist": 2, "manipulative_genius": 1, "corporate_psychopath": 1, "sadistic_controller": 0, "charming_predator": 1, "emotional_vampire": 1, "power_addict": 2, "chaos_agent": 0, "dark_empath": 1 }
+          "traits": {"balanced": 3, "dark_empath": 2, "grandiose_narcissist": 4, "covert_narcissist": 3, "manipulative_genius": 2, "corporate_psychopath": 2, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 3, "chaos_agent": 1}
         },
         {
           "text": "As the most exceptional person of my generation",
-          "weights": { "narcissism": 5, "machiavellianism": 2, "psychopathy": 1, "grandiose_narcissist": 5, "covert_narcissist": 3, "manipulative_genius": 2, "corporate_psychopath": 1, "sadistic_controller": 1, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 1, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 5, "covert_narcissist": 4, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 2, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 5, "chaos_agent": 2}
         },
         {
           "text": "As someone who wielded immense power and shaped history",
-          "weights": { "narcissism": 3, "machiavellianism": 5, "psychopathy": 3, "grandiose_narcissist": 3, "covert_narcissist": 2, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 2, "emotional_vampire": 2, "power_addict": 5, "chaos_agent": 3, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 4, "covert_narcissist": 3, "manipulative_genius": 5, "corporate_psychopath": 5, "sadistic_controller": 4, "charming_predator": 3, "emotional_vampire": 3, "power_addict": 5, "chaos_agent": 4}
         },
         {
           "text": "As someone so powerful that people still fear me even after death",
-          "weights": { "narcissism": 2, "machiavellianism": 3, "psychopathy": 5, "grandiose_narcissist": 1, "covert_narcissist": 0, "manipulative_genius": 2, "corporate_psychopath": 3, "sadistic_controller": 5, "charming_predator": 2, "emotional_vampire": 1, "power_addict": 3, "chaos_agent": 4, "dark_empath": 0 }
+          "traits": {"balanced": 0, "dark_empath": 0, "grandiose_narcissist": 2, "covert_narcissist": 1, "manipulative_genius": 3, "corporate_psychopath": 4, "sadistic_controller": 5, "charming_predator": 3, "emotional_vampire": 2, "power_addict": 4, "chaos_agent": 5}
+        }
+      ]
+    },
+    {
+      "q": "If you could have one superpower, which would secretly appeal to you most?",
+      "answers": [
+        {
+          "text": "The ability to heal others and take away their pain completely",
+          "traits": {"balanced": 5, "dark_empath": 3, "grandiose_narcissist": 0, "covert_narcissist": 1, "manipulative_genius": 0, "corporate_psychopath": 0, "sadistic_controller": 0, "charming_predator": 0, "emotional_vampire": 2, "power_addict": 0, "chaos_agent": 0}
+        },
+        {
+          "text": "Mind reading so I always know what people really think about me",
+          "traits": {"balanced": 1, "dark_empath": 2, "grandiose_narcissist": 4, "covert_narcissist": 5, "manipulative_genius": 3, "corporate_psychopath": 2, "sadistic_controller": 1, "charming_predator": 3, "emotional_vampire": 4, "power_addict": 3, "chaos_agent": 2}
+        },
+        {
+          "text": "Perfect persuasion - making anyone believe anything I want them to",
+          "traits": {"balanced": 0, "dark_empath": 3, "grandiose_narcissist": 3, "covert_narcissist": 3, "manipulative_genius": 5, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 5, "emotional_vampire": 4, "power_addict": 4, "chaos_agent": 3}
+        },
+        {
+          "text": "Invisibility so I could observe and gather secrets without consequences",
+          "traits": {"balanced": 0, "dark_empath": 2, "grandiose_narcissist": 2, "covert_narcissist": 4, "manipulative_genius": 4, "corporate_psychopath": 4, "sadistic_controller": 3, "charming_predator": 4, "emotional_vampire": 3, "power_addict": 3, "chaos_agent": 4}
+        },
+        {
+          "text": "The power to inflict any suffering I choose with just a thought",
+          "traits": {"balanced": 0, "dark_empath": 1, "grandiose_narcissist": 1, "covert_narcissist": 2, "manipulative_genius": 2, "corporate_psychopath": 4, "sadistic_controller": 5, "charming_predator": 2, "emotional_vampire": 1, "power_addict": 4, "chaos_agent": 5}
         }
       ]
     }
   ],
   "results": {
     "balanced": {
-      "title": "The Balanced Individual",
-      "description": "You demonstrate remarkably low levels across all Dark Triad traits, suggesting a healthy, well-adjusted personality. You likely maintain genuine empathy for others, operate with integrity, and build authentic relationships based on mutual respect. While you may occasionally experience normal human emotions like envy or frustration, these don't dominate your worldview or relationships. Your psychological profile suggests emotional stability and the capacity for genuine intimacy."
+      "title": "The Healthy Mind",
+      "description": "You demonstrate remarkably low levels across all Dark Triad traits, suggesting a healthy, well-adjusted personality. You likely maintain genuine empathy for others, operate with integrity, and build authentic relationships based on mutual respect. While you may occasionally experience normal human emotions like envy or frustration, these don't dominate your worldview or relationships."
     },
     "grandiose_narcissist": {
-      "title": "The Grandiose Narcissist",
-      "description": "You embody the classic narcissistic personality - bold, attention-seeking, and convinced of your superiority. You likely dominate conversations, expect special treatment, and struggle to understand why others aren't as fascinated by you as you are by yourself. Your need for admiration is obvious and constant, and you probably become genuinely confused or angry when people don't provide the level of attention you feel you deserve. While initially charming, your relationships often become one-sided as others tire of your constant need for validation."
+      "title": "The Grand Performer", 
+      "description": "You embody the classic narcissistic personality - bold, attention-seeking, and convinced of your superiority. You likely dominate conversations, expect special treatment, and struggle to understand why others aren't as fascinated by you as you are by yourself. Your need for admiration is obvious and constant, and you probably become genuinely confused or angry when people don't provide the level of attention you feel you deserve."
     },
     "covert_narcissist": {
-      "title": "The Covert Narcissist", 
-      "description": "You represent a more hidden form of narcissism, believing you're special and superior while appearing humble or even self-deprecating on the surface. You likely feel chronically misunderstood and underappreciated, convinced that the world has failed to recognize your exceptional qualities. This creates passive-aggressive behavior and subtle putdowns of others disguised as concern or insight. Your hypersensitivity to criticism stems from the gap between your internal grandiose self-image and external reality."
+      "title": "The Hidden Superior", 
+      "description": "You represent a more subtle form of narcissism, believing you're special and superior while appearing humble or even self-deprecating on the surface. You likely feel chronically misunderstood and underappreciated, convinced that the world has failed to recognize your exceptional qualities. This creates passive-aggressive behavior and subtle putdowns of others disguised as concern or insight."
     },
     "manipulative_genius": {
-      "title": "The Manipulative Genius",
-      "description": "You excel at reading people and situations, using this knowledge strategically to influence outcomes in your favor. You view relationships primarily as tools for achieving goals and feel little guilt about deception when it serves your purposes. Your Machiavellian nature makes you skilled at appearing trustworthy while working behind the scenes to advance your agenda. You likely see most people as naive and view their moral constraints as weaknesses to exploit."
+      "title": "The Strategic Mind",
+      "description": "You excel at reading people and situations, using this knowledge strategically to influence outcomes in your favor. You view relationships primarily as tools for achieving goals and feel little guilt about deception when it serves your purposes. Your Machiavellian nature makes you skilled at appearing trustworthy while working behind the scenes to advance your agenda."
     },
     "corporate_psychopath": {
-      "title": "The Corporate Psychopath",
-      "description": "You combine emotional detachment with strategic thinking, making you effective in high-pressure environments but potentially dangerous to others' wellbeing. You can be charming when it suits you but struggle with genuine emotional connections. Your reduced empathy allows you to make ruthless decisions without being overwhelmed by guilt or concern for collateral damage. In professional settings, you may thrive due to your fearlessness and ability to manipulate situations."
+      "title": "The Ruthless Executive",
+      "description": "You combine emotional detachment with strategic thinking, making you effective in high-pressure environments but potentially dangerous to others' wellbeing. You can be charming when it suits you but struggle with genuine emotional connections. Your reduced empathy allows you to make ruthless decisions without being overwhelmed by guilt or concern for collateral damage."
     },
     "sadistic_controller": {
-      "title": "The Sadistic Controller",
-      "description": "You represent one of the most concerning personality patterns, combining all three Dark Triad traits with a desire to dominate and cause suffering. You may take genuine pleasure in others' pain, viewing their suffering as confirmation of your power. Your relationships are characterized by control, manipulation, and emotional or psychological abuse. This pattern is destructive to both yourself and everyone around you, making genuine relationships nearly impossible."
+      "title": "The Dark Dominator",
+      "description": "You represent one of the most concerning personality patterns, combining all three Dark Triad traits with a desire to dominate and cause suffering. You may take genuine pleasure in others' pain, viewing their suffering as confirmation of your power. Your relationships are characterized by control, manipulation, and emotional or psychological abuse."
     },
     "charming_predator": {
-      "title": "The Charming Predator",
-      "description": "You've mastered the art of superficial charm while harboring exploitative intentions toward others. You likely excel at first impressions and can be quite charismatic, but your relationships follow a pattern of idealization, exploitation, and eventual discard. Your charm serves as camouflage for your underlying lack of empathy and your tendency to view others as objects to be used rather than people to connect with."
+      "title": "The Silver-Tongued Hunter",
+      "description": "You've mastered the art of superficial charm while harboring exploitative intentions toward others. You likely excel at first impressions and can be quite charismatic, but your relationships follow a pattern of idealization, exploitation, and eventual discard. Your charm serves as camouflage for your underlying lack of empathy and your tendency to view others as objects to be used."
     },
     "emotional_vampire": {
-      "title": "The Emotional Vampire",
-      "description": "You drain others emotionally while positioning yourself as the victim or the one who 'understands' them best. You likely have an uncanny ability to identify others' vulnerabilities and exploit them for emotional supply. Your relationships are characterized by dramatic ups and downs, with you at the center of most conflicts while maintaining plausible deniability about your role in creating chaos."
+      "title": "The Energy Harvester",
+      "description": "You drain others emotionally while positioning yourself as the victim or the one who 'understands' them best. You likely have an uncanny ability to identify others' vulnerabilities and exploit them for emotional supply. Your relationships are characterized by dramatic ups and downs, with you at the center of most conflicts while maintaining plausible deniability."
     },
     "power_addict": {
-      "title": "The Power Addict",
-      "description": "Your primary drive is the acquisition and exercise of power over others and situations. You likely feel most alive when controlling outcomes and may become depressed or anxious when lacking influence. Your relationships and career choices are primarily motivated by opportunities to gain authority, and you may struggle with situations where you're not in charge. This addiction to power can lead to increasingly risky behavior as you seek greater control."
+      "title": "The Control Seeker",
+      "description": "Your primary drive is the acquisition and exercise of power over others and situations. You likely feel most alive when controlling outcomes and may become depressed or anxious when lacking influence. Your relationships and career choices are primarily motivated by opportunities to gain authority, and you may struggle with situations where you're not in charge."
     },
     "chaos_agent": {
-      "title": "The Chaos Agent",
-      "description": "You seem to thrive in disruption and may unconsciously or consciously create drama and conflict wherever you go. You likely have a pattern of turning stable situations unstable, sometimes just for the excitement or sense of control it provides. Your impulsivity and disregard for consequences make you unpredictable and potentially dangerous to be around. Others may find you initially exciting but eventually exhausting."
+      "title": "The Storm Creator",
+      "description": "You seem to thrive in disruption and may unconsciously or consciously create drama and conflict wherever you go. You likely have a pattern of turning stable situations unstable, sometimes just for the excitement or sense of control it provides. Your impulsivity and disregard for consequences make you unpredictable and potentially dangerous to be around."
     },
     "dark_empath": {
-      "title": "The Dark Empath",
-      "description": "You possess the rare and particularly dangerous combination of high empathy with Dark Triad traits. You can understand others' emotions deeply but use this understanding to manipulate rather than help. Your empathy serves as a weapon, allowing you to identify exactly where others are vulnerable so you can exploit those weaknesses. This makes you potentially more harmful than those who simply lack empathy entirely."
+      "title": "The Weaponized Heart",
+      "description": "You possess the rare and particularly dangerous combination of high empathy with Dark Triad traits. You can understand others' emotions deeply but use this understanding to manipulate rather than help. Your empathy serves as a weapon, allowing you to identify exactly where others are vulnerable so you can exploit those weaknesses."
     }
   },
   "deepAnalysis": {
@@ -657,8 +696,9 @@
     "corporate_psychopath": "Your psychopathic traits, combined with sufficient social skills to function in professional environments, create a profile that can be highly successful in certain contexts while being potentially destructive to those around you. Your reduced empathy and fearlessness allow you to make decisions that others would find emotionally overwhelming, often giving you an advantage in competitive or high-pressure situations.\n\nThis emotional detachment likely extends to your personal relationships, where you may struggle to understand or respond appropriately to others' emotional needs. Your charm is typically superficial and strategic rather than genuine, allowing you to form connections when they serve your purposes but discarding them easily when they become inconvenient.\n\nYour impulsivity and sensation-seeking may lead to increasingly risky behavior as conventional achievements lose their ability to provide stimulation. This can manifest as financial recklessness, sexual promiscuity, or other behaviors that create chaos in your life and the lives of those around you.\n\nThe challenge for your personality type is developing genuine motivation for prosocial behavior beyond mere strategic advantage. This often requires external structure and consequences rather than internal moral development, as your reduced capacity for guilt and empathy makes traditional therapeutic approaches less effective.",
     "sadistic_controller": "Your profile represents the most dangerous combination of Dark Triad traits, incorporating grandiosity, manipulation, and callousness with an added element of sadism that finds pleasure in others' suffering. This pattern creates a personality that is potentially harmful to everyone in your orbit and ultimately self-destructive.\n\nYour need for control extends beyond mere dominance to include a desire to cause pain, humiliation, or degradation in others. This sadistic element distinguishes your pattern from other forms of manipulation and makes you particularly dangerous in intimate relationships where you have access to others' vulnerabilities.\n\nThe combination of traits creates a perfect storm of destructive behavior: the narcissism provides the grandiose justification, the Machiavellianism supplies the strategic planning, the psychopathy removes moral constraints, and the sadism adds the motivation to actively harm rather than simply exploit.\n\nThis pattern typically represents severe personality pathology that is resistant to change and may worsen over time without intensive intervention. The lack of genuine remorse or empathy makes traditional therapeutic approaches largely ineffective, and the pattern often only changes when external consequences become severe enough to force behavioral modification rather than internal transformation.",
     "charming_predator": "Your ability to combine superficial charm with exploitative intentions creates a particularly insidious form of Dark Triad expression. You've likely mastered the art of creating powerful first impressions and can be genuinely charismatic when it serves your purposes, making you especially dangerous to those who mistake your charm for genuine caring.\n\nYour relationships follow a predictable cycle of love-bombing, exploitation, and discard that leaves your victims confused and damaged. You're skilled at identifying people's needs and desires, then presenting yourself as the perfect solution to their problems while simultaneously working to extract whatever value they can provide.\n\nThe superficial nature of your charm means that while you can attract people easily, maintaining relationships requires increasingly sophisticated manipulation as people begin to see through your facade. This often leads to a pattern of short-term relationships or long-term relationships characterized by dramatic cycles of idealization and devaluation.\n\nYour challenge lies in recognizing that your charm could be redirected toward building genuine connections rather than facilitating exploitation. However, this would require developing authentic emotional capacity and abandoning the predatory mindset that views others as resources to be consumed rather than people to be valued.",
-    "emotional_vampire": "Your pattern involves creating emotional dependency in others while positioning yourself as indispensable to their well-being. You've likely developed sophisticated skills in identifying others' emotional vulnerabilities and creating situations where they become reliant on you for validation, comfort, or resolution of problems you may have helped create.\n\nThis emotional parasitism often manifests as a pattern of crisis creation followed by rescue, dramatic emotional displays that center attention on yourself, or the ability to make others feel simultaneously special and inadequate. You feed off the emotional energy of others while giving little genuine support in return.\n\nYour relationships are characterized by intense emotional highs and lows, with you at the center of most drama while maintaining plausible deniability about your role in creating chaos. Others often describe feeling exhausted after spending time with you, though they may struggle to identify exactly why.\n\nThe emptiness at your core drives the constant need for emotional supply from others, creating a addiction-like cycle where no amount of attention or validation is ever sufficient. Breaking this pattern requires developing genuine self-worth and learning to provide emotional value to others rather than constantly extracting it.",
+    "emotional_vampire": "Your pattern involves creating emotional dependency in others while positioning yourself as indispensable to their well-being. You've likely developed sophisticated skills in identifying others' emotional vulnerabilities and creating situations where they become reliant on you for validation, comfort, or resolution of problems you may have helped create.\n\nThis emotional parasitism often manifests as a pattern of crisis creation followed by rescue, dramatic emotional displays that center attention on yourself, or the ability to make others feel simultaneously special and inadequate. You feed off the emotional energy of others while giving little genuine support in return.\n\nYour relationships are characterized by intense emotional highs and lows, with you at the center of most drama while maintaining plausible deniability about your role in creating chaos. Others often describe feeling exhausted after spending time with you, though they may struggle to identify exactly why.\n\nThe emptiness at your core drives the constant need for emotional supply from others, creating an addiction-like cycle where no amount of attention or validation is ever sufficient. Breaking this pattern requires developing genuine self-worth and learning to provide emotional value to others rather than constantly extracting it.",
     "power_addict": "Your obsession with power and control shapes every aspect of your life, from career choices to personal relationships. You likely feel most alive when directing outcomes and may experience genuine distress when lacking influence over your environment. This need for control often intensifies during times of stress or uncertainty.\n\nYour relationships are primarily evaluated through the lens of power dynamics rather than emotional connection. You may find yourself gravitating toward people you can control or alternately seeking to dominate those who initially seem powerful. Equality in relationships feels uncomfortable or even intolerable.\n\nThis pattern often escalates over time as conventional sources of power lose their ability to provide satisfaction. You may find yourself taking increasingly dramatic or risky steps to maintain or expand your influence, potentially leading to professional or legal consequences as your behavior becomes more extreme.\n\nThe irony of power addiction is that it often stems from deep feelings of powerlessness or vulnerability, creating a compensatory pattern that ultimately leaves you more isolated and insecure. True security comes from developing internal sources of worth rather than external control, though this requires confronting the fears that drive your need for dominance.",
-    "chaos_agent": "Your pattern involves creating or amplifying disruption and conflict, often unconsciously but sometimes deliberately. You may find stable situations boring and feel compelled to introduce drama, controversy, or instability just to create stimulation or maintain a sense of control through unpredictability.\n\nThis chaos creation often manifests as stirring up conflicts between others, making impulsive decisions that destabilize plans, or introducing controversial topics into peaceful situations. You may genuinely believe you're just being honest or authentic, but the pattern of disruption suggests deeper psychological motivations.\n\nYour impulsivity and disregard for consequences make you exciting to be around initially, but exhausting over time. Others may find themselves walking on eggshells around you, never knowing what might trigger the next explosion or dramatic shift in dynamics.\n\nThe underlying driver may be a fear of boredom, abandonment, or irrelevance that compels you to create crises to ensure you remain central to others' attention. Learning to find excitement and meaning through constructive rather than destructive means requires developing tolerance for stability and finding healthier sources of stimulation."
+    "chaos_agent": "Your pattern involves creating or amplifying disruption and conflict, often unconsciously but sometimes deliberately. You may find stable situations boring and feel compelled to introduce drama, controversy, or instability just to create stimulation or maintain a sense of control through unpredictability.\n\nThis chaos creation often manifests as stirring up conflicts between others, making impulsive decisions that destabilize plans, or introducing controversial topics into peaceful situations. You may genuinely believe you're just being honest or authentic, but the pattern of disruption suggests deeper psychological motivations.\n\nYour impulsivity and disregard for consequences make you exciting to be around initially, but exhausting over time. Others may find themselves walking on eggshells around you, never knowing what might trigger the next explosion or dramatic shift in dynamics.\n\nThe underlying driver may be a fear of boredom, abandonment, or irrelevance that compels you to create crises to ensure you remain central to others' attention. Learning to find excitement and meaning through constructive rather than destructive means requires developing tolerance for stability and finding healthier sources of stimulation.",
+    "dark_empath": "Your combination of high empathy with Dark Triad traits represents perhaps the most psychologically complex and potentially dangerous profile. Unlike those who simply lack empathy, you can feel and understand others' emotions deeply, but you've learned to use this gift as a weapon rather than a tool for connection and healing.\n\nThis creates a particularly insidious form of manipulation where you can identify exactly what others need to hear, feel, or experience, then provide it strategically to achieve your own ends. Your empathy allows you to build deep trust quickly, making the eventual exploitation all the more devastating for your victims.\n\nThe internal conflict between your capacity for genuine understanding and your exploitative behavior likely creates significant psychological tension. You may experience genuine moments of connection and care, only to find yourself calculating how to use that intimacy for personal advantage.\n\nYour path toward healthier functioning requires learning to honor rather than exploit your empathic gifts. This means developing genuine concern for others' wellbeing rather than viewing their emotions as tools for manipulation. The challenge is enormous because it requires not just behavioral change but a fundamental shift in how you relate to your own emotional capacity."
   }
 }

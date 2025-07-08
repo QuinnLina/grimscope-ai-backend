@@ -1,671 +1,701 @@
 {
+  "testId": "biochemical-outbreak",
+  "title": "Biochemical Outbreak Test",
+  "description": "When chemical weapons turn the air toxic, can you survive the deadliest environment on Earth?",
   "testInfo": {
-    "title": "Biochemical Outbreak Test",
-    "description": "Test your survival instincts in a world ravaged by deadly pathogens",
+    "title": "Biochemical Outbreak Assessment", 
+    "description": "Toxic clouds roll across the landscape. Chemical weapons have turned the air itself into a weapon. Can you survive when every breath could be your last?",
     "backgroundImage": "assets/images/apoco/biochemical_outbreak.png"
+  },
+  "traits": {
+    "prepared": "Master of chemical survival preparation and decontamination protocols",
+    "rational": "Uses scientific knowledge and logical thinking to navigate toxic threats",
+    "survival_instinct": "Relies on gut instincts and aggressive self-preservation in chemical disasters",
+    "leadership": "Takes charge of groups and makes life-or-death decisions for others",
+    "panic_resistance": "Stays calm and functional under extreme chemical warfare pressure",
+    "adaptability": "Quickly adjusts to changing contamination patterns and new threats",
+    "resourcefulness": "Improvises solutions and finds ways to survive with limited supplies",
+    "team_player": "Prioritizes group survival and collective safety over individual needs",
+    "risk_assessment": "Carefully evaluates chemical dangers before taking action",
+    "mental_toughness": "Endures psychological trauma and keeps fighting despite horror"
   },
   "questions": [
     {
-      "id": 1,
-      "text": "Emergency alerts warn of a chemical weapons attack in your area. What's your immediate response?",
-      "options": [
+      "question": "The first chemical weapon sirens are wailing. What's running through your mind as you hear that sound?",
+      "answers": [
         {
-          "text": "Seal all windows and doors, create a safe room with air filtration",
-          "weights": {"prepared": 9, "rational": 8, "survival_instinct": 7, "leadership": 4, "panic_resistance": 7, "adaptability": 5, "resourcefulness": 7, "team_player": 3, "risk_assessment": 9, "mental_toughness": 6}
+          "text": "Time to execute my emergency protocols - seal the house, activate filtration",
+          "traits": {"prepared": 5, "rational": 4, "survival_instinct": 3, "leadership": 2, "panic_resistance": 4, "adaptability": 2, "resourcefulness": 3, "team_player": 1, "risk_assessment": 5, "mental_toughness": 3}
         },
         {
-          "text": "Evacuate immediately to higher ground upwind from the attack",
-          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 8, "leadership": 5, "panic_resistance": 5, "adaptability": 8, "resourcefulness": 6, "team_player": 4, "risk_assessment": 7, "mental_toughness": 6}
+          "text": "Fuck, this is really happening - need to move fast and get to safety",
+          "traits": {"prepared": 2, "rational": 3, "survival_instinct": 5, "leadership": 3, "panic_resistance": 2, "adaptability": 4, "resourcefulness": 4, "team_player": 2, "risk_assessment": 3, "mental_toughness": 4}
         },
         {
-          "text": "Help neighbors understand what's happening before protecting myself",
-          "weights": {"prepared": 4, "rational": 4, "survival_instinct": 3, "leadership": 8, "panic_resistance": 5, "adaptability": 5, "resourcefulness": 4, "team_player": 9, "risk_assessment": 3, "mental_toughness": 6}
+          "text": "I need to check on my family and neighbors before I do anything else",
+          "traits": {"prepared": 2, "rational": 2, "survival_instinct": 2, "leadership": 4, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 2, "team_player": 5, "risk_assessment": 2, "mental_toughness": 3}
         },
         {
-          "text": "Wait for official instructions on what to do",
-          "weights": {"prepared": 2, "rational": 3, "survival_instinct": 2, "leadership": 2, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 2, "team_player": 6, "risk_assessment": 2, "mental_toughness": 3}
+          "text": "This can't be real - maybe it's just a drill or false alarm",
+          "traits": {"prepared": 1, "rational": 1, "survival_instinct": 1, "leadership": 1, "panic_resistance": 1, "adaptability": 2, "resourcefulness": 1, "team_player": 3, "risk_assessment": 1, "mental_toughness": 2}
+        },
+        {
+          "text": "Time to think clearly about wind patterns and escape routes",
+          "traits": {"prepared": 4, "rational": 5, "survival_instinct": 4, "leadership": 3, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 3, "team_player": 2, "risk_assessment": 5, "mental_toughness": 3}
         }
       ]
     },
     {
-      "id": 2,
-      "text": "You smell something like almonds mixed with bleach in the air. What does this tell you?",
-      "options": [
+      "question": "You catch a whiff of something that smells like bitter almonds mixed with bleach. Your body is telling you something dangerous is in the air.",
+      "answers": [
         {
-          "text": "Possible cyanide or chlorine gas - get a wet cloth over nose immediately",
-          "weights": {"prepared": 9, "rational": 9, "survival_instinct": 8, "leadership": 5, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 7, "team_player": 4, "risk_assessment": 9, "mental_toughness": 6}
+          "text": "That's cyanide or chlorine - wet cloth over face, get to higher ground immediately",
+          "traits": {"prepared": 5, "rational": 5, "survival_instinct": 4, "leadership": 2, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 4, "team_player": 2, "risk_assessment": 5, "mental_toughness": 3}
         },
         {
-          "text": "Chemical attack confirmed - find higher ground and fresh air",
-          "weights": {"prepared": 7, "rational": 7, "survival_instinct": 8, "leadership": 4, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 6, "team_player": 3, "risk_assessment": 7, "mental_toughness": 6}
+          "text": "Something's seriously wrong here - follow anyone who looks like they know what they're doing",
+          "traits": {"prepared": 2, "rational": 3, "survival_instinct": 3, "leadership": 2, "panic_resistance": 2, "adaptability": 4, "resourcefulness": 2, "team_player": 5, "risk_assessment": 3, "mental_toughness": 2}
         },
         {
-          "text": "Something's wrong but I don't know what - follow others who seem to know",
-          "weights": {"prepared": 3, "rational": 4, "survival_instinct": 5, "leadership": 2, "panic_resistance": 4, "adaptability": 6, "resourcefulness": 3, "team_player": 8, "risk_assessment": 3, "mental_toughness": 4}
+          "text": "Chemical attack confirmed - time to move fast and trust my instincts",
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 5, "leadership": 3, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 4, "team_player": 2, "risk_assessment": 4, "mental_toughness": 4}
         },
         {
-          "text": "Probably just industrial pollution - not immediately dangerous",
-          "weights": {"prepared": 2, "rational": 2, "survival_instinct": 2, "leadership": 2, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 2, "team_player": 4, "risk_assessment": 1, "mental_toughness": 5}
+          "text": "Probably just industrial pollution - not panicking over every strange smell",
+          "traits": {"prepared": 1, "rational": 1, "survival_instinct": 1, "leadership": 1, "panic_resistance": 3, "adaptability": 2, "resourcefulness": 1, "team_player": 2, "risk_assessment": 1, "mental_toughness": 3}
+        },
+        {
+          "text": "Need to warn others about this smell while protecting myself",
+          "traits": {"prepared": 3, "rational": 3, "survival_instinct": 3, "leadership": 4, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 3, "team_player": 5, "risk_assessment": 3, "mental_toughness": 3}
         }
       ]
     },
     {
-      "id": 3,
-      "text": "Your makeshift gas mask is failing and you're starting to feel dizzy. What's your priority?",
-      "options": [
+      "question": "Your makeshift gas mask is failing and you're getting dizzy. This could be it - what's your move?",
+      "answers": [
         {
-          "text": "Find better filtration materials or sealed environment immediately",
-          "weights": {"prepared": 8, "rational": 8, "survival_instinct": 9, "leadership": 4, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 9, "team_player": 3, "risk_assessment": 8, "mental_toughness": 6}
+          "text": "Find better materials or a sealed space right now - this is life or death",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 5, "leadership": 2, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 5, "team_player": 2, "risk_assessment": 4, "mental_toughness": 4}
         },
         {
-          "text": "Move to the highest location possible - chemicals sink",
-          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 8, "leadership": 4, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 6, "team_player": 3, "risk_assessment": 8, "mental_toughness": 6}
+          "text": "Get to the highest point possible - chemicals are heavier than air",
+          "traits": {"prepared": 4, "rational": 5, "survival_instinct": 4, "leadership": 2, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 3, "team_player": 2, "risk_assessment": 5, "mental_toughness": 3}
         },
         {
-          "text": "Find other survivors who might have better protection to share",
-          "weights": {"prepared": 4, "rational": 5, "survival_instinct": 5, "leadership": 5, "panic_resistance": 4, "adaptability": 6, "resourcefulness": 5, "team_player": 8, "risk_assessment": 4, "mental_toughness": 4}
+          "text": "Look for other survivors who might have better protection to share",
+          "traits": {"prepared": 2, "rational": 3, "survival_instinct": 3, "leadership": 3, "panic_resistance": 2, "adaptability": 4, "resourcefulness": 3, "team_player": 5, "risk_assessment": 3, "mental_toughness": 2}
         },
         {
-          "text": "Accept that I'm probably fucked and try to help others while I can",
-          "weights": {"prepared": 3, "rational": 4, "survival_instinct": 2, "leadership": 7, "panic_resistance": 5, "adaptability": 4, "resourcefulness": 3, "team_player": 9, "risk_assessment": 2, "mental_toughness": 7}
+          "text": "If I'm going down, I'm going to help as many people as possible first",
+          "traits": {"prepared": 2, "rational": 2, "survival_instinct": 1, "leadership": 5, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 2, "team_player": 5, "risk_assessment": 2, "mental_toughness": 4}
+        },
+        {
+          "text": "Stay calm, control my breathing, and think through my options logically",
+          "traits": {"prepared": 3, "rational": 5, "survival_instinct": 3, "leadership": 3, "panic_resistance": 5, "adaptability": 3, "resourcefulness": 3, "team_player": 2, "risk_assessment": 4, "mental_toughness": 4}
         }
       ]
     },
     {
-      "id": 4,
-      "text": "You find a family trapped in a contaminated building. They're begging for help but going in could kill you.",
-      "options": [
+      "question": "There's a family trapped in a contaminated building, begging for help. Going in could kill you, but they'll die without rescue.",
+      "answers": [
         {
-          "text": "Try to guide them to safety from outside - don't risk contamination",
-          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 7, "leadership": 6, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 6, "risk_assessment": 8, "mental_toughness": 5}
+          "text": "Guide them to safety from outside - can't help anyone if I'm dead too",
+          "traits": {"prepared": 4, "rational": 5, "survival_instinct": 4, "leadership": 3, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 4, "team_player": 3, "risk_assessment": 5, "mental_toughness": 3}
         },
         {
-          "text": "Go in with whatever protection I have - can't leave them to die",
-          "weights": {"prepared": 4, "rational": 3, "survival_instinct": 3, "leadership": 8, "panic_resistance": 6, "adaptability": 5, "resourcefulness": 5, "team_player": 9, "risk_assessment": 2, "mental_toughness": 8}
+          "text": "Going in with whatever protection I have - can't leave them to die",
+          "traits": {"prepared": 2, "rational": 2, "survival_instinct": 2, "leadership": 4, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 3, "team_player": 5, "risk_assessment": 1, "mental_toughness": 4}
         },
         {
-          "text": "Find others to help with the rescue - strength in numbers",
-          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 5, "leadership": 7, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 7, "team_player": 8, "risk_assessment": 6, "mental_toughness": 5}
+          "text": "Find others to help with the rescue - better chance with more people",
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 3, "leadership": 4, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 4, "team_player": 5, "risk_assessment": 4, "mental_toughness": 3}
         },
         {
-          "text": "Keep moving - I can't save everyone and they might already be dead",
-          "weights": {"prepared": 7, "rational": 6, "survival_instinct": 9, "leadership": 2, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 1, "risk_assessment": 8, "mental_toughness": 7}
+          "text": "Keep moving - I can't save everyone and they might already be gone",
+          "traits": {"prepared": 3, "rational": 3, "survival_instinct": 5, "leadership": 1, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 3, "team_player": 1, "risk_assessment": 4, "mental_toughness": 4}
+        },
+        {
+          "text": "Assess the contamination level first - need to know what I'm dealing with",
+          "traits": {"prepared": 5, "rational": 5, "survival_instinct": 3, "leadership": 3, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 4, "team_player": 3, "risk_assessment": 5, "mental_toughness": 3}
         }
       ]
     },
     {
-      "id": 5,
-      "text": "Chemical burns are appearing on exposed skin. You need medical attention but hospitals are overwhelmed.",
-      "options": [
+      "question": "Chemical burns are appearing on your skin. The hospitals are overwhelmed and you need treatment now.",
+      "answers": [
         {
-          "text": "Flush with clean water, find basic medical supplies, treat myself",
-          "weights": {"prepared": 8, "rational": 8, "survival_instinct": 7, "leadership": 4, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 9, "team_player": 3, "risk_assessment": 7, "mental_toughness": 7}
+          "text": "Flush with clean water and treat myself with whatever medical supplies I can find",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 4, "leadership": 2, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 5, "team_player": 2, "risk_assessment": 4, "mental_toughness": 4}
         },
         {
-          "text": "Find someone with medical training among other survivors",
-          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 5, "leadership": 5, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 6, "team_player": 8, "risk_assessment": 5, "mental_toughness": 4}
+          "text": "Find someone with medical training among the other survivors",
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 3, "leadership": 3, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 3, "team_player": 5, "risk_assessment": 3, "mental_toughness": 3}
         },
         {
           "text": "Force my way into a medical facility - this is life or death",
-          "weights": {"prepared": 4, "rational": 4, "survival_instinct": 8, "leadership": 6, "panic_resistance": 5, "adaptability": 5, "resourcefulness": 6, "team_player": 3, "risk_assessment": 4, "mental_toughness": 6}
+          "traits": {"prepared": 2, "rational": 2, "survival_instinct": 5, "leadership": 3, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 4, "team_player": 2, "risk_assessment": 2, "mental_toughness": 4}
         },
         {
           "text": "Push through the pain - there are others worse off than me",
-          "weights": {"prepared": 5, "rational": 4, "survival_instinct": 6, "leadership": 6, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 4, "team_player": 7, "risk_assessment": 4, "mental_toughness": 9}
+          "traits": {"prepared": 2, "rational": 2, "survival_instinct": 3, "leadership": 3, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 2, "team_player": 4, "risk_assessment": 2, "mental_toughness": 5}
+        },
+        {
+          "text": "Document my symptoms carefully while treating - this could help others",
+          "traits": {"prepared": 4, "rational": 5, "survival_instinct": 2, "leadership": 4, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 4, "team_player": 4, "risk_assessment": 4, "mental_toughness": 4}
         }
       ]
     },
     {
-      "id": 6,
-      "text": "You discover a sealed military vehicle with protective gear inside, but taking it might be considered looting.",
-      "options": [
+      "question": "You've found a sealed military vehicle with protective gear inside. Taking it might be looting, but it could save lives.",
+      "answers": [
         {
-          "text": "Take what I need to survive - emergency overrides normal laws",
-          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 8, "leadership": 5, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 8, "team_player": 3, "risk_assessment": 6, "mental_toughness": 7}
+          "text": "Take what I need to survive - emergency situations override normal laws",
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 5, "leadership": 3, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 5, "team_player": 2, "risk_assessment": 3, "mental_toughness": 4}
         },
         {
-          "text": "Take only what I need and leave the rest for others",
-          "weights": {"prepared": 7, "rational": 7, "survival_instinct": 6, "leadership": 6, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 7, "team_player": 7, "risk_assessment": 6, "mental_toughness": 6}
+          "text": "Take only what I absolutely need and leave the rest for others",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 3, "leadership": 4, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 4, "team_player": 4, "risk_assessment": 4, "mental_toughness": 3}
         },
         {
-          "text": "Look for the vehicle's crew first - maybe they need help",
-          "weights": {"prepared": 4, "rational": 5, "survival_instinct": 4, "leadership": 7, "panic_resistance": 5, "adaptability": 5, "resourcefulness": 4, "team_player": 8, "risk_assessment": 4, "mental_toughness": 5}
+          "text": "Look for the vehicle crew first - they might need help or have information",
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 2, "leadership": 4, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 3, "team_player": 5, "risk_assessment": 4, "mental_toughness": 3}
         },
         {
-          "text": "Don't touch it - could be booby-trapped or monitored",
-          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 5, "leadership": 3, "panic_resistance": 5, "adaptability": 4, "resourcefulness": 4, "team_player": 4, "risk_assessment": 9, "mental_toughness": 5}
+          "text": "Don't touch it - could be booby-trapped or under surveillance",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 3, "leadership": 2, "panic_resistance": 4, "adaptability": 2, "resourcefulness": 2, "team_player": 3, "risk_assessment": 5, "mental_toughness": 3}
+        },
+        {
+          "text": "Secure the area and organize others to distribute the equipment fairly",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 3, "leadership": 5, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 4, "team_player": 5, "risk_assessment": 4, "mental_toughness": 3}
         }
       ]
     },
     {
-      "id": 7,
-      "text": "Wind patterns are shifting and bringing the chemical cloud toward your shelter. What's your strategy?",
-      "options": [
+      "question": "The wind is shifting and bringing the chemical cloud toward your shelter. Time to make a critical decision.",
+      "answers": [
         {
-          "text": "Evacuate immediately perpendicular to wind direction",
-          "weights": {"prepared": 8, "rational": 9, "survival_instinct": 8, "leadership": 5, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 7, "team_player": 4, "risk_assessment": 9, "mental_toughness": 6}
+          "text": "Evacuate immediately, moving perpendicular to the wind direction",
+          "traits": {"prepared": 4, "rational": 5, "survival_instinct": 4, "leadership": 3, "panic_resistance": 4, "adaptability": 5, "resourcefulness": 4, "team_player": 3, "risk_assessment": 5, "mental_toughness": 3}
         },
         {
-          "text": "Seal the shelter better and wait for wind to change again",
-          "weights": {"prepared": 7, "rational": 6, "survival_instinct": 5, "leadership": 4, "panic_resistance": 7, "adaptability": 5, "resourcefulness": 7, "team_player": 4, "risk_assessment": 6, "mental_toughness": 7}
+          "text": "Seal the shelter better and wait for the wind to change again",
+          "traits": {"prepared": 4, "rational": 3, "survival_instinct": 3, "leadership": 2, "panic_resistance": 4, "adaptability": 2, "resourcefulness": 4, "team_player": 3, "risk_assessment": 3, "mental_toughness": 4}
         },
         {
-          "text": "Move the group to underground areas like subway tunnels",
-          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 6, "leadership": 7, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 6, "team_player": 7, "risk_assessment": 7, "mental_toughness": 5}
+          "text": "Move everyone to underground areas like subway tunnels or basements",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 3, "leadership": 4, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 4, "team_player": 4, "risk_assessment": 4, "mental_toughness": 3}
         },
         {
-          "text": "Split up to increase chances someone survives",
-          "weights": {"prepared": 5, "rational": 5, "survival_instinct": 7, "leadership": 6, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 5, "team_player": 3, "risk_assessment": 6, "mental_toughness": 6}
+          "text": "Split the group up to increase the chances that someone survives",
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 4, "leadership": 3, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 3, "team_player": 2, "risk_assessment": 4, "mental_toughness": 4}
+        },
+        {
+          "text": "Stand my ground and fight the contamination with better protection",
+          "traits": {"prepared": 3, "rational": 3, "survival_instinct": 4, "leadership": 4, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 5, "team_player": 3, "risk_assessment": 2, "mental_toughness": 5}
         }
       ]
     },
     {
-      "id": 8,
-      "text": "You meet a scientist who claims to know how to neutralize the chemical threat, but they need dangerous materials.",
-      "options": [
+      "question": "A scientist claims they can neutralize the chemical threat, but they need dangerous materials to do it.",
+      "answers": [
         {
-          "text": "Help them gather materials - this could save everyone",
-          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 5, "leadership": 7, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 8, "team_player": 8, "risk_assessment": 5, "mental_toughness": 6}
+          "text": "Help gather the materials - this could save everyone if it works",
+          "traits": {"prepared": 3, "rational": 3, "survival_instinct": 3, "leadership": 4, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 4, "team_player": 5, "risk_assessment": 3, "mental_toughness": 3}
         },
         {
-          "text": "Verify their credentials and plan before committing",
-          "weights": {"prepared": 8, "rational": 9, "survival_instinct": 6, "leadership": 6, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 7, "team_player": 6, "risk_assessment": 9, "mental_toughness": 6}
+          "text": "Verify their credentials and plan thoroughly before committing resources",
+          "traits": {"prepared": 5, "rational": 5, "survival_instinct": 3, "leadership": 4, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 4, "team_player": 3, "risk_assessment": 5, "mental_toughness": 3}
         },
         {
           "text": "Too risky - focus on protecting my immediate group instead",
-          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 8, "leadership": 5, "panic_resistance": 6, "adaptability": 5, "resourcefulness": 6, "team_player": 4, "risk_assessment": 7, "mental_toughness": 6}
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 4, "leadership": 3, "panic_resistance": 3, "adaptability": 2, "resourcefulness": 3, "team_player": 2, "risk_assessment": 4, "mental_toughness": 3}
         },
         {
-          "text": "Sounds like bullshit - probably trying to get us killed",
-          "weights": {"prepared": 5, "rational": 4, "survival_instinct": 7, "leadership": 4, "panic_resistance": 6, "adaptability": 4, "resourcefulness": 5, "team_player": 2, "risk_assessment": 6, "mental_toughness": 6}
+          "text": "Sounds like bullshit - probably trying to get us all killed",
+          "traits": {"prepared": 2, "rational": 2, "survival_instinct": 4, "leadership": 2, "panic_resistance": 3, "adaptability": 2, "resourcefulness": 2, "team_player": 1, "risk_assessment": 3, "mental_toughness": 3}
+        },
+        {
+          "text": "Test their knowledge first with questions only a real scientist would know",
+          "traits": {"prepared": 4, "rational": 5, "survival_instinct": 3, "leadership": 3, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 4, "team_player": 3, "risk_assessment": 5, "mental_toughness": 3}
         }
       ]
     },
     {
-      "id": 9,
-      "text": "Food and water supplies are running low, but everything outside is potentially contaminated. What's your approach?",
-      "options": [
+      "question": "Food and water are running low, but everything outside could be contaminated. How do you handle survival needs?",
+      "answers": [
         {
           "text": "Carefully decontaminate found supplies using proper procedures",
-          "weights": {"prepared": 9, "rational": 9, "survival_instinct": 7, "leadership": 5, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 8, "team_player": 5, "risk_assessment": 8, "mental_toughness": 6}
+          "traits": {"prepared": 5, "rational": 5, "survival_instinct": 3, "leadership": 3, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 5, "team_player": 3, "risk_assessment": 5, "mental_toughness": 3}
         },
         {
-          "text": "Risk short exposure trips to gather sealed/packaged items",
-          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 8, "leadership": 5, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 8, "team_player": 4, "risk_assessment": 6, "mental_toughness": 7}
+          "text": "Risk short exposure trips to gather sealed or packaged items",
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 4, "leadership": 3, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 4, "team_player": 3, "risk_assessment": 3, "mental_toughness": 4}
         },
         {
-          "text": "Ration what we have and wait for external rescue",
-          "weights": {"prepared": 7, "rational": 6, "survival_instinct": 4, "leadership": 4, "panic_resistance": 6, "adaptability": 4, "resourcefulness": 5, "team_player": 6, "risk_assessment": 5, "mental_toughness": 6}
+          "text": "Ration what we have strictly and wait for external rescue",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 2, "leadership": 3, "panic_resistance": 4, "adaptability": 2, "resourcefulness": 3, "team_player": 4, "risk_assessment": 3, "mental_toughness": 4}
         },
         {
-          "text": "Eat whatever we can find - starvation is a guaranteed death",
-          "weights": {"prepared": 3, "rational": 4, "survival_instinct": 8, "leadership": 4, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 5, "team_player": 4, "risk_assessment": 2, "mental_toughness": 7}
+          "text": "Eat whatever we can find - starvation is guaranteed death",
+          "traits": {"prepared": 1, "rational": 2, "survival_instinct": 5, "leadership": 2, "panic_resistance": 2, "adaptability": 3, "resourcefulness": 3, "team_player": 2, "risk_assessment": 1, "mental_toughness": 4}
+        },
+        {
+          "text": "Organize scavenging teams with the best protective equipment",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 3, "leadership": 5, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 4, "team_player": 5, "risk_assessment": 4, "mental_toughness": 3}
         }
       ]
     },
     {
-      "id": 10,
-      "text": "A government vehicle offers evacuation, but you've heard rumors that evacuation centers are death traps.",
-      "options": [
+      "question": "A government vehicle offers evacuation, but you've heard rumors that evacuation centers are death traps.",
+      "answers": [
         {
-          "text": "Go with them - official help is better than staying here",
-          "weights": {"prepared": 4, "rational": 5, "survival_instinct": 4, "leadership": 3, "panic_resistance": 4, "adaptability": 5, "resourcefulness": 3, "team_player": 7, "risk_assessment": 3, "mental_toughness": 4}
+          "text": "Go with them - official help is better than staying in this hellscape",
+          "traits": {"prepared": 2, "rational": 3, "survival_instinct": 2, "leadership": 2, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 2, "team_player": 4, "risk_assessment": 2, "mental_toughness": 3}
         },
         {
-          "text": "Ask detailed questions about the destination before deciding",
-          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 6, "leadership": 6, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 6, "risk_assessment": 9, "mental_toughness": 6}
+          "text": "Ask detailed questions about destination and safety protocols first",
+          "traits": {"prepared": 4, "rational": 5, "survival_instinct": 3, "leadership": 3, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 3, "team_player": 3, "risk_assessment": 5, "mental_toughness": 3}
         },
         {
-          "text": "Politely decline and continue self-rescue efforts",
-          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 7, "leadership": 5, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 7, "team_player": 3, "risk_assessment": 7, "mental_toughness": 7}
+          "text": "Politely decline and continue with my own survival efforts",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 4, "leadership": 3, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 4, "team_player": 2, "risk_assessment": 4, "mental_toughness": 4}
         },
         {
-          "text": "Tell them to fuck off - government caused this mess",
-          "weights": {"prepared": 5, "rational": 4, "survival_instinct": 6, "leadership": 4, "panic_resistance": 6, "adaptability": 4, "resourcefulness": 5, "team_player": 2, "risk_assessment": 5, "mental_toughness": 7}
+          "text": "Tell them to fuck off - government probably caused this mess",
+          "traits": {"prepared": 2, "rational": 2, "survival_instinct": 3, "leadership": 2, "panic_resistance": 3, "adaptability": 2, "resourcefulness": 3, "team_player": 1, "risk_assessment": 2, "mental_toughness": 4}
+        },
+        {
+          "text": "Negotiate for my group's safety before agreeing to anything",
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 3, "leadership": 5, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 3, "team_player": 5, "risk_assessment": 4, "mental_toughness": 3}
         }
       ]
     },
     {
-      "id": 11,
-      "text": "You've been exposed to chemicals for days. Early symptoms include nausea and breathing problems. What's your response?",
-      "options": [
+      "question": "You've been exposed for days now. Nausea and breathing problems are starting. This might be the beginning of the end.",
+      "answers": [
         {
-          "text": "Start immediate decontamination and find medical treatment",
-          "weights": {"prepared": 8, "rational": 9, "survival_instinct": 8, "leadership": 4, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 8, "team_player": 4, "risk_assessment": 8, "mental_toughness": 6}
+          "text": "Start immediate decontamination and find medical treatment now",
+          "traits": {"prepared": 4, "rational": 5, "survival_instinct": 4, "leadership": 2, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 4, "team_player": 2, "risk_assessment": 4, "mental_toughness": 3}
         },
         {
-          "text": "Document symptoms and try to find others with medical knowledge",
-          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 5, "leadership": 5, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 7, "risk_assessment": 6, "mental_toughness": 5}
+          "text": "Document symptoms and find others with medical knowledge",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 3, "leadership": 3, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 3, "team_player": 4, "risk_assessment": 4, "mental_toughness": 3}
         },
         {
-          "text": "Push through it - showing weakness will panic the group",
-          "weights": {"prepared": 4, "rational": 4, "survival_instinct": 6, "leadership": 7, "panic_resistance": 8, "adaptability": 5, "resourcefulness": 4, "team_player": 6, "risk_assessment": 3, "mental_toughness": 9}
+          "text": "Push through it - showing weakness will panic everyone else",
+          "traits": {"prepared": 2, "rational": 2, "survival_instinct": 3, "leadership": 4, "panic_resistance": 5, "adaptability": 3, "resourcefulness": 2, "team_player": 4, "risk_assessment": 2, "mental_toughness": 5}
         },
         {
           "text": "Isolate myself to avoid contaminating others further",
-          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 4, "leadership": 4, "panic_resistance": 5, "adaptability": 5, "resourcefulness": 4, "team_player": 8, "risk_assessment": 6, "mental_toughness": 6}
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 2, "leadership": 3, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 2, "team_player": 5, "risk_assessment": 4, "mental_toughness": 3}
+        },
+        {
+          "text": "Use myself as a test case to learn about the chemical effects",
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 2, "leadership": 4, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 4, "team_player": 4, "risk_assessment": 3, "mental_toughness": 4}
         }
       ]
     },
     {
-      "id": 12,
-      "text": "Your group finds a factory with intact air filtration systems, but it's in the middle of the contamination zone.",
-      "options": [
+      "question": "Your group finds a factory with working air filtration, but it's deep in the contamination zone.",
+      "answers": [
         {
           "text": "Plan a careful approach with maximum protection to secure it",
-          "weights": {"prepared": 8, "rational": 8, "survival_instinct": 7, "leadership": 7, "panic_resistance": 7, "adaptability": 7, "resourcefulness": 8, "team_player": 6, "risk_assessment": 8, "mental_toughness": 6}
+          "traits": {"prepared": 5, "rational": 5, "survival_instinct": 3, "leadership": 4, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 4, "team_player": 4, "risk_assessment": 5, "mental_toughness": 3}
         },
         {
-          "text": "Send a small scouting team first to verify it's safe",
-          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 6, "leadership": 7, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 7, "team_player": 6, "risk_assessment": 9, "mental_toughness": 6}
+          "text": "Send a small scouting team first to verify it's actually safe",
+          "traits": {"prepared": 4, "rational": 5, "survival_instinct": 3, "leadership": 4, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 4, "team_player": 4, "risk_assessment": 5, "mental_toughness": 3}
         },
         {
-          "text": "Too dangerous - find alternatives that don't require exposure",
-          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 8, "leadership": 4, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 5, "risk_assessment": 8, "mental_toughness": 5}
+          "text": "Too dangerous - find alternatives that don't require deep exposure",
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 4, "leadership": 2, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 3, "team_player": 3, "risk_assessment": 5, "mental_toughness": 3}
         },
         {
-          "text": "Go for it immediately before someone else claims it",
-          "weights": {"prepared": 4, "rational": 3, "survival_instinct": 7, "leadership": 6, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 6, "team_player": 4, "risk_assessment": 2, "mental_toughness": 7}
+          "text": "Go for it immediately before someone else claims the facility",
+          "traits": {"prepared": 2, "rational": 2, "survival_instinct": 4, "leadership": 3, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 3, "team_player": 2, "risk_assessment": 1, "mental_toughness": 4}
+        },
+        {
+          "text": "Use it as a long-term base if we can establish supply lines",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 3, "leadership": 4, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 5, "team_player": 4, "risk_assessment": 4, "mental_toughness": 4}
         }
       ]
     },
     {
-      "id": 13,
-      "text": "Chemical weapons have created different contamination zones. Which area do you prioritize avoiding?",
-      "options": [
+      "question": "Chemical weapons have created different contamination zones. Which area would you avoid at all costs?",
+      "answers": [
         {
-          "text": "Low-lying areas where heavier gases accumulate",
-          "weights": {"prepared": 9, "rational": 9, "survival_instinct": 8, "leadership": 5, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 7, "team_player": 4, "risk_assessment": 9, "mental_toughness": 6}
+          "text": "Low-lying areas where heavier gases settle and accumulate",
+          "traits": {"prepared": 5, "rational": 5, "survival_instinct": 4, "leadership": 3, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 3, "team_player": 3, "risk_assessment": 5, "mental_toughness": 3}
         },
         {
           "text": "Areas with visible chemical residue or dead vegetation",
-          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 7, "leadership": 5, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 4, "risk_assessment": 8, "mental_toughness": 6}
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 4, "leadership": 3, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 3, "team_player": 3, "risk_assessment": 4, "mental_toughness": 3}
         },
         {
-          "text": "Anywhere with dead animals or people - clear danger signs",
-          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 8, "leadership": 4, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 5, "team_player": 4, "risk_assessment": 7, "mental_toughness": 5}
+          "text": "Anywhere with dead animals or people - clear danger markers",
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 4, "leadership": 2, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 3, "team_player": 3, "risk_assessment": 4, "mental_toughness": 3}
         },
         {
-          "text": "I don't know enough about chemicals to make informed choices",
-          "weights": {"prepared": 2, "rational": 3, "survival_instinct": 4, "leadership": 3, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 3, "team_player": 5, "risk_assessment": 3, "mental_toughness": 4}
+          "text": "I don't know enough about chemicals to make good decisions",
+          "traits": {"prepared": 1, "rational": 2, "survival_instinct": 2, "leadership": 2, "panic_resistance": 2, "adaptability": 3, "resourcefulness": 2, "team_player": 3, "risk_assessment": 2, "mental_toughness": 2}
+        },
+        {
+          "text": "Water sources and drainage areas where chemicals concentrate",
+          "traits": {"prepared": 4, "rational": 5, "survival_instinct": 3, "leadership": 3, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 4, "team_player": 3, "risk_assessment": 5, "mental_toughness": 3}
         }
       ]
     },
     {
-      "id": 14,
-      "text": "You discover that the chemical attack was targeting water supplies. How do you handle hydration?",
-      "options": [
+      "question": "You discover the chemical attack targeted water supplies specifically. How do you handle hydration without dying?",
+      "answers": [
         {
           "text": "Only use sealed bottled water or water I can properly purify",
-          "weights": {"prepared": 9, "rational": 9, "survival_instinct": 8, "leadership": 5, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 8, "team_player": 5, "risk_assessment": 9, "mental_toughness": 6}
+          "traits": {"prepared": 5, "rational": 5, "survival_instinct": 4, "leadership": 3, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 4, "team_player": 3, "risk_assessment": 5, "mental_toughness": 3}
         },
         {
-          "text": "Collect rainwater and test it before consumption",
-          "weights": {"prepared": 7, "rational": 7, "survival_instinct": 6, "leadership": 4, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 8, "team_player": 4, "risk_assessment": 7, "mental_toughness": 6}
+          "text": "Collect rainwater and test it thoroughly before consumption",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 3, "leadership": 2, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 5, "team_player": 2, "risk_assessment": 4, "mental_toughness": 3}
         },
         {
-          "text": "Boil all water sources thoroughly before drinking",
-          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 6, "leadership": 4, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 7, "team_player": 4, "risk_assessment": 5, "mental_toughness": 6}
+          "text": "Boil all water sources thoroughly and hope that helps",
+          "traits": {"prepared": 3, "rational": 3, "survival_instinct": 3, "leadership": 2, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 4, "team_player": 2, "risk_assessment": 3, "mental_toughness": 3}
         },
         {
           "text": "Risk drinking local water - dehydration will kill me faster",
-          "weights": {"prepared": 3, "rational": 4, "survival_instinct": 7, "leadership": 3, "panic_resistance": 4, "adaptability": 5, "resourcefulness": 4, "team_player": 3, "risk_assessment": 2, "mental_toughness": 6}
+          "traits": {"prepared": 1, "rational": 2, "survival_instinct": 4, "leadership": 2, "panic_resistance": 2, "adaptability": 3, "resourcefulness": 2, "team_player": 2, "risk_assessment": 1, "mental_toughness": 4}
+        },
+        {
+          "text": "Set up distillation systems to create clean water for the group",
+          "traits": {"prepared": 5, "rational": 5, "survival_instinct": 3, "leadership": 4, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 5, "team_player": 5, "risk_assessment": 4, "mental_toughness": 3}
         }
       ]
     },
     {
-      "id": 15,
-      "text": "A child in your group is showing severe chemical poisoning symptoms. Medical help is days away.",
-      "options": [
+      "question": "A child in your group is showing severe poisoning symptoms. Medical help is days away if it comes at all.",
+      "answers": [
         {
           "text": "Use whatever medical supplies I have and try basic treatment",
-          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 5, "leadership": 6, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 8, "team_player": 8, "risk_assessment": 6, "mental_toughness": 7}
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 3, "leadership": 3, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 5, "team_player": 4, "risk_assessment": 3, "mental_toughness": 4}
         },
         {
           "text": "Attempt to reach medical help faster, even if it's dangerous",
-          "weights": {"prepared": 5, "rational": 5, "survival_instinct": 6, "leadership": 7, "panic_resistance": 5, "adaptability": 7, "resourcefulness": 6, "team_player": 9, "risk_assessment": 4, "mental_toughness": 6}
+          "traits": {"prepared": 3, "rational": 3, "survival_instinct": 3, "leadership": 4, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 3, "team_player": 5, "risk_assessment": 2, "mental_toughness": 3}
         },
         {
-          "text": "Focus on keeping them comfortable and minimizing further exposure",
-          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 4, "leadership": 5, "panic_resistance": 6, "adaptability": 5, "resourcefulness": 5, "team_player": 7, "risk_assessment": 5, "mental_toughness": 6}
+          "text": "Keep them comfortable and minimize further exposure",
+          "traits": {"prepared": 3, "rational": 3, "survival_instinct": 2, "leadership": 3, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 3, "team_player": 4, "risk_assessment": 3, "mental_toughness": 4}
         },
         {
           "text": "Accept that some people can't be saved and protect the healthy ones",
-          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 8, "leadership": 4, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 5, "team_player": 2, "risk_assessment": 7, "mental_toughness": 8}
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 4, "leadership": 2, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 3, "team_player": 1, "risk_assessment": 4, "mental_toughness": 5}
+        },
+        {
+          "text": "Document their symptoms carefully to help other children survive",
+          "traits": {"prepared": 4, "rational": 5, "survival_instinct": 2, "leadership": 4, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 4, "team_player": 4, "risk_assessment": 4, "mental_toughness": 4}
         }
       ]
     },
     {
-      "id": 16,
-      "text": "You find a working radio broadcasting instructions for chemical decontamination. Do you trust the source?",
-      "options": [
+      "question": "You find a working radio broadcasting decontamination instructions. Can you trust this voice in the static?",
+      "answers": [
         {
-          "text": "Follow the instructions carefully - expert advice is valuable",
-          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 5, "leadership": 4, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 6, "risk_assessment": 5, "mental_toughness": 5}
+          "text": "Follow the instructions carefully - expert advice could save lives",
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 3, "leadership": 2, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 3, "team_player": 4, "risk_assessment": 3, "mental_toughness": 3}
         },
         {
-          "text": "Cross-reference with my own knowledge before implementing",
-          "weights": {"prepared": 8, "rational": 9, "survival_instinct": 6, "leadership": 5, "panic_resistance": 7, "adaptability": 7, "resourcefulness": 7, "team_player": 5, "risk_assessment": 9, "mental_toughness": 6}
+          "text": "Cross-reference with my own knowledge before implementing anything",
+          "traits": {"prepared": 5, "rational": 5, "survival_instinct": 3, "leadership": 3, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 4, "team_player": 3, "risk_assessment": 5, "mental_toughness": 3}
         },
         {
-          "text": "Try the methods on non-critical items first to test effectiveness",
-          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 7, "leadership": 5, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 8, "team_player": 5, "risk_assessment": 8, "mental_toughness": 6}
+          "text": "Test the methods on non-critical items first to verify effectiveness",
+          "traits": {"prepared": 4, "rational": 5, "survival_instinct": 4, "leadership": 3, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 4, "team_player": 3, "risk_assessment": 5, "mental_toughness": 3}
         },
         {
           "text": "Ignore it - radio broadcasts could be misinformation or traps",
-          "weights": {"prepared": 5, "rational": 4, "survival_instinct": 6, "leadership": 4, "panic_resistance": 6, "adaptability": 4, "resourcefulness": 5, "team_player": 3, "risk_assessment": 6, "mental_toughness": 6}
+          "traits": {"prepared": 3, "rational": 2, "survival_instinct": 4, "leadership": 2, "panic_resistance": 3, "adaptability": 2, "resourcefulness": 3, "team_player": 2, "risk_assessment": 3, "mental_toughness": 4}
+        },
+        {
+          "text": "Share the information with other groups to verify if it works",
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 3, "leadership": 4, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 3, "team_player": 5, "risk_assessment": 4, "mental_toughness": 3}
         }
       ]
     },
     {
-      "id": 17,
-      "text": "Three weeks in, you realize the chemical contamination is permanent in some areas. What's your long-term strategy?",
-      "options": [
+      "question": "Three weeks in, you realize some contamination is permanent. What's your long-term survival strategy?",
+      "answers": [
         {
           "text": "Establish a permanent base in clean areas with sustainable resources",
-          "weights": {"prepared": 8, "rational": 8, "survival_instinct": 6, "leadership": 7, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 8, "team_player": 7, "risk_assessment": 8, "mental_toughness": 6}
+          "traits": {"prepared": 5, "rational": 5, "survival_instinct": 3, "leadership": 4, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 5, "team_player": 4, "risk_assessment": 4, "mental_toughness": 4}
         },
         {
-          "text": "Keep moving to stay ahead of contamination spread",
-          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 8, "leadership": 4, "panic_resistance": 5, "adaptability": 8, "resourcefulness": 7, "team_player": 4, "risk_assessment": 6, "mental_toughness": 7}
+          "text": "Keep moving to stay ahead of contamination spread patterns",
+          "traits": {"prepared": 3, "rational": 3, "survival_instinct": 5, "leadership": 2, "panic_resistance": 3, "adaptability": 5, "resourcefulness": 4, "team_player": 2, "risk_assessment": 3, "mental_toughness": 4}
         },
         {
           "text": "Adapt to living with contamination using protective measures",
-          "weights": {"prepared": 7, "rational": 7, "survival_instinct": 7, "leadership": 5, "panic_resistance": 7, "adaptability": 9, "resourcefulness": 8, "team_player": 5, "risk_assessment": 6, "mental_toughness": 8}
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 4, "leadership": 3, "panic_resistance": 4, "adaptability": 5, "resourcefulness": 5, "team_player": 3, "risk_assessment": 3, "mental_toughness": 5}
         },
         {
-          "text": "Focus on finding other survivor communities to join forces",
-          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 5, "leadership": 6, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 6, "team_player": 9, "risk_assessment": 5, "mental_toughness": 5}
+          "text": "Find other survivor communities to join forces and share resources",
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 3, "leadership": 4, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 4, "team_player": 5, "risk_assessment": 3, "mental_toughness": 3}
+        },
+        {
+          "text": "Focus on finding and securing the last truly clean areas",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 4, "leadership": 3, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 4, "team_player": 3, "risk_assessment": 5, "mental_toughness": 3}
         }
       ]
     },
     {
-      "id": 18,
-      "text": "You encounter a group that's become immune to the chemicals through gradual exposure. They offer to help you adapt.",
-      "options": [
+      "question": "You encounter a group that claims immunity through gradual exposure. They offer to help you adapt.",
+      "answers": [
         {
           "text": "Carefully study their methods and try gradual adaptation",
-          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 6, "leadership": 5, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 7, "team_player": 6, "risk_assessment": 6, "mental_toughness": 7}
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 3, "leadership": 3, "panic_resistance": 3, "adaptability": 5, "resourcefulness": 4, "team_player": 3, "risk_assessment": 3, "mental_toughness": 4}
         },
         {
           "text": "Join them but maintain protective measures until proven safe",
-          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 6, "leadership": 5, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 6, "team_player": 7, "risk_assessment": 8, "mental_toughness": 6}
+          "traits": {"prepared": 4, "rational": 5, "survival_instinct": 3, "leadership": 3, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 3, "team_player": 4, "risk_assessment": 5, "mental_toughness": 3}
         },
         {
           "text": "Too risky - controlled exposure could kill rather than immunize",
-          "weights": {"prepared": 7, "rational": 7, "survival_instinct": 7, "leadership": 4, "panic_resistance": 6, "adaptability": 4, "resourcefulness": 6, "team_player": 4, "risk_assessment": 9, "mental_toughness": 6}
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 4, "leadership": 2, "panic_resistance": 4, "adaptability": 2, "resourcefulness": 3, "team_player": 2, "risk_assessment": 5, "mental_toughness": 3}
         },
         {
-          "text": "They're probably already brain-damaged from exposure",
-          "weights": {"prepared": 5, "rational": 4, "survival_instinct": 6, "leadership": 4, "panic_resistance": 5, "adaptability": 3, "resourcefulness": 4, "team_player": 2, "risk_assessment": 6, "mental_toughness": 6}
+          "text": "They're probably brain-damaged from exposure already",
+          "traits": {"prepared": 2, "rational": 2, "survival_instinct": 3, "leadership": 2, "panic_resistance": 3, "adaptability": 1, "resourcefulness": 2, "team_player": 1, "risk_assessment": 3, "mental_toughness": 3}
+        },
+        {
+          "text": "Test their immunity claims scientifically before trusting them",
+          "traits": {"prepared": 5, "rational": 5, "survival_instinct": 3, "leadership": 3, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 4, "team_player": 3, "risk_assessment": 5, "mental_toughness": 3}
         }
       ]
     },
     {
-      "id": 19,
-      "text": "Your protective equipment is failing and replacement parts are impossible to find. What's your approach?",
-      "options": [
+      "question": "Your protective equipment is failing and replacement parts are impossible to find. Time to improvise or die.",
+      "answers": [
         {
-          "text": "Improvise repairs and upgrades using available materials",
-          "weights": {"prepared": 7, "rational": 7, "survival_instinct": 7, "leadership": 4, "panic_resistance": 6, "adaptability": 9, "resourcefulness": 9, "team_player": 4, "risk_assessment": 6, "mental_toughness": 7}
+          "text": "Improvise repairs and upgrades using whatever materials I can scavenge",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 4, "leadership": 2, "panic_resistance": 3, "adaptability": 5, "resourcefulness": 5, "team_player": 2, "risk_assessment": 3, "mental_toughness": 4}
         },
         {
-          "text": "Find other survivors who might have spare equipment to trade",
-          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 5, "leadership": 5, "panic_resistance": 5, "adaptability": 6, "resourcefulness": 7, "team_player": 8, "risk_assessment": 5, "mental_toughness": 5}
+          "text": "Find other survivors to trade with for spare equipment",
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 3, "leadership": 3, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 4, "team_player": 5, "risk_assessment": 3, "mental_toughness": 3}
         },
         {
           "text": "Minimize exposure by staying in safe zones as much as possible",
-          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 7, "leadership": 4, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 5, "team_player": 4, "risk_assessment": 8, "mental_toughness": 6}
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 4, "leadership": 2, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 3, "team_player": 3, "risk_assessment": 5, "mental_toughness": 3}
         },
         {
           "text": "Accept increased exposure risk - can't hide forever",
-          "weights": {"prepared": 4, "rational": 4, "survival_instinct": 6, "leadership": 5, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 5, "team_player": 4, "risk_assessment": 3, "mental_toughness": 8}
+          "traits": {"prepared": 2, "rational": 2, "survival_instinct": 4, "leadership": 3, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 3, "team_player": 3, "risk_assessment": 2, "mental_toughness": 5}
+        },
+        {
+          "text": "Organize a group effort to manufacture new equipment",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 3, "leadership": 5, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 5, "team_player": 5, "risk_assessment": 4, "mental_toughness": 3}
         }
       ]
     },
     {
-      "id": 20,
-      "text": "Six months later, you've survived but many others haven't. How do you deal with survivor's guilt?",
-      "options": [
+      "question": "Six months later, you've survived while many others didn't. How are you dealing with the guilt and trauma?",
+      "answers": [
         {
-          "text": "Focus on helping rebuild and honoring those who didn't make it",
-          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 4, "leadership": 8, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 8, "risk_assessment": 5, "mental_toughness": 7}
+          "text": "Focus on honoring the dead by helping rebuild and protecting others",
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 2, "leadership": 5, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 4, "team_player": 5, "risk_assessment": 3, "mental_toughness": 4}
         },
         {
           "text": "Use my survival skills to teach and protect other survivors",
-          "weights": {"prepared": 7, "rational": 7, "survival_instinct": 6, "leadership": 8, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 8, "team_player": 8, "risk_assessment": 6, "mental_toughness": 6}
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 3, "leadership": 5, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 4, "team_player": 5, "risk_assessment": 3, "mental_toughness": 3}
         },
         {
-          "text": "Compartmentalize the emotions and focus on practical survival",
-          "weights": {"prepared": 7, "rational": 7, "survival_instinct": 7, "leadership": 5, "panic_resistance": 8, "adaptability": 6, "resourcefulness": 7, "team_player": 3, "risk_assessment": 7, "mental_toughness": 9}
+          "text": "Compartmentalize emotions and focus on practical survival tasks",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 4, "leadership": 3, "panic_resistance": 5, "adaptability": 3, "resourcefulness": 4, "team_player": 2, "risk_assessment": 4, "mental_toughness": 5}
         },
         {
-          "text": "Struggle with it daily - survival feels meaningless without others",
-          "weights": {"prepared": 3, "rational": 4, "survival_instinct": 3, "leadership": 4, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 4, "team_player": 6, "risk_assessment": 4, "mental_toughness": 3}
+          "text": "Struggle with it daily - survival feels meaningless without the others",
+          "traits": {"prepared": 2, "rational": 2, "survival_instinct": 2, "leadership": 2, "panic_resistance": 1, "adaptability": 2, "resourcefulness": 2, "team_player": 4, "risk_assessment": 2, "mental_toughness": 1}
+        },
+        {
+          "text": "Channel the pain into determination to prevent this from happening again",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 3, "leadership": 4, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 4, "team_player": 4, "risk_assessment": 4, "mental_toughness": 4}
         }
       ]
     },
     {
-      "id": 21,
-      "text": "You discover the chemical attack was a test run for something worse. How do you use this information?",
-      "options": [
+      "question": "You discover the chemical attack was just a test run for something worse. How do you use this terrifying knowledge?",
+      "answers": [
         {
-          "text": "Warn other survivor communities and help them prepare",
-          "weights": {"prepared": 7, "rational": 7, "survival_instinct": 5, "leadership": 8, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 7, "team_player": 9, "risk_assessment": 6, "mental_toughness": 6}
+          "text": "Warn other survivor communities and help them prepare for what's coming",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 3, "leadership": 5, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 4, "team_player": 5, "risk_assessment": 4, "mental_toughness": 4}
         },
         {
-          "text": "Use the knowledge to better prepare my own group",
-          "weights": {"prepared": 8, "rational": 8, "survival_instinct": 7, "leadership": 6, "panic_resistance": 7, "adaptability": 7, "resourcefulness": 8, "team_player": 5, "risk_assessment": 8, "mental_toughness": 7}
+          "text": "Use the knowledge to better prepare my own group first",
+          "traits": {"prepared": 5, "rational": 5, "survival_instinct": 4, "leadership": 4, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 5, "team_player": 3, "risk_assessment": 5, "mental_toughness": 4}
         },
         {
-          "text": "Try to find and stop whoever is responsible",
-          "weights": {"prepared": 5, "rational": 5, "survival_instinct": 5, "leadership": 7, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 7, "risk_assessment": 4, "mental_toughness": 8}
+          "text": "Try to find and stop whoever is responsible for this horror",
+          "traits": {"prepared": 3, "rational": 3, "survival_instinct": 3, "leadership": 4, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 3, "team_player": 4, "risk_assessment": 2, "mental_toughness": 5}
         },
         {
-          "text": "Keep it secret - this information could cause mass panic",
-          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 6, "leadership": 5, "panic_resistance": 7, "adaptability": 5, "resourcefulness": 5, "team_player": 4, "risk_assessment": 7, "mental_toughness": 6}
+          "text": "Keep it secret - this information would cause mass panic",
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 3, "leadership": 3, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 3, "team_player": 2, "risk_assessment": 4, "mental_toughness": 4}
+        },
+        {
+          "text": "Document everything for future generations to learn from",
+          "traits": {"prepared": 5, "rational": 5, "survival_instinct": 2, "leadership": 4, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 4, "team_player": 4, "risk_assessment": 4, "mental_toughness": 4}
         }
       ]
     },
     {
-      "id": 22,
-      "text": "A year later, chemical-resistant crops are finally growing. How do you handle food production?",
-      "options": [
+      "question": "A year later, chemical-resistant crops are finally growing. How do you handle this precious food production?",
+      "answers": [
         {
-          "text": "Establish secure farming communities with shared knowledge",
-          "weights": {"prepared": 8, "rational": 8, "survival_instinct": 5, "leadership": 8, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 8, "team_player": 9, "risk_assessment": 6, "mental_toughness": 6}
+          "text": "Establish secure farming communities with shared knowledge and resources",
+          "traits": {"prepared": 5, "rational": 5, "survival_instinct": 3, "leadership": 5, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 5, "team_player": 5, "risk_assessment": 4, "mental_toughness": 3}
         },
         {
-          "text": "Guard the farming secrets and control food distribution",
-          "weights": {"prepared": 7, "rational": 6, "survival_instinct": 8, "leadership": 7, "panic_resistance": 6, "adaptability": 5, "resourcefulness": 8, "team_player": 3, "risk_assessment": 7, "mental_toughness": 7}
+          "text": "Guard the farming secrets and control food distribution for power",
+          "traits": {"prepared": 4, "rational": 3, "survival_instinct": 4, "leadership": 3, "panic_resistance": 3, "adaptability": 2, "resourcefulness": 4, "team_player": 1, "risk_assessment": 3, "mental_toughness": 4}
         },
         {
-          "text": "Focus on preserving and storing as much as possible",
-          "weights": {"prepared": 9, "rational": 8, "survival_instinct": 7, "leadership": 5, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 9, "team_player": 5, "risk_assessment": 8, "mental_toughness": 6}
+          "text": "Focus on preserving and storing as much food as possible",
+          "traits": {"prepared": 5, "rational": 4, "survival_instinct": 4, "leadership": 3, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 5, "team_player": 3, "risk_assessment": 4, "mental_toughness": 3}
         },
         {
           "text": "Share freely to help rebuild civilization faster",
-          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 4, "leadership": 7, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 9, "risk_assessment": 4, "mental_toughness": 6}
+          "traits": {"prepared": 3, "rational": 3, "survival_instinct": 2, "leadership": 4, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 3, "team_player": 5, "risk_assessment": 2, "mental_toughness": 3}
+        },
+        {
+          "text": "Create breeding programs to improve chemical resistance further",
+          "traits": {"prepared": 5, "rational": 5, "survival_instinct": 3, "leadership": 4, "panic_resistance": 4, "adaptability": 5, "resourcefulness": 5, "team_player": 4, "risk_assessment": 4, "mental_toughness": 3}
         }
       ]
     },
     {
-      "id": 23,
-      "text": "You've developed expertise in chemical decontamination. Other survivors come to you for help constantly.",
-      "options": [
+      "question": "You've become the go-to expert on chemical decontamination. Other survivors come to you constantly for help.",
+      "answers": [
         {
-          "text": "Train others to spread the knowledge and reduce dependence on me",
-          "weights": {"prepared": 7, "rational": 8, "survival_instinct": 5, "leadership": 9, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 8, "team_player": 9, "risk_assessment": 6, "mental_toughness": 6}
+          "text": "Train others to spread knowledge and reduce dependence on me alone",
+          "traits": {"prepared": 4, "rational": 5, "survival_instinct": 3, "leadership": 5, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 4, "team_player": 5, "risk_assessment": 4, "mental_toughness": 3}
         },
         {
-          "text": "Help everyone but maintain my position as the expert",
-          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 6, "leadership": 7, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 7, "team_player": 6, "risk_assessment": 6, "mental_toughness": 6}
+          "text": "Help everyone but maintain my position as the essential expert",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 3, "leadership": 4, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 4, "team_player": 3, "risk_assessment": 3, "mental_toughness": 3}
         },
         {
-          "text": "Charge resources for my services - expertise has value",
-          "weights": {"prepared": 7, "rational": 7, "survival_instinct": 7, "leadership": 5, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 9, "team_player": 3, "risk_assessment": 7, "mental_toughness": 6}
+          "text": "Charge resources for my services - expertise has value in this world",
+          "traits": {"prepared": 3, "rational": 4, "survival_instinct": 4, "leadership": 3, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 4, "team_player": 1, "risk_assessment": 3, "mental_toughness": 3}
         },
         {
-          "text": "Limit my help to avoid burnout and maintain my own safety",
-          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 8, "leadership": 4, "panic_resistance": 7, "adaptability": 6, "resourcefulness": 6, "team_player": 3, "risk_assessment": 8, "mental_toughness": 7}
+          "text": "Limit help to avoid burnout and maintain my own safety first",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 4, "leadership": 2, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 3, "team_player": 2, "risk_assessment": 4, "mental_toughness": 4}
+        },
+        {
+          "text": "Focus on training the most capable people to become new experts",
+          "traits": {"prepared": 5, "rational": 5, "survival_instinct": 3, "leadership": 5, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 4, "team_player": 4, "risk_assessment": 4, "mental_toughness": 3}
         }
       ]
     },
     {
-      "id": 24,
-      "text": "Two years after the attack, you must choose between staying in the safe zone you've built or exploring the recovering world.",
-      "options": [
+      "question": "Two years after the attack, you must choose between staying in your safe zone or exploring the recovering world.",
+      "answers": [
         {
-          "text": "Stay and continue building a stable, sustainable community",
-          "weights": {"prepared": 8, "rational": 7, "survival_instinct": 5, "leadership": 8, "panic_resistance": 7, "adaptability": 5, "resourcefulness": 7, "team_player": 8, "risk_assessment": 6, "mental_toughness": 6}
+          "text": "Stay and continue building a stable, sustainable community here",
+          "traits": {"prepared": 5, "rational": 4, "survival_instinct": 3, "leadership": 4, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 4, "team_player": 5, "risk_assessment": 4, "mental_toughness": 3}
         },
         {
           "text": "Explore to gather intelligence and establish trade networks",
-          "weights": {"prepared": 6, "rational": 7, "survival_instinct": 7, "leadership": 6, "panic_resistance": 6, "adaptability": 8, "resourcefulness": 8, "team_player": 6, "risk_assessment": 7, "mental_toughness": 7}
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 4, "leadership": 4, "panic_resistance": 4, "adaptability": 5, "resourcefulness": 5, "team_player": 4, "risk_assessment": 4, "mental_toughness": 4}
         },
         {
-          "text": "Help other communities by sharing our successful model",
-          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 4, "leadership": 8, "panic_resistance": 6, "adaptability": 7, "resourcefulness": 7, "team_player": 9, "risk_assessment": 5, "mental_toughness": 6}
+          "text": "Help other communities by sharing our successful survival model",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 2, "leadership": 5, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 4, "team_player": 5, "risk_assessment": 3, "mental_toughness": 3}
         },
         {
-          "text": "Keep a low profile - success makes us a target",
-          "weights": {"prepared": 7, "rational": 7, "survival_instinct": 8, "leadership": 4, "panic_resistance": 6, "adaptability": 5, "resourcefulness": 6, "team_player": 4, "risk_assessment": 9, "mental_toughness": 6}
+          "text": "Keep low profile - success makes us a target for desperate groups",
+          "traits": {"prepared": 4, "rational": 4, "survival_instinct": 4, "leadership": 2, "panic_resistance": 4, "adaptability": 2, "resourcefulness": 3, "team_player": 2, "risk_assessment": 5, "mental_toughness": 3}
+        },
+        {
+          "text": "Split into smaller groups to reduce risk while expanding influence",
+          "traits": {"prepared": 4, "rational": 5, "survival_instinct": 4, "leadership": 4, "panic_resistance": 4, "adaptability": 5, "resourcefulness": 4, "team_player": 4, "risk_assessment": 5, "mental_toughness": 4}
         }
       ]
     },
     {
-      "id": 25,
-      "text": "Looking back on surviving the chemical apocalypse, what was your most important survival trait?",
-      "options": [
+      "question": "Looking back on surviving the chemical apocalypse, what kept you alive when others died?",
+      "answers": [
         {
-          "text": "Technical knowledge about chemicals and decontamination",
-          "weights": {"prepared": 9, "rational": 9, "survival_instinct": 6, "leadership": 5, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 8, "team_player": 4, "risk_assessment": 9, "mental_toughness": 6}
+          "text": "Deep knowledge about chemicals and decontamination saved my life repeatedly",
+          "traits": {"prepared": 5, "rational": 5, "survival_instinct": 3, "leadership": 3, "panic_resistance": 3, "adaptability": 3, "resourcefulness": 4, "team_player": 3, "risk_assessment": 5, "mental_toughness": 3}
         },
         {
-          "text": "Ability to adapt quickly to constantly changing threats",
-          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 7, "leadership": 5, "panic_resistance": 6, "adaptability": 9, "resourcefulness": 8, "team_player": 5, "risk_assessment": 6, "mental_toughness": 7}
+          "text": "Ability to adapt quickly to constantly changing toxic threats",
+          "traits": {"prepared": 3, "rational": 3, "survival_instinct": 4, "leadership": 3, "panic_resistance": 3, "adaptability": 5, "resourcefulness": 4, "team_player": 3, "risk_assessment": 3, "mental_toughness": 4}
         },
         {
-          "text": "Building and maintaining trust within survivor groups",
-          "weights": {"prepared": 5, "rational": 6, "survival_instinct": 4, "leadership": 7, "panic_resistance": 6, "adaptability": 6, "resourcefulness": 6, "team_player": 9, "risk_assessment": 5, "mental_toughness": 6}
+          "text": "Building trust and working together with other survivors",
+          "traits": {"prepared": 3, "rational": 3, "survival_instinct": 2, "leadership": 4, "panic_resistance": 3, "adaptability": 4, "resourcefulness": 3, "team_player": 5, "risk_assessment": 3, "mental_toughness": 3}
         },
         {
           "text": "Mental toughness to keep going when everything seemed hopeless",
-          "weights": {"prepared": 6, "rational": 6, "survival_instinct": 7, "leadership": 6, "panic_resistance": 8, "adaptability": 6, "resourcefulness": 6, "team_player": 5, "risk_assessment": 6, "mental_toughness": 9}
+          "traits": {"prepared": 3, "rational": 3, "survival_instinct": 4, "leadership": 3, "panic_resistance": 4, "adaptability": 3, "resourcefulness": 3, "team_player": 3, "risk_assessment": 3, "mental_toughness": 5}
+        },
+        {
+          "text": "Pure survival instinct and willingness to do whatever it took",
+          "traits": {"prepared": 3, "rational": 3, "survival_instinct": 5, "leadership": 3, "panic_resistance": 4, "adaptability": 4, "resourcefulness": 4, "team_player": 2, "risk_assessment": 3, "mental_toughness": 4}
         }
       ]
     }
   ],
-  "results": [
-    {
-      "id": "chemical_expert",
+  "results": {
+    "prepared": {
       "title": "Chemical Warfare Expert",
-      "shortDescription": "You've mastered the deadly art of surviving chemical warfare. Your knowledge of decontamination and chemical threats makes you invaluable in the toxic wasteland.",
-      "extendedDescription": [
-        "When chemical weapons turned the air into poison, you didn't just survive - you became a master of the new toxic reality. Your deep understanding of chemical threats, decontamination procedures, and protective measures has made you the go-to expert that other survivors depend on for life-or-death decisions. You can read chemical danger signs like others read street signs.",
-        "Your survival strategy is built on scientific knowledge and methodical preparation. While others panicked or made fatal mistakes, you applied chemistry principles and proper protocols to navigate the chemical hellscape. Your ability to improvise decontamination equipment, identify different chemical threats, and establish safe procedures has saved countless lives.",
-        "What sets you apart is your combination of technical expertise and practical application. You don't just know the theory - you've proven these skills under the most extreme conditions possible. Your careful risk assessment and evidence-based decision making have earned you the trust and respect of survivor communities who know that following your advice means staying alive.",
-        "You've become more than just a survivor - you're a teacher and protector whose knowledge helps rebuild civilization in a chemically compromised world. Your expertise will be essential for generations as humanity learns to live with the long-term consequences of chemical warfare."
-      ]
+      "description": "You've mastered the deadly science of surviving chemical warfare. Your deep knowledge of decontamination protocols, chemical threats, and protective measures makes you invaluable in the toxic wasteland. When others panic, you execute procedures that keep people alive.",
+      "extended": "When chemical weapons turned the air into poison, you didn't just survive - you became a master of the new toxic reality. Your understanding of chemical threats, decontamination procedures, and protective measures has made you the go-to expert that other survivors depend on for life-or-death decisions. You can read chemical danger signs like others read street signs.\n\nYour survival strategy is built on scientific knowledge and methodical preparation. While others panicked or made fatal mistakes, you applied chemistry principles and proper protocols to navigate the chemical hellscape. Your ability to improvise decontamination equipment, identify different chemical threats, and establish safe procedures has saved countless lives.\n\nWhat sets you apart is your combination of technical expertise and practical application under extreme pressure. You don't just know the theory - you've proven these skills when every second counts and one mistake means death. Your careful risk assessment and evidence-based decision making have earned you the trust of survivor communities.\n\nYou've become more than just a survivor - you're a teacher and protector whose knowledge helps rebuild civilization in a chemically compromised world. Your expertise will be essential for generations as humanity learns to live with the long-term consequences of chemical warfare."
     },
-    {
-      "id": "decon_specialist",
-      "title": "Decontamination Specialist",
-      "shortDescription": "You've turned cleaning into a survival skill. Your mastery of decontamination procedures keeps you and your community safe from chemical threats.",
-      "extendedDescription": [
-        "In a world where a single contaminated item can kill, you've become the master of making things safe again. Your expertise in decontamination procedures, from improvised field methods to complex multi-stage cleaning protocols, has become your most valuable survival skill. You understand that in chemical warfare, cleanliness literally means life or death.",
-        "Your approach to survival is methodical and thorough. You've learned to see contamination everywhere and developed systems to safely handle food, water, equipment, and even people who've been exposed to chemical agents. Your attention to detail and systematic thinking have prevented countless poisoning incidents in your community.",
-        "What makes you invaluable is your ability to teach others these critical skills while maintaining safety standards under pressure. You've created decontamination protocols that work with limited resources and trained other survivors to properly execute them. Your work allows communities to safely expand their operations into contaminated areas.",
-        "Your legacy will be the knowledge and procedures you've developed that allow human civilization to reclaim contaminated territories. Your systematic approach to decontamination has not only kept people alive but created the foundation for long-term recovery and reconstruction in a poisoned world."
-      ]
+    "rational": {
+      "title": "Decontamination Specialist", 
+      "description": "You've turned cleaning into a survival skill. Your mastery of scientific thinking and systematic decontamination procedures keeps you and your community safe from chemical threats. Logic and evidence guide every decision in this poisoned world.",
+      "extended": "In a world where a single contaminated item can kill, you've become the master of making things safe again. Your expertise in decontamination procedures, from improvised field methods to complex multi-stage cleaning protocols, has become your most valuable survival skill. You understand that in chemical warfare, systematic thinking literally means the difference between life and death.\n\nYour approach to survival is methodical and evidence-based. You've learned to see contamination everywhere and developed systems to safely handle food, water, equipment, and even people who've been exposed to chemical agents. Your attention to scientific detail and logical thinking have prevented countless poisoning incidents in your community.\n\nWhat makes you invaluable is your ability to remain rational under pressure while teaching others these critical skills. You've created decontamination protocols that work with limited resources and trained other survivors to properly execute them. Your work allows communities to safely expand their operations into contaminated areas.\n\nYour legacy will be the knowledge and procedures you've developed that allow human civilization to reclaim contaminated territories. Your systematic approach to decontamination has not only kept people alive but created the foundation for long-term recovery and reconstruction in a poisoned world."
     },
-    {
-      "id": "toxic_navigator",
-      "title": "Toxic Navigator",
-      "shortDescription": "You've learned to read the poisoned landscape like a map. Your ability to navigate chemical hazards safely makes you the guide others trust with their lives.",
-      "extendedDescription": [
-        "While others see only death and poison, you see patterns, safe routes, and survivable risks. Your ability to navigate through chemically contaminated terrain has made you an essential guide for any group that needs to move through the toxic wasteland. You've developed an almost supernatural sense for reading chemical danger signs and finding safe passage.",
-        "Your survival skills are built on observation, experience, and calculated risk-taking. You understand how chemicals behave in different weather conditions, how they accumulate in terrain features, and how to minimize exposure while still accomplishing necessary missions. Your route-finding abilities have saved lives and opened up resources that others couldn't safely access.",
-        "What sets you apart is your combination of environmental awareness and tactical thinking. You don't just avoid danger - you find ways to use environmental knowledge to your advantage, whether that's timing movements with wind patterns or identifying overlooked safe zones. Your expertise allows groups to operate effectively in areas others consider completely uninhabitable.",
-        "Your knowledge of the toxic landscape makes you invaluable for both immediate survival and long-term planning. As communities work to reclaim contaminated areas, your understanding of chemical distribution patterns and safe navigation techniques will be crucial for expansion and resource recovery efforts."
-      ]
+    "survival_instinct": {
+      "title": "Toxic Survivor",
+      "description": "You've survived through pure instinct and aggressive self-preservation. When chemical weapons threatened to kill everyone, your gut reactions and fierce determination to live kept you breathing when others fell. You trust your instincts over experts.",
+      "extended": "While others relied on manuals and procedures, you trusted your survival instincts and lived through what should have been certain death. Your ability to sense danger, react quickly to threats, and fight for your life with everything you have has carried you through the chemical apocalypse when more 'prepared' people died around you.\n\nYour survival strategy is built on instinct, aggression, and an unbreakable will to live. You've learned to read your environment like a predator, sensing chemical threats through subtle cues that others miss entirely. Your willingness to take calculated risks and fight dirty when necessary has opened up survival opportunities that more cautious people never saw.\n\nWhat keeps you alive is your refusal to give up and your ability to adapt quickly when plans fall apart. You don't overthink situations - you react based on your gut feelings and deal with the consequences later. This approach has saved your life repeatedly when split-second decisions meant the difference between living and dying.\n\nYour proof that raw determination can overcome technical knowledge gives hope to ordinary people trying to survive chemical warfare. While you may not have all the scientific answers, your fierce will to live and ability to keep fighting when everything seems hopeless demonstrates that survival instinct is sometimes more valuable than preparation."
     },
-    {
-      "id": "community_protector",
+    "leadership": {
       "title": "Community Protector",
-      "shortDescription": "You've dedicated yourself to keeping others safe from chemical threats. Your protective instincts and group management skills build strong, resilient communities.",
-      "extendedDescription": [
-        "When the chemical weapons fell, your first instinct wasn't just self-preservation - it was protecting others. Your natural leadership abilities and strong protective instincts have made you the backbone of survivor communities, organizing group safety protocols and ensuring that everyone has the knowledge and equipment they need to survive chemical threats.",
-        "Your strength lies in thinking beyond individual survival to community resilience. You've organized supply chains for protective equipment, established training programs for chemical safety, and created support systems for people dealing with exposure or trauma. Your ability to maintain group cohesion under extreme stress has kept communities together when fear and desperation could have torn them apart.",
-        "What makes you essential is your balance of practical protective measures with emotional support. You understand that surviving chemical warfare isn't just about avoiding poison - it's about maintaining hope, purpose, and human connections in an environment designed to break the human spirit. Your leadership provides both physical safety and psychological stability.",
-        "Your legacy will be the strong, resilient communities you've helped build that can not only survive chemical threats but thrive despite them. Your focus on collective security and mutual aid has created models for how human society can adapt to and overcome even the most devastating environmental challenges."
-      ]
+      "description": "You've dedicated yourself to keeping others safe from chemical threats. Your natural leadership abilities and protective instincts have made you the backbone of survivor communities, organizing group safety and maintaining hope when fear could destroy everything.",
+      "extended": "When the chemical weapons fell, your first instinct wasn't just self-preservation - it was protecting others. Your natural leadership abilities and strong protective instincts have made you the backbone of survivor communities, organizing group safety protocols and ensuring that everyone has the knowledge and equipment they need to survive chemical threats.\n\nYour strength lies in thinking beyond individual survival to community resilience. You've organized supply chains for protective equipment, established training programs for chemical safety, and created support systems for people dealing with exposure or trauma. Your ability to maintain group cohesion under extreme stress has kept communities together when fear and desperation could have torn them apart.\n\nWhat makes you essential is your balance of practical protective measures with emotional support and hope. You understand that surviving chemical warfare isn't just about avoiding poison - it's about maintaining human connections and purpose in an environment designed to break the human spirit. Your leadership provides both physical safety and psychological stability.\n\nYour legacy will be the strong, resilient communities you've helped build that can not only survive chemical threats but thrive despite them. Your focus on collective security and mutual aid has created models for how human society can adapt to and overcome even the most devastating environmental challenges."
     },
-    {
-      "id": "chemical_survivor",
-      "title": "Chemical Survivor",
-      "shortDescription": "You've survived exposure and lived to tell about it. Your hard-won experience with chemical effects makes you tough and knowledgeable about recovery.",
-      "extendedDescription": [
-        "You didn't just avoid chemical exposure - you survived it. Your body bears the marks of chemical warfare, but your mind carries the invaluable knowledge of what it's really like to face these weapons and live through the experience. Your survival has given you insights that can't be learned from textbooks or secondhand accounts.",
-        "Your approach to survival is informed by harsh personal experience with chemical effects, treatment, and recovery. You understand the real timeline of chemical poisoning, what symptoms actually mean, and what treatments work under field conditions. Your knowledge has helped others recognize and respond to exposure before it becomes fatal.",
-        "What makes you unique is your combination of technical knowledge and lived experience. You can speak with authority about both the science of chemical weapons and the human reality of surviving them. Your credibility comes from your scars, and other survivors listen to you because they know you've been where they fear to go.",
-        "Your survival story provides hope to others who face exposure, and your practical knowledge of recovery and adaptation helps communities deal with long-term chemical effects. You've proven that chemical warfare isn't an automatic death sentence, and your example inspires others to keep fighting even after exposure."
-      ]
+    "panic_resistance": {
+      "title": "Unshakeable Survivor",
+      "description": "When everyone else was losing their minds, you stayed calm and functional. Your ability to think clearly under extreme chemical warfare pressure has saved lives and provided stability when panic could have killed everyone around you.",
+      "extended": "While chemical weapons drove others to panic and fatal mistakes, you became the calm center that held everything together. Your ability to remain functional under extreme pressure, think clearly during chemical attacks, and make rational decisions when everyone else was losing their minds has been crucial to group survival.\n\nYour mental strength comes from your ability to compartmentalize fear and focus on immediate tasks that keep people alive. When alarms are blaring and people are screaming about chemical attacks, you're the one checking wind direction, organizing evacuation routes, and making sure protective equipment is distributed properly.\n\nWhat makes you invaluable is your role as the emotional anchor for other survivors. Your calm presence reassures people and gives them confidence that they can survive this nightmare. You've learned to project strength even when you're terrified inside, because you know that group panic kills faster than chemical weapons.\n\nYour ability to stay functional under pressure has made you a natural leader in crisis situations. People look to you for guidance because they know you won't break down when they need you most. Your mental toughness provides the psychological foundation that allows communities to function despite living in constant fear of chemical death."
     },
-    {
-      "id": "resource_manager",
-      "title": "Resource Manager",
-      "shortDescription": "You've mastered the logistics of surviving in a chemically contaminated world. Your resource management skills keep communities supplied and functioning.",
-      "extendedDescription": [
-        "Surviving chemical warfare isn't just about avoiding poison - it's about managing the complex logistics of life in a contaminated world. Your expertise in resource management, supply chain thinking, and strategic planning has made you the person communities rely on to keep everyone fed, equipped, and protected in impossible circumstances.",
-        "Your survival strategy focuses on systems and sustainability rather than day-to-day crisis management. You've developed protocols for safely acquiring, testing, and distributing resources in a contaminated environment. Your forward-thinking approach to stockpiling, trade networks, and resource allocation has prevented communities from falling into scarcity-driven conflicts.",
-        "What sets you apart is your ability to think strategically about long-term survival while managing immediate needs. You understand the economics of the post-chemical world, where clean water might be worth more than gold and functional protective equipment becomes a currency unto itself. Your trading skills and resource networks give your community significant advantages.",
-        "Your legacy will be the sustainable systems you've created that allow communities to not just survive chemical contamination but build stable, prosperous societies despite it. Your understanding of resource management in extreme conditions provides the foundation for rebuilding civilization in a chemically challenged world."
-      ]
+    "adaptability": {
+      "title": "Chemical Chameleon",
+      "description": "You've learned to roll with whatever the toxic wasteland throws at you. Your flexibility and quick adaptation to changing chemical threats have kept you alive when rigid thinkers died following outdated protocols.",
+      "extended": "If chemical warfare has taught you anything, it's that rigid plans get you killed. Your superpower is adapting to rapidly changing chemical threats, shifting contamination patterns, and evolving survival challenges. When other survivors are still following outdated protocols, you've already adapted to new realities and found innovative solutions.\n\nYour approach to chemical survival is experimental and opportunistic. You're not locked into any single strategy - instead, you read chemical situations as they develop and adjust your tactics accordingly. This flexibility has allowed you to thrive in diverse contaminated environments and work effectively with different survivor groups using various approaches.\n\nWhat makes you valuable is your ability to learn quickly from both successes and failures in chemical survival. You don't get stuck mourning the pre-chemical world or fixated on how decontamination 'should' work. Instead, you embrace the new toxic reality and find ways to turn chemical challenges into survival advantages.\n\nYour adaptability ensures that you'll find ways to survive chemical scenarios that would doom more rigid thinkers. As chemical contamination patterns shift and new threats emerge, your flexible approach and innovative thinking will be essential for communities trying to navigate an ever-changing toxic landscape."
     },
-    {
-      "id": "adaptive_survivor",
-      "title": "Adaptive Survivor", 
-      "shortDescription": "You've learned to roll with whatever the chemical wasteland throws at you. Your flexibility and quick thinking help you navigate constantly changing threats.",
-      "extendedDescription": [
-        "If chemical warfare has taught you anything, it's that rigid plans get you killed. Your superpower is adapting to rapidly changing chemical threats, shifting contamination patterns, and evolving survival challenges. When other survivors are still following outdated protocols, you've already adapted to new realities and found innovative solutions.",
-        "Your approach to chemical survival is experimental and opportunistic. You're not locked into any single strategy - instead, you read chemical situations as they develop and adjust your tactics accordingly. This flexibility has allowed you to thrive in diverse contaminated environments and work effectively with different survivor groups using various approaches.",
-        "What makes you valuable is your ability to learn quickly from both successes and failures in chemical survival. You don't get stuck mourning the pre-chemical world or fixated on how decontamination 'should' work. Instead, you embrace the new toxic reality and find ways to turn chemical challenges into survival advantages.",
-        "Your adaptability ensures that you'll find ways to survive chemical scenarios that would doom more rigid thinkers. As chemical contamination patterns shift and new threats emerge, your flexible approach and innovative thinking will be essential for communities trying to navigate an ever-changing toxic landscape."
-      ]
+    "resourcefulness": {
+      "title": "Wasteland Engineer",
+      "description": "You've become a master of making something from nothing in the chemical wasteland. Your ability to improvise solutions, jury-rig protective equipment, and find creative uses for limited resources has kept communities alive and functioning.",
+      "extended": "When chemical warfare destroyed the infrastructure of civilization, you became the person who could make things work again. Your ability to improvise decontamination equipment, create protective gear from scavenged materials, and find innovative solutions to chemical survival problems has made you indispensable to any group lucky enough to have you.\n\nYour survival strategy focuses on creative problem-solving and maximum utilization of available resources. You've learned to see potential in everything - turning household items into chemical filters, improvising protective equipment from industrial materials, and creating detection systems from electronics salvaged from the wasteland.\n\nWhat sets you apart is your combination of technical creativity with practical knowledge of chemical threats. You don't just build things - you build things that actually work to protect people from chemical weapons. Your innovations have often been the difference between a community surviving or being wiped out by contamination.\n\nYour legacy will be the technologies and techniques you've developed that allow human civilization to function in a chemically hostile environment. Your resourcefulness has not only kept people alive but provided the foundation for rebuilding society with the tools and knowledge needed to thrive in the post-chemical world."
     },
-    {
-      "id": "toxic_nomad",
-      "title": "Toxic Nomad",
-      "shortDescription": "You've learned that staying mobile is key to surviving chemical contamination. Your nomadic lifestyle keeps you ahead of toxic threats.",
-      "extendedDescription": [
-        "While others tried to build permanent shelters and safe zones, you learned that mobility is the ultimate defense against chemical warfare. Your nomadic approach to survival, constantly moving ahead of contamination spreads and shifting threats, has kept you alive when static communities have been overwhelmed by toxic disasters.",
-        "Your survival strategy is built on speed, flexibility, and minimal dependencies. You've learned to travel light while carrying essential chemical protection, read environmental signs to predict contamination movement, and find temporary shelter in any environment. Your knowledge of routes, hideouts, and resource caches spans vast contaminated territories.",
-        "What keeps you alive is your ability to think like the chemicals themselves - always moving, following patterns, and adapting to environmental conditions. You understand that in chemical warfare, yesterday's safe zone is tomorrow's death trap, and your willingness to abandon comfortable situations has saved your life repeatedly.",
-        "Your nomadic lifestyle makes you valuable as a messenger, scout, and guide between isolated survivor communities. Your knowledge of contamination patterns across wide areas and your ability to safely traverse toxic terrain makes you an essential link in the network of human survival in the chemical wasteland."
-      ]
+    "team_player": {
+      "title": "Group Guardian",
+      "description": "You've made other people's survival your priority, often at personal risk. Your collaborative approach and willingness to sacrifice for the group has built strong communities that survive together when individual approaches fail.",
+      "extended": "While others focused on individual survival, you understood that in chemical warfare, we live or die together. Your commitment to group survival, collaborative decision-making, and willingness to take personal risks for the benefit of others has created the strong community bonds that make the difference between thriving and merely surviving.\n\nYour approach to chemical survival is inherently social and cooperative. You've organized resource sharing, established communication networks between survivor groups, and created support systems that help people cope with the psychological trauma of living under constant chemical threat. Your work builds the social fabric that holds communities together.\n\nWhat makes you essential is your understanding that surviving chemical warfare requires more than just individual protection - it requires rebuilding human society in a hostile environment. Your focus on cooperation, mutual aid, and collective security has created models for how groups can not only survive but maintain their humanity despite the horror.\n\nYour legacy will be the communities you've helped build that prove human cooperation can overcome even the most devastating weapons. Your collaborative approach has shown that our greatest strength against chemical warfare isn't better equipment or individual knowledge - it's our ability to work together and protect each other."
     },
-    {
-      "id": "chemical_warrior",
-      "title": "Chemical Warrior",
-      "shortDescription": "You've turned chemical survival into a combat skill. Your aggressive approach to handling toxic threats makes you a formidable force in the wasteland.",
-      "extendedDescription": [
-        "You didn't just learn to survive chemical warfare - you learned to fight back against it. Your aggressive, combat-oriented approach to chemical threats has made you a formidable force in the toxic wasteland. You treat chemical contamination like an enemy to be defeated rather than a hazard to be avoided, and this mindset has made you incredibly effective.",
-        "Your survival strategy combines chemical knowledge with tactical thinking and aggressive problem-solving. You're willing to take calculated risks to neutralize chemical threats, rescue people from contaminated areas, or secure essential resources that others consider too dangerous to pursue. Your combat mindset gives you an edge in high-stakes chemical situations.",
-        "What makes you dangerous is your combination of chemical expertise with warrior mentality. You've weaponized your knowledge of decontamination and protection, using chemical principles tactically to outmaneuver both environmental threats and hostile survivors. Your approach inspires confidence in allies and fear in enemies.",
-        "Your warrior approach to chemical survival has made you a leader among the more aggressive survivor factions. Your willingness to take the fight to chemical threats rather than just enduring them has opened up possibilities that more defensive-minded survivors never considered, expanding the boundaries of what's possible in the toxic wasteland."
-      ]
+    "risk_assessment": {
+      "title": "Danger Calculator",
+      "description": "You've survived by carefully evaluating every chemical threat before taking action. Your methodical approach to risk assessment and conservative decision-making has kept you alive when bold moves killed others.",
+      "extended": "In a world where one wrong step means chemical death, you've become the master of calculated risk. Your ability to carefully evaluate chemical threats, assess contamination levels, and make informed decisions about safety has kept you and others alive when more impulsive survivors made fatal mistakes.\n\nYour survival strategy is built on thorough analysis and conservative action. You've learned to read environmental signs, understand chemical behavior patterns, and evaluate the real risks of different exposure scenarios. Your cautious approach has prevented countless disasters that could have wiped out entire survivor groups.\n\nWhat makes you invaluable is your combination of scientific knowledge with practical risk management skills. You don't just avoid danger - you help others understand why certain areas or actions are too risky, teaching them to make better decisions about chemical safety. Your guidance has saved lives and resources.\n\nYour legacy will be the risk assessment protocols and safety procedures you've developed that allow communities to operate in contaminated environments without suffering unnecessary casualties. Your careful approach to chemical threats has provided the foundation for sustainable survival in a world where every decision could be your last."
     },
-    {
-      "id": "contaminated_survivor",
-      "title": "Contaminated Survivor",
-      "shortDescription": "You've survived through grit and luck more than expertise. You're still breathing despite making some questionable choices in the chemical wasteland.",
-      "extendedDescription": [
-        "You're living proof that sometimes survival is less about perfect chemical knowledge and more about sheer fucking determination to keep breathing toxic air. You might not have all the decontamination protocols memorized or the best protective equipment, but you have something equally valuable - an unbreakable will to live and an ability to stumble through chemical disasters without dying.",
-        "Your survival has been a combination of good instincts, decent luck, and a talent for learning from your chemical exposure mistakes without dying in the process. You've picked up decontamination skills through trial and error, formed alliances based on gut feelings rather than strategic planning, and somehow managed to avoid the worst chemical disasters through a mixture of caution and circumstance.",
-        "What keeps you alive is your authenticity and relatability to other survivors. You're not intimidating with perfect chemical expertise, which makes people more likely to help you or accept you into their groups. Your honest reactions to chemical threats remind others of their own humanity, and your determination to keep going despite contamination inspires hope.",
-        "Your proof that ordinary people can survive chemical warfare gives hope to everyone still fighting to stay alive in the toxic wasteland. While you may not be the most prepared or skilled chemical survivor, your persistence and refusal to give up demonstrates that chemical warfare isn't just survivable by experts - regular people can make it through too."
-      ]
+    "mental_toughness": {
+      "title": "Iron Will Survivor",
+      "description": "You've endured the psychological horror of chemical warfare and kept fighting when others broke down. Your mental toughness and refusal to give up has carried you through nightmare scenarios that destroyed stronger people.",
+      "extended": "Chemical warfare doesn't just attack the body - it breaks the mind and spirit of those who experience it. You've survived not just the physical effects of chemical weapons but the psychological trauma of watching people die horrible deaths, living in constant fear of agonizing death, and making impossible choices about who lives and who dies.\n\nYour mental strength comes from your ability to compartmentalize horror and maintain functionality despite witnessing the worst that chemical warfare can inflict. You've learned to process trauma without letting it paralyze you, to grieve losses without giving up hope, and to keep fighting even when survival seems impossible.\n\nWhat keeps you going is your refusal to let chemical warfare break your spirit. You've found ways to maintain meaning and purpose even in the face of constant death and suffering. Your mental toughness provides stability for others who are struggling with the psychological effects of living through chemical apocalypse.\n\nYour proof that the human spirit can endure even chemical warfare gives hope to everyone still fighting to stay alive. Your mental toughness demonstrates that while chemical weapons can destroy our bodies and our world, they cannot destroy our will to live and our determination to rebuild something better from the ashes."
     }
-  ]
+  }
 }

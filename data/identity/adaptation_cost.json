@@ -1,2270 +1,696 @@
 {
-  "test_id": "adaptation_cost",
-  "title": "Adaptation Cost",
-  "subtitle": "What pieces of yourself have you sacrificed?",
-  "description": "This assessment reveals the psychological price you've paid to survive in a world that demanded you change who you were.",
+  "testId": "adaptation-cost",
+  "title": "Adaptation Cost Analysis",
+  "description": "Discover what pieces of yourself you sacrificed to survive",
+  "traits": {
+    "hollowed_survivor": "Emotionally empty but functioning - you survived by shutting down your capacity to feel",
+    "adapted_predator": "Transformed from prey to hunter - you learned to be what once threatened you",
+    "living_ghost": "Present but not really there - you exist in the spaces between other people's attention",
+    "human_machine": "Optimized for efficiency - you replaced spontaneous reactions with calculated responses",
+    "shattered_adapter": "Survival through fragmentation - you became multiple versions to handle different threats",
+    "survival_cost": "Acutely aware of what you lost - you can itemize every piece of yourself traded for safety",
+    "lost_innocence": "Mourning who you were before - you carry profound grief for your pre-survival self",
+    "protective_numbness": "Safety through disconnection - you can't be hurt by what you can't feel",
+    "calculated_existence": "Life as strategy - every move planned, nothing left to chance",
+    "fractured_identity": "Identity puzzle - scattered pieces seeking wholeness"
+  },
   "questions": [
     {
-      "id": "q1",
-      "text": "When you think about who you were before life taught you to adapt, what you miss most is:",
+      "question": "When you think about who you were before life forced you to adapt, what you miss most is:",
       "answers": [
         {
-          "id": "q1a1",
-          "text": "The ability to feel things deeply without fear of being hurt",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 1,
-            "living_ghost": 3,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 5,
-            "protective_numbness": 3,
-            "calculated_existence": 2,
-            "fractured_identity": 3
-          }
+          "text": "The ability to feel things deeply without calculating the risk",
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 4, "lost_innocence": 5, "survival_cost": 4, "living_ghost": 3, "adapted_predator": 1, "human_machine": 2, "shattered_adapter": 3, "calculated_existence": 2, "fractured_identity": 2}
         },
         {
-          "id": "q1a2",
-          "text": "The naive trust that people wouldn't deliberately harm me",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 5,
-            "living_ghost": 2,
-            "human_machine": 3,
-            "shattered_adapter": 3,
-            "survival_cost": 5,
-            "lost_innocence": 5,
-            "protective_numbness": 1,
-            "calculated_existence": 4,
-            "fractured_identity": 2
-          }
+          "text": "The naive trust that people wouldn't deliberately hurt me",
+          "traits": {"adapted_predator": 5, "lost_innocence": 5, "survival_cost": 4, "calculated_existence": 4, "hollowed_survivor": 2, "living_ghost": 2, "human_machine": 3, "shattered_adapter": 2, "protective_numbness": 1, "fractured_identity": 1}
         },
         {
-          "id": "q1a3",
           "text": "The sense of being fully present in my own life",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 3,
-            "protective_numbness": 2,
-            "calculated_existence": 1,
-            "fractured_identity": 5
-          }
+          "traits": {"living_ghost": 5, "fractured_identity": 4, "lost_innocence": 4, "survival_cost": 4, "hollowed_survivor": 3, "protective_numbness": 2, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "shattered_adapter": 3}
         },
         {
-          "id": "q10a4",
+          "text": "Having reactions that came naturally instead of being programmed",
+          "traits": {"human_machine": 5, "calculated_existence": 5, "lost_innocence": 4, "survival_cost": 4, "shattered_adapter": 3, "hollowed_survivor": 2, "protective_numbness": 2, "living_ghost": 2, "adapted_predator": 2, "fractured_identity": 2}
+        },
+        {
+          "text": "Feeling like one complete person instead of scattered pieces",
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 4, "lost_innocence": 3, "living_ghost": 3, "hollowed_survivor": 2, "protective_numbness": 2, "calculated_existence": 2, "adapted_predator": 2, "human_machine": 1}
+        }
+      ]
+    },
+    {
+      "question": "To survive your family environment, you learned to:",
+      "answers": [
+        {
+          "text": "Shut down emotionally until you felt absolutely nothing",
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 4, "lost_innocence": 3, "human_machine": 3, "living_ghost": 3, "shattered_adapter": 2, "calculated_existence": 3, "adapted_predator": 1, "fractured_identity": 2}
+        },
+        {
+          "text": "Study people's weaknesses and use them when necessary",
+          "traits": {"adapted_predator": 5, "calculated_existence": 5, "survival_cost": 4, "human_machine": 4, "shattered_adapter": 3, "lost_innocence": 1, "protective_numbness": 2, "hollowed_survivor": 1, "living_ghost": 1, "fractured_identity": 3}
+        },
+        {
+          "text": "Become so invisible that people forgot you were there",
+          "traits": {"living_ghost": 5, "survival_cost": 4, "lost_innocence": 3, "shattered_adapter": 4, "protective_numbness": 3, "hollowed_survivor": 3, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "fractured_identity": 4}
+        },
+        {
+          "text": "Perfect the art of giving exactly the response they wanted",
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 4, "shattered_adapter": 4, "lost_innocence": 2, "protective_numbness": 1, "adapted_predator": 3, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 3}
+        },
+        {
+          "text": "Split into different versions depending on who was around",
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 3, "calculated_existence": 3, "adapted_predator": 3, "human_machine": 3, "protective_numbness": 2, "hollowed_survivor": 2, "living_ghost": 2, "lost_innocence": 2}
+        }
+      ]
+    },
+    {
+      "question": "The most devastating thing your survival strategy cost you was:",
+      "answers": [
+        {
+          "text": "The ability to feel joy, excitement, or genuine happiness",
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 5, "lost_innocence": 4, "living_ghost": 4, "human_machine": 3, "adapted_predator": 2, "shattered_adapter": 1, "calculated_existence": 2, "fractured_identity": 2}
+        },
+        {
+          "text": "The capacity to trust or genuinely care about others",
+          "traits": {"adapted_predator": 5, "lost_innocence": 5, "survival_cost": 4, "calculated_existence": 4, "human_machine": 4, "protective_numbness": 2, "hollowed_survivor": 2, "living_ghost": 1, "shattered_adapter": 3, "fractured_identity": 2}
+        },
+        {
+          "text": "The sense of being a real person instead of a shadow",
+          "traits": {"living_ghost": 5, "fractured_identity": 5, "survival_cost": 4, "lost_innocence": 3, "protective_numbness": 3, "hollowed_survivor": 3, "shattered_adapter": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2}
+        },
+        {
+          "text": "Having authentic, unguarded reactions to anything",
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 4, "lost_innocence": 4, "protective_numbness": 3, "adapted_predator": 3, "hollowed_survivor": 3, "shattered_adapter": 2, "living_ghost": 2, "fractured_identity": 1}
+        },
+        {
+          "text": "A coherent sense of having one consistent identity",
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 3, "lost_innocence": 2, "living_ghost": 3, "calculated_existence": 2, "human_machine": 2, "adapted_predator": 2, "hollowed_survivor": 1, "protective_numbness": 1}
+        }
+      ]
+    },
+    {
+      "question": "When someone shows you unexpected kindness, your gut reaction is:",
+      "answers": [
+        {
+          "text": "Complete numbness - I can't access the warmth it should bring",
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 4, "human_machine": 4, "lost_innocence": 2, "living_ghost": 3, "calculated_existence": 3, "adapted_predator": 1, "shattered_adapter": 2, "fractured_identity": 2}
+        },
+        {
+          "text": "Immediate suspicion - I analyze what they want from me",
+          "traits": {"adapted_predator": 5, "calculated_existence": 5, "survival_cost": 3, "human_machine": 4, "lost_innocence": 4, "protective_numbness": 2, "hollowed_survivor": 2, "living_ghost": 1, "shattered_adapter": 3, "fractured_identity": 1}
+        },
+        {
+          "text": "Panic - it makes me feel too visible and exposed",
+          "traits": {"living_ghost": 5, "survival_cost": 4, "lost_innocence": 3, "shattered_adapter": 4, "protective_numbness": 3, "hollowed_survivor": 3, "fractured_identity": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2}
+        },
+        {
+          "text": "System error - I don't know how to process genuine affection",
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 3, "shattered_adapter": 4, "protective_numbness": 3, "lost_innocence": 2, "adapted_predator": 2, "hollowed_survivor": 3, "living_ghost": 1, "fractured_identity": 2}
+        },
+        {
+          "text": "Confusion - different parts of me respond in conflicting ways",
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 3, "calculated_existence": 3, "protective_numbness": 2, "lost_innocence": 2, "human_machine": 3, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your survival adaptations turned you into someone who:",
+      "answers": [
+        {
+          "text": "Goes through the motions of living without feeling alive",
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 5, "living_ghost": 4, "lost_innocence": 3, "human_machine": 3, "calculated_existence": 3, "adapted_predator": 1, "shattered_adapter": 2, "fractured_identity": 2}
+        },
+        {
+          "text": "Uses people as chess pieces in a strategic game",
+          "traits": {"adapted_predator": 5, "calculated_existence": 5, "survival_cost": 4, "lost_innocence": 5, "human_machine": 4, "protective_numbness": 1, "hollowed_survivor": 1, "living_ghost": 1, "shattered_adapter": 3, "fractured_identity": 2}
+        },
+        {
+          "text": "Watches their own life from the outside looking in",
+          "traits": {"living_ghost": 5, "fractured_identity": 5, "survival_cost": 4, "lost_innocence": 3, "protective_numbness": 4, "shattered_adapter": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
+        },
+        {
+          "text": "Functions perfectly but feels nothing genuine about it",
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 4, "protective_numbness": 4, "lost_innocence": 2, "adapted_predator": 3, "hollowed_survivor": 2, "living_ghost": 1, "shattered_adapter": 4, "fractured_identity": 1}
+        },
+        {
+          "text": "Becomes different people depending on what survival requires",
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 3, "calculated_existence": 3, "adapted_predator": 3, "human_machine": 2, "protective_numbness": 2, "hollowed_survivor": 2, "living_ghost": 3, "lost_innocence": 2}
+        }
+      ]
+    },
+    {
+      "question": "The cruelest irony of your coping mechanism is that it:",
+      "answers": [
+        {
+          "text": "Protects you so well that you can't feel anything good either",
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 5, "lost_innocence": 3, "human_machine": 4, "living_ghost": 3, "calculated_existence": 2, "adapted_predator": 1, "shattered_adapter": 2, "fractured_identity": 2}
+        },
+        {
+          "text": "Made you into exactly what you once feared becoming",
+          "traits": {"adapted_predator": 5, "survival_cost": 4, "lost_innocence": 5, "shattered_adapter": 4, "calculated_existence": 4, "protective_numbness": 1, "human_machine": 3, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 3}
+        },
+        {
+          "text": "Erased you so completely you question if you ever existed",
+          "traits": {"living_ghost": 5, "fractured_identity": 5, "survival_cost": 4, "lost_innocence": 4, "protective_numbness": 3, "shattered_adapter": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
+        },
+        {
+          "text": "Replaced your soul with a perfectly functioning operating system",
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 4, "lost_innocence": 2, "protective_numbness": 4, "adapted_predator": 2, "shattered_adapter": 3, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 2}
+        },
+        {
+          "text": "Scattered you into pieces that can't remember how to fit together",
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 4, "lost_innocence": 4, "protective_numbness": 2, "calculated_existence": 2, "human_machine": 2, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 3}
+        }
+      ]
+    },
+    {
+      "question": "When you try to remember who you were before trauma, you find:",
+      "answers": [
+        {
+          "text": "A vibrant person who now seems like a stranger from another life",
+          "traits": {"hollowed_survivor": 5, "lost_innocence": 5, "survival_cost": 5, "protective_numbness": 4, "living_ghost": 4, "human_machine": 3, "calculated_existence": 2, "adapted_predator": 2, "shattered_adapter": 1, "fractured_identity": 2}
+        },
+        {
+          "text": "A naive person who couldn't see the predators around them",
+          "traits": {"adapted_predator": 5, "lost_innocence": 5, "survival_cost": 4, "calculated_existence": 4, "human_machine": 3, "protective_numbness": 2, "shattered_adapter": 4, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 2}
+        },
+        {
+          "text": "Fragments and shadows - like trying to remember a half-forgotten dream",
+          "traits": {"living_ghost": 5, "fractured_identity": 5, "survival_cost": 4, "lost_innocence": 4, "protective_numbness": 3, "shattered_adapter": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
+        },
+        {
+          "text": "Someone who reacted naturally without calculating every response",
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 4, "lost_innocence": 4, "protective_numbness": 2, "adapted_predator": 3, "shattered_adapter": 2, "hollowed_survivor": 3, "living_ghost": 2, "fractured_identity": 1}
+        },
+        {
+          "text": "Multiple different versions, and I can't tell which one was real",
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 3, "lost_innocence": 3, "living_ghost": 3, "protective_numbness": 1, "calculated_existence": 2, "adapted_predator": 2, "human_machine": 1, "hollowed_survivor": 2}
+        }
+      ]
+    },
+    {
+      "question": "In close relationships, your survival adaptations show up as:",
+      "answers": [
+        {
+          "text": "Being physically present but emotionally unreachable",
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 5, "living_ghost": 4, "lost_innocence": 2, "human_machine": 3, "calculated_existence": 3, "adapted_predator": 2, "shattered_adapter": 1, "fractured_identity": 2}
+        },
+        {
+          "text": "Unconsciously manipulating to maintain control and advantage",
+          "traits": {"adapted_predator": 5, "calculated_existence": 5, "survival_cost": 4, "lost_innocence": 3, "human_machine": 4, "protective_numbness": 1, "shattered_adapter": 3, "hollowed_survivor": 1, "living_ghost": 1, "fractured_identity": 2}
+        },
+        {
+          "text": "Feeling like I'm watching someone else's relationship",
+          "traits": {"living_ghost": 5, "fractured_identity": 5, "survival_cost": 3, "lost_innocence": 2, "protective_numbness": 4, "shattered_adapter": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
+        },
+        {
+          "text": "Giving perfect responses while feeling disconnected from my words",
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 4, "lost_innocence": 1, "protective_numbness": 3, "adapted_predator": 3, "shattered_adapter": 3, "hollowed_survivor": 2, "living_ghost": 2, "fractured_identity": 2}
+        },
+        {
+          "text": "Becoming different people depending on what I think they need",
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 3, "calculated_existence": 3, "adapted_predator": 3, "human_machine": 2, "protective_numbness": 2, "hollowed_survivor": 2, "living_ghost": 3, "lost_innocence": 2}
+        }
+      ]
+    },
+    {
+      "question": "When you see people who seem naturally happy and carefree, you feel:",
+      "answers": [
+        {
+          "text": "Nothing - like watching aliens from a species I'll never understand",
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 5, "lost_innocence": 4, "living_ghost": 4, "human_machine": 3, "calculated_existence": 2, "adapted_predator": 2, "shattered_adapter": 1, "fractured_identity": 2}
+        },
+        {
+          "text": "Contempt - they're naive prey who haven't learned reality yet",
+          "traits": {"adapted_predator": 5, "lost_innocence": 4, "survival_cost": 3, "calculated_existence": 4, "human_machine": 3, "protective_numbness": 1, "shattered_adapter": 2, "hollowed_survivor": 1, "living_ghost": 1, "fractured_identity": 1}
+        },
+        {
+          "text": "Envy so sharp it makes me want to disappear completely",
+          "traits": {"living_ghost": 5, "fractured_identity": 4, "survival_cost": 4, "lost_innocence": 5, "protective_numbness": 3, "shattered_adapter": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
+        },
+        {
+          "text": "Confusion - I can't understand how they access emotions so easily",
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 3, "lost_innocence": 3, "protective_numbness": 3, "adapted_predator": 2, "shattered_adapter": 3, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 2}
+        },
+        {
+          "text": "Conflicting reactions - different parts of me respond differently",
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 2, "lost_innocence": 3, "protective_numbness": 1, "calculated_existence": 2, "adapted_predator": 2, "human_machine": 2, "hollowed_survivor": 1, "living_ghost": 2}
+        }
+      ]
+    },
+    {
+      "question": "Your biggest fear about healing or changing is that:",
+      "answers": [
+        {
+          "text": "If I let myself feel again, the pain might destroy what's left",
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 5, "lost_innocence": 4, "shattered_adapter": 4, "living_ghost": 3, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "fractured_identity": 3}
+        },
+        {
+          "text": "I'll become vulnerable prey again in a world full of predators",
+          "traits": {"adapted_predator": 5, "survival_cost": 4, "lost_innocence": 3, "calculated_existence": 4, "human_machine": 3, "protective_numbness": 2, "shattered_adapter": 3, "hollowed_survivor": 2, "living_ghost": 2, "fractured_identity": 2}
+        },
+        {
+          "text": "I might discover there's nothing real left underneath all the adaptations",
+          "traits": {"living_ghost": 5, "fractured_identity": 5, "survival_cost": 4, "lost_innocence": 4, "protective_numbness": 3, "shattered_adapter": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
+        },
+        {
           "text": "Without my defenses, I won't know how to function in the world",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 3,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 2,
-            "protective_numbness": 3,
-            "calculated_existence": 5,
-            "fractured_identity": 3
-          }
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 4, "shattered_adapter": 4, "protective_numbness": 3, "lost_innocence": 2, "adapted_predator": 3, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 3}
         },
         {
-          "id": "q10a5",
           "text": "I'll fall apart completely because my fragments won't hold together",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 3,
-            "human_machine": 2,
-            "shattered_adapter": 5,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 2,
-            "calculated_existence": 2,
-            "fractured_identity": 5
-          }
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 3, "lost_innocence": 2, "protective_numbness": 2, "calculated_existence": 2, "human_machine": 2, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 3}
         }
       ]
     },
     {
-      "id": "q11",
-      "text": "When someone asks you what you want or need, your honest response is:",
+      "question": "When someone asks what you want or need, your honest response is:",
       "answers": [
         {
-          "id": "q11a1",
-          "text": "I literally cannot access wanting anything - that capacity was shut down",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 1,
-            "living_ghost": 3,
-            "human_machine": 4,
-            "shattered_adapter": 2,
-            "survival_cost": 5,
-            "lost_innocence": 3,
-            "protective_numbness": 5,
-            "calculated_existence": 3,
-            "fractured_identity": 2
-          }
+          "text": "I literally cannot access wanting anything - that capacity died",
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 5, "lost_innocence": 3, "human_machine": 4, "living_ghost": 3, "calculated_existence": 3, "adapted_predator": 1, "shattered_adapter": 2, "fractured_identity": 2}
         },
         {
-          "id": "q11a2",
           "text": "I analyze what answer will give me the most strategic advantage",
-          "weights": {
-            "hollowed_survivor": 1,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 4,
-            "shattered_adapter": 3,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 1,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
+          "traits": {"adapted_predator": 5, "calculated_existence": 5, "survival_cost": 3, "human_machine": 4, "lost_innocence": 2, "protective_numbness": 1, "shattered_adapter": 3, "hollowed_survivor": 1, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q11a3",
           "text": "I panic because the question makes me feel too visible",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 2,
-            "protective_numbness": 3,
-            "calculated_existence": 1,
-            "fractured_identity": 4
-          }
+          "traits": {"living_ghost": 5, "survival_cost": 4, "lost_innocence": 2, "shattered_adapter": 4, "protective_numbness": 3, "fractured_identity": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
         },
         {
-          "id": "q11a4",
-          "text": "I give the response that seems most appropriate while feeling nothing",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 3,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 1,
-            "protective_numbness": 4,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
+          "text": "I give the appropriate response while feeling absolutely nothing",
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 4, "protective_numbness": 4, "lost_innocence": 1, "shattered_adapter": 4, "adapted_predator": 3, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q11a5",
-          "text": "Different parts of me want different things and I don't know which is real",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 2,
-            "human_machine": 2,
-            "shattered_adapter": 5,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 2,
-            "calculated_existence": 2,
-            "fractured_identity": 5
-          }
+          "text": "Different parts of me want different things and I can't sort them out",
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 3, "lost_innocence": 2, "protective_numbness": 2, "calculated_existence": 2, "human_machine": 2, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 2}
         }
       ]
     },
     {
-      "id": "q12",
-      "text": "The most accurate description of your inner life now is:",
+      "question": "The most accurate description of your inner life right now is:",
       "answers": [
         {
-          "id": "q12a1",
-          "text": "A vast, empty space where emotions used to live",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 1,
-            "living_ghost": 4,
-            "human_machine": 3,
-            "shattered_adapter": 2,
-            "survival_cost": 5,
-            "lost_innocence": 3,
-            "protective_numbness": 5,
-            "calculated_existence": 2,
-            "fractured_identity": 2
-          }
+          "text": "A vast, silent space where emotions used to live",
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 5, "lost_innocence": 3, "living_ghost": 4, "human_machine": 3, "calculated_existence": 2, "adapted_predator": 1, "shattered_adapter": 2, "fractured_identity": 2}
         },
         {
-          "id": "q12a2",
           "text": "A strategic war room where I plan my next moves",
-          "weights": {
-            "hollowed_survivor": 1,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 4,
-            "shattered_adapter": 3,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 1,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
+          "traits": {"adapted_predator": 5, "calculated_existence": 5, "survival_cost": 3, "human_machine": 4, "lost_innocence": 2, "protective_numbness": 1, "shattered_adapter": 3, "hollowed_survivor": 1, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q12a3",
           "text": "A fading photograph of someone I used to be",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 5,
-            "protective_numbness": 3,
-            "calculated_existence": 1,
-            "fractured_identity": 4
-          }
+          "traits": {"living_ghost": 5, "fractured_identity": 4, "survival_cost": 4, "lost_innocence": 5, "protective_numbness": 3, "shattered_adapter": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
         },
         {
-          "id": "q12a4",
-          "text": "A control room monitoring systems that I can't directly access",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 3,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 1,
-            "protective_numbness": 3,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
+          "text": "A control room monitoring systems I can't directly access",
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 4, "protective_numbness": 3, "lost_innocence": 1, "shattered_adapter": 4, "adapted_predator": 3, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q12a5",
-          "text": "A broken mirror reflecting different pieces that don't fit together",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 3,
-            "human_machine": 1,
-            "shattered_adapter": 5,
-            "survival_cost": 3,
-            "lost_innocence": 3,
-            "protective_numbness": 1,
-            "calculated_existence": 2,
-            "fractured_identity": 5
-          }
+          "text": "A broken mirror reflecting pieces that don't fit together",
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 3, "lost_innocence": 3, "protective_numbness": 1, "calculated_existence": 2, "human_machine": 1, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 3}
         }
       ]
     },
     {
-      "id": "q13",
-      "text": "When you witness genuine emotional connection between others, you:",
+      "question": "When you witness genuine emotional connection between others, you:",
       "answers": [
         {
-          "id": "q13a1",
           "text": "Watch with detached curiosity, like observing an interesting species",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 2,
-            "living_ghost": 3,
-            "human_machine": 4,
-            "shattered_adapter": 1,
-            "survival_cost": 4,
-            "lost_innocence": 3,
-            "protective_numbness": 5,
-            "calculated_existence": 4,
-            "fractured_identity": 1
-          }
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 4, "human_machine": 4, "lost_innocence": 3, "living_ghost": 3, "calculated_existence": 4, "adapted_predator": 2, "shattered_adapter": 1, "fractured_identity": 1}
         },
         {
-          "id": "q13a2",
-          "text": "Analyze how their vulnerability could be exploited",
-          "weights": {
-            "hollowed_survivor": 1,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 3,
-            "shattered_adapter": 2,
-            "survival_cost": 3,
-            "lost_innocence": 4,
-            "protective_numbness": 1,
-            "calculated_existence": 4,
-            "fractured_identity": 1
-          }
+          "text": "Analyze how their vulnerability could be strategically exploited",
+          "traits": {"adapted_predator": 5, "calculated_existence": 4, "survival_cost": 3, "lost_innocence": 4, "human_machine": 3, "protective_numbness": 1, "shattered_adapter": 2, "hollowed_survivor": 1, "living_ghost": 1, "fractured_identity": 1}
         },
         {
-          "id": "q13a3",
-          "text": "Feel like you're watching through glass, unable to cross into their world",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 4,
-            "protective_numbness": 3,
-            "calculated_existence": 1,
-            "fractured_identity": 4
-          }
+          "text": "Feel like I'm watching through glass, unable to cross into their world",
+          "traits": {"living_ghost": 5, "fractured_identity": 4, "survival_cost": 4, "lost_innocence": 4, "protective_numbness": 3, "shattered_adapter": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
         },
         {
-          "id": "q13a4",
-          "text": "Study their behavioral patterns to update your emotional response database",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 3,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 3,
-            "survival_cost": 3,
-            "lost_innocence": 1,
-            "protective_numbness": 3,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
+          "text": "Study their behavior to update my emotional response database",
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 3, "protective_numbness": 3, "lost_innocence": 1, "shattered_adapter": 3, "adapted_predator": 3, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q13a5",
           "text": "Have conflicting reactions simultaneously and can't sort them out",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 2,
-            "human_machine": 2,
-            "shattered_adapter": 5,
-            "survival_cost": 2,
-            "lost_innocence": 2,
-            "protective_numbness": 2,
-            "calculated_existence": 2,
-            "fractured_identity": 5
-          }
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 2, "protective_numbness": 2, "lost_innocence": 2, "calculated_existence": 2, "human_machine": 2, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 2}
         }
       ]
     },
     {
-      "id": "q14",
-      "text": "If you could go back and choose not to develop your survival adaptations, you would:",
+      "question": "If you could go back and choose not to develop your survival adaptations, you would:",
       "answers": [
         {
-          "id": "q14a1",
           "text": "Choose to feel everything, even if it meant being destroyed by pain",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 1,
-            "living_ghost": 4,
-            "human_machine": 2,
-            "shattered_adapter": 3,
-            "survival_cost": 5,
-            "lost_innocence": 5,
-            "protective_numbness": 5,
-            "calculated_existence": 1,
-            "fractured_identity": 3
-          }
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 5, "lost_innocence": 5, "living_ghost": 4, "human_machine": 2, "calculated_existence": 1, "adapted_predator": 1, "shattered_adapter": 3, "fractured_identity": 3}
         },
         {
-          "id": "q14a2",
           "text": "Never - I'd rather be a predator than prey",
-          "weights": {
-            "hollowed_survivor": 1,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 3,
-            "shattered_adapter": 2,
-            "survival_cost": 2,
-            "lost_innocence": 1,
-            "protective_numbness": 1,
-            "calculated_existence": 4,
-            "fractured_identity": 1
-          }
+          "traits": {"adapted_predator": 5, "survival_cost": 2, "lost_innocence": 1, "calculated_existence": 4, "human_machine": 3, "protective_numbness": 1, "shattered_adapter": 2, "hollowed_survivor": 1, "living_ghost": 1, "fractured_identity": 1}
         },
         {
-          "id": "q14a3",
           "text": "Choose to remain present in my life, even if it meant constant pain",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 5,
-            "protective_numbness": 2,
-            "calculated_existence": 1,
-            "fractured_identity": 4
-          }
+          "traits": {"living_ghost": 5, "fractured_identity": 4, "survival_cost": 4, "lost_innocence": 5, "protective_numbness": 2, "shattered_adapter": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
         },
         {
-          "id": "q14a4",
           "text": "Choose to stay human, even if it meant being less efficient",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 3,
-            "survival_cost": 4,
-            "lost_innocence": 4,
-            "protective_numbness": 2,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 4, "lost_innocence": 4, "protective_numbness": 2, "shattered_adapter": 3, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q14a5",
           "text": "Choose to stay whole, even if it meant being more vulnerable",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 3,
-            "human_machine": 2,
-            "shattered_adapter": 5,
-            "survival_cost": 4,
-            "lost_innocence": 4,
-            "protective_numbness": 2,
-            "calculated_existence": 2,
-            "fractured_identity": 5
-          }
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 4, "lost_innocence": 4, "protective_numbness": 2, "calculated_existence": 2, "human_machine": 2, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 3}
         }
       ]
     },
     {
-      "id": "q15",
-      "text": "The thing that triggers your survival mode most quickly is:",
+      "question": "What triggers your survival mode fastest is:",
       "answers": [
         {
-          "id": "q15a1",
           "text": "Any situation that might require me to feel something deeply",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 1,
-            "living_ghost": 3,
-            "human_machine": 4,
-            "shattered_adapter": 2,
-            "survival_cost": 5,
-            "lost_innocence": 2,
-            "protective_numbness": 5,
-            "calculated_existence": 3,
-            "fractured_identity": 2
-          }
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 5, "lost_innocence": 2, "human_machine": 4, "living_ghost": 3, "calculated_existence": 3, "adapted_predator": 1, "shattered_adapter": 2, "fractured_identity": 2}
         },
         {
-          "id": "q15a2",
-          "text": "Sensing that someone might have power over me",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 5,
-            "living_ghost": 2,
-            "human_machine": 3,
-            "shattered_adapter": 3,
-            "survival_cost": 3,
-            "lost_innocence": 3,
-            "protective_numbness": 2,
-            "calculated_existence": 4,
-            "fractured_identity": 2
-          }
+          "text": "Sensing that someone might have power or control over me",
+          "traits": {"adapted_predator": 5, "survival_cost": 3, "lost_innocence": 3, "calculated_existence": 4, "human_machine": 3, "protective_numbness": 2, "shattered_adapter": 3, "hollowed_survivor": 2, "living_ghost": 2, "fractured_identity": 2}
         },
         {
-          "id": "q15a3",
           "text": "Being seen or noticed when I'm trying to stay invisible",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 2,
-            "protective_numbness": 3,
-            "calculated_existence": 1,
-            "fractured_identity": 4
-          }
+          "traits": {"living_ghost": 5, "survival_cost": 4, "lost_innocence": 2, "shattered_adapter": 4, "protective_numbness": 3, "fractured_identity": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
         },
         {
-          "id": "q15a4",
           "text": "Situations where my programmed responses don't work",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 3,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 4,
-            "survival_cost": 3,
-            "lost_innocence": 1,
-            "protective_numbness": 3,
-            "calculated_existence": 5,
-            "fractured_identity": 3
-          }
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 3, "protective_numbness": 3, "lost_innocence": 1, "shattered_adapter": 4, "adapted_predator": 3, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 3}
         },
         {
-          "id": "q15a5",
           "text": "When I can't figure out which version of myself to be",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 2,
-            "human_machine": 3,
-            "shattered_adapter": 5,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 2,
-            "calculated_existence": 3,
-            "fractured_identity": 5
-          }
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 3, "protective_numbness": 2, "lost_innocence": 2, "calculated_existence": 3, "human_machine": 3, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 2}
         }
       ]
     },
     {
-      "id": "q16",
-      "text": "Your survival adaptations have made you an expert at:",
+      "question": "Your survival adaptations made you an expert at:",
       "answers": [
         {
-          "id": "q16a1",
           "text": "Functioning perfectly while feeling absolutely nothing",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 2,
-            "living_ghost": 3,
-            "human_machine": 4,
-            "shattered_adapter": 1,
-            "survival_cost": 5,
-            "lost_innocence": 2,
-            "protective_numbness": 5,
-            "calculated_existence": 4,
-            "fractured_identity": 1
-          }
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 5, "human_machine": 4, "lost_innocence": 2, "living_ghost": 3, "calculated_existence": 4, "adapted_predator": 2, "shattered_adapter": 1, "fractured_identity": 1}
         },
         {
-          "id": "q16a2",
           "text": "Reading people's weaknesses and using them strategically",
-          "weights": {
-            "hollowed_survivor": 1,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 4,
-            "shattered_adapter": 3,
-            "survival_cost": 3,
-            "lost_innocence": 1,
-            "protective_numbness": 1,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
+          "traits": {"adapted_predator": 5, "calculated_existence": 5, "survival_cost": 3, "lost_innocence": 1, "human_machine": 4, "protective_numbness": 1, "shattered_adapter": 3, "hollowed_survivor": 1, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q16a3",
           "text": "Disappearing so completely that people forget you were there",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 2,
-            "protective_numbness": 4,
-            "calculated_existence": 1,
-            "fractured_identity": 4
-          }
+          "traits": {"living_ghost": 5, "survival_cost": 4, "lost_innocence": 2, "protective_numbness": 4, "shattered_adapter": 4, "fractured_identity": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
         },
         {
-          "id": "q16a4",
           "text": "Giving exactly the response that's expected in every situation",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 3,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 1,
-            "protective_numbness": 3,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 4, "protective_numbness": 3, "lost_innocence": 1, "shattered_adapter": 4, "adapted_predator": 3, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q16a5",
           "text": "Becoming whoever the situation requires, instantly and completely",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 3,
-            "living_ghost": 3,
-            "human_machine": 2,
-            "shattered_adapter": 5,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 2,
-            "calculated_existence": 3,
-            "fractured_identity": 5
-          }
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 3, "protective_numbness": 2, "calculated_existence": 3, "adapted_predator": 3, "human_machine": 2, "hollowed_survivor": 2, "living_ghost": 3, "lost_innocence": 2}
         }
       ]
     },
     {
-      "id": "q17",
-      "text": "When you imagine what you might be like if you were 'healed,' you:",
+      "question": "When you imagine what you might be like if you were 'healed,' you:",
       "answers": [
         {
-          "id": "q17a1",
           "text": "Can't even picture it - a feeling person seems like a different species",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 2,
-            "living_ghost": 4,
-            "human_machine": 3,
-            "shattered_adapter": 1,
-            "survival_cost": 5,
-            "lost_innocence": 3,
-            "protective_numbness": 5,
-            "calculated_existence": 3,
-            "fractured_identity": 2
-          }
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 5, "lost_innocence": 3, "living_ghost": 4, "human_machine": 3, "calculated_existence": 3, "adapted_predator": 2, "shattered_adapter": 1, "fractured_identity": 2}
         },
         {
-          "id": "q17a2",
           "text": "Fear I'd become weak and vulnerable to predators again",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 5,
-            "living_ghost": 2,
-            "human_machine": 3,
-            "shattered_adapter": 3,
-            "survival_cost": 4,
-            "lost_innocence": 3,
-            "protective_numbness": 2,
-            "calculated_existence": 4,
-            "fractured_identity": 2
-          }
+          "traits": {"adapted_predator": 5, "survival_cost": 4, "lost_innocence": 3, "calculated_existence": 4, "human_machine": 3, "protective_numbness": 2, "shattered_adapter": 3, "hollowed_survivor": 2, "living_ghost": 2, "fractured_identity": 2}
         },
         {
-          "id": "q17a3",
           "text": "Long for it desperately but can't believe it's possible",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 5,
-            "lost_innocence": 5,
-            "protective_numbness": 3,
-            "calculated_existence": 1,
-            "fractured_identity": 4
-          }
+          "traits": {"living_ghost": 5, "fractured_identity": 4, "survival_cost": 5, "lost_innocence": 5, "protective_numbness": 3, "shattered_adapter": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
         },
         {
-          "id": "q17a4",
           "text": "Wonder if I'd still be able to function efficiently",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 3,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 4,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 3,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 3, "protective_numbness": 3, "lost_innocence": 2, "shattered_adapter": 4, "adapted_predator": 3, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q17a5",
-          "text": "Don't know which pieces would be kept and which would be discarded",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 3,
-            "human_machine": 2,
-            "shattered_adapter": 5,
-            "survival_cost": 3,
-            "lost_innocence": 3,
-            "protective_numbness": 2,
-            "calculated_existence": 2,
-            "fractured_identity": 5
-          }
+          "text": "Don't know which pieces would be kept and which discarded",
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 3, "protective_numbness": 2, "lost_innocence": 3, "calculated_existence": 2, "human_machine": 2, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 3}
         }
       ]
     },
     {
-      "id": "q18",
-      "text": "The most honest thing you could say about your survival strategy is:",
+      "question": "The most honest thing you could say about your survival strategy is:",
       "answers": [
         {
-          "id": "q18a1",
           "text": "It saved my life but killed my soul",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 2,
-            "living_ghost": 4,
-            "human_machine": 3,
-            "shattered_adapter": 1,
-            "survival_cost": 5,
-            "lost_innocence": 5,
-            "protective_numbness": 5,
-            "calculated_existence": 2,
-            "fractured_identity": 2
-          }
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 5, "lost_innocence": 5, "living_ghost": 4, "human_machine": 3, "calculated_existence": 2, "adapted_predator": 2, "shattered_adapter": 1, "fractured_identity": 2}
         },
         {
-          "id": "q18a2",
           "text": "It turned me into exactly what I was trying to escape",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 3,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 4,
-            "protective_numbness": 1,
-            "calculated_existence": 3,
-            "fractured_identity": 3
-          }
+          "traits": {"adapted_predator": 5, "survival_cost": 4, "lost_innocence": 4, "shattered_adapter": 4, "calculated_existence": 3, "protective_numbness": 1, "human_machine": 3, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 3}
         },
         {
-          "id": "q18a3",
           "text": "It made me disappear so completely I'm not sure I ever existed",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 5,
-            "lost_innocence": 4,
-            "protective_numbness": 3,
-            "calculated_existence": 1,
-            "fractured_identity": 5
-          }
+          "traits": {"living_ghost": 5, "fractured_identity": 5, "survival_cost": 5, "lost_innocence": 4, "protective_numbness": 3, "shattered_adapter": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
         },
         {
-          "id": "q18a4",
           "text": "It replaced my humanity with a perfectly functioning system",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 3,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 3,
-            "protective_numbness": 3,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 4, "protective_numbness": 3, "lost_innocence": 3, "shattered_adapter": 4, "adapted_predator": 3, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q18a5",
           "text": "It broke me into pieces that I can't put back together",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 3,
-            "human_machine": 2,
-            "shattered_adapter": 5,
-            "survival_cost": 4,
-            "lost_innocence": 4,
-            "protective_numbness": 2,
-            "calculated_existence": 2,
-            "fractured_identity": 5
-          }
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 4, "lost_innocence": 4, "protective_numbness": 2, "calculated_existence": 2, "human_machine": 2, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 3}
         }
       ]
     },
     {
-      "id": "q19",
-      "text": "If someone could see a film of your internal experience over the past year, they would see:",
+      "question": "If someone could watch a film of your internal experience, they would see:",
       "answers": [
         {
-          "id": "q19a1",
           "text": "A gray, static landscape with no movement or life",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 1,
-            "living_ghost": 4,
-            "human_machine": 3,
-            "shattered_adapter": 2,
-            "survival_cost": 5,
-            "lost_innocence": 3,
-            "protective_numbness": 5,
-            "calculated_existence": 2,
-            "fractured_identity": 2
-          }
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 5, "lost_innocence": 3, "living_ghost": 4, "human_machine": 3, "calculated_existence": 2, "adapted_predator": 1, "shattered_adapter": 2, "fractured_identity": 2}
         },
         {
-          "id": "q19a2",
-          "text": "A chess game where every move is calculated and nothing is spontaneous",
-          "weights": {
-            "hollowed_survivor": 1,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 4,
-            "shattered_adapter": 3,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 2,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
+          "text": "A chess game where every move is calculated and nothing spontaneous",
+          "traits": {"adapted_predator": 5, "calculated_existence": 5, "survival_cost": 3, "human_machine": 4, "lost_innocence": 2, "protective_numbness": 2, "shattered_adapter": 3, "hollowed_survivor": 1, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q19a3",
           "text": "An empty theater where no one is performing or watching",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 4,
-            "protective_numbness": 3,
-            "calculated_existence": 1,
-            "fractured_identity": 4
-          }
+          "traits": {"living_ghost": 5, "fractured_identity": 4, "survival_cost": 4, "lost_innocence": 4, "protective_numbness": 3, "shattered_adapter": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
         },
         {
-          "id": "q19a4",
           "text": "A factory producing appropriate responses with mechanical precision",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 3,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 1,
-            "protective_numbness": 3,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 4, "protective_numbness": 3, "lost_innocence": 1, "shattered_adapter": 4, "adapted_predator": 3, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q19a5",
           "text": "A kaleidoscope constantly shifting between different patterns",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 3,
-            "human_machine": 2,
-            "shattered_adapter": 5,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 2,
-            "calculated_existence": 2,
-            "fractured_identity": 5
-          }
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 3, "protective_numbness": 2, "lost_innocence": 2, "calculated_existence": 2, "human_machine": 2, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 3}
         }
       ]
     },
     {
-      "id": "q20",
-      "text": "When you think about the person you might have been without trauma, you feel:",
+      "question": "When you think about who you might have been without trauma, you feel:",
       "answers": [
         {
-          "id": "q20a1",
-          "text": "A profound emptiness where grief should be, but can't access the sadness",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 1,
-            "living_ghost": 3,
-            "human_machine": 4,
-            "shattered_adapter": 2,
-            "survival_cost": 5,
-            "lost_innocence": 4,
-            "protective_numbness": 5,
-            "calculated_existence": 2,
-            "fractured_identity": 2
-          }
+          "text": "A profound emptiness where grief should be, but can't access sadness",
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 5, "lost_innocence": 4, "human_machine": 4, "living_ghost": 3, "calculated_existence": 2, "adapted_predator": 1, "shattered_adapter": 2, "fractured_identity": 2}
         },
         {
-          "id": "q20a2",
           "text": "Contempt for their weakness and naivety",
-          "weights": {
-            "hollowed_survivor": 1,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 3,
-            "shattered_adapter": 2,
-            "survival_cost": 2,
-            "lost_innocence": 3,
-            "protective_numbness": 1,
-            "calculated_existence": 4,
-            "fractured_identity": 1
-          }
+          "traits": {"adapted_predator": 5, "survival_cost": 2, "lost_innocence": 3, "calculated_existence": 4, "human_machine": 3, "protective_numbness": 1, "shattered_adapter": 2, "hollowed_survivor": 1, "living_ghost": 1, "fractured_identity": 1}
         },
         {
-          "id": "q20a3",
           "text": "Like mourning someone who died before I ever met them",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 5,
-            "lost_innocence": 5,
-            "protective_numbness": 3,
-            "calculated_existence": 1,
-            "fractured_identity": 4
-          }
+          "traits": {"living_ghost": 5, "fractured_identity": 4, "survival_cost": 5, "lost_innocence": 5, "protective_numbness": 3, "shattered_adapter": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
         },
         {
-          "id": "q20a4",
-          "text": "Confusion about whether that person would have been more or less efficient",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 3,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 3,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
+          "text": "Confusion about whether that person would have been more efficient",
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 3, "protective_numbness": 3, "lost_innocence": 2, "shattered_adapter": 3, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q20a5",
           "text": "Wonder which fragments of me might have been part of that whole person",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 3,
-            "human_machine": 2,
-            "shattered_adapter": 5,
-            "survival_cost": 4,
-            "lost_innocence": 4,
-            "protective_numbness": 2,
-            "calculated_existence": 2,
-            "fractured_identity": 5
-          }
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 4, "lost_innocence": 4, "protective_numbness": 2, "calculated_existence": 2, "human_machine": 2, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 3}
         }
       ]
     },
     {
-      "id": "q21",
-      "text": "Your survival adaptations affect your sleep and dreams by:",
+      "question": "Your survival adaptations affect your sleep and dreams by:",
       "answers": [
         {
-          "id": "q21a1",
           "text": "Making them as empty and colorless as my waking life",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 1,
-            "living_ghost": 4,
-            "human_machine": 3,
-            "shattered_adapter": 2,
-            "survival_cost": 4,
-            "lost_innocence": 3,
-            "protective_numbness": 5,
-            "calculated_existence": 3,
-            "fractured_identity": 2
-          }
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 4, "lost_innocence": 3, "living_ghost": 4, "human_machine": 3, "calculated_existence": 3, "adapted_predator": 1, "shattered_adapter": 2, "fractured_identity": 2}
         },
         {
-          "id": "q21a2",
           "text": "Filling them with scenarios where I'm always planning or defending",
-          "weights": {
-            "hollowed_survivor": 1,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 4,
-            "shattered_adapter": 3,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 2,
-            "calculated_existence": 4,
-            "fractured_identity": 2
-          }
+          "traits": {"adapted_predator": 5, "calculated_existence": 4, "survival_cost": 3, "human_machine": 4, "lost_innocence": 2, "protective_numbness": 2, "shattered_adapter": 3, "hollowed_survivor": 1, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q21a3",
           "text": "Making me feel like I'm watching someone else's dreams",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 3,
-            "lost_innocence": 3,
-            "protective_numbness": 3,
-            "calculated_existence": 1,
-            "fractured_identity": 4
-          }
+          "traits": {"living_ghost": 5, "fractured_identity": 4, "survival_cost": 3, "lost_innocence": 3, "protective_numbness": 3, "shattered_adapter": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
         },
         {
-          "id": "q21a4",
           "text": "Requiring me to shut down completely like a computer hibernating",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 3,
-            "survival_cost": 3,
-            "lost_innocence": 1,
-            "protective_numbness": 4,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 3, "protective_numbness": 4, "lost_innocence": 1, "shattered_adapter": 3, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q21a5",
           "text": "Creating chaotic dreamscapes where different versions of me interact",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 3,
-            "human_machine": 2,
-            "shattered_adapter": 5,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 2,
-            "calculated_existence": 2,
-            "fractured_identity": 5
-          }
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 3, "protective_numbness": 2, "lost_innocence": 2, "calculated_existence": 2, "human_machine": 2, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 3}
         }
       ]
     },
     {
-      "id": "q22",
-      "text": "If you could write a letter to who you were before your adaptations, you would say:",
+      "question": "If you could write a letter to who you were before adaptations, you'd say:",
       "answers": [
         {
-          "id": "q22a1",
           "text": "I'm sorry I had to kill you to survive, but I couldn't feel you die",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 2,
-            "living_ghost": 3,
-            "human_machine": 4,
-            "shattered_adapter": 1,
-            "survival_cost": 5,
-            "lost_innocence": 5,
-            "protective_numbness": 5,
-            "calculated_existence": 2,
-            "fractured_identity": 2
-          }
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 5, "lost_innocence": 5, "living_ghost": 3, "human_machine": 4, "calculated_existence": 2, "adapted_predator": 2, "shattered_adapter": 1, "fractured_identity": 2}
         },
         {
-          "id": "q22a2",
           "text": "Your weakness would have gotten us both destroyed",
-          "weights": {
-            "hollowed_survivor": 1,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 3,
-            "shattered_adapter": 2,
-            "survival_cost": 2,
-            "lost_innocence": 2,
-            "protective_numbness": 1,
-            "calculated_existence": 4,
-            "fractured_identity": 1
-          }
+          "traits": {"adapted_predator": 5, "survival_cost": 2, "lost_innocence": 2, "calculated_existence": 4, "human_machine": 3, "protective_numbness": 1, "shattered_adapter": 2, "hollowed_survivor": 1, "living_ghost": 1, "fractured_identity": 1}
         },
         {
-          "id": "q22a3",
           "text": "I can barely remember you existed, but I miss the space you filled",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 5,
-            "protective_numbness": 3,
-            "calculated_existence": 1,
-            "fractured_identity": 4
-          }
+          "traits": {"living_ghost": 5, "fractured_identity": 4, "survival_cost": 4, "lost_innocence": 5, "protective_numbness": 3, "shattered_adapter": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
         },
         {
-          "id": "q22a4",
           "text": "I optimized you out of existence for better performance",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 3,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 2,
-            "protective_numbness": 3,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 4, "protective_numbness": 3, "lost_innocence": 2, "shattered_adapter": 4, "adapted_predator": 3, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q22a5",
           "text": "I scattered your pieces to the wind, but I kept some fragments",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 3,
-            "human_machine": 2,
-            "shattered_adapter": 5,
-            "survival_cost": 4,
-            "lost_innocence": 4,
-            "protective_numbness": 2,
-            "calculated_existence": 2,
-            "fractured_identity": 5
-          }
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 4, "lost_innocence": 4, "protective_numbness": 2, "calculated_existence": 2, "human_machine": 2, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 3}
         }
       ]
     },
     {
-      "id": "q23",
-      "text": "When someone tries to connect with you emotionally, your automatic response is:",
+      "question": "When someone tries to connect with you emotionally, your automatic response is:",
       "answers": [
         {
-          "id": "q23a1",
-          "text": "System shutdown - I literally can't access whatever they're trying to reach",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 1,
-            "living_ghost": 3,
-            "human_machine": 4,
-            "shattered_adapter": 2,
-            "survival_cost": 5,
-            "lost_innocence": 2,
-            "protective_numbness": 5,
-            "calculated_existence": 4,
-            "fractured_identity": 2
-          }
+          "text": "System shutdown - I can't access whatever they're trying to reach",
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 5, "human_machine": 4, "lost_innocence": 2, "living_ghost": 3, "calculated_existence": 4, "adapted_predator": 1, "shattered_adapter": 2, "fractured_identity": 2}
         },
         {
-          "id": "q23a2",
           "text": "Assessment mode - I analyze how this vulnerability can be useful",
-          "weights": {
-            "hollowed_survivor": 1,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 4,
-            "shattered_adapter": 3,
-            "survival_cost": 3,
-            "lost_innocence": 1,
-            "protective_numbness": 1,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
+          "traits": {"adapted_predator": 5, "calculated_existence": 5, "survival_cost": 3, "human_machine": 4, "lost_innocence": 1, "protective_numbness": 1, "shattered_adapter": 3, "hollowed_survivor": 1, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q23a3",
           "text": "Vanishing - I become so insubstantial they can't find me",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 2,
-            "protective_numbness": 4,
-            "calculated_existence": 1,
-            "fractured_identity": 4
-          }
+          "traits": {"living_ghost": 5, "survival_cost": 4, "protective_numbness": 4, "shattered_adapter": 4, "fractured_identity": 4, "lost_innocence": 2, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
         },
         {
-          "id": "q23a4",
           "text": "Error message - I don't have the software to process this request",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 4,
-            "survival_cost": 3,
-            "lost_innocence": 1,
-            "protective_numbness": 3,
-            "calculated_existence": 5,
-            "fractured_identity": 3
-          }
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 3, "protective_numbness": 3, "lost_innocence": 1, "shattered_adapter": 4, "fractured_identity": 3, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 1}
         },
         {
-          "id": "q23a5",
-          "text": "Confusion - different parts of me respond differently simultaneously",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 2,
-            "human_machine": 3,
-            "shattered_adapter": 5,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 2,
-            "calculated_existence": 3,
-            "fractured_identity": 5
-          }
+          "text": "Confusion - different parts of me respond differently at the same time",
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 3, "protective_numbness": 2, "lost_innocence": 2, "calculated_existence": 3, "human_machine": 3, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 2}
         }
       ]
     },
     {
-      "id": "q24",
-      "text": "The cruelest aspect of your survival adaptation is that it:",
+      "question": "The cruelest aspect of your survival adaptation is that it:",
       "answers": [
         {
-          "id": "q24a1",
           "text": "Protects you from pain so well that it also blocks all joy and love",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 1,
-            "living_ghost": 3,
-            "human_machine": 4,
-            "shattered_adapter": 2,
-            "survival_cost": 5,
-            "lost_innocence": 5,
-            "protective_numbness": 5,
-            "calculated_existence": 2,
-            "fractured_identity": 2
-          }
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 5, "lost_innocence": 5, "living_ghost": 3, "human_machine": 4, "calculated_existence": 2, "adapted_predator": 1, "shattered_adapter": 2, "fractured_identity": 2}
         },
         {
-          "id": "q24a2",
           "text": "Made you into everything you once hated about other people",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 3,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 5,
-            "protective_numbness": 1,
-            "calculated_existence": 3,
-            "fractured_identity": 3
-          }
+          "traits": {"adapted_predator": 5, "survival_cost": 4, "lost_innocence": 5, "shattered_adapter": 4, "calculated_existence": 3, "protective_numbness": 1, "human_machine": 3, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 3}
         },
         {
-          "id": "q24a3",
           "text": "Makes you feel like you never really existed in the first place",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 5,
-            "lost_innocence": 4,
-            "protective_numbness": 3,
-            "calculated_existence": 1,
-            "fractured_identity": 5
-          }
+          "traits": {"living_ghost": 5, "fractured_identity": 5, "survival_cost": 5, "lost_innocence": 4, "protective_numbness": 3, "shattered_adapter": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
         },
         {
-          "id": "q24a4",
           "text": "Replaced your soul with an operating system",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 3,
-            "survival_cost": 4,
-            "lost_innocence": 3,
-            "protective_numbness": 3,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 4, "protective_numbness": 3, "lost_innocence": 3, "shattered_adapter": 3, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q24a5",
-          "text": "Scattered the pieces of who you were so far that you can't find them",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 3,
-            "human_machine": 2,
-            "shattered_adapter": 5,
-            "survival_cost": 4,
-            "lost_innocence": 4,
-            "protective_numbness": 2,
-            "calculated_existence": 2,
-            "fractured_identity": 5
-          }
+          "text": "Scattered the pieces of who you were so far you can't find them",
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 4, "lost_innocence": 4, "protective_numbness": 2, "calculated_existence": 2, "human_machine": 2, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 3}
         }
       ]
     },
     {
-      "id": "q25",
-      "text": "If you could go back to the moment your survival adaptations began, what you would tell your younger self is:",
+      "question": "If you could go back to the moment your survival adaptations began, you'd tell your younger self:",
       "answers": [
         {
-          "id": "q25a1",
           "text": "I'm sorry, but we have to kill your heart to save your life",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 1,
-            "living_ghost": 3,
-            "human_machine": 4,
-            "shattered_adapter": 2,
-            "survival_cost": 5,
-            "lost_innocence": 5,
-            "protective_numbness": 5,
-            "calculated_existence": 2,
-            "fractured_identity": 3
-          }
+          "traits": {"hollowed_survivor": 5, "protective_numbness": 5, "survival_cost": 5, "lost_innocence": 5, "living_ghost": 3, "human_machine": 4, "calculated_existence": 2, "adapted_predator": 1, "shattered_adapter": 2, "fractured_identity": 3}
         },
         {
-          "id": "q25a2",
           "text": "Learn to hunt before you become the prey",
-          "weights": {
-            "hollowed_survivor": 1,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 3,
-            "shattered_adapter": 3,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 1,
-            "calculated_existence": 4,
-            "fractured_identity": 2
-          }
+          "traits": {"adapted_predator": 5, "survival_cost": 3, "lost_innocence": 2, "calculated_existence": 4, "human_machine": 3, "protective_numbness": 1, "shattered_adapter": 3, "hollowed_survivor": 1, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q25a3",
           "text": "You're going to have to disappear for a while, maybe forever",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 4,
-            "protective_numbness": 3,
-            "calculated_existence": 1,
-            "fractured_identity": 4
-          }
+          "traits": {"living_ghost": 5, "fractured_identity": 4, "survival_cost": 4, "lost_innocence": 4, "protective_numbness": 3, "shattered_adapter": 4, "calculated_existence": 1, "adapted_predator": 1, "human_machine": 2, "hollowed_survivor": 3}
         },
         {
-          "id": "q25a4",
           "text": "We're going to replace you with something more efficient",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 3,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 3,
-            "protective_numbness": 3,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
+          "traits": {"human_machine": 5, "calculated_existence": 5, "survival_cost": 4, "protective_numbness": 3, "lost_innocence": 3, "shattered_adapter": 4, "adapted_predator": 3, "hollowed_survivor": 2, "living_ghost": 1, "fractured_identity": 2}
         },
         {
-          "id": "q25a5",
-          "text": "We're going to break you into pieces so small that no one can hurt the whole",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 3,
-            "human_machine": 2,
-            "shattered_adapter": 5,
-            "survival_cost": 5,
-            "lost_innocence": 4,
-            "protective_numbness": 2,
-            "calculated_existence": 2,
-            "fractured_identity": 5
-          }
+          "text": "We're going to break you into pieces so small no one can hurt the whole",
+          "traits": {"shattered_adapter": 5, "fractured_identity": 5, "survival_cost": 5, "lost_innocence": 4, "protective_numbness": 2, "calculated_existence": 2, "human_machine": 2, "adapted_predator": 2, "hollowed_survivor": 2, "living_ghost": 3}
         }
       ]
     }
   ],
-  "personality_types": {
+  "results": {
     "hollowed_survivor": {
       "title": "The Hollowed Survivor",
-      "subtitle": "Alive but empty, functioning but not feeling",
-      "basic_analysis": "You survived by becoming emotionally hollow. Every feeling that could cause pain was systematically shut down until what remains is a perfectly functioning shell of a person. You adapted by subtracting pieces of yourself until you became light enough to float above the suffering. The terrible irony is that your protection is so complete, you can no longer access joy, wonder, or love either. You're the walking proof that sometimes survival costs everything that makes life worth living.",
-      "detailed_analysis": [
-        "Your adaptation was a masterclass in psychological surgery - you removed your capacity to feel deeply about anything because feeling meant vulnerability, and vulnerability meant potential destruction. What began as temporary emotional anesthesia became permanent amputation of your emotional life.",
-        "You function beautifully in the world, meeting every expectation and completing every task with mechanical precision. But underneath the competent exterior is a vast emptiness where your inner life used to be. You've become a person-shaped absence, going through the motions of living without the animating force of genuine emotion.",
-        "In relationships, you're present but unreachable, caring but unable to access the feeling of caring. People sense something missing but can't identify what. You love them in theory but can't feel the warmth of that love. It's like being colorblind in an emotional world - you know the feelings should be there, but you can't see them.",
-        "Recovery requires the terrifying prospect of allowing feeling to return, knowing that pain will come with it. You've survived by becoming invulnerable, but healing demands choosing vulnerability again. The path back to wholeness means accepting that feeling everything deeply is worth the risk of being hurt again."
-      ]
+      "description": "You survived by becoming emotionally hollow. Every feeling that could cause pain was systematically shut down until what remains is a perfectly functioning shell of a person. You adapted by subtracting pieces of yourself until you became light enough to float above the suffering. The terrible irony is that your protection is so complete, you can no longer access joy, wonder, or love either.",
+      "extended": "Your adaptation was a masterclass in psychological surgery - you removed your capacity to feel deeply about anything because feeling meant vulnerability, and vulnerability meant potential destruction. What began as temporary emotional anesthesia became permanent amputation of your emotional life.\n\nYou function beautifully in the world, meeting every expectation and completing every task with mechanical precision. But underneath the competent exterior is a vast emptiness where your inner life used to be. You've become a person-shaped absence, going through the motions of living without the animating force of genuine emotion.\n\nIn relationships, you're present but unreachable, caring but unable to access the feeling of caring. People sense something missing but can't identify what. You love them in theory but can't feel the warmth of that love. It's like being colorblind in an emotional world - you know the feelings should be there, but you can't see them.\n\nRecovery requires the terrifying prospect of allowing feeling to return, knowing that pain will come with it. You've survived by becoming invulnerable, but healing demands choosing vulnerability again. The path back to wholeness means accepting that feeling everything deeply is worth the risk of being hurt again."
     },
     "adapted_predator": {
       "title": "The Adapted Predator",
-      "subtitle": "Transformed from prey to hunter for survival",
-      "basic_analysis": "You survived by becoming what once threatened you. Your adaptation was evolutionary - transforming from victim to victor, from the hunted to the hunter. You learned that in a world of predators and prey, safety lies in never being prey again. Now you move through life with calculated precision, always reading the room, always maintaining advantage. The cost is devastating: you've lost the capacity for genuine vulnerability, trust, and authentic connection with others.",
-      "detailed_analysis": [
-        "Your transformation was born from a fundamental realization: the world contains those who take and those who are taken from, and you decided which side you wanted to be on. You developed an almost supernatural ability to read people's weaknesses, motivations, and pressure points - not out of malice, but out of survival necessity.",
-        "You've become master of a game that others don't even know they're playing. Every interaction contains elements of strategy, every relationship has calculated components of give and take. You're not necessarily cruel, but you're always aware of power dynamics and positioning yourself advantageously within them.",
-        "The tragedy is that your predatory adaptations make genuine intimacy nearly impossible. You can't fully trust because you assume others are playing the same strategic game you are. You can't be vulnerable because vulnerability is weakness, and weakness is dangerous. Even your love has tactical elements that contaminate its purity.",
-        "Healing requires the terrifying prospect of disarming yourself - laying down the weapons that have kept you safe for so long. Recovery means learning to risk being prey again, this time by choice, with people who have earned your trust. It means discovering that true strength can coexist with vulnerability."
-      ]
+      "description": "You survived by becoming what once threatened you. Your adaptation was evolutionary - transforming from victim to victor, from the hunted to the hunter. You learned that in a world of predators and prey, safety lies in never being prey again. Now you move through life with calculated precision, always reading the room, always maintaining advantage.",
+      "extended": "Your transformation was born from a fundamental realization: the world contains those who take and those who are taken from, and you decided which side you wanted to be on. You developed an almost supernatural ability to read people's weaknesses, motivations, and pressure points - not out of malice, but out of survival necessity.\n\nYou've become master of a game that others don't even know they're playing. Every interaction contains elements of strategy, every relationship has calculated components of give and take. You're not necessarily cruel, but you're always aware of power dynamics and positioning yourself advantageously within them.\n\nThe tragedy is that your predatory adaptations make genuine intimacy nearly impossible. You can't fully trust because you assume others are playing the same strategic game you are. You can't be vulnerable because vulnerability is weakness, and weakness is dangerous. Even your love has tactical elements that contaminate its purity.\n\nHealing requires the terrifying prospect of disarming yourself - laying down the weapons that have kept you safe for so long. Recovery means learning to risk being prey again, this time by choice, with people who have earned your trust. It means discovering that true strength can coexist with vulnerability."
     },
     "living_ghost": {
       "title": "The Living Ghost",
-      "subtitle": "Present in body but absent in spirit",
-      "basic_analysis": "You adapted by learning to disappear - not physically, but existentially. You became so insubstantial that life flows around you rather than through you. Your survival strategy was to become too ethereal to hurt, too invisible to target, too absent to damage. You float through existence like smoke, present but not really there, visible but not truly seen. The cost is that you've become a ghost haunting your own life, watching from the outside but never fully participating.",
-      "detailed_analysis": [
-        "Your disappearing act was so successful that you sometimes question whether you ever really existed at all. You learned to make yourself so small, so quiet, so unremarkable that you could slip through life without drawing the attention that felt dangerous. You became a master of existing in the spaces between other people's attention.",
-        "You experience life as if watching it through glass - you can see everything happening, but you can't quite touch it or be touched by it. Even positive experiences feel distant and muted. You're like a photographer who's always behind the camera, documenting life but never stepping into the frame.",
-        "In relationships, people often feel like they can't quite reach you, no matter how much they care. You're present but elusive, caring but untouchable. Others may describe feeling like they're trying to hug smoke - they can see you and want to connect, but there's nothing solid to hold onto.",
-        "Recovery requires the gradual, terrifying process of rematerializing - allowing yourself to become solid and substantial again. Healing means risking visibility, learning to take up space, and trusting that being seen doesn't automatically mean being hurt. It's about choosing presence over protection."
-      ]
+      "description": "You adapted by learning to disappear - not physically, but existentially. You became so insubstantial that life flows around you rather than through you. Your survival strategy was to become too ethereal to hurt, too invisible to target, too absent to damage. You float through existence like smoke, present but not really there.",
+      "extended": "Your disappearing act was so successful that you sometimes question whether you ever really existed at all. You learned to make yourself so small, so quiet, so unremarkable that you could slip through life without drawing the attention that felt dangerous. You became a master of existing in the spaces between other people's attention.\n\nYou experience life as if watching it through glass - you can see everything happening, but you can't quite touch it or be touched by it. Even positive experiences feel distant and muted. You're like a photographer who's always behind the camera, documenting life but never stepping into the frame.\n\nIn relationships, people often feel like they can't quite reach you, no matter how much they care. You're present but elusive, caring but untouchable. Others may describe feeling like they're trying to hug smoke - they can see you and want to connect, but there's nothing solid to hold onto.\n\nRecovery requires the gradual, terrifying process of rematerializing - allowing yourself to become solid and substantial again. Healing means risking visibility, learning to take up space, and trusting that being seen doesn't automatically mean being hurt. It's about choosing presence over protection."
     },
     "human_machine": {
       "title": "The Human Machine",
-      "subtitle": "Optimized for function, deprived of soul",
-      "basic_analysis": "You survived by becoming mechanical - replacing your organic, unpredictable emotional responses with calculated, reliable behavioral programs. Every spontaneous reaction was optimized out and replaced with appropriate responses. You adapted by turning yourself into a perfectly functioning system that never malfunctions, never surprises, never fails to meet expectations. The cost is that you've lost access to the beautiful chaos of human spontaneity, creativity, and authentic emotional response.",
-      "detailed_analysis": [
-        "Your transformation into a human machine wasn't cruel - it was efficient. You analyzed what responses worked best in different situations and programmed those responses so thoroughly that they became automatic. You optimized yourself for maximum functionality and minimum unpredictability, creating a person who never breaks down but also never truly comes alive.",
-        "You've become incredibly competent, reliable, and successful by conventional measures. You always know what to say, how to act, and what response is expected. But underneath the flawless performance is someone who can't remember what it feels like to react naturally to anything. Your emotions have become data points to be processed rather than experiences to be felt.",
-        "In relationships, you're perfect on paper but something indefinable is missing. You say the right things and do the right things, but it feels programmed rather than spontaneous. People may love your reliability while secretly longing for the messy, imperfect, surprising person you might be underneath all the optimization.",
-        "Recovery requires the terrifying prospect of system failure - allowing glitches, spontaneous responses, and imperfect reactions back into your operating system. Healing means choosing beautiful inefficiency over sterile perfection, risking malfunction for the chance to feel genuinely human again."
-      ]
+      "description": "You survived by becoming mechanical - replacing your organic, unpredictable emotional responses with calculated, reliable behavioral programs. Every spontaneous reaction was optimized out and replaced with appropriate responses. You adapted by turning yourself into a perfectly functioning system that never malfunctions, never surprises, never fails to meet expectations.",
+      "extended": "Your transformation into a human machine wasn't cruel - it was efficient. You analyzed what responses worked best in different situations and programmed those responses so thoroughly that they became automatic. You optimized yourself for maximum functionality and minimum unpredictability, creating a person who never breaks down but also never truly comes alive.\n\nYou've become incredibly competent, reliable, and successful by conventional measures. You always know what to say, how to act, and what response is expected. But underneath the flawless performance is someone who can't remember what it feels like to react naturally to anything. Your emotions have become data points to be processed rather than experiences to be felt.\n\nIn relationships, you're perfect on paper but something indefinable is missing. You say the right things and do the right things, but it feels programmed rather than spontaneous. People may love your reliability while secretly longing for the messy, imperfect, surprising person you might be underneath all the optimization.\n\nRecovery requires the terrifying prospect of system failure - allowing glitches, spontaneous responses, and imperfect reactions back into your operating system. Healing means choosing beautiful inefficiency over sterile perfection, risking malfunction for the chance to feel genuinely human again."
     },
     "shattered_adapter": {
       "title": "The Shattered Adapter",
-      "subtitle": "Survival through strategic fragmentation",
-      "basic_analysis": "You didn't develop one survival strategy - you shattered into multiple adaptive fragments, each specialized for different threats and environments. You're not one person with defenses; you're a collection of survival selves that switch depending on what's needed. One part went numb, another became predatory, one disappeared entirely, while another turned mechanical. You survived by becoming everything and nothing simultaneously, but the cost is coherence - you exist as fragments pretending to be a whole person.",
-      "detailed_analysis": [
-        "Your fragmentation wasn't random - it was strategic. Different parts of you learned different survival skills: the part that could disappear, the part that could manipulate, the part that could go numb, the part that could perform perfectly. You became a Swiss Army knife of survival mechanisms, with each tool specialized for specific threats.",
-        "The challenge is that these fragments don't communicate well with each other, and you often don't know which one is driving at any given moment. You might feel predatory in one situation, completely empty in another, and mechanically perfect in a third - sometimes all within the same conversation.",
-        "Your fragments serve you well in crisis but make consistency nearly impossible. People in your life may feel like they're relating to different people depending on the day, the stress level, or the particular trigger that's activated. You yourself may feel like an actor who's forgotten which role they're supposed to be playing.",
-        "Recovery isn't about choosing one fragment and discarding the others - it's about integration. Healing means learning how all these survival selves can coexist and contribute to a more complete version of yourself. Your fragmentation, when integrated, can become a remarkable capacity for complexity and adaptation."
-      ]
+      "description": "You didn't develop one survival strategy - you shattered into multiple adaptive fragments, each specialized for different threats and environments. You're not one person with defenses; you're a collection of survival selves that switch depending on what's needed. You survived by becoming everything and nothing simultaneously.",
+      "extended": "Your fragmentation wasn't random - it was strategic. Different parts of you learned different survival skills: the part that could disappear, the part that could manipulate, the part that could go numb, the part that could perform perfectly. You became a Swiss Army knife of survival mechanisms, with each tool specialized for specific threats.\n\nThe challenge is that these fragments don't communicate well with each other, and you often don't know which one is driving at any given moment. You might feel predatory in one situation, completely empty in another, and mechanically perfect in a third - sometimes all within the same conversation.\n\nYour fragments serve you well in crisis but make consistency nearly impossible. People in your life may feel like they're relating to different people depending on the day, the stress level, or the particular trigger that's activated. You yourself may feel like an actor who's forgotten which role they're supposed to be playing.\n\nRecovery isn't about choosing one fragment and discarding the others - it's about integration. Healing means learning how all these survival selves can coexist and contribute to a more complete version of yourself. Your fragmentation, when integrated, can become a remarkable capacity for complexity and adaptation."
     },
     "survival_cost": {
       "title": "The Cost Calculator",
-      "subtitle": "Expert in measuring what was lost to gain safety",
-      "basic_analysis": "You've become acutely aware of exactly what you sacrificed for survival, and the ledger is devastating. Unlike others who adapted unconsciously, you can itemize every piece of yourself that was traded for safety: spontaneity for control, vulnerability for armor, authenticity for acceptance. You're the accountant of your own losses, keeping meticulous track of what survival cost and whether it was worth the price.",
-      "detailed_analysis": [
-        "Your awareness of the cost makes your adaptations both more conscious and more painful. You know exactly what you've lost, which gives you a clarity that others lack but also a grief that others don't carry. You can trace the evolution of each survival mechanism and calculate its price with devastating precision.",
-        "This consciousness is both a gift and a curse. You have insight into your own process that others may take years of therapy to develop, but you also carry the full weight of knowing what you've sacrificed. You live with the constant awareness of the person you might have been.",
-        "Your relationships are complicated by your awareness of exactly how your adaptations affect them. You can see yourself performing, manipulating, or withdrawing, but knowing doesn't always mean you can stop. It's like being a passenger in your own life, watching yourself repeat patterns you wish you could change.",
-        "Recovery for you involves leveraging your awareness into action. Since you already understand the cost, your healing journey can focus on whether you're willing to pay the price of change - risking the safety your adaptations provide for the possibility of recovering what was lost."
-      ]
+      "description": "You've become acutely aware of exactly what you sacrificed for survival, and the ledger is devastating. Unlike others who adapted unconsciously, you can itemize every piece of yourself that was traded for safety: spontaneity for control, vulnerability for armor, authenticity for acceptance.",
+      "extended": "Your awareness of the cost makes your adaptations both more conscious and more painful. You know exactly what you've lost, which gives you a clarity that others lack but also a grief that others don't carry. You can trace the evolution of each survival mechanism and calculate its price with devastating precision.\n\nThis consciousness is both a gift and a curse. You have insight into your own process that others may take years of therapy to develop, but you also carry the full weight of knowing what you've sacrificed. You live with the constant awareness of the person you might have been.\n\nYour relationships are complicated by your awareness of exactly how your adaptations affect them. You can see yourself performing, manipulating, or withdrawing, but knowing doesn't always mean you can stop. It's like being a passenger in your own life, watching yourself repeat patterns you wish you could change.\n\nRecovery for you involves leveraging your awareness into action. Since you already understand the cost, your healing journey can focus on whether you're willing to pay the price of change - risking the safety your adaptations provide for the possibility of recovering what was lost."
     },
     "lost_innocence": {
       "title": "The Mourner of Lost Innocence",
-      "subtitle": "Grieving the person you were before survival",
-      "basic_analysis": "You carry a profound awareness of who you were before you learned to survive, and the loss feels like a death you can't properly mourn. Your adaptation cost you your innocence, wonder, and natural trust in the world. You remember being someone who reacted spontaneously, felt deeply, and moved through the world without calculating every step. That person feels like someone from another lifetime - someone beautiful who died to keep you alive.",
-      "detailed_analysis": [
-        "Your grief is complicated because you're mourning someone who was never allowed to fully mature - the person you would have become if you hadn't needed to adapt for survival. You remember fragments of that earlier self: their curiosity, their openness, their ability to be hurt and bounce back naturally.",
-        "Unlike others who have forgotten who they were before, you carry the memory like a constant ache. You can see the exact moment innocence died and adaptation was born. This awareness makes you both more conscious of your loss and more motivated to recover what was taken.",
-        "Your relationships are colored by this grief - you love people through the lens of what you've lost, always comparing what connection could be versus what your adapted self can manage. You may find yourself envying others their natural emotional responses while feeling simultaneously protective of them.",
-        "Recovery involves not just healing your adaptations but also properly grieving who you were before. Healing means honoring that earlier self while discovering what parts of their essence can be recovered and integrated into who you're becoming now."
-      ]
+      "description": "You carry a profound awareness of who you were before you learned to survive, and the loss feels like a death you can't properly mourn. Your adaptation cost you your innocence, wonder, and natural trust in the world. You remember being someone who reacted spontaneously, felt deeply, and moved through the world without calculating every step.",
+      "extended": "Your grief is complicated because you're mourning someone who was never allowed to fully mature - the person you would have become if you hadn't needed to adapt for survival. You remember fragments of that earlier self: their curiosity, their openness, their ability to be hurt and bounce back naturally.\n\nUnlike others who have forgotten who they were before, you carry the memory like a constant ache. You can see the exact moment innocence died and adaptation was born. This awareness makes you both more conscious of your loss and more motivated to recover what was taken.\n\nYour relationships are colored by this grief - you love people through the lens of what you've lost, always comparing what connection could be versus what your adapted self can manage. You may find yourself envying others their natural emotional responses while feeling simultaneously protective of them.\n\nRecovery involves not just healing your adaptations but also properly grieving who you were before. Healing means honoring that earlier self while discovering what parts of their essence can be recovered and integrated into who you're becoming now."
     },
     "protective_numbness": {
       "title": "The Numbed Guardian",
-      "subtitle": "Protected by the absence of feeling",
-      "basic_analysis": "Your primary adaptation was the systematic numbing of your emotional responses. You discovered that you couldn't be hurt by what you couldn't feel, so you developed an exquisite ability to disconnect from your emotions the moment they became threatening. You live behind a wall of numbness that protects you from pain but also blocks access to joy, love, and vitality. You're safe but isolated in your emotional fortress.",
-      "detailed_analysis": [
-        "Your numbness isn't depression - it's a sophisticated defense system that can be activated when needed. You've learned to disconnect from feelings so completely that you can function through situations that would devastate others. But the system designed for crisis has become your default mode of operation.",
-        "The protective numbness extends beyond just difficult emotions - it's like a blanket that covers everything. You can observe your life happening, including positive experiences, but from behind emotional glass. You know you should feel more about things that matter, but accessing those feelings feels impossible or dangerous.",
-        "In relationships, your numbness creates a peculiar dynamic where you can care about people in theory but struggle to feel the warmth of that caring. You're present and reliable but emotionally unavailable in ways that you recognize but can't seem to change.",
-        "Recovery requires the gradual thawing of your emotional life, knowing that pain will return along with everything else. Healing means learning to feel selectively rather than shutting down completely - developing the ability to be vulnerable without being helpless."
-      ]
+      "description": "Your primary adaptation was the systematic numbing of your emotional responses. You discovered that you couldn't be hurt by what you couldn't feel, so you developed an exquisite ability to disconnect from your emotions the moment they became threatening. You live behind a wall of numbness that protects you from pain but also blocks access to joy, love, and vitality.",
+      "extended": "Your numbness isn't depression - it's a sophisticated defense system that can be activated when needed. You've learned to disconnect from feelings so completely that you can function through situations that would devastate others. But the system designed for crisis has become your default mode of operation.\n\nThe protective numbness extends beyond just difficult emotions - it's like a blanket that covers everything. You can observe your life happening, including positive experiences, but from behind emotional glass. You know you should feel more about things that matter, but accessing those feelings feels impossible or dangerous.\n\nIn relationships, your numbness creates a peculiar dynamic where you can care about people in theory but struggle to feel the warmth of that caring. You're present and reliable but emotionally unavailable in ways that you recognize but can't seem to change.\n\nRecovery requires the gradual thawing of your emotional life, knowing that pain will return along with everything else. Healing means learning to feel selectively rather than shutting down completely - developing the ability to be vulnerable without being helpless."
     },
     "calculated_existence": {
       "title": "The Strategic Liver",
-      "subtitle": "Every move planned, nothing left to chance",
-      "basic_analysis": "You survived by turning life into a chess game where every move is calculated for maximum advantage and minimum risk. You analyze situations, predict outcomes, and choose responses based on strategic rather than emotional considerations. You've optimized for success and safety but lost the ability to live spontaneously. Your existence has become a series of calculated decisions that keep you protected but prevent you from truly living.",
-      "detailed_analysis": [
-        "Your strategic approach to life serves you well in many ways - you're successful, rarely surprised by outcomes, and maintain control over most situations. But the constant calculation is exhausting, and the inability to act spontaneously has drained the vitality from your experiences.",
-        "Every relationship contains elements of strategy, every decision is weighed for potential consequences, every emotional response is filtered through analysis of what's safe or appropriate. You've become incredibly good at life management but terrible at life experience.",
-        "The tragedy is that your calculated approach prevents the kind of authentic connection and spontaneous joy that makes life meaningful. You can plan for happiness but struggle to feel it; you can strategize intimacy but can't surrender to it.",
-        "Recovery involves learning to risk the beautiful unpredictability of authentic living. Healing means gradually allowing unplanned responses, accepting less control over outcomes, and trusting that not everything needs to be calculated to be safe."
-      ]
+      "description": "You survived by turning life into a chess game where every move is calculated for maximum advantage and minimum risk. You analyze situations, predict outcomes, and choose responses based on strategic rather than emotional considerations. You've optimized for success and safety but lost the ability to live spontaneously.",
+      "extended": "Your strategic approach to life serves you well in many ways - you're successful, rarely surprised by outcomes, and maintain control over most situations. But the constant calculation is exhausting, and the inability to act spontaneously has drained the vitality from your experiences.\n\nEvery relationship contains elements of strategy, every decision is weighed for potential consequences, every emotional response is filtered through analysis of what's safe or appropriate. You've become incredibly good at life management but terrible at life experience.\n\nThe tragedy is that your calculated approach prevents the kind of authentic connection and spontaneous joy that makes life meaningful. You can plan for happiness but struggle to feel it; you can strategize intimacy but can't surrender to it.\n\nRecovery involves learning to risk the beautiful unpredictability of authentic living. Healing means gradually allowing unplanned responses, accepting less control over outcomes, and trusting that not everything needs to be calculated to be safe."
     },
     "fractured_identity": {
       "title": "The Identity Puzzle",
-      "subtitle": "Scattered pieces seeking wholeness",
-      "basic_analysis": "Your survival strategy fragmented your identity so completely that you exist as separate pieces rather than one coherent self. Different parts of you have different values, reactions, and ways of being in the world. You adapted by creating multiple survival selves, but now you're left with the complex task of figuring out which pieces are authentically you and how they might fit together into a whole person.",
-      "detailed_analysis": [
-        "Your fragmentation was protective - by not having one solid identity, you couldn't be completely destroyed by any single trauma or threat. But living as fragments means you never feel entirely real or consistent. You may feel like an actor who's forgotten their main character.",
-        "Different situations activate different parts of your identity, sometimes in ways that surprise you. You might be competent and confident in one context while feeling lost and helpless in another. The lack of consistent self-experience makes you question which version is 'real.'",
-        "Relationships become complicated because people never know which version of you they're going to encounter. You yourself may not know which part of you is responding in any given moment, making authentic connection difficult when you're not sure who's doing the connecting.",
-        "Recovery involves the slow work of integration - not choosing one fragment over others, but learning how all these parts can coexist within one person. Healing means discovering that your complexity isn't a flaw to be fixed but a richness to be organized and honored."
-      ]
+      "description": "Your survival strategy fragmented your identity so completely that you exist as separate pieces rather than one coherent self. Different parts of you have different values, reactions, and ways of being in the world. You adapted by creating multiple survival selves, but now you're left with the complex task of figuring out which pieces are authentically you.",
+      "extended": "Your fragmentation was protective - by not having one solid identity, you couldn't be completely destroyed by any single trauma or threat. But living as fragments means you never feel entirely real or consistent. You may feel like an actor who's forgotten their main character.\n\nDifferent situations activate different parts of your identity, sometimes in ways that surprise you. You might be competent and confident in one context while feeling lost and helpless in another. The lack of consistent self-experience makes you question which version is 'real.'\n\nRelationships become complicated because people never know which version of you they're going to encounter. You yourself may not know which part of you is responding in any given moment, making authentic connection difficult when you're not sure who's doing the connecting.\n\nRecovery involves the slow work of integration - not choosing one fragment over others, but learning how all these parts can coexist within one person. Healing means discovering that your complexity isn't a flaw to be fixed but a richness to be organized and honored."
     }
   }
-}": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 3,
-            "lost_innocence": 4,
-            "protective_numbness": 2,
-            "calculated_existence": 1,
-            "fractured_identity": 5
-          }
-        },
-        {
-          "id": "q1a4",
-          "text": "The spontaneous reactions that came naturally to me",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 2,
-            "living_ghost": 2,
-            "human_machine": 5,
-            "shattered_adapter": 3,
-            "survival_cost": 4,
-            "lost_innocence": 4,
-            "protective_numbness": 2,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
-        },
-        {
-          "id": "q1a5",
-          "text": "The coherent sense of who I was as a person",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 3,
-            "human_machine": 1,
-            "shattered_adapter": 5,
-            "survival_cost": 3,
-            "lost_innocence": 3,
-            "protective_numbness": 1,
-            "calculated_existence": 2,
-            "fractured_identity": 5
-          }
-        }
-      ]
-    },
-    {
-      "id": "q2",
-      "text": "To survive your family environment, you learned to:",
-      "answers": [
-        {
-          "id": "q2a1",
-          "text": "Shut down emotionally until you felt nothing at all",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 1,
-            "living_ghost": 3,
-            "human_machine": 4,
-            "shattered_adapter": 2,
-            "survival_cost": 5,
-            "lost_innocence": 2,
-            "protective_numbness": 5,
-            "calculated_existence": 3,
-            "fractured_identity": 2
-          }
-        },
-        {
-          "id": "q2a2",
-          "text": "Study people's weaknesses and use them when necessary",
-          "weights": {
-            "hollowed_survivor": 1,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 4,
-            "shattered_adapter": 3,
-            "survival_cost": 4,
-            "lost_innocence": 1,
-            "protective_numbness": 2,
-            "calculated_existence": 5,
-            "fractured_identity": 3
-          }
-        },
-        {
-          "id": "q2a3",
-          "text": "Become so small and quiet that you were easily forgotten",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 3,
-            "protective_numbness": 3,
-            "calculated_existence": 1,
-            "fractured_identity": 4
-          }
-        },
-        {
-          "id": "q2a4",
-          "text": "Perfect the art of giving exactly the response they wanted",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 3,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 2,
-            "protective_numbness": 1,
-            "calculated_existence": 5,
-            "fractured_identity": 3
-          }
-        },
-        {
-          "id": "q2a5",
-          "text": "Split into different versions depending on who was present",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 3,
-            "living_ghost": 2,
-            "human_machine": 3,
-            "shattered_adapter": 5,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 2,
-            "calculated_existence": 3,
-            "fractured_identity": 5
-          }
-        }
-      ]
-    },
-    {
-      "id": "q3",
-      "text": "The most devastating thing your survival strategy cost you was:",
-      "answers": [
-        {
-          "id": "q3a1",
-          "text": "The ability to feel joy, excitement, or genuine happiness",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 2,
-            "living_ghost": 4,
-            "human_machine": 3,
-            "shattered_adapter": 1,
-            "survival_cost": 5,
-            "lost_innocence": 4,
-            "protective_numbness": 5,
-            "calculated_existence": 2,
-            "fractured_identity": 2
-          }
-        },
-        {
-          "id": "q3a2",
-          "text": "The capacity to feel empathy or genuine care for others",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 4,
-            "shattered_adapter": 3,
-            "survival_cost": 4,
-            "lost_innocence": 5,
-            "protective_numbness": 2,
-            "calculated_existence": 4,
-            "fractured_identity": 2
-          }
-        },
-        {
-          "id": "q3a3",
-          "text": "The sense of being a real person instead of a shadow",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 3,
-            "protective_numbness": 3,
-            "calculated_existence": 1,
-            "fractured_identity": 5
-          }
-        },
-        {
-          "id": "q3a4",
-          "text": "The ability to have authentic, unguarded reactions to anything",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 3,
-            "living_ghost": 2,
-            "human_machine": 5,
-            "shattered_adapter": 2,
-            "survival_cost": 4,
-            "lost_innocence": 4,
-            "protective_numbness": 3,
-            "calculated_existence": 5,
-            "fractured_identity": 1
-          }
-        },
-        {
-          "id": "q3a5",
-          "text": "The coherent sense of having one consistent identity",
-          "weights": {
-            "hollowed_survivor": 1,
-            "adapted_predator": 2,
-            "living_ghost": 3,
-            "human_machine": 2,
-            "shattered_adapter": 5,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 1,
-            "calculated_existence": 2,
-            "fractured_identity": 5
-          }
-        }
-      ]
-    },
-    {
-      "id": "q4",
-      "text": "When someone shows you unexpected kindness, your immediate internal reaction is:",
-      "answers": [
-        {
-          "id": "q4a1",
-          "text": "Nothing - I literally cannot feel the warmth it should bring",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 1,
-            "living_ghost": 3,
-            "human_machine": 4,
-            "shattered_adapter": 2,
-            "survival_cost": 4,
-            "lost_innocence": 2,
-            "protective_numbness": 5,
-            "calculated_existence": 3,
-            "fractured_identity": 2
-          }
-        },
-        {
-          "id": "q4a2",
-          "text": "Suspicion - I analyze what they want from me",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 4,
-            "shattered_adapter": 3,
-            "survival_cost": 3,
-            "lost_innocence": 4,
-            "protective_numbness": 2,
-            "calculated_existence": 5,
-            "fractured_identity": 1
-          }
-        },
-        {
-          "id": "q4a3",
-          "text": "Panic - it makes me feel too visible and vulnerable",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 3,
-            "protective_numbness": 3,
-            "calculated_existence": 1,
-            "fractured_identity": 4
-          }
-        },
-        {
-          "id": "q4a4",
-          "text": "Confusion - I don't know which version of myself should respond",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 2,
-            "human_machine": 3,
-            "shattered_adapter": 5,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 2,
-            "calculated_existence": 3,
-            "fractured_identity": 5
-          }
-        },
-        {
-          "id": "q4a5",
-          "text": "Malfunction - my system doesn't know how to process genuine affection",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 2,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 4,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 3,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
-        }
-      ]
-    },
-    {
-      "id": "q5",
-      "text": "Your adaptive survival mechanism turned you into someone who:",
-      "answers": [
-        {
-          "id": "q5a1",
-          "text": "Goes through the motions of living without actually feeling alive",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 1,
-            "living_ghost": 4,
-            "human_machine": 3,
-            "shattered_adapter": 2,
-            "survival_cost": 5,
-            "lost_innocence": 3,
-            "protective_numbness": 5,
-            "calculated_existence": 3,
-            "fractured_identity": 2
-          }
-        },
-        {
-          "id": "q5a2",
-          "text": "Uses people as chess pieces in a game only they understand",
-          "weights": {
-            "hollowed_survivor": 1,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 4,
-            "shattered_adapter": 3,
-            "survival_cost": 4,
-            "lost_innocence": 5,
-            "protective_numbness": 1,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
-        },
-        {
-          "id": "q5a3",
-          "text": "Exists on the periphery of their own life, watching but not participating",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 3,
-            "protective_numbness": 4,
-            "calculated_existence": 1,
-            "fractured_identity": 5
-          }
-        },
-        {
-          "id": "q5a4",
-          "text": "Functions perfectly in every situation but feels nothing genuine",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 3,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 2,
-            "protective_numbness": 4,
-            "calculated_existence": 5,
-            "fractured_identity": 1
-          }
-        },
-        {
-          "id": "q5a5",
-          "text": "Switches between different personalities depending on what survival requires",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 3,
-            "living_ghost": 3,
-            "human_machine": 2,
-            "shattered_adapter": 5,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 2,
-            "calculated_existence": 3,
-            "fractured_identity": 5
-          }
-        }
-      ]
-    },
-    {
-      "id": "q6",
-      "text": "The worst part about your coping mechanism is that it:",
-      "answers": [
-        {
-          "id": "q6a1",
-          "text": "Protects you so well that you can't feel anything good either",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 1,
-            "living_ghost": 3,
-            "human_machine": 4,
-            "shattered_adapter": 2,
-            "survival_cost": 5,
-            "lost_innocence": 3,
-            "protective_numbness": 5,
-            "calculated_existence": 2,
-            "fractured_identity": 2
-          }
-        },
-        {
-          "id": "q6a2",
-          "text": "Made you into the kind of person you once feared",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 3,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 5,
-            "protective_numbness": 1,
-            "calculated_existence": 4,
-            "fractured_identity": 3
-          }
-        },
-        {
-          "id": "q6a3",
-          "text": "Erased you so completely that you question if you ever existed",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 4,
-            "protective_numbness": 3,
-            "calculated_existence": 1,
-            "fractured_identity": 5
-          }
-        },
-        {
-          "id": "q6a4",
-          "text": "Turned your emotions into a system you can't access naturally anymore",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 3,
-            "survival_cost": 4,
-            "lost_innocence": 2,
-            "protective_numbness": 4,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
-        },
-        {
-          "id": "q6a5",
-          "text": "Fragmented you so much that you don't know which pieces are really you",
-          "weights": {
-            "hollowed_survivor": 1,
-            "adapted_predator": 2,
-            "living_ghost": 3,
-            "human_machine": 2,
-            "shattered_adapter": 5,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 2,
-            "calculated_existence": 2,
-            "fractured_identity": 5
-          }
-        }
-      ]
-    },
-    {
-      "id": "q7",
-      "text": "When you try to remember who you were before you learned to survive, you find:",
-      "answers": [
-        {
-          "id": "q7a1",
-          "text": "A colorful person that now seems like a stranger from another life",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 2,
-            "living_ghost": 4,
-            "human_machine": 3,
-            "shattered_adapter": 1,
-            "survival_cost": 5,
-            "lost_innocence": 5,
-            "protective_numbness": 4,
-            "calculated_existence": 2,
-            "fractured_identity": 2
-          }
-        },
-        {
-          "id": "q7a2",
-          "text": "A naive person who couldn't see the predators around them",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 3,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 5,
-            "protective_numbness": 2,
-            "calculated_existence": 4,
-            "fractured_identity": 2
-          }
-        },
-        {
-          "id": "q7a3",
-          "text": "Fragments and shadows - like trying to remember a half-forgotten dream",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 4,
-            "protective_numbness": 3,
-            "calculated_existence": 1,
-            "fractured_identity": 5
-          }
-        },
-        {
-          "id": "q7a4",
-          "text": "Someone who reacted naturally without calculating every response",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 3,
-            "living_ghost": 2,
-            "human_machine": 5,
-            "shattered_adapter": 2,
-            "survival_cost": 4,
-            "lost_innocence": 4,
-            "protective_numbness": 2,
-            "calculated_existence": 5,
-            "fractured_identity": 1
-          }
-        },
-        {
-          "id": "q7a5",
-          "text": "Multiple different versions, and I'm not sure which one was real",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 3,
-            "human_machine": 1,
-            "shattered_adapter": 5,
-            "survival_cost": 3,
-            "lost_innocence": 3,
-            "protective_numbness": 1,
-            "calculated_existence": 2,
-            "fractured_identity": 5
-          }
-        }
-      ]
-    },
-    {
-      "id": "q8",
-      "text": "In intimate relationships, your survival adaptations manifest as:",
-      "answers": [
-        {
-          "id": "q8a1",
-          "text": "Being physically present but emotionally unreachable",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 2,
-            "living_ghost": 4,
-            "human_machine": 3,
-            "shattered_adapter": 1,
-            "survival_cost": 5,
-            "lost_innocence": 2,
-            "protective_numbness": 5,
-            "calculated_existence": 3,
-            "fractured_identity": 2
-          }
-        },
-        {
-          "id": "q8a2",
-          "text": "Unconsciously manipulating situations to maintain control and power",
-          "weights": {
-            "hollowed_survivor": 1,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 4,
-            "shattered_adapter": 3,
-            "survival_cost": 4,
-            "lost_innocence": 3,
-            "protective_numbness": 1,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
-        },
-        {
-          "id": "q8a3",
-          "text": "Feeling like an observer in your own relationship",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 4,
-            "calculated_existence": 1,
-            "fractured_identity": 5
-          }
-        },
-        {
-          "id": "q8a4",
-          "text": "Giving perfect responses while feeling disconnected from your words",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 3,
-            "living_ghost": 2,
-            "human_machine": 5,
-            "shattered_adapter": 3,
-            "survival_cost": 4,
-            "lost_innocence": 1,
-            "protective_numbness": 3,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
-        },
-        {
-          "id": "q8a5",
-          "text": "Becoming different people depending on what you think they need",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 3,
-            "living_ghost": 3,
-            "human_machine": 2,
-            "shattered_adapter": 5,
-            "survival_cost": 3,
-            "lost_innocence": 2,
-            "protective_numbness": 2,
-            "calculated_existence": 3,
-            "fractured_identity": 5
-          }
-        }
-      ]
-    },
-    {
-      "id": "q9",
-      "text": "When you look at people who seem naturally happy and carefree, you feel:",
-      "answers": [
-        {
-          "id": "q9a1",
-          "text": "Nothing - like watching aliens from a species I'll never understand",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 2,
-            "living_ghost": 4,
-            "human_machine": 3,
-            "shattered_adapter": 1,
-            "survival_cost": 5,
-            "lost_innocence": 4,
-            "protective_numbness": 5,
-            "calculated_existence": 2,
-            "fractured_identity": 2
-          }
-        },
-        {
-          "id": "q9a2",
-          "text": "Contempt - they're naive prey who haven't learned how the world really works",
-          "weights": {
-            "hollowed_survivor": 1,
-            "adapted_predator": 5,
-            "living_ghost": 1,
-            "human_machine": 3,
-            "shattered_adapter": 2,
-            "survival_cost": 3,
-            "lost_innocence": 4,
-            "protective_numbness": 1,
-            "calculated_existence": 4,
-            "fractured_identity": 1
-          }
-        },
-        {
-          "id": "q9a3",
-          "text": "Envy so sharp it makes me want to disappear completely",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator": 1,
-            "living_ghost": 5,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 4,
-            "lost_innocence": 5,
-            "protective_numbness": 3,
-            "calculated_existence": 1,
-            "fractured_identity": 4
-          }
-        },
-        {
-          "id": "q9a4",
-          "text": "Confusion - I can't understand how they access emotions so easily",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 2,
-            "living_ghost": 1,
-            "human_machine": 5,
-            "shattered_adapter": 3,
-            "survival_cost": 3,
-            "lost_innocence": 3,
-            "protective_numbness": 3,
-            "calculated_existence": 5,
-            "fractured_identity": 2
-          }
-        },
-        {
-          "id": "q9a5",
-          "text": "Fragmented responses - different parts of me react differently",
-          "weights": {
-            "hollowed_survivor": 1,
-            "adapted_predator": 2,
-            "living_ghost": 2,
-            "human_machine": 2,
-            "shattered_adapter": 5,
-            "survival_cost": 2,
-            "lost_innocence": 3,
-            "protective_numbness": 1,
-            "calculated_existence": 2,
-            "fractured_identity": 5
-          }
-        }
-      ]
-    },
-    {
-      "id": "q10",
-      "text": "Your greatest fear about healing or changing is that:",
-      "answers": [
-        {
-          "id": "q10a1",
-          "text": "If I let myself feel again, the pain might destroy what's left of me",
-          "weights": {
-            "hollowed_survivor": 5,
-            "adapted_predator": 1,
-            "living_ghost": 3,
-            "human_machine": 2,
-            "shattered_adapter": 4,
-            "survival_cost": 5,
-            "lost_innocence": 4,
-            "protective_numbness": 5,
-            "calculated_existence": 1,
-            "fractured_identity": 3
-          }
-        },
-        {
-          "id": "q10a2",
-          "text": "I'll become vulnerable prey again in a world full of predators",
-          "weights": {
-            "hollowed_survivor": 2,
-            "adapted_predator": 5,
-            "living_ghost": 2,
-            "human_machine": 3,
-            "shattered_adapter": 3,
-            "survival_cost": 4,
-            "lost_innocence": 3,
-            "protective_numbness": 2,
-            "calculated_existence": 4,
-            "fractured_identity": 2
-          }
-        },
-        {
-          "id": "q10a3",
-          "text": "I might discover there's nothing real left underneath all the adaptations",
-          "weights": {
-            "hollowed_survivor": 3,
-            "adapted_predator
+}

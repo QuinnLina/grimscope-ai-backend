@@ -1,1106 +1,733 @@
 {
-  "test_id": "single_test",
-  "title": "Why Are You Still Single? (The Brutal Truth)",
-  "subtitle": "The real reason nobody wants to date you",
-  "description": "Time for some brutal honesty about your dating life. This test will reveal exactly why you're still swiping instead of settling down. We're talking about everything - your hygiene, your personality, your dating habits, and those lovely little quirks that send potential partners running. Fair warning: this might sting worse than your last breakup.",
-  "medical_disclaimer": "This test is for entertainment and brutal self-reflection only. Results contain adult language and harsh dating truths. If you can't handle honest feedback about why you're perpetually single, maybe stick to horoscopes. For actual relationship advice, talk to a therapist, not a snarky quiz.",
-  "background_music": "assets/audio/brutaltest2.mp3",
-  "click_sound": "assets/audio/click.mp3",
-  "background_image": "assets/images/brutaltest2.png",
+  "testId": "single-test",
+  "title": "Why Are You Still Single?",
+  "description": "The real reason nobody wants to date you",
+  "traits": {
+    "hygiene_disaster": "Basic cleanliness is apparently optional",
+    "personality_poison": "Toxic personality with legs", 
+    "commitment_phobic": "Allergic to anything deeper than a puddle",
+    "unrealistic_standards": "Waiting for a fictional character to come to life",
+    "self_saboteur": "Snatching defeat from the jaws of romantic victory",
+    "social_disaster": "Making awkward an art form",
+    "emotional_vampire": "Making everything about your trauma",
+    "boring_basic": "Human beige paint",
+    "toxic_traits": "Walking red flag convention",
+    "desperate_energy": "Scaring people away with your thirst",
+    "attachment_issues": "Trust issues wearing a smile",
+    "actually_fine": "Plot twist: you're actually relationship material"
+  },
   "questions": [
     {
-      "id": "q1",
-      "text": "Be honest: What's your personal hygiene routine actually like on a daily basis?",
+      "question": "Be honest: What's your personal hygiene routine actually like on a daily basis?",
       "answers": [
         {
-          "id": "q1a1",
           "text": "I shower daily, brush twice, floss, moisturize - basically treating my body like the temple it deserves to be",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 1,
-            "commitment_phobic": 1,
-            "unrealistic_standards": 2,
-            "self_saboteur": 0,
-            "social_disaster": 0,
-            "emotional_vampire": 1,
-            "boring_basic": 3,
-            "toxic_traits": 0,
-            "desperate_energy": 1,
-            "attachment_issues": 1,
-            "actually_fine": 5
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 1, "commitment_phobic": 1, "unrealistic_standards": 2, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 1, "boring_basic": 3, "toxic_traits": 0, "desperate_energy": 1, "attachment_issues": 1, "actually_fine": 5}
         },
         {
-          "id": "q1a2",
           "text": "Shower every other day, basic dental care, deodorant most of the time - I'm not gross but I'm not winning any hygiene awards",
-          "weights": {
-            "hygiene_disaster": 2,
-            "personality_poison": 1,
-            "commitment_phobic": 1,
-            "unrealistic_standards": 1,
-            "self_saboteur": 2,
-            "social_disaster": 1,
-            "emotional_vampire": 0,
-            "boring_basic": 2,
-            "toxic_traits": 1,
-            "desperate_energy": 1,
-            "attachment_issues": 1,
-            "actually_fine": 2
-          }
+          "traits": {"hygiene_disaster": 2, "personality_poison": 1, "commitment_phobic": 1, "unrealistic_standards": 1, "self_saboteur": 2, "social_disaster": 1, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 1, "desperate_energy": 1, "attachment_issues": 1, "actually_fine": 2}
         },
         {
-          "id": "q1a3",
           "text": "Dry shampoo is a food group, deodorant is optional, and I brush my teeth when I remember - which isn't daily",
-          "weights": {
-            "hygiene_disaster": 5,
-            "personality_poison": 2,
-            "commitment_phobic": 1,
-            "unrealistic_standards": 0,
-            "self_saboteur": 3,
-            "social_disaster": 3,
-            "emotional_vampire": 1,
-            "boring_basic": 0,
-            "toxic_traits": 2,
-            "desperate_energy": 2,
-            "attachment_issues": 2,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 5, "personality_poison": 2, "commitment_phobic": 1, "unrealistic_standards": 0, "self_saboteur": 3, "social_disaster": 3, "emotional_vampire": 1, "boring_basic": 0, "toxic_traits": 2, "desperate_energy": 2, "attachment_issues": 2, "actually_fine": 0}
         },
         {
-          "id": "q1a4",
           "text": "I'm clean when it matters (dates, work) but let myself go during my hermit phases - which happen frequently",
-          "weights": {
-            "hygiene_disaster": 3,
-            "personality_poison": 2,
-            "commitment_phobic": 2,
-            "unrealistic_standards": 1,
-            "self_saboteur": 4,
-            "social_disaster": 2,
-            "emotional_vampire": 2,
-            "boring_basic": 1,
-            "toxic_traits": 2,
-            "desperate_energy": 1,
-            "attachment_issues": 3,
-            "actually_fine": 1
-          }
+          "traits": {"hygiene_disaster": 3, "personality_poison": 2, "commitment_phobic": 2, "unrealistic_standards": 1, "self_saboteur": 4, "social_disaster": 2, "emotional_vampire": 2, "boring_basic": 1, "toxic_traits": 2, "desperate_energy": 1, "attachment_issues": 3, "actually_fine": 1}
         },
         {
-          "id": "q1a5",
           "text": "I'm obsessively clean to the point where I judge people who aren't at my level of pristine perfection",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 4,
-            "commitment_phobic": 2,
-            "unrealistic_standards": 5,
-            "self_saboteur": 2,
-            "social_disaster": 3,
-            "emotional_vampire": 2,
-            "boring_basic": 2,
-            "toxic_traits": 4,
-            "desperate_energy": 1,
-            "attachment_issues": 2,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 4, "commitment_phobic": 2, "unrealistic_standards": 5, "self_saboteur": 2, "social_disaster": 3, "emotional_vampire": 2, "boring_basic": 2, "toxic_traits": 4, "desperate_energy": 1, "attachment_issues": 2, "actually_fine": 0}
         }
       ]
     },
     {
-      "id": "q2",
-      "text": "How do you typically behave on first dates?",
+      "question": "How do you typically behave on first dates?",
       "answers": [
         {
-          "id": "q2a1",
           "text": "I interrogate them about their five-year plan, salary, and whether they want kids before we order appetizers",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 3,
-            "commitment_phobic": 0,
-            "unrealistic_standards": 4,
-            "self_saboteur": 2,
-            "social_disaster": 4,
-            "emotional_vampire": 2,
-            "boring_basic": 1,
-            "toxic_traits": 3,
-            "desperate_energy": 5,
-            "attachment_issues": 3,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 3, "commitment_phobic": 0, "unrealistic_standards": 4, "self_saboteur": 2, "social_disaster": 4, "emotional_vampire": 2, "boring_basic": 1, "toxic_traits": 3, "desperate_energy": 5, "attachment_issues": 3, "actually_fine": 0}
         },
         {
-          "id": "q2a2",
           "text": "I'm charming and fun but already planning our wedding and naming our future children in my head",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 1,
-            "commitment_phobic": 0,
-            "unrealistic_standards": 2,
-            "self_saboteur": 2,
-            "social_disaster": 1,
-            "emotional_vampire": 2,
-            "boring_basic": 1,
-            "toxic_traits": 1,
-            "desperate_energy": 5,
-            "attachment_issues": 4,
-            "actually_fine": 1
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 1, "commitment_phobic": 0, "unrealistic_standards": 2, "self_saboteur": 2, "social_disaster": 1, "emotional_vampire": 2, "boring_basic": 1, "toxic_traits": 1, "desperate_energy": 5, "attachment_issues": 4, "actually_fine": 1}
         },
         {
-          "id": "q2a3",
           "text": "I spend the entire time talking about my ex, my trauma, or why dating apps are ruining romance",
-          "weights": {
-            "hygiene_disaster": 1,
-            "personality_poison": 4,
-            "commitment_phobic": 3,
-            "unrealistic_standards": 2,
-            "self_saboteur": 4,
-            "social_disaster": 5,
-            "emotional_vampire": 5,
-            "boring_basic": 1,
-            "toxic_traits": 4,
-            "desperate_energy": 2,
-            "attachment_issues": 4,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 1, "personality_poison": 4, "commitment_phobic": 3, "unrealistic_standards": 2, "self_saboteur": 4, "social_disaster": 5, "emotional_vampire": 5, "boring_basic": 1, "toxic_traits": 4, "desperate_energy": 2, "attachment_issues": 4, "actually_fine": 0}
         },
         {
-          "id": "q2a4",
           "text": "I'm polite but distant, keeping them at arm's length because vulnerability is basically death",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 3,
-            "commitment_phobic": 5,
-            "unrealistic_standards": 2,
-            "self_saboteur": 3,
-            "social_disaster": 2,
-            "emotional_vampire": 1,
-            "boring_basic": 3,
-            "toxic_traits": 2,
-            "desperate_energy": 0,
-            "attachment_issues": 5,
-            "actually_fine": 1
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 3, "commitment_phobic": 5, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 2, "emotional_vampire": 1, "boring_basic": 3, "toxic_traits": 2, "desperate_energy": 0, "attachment_issues": 5, "actually_fine": 1}
         },
         {
-          "id": "q2a5",
           "text": "I'm genuinely interested in getting to know them while being my authentic self - revolutionary concept, I know",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 0,
-            "commitment_phobic": 0,
-            "unrealistic_standards": 1,
-            "self_saboteur": 0,
-            "social_disaster": 0,
-            "emotional_vampire": 0,
-            "boring_basic": 2,
-            "toxic_traits": 0,
-            "desperate_energy": 1,
-            "attachment_issues": 0,
-            "actually_fine": 5
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 1, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 1, "attachment_issues": 0, "actually_fine": 5}
         }
       ]
     },
     {
-      "id": "q3",
-      "text": "What's your honest approach to texting potential romantic interests?",
+      "question": "What's your honest approach to texting potential romantic interests?",
       "answers": [
         {
-          "id": "q3a1",
           "text": "I analyze response times, screenshot conversations to friends, and create conspiracy theories about emoji usage",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 2,
-            "commitment_phobic": 1,
-            "unrealistic_standards": 3,
-            "self_saboteur": 3,
-            "social_disaster": 3,
-            "emotional_vampire": 3,
-            "boring_basic": 1,
-            "toxic_traits": 3,
-            "desperate_energy": 4,
-            "attachment_issues": 5,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 2, "commitment_phobic": 1, "unrealistic_standards": 3, "self_saboteur": 3, "social_disaster": 3, "emotional_vampire": 3, "boring_basic": 1, "toxic_traits": 3, "desperate_energy": 4, "attachment_issues": 5, "actually_fine": 0}
         },
         {
-          "id": "q3a2",
           "text": "I send novels because I have SO much to say, then get offended when they respond with 'lol' or 'yeah'",
-          "weights": {
-            "hygiene_disaster": 1,
-            "personality_poison": 3,
-            "commitment_phobic": 0,
-            "unrealistic_standards": 2,
-            "self_saboteur": 2,
-            "social_disaster": 4,
-            "emotional_vampire": 4,
-            "boring_basic": 1,
-            "toxic_traits": 3,
-            "desperate_energy": 4,
-            "attachment_issues": 3,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 1, "personality_poison": 3, "commitment_phobic": 0, "unrealistic_standards": 2, "self_saboteur": 2, "social_disaster": 4, "emotional_vampire": 4, "boring_basic": 1, "toxic_traits": 3, "desperate_energy": 4, "attachment_issues": 3, "actually_fine": 0}
         },
         {
-          "id": "q3a3",
           "text": "I ghost people mid-conversation because sustained communication feels like emotional labor I didn't sign up for",
-          "weights": {
-            "hygiene_disaster": 1,
-            "personality_poison": 4,
-            "commitment_phobic": 5,
-            "unrealistic_standards": 1,
-            "self_saboteur": 4,
-            "social_disaster": 3,
-            "emotional_vampire": 2,
-            "boring_basic": 2,
-            "toxic_traits": 5,
-            "desperate_energy": 1,
-            "attachment_issues": 4,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 1, "personality_poison": 4, "commitment_phobic": 5, "unrealistic_standards": 1, "self_saboteur": 4, "social_disaster": 3, "emotional_vampire": 2, "boring_basic": 2, "toxic_traits": 5, "desperate_energy": 1, "attachment_issues": 4, "actually_fine": 0}
         },
         {
-          "id": "q3a4",
           "text": "I wait exactly 3 hours to respond to everything because I read some dating guru's bullshit about 'maintaining mystery'",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 3,
-            "commitment_phobic": 3,
-            "unrealistic_standards": 3,
-            "self_saboteur": 4,
-            "social_disaster": 2,
-            "emotional_vampire": 1,
-            "boring_basic": 4,
-            "toxic_traits": 4,
-            "desperate_energy": 2,
-            "attachment_issues": 2,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 3, "commitment_phobic": 3, "unrealistic_standards": 3, "self_saboteur": 4, "social_disaster": 2, "emotional_vampire": 1, "boring_basic": 4, "toxic_traits": 4, "desperate_energy": 2, "attachment_issues": 2, "actually_fine": 0}
         },
         {
-          "id": "q3a5",
           "text": "I respond when I see it if I have something to say, like a normal human being with basic communication skills",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 0,
-            "commitment_phobic": 0,
-            "unrealistic_standards": 0,
-            "self_saboteur": 0,
-            "social_disaster": 0,
-            "emotional_vampire": 0,
-            "boring_basic": 1,
-            "toxic_traits": 0,
-            "desperate_energy": 0,
-            "attachment_issues": 0,
-            "actually_fine": 5
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 0, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 1, "toxic_traits": 0, "desperate_energy": 0, "attachment_issues": 0, "actually_fine": 5}
         }
       ]
     },
     {
-      "id": "q4",
-      "text": "How do you handle it when someone you're dating mentions their ex?",
+      "question": "How do you handle it when someone you're dating mentions their ex?",
       "answers": [
         {
-          "id": "q4a1",
           "text": "I immediately start a competition to prove I'm better than their ex in every conceivable way",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 3,
-            "commitment_phobic": 1,
-            "unrealistic_standards": 2,
-            "self_saboteur": 3,
-            "social_disaster": 3,
-            "emotional_vampire": 2,
-            "boring_basic": 1,
-            "toxic_traits": 4,
-            "desperate_energy": 4,
-            "attachment_issues": 4,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 3, "commitment_phobic": 1, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 3, "emotional_vampire": 2, "boring_basic": 1, "toxic_traits": 4, "desperate_energy": 4, "attachment_issues": 4, "actually_fine": 0}
         },
         {
-          "id": "q4a2",
           "text": "I interrogate them about every detail of that relationship while pretending I'm 'just curious'",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 4,
-            "commitment_phobic": 2,
-            "unrealistic_standards": 3,
-            "self_saboteur": 3,
-            "social_disaster": 4,
-            "emotional_vampire": 3,
-            "boring_basic": 1,
-            "toxic_traits": 5,
-            "desperate_energy": 3,
-            "attachment_issues": 5,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 4, "commitment_phobic": 2, "unrealistic_standards": 3, "self_saboteur": 3, "social_disaster": 4, "emotional_vampire": 3, "boring_basic": 1, "toxic_traits": 5, "desperate_energy": 3, "attachment_issues": 5, "actually_fine": 0}
         },
         {
-          "id": "q4a3",
           "text": "I shut down completely because clearly they're not over their ex and this is doomed",
-          "weights": {
-            "hygiene_disaster": 1,
-            "personality_poison": 2,
-            "commitment_phobic": 4,
-            "unrealistic_standards": 3,
-            "self_saboteur": 4,
-            "social_disaster": 2,
-            "emotional_vampire": 1,
-            "boring_basic": 2,
-            "toxic_traits": 2,
-            "desperate_energy": 1,
-            "attachment_issues": 5,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 4, "unrealistic_standards": 3, "self_saboteur": 4, "social_disaster": 2, "emotional_vampire": 1, "boring_basic": 2, "toxic_traits": 2, "desperate_energy": 1, "attachment_issues": 5, "actually_fine": 0}
         },
         {
-          "id": "q4a4",
           "text": "I immediately bring up MY ex to show them how much more dramatic and interesting my past relationships were",
-          "weights": {
-            "hygiene_disaster": 1,
-            "personality_poison": 4,
-            "commitment_phobic": 2,
-            "unrealistic_standards": 2,
-            "self_saboteur": 3,
-            "social_disaster": 4,
-            "emotional_vampire": 4,
-            "boring_basic": 1,
-            "toxic_traits": 4,
-            "desperate_energy": 3,
-            "attachment_issues": 3,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 1, "personality_poison": 4, "commitment_phobic": 2, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 4, "emotional_vampire": 4, "boring_basic": 1, "toxic_traits": 4, "desperate_energy": 3, "attachment_issues": 3, "actually_fine": 0}
         },
         {
-          "id": "q4a5",
           "text": "I listen like a mature adult because everyone has a past and it's healthy to acknowledge it",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 0,
-            "commitment_phobic": 0,
-            "unrealistic_standards": 0,
-            "self_saboteur": 0,
-            "social_disaster": 0,
-            "emotional_vampire": 0,
-            "boring_basic": 2,
-            "toxic_traits": 0,
-            "desperate_energy": 0,
-            "attachment_issues": 0,
-            "actually_fine": 5
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 0, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 0, "attachment_issues": 0, "actually_fine": 5}
         }
       ]
     },
     {
-      "id": "q5",
-      "text": "What's your living situation like right now?",
+      "question": "What's your living situation like right now?",
       "answers": [
         {
-          "id": "q5a1",
           "text": "My place is a disaster zone - dirty dishes, questionable smells, and I haven't changed my sheets in... let's not discuss that",
-          "weights": {
-            "hygiene_disaster": 5,
-            "personality_poison": 2,
-            "commitment_phobic": 1,
-            "unrealistic_standards": 0,
-            "self_saboteur": 4,
-            "social_disaster": 3,
-            "emotional_vampire": 1,
-            "boring_basic": 1,
-            "toxic_traits": 2,
-            "desperate_energy": 1,
-            "attachment_issues": 2,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 5, "personality_poison": 2, "commitment_phobic": 1, "unrealistic_standards": 0, "self_saboteur": 4, "social_disaster": 3, "emotional_vampire": 1, "boring_basic": 1, "toxic_traits": 2, "desperate_energy": 1, "attachment_issues": 2, "actually_fine": 0}
         },
         {
-          "id": "q5a2",
           "text": "I live with my parents and have zero shame about bringing dates home to my childhood bedroom with the race car bed",
-          "weights": {
-            "hygiene_disaster": 1,
-            "personality_poison": 2,
-            "commitment_phobic": 2,
-            "unrealistic_standards": 1,
-            "self_saboteur": 3,
-            "social_disaster": 4,
-            "emotional_vampire": 1,
-            "boring_basic": 2,
-            "toxic_traits": 2,
-            "desperate_energy": 2,
-            "attachment_issues": 3,
-            "actually_fine": 2
-          }
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 2, "unrealistic_standards": 1, "self_saboteur": 3, "social_disaster": 4, "emotional_vampire": 1, "boring_basic": 2, "toxic_traits": 2, "desperate_energy": 2, "attachment_issues": 3, "actually_fine": 2}
         },
         {
-          "id": "q5a3",
           "text": "My place is Pinterest-perfect but I have a nervous breakdown if someone moves a throw pillow two inches",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 4,
-            "commitment_phobic": 2,
-            "unrealistic_standards": 5,
-            "self_saboteur": 2,
-            "social_disaster": 3,
-            "emotional_vampire": 2,
-            "boring_basic": 3,
-            "toxic_traits": 4,
-            "desperate_energy": 2,
-            "attachment_issues": 2,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 4, "commitment_phobic": 2, "unrealistic_standards": 5, "self_saboteur": 2, "social_disaster": 3, "emotional_vampire": 2, "boring_basic": 3, "toxic_traits": 4, "desperate_energy": 2, "attachment_issues": 2, "actually_fine": 0}
         },
         {
-          "id": "q5a4",
           "text": "I have roommates who are constantly around, making privacy impossible and every date feel like a group interview",
-          "weights": {
-            "hygiene_disaster": 1,
-            "personality_poison": 1,
-            "commitment_phobic": 2,
-            "unrealistic_standards": 1,
-            "self_saboteur": 2,
-            "social_disaster": 3,
-            "emotional_vampire": 1,
-            "boring_basic": 2,
-            "toxic_traits": 1,
-            "desperate_energy": 1,
-            "attachment_issues": 2,
-            "actually_fine": 2
-          }
+          "traits": {"hygiene_disaster": 1, "personality_poison": 1, "commitment_phobic": 2, "unrealistic_standards": 1, "self_saboteur": 2, "social_disaster": 3, "emotional_vampire": 1, "boring_basic": 2, "toxic_traits": 1, "desperate_energy": 1, "attachment_issues": 2, "actually_fine": 2}
         },
         {
-          "id": "q5a5",
           "text": "I have my own clean, comfortable space that I'm genuinely happy to share with someone special",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 0,
-            "commitment_phobic": 0,
-            "unrealistic_standards": 1,
-            "self_saboteur": 0,
-            "social_disaster": 0,
-            "emotional_vampire": 0,
-            "boring_basic": 2,
-            "toxic_traits": 0,
-            "desperate_energy": 0,
-            "attachment_issues": 0,
-            "actually_fine": 5
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 1, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 0, "attachment_issues": 0, "actually_fine": 5}
         }
       ]
     },
     {
-      "id": "q6",
-      "text": "How do you typically end relationships or dating situations?",
+      "question": "How do you typically end relationships or dating situations?",
       "answers": [
         {
-          "id": "q6a1",
-          "text": "I ghost like I'm in a fucking witness protection program - just disappear and hope they forget I existed",
-          "weights": {
-            "hygiene_disaster": 1,
-            "personality_poison": 3,
-            "commitment_phobic": 5,
-            "unrealistic_standards": 1,
-            "self_saboteur": 4,
-            "social_disaster": 4,
-            "emotional_vampire": 2,
-            "boring_basic": 2,
-            "toxic_traits": 5,
-            "desperate_energy": 1,
-            "attachment_issues": 4,
-            "actually_fine": 0
-          }
+          "text": "I ghost like I'm in witness protection - just disappear and hope they forget I existed",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 3, "commitment_phobic": 5, "unrealistic_standards": 1, "self_saboteur": 4, "social_disaster": 4, "emotional_vampire": 2, "boring_basic": 2, "toxic_traits": 5, "desperate_energy": 1, "attachment_issues": 4, "actually_fine": 0}
         },
         {
-          "id": "q6a2",
           "text": "I create drama and pick fights until they break up with me so I don't have to be the bad guy",
-          "weights": {
-            "hygiene_disaster": 1,
-            "personality_poison": 4,
-            "commitment_phobic": 4,
-            "unrealistic_standards": 2,
-            "self_saboteur": 5,
-            "social_disaster": 3,
-            "emotional_vampire": 3,
-            "boring_basic": 1,
-            "toxic_traits": 5,
-            "desperate_energy": 2,
-            "attachment_issues": 4,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 1, "personality_poison": 4, "commitment_phobic": 4, "unrealistic_standards": 2, "self_saboteur": 5, "social_disaster": 3, "emotional_vampire": 3, "boring_basic": 1, "toxic_traits": 5, "desperate_energy": 2, "attachment_issues": 4, "actually_fine": 0}
         },
         {
-          "id": "q6a3",
           "text": "I cling desperately and beg them to give us another chance even when we're clearly incompatible",
-          "weights": {
-            "hygiene_disaster": 1,
-            "personality_poison": 2,
-            "commitment_phobic": 0,
-            "unrealistic_standards": 2,
-            "self_saboteur": 3,
-            "social_disaster": 4,
-            "emotional_vampire": 4,
-            "boring_basic": 1,
-            "toxic_traits": 3,
-            "desperate_energy": 5,
-            "attachment_issues": 5,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 0, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 4, "emotional_vampire": 4, "boring_basic": 1, "toxic_traits": 3, "desperate_energy": 5, "attachment_issues": 5, "actually_fine": 0}
         },
         {
-          "id": "q6a4",
           "text": "I deliver a brutal, honest assessment of all their flaws and why they'll never find love",
-          "weights": {
-            "hygiene_disaster": 1,
-            "personality_poison": 5,
-            "commitment_phobic": 2,
-            "unrealistic_standards": 3,
-            "self_saboteur": 3,
-            "social_disaster": 4,
-            "emotional_vampire": 3,
-            "boring_basic": 1,
-            "toxic_traits": 5,
-            "desperate_energy": 2,
-            "attachment_issues": 3,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 1, "personality_poison": 5, "commitment_phobic": 2, "unrealistic_standards": 3, "self_saboteur": 3, "social_disaster": 4, "emotional_vampire": 3, "boring_basic": 1, "toxic_traits": 5, "desperate_energy": 2, "attachment_issues": 3, "actually_fine": 0}
         },
         {
-          "id": "q6a5",
           "text": "I have an honest, respectful conversation about why it's not working and wish them well",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 0,
-            "commitment_phobic": 0,
-            "unrealistic_standards": 0,
-            "self_saboteur": 0,
-            "social_disaster": 0,
-            "emotional_vampire": 0,
-            "boring_basic": 2,
-            "toxic_traits": 0,
-            "desperate_energy": 0,
-            "attachment_issues": 0,
-            "actually_fine": 5
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 0, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 0, "attachment_issues": 0, "actually_fine": 5}
         }
       ]
     },
     {
-      "id": "q7",
-      "text": "What are your deal-breakers when it comes to potential partners?",
+      "question": "What are your deal-breakers when it comes to potential partners?",
       "answers": [
         {
-          "id": "q7a1",
           "text": "They must be 6'2\", make six figures, have perfect teeth, and worship me like the goddess I clearly am",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 3,
-            "commitment_phobic": 1,
-            "unrealistic_standards": 5,
-            "self_saboteur": 3,
-            "social_disaster": 2,
-            "emotional_vampire": 2,
-            "boring_basic": 1,
-            "toxic_traits": 3,
-            "desperate_energy": 2,
-            "attachment_issues": 1,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 3, "commitment_phobic": 1, "unrealistic_standards": 5, "self_saboteur": 3, "social_disaster": 2, "emotional_vampire": 2, "boring_basic": 1, "toxic_traits": 3, "desperate_energy": 2, "attachment_issues": 1, "actually_fine": 0}
         },
         {
-          "id": "q7a2",
           "text": "If they've dated anyone I consider more attractive than me, they're clearly settling and I can't handle that",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 3,
-            "commitment_phobic": 2,
-            "unrealistic_standards": 4,
-            "self_saboteur": 4,
-            "social_disaster": 2,
-            "emotional_vampire": 2,
-            "boring_basic": 1,
-            "toxic_traits": 3,
-            "desperate_energy": 3,
-            "attachment_issues": 4,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 3, "commitment_phobic": 2, "unrealistic_standards": 4, "self_saboteur": 4, "social_disaster": 2, "emotional_vampire": 2, "boring_basic": 1, "toxic_traits": 3, "desperate_energy": 3, "attachment_issues": 4, "actually_fine": 0}
         },
         {
-          "id": "q7a3",
           "text": "I can't date anyone who's too emotionally available because that feels fake and suspicious",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 2,
-            "commitment_phobic": 5,
-            "unrealistic_standards": 3,
-            "self_saboteur": 4,
-            "social_disaster": 2,
-            "emotional_vampire": 1,
-            "boring_basic": 2,
-            "toxic_traits": 3,
-            "desperate_energy": 1,
-            "attachment_issues": 5,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 2, "commitment_phobic": 5, "unrealistic_standards": 3, "self_saboteur": 4, "social_disaster": 2, "emotional_vampire": 1, "boring_basic": 2, "toxic_traits": 3, "desperate_energy": 1, "attachment_issues": 5, "actually_fine": 0}
         },
         {
-          "id": "q7a4",
           "text": "They need to have zero flaws and match this impossible fantasy I've created in my head",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 2,
-            "commitment_phobic": 2,
-            "unrealistic_standards": 5,
-            "self_saboteur": 3,
-            "social_disaster": 1,
-            "emotional_vampire": 1,
-            "boring_basic": 2,
-            "toxic_traits": 2,
-            "desperate_energy": 2,
-            "attachment_issues": 2,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 2, "commitment_phobic": 2, "unrealistic_standards": 5, "self_saboteur": 3, "social_disaster": 1, "emotional_vampire": 1, "boring_basic": 2, "toxic_traits": 2, "desperate_energy": 2, "attachment_issues": 2, "actually_fine": 0}
         },
         {
-          "id": "q7a5",
           "text": "Basic respect, genuine kindness, shared values, and good hygiene - revolutionary standards, I know",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 0,
-            "commitment_phobic": 0,
-            "unrealistic_standards": 1,
-            "self_saboteur": 0,
-            "social_disaster": 0,
-            "emotional_vampire": 0,
-            "boring_basic": 2,
-            "toxic_traits": 0,
-            "desperate_energy": 0,
-            "attachment_issues": 0,
-            "actually_fine": 5
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 1, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 0, "attachment_issues": 0, "actually_fine": 5}
         }
       ]
     },
     {
-      "id": "q8",
-      "text": "How do you typically present yourself on dating apps?",
+      "question": "How do you typically present yourself on dating apps?",
       "answers": [
         {
-          "id": "q8a1",
           "text": "Photos from 2019 with strategic angles, and a bio full of lies about my hobbies and accomplishments",
-          "weights": {
-            "hygiene_disaster": 2,
-            "personality_poison": 3,
-            "commitment_phobic": 2,
-            "unrealistic_standards": 2,
-            "self_saboteur": 4,
-            "social_disaster": 3,
-            "emotional_vampire": 2,
-            "boring_basic": 2,
-            "toxic_traits": 4,
-            "desperate_energy": 3,
-            "attachment_issues": 2,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 2, "personality_poison": 3, "commitment_phobic": 2, "unrealistic_standards": 2, "self_saboteur": 4, "social_disaster": 3, "emotional_vampire": 2, "boring_basic": 2, "toxic_traits": 4, "desperate_energy": 3, "attachment_issues": 2, "actually_fine": 0}
         },
         {
-          "id": "q8a2",
           "text": "Only group photos where I'm barely visible, and a bio that's just a list of what I DON'T want",
-          "weights": {
-            "hygiene_disaster": 1,
-            "personality_poison": 4,
-            "commitment_phobic": 3,
-            "unrealistic_standards": 4,
-            "self_saboteur": 3,
-            "social_disaster": 4,
-            "emotional_vampire": 2,
-            "boring_basic": 3,
-            "toxic_traits": 4,
-            "desperate_energy": 2,
-            "attachment_issues": 3,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 1, "personality_poison": 4, "commitment_phobic": 3, "unrealistic_standards": 4, "self_saboteur": 3, "social_disaster": 4, "emotional_vampire": 2, "boring_basic": 3, "toxic_traits": 4, "desperate_energy": 2, "attachment_issues": 3, "actually_fine": 0}
         },
         {
-          "id": "q8a3",
           "text": "Every photo is me at my absolute peak with professional lighting, and my bio reads like a job application",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 2,
-            "commitment_phobic": 1,
-            "unrealistic_standards": 3,
-            "self_saboteur": 2,
-            "social_disaster": 2,
-            "emotional_vampire": 1,
-            "boring_basic": 5,
-            "toxic_traits": 2,
-            "desperate_energy": 3,
-            "attachment_issues": 1,
-            "actually_fine": 1
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 2, "commitment_phobic": 1, "unrealistic_standards": 3, "self_saboteur": 2, "social_disaster": 2, "emotional_vampire": 1, "boring_basic": 5, "toxic_traits": 2, "desperate_energy": 3, "attachment_issues": 1, "actually_fine": 1}
         },
         {
-          "id": "q8a4",
           "text": "Shirtless gym selfies only, because my personality is basically just my abs and my crypto portfolio",
-          "weights": {
-            "hygiene_disaster": 1,
-            "personality_poison": 4,
-            "commitment_phobic": 3,
-            "unrealistic_standards": 2,
-            "self_saboteur": 2,
-            "social_disaster": 3,
-            "emotional_vampire": 2,
-            "boring_basic": 4,
-            "toxic_traits": 3,
-            "desperate_energy": 3,
-            "attachment_issues": 1,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 1, "personality_poison": 4, "commitment_phobic": 3, "unrealistic_standards": 2, "self_saboteur": 2, "social_disaster": 3, "emotional_vampire": 2, "boring_basic": 4, "toxic_traits": 3, "desperate_energy": 3, "attachment_issues": 1, "actually_fine": 0}
         },
         {
-          "id": "q8a5",
           "text": "Recent photos that actually look like me, and a bio that gives a genuine sense of who I am",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 0,
-            "commitment_phobic": 0,
-            "unrealistic_standards": 0,
-            "self_saboteur": 0,
-            "social_disaster": 0,
-            "emotional_vampire": 0,
-            "boring_basic": 1,
-            "toxic_traits": 0,
-            "desperate_energy": 0,
-            "attachment_issues": 0,
-            "actually_fine": 5
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 0, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 1, "toxic_traits": 0, "desperate_energy": 0, "attachment_issues": 0, "actually_fine": 5}
         }
       ]
     },
     {
-      "id": "q9",
-      "text": "What's your honest financial situation when it comes to dating?",
+      "question": "What's your honest financial situation when it comes to dating?",
       "answers": [
         {
-          "id": "q9a1",
           "text": "I expect them to pay for everything because I'm a catch and my presence is payment enough",
-          "weights": {
-            "hygiene_disaster": 1,
-            "personality_poison": 5,
-            "commitment_phobic": 2,
-            "unrealistic_standards": 4,
-            "self_saboteur": 2,
-            "social_disaster": 3,
-            "emotional_vampire": 4,
-            "boring_basic": 1,
-            "toxic_traits": 5,
-            "desperate_energy": 3,
-            "attachment_issues": 1,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 1, "personality_poison": 5, "commitment_phobic": 2, "unrealistic_standards": 4, "self_saboteur": 2, "social_disaster": 3, "emotional_vampire": 4, "boring_basic": 1, "toxic_traits": 5, "desperate_energy": 3, "attachment_issues": 1, "actually_fine": 0}
         },
         {
-          "id": "q9a2",
           "text": "I'm broke but pretend I'm not, then stress about money through every expensive date I can't afford",
-          "weights": {
-            "hygiene_disaster": 1,
-            "personality_poison": 2,
-            "commitment_phobic": 2,
-            "unrealistic_standards": 2,
-            "self_saboteur": 5,
-            "social_disaster": 3,
-            "emotional_vampire": 2,
-            "boring_basic": 1,
-            "toxic_traits": 3,
-            "desperate_energy": 4,
-            "attachment_issues": 3,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 2, "unrealistic_standards": 2, "self_saboteur": 5, "social_disaster": 3, "emotional_vampire": 2, "boring_basic": 1, "toxic_traits": 3, "desperate_energy": 4, "attachment_issues": 3, "actually_fine": 0}
         },
         {
-          "id": "q9a3",
           "text": "I only date people significantly wealthier than me because I have expensive taste and zero shame",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 4,
-            "commitment_phobic": 2,
-            "unrealistic_standards": 5,
-            "self_saboteur": 2,
-            "social_disaster": 2,
-            "emotional_vampire": 3,
-            "boring_basic": 1,
-            "toxic_traits": 4,
-            "desperate_energy": 3,
-            "attachment_issues": 1,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 4, "commitment_phobic": 2, "unrealistic_standards": 5, "self_saboteur": 2, "social_disaster": 2, "emotional_vampire": 3, "boring_basic": 1, "toxic_traits": 4, "desperate_energy": 3, "attachment_issues": 1, "actually_fine": 0}
         },
         {
-          "id": "q9a4",
           "text": "I judge people harshly for not making as much money as me because financial success equals personal worth, obviously",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 5,
-            "commitment_phobic": 2,
-            "unrealistic_standards": 5,
-            "self_saboteur": 2,
-            "social_disaster": 3,
-            "emotional_vampire": 2,
-            "boring_basic": 2,
-            "toxic_traits": 5,
-            "desperate_energy": 1,
-            "attachment_issues": 1,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 5, "commitment_phobic": 2, "unrealistic_standards": 5, "self_saboteur": 2, "social_disaster": 3, "emotional_vampire": 2, "boring_basic": 2, "toxic_traits": 5, "desperate_energy": 1, "attachment_issues": 1, "actually_fine": 0}
         },
         {
-          "id": "q9a5",
           "text": "I'm financially responsible and happy to split costs or alternate paying like a reasonable adult",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 0,
-            "commitment_phobic": 0,
-            "unrealistic_standards": 0,
-            "self_saboteur": 0,
-            "social_disaster": 0,
-            "emotional_vampire": 0,
-            "boring_basic": 2,
-            "toxic_traits": 0,
-            "desperate_energy": 0,
-            "attachment_issues": 0,
-            "actually_fine": 5
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 0, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 0, "attachment_issues": 0, "actually_fine": 5}
         }
       ]
     },
     {
-      "id": "q10",
-      "text": "How do you handle physical intimacy and boundaries?",
+      "question": "How do you handle physical intimacy and boundaries?",
       "answers": [
         {
-          "id": "q10a1",
           "text": "I either jump into bed immediately or act like physical touch will give me an allergic reaction",
-          "weights": {
-            "hygiene_disaster": 2,
-            "personality_poison": 2,
-            "commitment_phobic": 4,
-            "unrealistic_standards": 2,
-            "self_saboteur": 4,
-            "social_disaster": 3,
-            "emotional_vampire": 2,
-            "boring_basic": 1,
-            "toxic_traits": 3,
-            "desperate_energy": 3,
-            "attachment_issues": 5,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 2, "personality_poison": 2, "commitment_phobic": 4, "unrealistic_standards": 2, "self_saboteur": 4, "social_disaster": 3, "emotional_vampire": 2, "boring_basic": 1, "toxic_traits": 3, "desperate_energy": 3, "attachment_issues": 5, "actually_fine": 0}
         },
         {
-          "id": "q10a2",
           "text": "I use sex as a weapon - withholding it when I'm mad or using it to manipulate situations",
-          "weights": {
-            "hygiene_disaster": 1,
-            "personality_poison": 5,
-            "commitment_phobic": 3,
-            "unrealistic_standards": 2,
-            "self_saboteur": 3,
-            "social_disaster": 3,
-            "emotional_vampire": 4,
-            "boring_basic": 1,
-            "toxic_traits": 5,
-            "desperate_energy": 2,
-            "attachment_issues": 3,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 1, "personality_poison": 5, "commitment_phobic": 3, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 3, "emotional_vampire": 4, "boring_basic": 1, "toxic_traits": 5, "desperate_energy": 2, "attachment_issues": 3, "actually_fine": 0}
         },
         {
-          "id": "q10a3",
           "text": "I'm so insecure about my body that intimacy becomes a performance anxiety nightmare for everyone involved",
-          "weights": {
-            "hygiene_disaster": 3,
-            "personality_poison": 2,
-            "commitment_phobic": 2,
-            "unrealistic_standards": 2,
-            "self_saboteur": 4,
-            "social_disaster": 3,
-            "emotional_vampire": 3,
-            "boring_basic": 1,
-            "toxic_traits": 2,
-            "desperate_energy": 2,
-            "attachment_issues": 4,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 3, "personality_poison": 2, "commitment_phobic": 2, "unrealistic_standards": 2, "self_saboteur": 4, "social_disaster": 3, "emotional_vampire": 3, "boring_basic": 1, "toxic_traits": 2, "desperate_energy": 2, "attachment_issues": 4, "actually_fine": 0}
         },
         {
-          "id": "q10a4",
           "text": "I expect them to be a mind reader about what I want and get angry when they're not psychic",
-          "weights": {
-            "hygiene_disaster": 1,
-            "personality_poison": 4,
-            "commitment_phobic": 2,
-            "unrealistic_standards": 4,
-            "self_saboteur": 3,
-            "social_disaster": 4,
-            "emotional_vampire": 3,
-            "boring_basic": 2,
-            "toxic_traits": 4,
-            "desperate_energy": 2,
-            "attachment_issues": 3,
-            "actually_fine": 0
-          }
+          "traits": {"hygiene_disaster": 1, "personality_poison": 4, "commitment_phobic": 2, "unrealistic_standards": 4, "self_saboteur": 3, "social_disaster": 4, "emotional_vampire": 3, "boring_basic": 2, "toxic_traits": 4, "desperate_energy": 2, "attachment_issues": 3, "actually_fine": 0}
         },
         {
-          "id": "q10a5",
           "text": "I communicate openly about what I want and respect their boundaries while expressing my own",
-          "weights": {
-            "hygiene_disaster": 0,
-            "personality_poison": 0,
-            "commitment_phobic": 0,
-            "unrealistic_standards": 0,
-            "self_saboteur": 0,
-            "social_disaster": 0,
-            "emotional_vampire": 0,
-            "boring_basic": 2,
-            "toxic_traits": 0,
-            "desperate_energy": 0,
-            "attachment_issues": 0,
-            "actually_fine": 5
-          }
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 0, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 0, "attachment_issues": 0, "actually_fine": 5}
+        }
+      ]
+    },
+    {
+      "question": "What's your relationship history like?",
+      "answers": [
+        {
+          "text": "A graveyard of relationships I killed with my neediness, jealousy, and constant drama creation",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 3, "commitment_phobic": 1, "unrealistic_standards": 2, "self_saboteur": 4, "social_disaster": 3, "emotional_vampire": 4, "boring_basic": 1, "toxic_traits": 4, "desperate_energy": 5, "attachment_issues": 4, "actually_fine": 0}
+        },
+        {
+          "text": "I've never been in a serious relationship because nobody meets my impossibly high standards",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 2, "commitment_phobic": 3, "unrealistic_standards": 5, "self_saboteur": 3, "social_disaster": 2, "emotional_vampire": 1, "boring_basic": 3, "toxic_traits": 2, "desperate_energy": 1, "attachment_issues": 2, "actually_fine": 0}
+        },
+        {
+          "text": "A string of short-term disasters because I bail the moment things get real or complicated",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 5, "unrealistic_standards": 2, "self_saboteur": 4, "social_disaster": 2, "emotional_vampire": 2, "boring_basic": 2, "toxic_traits": 3, "desperate_energy": 1, "attachment_issues": 4, "actually_fine": 0}
+        },
+        {
+          "text": "One long toxic relationship that I keep comparing everyone to, usually unfavorably",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 3, "commitment_phobic": 2, "unrealistic_standards": 3, "self_saboteur": 3, "social_disaster": 2, "emotional_vampire": 4, "boring_basic": 2, "toxic_traits": 3, "desperate_energy": 2, "attachment_issues": 5, "actually_fine": 0}
+        },
+        {
+          "text": "A few meaningful relationships that ended amicably due to genuine incompatibility or life circumstances",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 1, "unrealistic_standards": 1, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 0, "attachment_issues": 1, "actually_fine": 5}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle jealousy when you're dating someone?",
+      "answers": [
+        {
+          "text": "I stalk their social media like it's my full-time job and interrogate them about every interaction",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 4, "commitment_phobic": 1, "unrealistic_standards": 3, "self_saboteur": 3, "social_disaster": 3, "emotional_vampire": 3, "boring_basic": 1, "toxic_traits": 5, "desperate_energy": 4, "attachment_issues": 5, "actually_fine": 0}
+        },
+        {
+          "text": "I pretend I'm cool with everything while internally combusting and planning their destruction",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 3, "commitment_phobic": 3, "unrealistic_standards": 2, "self_saboteur": 4, "social_disaster": 2, "emotional_vampire": 3, "boring_basic": 2, "toxic_traits": 4, "desperate_energy": 2, "attachment_issues": 4, "actually_fine": 0}
+        },
+        {
+          "text": "I become passive-aggressive and make them pay for making me feel insecure in creative ways",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 4, "commitment_phobic": 2, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 3, "emotional_vampire": 4, "boring_basic": 1, "toxic_traits": 5, "desperate_energy": 3, "attachment_issues": 4, "actually_fine": 0}
+        },
+        {
+          "text": "I shut down emotionally and start looking for the exit because clearly this won't work",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 5, "unrealistic_standards": 2, "self_saboteur": 4, "social_disaster": 2, "emotional_vampire": 2, "boring_basic": 2, "toxic_traits": 2, "desperate_energy": 1, "attachment_issues": 5, "actually_fine": 0}
+        },
+        {
+          "text": "I acknowledge the feeling and communicate about what's making me feel insecure",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 1, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 1, "attachment_issues": 1, "actually_fine": 5}
+        }
+      ]
+    },
+    {
+      "question": "What's your approach to social media when you're dating someone?",
+      "answers": [
+        {
+          "text": "I post couple photos constantly to mark my territory and show everyone I'm not single anymore",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 2, "commitment_phobic": 1, "unrealistic_standards": 2, "self_saboteur": 2, "social_disaster": 3, "emotional_vampire": 2, "boring_basic": 2, "toxic_traits": 3, "desperate_energy": 5, "attachment_issues": 3, "actually_fine": 1}
+        },
+        {
+          "text": "I analyze their likes, follows, and comments with the intensity of a FBI investigation",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 3, "commitment_phobic": 2, "unrealistic_standards": 3, "self_saboteur": 3, "social_disaster": 2, "emotional_vampire": 3, "boring_basic": 1, "toxic_traits": 4, "desperate_energy": 3, "attachment_issues": 5, "actually_fine": 0}
+        },
+        {
+          "text": "I refuse to post about them because that makes it too real and public",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 5, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 2, "emotional_vampire": 1, "boring_basic": 3, "toxic_traits": 2, "desperate_energy": 1, "attachment_issues": 4, "actually_fine": 1}
+        },
+        {
+          "text": "I expect them to post about me constantly and get upset when they don't showcase our relationship enough",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 3, "commitment_phobic": 1, "unrealistic_standards": 4, "self_saboteur": 2, "social_disaster": 2, "emotional_vampire": 3, "boring_basic": 2, "toxic_traits": 3, "desperate_energy": 4, "attachment_issues": 3, "actually_fine": 0}
+        },
+        {
+          "text": "I share what feels natural while respecting their privacy and comfort level with public displays",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 1, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 1, "attachment_issues": 0, "actually_fine": 5}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle meeting their friends and family?",
+      "answers": [
+        {
+          "text": "I'm immediately territorial and jealous of their existing relationships because I need to be the center of attention",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 4, "commitment_phobic": 1, "unrealistic_standards": 3, "self_saboteur": 3, "social_disaster": 3, "emotional_vampire": 4, "boring_basic": 1, "toxic_traits": 4, "desperate_energy": 4, "attachment_issues": 3, "actually_fine": 0}
+        },
+        {
+          "text": "I try so hard to be perfect that I come across as fake and exhausting",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 2, "unrealistic_standards": 3, "self_saboteur": 3, "social_disaster": 4, "emotional_vampire": 2, "boring_basic": 3, "toxic_traits": 2, "desperate_energy": 4, "attachment_issues": 3, "actually_fine": 1}
+        },
+        {
+          "text": "I avoid it as long as possible because meeting people feels like a commitment I'm not ready for",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 5, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 3, "emotional_vampire": 1, "boring_basic": 2, "toxic_traits": 2, "desperate_energy": 1, "attachment_issues": 4, "actually_fine": 0}
+        },
+        {
+          "text": "I judge them harshly because they don't meet my standards for the type of people my partner should associate with",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 4, "commitment_phobic": 2, "unrealistic_standards": 5, "self_saboteur": 2, "social_disaster": 3, "emotional_vampire": 2, "boring_basic": 2, "toxic_traits": 4, "desperate_energy": 2, "attachment_issues": 2, "actually_fine": 0}
+        },
+        {
+          "text": "I'm genuinely interested in meeting the people who matter to them and being welcomed into their world",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 1, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 1, "attachment_issues": 0, "actually_fine": 5}
+        }
+      ]
+    },
+    {
+      "question": "What's your attitude toward compromise in relationships?",
+      "answers": [
+        {
+          "text": "I shouldn't have to compromise because I'm perfect the way I am and they knew what they were getting into",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 5, "commitment_phobic": 3, "unrealistic_standards": 4, "self_saboteur": 3, "social_disaster": 3, "emotional_vampire": 3, "boring_basic": 1, "toxic_traits": 5, "desperate_energy": 2, "attachment_issues": 2, "actually_fine": 0}
+        },
+        {
+          "text": "I'll compromise on everything just to keep them happy, even if it makes me miserable",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 1, "commitment_phobic": 1, "unrealistic_standards": 1, "self_saboteur": 4, "social_disaster": 2, "emotional_vampire": 3, "boring_basic": 2, "toxic_traits": 2, "desperate_energy": 5, "attachment_issues": 4, "actually_fine": 1}
+        },
+        {
+          "text": "Compromise feels like losing, so I fight every battle like it's a war",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 4, "commitment_phobic": 2, "unrealistic_standards": 3, "self_saboteur": 3, "social_disaster": 3, "emotional_vampire": 2, "boring_basic": 1, "toxic_traits": 5, "desperate_energy": 2, "attachment_issues": 3, "actually_fine": 0}
+        },
+        {
+          "text": "I keep score of every compromise and bring up the tally during fights",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 4, "commitment_phobic": 2, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 3, "emotional_vampire": 4, "boring_basic": 1, "toxic_traits": 4, "desperate_energy": 2, "attachment_issues": 3, "actually_fine": 0}
+        },
+        {
+          "text": "I'm willing to find middle ground on things that matter while holding firm on my core values",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 1, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 1, "attachment_issues": 0, "actually_fine": 5}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle arguments and conflict in relationships?",
+      "answers": [
+        {
+          "text": "I turn everything into a screaming match because volume equals passion, right?",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 4, "commitment_phobic": 2, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 4, "emotional_vampire": 3, "boring_basic": 1, "toxic_traits": 5, "desperate_energy": 3, "attachment_issues": 3, "actually_fine": 0}
+        },
+        {
+          "text": "I give them the silent treatment until they apologize for whatever they did to upset me",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 4, "commitment_phobic": 3, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 3, "emotional_vampire": 3, "boring_basic": 2, "toxic_traits": 4, "desperate_energy": 2, "attachment_issues": 4, "actually_fine": 0}
+        },
+        {
+          "text": "I shut down completely and start planning my exit strategy because conflict means it's over",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 5, "unrealistic_standards": 2, "self_saboteur": 4, "social_disaster": 2, "emotional_vampire": 1, "boring_basic": 2, "toxic_traits": 2, "desperate_energy": 1, "attachment_issues": 5, "actually_fine": 0}
+        },
+        {
+          "text": "I weaponize their insecurities and past traumas because winning is more important than their feelings",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 5, "commitment_phobic": 2, "unrealistic_standards": 2, "self_saboteur": 2, "social_disaster": 3, "emotional_vampire": 4, "boring_basic": 1, "toxic_traits": 5, "desperate_energy": 2, "attachment_issues": 3, "actually_fine": 0}
+        },
+        {
+          "text": "I try to understand their perspective and work together to find solutions",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 1, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 0, "attachment_issues": 0, "actually_fine": 5}
+        }
+      ]
+    },
+    {
+      "question": "What's your honest opinion about your own dating patterns?",
+      "answers": [
+        {
+          "text": "I keep attracting the same type of damaged people because I'm obviously cursed or something",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 2, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 2, "emotional_vampire": 4, "boring_basic": 2, "toxic_traits": 3, "desperate_energy": 2, "attachment_issues": 4, "actually_fine": 0}
+        },
+        {
+          "text": "I'm too good for most people and refuse to settle for less than I deserve",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 3, "commitment_phobic": 2, "unrealistic_standards": 5, "self_saboteur": 2, "social_disaster": 2, "emotional_vampire": 2, "boring_basic": 2, "toxic_traits": 3, "desperate_energy": 1, "attachment_issues": 1, "actually_fine": 0}
+        },
+        {
+          "text": "I sabotage everything good because I'm terrified of actually being happy",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 4, "unrealistic_standards": 2, "self_saboteur": 5, "social_disaster": 2, "emotional_vampire": 3, "boring_basic": 1, "toxic_traits": 2, "desperate_energy": 2, "attachment_issues": 4, "actually_fine": 1}
+        },
+        {
+          "text": "I have zero self-awareness and blame everyone else for my relationship failures",
+          "traits": {"hygiene_disaster": 2, "personality_poison": 4, "commitment_phobic": 2, "unrealistic_standards": 3, "self_saboteur": 3, "social_disaster": 3, "emotional_vampire": 3, "boring_basic": 2, "toxic_traits": 4, "desperate_energy": 2, "attachment_issues": 3, "actually_fine": 0}
+        },
+        {
+          "text": "I'm working on my patterns and trying to understand what I can improve about myself",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 1, "unrealistic_standards": 1, "self_saboteur": 1, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 1, "attachment_issues": 1, "actually_fine": 5}
+        }
+      ]
+    },
+    {
+      "question": "How do you feel about the idea of being vulnerable with someone?",
+      "answers": [
+        {
+          "text": "Vulnerability is weakness and I'd rather die alone than let someone see my flaws",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 3, "commitment_phobic": 5, "unrealistic_standards": 3, "self_saboteur": 4, "social_disaster": 2, "emotional_vampire": 1, "boring_basic": 2, "toxic_traits": 3, "desperate_energy": 1, "attachment_issues": 5, "actually_fine": 0}
+        },
+        {
+          "text": "I trauma-dump immediately to test if they can handle my damage",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 1, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 4, "emotional_vampire": 5, "boring_basic": 1, "toxic_traits": 3, "desperate_energy": 4, "attachment_issues": 4, "actually_fine": 0}
+        },
+        {
+          "text": "I use my vulnerabilities as manipulation tools to get sympathy and control",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 4, "commitment_phobic": 2, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 3, "emotional_vampire": 5, "boring_basic": 1, "toxic_traits": 5, "desperate_energy": 3, "attachment_issues": 3, "actually_fine": 0}
+        },
+        {
+          "text": "I'm vulnerable about safe things but keep my real issues locked away forever",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 4, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 2, "emotional_vampire": 2, "boring_basic": 3, "toxic_traits": 2, "desperate_energy": 1, "attachment_issues": 4, "actually_fine": 2}
+        },
+        {
+          "text": "I share appropriately over time as trust builds, creating genuine intimacy",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 1, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 1, "attachment_issues": 0, "actually_fine": 5}
+        }
+      ]
+    },
+    {
+      "question": "What's your real motivation for wanting a relationship?",
+      "answers": [
+        {
+          "text": "I need someone to fix me and make me feel complete because I can't handle being alone with myself",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 1, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 2, "emotional_vampire": 4, "boring_basic": 1, "toxic_traits": 2, "desperate_energy": 5, "attachment_issues": 4, "actually_fine": 0}
+        },
+        {
+          "text": "I want someone to worship me and make me feel special and superior to everyone else",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 4, "commitment_phobic": 2, "unrealistic_standards": 4, "self_saboteur": 2, "social_disaster": 2, "emotional_vampire": 3, "boring_basic": 1, "toxic_traits": 4, "desperate_energy": 3, "attachment_issues": 2, "actually_fine": 0}
+        },
+        {
+          "text": "I'm tired of being judged for being single and want someone to make me look normal",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 2, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 3, "emotional_vampire": 2, "boring_basic": 3, "toxic_traits": 2, "desperate_energy": 4, "attachment_issues": 3, "actually_fine": 1}
+        },
+        {
+          "text": "I want all the benefits of companionship without any of the actual work or compromise",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 3, "commitment_phobic": 4, "unrealistic_standards": 3, "self_saboteur": 2, "social_disaster": 2, "emotional_vampire": 3, "boring_basic": 2, "toxic_traits": 4, "desperate_energy": 2, "attachment_issues": 2, "actually_fine": 0}
+        },
+        {
+          "text": "I want to share my life with someone who enhances it rather than completes it",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 1, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 1, "attachment_issues": 0, "actually_fine": 5}
+        }
+      ]
+    },
+    {
+      "question": "If you had to identify the biggest obstacle to your romantic success, what would it be?",
+      "answers": [
+        {
+          "text": "Everyone else has impossibly high standards and can't appreciate what a catch I am",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 3, "commitment_phobic": 2, "unrealistic_standards": 4, "self_saboteur": 2, "social_disaster": 2, "emotional_vampire": 2, "boring_basic": 2, "toxic_traits": 3, "desperate_energy": 2, "attachment_issues": 2, "actually_fine": 0}
+        },
+        {
+          "text": "I'm too damaged from past relationships to ever trust or love properly again",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 3, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 2, "emotional_vampire": 4, "boring_basic": 1, "toxic_traits": 2, "desperate_energy": 2, "attachment_issues": 5, "actually_fine": 0}
+        },
+        {
+          "text": "I have zero idea how to maintain a healthy relationship and keep repeating the same mistakes",
+          "traits": {"hygiene_disaster": 2, "personality_poison": 2, "commitment_phobic": 2, "unrealistic_standards": 2, "self_saboteur": 4, "social_disaster": 3, "emotional_vampire": 3, "boring_basic": 2, "toxic_traits": 3, "desperate_energy": 2, "attachment_issues": 3, "actually_fine": 1}
+        },
+        {
+          "text": "I'm terrified of commitment and intimacy so I sabotage everything before it gets real",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 5, "unrealistic_standards": 2, "self_saboteur": 5, "social_disaster": 2, "emotional_vampire": 2, "boring_basic": 1, "toxic_traits": 2, "desperate_energy": 1, "attachment_issues": 4, "actually_fine": 1}
+        },
+        {
+          "text": "I haven't found the right person yet, but I'm working on being the right person for them",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 1, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 1, "attachment_issues": 0, "actually_fine": 5}
+        }
+      ]
+    },
+    {
+      "question": "How do you typically feel after a date ends badly?",
+      "answers": [
+        {
+          "text": "Furious at them for wasting my time and not recognizing my obvious superiority",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 4, "commitment_phobic": 2, "unrealistic_standards": 4, "self_saboteur": 2, "social_disaster": 2, "emotional_vampire": 2, "boring_basic": 1, "toxic_traits": 4, "desperate_energy": 2, "attachment_issues": 2, "actually_fine": 0}
+        },
+        {
+          "text": "Relieved because commitment and intimacy terrify me anyway",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 5, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 2, "emotional_vampire": 1, "boring_basic": 2, "toxic_traits": 2, "desperate_energy": 1, "attachment_issues": 4, "actually_fine": 1}
+        },
+        {
+          "text": "Devastated and convinced I'll never find love because I'm fundamentally unlovable",
+          "traits": {"hygiene_disaster": 2, "personality_poison": 1, "commitment_phobic": 2, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 2, "emotional_vampire": 4, "boring_basic": 2, "toxic_traits": 2, "desperate_energy": 4, "attachment_issues": 4, "actually_fine": 0}
+        },
+        {
+          "text": "Vindicated because I knew from the start they weren't good enough for me anyway",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 3, "commitment_phobic": 3, "unrealistic_standards": 5, "self_saboteur": 2, "social_disaster": 1, "emotional_vampire": 2, "boring_basic": 2, "toxic_traits": 3, "desperate_energy": 1, "attachment_issues": 2, "actually_fine": 0}
+        },
+        {
+          "text": "Disappointed but reflective about what I can learn from the experience",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 1, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 1, "attachment_issues": 0, "actually_fine": 5}
+        }
+      ]
+    },
+    {
+      "question": "What's your attitude toward personal growth and self-improvement in the context of dating?",
+      "answers": [
+        {
+          "text": "I'm perfect as I am and anyone who can't see that doesn't deserve me",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 4, "commitment_phobic": 3, "unrealistic_standards": 4, "self_saboteur": 2, "social_disaster": 2, "emotional_vampire": 2, "boring_basic": 2, "toxic_traits": 4, "desperate_energy": 2, "attachment_issues": 2, "actually_fine": 0}
+        },
+        {
+          "text": "I'll change everything about myself to become what I think they want",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 1, "commitment_phobic": 1, "unrealistic_standards": 2, "self_saboteur": 4, "social_disaster": 3, "emotional_vampire": 2, "boring_basic": 2, "toxic_traits": 2, "desperate_energy": 5, "attachment_issues": 4, "actually_fine": 1}
+        },
+        {
+          "text": "I read dating advice obsessively but never actually apply any of it to my own behavior",
+          "traits": {"hygiene_disaster": 2, "personality_poison": 2, "commitment_phobic": 2, "unrealistic_standards": 3, "self_saboteur": 4, "social_disaster": 3, "emotional_vampire": 2, "boring_basic": 3, "toxic_traits": 2, "desperate_energy": 3, "attachment_issues": 2, "actually_fine": 1}
+        },
+        {
+          "text": "I think therapy and self-help are for weak people who can't figure out life on their own",
+          "traits": {"hygiene_disaster": 2, "personality_poison": 3, "commitment_phobic": 3, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 2, "emotional_vampire": 2, "boring_basic": 2, "toxic_traits": 3, "desperate_energy": 1, "attachment_issues": 3, "actually_fine": 0}
+        },
+        {
+          "text": "I'm committed to understanding and improving my patterns while staying true to my core self",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 1, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 1, "attachment_issues": 0, "actually_fine": 5}
+        }
+      ]
+    },
+    {
+      "question": "How do you handle it when someone you're interested in doesn't text back right away?",
+      "answers": [
+        {
+          "text": "I send multiple follow-up texts asking if they're okay, then apologize for being clingy",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 1, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 4, "emotional_vampire": 3, "boring_basic": 1, "toxic_traits": 2, "desperate_energy": 5, "attachment_issues": 4, "actually_fine": 0}
+        },
+        {
+          "text": "I immediately assume they're not interested and start mentally writing them off",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 4, "unrealistic_standards": 3, "self_saboteur": 4, "social_disaster": 2, "emotional_vampire": 2, "boring_basic": 2, "toxic_traits": 3, "desperate_energy": 2, "attachment_issues": 5, "actually_fine": 0}
+        },
+        {
+          "text": "I analyze their social media activity to see if they're ignoring me specifically",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 3, "commitment_phobic": 2, "unrealistic_standards": 3, "self_saboteur": 3, "social_disaster": 3, "emotional_vampire": 3, "boring_basic": 1, "toxic_traits": 4, "desperate_energy": 4, "attachment_issues": 5, "actually_fine": 0}
+        },
+        {
+          "text": "I get angry and send passive-aggressive messages about how rude people are these days",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 4, "commitment_phobic": 2, "unrealistic_standards": 3, "self_saboteur": 3, "social_disaster": 4, "emotional_vampire": 3, "boring_basic": 1, "toxic_traits": 5, "desperate_energy": 3, "attachment_issues": 3, "actually_fine": 0}
+        },
+        {
+          "text": "I understand people have lives and wait for them to respond when they can",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 1, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 1, "attachment_issues": 0, "actually_fine": 5}
+        }
+      ]
+    },
+    {
+      "question": "What's your relationship with dating apps and online dating?",
+      "answers": [
+        {
+          "text": "I swipe through hundreds of people daily looking for perfection that doesn't exist",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 3, "unrealistic_standards": 5, "self_saboteur": 3, "social_disaster": 2, "emotional_vampire": 2, "boring_basic": 2, "toxic_traits": 2, "desperate_energy": 4, "attachment_issues": 2, "actually_fine": 0}
+        },
+        {
+          "text": "I collect matches like trophies but never actually meet anyone because that's too real",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 3, "commitment_phobic": 5, "unrealistic_standards": 2, "self_saboteur": 4, "social_disaster": 3, "emotional_vampire": 1, "boring_basic": 2, "toxic_traits": 3, "desperate_energy": 2, "attachment_issues": 4, "actually_fine": 0}
+        },
+        {
+          "text": "I get devastated every time someone doesn't match with me and take it as personal rejection",
+          "traits": {"hygiene_disaster": 2, "personality_poison": 1, "commitment_phobic": 1, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 2, "emotional_vampire": 4, "boring_basic": 2, "toxic_traits": 1, "desperate_energy": 5, "attachment_issues": 4, "actually_fine": 0}
+        },
+        {
+          "text": "I've deleted and re-downloaded every app multiple times in fits of rage about modern dating",
+          "traits": {"hygiene_disaster": 2, "personality_poison": 3, "commitment_phobic": 3, "unrealistic_standards": 3, "self_saboteur": 4, "social_disaster": 3, "emotional_vampire": 3, "boring_basic": 2, "toxic_traits": 3, "desperate_energy": 3, "attachment_issues": 3, "actually_fine": 0}
+        },
+        {
+          "text": "I use them as one tool among many to meet people, without putting all my hopes on them",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 1, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 1, "attachment_issues": 0, "actually_fine": 5}
+        }
+      ]
+    },
+    {
+      "question": "How do you typically handle rejection in dating situations?",
+      "answers": [
+        {
+          "text": "I demand an explanation and argue with them about why they're making the wrong choice",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 5, "commitment_phobic": 1, "unrealistic_standards": 3, "self_saboteur": 2, "social_disaster": 4, "emotional_vampire": 3, "boring_basic": 1, "toxic_traits": 5, "desperate_energy": 4, "attachment_issues": 3, "actually_fine": 0}
+        },
+        {
+          "text": "I spiral into self-hatred and use it as evidence that I'm fundamentally unlovable",
+          "traits": {"hygiene_disaster": 2, "personality_poison": 1, "commitment_phobic": 2, "unrealistic_standards": 2, "self_saboteur": 4, "social_disaster": 2, "emotional_vampire": 4, "boring_basic": 2, "toxic_traits": 2, "desperate_energy": 3, "attachment_issues": 5, "actually_fine": 0}
+        },
+        {
+          "text": "I immediately start talking shit about them to make myself feel better",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 4, "commitment_phobic": 2, "unrealistic_standards": 3, "self_saboteur": 3, "social_disaster": 3, "emotional_vampire": 3, "boring_basic": 1, "toxic_traits": 4, "desperate_energy": 2, "attachment_issues": 3, "actually_fine": 0}
+        },
+        {
+          "text": "I pretend I don't care while secretly plotting ways to make them jealous",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 3, "commitment_phobic": 3, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 3, "emotional_vampire": 2, "boring_basic": 2, "toxic_traits": 4, "desperate_energy": 3, "attachment_issues": 3, "actually_fine": 0}
+        },
+        {
+          "text": "I feel disappointed but respect their decision and move on gracefully",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 0, "unrealistic_standards": 1, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 1, "attachment_issues": 0, "actually_fine": 5}
+        }
+      ]
+    },
+    {
+      "question": "What's your biggest fear when it comes to being in a committed relationship?",
+      "answers": [
+        {
+          "text": "That they'll discover I'm actually boring and leave me for someone more interesting",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 1, "commitment_phobic": 3, "unrealistic_standards": 2, "self_saboteur": 4, "social_disaster": 2, "emotional_vampire": 2, "boring_basic": 5, "toxic_traits": 1, "desperate_energy": 3, "attachment_issues": 4, "actually_fine": 1}
+        },
+        {
+          "text": "That I'll have to actually be vulnerable and they might hurt me",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 4, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 2, "emotional_vampire": 2, "boring_basic": 2, "toxic_traits": 2, "desperate_energy": 2, "attachment_issues": 5, "actually_fine": 1}
+        },
+        {
+          "text": "That I'll lose my identity and independence if I care about someone too much",
+          "traits": {"hygiene_disaster": 1, "personality_poison": 2, "commitment_phobic": 5, "unrealistic_standards": 2, "self_saboteur": 3, "social_disaster": 1, "emotional_vampire": 1, "boring_basic": 2, "toxic_traits": 2, "desperate_energy": 1, "attachment_issues": 4, "actually_fine": 1}
+        },
+        {
+          "text": "That they'll see all my flaws and realize they can do way better than me",
+          "traits": {"hygiene_disaster": 3, "personality_poison": 2, "commitment_phobic": 2, "unrealistic_standards": 2, "self_saboteur": 4, "social_disaster": 3, "emotional_vampire": 3, "boring_basic": 3, "toxic_traits": 1, "desperate_energy": 4, "attachment_issues": 4, "actually_fine": 0}
+        },
+        {
+          "text": "That we'll grow apart over time, but I'm willing to take that risk for love",
+          "traits": {"hygiene_disaster": 0, "personality_poison": 0, "commitment_phobic": 1, "unrealistic_standards": 1, "self_saboteur": 0, "social_disaster": 0, "emotional_vampire": 0, "boring_basic": 2, "toxic_traits": 0, "desperate_energy": 1, "attachment_issues": 1, "actually_fine": 5}
         }
       ]
     }
   ],
-  "personality_types": {
+  "results": {
     "hygiene_disaster": {
       "title": "Walking Hygiene Red Flag",
-      "subtitle": "Human repellent in designer clothes",
-      "basic_analysis": "Congratulations, you've achieved the impossible: making people lose interest before you even speak. Your hygiene habits are so questionable that potential partners need a hazmat suit just to sit across from you at dinner. You wonder why people don't want a second date? It's because they're still recovering from the first one.",
-      "detailed_analysis": [
-        "Your damage is literally visible and sometimes audible. You've convinced yourself that 'natural musk' is attractive and that basic hygiene is optional. News flash: dry shampoo isn't a personality trait, and deodorant isn't a suggestion. Your bathroom probably looks like a crime scene, and your sheets have achieved sentience from neglect.",
-        "The brutal truth? You're single because people can smell you from across the room. Your dating profile might be perfect, but reality hits like a brick wall wrapped in unwashed laundry. You're not quirky or authentic - you're just gross. And before you blame society's 'unrealistic standards,' remember that basic cleanliness has been attractive since literally the dawn of civilization.",
-        "You probably think you're 'too busy' for proper hygiene or that it's 'not important' compared to your sparkling personality. But here's the thing - nobody gets to experience your amazing personality because they're too distracted by wondering when you last saw soap. Your crusty exterior is blocking access to whatever gem might be hiding underneath.",
-        "The fix is embarrassingly simple: shower daily, brush your teeth, wear clean clothes, and change your damn sheets. You're not a lost cause, just a dirty one. Invest in basic hygiene products instead of more dating apps. Your future relationships will thank you for discovering the magic of regular bathing."
-      ]
+      "description": "Congratulations, you've achieved the impossible: making people lose interest before you even speak. Your hygiene habits are so questionable that potential partners need a hazmat suit just to sit across from you at dinner.",
+      "extended": "Your damage is literally visible and sometimes audible. You've convinced yourself that 'natural musk' is attractive and that basic hygiene is optional. News flash: dry shampoo isn't a personality trait, and deodorant isn't a suggestion. Your bathroom probably looks like a crime scene, and your sheets have achieved sentience from neglect.\n\nThe brutal truth? You're single because people can smell you from across the room. Your dating profile might be perfect, but reality hits like a brick wall wrapped in unwashed laundry. You're not quirky or authentic - you're just gross. And before you blame society's 'unrealistic standards,' remember that basic cleanliness has been attractive since literally the dawn of civilization.\n\nYou probably think you're 'too busy' for proper hygiene or that it's 'not important' compared to your sparkling personality. But here's the thing - nobody gets to experience your amazing personality because they're too distracted by wondering when you last saw soap. Your crusty exterior is blocking access to whatever gem might be hiding underneath.\n\nThe fix is embarrassingly simple: shower daily, brush your teeth, wear clean clothes, and change your damn sheets. You're not a lost cause, just a dirty one. Invest in basic hygiene products instead of more dating apps. Your future relationships will thank you for discovering the magic of regular bathing."
     },
     "personality_poison": {
       "title": "Toxic Personality with Legs",
-      "subtitle": "Red flags wearing a human costume",
-      "basic_analysis": "Your hygiene might be fine, but your personality is a biohazard. You're the human equivalent of a beautiful apple that's rotten to the core. People are initially attracted to you until they realize you have the emotional intelligence of a cactus and the empathy of a parking meter.",
-      "detailed_analysis": [
-        "You're single because your personality is like poison wrapped in pretty packaging. You might look good on paper and even better in person, but spending time with you is like emotional Russian roulette. You're judgmental, critical, self-centered, and probably think these are positive traits that show you have 'high standards.'",
-        "The brutal reality is that you're exhausting to be around. Every conversation becomes about you, every disagreement becomes a war, and every minor inconvenience becomes someone else's fault. You've turned being difficult into an art form and wonder why people don't appreciate your 'honesty' (which is just cruelty with better PR).",
-        "You probably think you're just being 'authentic' or 'speaking your truth,' but your truth is that you're insufferable. You've confused having standards with being impossible to please, and having opinions with being argumentative. Your dates don't end badly because people can't handle your amazingness - they end badly because people can't handle your toxicity.",
-        "The hard pill to swallow: your personality is the problem, not everyone else's inability to appreciate you. Learn empathy, practice kindness, and stop treating every interaction like a competition you need to win. Therapy isn't a suggestion - it's a necessity for anyone who has to deal with you."
-      ]
+      "description": "Your hygiene might be fine, but your personality is a biohazard. You're the human equivalent of a beautiful apple that's rotten to the core. People are initially attracted to you until they realize you have the emotional intelligence of a cactus.",
+      "extended": "You're single because your personality is like poison wrapped in pretty packaging. You might look good on paper and even better in person, but spending time with you is like emotional Russian roulette. You're judgmental, critical, self-centered, and probably think these are positive traits that show you have 'high standards.'\n\nThe brutal reality is that you're exhausting to be around. Every conversation becomes about you, every disagreement becomes a war, and every minor inconvenience becomes someone else's fault. You've turned being difficult into an art form and wonder why people don't appreciate your 'honesty' (which is just cruelty with better PR).\n\nYou probably think you're just being 'authentic' or 'speaking your truth,' but your truth is that you're insufferable. You've confused having standards with being impossible to please, and having opinions with being argumentative. Your dates don't end badly because people can't handle your amazingness - they end badly because people can't handle your toxicity.\n\nThe hard pill to swallow: your personality is the problem, not everyone else's inability to appreciate you. Learn empathy, practice kindness, and stop treating every interaction like a competition you need to win. Therapy isn't a suggestion - it's a necessity for anyone who has to deal with you."
     },
     "commitment_phobic": {
-      "title": "Emotional Hit-and-Run Specialist",
-      "subtitle": "Allergic to anything deeper than a puddle",
-      "basic_analysis": "You're single because the moment things get real, you vanish like you're in witness protection. You want connection but panic at the first sign of actual intimacy. You've perfected the art of getting close enough to hurt people when you inevitably run away, which you always do.",
-      "detailed_analysis": [
-        "Your damage is that you're terrified of vulnerability, so you sabotage anything good before it can hurt you. You're like a human flight response - always ready to bolt when things get too comfortable. You ghost people like it's your full-time job, leaving a trail of confused and hurt potential partners wondering what they did wrong.",
-        "The brutal truth is that you're not protecting yourself - you're just guaranteeing you'll die alone. Every time you run away from something real, you're choosing fear over happiness. You've convinced yourself that independence is better than interdependence, but really you're just scared of being known and potentially rejected.",
-        "You probably have a mental catalog of excuses: 'They were moving too fast,' 'I'm not ready,' 'The timing isn't right.' But here's the reality - you're never going to be ready because ready requires risk, and you've decided risk isn't worth it. You'd rather be lonely than vulnerable, which is the saddest trade-off in human history.",
-        "Your commitment phobia isn't serving you anymore. It's keeping you from the very thing you claim to want. Time to either get therapy to address whatever trauma made you this way, or accept that you're choosing to be alone. But stop pretending you want a relationship when what you really want is the fantasy of connection without the reality of commitment."
-      ]
+      "title": "Emotional Hit-and-Run Specialist", 
+      "description": "You're single because the moment things get real, you vanish like you're in witness protection. You want connection but panic at the first sign of actual intimacy. You've perfected the art of getting close enough to hurt people when you inevitably run away.",
+      "extended": "Your damage is that you're terrified of vulnerability, so you sabotage anything good before it can hurt you. You're like a human flight response - always ready to bolt when things get too comfortable. You ghost people like it's your full-time job, leaving a trail of confused and hurt potential partners wondering what they did wrong.\n\nThe brutal truth is that you're not protecting yourself - you're just guaranteeing you'll die alone. Every time you run away from something real, you're choosing fear over happiness. You've convinced yourself that independence is better than interdependence, but really you're just scared of being known and potentially rejected.\n\nYou probably have a mental catalog of excuses: 'They were moving too fast,' 'I'm not ready,' 'The timing isn't right.' But here's the reality - you're never going to be ready because ready requires risk, and you've decided risk isn't worth it. You'd rather be lonely than vulnerable, which is the saddest trade-off in human history.\n\nYour commitment phobia isn't serving you anymore. It's keeping you from the very thing you claim to want. Time to either get therapy to address whatever trauma made you this way, or accept that you're choosing to be alone. But stop pretending you want a relationship when what you really want is the fantasy of connection without the reality of commitment."
     },
     "unrealistic_standards": {
       "title": "Fantasy Relationship Fanatic",
-      "subtitle": "Waiting for a fictional character to come to life",
-      "basic_analysis": "You're single because you're looking for a unicorn in a world full of horses. Your standards aren't high - they're delusional. You've created an impossible fantasy of what a partner should be and wonder why reality keeps disappointing you.",
-      "detailed_analysis": [
-        "Your damage is that you've confused having standards with having delusions. You want someone who's perfect in every way while bringing nothing equivalent to the table yourself. You're probably average in most ways but expect to date someone who's exceptional in every way. The math doesn't add up, but you keep playing the lottery.",
-        "The brutal reality is that your 'dream person' doesn't exist, and if they did, they wouldn't want you. You've been brainwashed by rom-coms and social media into thinking you deserve a fairy tale without putting in fairy tale effort. You're waiting for someone to complete you instead of completing yourself first.",
-        "You probably swipe left on perfectly good people because they don't meet your ridiculous checklist. Height requirements, salary minimums, specific hobbies, perfect teeth - you've turned dating into a job interview for a position that doesn't exist. Meanwhile, you're offering the personality equivalent of a participation trophy.",
-        "Reality check: lower your standards or raise your own value. Either become the amazing person you expect to attract, or accept that good enough is actually pretty great. Stop holding out for perfect and start appreciating good. Your standards aren't protecting you from settling - they're protecting you from happiness."
-      ]
+      "description": "You're single because you're looking for a unicorn in a world full of horses. Your standards aren't high - they're delusional. You've created an impossible fantasy of what a partner should be and wonder why reality keeps disappointing you.",
+      "extended": "Your damage is that you've confused having standards with having delusions. You want someone who's perfect in every way while bringing nothing equivalent to the table yourself. You're probably average in most ways but expect to date someone who's exceptional in every way. The math doesn't add up, but you keep playing the lottery.\n\nThe brutal reality is that your 'dream person' doesn't exist, and if they did, they wouldn't want you. You've been brainwashed by rom-coms and social media into thinking you deserve a fairy tale without putting in fairy tale effort. You're waiting for someone to complete you instead of completing yourself first.\n\nYou probably swipe left on perfectly good people because they don't meet your ridiculous checklist. Height requirements, salary minimums, specific hobbies, perfect teeth - you've turned dating into a job interview for a position that doesn't exist. Meanwhile, you're offering the personality equivalent of a participation trophy.\n\nReality check: lower your standards or raise your own value. Either become the amazing person you expect to attract, or accept that good enough is actually pretty great. Stop holding out for perfect and start appreciating good. Your standards aren't protecting you from settling - they're protecting you from happiness."
     },
     "self_saboteur": {
       "title": "Relationship Destruction Expert",
-      "subtitle": "Snatching defeat from the jaws of romantic victory",
-      "basic_analysis": "You're single because you're your own worst enemy. Every time something good happens in your dating life, you find a way to fuck it up. You self-sabotage like it's an Olympic sport and then act surprised when you're holding the gold medal in being alone.",
-      "detailed_analysis": [
-        "Your damage is that you're more comfortable with failure than success, so you create failure even when success is handed to you. You probably have a great person interested in you right now, but you're finding reasons why it won't work. You're addicted to your own dysfunction and allergic to your own happiness.",
-        "The brutal truth is that you don't think you deserve love, so you make sure you don't get it. Every relationship becomes a self-fulfilling prophecy of doom because you'd rather be right about being unlovable than wrong about deserving happiness. You've weaponized your insecurities against your own best interests.",
-        "You probably create problems where none exist, pick fights over nothing, and find fault with perfectly good people. You're like a relationship arsonist - building something beautiful just so you can burn it down. Your pattern is probably so predictable that your friends have started a betting pool on when you'll ruin the next good thing.",
-        "The hard truth: you're going to keep sabotaging relationships until you deal with whatever made you believe you don't deserve love. Get therapy, do the work, and stop making your trauma everyone else's problem. You can't have healthy relationships with an unhealthy relationship with yourself."
-      ]
+      "description": "You're single because you're your own worst enemy. Every time something good happens in your dating life, you find a way to mess it up. You self-sabotage like it's an Olympic sport and then act surprised when you're holding the gold medal in being alone.",
+      "extended": "Your damage is that you're more comfortable with failure than success, so you create failure even when success is handed to you. You probably have a great person interested in you right now, but you're finding reasons why it won't work. You're addicted to your own dysfunction and allergic to your own happiness.\n\nThe brutal truth is that you don't think you deserve love, so you make sure you don't get it. Every relationship becomes a self-fulfilling prophecy of doom because you'd rather be right about being unlovable than wrong about deserving happiness. You've weaponized your insecurities against your own best interests.\n\nYou probably create problems where none exist, pick fights over nothing, and find fault with perfectly good people. You're like a relationship arsonist - building something beautiful just so you can burn it down. Your pattern is probably so predictable that your friends have started a betting pool on when you'll ruin the next good thing.\n\nThe hard truth: you're going to keep sabotaging relationships until you deal with whatever made you believe you don't deserve love. Get therapy, do the work, and stop making your trauma everyone else's problem. You can't have healthy relationships with an unhealthy relationship with yourself."
     },
     "social_disaster": {
       "title": "Walking Social Catastrophe",
-      "subtitle": "Making awkward an art form since birth",
-      "basic_analysis": "You're single because you have the social skills of a feral cat. Every interaction is a masterclass in making people uncomfortable. You don't read social cues - you bulldoze right through them like they're made of tissue paper.",
-      "detailed_analysis": [
-        "Your damage is that you're socially tone-deaf to the point where people need subtitles to understand what the fuck you're trying to communicate. You overshare, under-listen, and somehow always manage to say exactly the wrong thing at exactly the wrong time. Your dating life is like watching a car crash in slow motion.",
-        "The brutal reality is that dating is fundamentally a social activity, and you're socially incompetent. You probably think you're being 'authentic' when you're actually being inappropriate. You mistake honesty for tactlessness and depth for oversharing. People don't avoid you because they can't handle your realness - they avoid you because you're exhausting.",
-        "You likely dominate conversations, miss obvious hints, and make people feel like they're being interviewed by an alien who's never observed human behavior. Your idea of flirting is probably explaining cryptocurrency for an hour or detailing your food allergies before ordering appetizers.",
-        "The fix requires acknowledging that social skills are actual skills that can be learned. Practice reading the room, listening more than you speak, and understanding that not every thought needs to be voiced. Your authenticity is great, but it needs to come with a side of basic social awareness."
-      ]
+      "description": "You're single because you have the social skills of a feral cat. Every interaction is a masterclass in making people uncomfortable. You don't read social cues - you bulldoze right through them like they're made of tissue paper.",
+      "extended": "Your damage is that you're socially tone-deaf to the point where people need subtitles to understand what you're trying to communicate. You overshare, under-listen, and somehow always manage to say exactly the wrong thing at exactly the wrong time. Your dating life is like watching a car crash in slow motion.\n\nThe brutal reality is that dating is fundamentally a social activity, and you're socially incompetent. You probably think you're being 'authentic' when you're actually being inappropriate. You mistake honesty for tactlessness and depth for oversharing. People don't avoid you because they can't handle your realness - they avoid you because you're exhausting.\n\nYou likely dominate conversations, miss obvious hints, and make people feel like they're being interviewed by an alien who's never observed human behavior. Your idea of flirting is probably explaining cryptocurrency for an hour or detailing your food allergies before ordering appetizers.\n\nThe fix requires acknowledging that social skills are actual skills that can be learned. Practice reading the room, listening more than you speak, and understanding that not every thought needs to be voiced. Your authenticity is great, but it needs to come with a side of basic social awareness."
     },
     "emotional_vampire": {
       "title": "Professional Energy Drainer",
-      "subtitle": "Making everything about your trauma since forever",
-      "basic_analysis": "You're single because being around you is emotionally exhausting. You've turned every conversation into therapy and every date into a trauma dump. People don't want to date you - they want to refer you to a professional.",
-      "detailed_analysis": [
-        "Your damage is that you've weaponized your pain and made it everyone else's responsibility to fix you. You don't want a partner - you want a free therapist who also provides physical intimacy. Every interaction becomes about your problems, your drama, your needs. You're like an emotional black hole that sucks the joy out of every room.",
-        "The brutal truth is that nobody wants to date someone whose primary personality trait is their unresolved trauma. You've confused depth with drama and intimacy with intensity. You think sharing your deepest wounds on the first date is vulnerability, but it's actually just inappropriate and manipulative.",
-        "You probably start conversations with 'You'll never believe what happened to me today' and end them with someone else's life force completely drained. You've made your mental health everyone else's problem while taking zero responsibility for actually getting better. You collect sympathy like it's a currency and spend it like you're rich.",
-        "Reality check: people want to date someone who adds to their life, not someone who makes their life harder. Get actual professional help for your issues instead of making random dates your unpaid emotional labor force. Your trauma is real, but it's not a personality and it's not anyone else's job to heal you."
-      ]
+      "description": "You're single because being around you is emotionally exhausting. You've turned every conversation into therapy and every date into a trauma dump. People don't want to date you - they want to refer you to a professional.",
+      "extended": "Your damage is that you've weaponized your pain and made it everyone else's responsibility to fix you. You don't want a partner - you want a free therapist who also provides physical intimacy. Every interaction becomes about your problems, your drama, your needs. You're like an emotional black hole that sucks the joy out of every room.\n\nThe brutal truth is that nobody wants to date someone whose primary personality trait is their unresolved trauma. You've confused depth with drama and intimacy with intensity. You think sharing your deepest wounds on the first date is vulnerability, but it's actually just inappropriate and manipulative.\n\nYou probably start conversations with 'You'll never believe what happened to me today' and end them with someone else's life force completely drained. You've made your mental health everyone else's problem while taking zero responsibility for actually getting better. You collect sympathy like it's a currency and spend it like you're rich.\n\nReality check: people want to date someone who adds to their life, not someone who makes their life harder. Get actual professional help for your issues instead of making random dates your unpaid emotional labor force. Your trauma is real, but it's not a personality and it's not anyone else's job to heal you."
     },
     "boring_basic": {
       "title": "Human Beige Paint",
-      "subtitle": "The personality equivalent of watching grass grow",
-      "basic_analysis": "You're single because dating you is like watching paint dry in slow motion. You're not offensive or problematic - you're just magnificently boring. You have the personality of unseasoned chicken and wonder why nobody's excited about second helpings.",
-      "detailed_analysis": [
-        "Your damage is that you have no damage - which somehow is damage in itself. You're so aggressively normal that you've circled back to being abnormal. You probably think 'stable' is a personality trait and 'reliable' counts as being interesting. Your dating profile probably mentions loving long walks on the beach and your favorite food being pizza.",
-        "The brutal reality is that you're forgettable. People don't dislike you - they just don't remember you exist. Your conversations are like elevator music for the soul: background noise that nobody actively chooses to engage with. You're not bad enough to be interesting or good enough to be memorable.",
-        "You probably think you're a 'nice person' and can't understand why that's not enough. But nice isn't a personality - it's the bare minimum for human interaction. You need actual interests, opinions, passions, or at least a hobby that doesn't involve Netflix and complaining about how dating apps suck.",
-        "The fix is developing an actual personality. Find something you're passionate about, have opinions about things, take some risks, be willing to be disliked for who you are rather than tolerated for who you're pretending to be. Bland is not a strategy for love - it's a strategy for being everyone's backup plan."
-      ]
+      "description": "You're single because dating you is like watching paint dry in slow motion. You're not offensive or problematic - you're just magnificently boring. You have the personality of unseasoned chicken and wonder why nobody's excited about second helpings.",
+      "extended": "Your damage is that you have no damage - which somehow is damage in itself. You're so aggressively normal that you've circled back to being abnormal. You probably think 'stable' is a personality trait and 'reliable' counts as being interesting. Your dating profile probably mentions loving long walks on the beach and your favorite food being pizza.\n\nThe brutal reality is that you're forgettable. People don't dislike you - they just don't remember you exist. Your conversations are like elevator music for the soul: background noise that nobody actively chooses to engage with. You're not bad enough to be interesting or good enough to be memorable.\n\nYou probably think you're a 'nice person' and can't understand why that's not enough. But nice isn't a personality - it's the bare minimum for human interaction. You need actual interests, opinions, passions, or at least a hobby that doesn't involve Netflix and complaining about how dating apps suck.\n\nThe fix is developing an actual personality. Find something you're passionate about, have opinions about things, take some risks, be willing to be disliked for who you are rather than tolerated for who you're pretending to be. Bland is not a strategy for love - it's a strategy for being everyone's backup plan."
     },
     "toxic_traits": {
       "title": "Walking Red Flag Convention",
-      "subtitle": "Collecting toxic behaviors like Pokemon cards",
-      "basic_analysis": "You're single because you're a walking compilation of every dating red flag ever identified. You gaslight, manipulate, and play games like you're auditioning for a reality TV villain role. People don't date you - they survive you and then warn their friends.",
-      "detailed_analysis": [
-        "Your damage is that you've turned toxicity into an art form. You probably think you're just 'passionate' or 'intense,' but really you're just abusive with good marketing. You manipulate, guilt-trip, jealous-rage, and control like it's your job. Your relationships aren't partnerships - they're hostage situations with dinner dates.",
-        "The brutal truth is that you're not misunderstood - you're correctly understood as someone to avoid. You probably have a trail of exes who are still in therapy because of you. You create drama because chaos feels like passion, and you mistake fear for respect. You're not a catch - you're a cautionary tale.",
-        "You likely blame all your failed relationships on other people being 'too sensitive' or 'unable to handle you.' But the common denominator in all your failed relationships is you. You're not a victim of circumstance - you're a creator of toxicity who refuses to take responsibility for the emotional damage you cause.",
-        "The hard pill to swallow: you need intensive therapy and a complete personality overhaul. Stop dating until you can have a relationship with yourself that doesn't involve emotional abuse. You're not ready for love until you learn how to love without destroying. Get help before you hurt someone else."
-      ]
+      "description": "You're single because you're a walking compilation of every dating red flag ever identified. You gaslight, manipulate, and play games like you're auditioning for a reality TV villain role. People don't date you - they survive you and then warn their friends.",
+      "extended": "Your damage is that you've turned toxicity into an art form. You probably think you're just 'passionate' or 'intense,' but really you're just abusive with good marketing. You manipulate, guilt-trip, jealous-rage, and control like it's your job. Your relationships aren't partnerships - they're hostage situations with dinner dates.\n\nThe brutal truth is that you're not misunderstood - you're correctly understood as someone to avoid. You probably have a trail of exes who are still in therapy because of you. You create drama because chaos feels like passion, and you mistake fear for respect. You're not a catch - you're a cautionary tale.\n\nYou likely blame all your failed relationships on other people being 'too sensitive' or 'unable to handle you.' But the common denominator in all your failed relationships is you. You're not a victim of circumstance - you're a creator of toxicity who refuses to take responsibility for the emotional damage you cause.\n\nThe hard pill to swallow: you need intensive therapy and a complete personality overhaul. Stop dating until you can have a relationship with yourself that doesn't involve emotional abuse. You're not ready for love until you learn how to love without destroying. Get help before you hurt someone else."
     },
     "desperate_energy": {
       "title": "Clingy Desperation Machine",
-      "subtitle": "Scaring people away with your thirst since day one",
-      "basic_analysis": "You're single because your desperation is visible from space. You cling to people like they're life rafts, and your need for love is so palpable it makes people uncomfortable. You don't want a relationship - you want someone to save you from yourself.",
-      "detailed_analysis": [
-        "Your damage is that your desperation is like a toxic cologne that overwhelms everyone around you. You probably plan your wedding after the second date and name your future children before you've had the first fight. Your neediness isn't cute - it's suffocating. People can smell desperation, and yours reeks.",
-        "The brutal reality is that desperation repels the very thing you're desperate for. You're so hungry for love that you're willing to accept scraps and call it a feast. You probably say 'I love you' too early, text too frequently, and make every interaction feel like a job interview for the position of 'person who completes me.'",
-        "You likely ignore red flags because you're just grateful someone is paying attention to you. You've confused intensity with intimacy and neediness with love. Your relationships move at the speed of desperation, which is way too fast for anyone with healthy boundaries.",
-        "Reality check: learn to be complete on your own before trying to complete someone else's life. Desperation isn't attractive - confidence is. Work on yourself, develop your own life, and stop treating every potential partner like they're your salvation. Love yourself first, or nobody else will want to."
-      ]
+      "description": "You're single because your desperation is visible from space. You cling to people like they're life rafts, and your need for love is so palpable it makes people uncomfortable. You don't want a relationship - you want someone to save you from yourself.",
+      "extended": "Your damage is that your desperation is like a toxic cologne that overwhelms everyone around you. You probably plan your wedding after the second date and name your future children before you've had the first fight. Your neediness isn't cute - it's suffocating. People can smell desperation, and yours reeks.\n\nThe brutal reality is that desperation repels the very thing you're desperate for. You're so hungry for love that you're willing to accept scraps and call it a feast. You probably say 'I love you' too early, text too frequently, and make every interaction feel like a job interview for the position of 'person who completes me.'\n\nYou likely ignore red flags because you're just grateful someone is paying attention to you. You've confused intensity with intimacy and neediness with love. Your relationships move at the speed of desperation, which is way too fast for anyone with healthy boundaries.\n\nReality check: learn to be complete on your own before trying to complete someone else's life. Desperation isn't attractive - confidence is. Work on yourself, develop your own life, and stop treating every potential partner like they're your salvation. Love yourself first, or nobody else will want to."
     },
     "attachment_issues": {
       "title": "Emotionally Damaged Disaster",
-      "subtitle": "Trust issues wearing a smile",
-      "basic_analysis": "You're single because your attachment style is 'chaotic evil.' You want love but don't trust it, need closeness but fear abandonment, and somehow manage to create the very outcomes you're trying to avoid. You're your own worst enemy in a rom-com nobody wants to watch.",
-      "detailed_analysis": [
-        "Your damage is that you've turned every relationship into a reenactment of your childhood trauma. You either cling desperately or push people away, sometimes in the same conversation. You test people constantly to see if they'll leave, then act surprised when they actually do. You're like a relationship stress-test that nobody signed up for.",
-        "The brutal truth is that you're exhausting to love. Your attachment issues mean that every normal relationship milestone feels like a threat, every minor disagreement feels like abandonment, and every gesture of love feels like a setup for betrayal. You've made being with you feel like walking through an emotional minefield.",
-        "You probably analyze every text, question every motive, and turn every relationship into a psychological thriller where you're both the detective and the suspect. You want security but create chaos, demand loyalty but question everything, need love but don't believe you deserve it.",
-        "The fix requires serious therapy to address whatever childhood wounds are still bleeding all over your adult relationships. Stop making your attachment issues everyone else's problem and start taking responsibility for healing yourself. You can't have healthy relationships with unhealthy attachment patterns."
-      ]
+      "description": "You're single because your attachment style is 'chaotic evil.' You want love but don't trust it, need closeness but fear abandonment, and somehow manage to create the very outcomes you're trying to avoid.",
+      "extended": "Your damage is that you've turned every relationship into a reenactment of your childhood trauma. You either cling desperately or push people away, sometimes in the same conversation. You test people constantly to see if they'll leave, then act surprised when they actually do. You're like a relationship stress-test that nobody signed up for.\n\nThe brutal truth is that you're exhausting to love. Your attachment issues mean that every normal relationship milestone feels like a threat, every minor disagreement feels like abandonment, and every gesture of love feels like a setup for betrayal. You've made being with you feel like walking through an emotional minefield.\n\nYou probably analyze every text, question every motive, and turn every relationship into a psychological thriller where you're both the detective and the suspect. You want security but create chaos, demand loyalty but question everything, need love but don't believe you deserve it.\n\nThe fix requires serious therapy to address whatever childhood wounds are still bleeding all over your adult relationships. Stop making your attachment issues everyone else's problem and start taking responsibility for healing yourself. You can't have healthy relationships with unhealthy attachment patterns."
     },
     "actually_fine": {
       "title": "Surprisingly Well-Adjusted Human",
-      "subtitle": "Plot twist: you're actually relationship material",
-      "basic_analysis": "Congratulations, you're that rare specimen - a genuinely decent person who isn't secretly a walking disaster. You're single not because you're fundamentally broken, but because finding quality people is actually hard and you refuse to settle for less than you deserve.",
-      "detailed_analysis": [
-        "Your 'damage' is that you're refreshingly normal in a world full of emotional chaos. You have your shit together, communicate like an adult, and treat people with basic human decency. In today's dating landscape, this makes you about as rare as a unicorn riding a dragon while filing their taxes on time.",
-        "The reality is that being single doesn't mean you're broken - it means you have standards and aren't willing to compromise them for the sake of having a warm body next to you. You'd rather be alone than in bad company, which is actually a sign of emotional maturity, not damage.",
-        "You probably encounter a lot of the other personality types from this test and wonder what the hell is wrong with people. The answer is: a lot. But don't let the dating wasteland convince you to lower your standards or settle for dysfunction. Your standards aren't the problem - the dating pool is just contaminated.",
-        "Keep being your awesome self and don't let the dating apocalypse change you. The right person will appreciate your emotional stability, hygiene habits, and ability to communicate without creating drama. You're not single because you're broken - you're single because you're selective, and that's actually beautiful."
-      ]
+      "description": "Congratulations, you're that rare specimen - a genuinely decent person who isn't secretly a walking disaster. You're single not because you're fundamentally broken, but because finding quality people is actually hard and you refuse to settle for less than you deserve.",
+      "extended": "Your 'damage' is that you're refreshingly normal in a world full of emotional chaos. You have your shit together, communicate like an adult, and treat people with basic human decency. In today's dating landscape, this makes you about as rare as a unicorn riding a dragon while filing their taxes on time.\n\nThe reality is that being single doesn't mean you're broken - it means you have standards and aren't willing to compromise them for the sake of having a warm body next to you. You'd rather be alone than in bad company, which is actually a sign of emotional maturity, not damage.\n\nYou probably encounter a lot of the other personality types from this test and wonder what the hell is wrong with people. The answer is: a lot. But don't let the dating wasteland convince you to lower your standards or settle for dysfunction. Your standards aren't the problem - the dating pool is just contaminated.\n\nKeep being your awesome self and don't let the dating apocalypse change you. The right person will appreciate your emotional stability, hygiene habits, and ability to communicate without creating drama. You're not single because you're broken - you're single because you're selective, and that's actually beautiful."
     }
   }
 }

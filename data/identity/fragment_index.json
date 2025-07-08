@@ -1,2270 +1,696 @@
 {
-  "test_id": "fragment_index",
+  "testId": "fragment_index",
   "title": "The Fragment Index",
-  "subtitle": "How scattered is your identity?",
-  "description": "This assessment maps the fractures in your sense of self, revealing how your identity has been broken and scattered across different aspects of your existence.",
+  "description": "How scattered is your identity?",
+  "traits": {
+    "shattered_mosaic": "Beautiful in your brokenness, coherent in your contradictions",
+    "identity_void": "A perfect absence where a self should be",
+    "living_kaleidoscope": "In constant motion, never the same pattern twice",
+    "scattered_soul": "Pieces of you exist in distant galaxies",
+    "dissolved_self": "Slowly evaporating into the atmosphere",
+    "fragmented_mirror": "Each crack reflects a different version of reality",
+    "broken_spectrum": "A rainbow shattered into incompatible colors",
+    "lost_constellation": "Stars scattered so far apart they've forgotten their pattern",
+    "splintered_core": "Broken at the center where your essence should be",
+    "phantom_identity": "The ghost of someone who might have existed"
+  },
   "questions": [
     {
-      "id": "q1",
-      "text": "When you wake up in the morning, the first thing you feel is:",
+      "question": "When you wake up in the morning, the first thing you feel is:",
       "answers": [
         {
-          "id": "q1a1",
           "text": "Confusion about which version of yourself you need to be today",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 2,
-            "living_kaleidoscope": 4,
-            "scattered_soul": 3,
-            "dissolved_self": 2,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 3,
-            "lost_constellation": 3,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
+          "traits": {"shattered_mosaic": 5, "identity_void": 2, "living_kaleidoscope": 4, "scattered_soul": 3, "dissolved_self": 2, "fragmented_mirror": 4, "broken_spectrum": 3, "lost_constellation": 3, "splintered_core": 4, "phantom_identity": 2}
         },
         {
-          "id": "q1a2",
           "text": "A hollow emptiness where your sense of self should be",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 1,
-            "lost_constellation": 2,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 1, "lost_constellation": 2, "splintered_core": 1, "phantom_identity": 5}
         },
         {
-          "id": "q21a3",
           "text": "A radio constantly switching between stations",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 3,
-            "phantom_identity": 2
-          }
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 3, "phantom_identity": 2}
         },
         {
-          "id": "q21a4",
           "text": "Fragments of thoughts calling from distant places",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 2,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 3
-          }
+          "traits": {"shattered_mosaic": 4, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 3}
         },
         {
-          "id": "q21a5",
           "text": "Whispers that get fainter until they disappear",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 2, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
         }
       ]
     },
     {
-      "id": "q22",
-      "text": "When you try to plan for the future, you find that:",
+      "question": "When you try to plan for the future, you find that:",
       "answers": [
         {
-          "id": "q22a1",
           "text": "Different parts of me want to go in completely opposite directions",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 1,
-            "living_kaleidoscope": 4,
-            "scattered_soul": 3,
-            "dissolved_self": 2,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 4,
-            "lost_constellation": 2,
-            "splintered_core": 5,
-            "phantom_identity": 2
-          }
+          "traits": {"shattered_mosaic": 5, "identity_void": 1, "living_kaleidoscope": 4, "scattered_soul": 3, "dissolved_self": 2, "fragmented_mirror": 4, "broken_spectrum": 4, "lost_constellation": 2, "splintered_core": 5, "phantom_identity": 2}
         },
         {
-          "id": "q22a2",
-          "text": "There's no 'me' to have a future",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 1,
-            "lost_constellation": 2,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
+          "text": "There's no me to have a future",
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 1, "lost_constellation": 2, "splintered_core": 1, "phantom_identity": 5}
         },
         {
-          "id": "q22a3",
           "text": "My vision of the future changes completely every time I consider it",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 3,
-            "phantom_identity": 2
-          }
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 3, "phantom_identity": 2}
         },
         {
-          "id": "q22a4",
           "text": "I can only see fragments of possibilities, never a whole picture",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 2,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 3
-          }
+          "traits": {"shattered_mosaic": 4, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 3}
         },
         {
-          "id": "q22a5",
           "text": "I might not exist long enough to reach any future",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
         }
       ]
     },
     {
-      "id": "q23",
-      "text": "Your relationship with your own mind feels like:",
+      "question": "Your relationship with your own mind feels like:",
       "answers": [
         {
-          "id": "q23a1",
           "text": "Being a mediator in a room full of strangers",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 1,
-            "living_kaleidoscope": 4,
-            "scattered_soul": 3,
-            "dissolved_self": 2,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 4,
-            "lost_constellation": 2,
-            "splintered_core": 5,
-            "phantom_identity": 2
-          }
+          "traits": {"shattered_mosaic": 5, "identity_void": 1, "living_kaleidoscope": 4, "scattered_soul": 3, "dissolved_self": 2, "fragmented_mirror": 4, "broken_spectrum": 4, "lost_constellation": 2, "splintered_core": 5, "phantom_identity": 2}
         },
         {
-          "id": "q23a2",
           "text": "Staring into an empty house where no one lives",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 1,
-            "lost_constellation": 2,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 1, "lost_constellation": 2, "splintered_core": 1, "phantom_identity": 5}
         },
         {
-          "id": "q23a3",
           "text": "Trying to catch butterflies that won't stay still",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 3,
-            "phantom_identity": 2
-          }
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 3, "phantom_identity": 2}
         },
         {
-          "id": "q23a4",
           "text": "Searching through ruins for pieces that might fit together",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 2,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
+          "traits": {"shattered_mosaic": 4, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 3, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 4, "phantom_identity": 2}
         },
         {
-          "id": "q23a5",
           "text": "Watching mist slowly evaporate in the morning sun",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
         }
       ]
     },
     {
-      "id": "q24",
-      "text": "The most accurate metaphor for your sense of self is:",
+      "question": "The most accurate metaphor for your sense of self is:",
       "answers": [
         {
-          "id": "q24a1",
           "text": "A stained glass window that's been shattered but the pieces remain",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 1,
-            "living_kaleidoscope": 3,
-            "scattered_soul": 4,
-            "dissolved_self": 2,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 4,
-            "lost_constellation": 3,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
+          "traits": {"shattered_mosaic": 5, "identity_void": 1, "living_kaleidoscope": 3, "scattered_soul": 4, "dissolved_self": 2, "fragmented_mirror": 4, "broken_spectrum": 4, "lost_constellation": 3, "splintered_core": 4, "phantom_identity": 2}
         },
         {
-          "id": "q24a2",
           "text": "A shadow cast by something that isn't there",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 1,
-            "lost_constellation": 2,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 1, "lost_constellation": 2, "splintered_core": 1, "phantom_identity": 5}
         },
         {
-          "id": "q24a3",
           "text": "A lava lamp where the shapes never stop changing",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 3,
-            "phantom_identity": 2
-          }
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 3, "phantom_identity": 2}
         },
         {
-          "id": "q24a4",
           "text": "A constellation where most of the stars have gone dark",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 2,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 3
-          }
+          "traits": {"shattered_mosaic": 4, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 3}
         },
         {
-          "id": "q24a5",
           "text": "A photograph that's been left in water too long",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
         }
       ]
     },
     {
-      "id": "q25",
-      "text": "If someone could see inside your mind right now, they would find:",
+      "question": "If someone could see inside your mind right now, they would find:",
       "answers": [
         {
-          "id": "q25a1",
           "text": "A house with different people living in each room",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 1,
-            "living_kaleidoscope": 4,
-            "scattered_soul": 3,
-            "dissolved_self": 2,
-            "fragmented_mirror": 5,
-            "broken_spectrum": 4,
-            "lost_constellation": 2,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
+          "traits": {"shattered_mosaic": 5, "identity_void": 1, "living_kaleidoscope": 4, "scattered_soul": 3, "dissolved_self": 2, "fragmented_mirror": 5, "broken_spectrum": 4, "lost_constellation": 2, "splintered_core": 4, "phantom_identity": 2}
         },
         {
-          "id": "q25a2",
           "text": "An abandoned building with no signs of life",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 1,
-            "lost_constellation": 2,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 1, "lost_constellation": 2, "splintered_core": 1, "phantom_identity": 5}
         },
         {
-          "id": "q25a3",
           "text": "A carnival where all the rides are spinning out of control",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 4, "phantom_identity": 2}
         },
         {
-          "id": "q25a4",
           "text": "A museum where most of the exhibits have been stolen",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 2,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 3
-          }
+          "traits": {"shattered_mosaic": 4, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 3}
         },
         {
-          "id": "q25a5",
           "text": "A fog bank that's slowly dissipating into nothing",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
+        }
+      ]
+    },
+    {
+      "question": "Your memories feel like they belong to:",
+      "answers": [
+        {
+          "text": "Different people who happened to share your body",
+          "traits": {"shattered_mosaic": 5, "identity_void": 2, "living_kaleidoscope": 4, "scattered_soul": 4, "dissolved_self": 3, "fragmented_mirror": 5, "broken_spectrum": 4, "lost_constellation": 3, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "No one in particular - just floating experiences without an owner",
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 2, "scattered_soul": 3, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 2, "lost_constellation": 2, "splintered_core": 1, "phantom_identity": 5}
+        },
+        {
+          "text": "A constantly shifting person whose identity changes with each recollection",
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 3, "phantom_identity": 2}
+        },
+        {
+          "text": "Fragments scattered across time with huge gaps in between",
+          "traits": {"shattered_mosaic": 4, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 3}
+        },
+        {
+          "text": "Someone who was slowly fading away until they became transparent",
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
+        }
+      ]
+    },
+    {
+      "question": "When someone asks you to describe yourself, your immediate internal reaction is:",
+      "answers": [
+        {
+          "text": "Panic because I'd have to choose which contradictory piece to present",
+          "traits": {"shattered_mosaic": 5, "identity_void": 1, "living_kaleidoscope": 4, "scattered_soul": 3, "dissolved_self": 2, "fragmented_mirror": 4, "broken_spectrum": 4, "lost_constellation": 2, "splintered_core": 5, "phantom_identity": 1}
+        },
+        {
+          "text": "Emptiness because there's literally nothing there to describe",
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 1, "lost_constellation": 2, "splintered_core": 1, "phantom_identity": 5}
+        },
+        {
+          "text": "Vertigo as my sense of self spins through too many possibilities",
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "Frustration because the words I need are scattered and incomplete",
+          "traits": {"shattered_mosaic": 4, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 2}
+        },
+        {
+          "text": "The sense that I'm describing someone who doesn't really exist",
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 2, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 3, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
+        }
+      ]
+    },
+    {
+      "question": "Your sense of continuity from childhood to now feels like:",
+      "answers": [
+        {
+          "text": "A broken chain where each link is a completely different person",
+          "traits": {"shattered_mosaic": 5, "identity_void": 2, "living_kaleidoscope": 3, "scattered_soul": 4, "dissolved_self": 2, "fragmented_mirror": 5, "broken_spectrum": 3, "lost_constellation": 4, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "A void with occasional blips of temporary existence",
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 1, "phantom_identity": 5}
+        },
+        {
+          "text": "A movie where the protagonist keeps changing mid-scene",
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 4, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 3, "phantom_identity": 2}
+        },
+        {
+          "text": "Islands of memory separated by oceans of forgetting",
+          "traits": {"shattered_mosaic": 4, "identity_void": 3, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 3}
+        },
+        {
+          "text": "A photograph that's been slowly dissolving in water",
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
+        }
+      ]
+    },
+    {
+      "question": "When you look in the mirror, what you see is:",
+      "answers": [
+        {
+          "text": "A face that belongs to multiple people who share the same features",
+          "traits": {"shattered_mosaic": 4, "identity_void": 1, "living_kaleidoscope": 3, "scattered_soul": 3, "dissolved_self": 2, "fragmented_mirror": 5, "broken_spectrum": 4, "lost_constellation": 2, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "A stranger wearing a mask of my features",
+          "traits": {"shattered_mosaic": 2, "identity_void": 4, "living_kaleidoscope": 2, "scattered_soul": 3, "dissolved_self": 3, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 5}
+        },
+        {
+          "text": "A face that shifts and changes as I watch it",
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 4, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 3, "phantom_identity": 2}
+        },
+        {
+          "text": "Pieces of a person that don't quite fit together properly",
+          "traits": {"shattered_mosaic": 5, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 4, "dissolved_self": 2, "fragmented_mirror": 3, "broken_spectrum": 3, "lost_constellation": 4, "splintered_core": 5, "phantom_identity": 2}
+        },
+        {
+          "text": "A reflection that's becoming increasingly transparent",
+          "traits": {"shattered_mosaic": 1, "identity_void": 3, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 1, "phantom_identity": 4}
+        }
+      ]
+    },
+    {
+ "question": "When you think about who you'll be in five years, you feel:",
+ "answers": [
+   {
+     "text": "Overwhelmed because different parts of me are planning completely different lives",
+     "traits": {"shattered_mosaic": 5, "identity_void": 1, "living_kaleidoscope": 4, "scattered_soul": 3, "dissolved_self": 2, "fragmented_mirror": 4, "broken_spectrum": 4, "lost_constellation": 2, "splintered_core": 5, "phantom_identity": 2}
+   },
+   {
+     "text": "Nothing, because there's no me to have a future",
+     "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 1, "lost_constellation": 2, "splintered_core": 1, "phantom_identity": 5}
+   },
+   {
+     "text": "Impossible to predict because I'll probably be someone completely different",
+     "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 4, "phantom_identity": 2}
+   },
+   {
+     "text": "Disconnected because the pieces of me that would make that future don't exist yet",
+     "traits": {"shattered_mosaic": 4, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 3}
+   },
+   {
+     "text": "Uncertain if there will be enough of me left to reach that future",
+     "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 2, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
+   }
+ ]
+},
+   {
+      "question": "Your emotions feel like they:",
+      "answers": [
+        {
+          "text": "Belong to different internal personalities who take turns feeling",
+          "traits": {"shattered_mosaic": 5, "identity_void": 1, "living_kaleidoscope": 4, "scattered_soul": 3, "dissolved_self": 2, "fragmented_mirror": 4, "broken_spectrum": 4, "lost_constellation": 2, "splintered_core": 5, "phantom_identity": 2}
+        },
+        {
+          "text": "Echo in an empty space where a person should be",
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 2, "lost_constellation": 2, "splintered_core": 1, "phantom_identity": 5}
+        },
+        {
+          "text": "Cycle through too quickly for me to identify or process them",
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "Get lost in the gaps between my disconnected pieces",
+          "traits": {"shattered_mosaic": 4, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 3}
+        },
+        {
+          "text": "Fade away before I can fully experience them",
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 2, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
+        }
+      ]
+    },
+    {
+      "question": "Making important decisions is difficult because:",
+      "answers": [
+        {
+          "text": "Different fragments of me want completely contradictory things",
+          "traits": {"shattered_mosaic": 5, "identity_void": 1, "living_kaleidoscope": 4, "scattered_soul": 3, "dissolved_self": 2, "fragmented_mirror": 4, "broken_spectrum": 4, "lost_constellation": 2, "splintered_core": 5, "phantom_identity": 1}
+        },
+        {
+          "text": "There's no coherent me to make the decision",
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 2, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 1, "lost_constellation": 2, "splintered_core": 1, "phantom_identity": 5}
+        },
+        {
+          "text": "My desires and values keep shifting mid-thought",
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "I can't gather all the pieces of myself in one place to decide",
+          "traits": {"shattered_mosaic": 4, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 2}
+        },
+        {
+          "text": "By the time I make a choice, I've dissolved into someone else",
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 3, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
+        }
+      ]
+    },
+    {
+      "question": "In relationships, people often tell you that you:",
+      "answers": [
+        {
+          "text": "Seem like a completely different person from day to day",
+          "traits": {"shattered_mosaic": 5, "identity_void": 2, "living_kaleidoscope": 4, "scattered_soul": 3, "dissolved_self": 3, "fragmented_mirror": 5, "broken_spectrum": 4, "lost_constellation": 2, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "Are impossible to really know or connect with",
+          "traits": {"shattered_mosaic": 2, "identity_void": 5, "living_kaleidoscope": 2, "scattered_soul": 3, "dissolved_self": 4, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 5}
+        },
+        {
+          "text": "Are exhausting because you're always changing",
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "Feel unreachable, like you're always partially elsewhere",
+          "traits": {"shattered_mosaic": 4, "identity_void": 3, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 3}
+        },
+        {
+          "text": "Are becoming increasingly transparent and hard to see",
+          "traits": {"shattered_mosaic": 1, "identity_void": 3, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 1, "phantom_identity": 4}
+        }
+      ]
+    },
+    {
+      "question": "Your thoughts feel like they come from:",
+      "answers": [
+        {
+          "text": "A committee of internal voices that rarely agree",
+          "traits": {"shattered_mosaic": 5, "identity_void": 1, "living_kaleidoscope": 4, "scattered_soul": 3, "dissolved_self": 2, "fragmented_mirror": 4, "broken_spectrum": 4, "lost_constellation": 2, "splintered_core": 5, "phantom_identity": 2}
+        },
+        {
+          "text": "Nowhere - they just appear in empty space",
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 1, "lost_constellation": 2, "splintered_core": 1, "phantom_identity": 5}
+        },
+        {
+          "text": "A spinning wheel that I can't control or stop",
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "Distant places that I can barely reach or gather",
+          "traits": {"shattered_mosaic": 4, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 3}
+        },
+        {
+          "text": "A mist that's becoming thinner and harder to grasp",
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 2, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
+        }
+      ]
+    },
+    {
+      "question": "When you try to understand your core values, you discover:",
+      "answers": [
+        {
+          "text": "They contradict each other because different parts of me believe different things",
+          "traits": {"shattered_mosaic": 5, "identity_void": 1, "living_kaleidoscope": 4, "scattered_soul": 3, "dissolved_self": 2, "fragmented_mirror": 4, "broken_spectrum": 4, "lost_constellation": 2, "splintered_core": 5, "phantom_identity": 2}
+        },
+        {
+          "text": "There's nothing there - just an empty space where values should be",
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 1, "lost_constellation": 2, "splintered_core": 1, "phantom_identity": 5}
+        },
+        {
+          "text": "They shift and change so rapidly I can't pin them down",
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "They're scattered in different places and I can't collect them all",
+          "traits": {"shattered_mosaic": 4, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 2}
+        },
+        {
+          "text": "They're fading away like everything else about me",
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 2, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
+        }
+      ]
+    },
+    {
+      "question": "Your sense of personal history feels like:",
+      "answers": [
+        {
+          "text": "A collection of stories about different people who happened to use my name",
+          "traits": {"shattered_mosaic": 5, "identity_void": 2, "living_kaleidoscope": 3, "scattered_soul": 4, "dissolved_self": 2, "fragmented_mirror": 5, "broken_spectrum": 3, "lost_constellation": 4, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "A blank book with only occasional, meaningless scribbles",
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 1, "lost_constellation": 3, "splintered_core": 1, "phantom_identity": 5}
+        },
+        {
+          "text": "A book constantly rewriting itself in different handwriting",
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 4, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 3, "phantom_identity": 2}
+        },
+        {
+          "text": "Pages torn out and scattered to the wind",
+          "traits": {"shattered_mosaic": 4, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 3}
+        },
+        {
+          "text": "Ink slowly fading until the pages become blank",
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
+        }
+      ]
+    },
+    {
+      "question": "When you're alone with yourself, you feel:",
+      "answers": [
+        {
+          "text": "Crowded by all the different versions of me arguing",
+          "traits": {"shattered_mosaic": 5, "identity_void": 1, "living_kaleidoscope": 4, "scattered_soul": 3, "dissolved_self": 2, "fragmented_mirror": 4, "broken_spectrum": 4, "lost_constellation": 2, "splintered_core": 5, "phantom_identity": 1}
+        },
+        {
+          "text": "Utterly alone because there's no me to be with",
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 1, "lost_constellation": 2, "splintered_core": 1, "phantom_identity": 5}
+        },
+        {
+          "text": "Dizzy from the constant internal shifting and changing",
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "Like I'm searching for pieces of myself that aren't there",
+          "traits": {"shattered_mosaic": 4, "identity_void": 3, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 3}
+        },
+        {
+          "text": "Like I'm slowly becoming more transparent and less real",
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 1, "phantom_identity": 4}
+        }
+      ]
+    },
+    {
+      "question": "Your dreams are:",
+      "answers": [
+        {
+          "text": "Populated by different versions of me who don't recognize each other",
+          "traits": {"shattered_mosaic": 5, "identity_void": 1, "living_kaleidoscope": 4, "scattered_soul": 3, "dissolved_self": 2, "fragmented_mirror": 5, "broken_spectrum": 4, "lost_constellation": 2, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "Empty spaces where I should be but am not",
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 1, "lost_constellation": 2, "splintered_core": 1, "phantom_identity": 5}
+        },
+        {
+          "text": "Constantly shifting landscapes where nothing stays the same",
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 3, "phantom_identity": 2}
+        },
+        {
+          "text": "Fragmented scenes that don't connect to form a coherent story",
+          "traits": {"shattered_mosaic": 4, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 3, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "Becoming increasingly faint until they're just wisps of nothing",
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
+        }
+      ]
+    },
+    {
+      "question": "When someone asks about your goals and aspirations, you realize:",
+      "answers": [
+        {
+          "text": "Different parts of me have completely incompatible dreams",
+          "traits": {"shattered_mosaic": 5, "identity_void": 1, "living_kaleidoscope": 4, "scattered_soul": 3, "dissolved_self": 2, "fragmented_mirror": 4, "broken_spectrum": 4, "lost_constellation": 2, "splintered_core": 5, "phantom_identity": 2}
+        },
+        {
+          "text": "I have no dreams because there's no me to dream them",
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 1, "lost_constellation": 2, "splintered_core": 1, "phantom_identity": 5}
+        },
+        {
+          "text": "My aspirations change completely every time I think about them",
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "My dreams are scattered in different time periods and can't be unified",
+          "traits": {"shattered_mosaic": 4, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 3}
+        },
+        {
+          "text": "Any goals I once had are dissolving into meaninglessness",
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 2, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
+        }
+      ]
+    },
+    {
+      "question": "Your personality feels like:",
+      "answers": [
+        {
+          "text": "A broken mirror reflecting different faces depending on the angle",
+          "traits": {"shattered_mosaic": 4, "identity_void": 1, "living_kaleidoscope": 3, "scattered_soul": 3, "dissolved_self": 2, "fragmented_mirror": 5, "broken_spectrum": 4, "lost_constellation": 2, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "A performance with no actor behind the mask",
+          "traits": {"shattered_mosaic": 2, "identity_void": 5, "living_kaleidoscope": 2, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 2, "splintered_core": 2, "phantom_identity": 5}
+        },
+        {
+          "text": "A kaleidoscope that someone else is constantly turning",
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 4, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 3, "phantom_identity": 2}
+        },
+        {
+          "text": "Puzzle pieces scattered across different tables",
+          "traits": {"shattered_mosaic": 5, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 3, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "Watercolor paint bleeding into nothingness",
+          "traits": {"shattered_mosaic": 1, "identity_void": 3, "living_kaleidoscope": 2, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 3, "splintered_core": 1, "phantom_identity": 4}
+        }
+      ]
+    },
+    {
+      "question": "When you imagine your true self, you see:",
+      "answers": [
+        {
+          "text": "Multiple true selves that can't coexist in the same body",
+          "traits": {"shattered_mosaic": 5, "identity_void": 1, "living_kaleidoscope": 4, "scattered_soul": 3, "dissolved_self": 2, "fragmented_mirror": 4, "broken_spectrum": 4, "lost_constellation": 2, "splintered_core": 5, "phantom_identity": 2}
+        },
+        {
+          "text": "Nothing - because a true self never existed",
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 1, "lost_constellation": 2, "splintered_core": 1, "phantom_identity": 5}
+        },
+        {
+          "text": "A constantly shifting form that I can never pin down",
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 3, "phantom_identity": 2}
+        },
+        {
+          "text": "Fragments scattered so far apart they'll never reunite",
+          "traits": {"shattered_mosaic": 4, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 3}
+        },
+        {
+          "text": "A ghost of someone who once was but is fading away",
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
+        }
+      ]
+    },
+    {
+      "question": "The idea of healing or integration feels:",
+      "answers": [
+        {
+          "text": "Impossible because my pieces are too different to merge",
+          "traits": {"shattered_mosaic": 5, "identity_void": 2, "living_kaleidoscope": 3, "scattered_soul": 4, "dissolved_self": 2, "fragmented_mirror": 4, "broken_spectrum": 3, "lost_constellation": 3, "splintered_core": 5, "phantom_identity": 2}
+        },
+        {
+          "text": "Meaningless because there was never anything whole to heal",
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 1, "lost_constellation": 2, "splintered_core": 1, "phantom_identity": 5}
+        },
+        {
+          "text": "Terrifying because it would mean stopping the constant motion",
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "Hopeless because too many pieces are missing forever",
+          "traits": {"shattered_mosaic": 4, "identity_void": 3, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 3}
+        },
+        {
+          "text": "Pointless because I'm already dissolving into nothing",
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
+        }
+      ]
+    },
+    {
+      "question": "Your deepest fear about your fragmented identity is that:",
+      "answers": [
+        {
+          "text": "The pieces will never learn to coexist peacefully",
+          "traits": {"shattered_mosaic": 5, "identity_void": 1, "living_kaleidoscope": 4, "scattered_soul": 3, "dissolved_self": 2, "fragmented_mirror": 4, "broken_spectrum": 4, "lost_constellation": 2, "splintered_core": 5, "phantom_identity": 1}
+        },
+        {
+          "text": "There's nothing real underneath all the fragments",
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 2, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 1, "lost_constellation": 2, "splintered_core": 1, "phantom_identity": 5}
+        },
+        {
+          "text": "I'll never find stability or consistency in who I am",
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "The most important pieces are lost and can never be recovered",
+          "traits": {"shattered_mosaic": 4, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 3}
+        },
+        {
+          "text": "I'll completely disappear and no one will notice",
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
+        }
+      ]
+    },
+    {
+      "question": "When you look at people who seem to have a solid sense of self, you feel:",
+      "answers": [
+        {
+          "text": "Envious of their ability to be just one consistent person",
+          "traits": {"shattered_mosaic": 5, "identity_void": 2, "living_kaleidoscope": 4, "scattered_soul": 3, "dissolved_self": 3, "fragmented_mirror": 4, "broken_spectrum": 4, "lost_constellation": 3, "splintered_core": 4, "phantom_identity": 2}
+        },
+        {
+          "text": "Like they possess something I was never given",
+          "traits": {"shattered_mosaic": 2, "identity_void": 5, "living_kaleidoscope": 2, "scattered_soul": 3, "dissolved_self": 4, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 5}
+        },
+        {
+          "text": "Confused about how they manage to stay so static",
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 3, "phantom_identity": 2}
+        },
+        {
+          "text": "Longing for the wholeness they've never lost",
+          "traits": {"shattered_mosaic": 4, "identity_void": 3, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 3, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 4, "phantom_identity": 3}
+        },
+        {
+          "text": "Alien, like they're a different species entirely",
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 2, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
+        }
+      ]
+    },
+    {
+      "question": "If you could gather all your fragments in one place, you imagine:",
+      "answers": [
+        {
+          "text": "They would fight each other for dominance",
+          "traits": {"shattered_mosaic": 5, "identity_void": 1, "living_kaleidoscope": 4, "scattered_soul": 3, "dissolved_self": 2, "fragmented_mirror": 4, "broken_spectrum": 4, "lost_constellation": 2, "splintered_core": 5, "phantom_identity": 1}
+        },
+        {
+          "text": "There would be nothing there to gather",
+          "traits": {"shattered_mosaic": 1, "identity_void": 5, "living_kaleidoscope": 1, "scattered_soul": 2, "dissolved_self": 4, "fragmented_mirror": 1, "broken_spectrum": 1, "lost_constellation": 2, "splintered_core": 1, "phantom_identity": 5}
+        },
+        {
+          "text": "They would immediately scatter again in new directions",
+          "traits": {"shattered_mosaic": 3, "identity_void": 1, "living_kaleidoscope": 5, "scattered_soul": 2, "dissolved_self": 3, "fragmented_mirror": 3, "broken_spectrum": 5, "lost_constellation": 2, "splintered_core": 3, "phantom_identity": 2}
+        },
+        {
+          "text": "Most of the important pieces would still be missing",
+          "traits": {"shattered_mosaic": 4, "identity_void": 2, "living_kaleidoscope": 2, "scattered_soul": 5, "dissolved_self": 2, "fragmented_mirror": 2, "broken_spectrum": 3, "lost_constellation": 5, "splintered_core": 3, "phantom_identity": 3}
+        },
+        {
+          "text": "They would dissolve the moment I tried to touch them",
+          "traits": {"shattered_mosaic": 2, "identity_void": 3, "living_kaleidoscope": 2, "scattered_soul": 2, "dissolved_self": 5, "fragmented_mirror": 2, "broken_spectrum": 2, "lost_constellation": 3, "splintered_core": 2, "phantom_identity": 4}
         }
       ]
     }
   ],
-  "personality_types": {
+  "results": {
     "shattered_mosaic": {
       "title": "The Shattered Mosaic",
-      "subtitle": "Beautiful in your brokenness, coherent in your contradictions",
-      "basic_analysis": "You exist as a collection of distinct, contradictory pieces that somehow create meaning together. Like a mosaic made from broken glass, each fragment catches light differently, but when viewed as a whole, they form something unexpectedly beautiful. Your identity isn't unified, but it's rich with complexity. Different aspects of yourself emerge in different situations, each authentic but incompatible with the others. You've learned to navigate internal conflicts that would break others, finding strange harmony in dissonance.",
-      "detailed_analysis": [
-        "Your fragmentation isn't random chaos - it's organized complexity. Each piece of your identity serves a purpose, holds memories, carries wisdom from different chapters of your life. When situations call for leadership, that fragment emerges. When tenderness is needed, a different aspect takes the foreground. You're not one person but a council of selves who've learned to share the same body.",
-        "The exhaustion you feel comes from constant internal negotiation. Decision-making requires consensus among parts of yourself that fundamentally disagree about priorities, values, and desires. You might want both solitude and connection, stability and adventure, success and rebellion - not in sequence, but simultaneously. This creates a rich inner life but makes simple choices feel impossibly complex.",
-        "In relationships, people experience you as mysteriously multifaceted. They fall in love with one aspect of you, then feel confused or betrayed when other facets emerge. You're accused of being inconsistent, but you're actually being completely honest - just honest about multiple truths that coexist within you. Your challenge is finding partners who can love the whole mosaic, not just their favorite pieces.",
-        "Your path to integration isn't about choosing one fragment over others or forcing them to merge. It's about becoming a skilled conductor of your internal orchestra, learning when to let different aspects lead while maintaining awareness of the whole composition. Your fragmentation, when owned and orchestrated, becomes a superpower of adaptability and depth."
-      ]
+      "description": "You exist as a collection of distinct, contradictory pieces that somehow create meaning together. Like a mosaic made from broken glass, each fragment catches light differently, but when viewed as a whole, they form something unexpectedly beautiful.",
+      "extended": "Your fragmentation isn't random chaos - it's organized complexity. Each piece of your identity serves a purpose, holds memories, carries wisdom from different chapters of your life. When situations call for leadership, that fragment emerges. When tenderness is needed, a different aspect takes the foreground. You're not one person but a council of selves who've learned to share the same body.\n\nThe exhaustion you feel comes from constant internal negotiation. Decision-making requires consensus among parts of yourself that fundamentally disagree about priorities, values, and desires. You might want both solitude and connection, stability and adventure, success and rebellion - not in sequence, but simultaneously. This creates a rich inner life but makes simple choices feel impossibly complex.\n\nIn relationships, people experience you as mysteriously multifaceted. They fall in love with one aspect of you, then feel confused or betrayed when other facets emerge. You're accused of being inconsistent, but you're actually being completely honest - just honest about multiple truths that coexist within you. Your challenge is finding partners who can love the whole mosaic, not just their favorite pieces.\n\nYour path to integration isn't about choosing one fragment over others or forcing them to merge. It's about becoming a skilled conductor of your internal orchestra, learning when to let different aspects lead while maintaining awareness of the whole composition. Your fragmentation, when owned and orchestrated, becomes a superpower of adaptability and depth."
     },
     "identity_void": {
       "title": "The Identity Void",
-      "subtitle": "A perfect absence where a self should be",
-      "basic_analysis": "You don't have too many identities - you have none. Where others experience a core self, you find empty space. This isn't numbness or disconnection; it's fundamental absence. You function perfectly in the world, meeting expectations and playing roles, but there's no essential 'you' beneath the performance. You're a human-shaped hollow, a perfectly functioning system with no operator at the controls. This creates a unique form of existential freedom that's both terrifying and liberating.",
-      "detailed_analysis": [
-        "Your void isn't depression or trauma-induced emptiness - it's your natural state. While others struggle with identity conflicts, you observe the whole concept of 'self' with bemused detachment. You can adopt any personality, pursue any goal, become anyone - not because you're adaptable, but because there's no fixed self to constrain your choices. This makes you extraordinarily free but also profoundly untethered.",
-        "The strangest part of your experience is watching others struggle with questions that simply don't apply to you. 'Who am I?' has no answer because there's no one there to be anyone. 'What do I want?' becomes meaningless when there's no entity to have desires. You navigate the world through logic, habit, and external cues rather than internal drives or authentic preferences.",
-        "In relationships, you become whatever the situation requires, not through manipulation but through natural adaptation. You can be the perfect partner, friend, or colleague because you have no competing agenda, no ego to defend, no authentic self to compromise. Yet people often sense something missing, a quality of presence that exists in others but not in you. They feel like they're embracing smoke.",
-        "Your journey isn't about finding or creating an identity - it's about learning to inhabit the void consciously. Some of the most spiritually advanced humans report similar experiences of egolessness. Your challenge is distinguishing between pathological emptiness and transcendent spaciousness, learning to dwell in the mystery of existence without existence."
-      ]
+      "description": "You don't have too many identities - you have none. Where others experience a core self, you find empty space. This isn't numbness or disconnection; it's fundamental absence. You function perfectly in the world, meeting expectations and playing roles, but there's no essential 'you' beneath the performance.",
+      "extended": "Your void isn't depression or trauma-induced emptiness - it's your natural state. While others struggle with identity conflicts, you observe the whole concept of 'self' with bemused detachment. You can adopt any personality, pursue any goal, become anyone - not because you're adaptable, but because there's no fixed self to constrain your choices. This makes you extraordinarily free but also profoundly untethered.\n\nThe strangest part of your experience is watching others struggle with questions that simply don't apply to you. 'Who am I?' has no answer because there's no one there to be anyone. 'What do I want?' becomes meaningless when there's no entity to have desires. You navigate the world through logic, habit, and external cues rather than internal drives or authentic preferences.\n\nIn relationships, you become whatever the situation requires, not through manipulation but through natural adaptation. You can be the perfect partner, friend, or colleague because you have no competing agenda, no ego to defend, no authentic self to compromise. Yet people often sense something missing, a quality of presence that exists in others but not in you. They feel like they're embracing smoke.\n\nYour journey isn't about finding or creating an identity - it's about learning to inhabit the void consciously. Some of the most spiritually advanced humans report similar experiences of egolessness. Your challenge is distinguishing between pathological emptiness and transcendent spaciousness, learning to dwell in the mystery of existence without existence."
     },
     "living_kaleidoscope": {
       "title": "The Living Kaleidoscope",
-      "subtitle": "In constant motion, never the same pattern twice",
-      "basic_analysis": "You don't just have multiple identities - you ARE constant transformation. Like a kaleidoscope that never stops turning, you exist in perpetual motion, creating new patterns of selfhood moment by moment. Your identity isn't fragmented; it's fluid. You don't struggle with who you are; you flow between different configurations of being. Stability isn't just difficult for you - it's antithetical to your nature. You are change incarnate, which makes you both fascinating and exhausting to be around.",
-      "detailed_analysis": [
-        "Your experience of selfhood is like being a shape-shifter whose form responds to every breeze. A conversation can trigger complete personality reorganization. A change in environment rebuilds your entire value system. You don't wear masks - you become different people organically and completely. Each transformation feels authentic in the moment, though it bears no resemblance to who you were an hour ago.",
-        "The beauty of your nature is its responsiveness and creativity. You're never boring, never predictable, never stuck in old patterns. You can access states of being that others only dream of, experience perspectives that expand your consciousness in real-time. You're evolution in action, consciousness exploring its own possibilities without the limitation of fixed form.",
-        "The challenge is maintaining any sense of continuity or building lasting relationships. How do you make commitments when the you making the promise might not exist tomorrow? How do others connect with someone who's fundamentally different each time they meet? You create a trail of confused, fascinated, and sometimes broken hearts who loved someone who's no longer you.",
-        "Your growth path involves learning to surf the changes rather than being swept away by them. You can develop awareness that transcends the shifting contents of your identity - a witness consciousness that remains present through all transformations. This allows you to maintain relationships and commitments while honoring your fluid nature."
-      ]
+      "description": "You don't just have multiple identities - you ARE constant transformation. Like a kaleidoscope that never stops turning, you exist in perpetual motion, creating new patterns of selfhood moment by moment. Your identity isn't fragmented; it's fluid.",
+      "extended": "Your experience of selfhood is like being a shape-shifter whose form responds to every breeze. A conversation can trigger complete personality reorganization. A change in environment rebuilds your entire value system. You don't wear masks - you become different people organically and completely. Each transformation feels authentic in the moment, though it bears no resemblance to who you were an hour ago.\n\nThe beauty of your nature is its responsiveness and creativity. You're never boring, never predictable, never stuck in old patterns. You can access states of being that others only dream of, experience perspectives that expand your consciousness in real-time. You're evolution in action, consciousness exploring its own possibilities without the limitation of fixed form.\n\nThe challenge is maintaining any sense of continuity or building lasting relationships. How do you make commitments when the you making the promise might not exist tomorrow? How do others connect with someone who's fundamentally different each time they meet? You create a trail of confused, fascinated, and sometimes broken hearts who loved someone who's no longer you.\n\nYour growth path involves learning to surf the changes rather than being swept away by them. You can develop awareness that transcends the shifting contents of your identity - a witness consciousness that remains present through all transformations. This allows you to maintain relationships and commitments while honoring your fluid nature."
     },
     "scattered_soul": {
       "title": "The Scattered Soul",
-      "subtitle": "Pieces of you exist in distant galaxies",
-      "basic_analysis": "Your identity isn't just fragmented - it's dispersed across time, space, and possibility. Parts of you got lost in childhood traumas, other pieces are locked in dissociative episodes, some aspects live in other people's projections, and essential elements exist only in dreams you can barely remember. You're not broken; you're scattered. The work isn't putting pieces back together but rather conducting a cosmic search and rescue mission for the parts of yourself that have drifted too far from home.",
-      "detailed_analysis": [
-        "Your fragmentation has a geographical quality - you can sense that parts of you exist 'somewhere else' but can't locate them precisely. A piece of your joy is trapped in a memory you can't access. Your capacity for trust is buried under years of protection mechanisms. Your creativity is locked in a room you haven't found the key to. You live with the constant sense that you're incomplete, that the most important parts of who you are exist just beyond your reach.",
-        "The exhausting part of your experience is the constant searching. You feel like a detective investigating your own disappearance, following cold trails and false leads in pursuit of missing pieces. Sometimes you glimpse them - in dreams, in moments of unexpected emotion, in the feeling that someone else is expressing a part of you that you've lost. But grasping them proves impossible.",
-        "In relationships, people often feel like they're dating a mystery, someone who's partially absent even when physically present. You long for connection but can't offer your whole self because you don't have access to it. This creates relationships that feel incomplete, leaving both you and your partners wondering what's missing, sensing depth but unable to reach it.",
-        "Your healing journey involves learning to call your scattered pieces home. This requires developing safe internal space where lost aspects can return, trauma work to free trapped parts, and sometimes grieving pieces that may be gone forever. Integration isn't about forcing reunion but creating conditions where your scattered soul can choose to reunite."
-      ]
+      "description": "Your identity isn't just fragmented - it's dispersed across time, space, and possibility. Parts of you got lost in childhood traumas, other pieces are locked in dissociative episodes, some aspects live in other people's projections, and essential elements exist only in dreams you can barely remember.",
+      "extended": "Your fragmentation has a geographical quality - you can sense that parts of you exist 'somewhere else' but can't locate them precisely. A piece of your joy is trapped in a memory you can't access. Your capacity for trust is buried under years of protection mechanisms. Your creativity is locked in a room you haven't found the key to. You live with the constant sense that you're incomplete, that the most important parts of who you are exist just beyond your reach.\n\nThe exhausting part of your experience is the constant searching. You feel like a detective investigating your own disappearance, following cold trails and false leads in pursuit of missing pieces. Sometimes you glimpse them - in dreams, in moments of unexpected emotion, in the feeling that someone else is expressing a part of you that you've lost. But grasping them proves impossible.\n\nIn relationships, people often feel like they're dating a mystery, someone who's partially absent even when physically present. You long for connection but can't offer your whole self because you don't have access to it. This creates relationships that feel incomplete, leaving both you and your partners wondering what's missing, sensing depth but unable to reach it.\n\nYour healing journey involves learning to call your scattered pieces home. This requires developing safe internal space where lost aspects can return, trauma work to free trapped parts, and sometimes grieving pieces that may be gone forever. Integration isn't about forcing reunion but creating conditions where your scattered soul can choose to reunite."
     },
     "dissolved_self": {
       "title": "The Dissolved Self",
-      "subtitle": "Slowly evaporating into the atmosphere",
-      "basic_analysis": "Your identity isn't fragmented - it's dissolving. Like sugar stirred into water, you're dispersing into smaller and smaller particles until soon there will be nothing discrete left to identify. This isn't violent shattering but gentle dissolution, not explosion but evaporation. You feel yourself becoming increasingly transparent, less solid, more atmosphere than person. Each day you exist a little less concretely than the day before, fading like a photograph left in sunlight.",
-      "detailed_analysis": [
-        "Your dissolution is so gradual you might not notice it happening. Memories become vague, preferences lose their intensity, your voice gets quieter in conversations. You agree more often not because you're people-pleasing but because you have fewer solid opinions to defend. Your boundaries become permeable, allowing others' emotions and energies to flow through you without resistance.",
-        "The strange comfort of your dissolution is its lack of conflict. You don't struggle with identity crises because you're moving beyond identity entirely. You don't fight internal battles because there's increasingly less of you to battle with. There's a peaceful quality to your fading that others might mistake for serenity, but it's actually the calm of non-existence approaching.",
-        "In relationships, you become increasingly ghostly. Partners may feel like they're hugging mist, trying to connect with someone who's already half-gone. You can still love, but it's a diluted love, spread thin across too much space. Your care for others remains but loses its personal quality, becoming more like general benevolence than specific attachment.",
-        "Your path isn't about stopping the dissolution but understanding its nature. Sometimes this process is pathological - trauma-induced dissociation that needs intervention. Sometimes it's spiritual - the ego dissolving into larger consciousness. Learning to distinguish between these determines whether your fading is movement toward death or transcendence."
-      ]
+      "description": "Your identity isn't fragmented - it's dissolving. Like sugar stirred into water, you're dispersing into smaller and smaller particles until soon there will be nothing discrete left to identify. This isn't violent shattering but gentle dissolution.",
+      "extended": "Your dissolution is so gradual you might not notice it happening. Memories become vague, preferences lose their intensity, your voice gets quieter in conversations. You agree more often not because you're people-pleasing but because you have fewer solid opinions to defend. Your boundaries become permeable, allowing others' emotions and energies to flow through you without resistance.\n\nThe strange comfort of your dissolution is its lack of conflict. You don't struggle with identity crises because you're moving beyond identity entirely. You don't fight internal battles because there's increasingly less of you to battle with. There's a peaceful quality to your fading that others might mistake for serenity, but it's actually the calm of non-existence approaching.\n\nIn relationships, you become increasingly ghostly. Partners may feel like they're hugging mist, trying to connect with someone who's already half-gone. You can still love, but it's a diluted love, spread thin across too much space. Your care for others remains but loses its personal quality, becoming more like general benevolence than specific attachment.\n\nYour path isn't about stopping the dissolution but understanding its nature. Sometimes this process is pathological - trauma-induced dissociation that needs intervention. Sometimes it's spiritual - the ego dissolving into larger consciousness. Learning to distinguish between these determines whether your fading is movement toward death or transcendence."
     },
     "fragmented_mirror": {
       "title": "The Fragmented Mirror",
-      "subtitle": "Each crack reflects a different version of reality",
-      "basic_analysis": "You experience yourself as a broken mirror where each fragment shows a different reflection, a different version of who you might be. Looking at yourself is disorienting because you never see the same person twice. Each piece of your shattered self-perception reflects back someone else - sometimes a child, sometimes a warrior, sometimes a ghost. You don't have one identity crisis; you have multiple identity crises happening simultaneously, each shard showing a different existential dilemma.",
-      "detailed_analysis": [
-        "Each crack in your mirror-self represents a break in your continuity - moments when your sense of self split, creating new fragments that reflect different truths. One piece shows who you were before trauma, another who you became to survive, yet another who you might have been in different circumstances. You contain multitudes not by choice but by fracture, each reflection equally real but impossible to synthesize.",
-        "The maddening aspect of your fragmentation is the constant shifting perspectives. One moment you see yourself as powerful, the next as helpless, then as wise, then as lost. Your self-image changes not just day to day but moment to moment, depending on which crack you're looking through. This makes self-love nearly impossible because you can't maintain a consistent view of who you're supposed to love.",
-        "In relationships, you unconsciously invite others to see you through their preferred fragment. Someone might fall in love with your vulnerable piece while another is attracted to your strength. But when the mirror turns and they see a different reflection, they feel deceived. You're not lying - you're just fractured in ways that make consistency impossible.",
-        "Healing involves learning to see your fragmented reflection as abstract art rather than realistic portraiture. Each crack tells a story, each fragment holds wisdom, each reflection reveals a facet of your complexity. Integration doesn't mean becoming a smooth, single surface but learning to appreciate the unique beauty of a kaleidoscopic self-image."
-      ]
+      "description": "You experience yourself as a broken mirror where each fragment shows a different reflection, a different version of who you might be. Looking at yourself is disorienting because you never see the same person twice.",
+      "extended": "Each crack in your mirror-self represents a break in your continuity - moments when your sense of self split, creating new fragments that reflect different truths. One piece shows who you were before trauma, another who you became to survive, yet another who you might have been in different circumstances. You contain multitudes not by choice but by fracture, each reflection equally real but impossible to synthesize.\n\nThe maddening aspect of your fragmentation is the constant shifting perspectives. One moment you see yourself as powerful, the next as helpless, then as wise, then as lost. Your self-image changes not just day to day but moment to moment, depending on which crack you're looking through. This makes self-love nearly impossible because you can't maintain a consistent view of who you're supposed to love.\n\nIn relationships, you unconsciously invite others to see you through their preferred fragment. Someone might fall in love with your vulnerable piece while another is attracted to your strength. But when the mirror turns and they see a different reflection, they feel deceived. You're not lying - you're just fractured in ways that make consistency impossible.\n\nHealing involves learning to see your fragmented reflection as abstract art rather than realistic portraiture. Each crack tells a story, each fragment holds wisdom, each reflection reveals a facet of your complexity. Integration doesn't mean becoming a smooth, single surface but learning to appreciate the unique beauty of a kaleidoscopic self-image."
     },
     "broken_spectrum": {
       "title": "The Broken Spectrum",
-      "subtitle": "A rainbow shattered into incompatible colors",
-      "basic_analysis": "Your identity is like white light that's been split through a prism, but instead of creating a harmonious rainbow, the colors have scattered and now refuse to combine. Each aspect of yourself represents a different wavelength of your being - your anger is pure red, your sadness deep blue, your joy bright yellow - but they can't blend back into the white light of unified identity. You experience yourself as separate, intense colors that clash rather than complement, creating discord instead of harmony.",
-      "detailed_analysis": [
-        "Each color in your broken spectrum burns with pure intensity because it's isolated from the others. Your anger isn't tempered by compassion, your love isn't balanced by wisdom, your fear isn't moderated by courage. You feel everything at full saturation, which makes your emotional life exhausting and overwhelming. You swing from one extreme to another without the transitional shades that make change gentle.",
-        "The beauty of your spectrum is its intensity and clarity. When you're happy, you experience pure, undiluted joy. When you're creative, you access unadulterated inspiration. When you love, it's with the full force of that color with no competing wavelengths to diminish its power. You know emotions in their essential form, which gives you incredible depth and authenticity.",
-        "The challenge is that others experience you as emotionally unpredictable and overwhelming. They might love your brilliant yellow joy but feel burned by your red rage. They can't understand how someone can be so tender one moment and so fierce the next. They're looking for a unified person, but you're offering them separate experiences that don't seem to belong to the same identity.",
-        "Your path to integration involves learning to be a conscious artist of your own spectrum, blending your intense colors into new combinations. You don't need to dim your colors but rather learn to mix them intentionally, creating purple from your red anger and blue sadness, green from your blue depth and yellow joy. Your broken spectrum can become a masterpiece of emotional complexity."
-      ]
+      "description": "Your identity is like white light that's been split through a prism, but instead of creating a harmonious rainbow, the colors have scattered and now refuse to combine. Each aspect of yourself represents a different wavelength of your being.",
+      "extended": "Each color in your broken spectrum burns with pure intensity because it's isolated from the others. Your anger isn't tempered by compassion, your love isn't balanced by wisdom, your fear isn't moderated by courage. You feel everything at full saturation, which makes your emotional life exhausting and overwhelming. You swing from one extreme to another without the transitional shades that make change gentle.\n\nThe beauty of your spectrum is its intensity and clarity. When you're happy, you experience pure, undiluted joy. When you're creative, you access unadulterated inspiration. When you love, it's with the full force of that color with no competing wavelengths to diminish its power. You know emotions in their essential form, which gives you incredible depth and authenticity.\n\nThe challenge is that others experience you as emotionally unpredictable and overwhelming. They might love your brilliant yellow joy but feel burned by your red rage. They can't understand how someone can be so tender one moment and so fierce the next. They're looking for a unified person, but you're offering them separate experiences that don't seem to belong to the same identity.\n\nYour path to integration involves learning to be a conscious artist of your own spectrum, blending your intense colors into new combinations. You don't need to dim your colors but rather learn to mix them intentionally, creating purple from your red anger and blue sadness, green from your blue depth and yellow joy. Your broken spectrum can become a masterpiece of emotional complexity."
     },
     "lost_constellation": {
       "title": "The Lost Constellation",
-      "subtitle": "Stars scattered so far apart they've forgotten their pattern",
-      "basic_analysis": "You once had a clear pattern to your identity - like a constellation whose stars told a coherent story. But cosmic forces have scattered your stars across impossible distances, and now you can barely see the connections that once made you a recognizable shape in the sky of existence. Your identity points exist but are so far apart that the lines between them have become invisible. You remember being someone with a clear form, but now you're just isolated points of light drifting in space.",
-      "detailed_analysis": [
-        "Each star in your scattered constellation still burns with the same light it always had - your kindness, your intelligence, your creativity, your strength - but they're so dispersed that they no longer form a picture others can recognize. You might feel compassionate on Tuesday, brilliant on Thursday, and strong on Sunday, but these qualities exist as separate events rather than aspects of a unified person.",
-        "The loneliness of your experience is profound because you can sense that you once had shape, once made sense as a complete picture. You have glimpses of your former constellation in old photographs, in stories others tell about who you used to be, in moments when the stars align briefly and you remember what it felt like to be a whole person with a clear identity.",
-        "Others experience you as inconsistent or fragmented, but you're not broken - you're just spread out. Each encounter they have with one of your stars is genuine, but they can't see the cosmic pattern that connects all your points of light. They're expecting a constellation but getting individual stars, which leaves them confused about who you really are.",
-        "Your healing journey involves learning to navigate by your scattered stars rather than trying to force them back into their original pattern. You might never reform your old constellation, but you can create new patterns from where your stars have drifted. Your identity can be a new shape in the sky, drawn with the same stars but forming a different story about who you've become."
-      ]
+      "description": "You once had a clear pattern to your identity - like a constellation whose stars told a coherent story. But cosmic forces have scattered your stars across impossible distances, and now you can barely see the connections that once made you a recognizable shape.",
+      "extended": "Each star in your scattered constellation still burns with the same light it always had - your kindness, your intelligence, your creativity, your strength - but they're so dispersed that they no longer form a picture others can recognize. You might feel compassionate on Tuesday, brilliant on Thursday, and strong on Sunday, but these qualities exist as separate events rather than aspects of a unified person.\n\nThe loneliness of your experience is profound because you can sense that you once had shape, once made sense as a complete picture. You have glimpses of your former constellation in old photographs, in stories others tell about who you used to be, in moments when the stars align briefly and you remember what it felt like to be a whole person with a clear identity.\n\nOthers experience you as inconsistent or fragmented, but you're not broken - you're just spread out. Each encounter they have with one of your stars is genuine, but they can't see the cosmic pattern that connects all your points of light. They're expecting a constellation but getting individual stars, which leaves them confused about who you really are.\n\nYour healing journey involves learning to navigate by your scattered stars rather than trying to force them back into their original pattern. You might never reform your old constellation, but you can create new patterns from where your stars have drifted. Your identity can be a new shape in the sky, drawn with the same stars but forming a different story about who you've become."
     },
     "splintered_core": {
       "title": "The Splintered Core",
-      "subtitle": "Broken at the center where your essence should be",
-      "basic_analysis": "Your fragmentation isn't scattered across your periphery - it runs through your absolute center. Where others have a solid core of self, you have a crack that goes all the way through. This central splinter affects everything else about you, creating fracture lines that radiate outward into every aspect of your identity. You're not multiple people; you're one person with a fundamental break at your foundation, which makes everything else unstable and contradictory.",
-      "detailed_analysis": [
-        "The splintering at your core creates a constant internal earthquake that shakes everything built on top of it. Your values, relationships, goals, and dreams all shift and crack because they're built on an unstable foundation. This isn't your fault - something essential was damaged early in your development, creating a fault line that runs through your entire sense of self.",
-        "The exhausting part of your experience is that you can never build anything that lasts. Just when you think you've established a solid identity, the core splinter shifts and everything crumbles. You might commit to being gentle, then the crack moves and you become fierce. You might dedicate yourself to success, then the fault line shifts and ambition becomes meaningless.",
-        "In relationships, people experience you as deeply authentic but fundamentally unstable. They can sense the crack in you, which makes them want to help or heal you, but they also feel the ground shifting beneath their feet when they try to build something lasting with you. Your love is real but your foundation is unreliable.",
-        "Healing your splintered core isn't about fixing the crack - it might be permanent damage. Instead, it's about learning to build an identity that incorporates the fault line, like Japanese kintsugi that highlights cracks with gold. Your brokenness at the center can become a source of flexibility, depth, and unique beauty that rigid, unbroken people can never achieve."
-      ]
+      "description": "Your fragmentation isn't scattered across your periphery - it runs through your absolute center. Where others have a solid core of self, you have a crack that goes all the way through. This central splinter affects everything else about you.",
+      "extended": "The splintering at your core creates a constant internal earthquake that shakes everything built on top of it. Your values, relationships, goals, and dreams all shift and crack because they're built on an unstable foundation. This isn't your fault - something essential was damaged early in your development, creating a fault line that runs through your entire sense of self.\n\nThe exhausting part of your experience is that you can never build anything that lasts. Just when you think you've established a solid identity, the core splinter shifts and everything crumbles. You might commit to being gentle, then the crack moves and you become fierce. You might dedicate yourself to success, then the fault line shifts and ambition becomes meaningless.\n\nIn relationships, people experience you as deeply authentic but fundamentally unstable. They can sense the crack in you, which makes them want to help or heal you, but they also feel the ground shifting beneath their feet when they try to build something lasting with you. Your love is real but your foundation is unreliable.\n\nHealing your splintered core isn't about fixing the crack - it might be permanent damage. Instead, it's about learning to build an identity that incorporates the fault line, like Japanese kintsugi that highlights cracks with gold. Your brokenness at the center can become a source of flexibility, depth, and unique beauty that rigid, unbroken people can never achieve."
     },
     "phantom_identity": {
       "title": "The Phantom Identity",
-      "subtitle": "The ghost of someone who might have existed",
-      "basic_analysis": "You feel like a phantom, the ghost of an identity that never quite formed or was lost so early you barely remember having it. You're not empty like the Void - you're haunted by the presence of an absence, constantly sensing the shape of who you might have been if things had been different. You go through life feeling like you're impersonating a person, following the script of someone who should exist but doesn't quite. Others see you as mysterious or elusive because you are - you're the shadow of someone who never had the chance to become real.",
-      "detailed_analysis": [
-        "Your phantom nature means you're always slightly out of phase with reality. You participate in life but never quite feel like you're fully there. Others experience you as present but somehow untouchable, real but insubstantial. You can interact, love, work, and play, but it all feels like you're watching someone else live your life, following motions that belong to a person you've never quite become.",
-        "The haunting quality of your existence comes from sensing what's missing without being able to name it. You feel like you're living in the outline of an identity that was never filled in, following the blueprint of a self that was never built. This creates a profound loneliness - not because you're alone, but because you're not quite real enough to be genuinely present with others.",
-        "In relationships, people fall in love with your mystery and potential, but they gradually realize they're embracing a beautiful ghost. You can't give them the solid presence they need because you don't possess it yourself. You're not withholding - you genuinely don't have the substance others expect from a relationship because you've never developed full reality.",
-        "Your path to becoming real involves accepting your phantom nature while gradually adding substance to your ghostly form. This might mean grieving the person you never got to be while slowly building the one you might become. You're not trying to resurrect a dead identity but learning to incarnate for the first time, becoming real through conscious choice rather than natural development."
-      ]
+      "description": "You feel like a phantom, the ghost of an identity that never quite formed or was lost so early you barely remember having it. You're not empty like the Void - you're haunted by the presence of an absence.",
+      "extended": "Your phantom nature means you're always slightly out of phase with reality. You participate in life but never quite feel like you're fully there. Others experience you as present but somehow untouchable, real but insubstantial. You can interact, love, work, and play, but it all feels like you're watching someone else live your life, following motions that belong to a person you've never quite become.\n\nThe haunting quality of your existence comes from sensing what's missing without being able to name it. You feel like you're living in the outline of an identity that was never filled in, following the blueprint of a self that was never built. This creates a profound loneliness - not because you're alone, but because you're not quite real enough to be genuinely present with others.\n\nIn relationships, people fall in love with your mystery and potential, but they gradually realize they're embracing a beautiful ghost. You can't give them the solid presence they need because you don't possess it yourself. You're not withholding - you genuinely don't have the substance others expect from a relationship because you've never developed full reality.\n\nYour path to becoming real involves accepting your phantom nature while gradually adding substance to your ghostly form. This might mean grieving the person you never got to be while slowly building the one you might become. You're not trying to resurrect a dead identity but learning to incarnate for the first time, becoming real through conscious choice rather than natural development."
     }
   }
 }
-            "fragmented_mirror": 1,
-            "broken_spectrum": 2,
-            "lost_constellation": 2,
-            "splintered_core": 2,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q1a3",
-          "text": "Overwhelm as different parts of you pull in different directions",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 4,
-            "dissolved_self": 2,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 4,
-            "lost_constellation": 3,
-            "splintered_core": 5,
-            "phantom_identity": 1
-          }
-        },
-        {
-          "id": "q1a4",
-          "text": "Panic as you realize you can't remember who you really are",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 3,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 4,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 4
-          }
-        },
-        {
-          "id": "q1a5",
-          "text": "Relief that you can continue pretending to be someone coherent",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 2,
-            "living_kaleidoscope": 3,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 2,
-            "lost_constellation": 2,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q2",
-      "text": "Your memories feel like they belong to:",
-      "answers": [
-        {
-          "id": "q2a1",
-          "text": "Different people who happened to share your body",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 2,
-            "living_kaleidoscope": 4,
-            "scattered_soul": 4,
-            "dissolved_self": 3,
-            "fragmented_mirror": 5,
-            "broken_spectrum": 4,
-            "lost_constellation": 3,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q2a2",
-          "text": "No one in particular - just floating experiences without an owner",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 3,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 2,
-            "lost_constellation": 2,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q2a3",
-          "text": "A constantly shifting person whose identity changes with each recollection",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 3,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q2a4",
-          "text": "Fragments scattered across time with huge gaps in between",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 2,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 3
-          }
-        },
-        {
-          "id": "q2a5",
-          "text": "Someone who was slowly fading away until they became transparent",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q3",
-      "text": "When someone asks you to describe yourself, your immediate internal reaction is:",
-      "answers": [
-        {
-          "id": "q3a1",
-          "text": "Panic because I'd have to choose which contradictory piece to present",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 1,
-            "living_kaleidoscope": 4,
-            "scattered_soul": 3,
-            "dissolved_self": 2,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 4,
-            "lost_constellation": 2,
-            "splintered_core": 5,
-            "phantom_identity": 1
-          }
-        },
-        {
-          "id": "q3a2",
-          "text": "Emptiness because there's literally nothing there to describe",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 1,
-            "lost_constellation": 2,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q3a3",
-          "text": "Vertigo as my sense of self spins through too many possibilities",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q3a4",
-          "text": "Frustration because the words I need are scattered and incomplete",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 2,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q3a5",
-          "text": "The sense that I'm describing someone who doesn't really exist",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q4",
-      "text": "Your sense of continuity from childhood to now feels like:",
-      "answers": [
-        {
-          "id": "q4a1",
-          "text": "A broken chain where each link is a completely different person",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 2,
-            "living_kaleidoscope": 3,
-            "scattered_soul": 4,
-            "dissolved_self": 2,
-            "fragmented_mirror": 5,
-            "broken_spectrum": 3,
-            "lost_constellation": 4,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q4a2",
-          "text": "A void with occasional blips of temporary existence",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q4a3",
-          "text": "A movie where the protagonist keeps changing mid-scene",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 3,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q4a4",
-          "text": "Islands of memory separated by oceans of forgetting",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 3,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 3
-          }
-        },
-        {
-          "id": "q4a5",
-          "text": "A photograph that's been slowly dissolving in water",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q5",
-      "text": "When you look in the mirror, what you see is:",
-      "answers": [
-        {
-          "id": "q5a1",
-          "text": "A face that belongs to multiple people who share the same features",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 1,
-            "living_kaleidoscope": 3,
-            "scattered_soul": 3,
-            "dissolved_self": 2,
-            "fragmented_mirror": 5,
-            "broken_spectrum": 4,
-            "lost_constellation": 2,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q5a2",
-          "text": "A stranger wearing a mask of my features",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 4,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 3,
-            "dissolved_self": 3,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q5a3",
-          "text": "A face that shifts and changes as I watch it",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 3,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q5a4",
-          "text": "Pieces of a person that don't quite fit together properly",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 2,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 4,
-            "dissolved_self": 2,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 3,
-            "lost_constellation": 4,
-            "splintered_core": 5,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q5a5",
-          "text": "A reflection that's becoming increasingly transparent",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 3,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 1,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q6",
-      "text": "Your emotions feel like they:",
-      "answers": [
-        {
-          "id": "q6a1",
-          "text": "Belong to different internal personalities who take turns feeling",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 1,
-            "living_kaleidoscope": 4,
-            "scattered_soul": 3,
-            "dissolved_self": 2,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 4,
-            "lost_constellation": 2,
-            "splintered_core": 5,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q6a2",
-          "text": "Echo in an empty space where a person should be",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 2,
-            "lost_constellation": 2,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q6a3",
-          "text": "Cycle through too quickly for me to identify or process them",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q6a4",
-          "text": "Get lost in the gaps between my disconnected pieces",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 2,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 3
-          }
-        },
-        {
-          "id": "q6a5",
-          "text": "Fade away before I can fully experience them",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q7",
-      "text": "Making important decisions is difficult because:",
-      "answers": [
-        {
-          "id": "q7a1",
-          "text": "Different fragments of me want completely contradictory things",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 1,
-            "living_kaleidoscope": 4,
-            "scattered_soul": 3,
-            "dissolved_self": 2,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 4,
-            "lost_constellation": 2,
-            "splintered_core": 5,
-            "phantom_identity": 1
-          }
-        },
-        {
-          "id": "q7a2",
-          "text": "There's no coherent 'me' to make the decision",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 1,
-            "lost_constellation": 2,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q7a3",
-          "text": "My desires and values keep shifting mid-thought",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q7a4",
-          "text": "I can't gather all the pieces of myself in one place to decide",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 2,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q7a5",
-          "text": "By the time I make a choice, I've dissolved into someone else",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 3,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q8",
-      "text": "In relationships, people often tell you that you:",
-      "answers": [
-        {
-          "id": "q8a1",
-          "text": "Seem like a completely different person from day to day",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 2,
-            "living_kaleidoscope": 4,
-            "scattered_soul": 3,
-            "dissolved_self": 3,
-            "fragmented_mirror": 5,
-            "broken_spectrum": 4,
-            "lost_constellation": 2,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q8a2",
-          "text": "Are impossible to really know or connect with",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 5,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 3,
-            "dissolved_self": 4,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q8a3",
-          "text": "Are exhausting because you're always changing",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q8a4",
-          "text": "Feel unreachable, like you're always partially elsewhere",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 3,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 3
-          }
-        },
-        {
-          "id": "q8a5",
-          "text": "Are becoming increasingly transparent and hard to see",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 3,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 1,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q9",
-      "text": "Your thoughts feel like they come from:",
-      "answers": [
-        {
-          "id": "q9a1",
-          "text": "A committee of internal voices that rarely agree",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 1,
-            "living_kaleidoscope": 4,
-            "scattered_soul": 3,
-            "dissolved_self": 2,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 4,
-            "lost_constellation": 2,
-            "splintered_core": 5,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q9a2",
-          "text": "Nowhere - they just appear in empty space",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 1,
-            "lost_constellation": 2,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q9a3",
-          "text": "A spinning wheel that I can't control or stop",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q9a4",
-          "text": "Distant places that I can barely reach or gather",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 2,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 3
-          }
-        },
-        {
-          "id": "q9a5",
-          "text": "A mist that's becoming thinner and harder to grasp",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q10",
-      "text": "When you try to understand your core values, you discover:",
-      "answers": [
-        {
-          "id": "q10a1",
-          "text": "They contradict each other because different parts of me believe different things",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 1,
-            "living_kaleidoscope": 4,
-            "scattered_soul": 3,
-            "dissolved_self": 2,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 4,
-            "lost_constellation": 2,
-            "splintered_core": 5,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q10a2",
-          "text": "There's nothing there - just an empty space where values should be",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 1,
-            "lost_constellation": 2,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q10a3",
-          "text": "They shift and change so rapidly I can't pin them down",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q10a4",
-          "text": "They're scattered in different places and I can't collect them all",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 2,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q10a5",
-          "text": "They're fading away like everything else about me",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q11",
-      "text": "Your sense of personal history feels like:",
-      "answers": [
-        {
-          "id": "q11a1",
-          "text": "A collection of stories about different people who happened to use my name",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 2,
-            "living_kaleidoscope": 3,
-            "scattered_soul": 4,
-            "dissolved_self": 2,
-            "fragmented_mirror": 5,
-            "broken_spectrum": 3,
-            "lost_constellation": 4,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q11a2",
-          "text": "A blank book with only occasional, meaningless scribbles",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 1,
-            "lost_constellation": 3,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q11a3",
-          "text": "A constantly rewriting itself in different handwriting",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 3,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q11a4",
-          "text": "Pages torn out and scattered to the wind",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 2,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 3
-          }
-        },
-        {
-          "id": "q11a5",
-          "text": "Ink slowly fading until the pages become blank",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q12",
-      "text": "When you're alone with yourself, you feel:",
-      "answers": [
-        {
-          "id": "q12a1",
-          "text": "Crowded by all the different versions of me arguing",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 1,
-            "living_kaleidoscope": 4,
-            "scattered_soul": 3,
-            "dissolved_self": 2,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 4,
-            "lost_constellation": 2,
-            "splintered_core": 5,
-            "phantom_identity": 1
-          }
-        },
-        {
-          "id": "q12a2",
-          "text": "Utterly alone because there's no 'me' to be with",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 1,
-            "lost_constellation": 2,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q12a3",
-          "text": "Dizzy from the constant internal shifting and changing",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q12a4",
-          "text": "Like I'm searching for pieces of myself that aren't there",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 3,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 3
-          }
-        },
-        {
-          "id": "q12a5",
-          "text": "Like I'm slowly becoming more transparent and less real",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 1,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q13",
-      "text": "Your dreams are:",
-      "answers": [
-        {
-          "id": "q13a1",
-          "text": "Populated by different versions of me who don't recognize each other",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 1,
-            "living_kaleidoscope": 4,
-            "scattered_soul": 3,
-            "dissolved_self": 2,
-            "fragmented_mirror": 5,
-            "broken_spectrum": 4,
-            "lost_constellation": 2,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q13a2",
-          "text": "Empty spaces where I should be but am not",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 1,
-            "lost_constellation": 2,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q13a3",
-          "text": "Constantly shifting landscapes where nothing stays the same",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 3,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q13a4",
-          "text": "Fragmented scenes that don't connect to form a coherent story",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 2,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q13a5",
-          "text": "Becoming increasingly faint until they're just wisps of nothing",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q14",
-      "text": "When someone asks about your goals and aspirations, you realize:",
-      "answers": [
-        {
-          "id": "q14a1",
-          "text": "Different parts of me have completely incompatible dreams",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 1,
-            "living_kaleidoscope": 4,
-            "scattered_soul": 3,
-            "dissolved_self": 2,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 4,
-            "lost_constellation": 2,
-            "splintered_core": 5,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q14a2",
-          "text": "I have no dreams because there's no 'me' to dream them",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 1,
-            "lost_constellation": 2,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q14a3",
-          "text": "My aspirations change completely every time I think about them",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q14a4",
-          "text": "My dreams are scattered in different time periods and can't be unified",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 2,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 3
-          }
-        },
-        {
-          "id": "q14a5",
-          "text": "Any goals I once had are dissolving into meaninglessness",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q15",
-      "text": "Your personality feels like:",
-      "answers": [
-        {
-          "id": "q15a1",
-          "text": "A broken mirror reflecting different faces depending on the angle",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 1,
-            "living_kaleidoscope": 3,
-            "scattered_soul": 3,
-            "dissolved_self": 2,
-            "fragmented_mirror": 5,
-            "broken_spectrum": 4,
-            "lost_constellation": 2,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q15a2",
-          "text": "A performance with no actor behind the mask",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 5,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 2,
-            "splintered_core": 2,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q15a3",
-          "text": "A kaleidoscope that someone else is constantly turning",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 3,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q15a4",
-          "text": "Puzzle pieces scattered across different tables",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 2,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q15a5",
-          "text": "Watercolor paint bleeding into nothingness",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 3,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 3,
-            "splintered_core": 1,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q16",
-      "text": "When you imagine your 'true self,' you see:",
-      "answers": [
-        {
-          "id": "q16a1",
-          "text": "Multiple true selves that can't coexist in the same body",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 1,
-            "living_kaleidoscope": 4,
-            "scattered_soul": 3,
-            "dissolved_self": 2,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 4,
-            "lost_constellation": 2,
-            "splintered_core": 5,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q16a2",
-          "text": "Nothing - because a true self never existed",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 1,
-            "lost_constellation": 2,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q16a3",
-          "text": "A constantly shifting form that I can never pin down",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 3,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q16a4",
-          "text": "Fragments scattered so far apart they'll never reunite",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 2,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 3
-          }
-        },
-        {
-          "id": "q16a5",
-          "text": "A ghost of someone who once was but is fading away",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q17",
-      "text": "The idea of 'healing' or 'integration' feels:",
-      "answers": [
-        {
-          "id": "q17a1",
-          "text": "Impossible because my pieces are too different to merge",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 2,
-            "living_kaleidoscope": 3,
-            "scattered_soul": 4,
-            "dissolved_self": 2,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 3,
-            "lost_constellation": 3,
-            "splintered_core": 5,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q17a2",
-          "text": "Meaningless because there was never anything whole to heal",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 1,
-            "lost_constellation": 2,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q17a3",
-          "text": "Terrifying because it would mean stopping the constant motion",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q17a4",
-          "text": "Hopeless because too many pieces are missing forever",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 3,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 3
-          }
-        },
-        {
-          "id": "q17a5",
-          "text": "Pointless because I'm already dissolving into nothing",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q18",
-      "text": "Your deepest fear about your fragmented identity is that:",
-      "answers": [
-        {
-          "id": "q18a1",
-          "text": "The pieces will never learn to coexist peacefully",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 1,
-            "living_kaleidoscope": 4,
-            "scattered_soul": 3,
-            "dissolved_self": 2,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 4,
-            "lost_constellation": 2,
-            "splintered_core": 5,
-            "phantom_identity": 1
-          }
-        },
-        {
-          "id": "q18a2",
-          "text": "There's nothing real underneath all the fragments",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 1,
-            "lost_constellation": 2,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q18a3",
-          "text": "I'll never find stability or consistency in who I am",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q18a4",
-          "text": "The most important pieces are lost and can never be recovered",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 2,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 3
-          }
-        },
-        {
-          "id": "q18a5",
-          "text": "I'll completely disappear and no one will notice",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q19",
-      "text": "When you look at people who seem to have a solid sense of self, you feel:",
-      "answers": [
-        {
-          "id": "q19a1",
-          "text": "Envious of their ability to be just one consistent person",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 2,
-            "living_kaleidoscope": 4,
-            "scattered_soul": 3,
-            "dissolved_self": 3,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 4,
-            "lost_constellation": 3,
-            "splintered_core": 4,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q19a2",
-          "text": "Like they possess something I was never given",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 5,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 3,
-            "dissolved_self": 4,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q19a3",
-          "text": "Confused about how they manage to stay so static",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 3,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q19a4",
-          "text": "Longing for the wholeness they've never lost",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 3,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 4,
-            "phantom_identity": 3
-          }
-        },
-        {
-          "id": "q19a5",
-          "text": "Alien, like they're a different species entirely",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q20",
-      "text": "If you could gather all your fragments in one place, you imagine:",
-      "answers": [
-        {
-          "id": "q20a1",
-          "text": "They would fight each other for dominance",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 1,
-            "living_kaleidoscope": 4,
-            "scattered_soul": 3,
-            "dissolved_self": 2,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 4,
-            "lost_constellation": 2,
-            "splintered_core": 5,
-            "phantom_identity": 1
-          }
-        },
-        {
-          "id": "q20a2",
-          "text": "There would be nothing there to gather",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 4,
-            "fragmented_mirror": 1,
-            "broken_spectrum": 1,
-            "lost_constellation": 2,
-            "splintered_core": 1,
-            "phantom_identity": 5
-          }
-        },
-        {
-          "id": "q20a3",
-          "text": "They would immediately scatter again in new directions",
-          "weights": {
-            "shattered_mosaic": 3,
-            "identity_void": 1,
-            "living_kaleidoscope": 5,
-            "scattered_soul": 2,
-            "dissolved_self": 3,
-            "fragmented_mirror": 3,
-            "broken_spectrum": 5,
-            "lost_constellation": 2,
-            "splintered_core": 3,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q20a4",
-          "text": "Most of the important pieces would still be missing",
-          "weights": {
-            "shattered_mosaic": 4,
-            "identity_void": 2,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 5,
-            "dissolved_self": 2,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 3,
-            "lost_constellation": 5,
-            "splintered_core": 3,
-            "phantom_identity": 3
-          }
-        },
-        {
-          "id": "q20a5",
-          "text": "They would dissolve the moment I tried to touch them",
-          "weights": {
-            "shattered_mosaic": 2,
-            "identity_void": 3,
-            "living_kaleidoscope": 2,
-            "scattered_soul": 2,
-            "dissolved_self": 5,
-            "fragmented_mirror": 2,
-            "broken_spectrum": 2,
-            "lost_constellation": 3,
-            "splintered_core": 2,
-            "phantom_identity": 4
-          }
-        }
-      ]
-    },
-    {
-      "id": "q21",
-      "text": "Your internal monologue sounds like:",
-      "answers": [
-        {
-          "id": "q21a1",
-          "text": "Multiple voices having overlapping conversations",
-          "weights": {
-            "shattered_mosaic": 5,
-            "identity_void": 1,
-            "living_kaleidoscope": 4,
-            "scattered_soul": 3,
-            "dissolved_self": 2,
-            "fragmented_mirror": 4,
-            "broken_spectrum": 4,
-            "lost_constellation": 2,
-            "splintered_core": 5,
-            "phantom_identity": 2
-          }
-        },
-        {
-          "id": "q21a2",
-          "text": "Silence where a voice should be",
-          "weights": {
-            "shattered_mosaic": 1,
-            "identity_void": 5,
-            "living_kaleidoscope": 1,
-            "scattered_soul": 2,
-            "dissolved_self": 4,

@@ -1,1248 +1,708 @@
 {
+  "testId": "writing-genre-test",
   "title": "What Genre Should You Write In?",
   "description": "Discover your perfect writing genre based on your creative instincts and storytelling style",
+  "traits": {
+    "contemporary_romance": "Writes love stories that heal hearts and restore faith in happily ever after",
+    "dark_romance": "Explores the shadows of desire in love stories that dance on the edge of danger",
+    "psychological_thriller": "Crafts mind-bending stories that explore the dark labyrinth of the human psyche",
+    "fantasy": "Builds magical worlds where anything is possible and epic stories unfold",
+    "literary_fiction": "Illuminates the human condition through beautiful language and profound insight",
+    "young_adult": "Captures the intensity and possibility of young adulthood in inspiring stories",
+    "historical_fiction": "Brings the past to life through meticulously researched and emotionally resonant stories",
+    "suspense": "Masters the art of keeping readers on the edge of their seats with breathless anticipation",
+    "self_help": "Shares wisdom and practical strategies that genuinely improve people's lives",
+    "memoir": "Transforms life experiences into universal stories that inspire and connect",
+    "historical_romance": "Weaves passionate love stories against the rich tapestry of bygone eras",
+    "science_fiction": "Explores the infinite possibilities of the future and technology's impact on humanity"
+  },
   "questions": [
     {
-      "id": 1,
       "question": "When you envision your main character, what draws you to them most?",
-      "choices": [
+      "answers": [
         {
           "text": "Their vulnerability and the emotional wounds they carry from past relationships",
-          "traits": {
-            "contemporary_romance": 3,
-            "dark_romance": 2,
-            "literary_fiction": 2
-          }
+          "traits": {"contemporary_romance": 4, "dark_romance": 2, "literary_fiction": 3, "young_adult": 2, "memoir": 1, "psychological_thriller": 1, "fantasy": 0, "historical_fiction": 1, "suspense": 0, "self_help": 1, "historical_romance": 2, "science_fiction": 0}
         },
         {
           "text": "The dark secrets they're hiding and the dangerous game they're playing",
-          "traits": {
-            "psychological_thriller": 3,
-            "dark_romance": 2,
-            "suspense": 2
-          }
+          "traits": {"psychological_thriller": 4, "dark_romance": 3, "suspense": 3, "literary_fiction": 2, "fantasy": 1, "historical_fiction": 1, "contemporary_romance": 0, "young_adult": 1, "memoir": 0, "self_help": 0, "historical_romance": 1, "science_fiction": 1}
         },
         {
           "text": "Their magical abilities or the fantastical world they must navigate",
-          "traits": {
-            "fantasy": 3,
-            "young_adult": 2,
-            "paranormal_romance": 1
-          }
+          "traits": {"fantasy": 5, "young_adult": 3, "science_fiction": 2, "historical_fiction": 1, "dark_romance": 1, "contemporary_romance": 0, "psychological_thriller": 0, "literary_fiction": 1, "suspense": 0, "self_help": 0, "memoir": 0, "historical_romance": 1}
         },
         {
           "text": "The life-changing wisdom they discover and want to share with others",
-          "traits": {
-            "self_help": 3,
-            "literary_fiction": 2,
-            "memoir": 1
-          }
+          "traits": {"self_help": 5, "memoir": 4, "literary_fiction": 3, "young_adult": 2, "contemporary_romance": 1, "historical_fiction": 1, "fantasy": 0, "dark_romance": 0, "psychological_thriller": 1, "suspense": 0, "historical_romance": 0, "science_fiction": 1}
         },
         {
           "text": "Their complex psychology and the moral ambiguity of their choices",
-          "traits": {
-            "literary_fiction": 3,
-            "psychological_thriller": 2,
-            "historical_fiction": 1
-          }
+          "traits": {"literary_fiction": 4, "psychological_thriller": 3, "historical_fiction": 2, "dark_romance": 2, "suspense": 1, "memoir": 2, "contemporary_romance": 1, "young_adult": 1, "fantasy": 1, "self_help": 0, "historical_romance": 1, "science_fiction": 2}
         }
       ]
     },
     {
-      "id": 2,
       "question": "What kind of world-building excites you most?",
-      "choices": [
+      "answers": [
         {
           "text": "Creating intricate magic systems with detailed rules and consequences",
-          "traits": {
-            "fantasy": 3,
-            "science_fiction": 2,
-            "young_adult": 1
-          }
+          "traits": {"fantasy": 5, "science_fiction": 3, "young_adult": 2, "psychological_thriller": 0, "historical_fiction": 1, "contemporary_romance": 0, "dark_romance": 1, "literary_fiction": 0, "suspense": 0, "self_help": 0, "memoir": 0, "historical_romance": 1}
         },
         {
           "text": "Recreating historical periods with rich authentic details",
-          "traits": {
-            "historical_fiction": 3,
-            "historical_romance": 2,
-            "literary_fiction": 1
-          }
+          "traits": {"historical_fiction": 5, "historical_romance": 4, "literary_fiction": 2, "memoir": 1, "fantasy": 1, "contemporary_romance": 0, "dark_romance": 1, "psychological_thriller": 0, "young_adult": 0, "suspense": 0, "self_help": 0, "science_fiction": 1}
         },
         {
           "text": "Building realistic contemporary settings where emotions feel raw and real",
-          "traits": {
-            "contemporary_romance": 3,
-            "literary_fiction": 2,
-            "women_fiction": 2
-          }
+          "traits": {"contemporary_romance": 5, "literary_fiction": 3, "memoir": 3, "young_adult": 2, "psychological_thriller": 2, "dark_romance": 1, "suspense": 1, "historical_fiction": 0, "fantasy": 0, "self_help": 1, "historical_romance": 0, "science_fiction": 0}
         },
         {
           "text": "Constructing tense, claustrophobic environments that mirror psychological states",
-          "traits": {
-            "psychological_thriller": 3,
-            "suspense": 2,
-            "dark_romance": 1
-          }
+          "traits": {"psychological_thriller": 5, "suspense": 4, "dark_romance": 2, "literary_fiction": 2, "science_fiction": 1, "contemporary_romance": 0, "young_adult": 0, "fantasy": 0, "historical_fiction": 1, "self_help": 0, "memoir": 1, "historical_romance": 0}
         },
         {
           "text": "I prefer focusing on characters and relationships over detailed settings",
-          "traits": {
-            "literary_fiction": 2,
-            "contemporary_romance": 2,
-            "self_help": 1
-          }
+          "traits": {"literary_fiction": 4, "contemporary_romance": 3, "memoir": 3, "self_help": 2, "young_adult": 2, "historical_romance": 2, "dark_romance": 1, "psychological_thriller": 1, "fantasy": 0, "historical_fiction": 1, "suspense": 0, "science_fiction": 0}
         }
       ]
     },
     {
-      "id": 3,
       "question": "How do you prefer your romantic relationships to unfold in stories?",
-      "choices": [
+      "answers": [
         {
           "text": "Slow burn with emotional intimacy building gradually through shared experiences",
-          "traits": {
-            "contemporary_romance": 3,
-            "historical_romance": 2,
-            "young_adult": 2
-          }
+          "traits": {"contemporary_romance": 5, "historical_romance": 4, "young_adult": 3, "literary_fiction": 2, "memoir": 1, "fantasy": 1, "dark_romance": 0, "psychological_thriller": 0, "historical_fiction": 1, "suspense": 0, "self_help": 0, "science_fiction": 1}
         },
         {
           "text": "Intense, passionate connections with elements of danger or forbidden attraction",
-          "traits": {
-            "dark_romance": 3,
-            "paranormal_romance": 2,
-            "historical_romance": 1
-          }
+          "traits": {"dark_romance": 5, "historical_romance": 2, "fantasy": 2, "psychological_thriller": 2, "suspense": 1, "contemporary_romance": 1, "young_adult": 1, "literary_fiction": 1, "historical_fiction": 1, "self_help": 0, "memoir": 0, "science_fiction": 1}
         },
         {
           "text": "Romance as a subplot that enhances character development but doesn't dominate",
-          "traits": {
-            "fantasy": 2,
-            "literary_fiction": 3,
-            "historical_fiction": 2
-          }
+          "traits": {"literary_fiction": 5, "fantasy": 3, "historical_fiction": 3, "science_fiction": 2, "young_adult": 2, "memoir": 2, "psychological_thriller": 1, "suspense": 1, "contemporary_romance": 0, "dark_romance": 0, "self_help": 1, "historical_romance": 1}
         },
         {
           "text": "Sweet, idealistic love stories that inspire hope and healing",
-          "traits": {
-            "young_adult": 3,
-            "contemporary_romance": 2,
-            "inspirational_fiction": 2
-          }
+          "traits": {"young_adult": 5, "contemporary_romance": 4, "historical_romance": 2, "self_help": 2, "memoir": 1, "literary_fiction": 1, "fantasy": 1, "dark_romance": 0, "psychological_thriller": 0, "historical_fiction": 0, "suspense": 0, "science_fiction": 0}
         },
         {
           "text": "I'm more interested in exploring other types of relationships and connections",
-          "traits": {
-            "psychological_thriller": 2,
-            "literary_fiction": 2,
-            "self_help": 3
-          }
+          "traits": {"self_help": 5, "literary_fiction": 4, "memoir": 3, "psychological_thriller": 2, "suspense": 1, "historical_fiction": 2, "science_fiction": 2, "fantasy": 1, "young_adult": 1, "contemporary_romance": 0, "dark_romance": 0, "historical_romance": 0}
         }
       ]
     },
     {
-      "id": 4,
       "question": "What drives your plot forward most effectively?",
-      "choices": [
+      "answers": [
         {
           "text": "Internal character growth and emotional transformation",
-          "traits": {
-            "literary_fiction": 3,
-            "contemporary_romance": 2,
-            "self_help": 2
-          }
+          "traits": {"literary_fiction": 5, "memoir": 4, "self_help": 4, "contemporary_romance": 3, "young_adult": 2, "historical_fiction": 2, "dark_romance": 1, "fantasy": 1, "psychological_thriller": 1, "suspense": 0, "historical_romance": 2, "science_fiction": 1}
         },
         {
           "text": "External threats, mysteries, or time-sensitive dangers",
-          "traits": {
-            "suspense": 3,
-            "thriller": 2,
-            "psychological_thriller": 2
-          }
+          "traits": {"suspense": 5, "psychological_thriller": 4, "science_fiction": 2, "fantasy": 2, "dark_romance": 2, "young_adult": 1, "historical_fiction": 1, "contemporary_romance": 0, "literary_fiction": 0, "self_help": 0, "memoir": 0, "historical_romance": 0}
         },
         {
           "text": "Epic quests, battles, or magical conflicts with high stakes",
-          "traits": {
-            "fantasy": 3,
-            "young_adult": 2,
-            "science_fiction": 1
-          }
+          "traits": {"fantasy": 5, "science_fiction": 3, "young_adult": 3, "historical_fiction": 1, "suspense": 2, "dark_romance": 1, "psychological_thriller": 0, "contemporary_romance": 0, "literary_fiction": 0, "self_help": 0, "memoir": 0, "historical_romance": 1}
         },
         {
           "text": "Social pressures, historical events, or cultural conflicts",
-          "traits": {
-            "historical_fiction": 3,
-            "women_fiction": 2,
-            "literary_fiction": 2
-          }
+          "traits": {"historical_fiction": 5, "literary_fiction": 3, "memoir": 3, "young_adult": 2, "historical_romance": 3, "science_fiction": 2, "fantasy": 1, "contemporary_romance": 1, "dark_romance": 0, "psychological_thriller": 1, "suspense": 0, "self_help": 1}
         },
         {
           "text": "The push and pull of romantic tension and relationship obstacles",
-          "traits": {
-            "contemporary_romance": 3,
-            "dark_romance": 2,
-            "historical_romance": 2
-          }
+          "traits": {"contemporary_romance": 5, "dark_romance": 4, "historical_romance": 4, "young_adult": 2, "literary_fiction": 1, "memoir": 1, "fantasy": 1, "psychological_thriller": 1, "historical_fiction": 1, "suspense": 0, "self_help": 0, "science_fiction": 0}
         }
       ]
     },
     {
-      "id": 5,
       "question": "What writing voice feels most natural to you?",
-      "choices": [
+      "answers": [
         {
           "text": "Lyrical and poetic, focusing on beautiful language and deeper meaning",
-          "traits": {
-            "literary_fiction": 3,
-            "historical_fiction": 2,
-            "poetry": 2
-          }
+          "traits": {"literary_fiction": 5, "historical_fiction": 3, "memoir": 3, "historical_romance": 2, "fantasy": 2, "young_adult": 1, "contemporary_romance": 1, "dark_romance": 1, "psychological_thriller": 1, "suspense": 0, "self_help": 0, "science_fiction": 1}
         },
         {
           "text": "Direct and accessible, prioritizing clear communication and relatability",
-          "traits": {
-            "self_help": 3,
-            "contemporary_romance": 2,
-            "young_adult": 2
-          }
+          "traits": {"self_help": 5, "young_adult": 4, "contemporary_romance": 3, "memoir": 2, "suspense": 2, "science_fiction": 1, "literary_fiction": 0, "dark_romance": 1, "psychological_thriller": 1, "fantasy": 1, "historical_fiction": 0, "historical_romance": 1}
         },
         {
           "text": "Atmospheric and immersive, creating mood and tension through description",
-          "traits": {
-            "psychological_thriller": 3,
-            "dark_romance": 2,
-            "suspense": 2
-          }
+          "traits": {"psychological_thriller": 5, "dark_romance": 4, "suspense": 4, "fantasy": 3, "historical_fiction": 2, "science_fiction": 2, "literary_fiction": 2, "contemporary_romance": 1, "young_adult": 0, "self_help": 0, "memoir": 1, "historical_romance": 2}
         },
         {
           "text": "Rich and detailed, bringing worlds and cultures to vivid life",
-          "traits": {
-            "fantasy": 3,
-            "historical_fiction": 2,
-            "science_fiction": 1
-          }
+          "traits": {"fantasy": 5, "historical_fiction": 4, "science_fiction": 3, "historical_romance": 3, "literary_fiction": 2, "dark_romance": 1, "young_adult": 1, "psychological_thriller": 1, "contemporary_romance": 0, "suspense": 0, "self_help": 0, "memoir": 1}
         },
         {
           "text": "Emotionally charged and intimate, making readers feel deeply connected",
-          "traits": {
-            "contemporary_romance": 3,
-            "women_fiction": 2,
-            "memoir": 2
-          }
+          "traits": {"contemporary_romance": 5, "memoir": 4, "young_adult": 3, "literary_fiction": 2, "dark_romance": 2, "historical_romance": 2, "self_help": 1, "fantasy": 0, "psychological_thriller": 1, "historical_fiction": 1, "suspense": 0, "science_fiction": 0}
         }
       ]
     },
     {
-      "id": 6,
       "question": "How dark are you willing to go with your content?",
-      "choices": [
+      "answers": [
         {
           "text": "I prefer uplifting stories that inspire and heal",
-          "traits": {
-            "contemporary_romance": 3,
-            "young_adult": 2,
-            "self_help": 3
-          }
+          "traits": {"contemporary_romance": 5, "young_adult": 4, "self_help": 5, "historical_romance": 3, "memoir": 2, "fantasy": 1, "literary_fiction": 1, "science_fiction": 1, "dark_romance": 0, "psychological_thriller": 0, "historical_fiction": 1, "suspense": 0}
         },
         {
           "text": "I'll explore difficult topics but always with hope for redemption",
-          "traits": {
-            "literary_fiction": 3,
-            "women_fiction": 2,
-            "historical_fiction": 2
-          }
+          "traits": {"literary_fiction": 5, "historical_fiction": 3, "memoir": 4, "young_adult": 2, "contemporary_romance": 2, "fantasy": 2, "science_fiction": 2, "historical_romance": 2, "dark_romance": 1, "psychological_thriller": 1, "suspense": 1, "self_help": 2}
         },
         {
           "text": "I'm drawn to morally complex situations without clear answers",
-          "traits": {
-            "psychological_thriller": 3,
-            "literary_fiction": 2,
-            "dark_romance": 2
-          }
+          "traits": {"psychological_thriller": 5, "literary_fiction": 4, "dark_romance": 3, "science_fiction": 2, "historical_fiction": 2, "suspense": 2, "fantasy": 1, "memoir": 2, "contemporary_romance": 0, "young_adult": 0, "self_help": 0, "historical_romance": 1}
         },
         {
           "text": "I want to explore the shadows of human nature and taboo subjects",
-          "traits": {
-            "dark_romance": 3,
-            "psychological_thriller": 2,
-            "suspense": 2
-          }
+          "traits": {"dark_romance": 5, "psychological_thriller": 4, "suspense": 3, "literary_fiction": 2, "science_fiction": 1, "historical_fiction": 1, "fantasy": 1, "memoir": 1, "contemporary_romance": 0, "young_adult": 0, "self_help": 0, "historical_romance": 0}
         },
         {
           "text": "Darkness is fine as long as it serves the story and character development",
-          "traits": {
-            "fantasy": 2,
-            "historical_fiction": 2,
-            "thriller": 2
-          }
+          "traits": {"fantasy": 4, "historical_fiction": 3, "science_fiction": 3, "literary_fiction": 3, "psychological_thriller": 2, "suspense": 2, "dark_romance": 2, "memoir": 2, "young_adult": 1, "contemporary_romance": 1, "self_help": 0, "historical_romance": 2}
         }
       ]
     },
     {
-      "id": 7,
       "question": "What length feels right for the stories you want to tell?",
-      "choices": [
+      "answers": [
         {
           "text": "Short and punchy - I want to deliver impact quickly",
-          "traits": {
-            "suspense": 2,
-            "thriller": 2,
-            "poetry": 3
-          }
+          "traits": {"suspense": 4, "psychological_thriller": 3, "memoir": 2, "self_help": 2, "young_adult": 1, "contemporary_romance": 1, "dark_romance": 1, "literary_fiction": 1, "fantasy": 0, "historical_fiction": 0, "historical_romance": 0, "science_fiction": 1}
         },
         {
           "text": "Standard novel length - enough space for full character development",
-          "traits": {
-            "contemporary_romance": 3,
-            "psychological_thriller": 2,
-            "literary_fiction": 2
-          }
+          "traits": {"contemporary_romance": 5, "literary_fiction": 4, "psychological_thriller": 3, "dark_romance": 3, "young_adult": 2, "memoir": 2, "suspense": 2, "historical_romance": 3, "fantasy": 2, "historical_fiction": 2, "self_help": 1, "science_fiction": 2}
         },
         {
           "text": "Epic length - I have complex worlds and multiple storylines to explore",
-          "traits": {
-            "fantasy": 3,
-            "historical_fiction": 2,
-            "science_fiction": 2
-          }
+          "traits": {"fantasy": 5, "science_fiction": 4, "historical_fiction": 3, "literary_fiction": 2, "young_adult": 1, "psychological_thriller": 1, "historical_romance": 2, "contemporary_romance": 0, "dark_romance": 1, "suspense": 0, "self_help": 0, "memoir": 1}
         },
         {
           "text": "Series potential - I want to follow characters through multiple books",
-          "traits": {
-            "young_adult": 3,
-            "fantasy": 2,
-            "dark_romance": 2
-          }
+          "traits": {"young_adult": 5, "fantasy": 4, "dark_romance": 3, "contemporary_romance": 2, "science_fiction": 3, "psychological_thriller": 2, "suspense": 2, "historical_romance": 2, "literary_fiction": 1, "historical_fiction": 1, "self_help": 1, "memoir": 0}
         },
         {
           "text": "Depends on what the story needs - I'm flexible with length",
-          "traits": {
-            "self_help": 2,
-            "literary_fiction": 2,
-            "memoir": 2
-          }
+          "traits": {"literary_fiction": 4, "memoir": 4, "self_help": 3, "historical_fiction": 2, "contemporary_romance": 2, "psychological_thriller": 2, "fantasy": 1, "young_adult": 1, "dark_romance": 1, "suspense": 1, "historical_romance": 1, "science_fiction": 2}
         }
       ]
     },
     {
-      "id": 8,
       "question": "What tropes or storytelling elements do you find yourself gravitating toward?",
-      "choices": [
+      "answers": [
         {
           "text": "Enemies to lovers, forbidden romance, and passionate intensity",
-          "traits": {
-            "dark_romance": 3,
-            "contemporary_romance": 2,
-            "historical_romance": 2
-          }
+          "traits": {"dark_romance": 5, "contemporary_romance": 3, "historical_romance": 4, "young_adult": 2, "fantasy": 2, "psychological_thriller": 1, "literary_fiction": 1, "science_fiction": 1, "historical_fiction": 1, "suspense": 1, "self_help": 0, "memoir": 0}
         },
         {
           "text": "Chosen ones, mentor figures, and coming-of-age journeys",
-          "traits": {
-            "young_adult": 3,
-            "fantasy": 2,
-            "literary_fiction": 1
-          }
+          "traits": {"young_adult": 5, "fantasy": 4, "science_fiction": 2, "historical_fiction": 1, "literary_fiction": 2, "memoir": 2, "contemporary_romance": 1, "dark_romance": 0, "psychological_thriller": 0, "suspense": 0, "self_help": 1, "historical_romance": 1}
         },
         {
           "text": "Unreliable narrators, plot twists, and psychological manipulation",
-          "traits": {
-            "psychological_thriller": 3,
-            "suspense": 2,
-            "literary_fiction": 2
-          }
+          "traits": {"psychological_thriller": 5, "suspense": 4, "literary_fiction": 3, "dark_romance": 2, "science_fiction": 1, "memoir": 1, "fantasy": 0, "young_adult": 0, "contemporary_romance": 0, "historical_fiction": 1, "self_help": 0, "historical_romance": 0}
         },
         {
           "text": "Found family, redemption arcs, and overcoming impossible odds",
-          "traits": {
-            "fantasy": 3,
-            "young_adult": 2,
-            "contemporary_romance": 1
-          }
+          "traits": {"fantasy": 5, "young_adult": 4, "science_fiction": 2, "contemporary_romance": 2, "historical_fiction": 1, "memoir": 2, "self_help": 2, "literary_fiction": 1, "dark_romance": 1, "psychological_thriller": 0, "suspense": 1, "historical_romance": 1}
         },
         {
           "text": "I prefer to subvert common tropes and create something unexpected",
-          "traits": {
-            "literary_fiction": 3,
-            "experimental_fiction": 2,
-            "historical_fiction": 1
-          }
+          "traits": {"literary_fiction": 5, "science_fiction": 3, "psychological_thriller": 2, "historical_fiction": 2, "memoir": 2, "fantasy": 1, "dark_romance": 1, "suspense": 1, "contemporary_romance": 0, "young_adult": 0, "self_help": 0, "historical_romance": 0}
         }
       ]
     },
     {
-      "id": 9,
       "question": "What kind of ending satisfies you most as a writer?",
-      "choices": [
+      "answers": [
         {
           "text": "Happily ever after - love conquers all and hope is restored",
-          "traits": {
-            "contemporary_romance": 3,
-            "young_adult": 2,
-            "historical_romance": 2
-          }
+          "traits": {"contemporary_romance": 5, "young_adult": 4, "historical_romance": 4, "self_help": 3, "fantasy": 2, "memoir": 1, "science_fiction": 1, "literary_fiction": 0, "dark_romance": 1, "psychological_thriller": 0, "historical_fiction": 1, "suspense": 0}
         },
         {
           "text": "Happy for now - positive but realistic, with room for growth",
-          "traits": {
-            "literary_fiction": 3,
-            "women_fiction": 2,
-            "contemporary_romance": 1
-          }
+          "traits": {"literary_fiction": 5, "memoir": 4, "contemporary_romance": 2, "young_adult": 2, "self_help": 3, "historical_fiction": 2, "science_fiction": 2, "fantasy": 1, "dark_romance": 1, "psychological_thriller": 1, "suspense": 1, "historical_romance": 2}
         },
         {
           "text": "Bittersweet - victory comes with significant cost or sacrifice",
-          "traits": {
-            "fantasy": 2,
-            "historical_fiction": 3,
-            "literary_fiction": 2
-          }
+          "traits": {"historical_fiction": 5, "literary_fiction": 4, "fantasy": 3, "science_fiction": 3, "memoir": 3, "dark_romance": 2, "psychological_thriller": 2, "young_adult": 1, "historical_romance": 2, "contemporary_romance": 0, "suspense": 1, "self_help": 0}
         },
         {
           "text": "Shocking twist - everything the reader thought they knew is wrong",
-          "traits": {
-            "psychological_thriller": 3,
-            "suspense": 2,
-            "thriller": 2
-          }
+          "traits": {"psychological_thriller": 5, "suspense": 4, "science_fiction": 2, "dark_romance": 2, "literary_fiction": 2, "fantasy": 1, "historical_fiction": 1, "memoir": 1, "young_adult": 0, "contemporary_romance": 0, "self_help": 0, "historical_romance": 0}
         },
         {
           "text": "Open-ended - readers must decide what the resolution means",
-          "traits": {
-            "literary_fiction": 3,
-            "experimental_fiction": 2,
-            "psychological_thriller": 1
-          }
+          "traits": {"literary_fiction": 5, "psychological_thriller": 3, "science_fiction": 2, "memoir": 2, "historical_fiction": 2, "fantasy": 1, "dark_romance": 1, "suspense": 1, "young_adult": 0, "contemporary_romance": 0, "self_help": 0, "historical_romance": 0}
         }
       ]
     },
     {
-      "id": 10,
       "question": "When you read, what keeps you turning pages?",
-      "choices": [
+      "answers": [
         {
           "text": "Sexual tension and the anticipation of romantic payoff",
-          "traits": {
-            "contemporary_romance": 3,
-            "dark_romance": 2,
-            "paranormal_romance": 1
-          }
+          "traits": {"contemporary_romance": 5, "dark_romance": 4, "historical_romance": 3, "young_adult": 2, "fantasy": 1, "literary_fiction": 0, "psychological_thriller": 1, "historical_fiction": 0, "suspense": 0, "self_help": 0, "memoir": 0, "science_fiction": 0}
         },
         {
           "text": "Suspense and the need to solve mysteries or uncover secrets",
-          "traits": {
-            "psychological_thriller": 3,
-            "suspense": 3,
-            "thriller": 2
-          }
+          "traits": {"psychological_thriller": 5, "suspense": 5, "dark_romance": 2, "science_fiction": 2, "fantasy": 1, "literary_fiction": 1, "young_adult": 1, "historical_fiction": 1, "contemporary_romance": 0, "self_help": 0, "memoir": 0, "historical_romance": 0}
         },
         {
           "text": "Beautiful prose and deep insights into the human condition",
-          "traits": {
-            "literary_fiction": 3,
-            "historical_fiction": 2,
-            "poetry": 1
-          }
+          "traits": {"literary_fiction": 5, "historical_fiction": 3, "memoir": 3, "science_fiction": 1, "fantasy": 1, "young_adult": 1, "historical_romance": 2, "contemporary_romance": 1, "dark_romance": 0, "psychological_thriller": 1, "suspense": 0, "self_help": 1}
         },
         {
           "text": "Adventure, magic, and discovering new fantastical elements",
-          "traits": {
-            "fantasy": 3,
-            "young_adult": 2,
-            "science_fiction": 1
-          }
+          "traits": {"fantasy": 5, "young_adult": 4, "science_fiction": 3, "historical_fiction": 1, "dark_romance": 1, "suspense": 1, "literary_fiction": 0, "contemporary_romance": 0, "psychological_thriller": 0, "self_help": 0, "memoir": 0, "historical_romance": 1}
         },
         {
           "text": "Learning something new or gaining practical insights I can apply",
-          "traits": {
-            "self_help": 3,
-            "memoir": 2,
-            "literary_fiction": 1
-          }
+          "traits": {"self_help": 5, "memoir": 4, "science_fiction": 2, "literary_fiction": 2, "historical_fiction": 2, "young_adult": 1, "contemporary_romance": 0, "dark_romance": 0, "psychological_thriller": 0, "fantasy": 0, "suspense": 0, "historical_romance": 0}
         }
       ]
     },
     {
-      "id": 11,
       "question": "What type of research excites you most?",
-      "choices": [
+      "answers": [
         {
           "text": "Historical periods, customs, and authentic cultural details",
-          "traits": {
-            "historical_fiction": 3,
-            "historical_romance": 2,
-            "literary_fiction": 1
-          }
+          "traits": {"historical_fiction": 5, "historical_romance": 4, "literary_fiction": 2, "memoir": 1, "fantasy": 1, "science_fiction": 1, "contemporary_romance": 0, "dark_romance": 0, "psychological_thriller": 0, "young_adult": 0, "suspense": 0, "self_help": 0}
         },
         {
           "text": "Psychology, human behavior, and criminal minds",
-          "traits": {
-            "psychological_thriller": 3,
-            "suspense": 2,
-            "dark_romance": 1
-          }
+          "traits": {"psychological_thriller": 5, "suspense": 4, "dark_romance": 2, "literary_fiction": 2, "memoir": 2, "science_fiction": 1, "contemporary_romance": 1, "fantasy": 0, "historical_fiction": 1, "young_adult": 0, "self_help": 1, "historical_romance": 0}
         },
         {
           "text": "Mythology, folklore, and creating consistent magical systems",
-          "traits": {
-            "fantasy": 3,
-            "paranormal_romance": 2,
-            "young_adult": 1
-          }
+          "traits": {"fantasy": 5, "young_adult": 2, "science_fiction": 2, "historical_fiction": 2, "dark_romance": 1, "literary_fiction": 1, "contemporary_romance": 0, "psychological_thriller": 0, "suspense": 0, "self_help": 0, "memoir": 0, "historical_romance": 1}
         },
         {
           "text": "Scientific studies, expert interviews, and evidence-based practices",
-          "traits": {
-            "self_help": 3,
-            "memoir": 2,
-            "literary_fiction": 1
-          }
+          "traits": {"self_help": 5, "science_fiction": 4, "memoir": 3, "literary_fiction": 2, "suspense": 1, "psychological_thriller": 2, "contemporary_romance": 0, "dark_romance": 0, "fantasy": 0, "historical_fiction": 1, "young_adult": 0, "historical_romance": 0}
         },
         {
           "text": "I prefer to draw from personal experience and emotional truth",
-          "traits": {
-            "contemporary_romance": 2,
-            "literary_fiction": 2,
-            "memoir": 3
-          }
+          "traits": {"memoir": 5, "contemporary_romance": 3, "literary_fiction": 3, "young_adult": 2, "self_help": 2, "dark_romance": 1, "historical_romance": 1, "fantasy": 0, "psychological_thriller": 1, "historical_fiction": 0, "suspense": 0, "science_fiction": 0}
         }
       ]
     },
     {
-      "id": 12,
       "question": "What motivates you to write?",
-      "choices": [
+      "answers": [
         {
           "text": "I want to help people heal, grow, and transform their lives",
-          "traits": {
-            "self_help": 3,
-            "contemporary_romance": 2,
-            "inspirational_fiction": 2
-          }
+          "traits": {"self_help": 5, "contemporary_romance": 3, "memoir": 4, "young_adult": 2, "literary_fiction": 2, "historical_romance": 1, "fantasy": 1, "dark_romance": 0, "psychological_thriller": 0, "historical_fiction": 1, "suspense": 0, "science_fiction": 1}
         },
         {
           "text": "I want to entertain and provide escapism from everyday reality",
-          "traits": {
-            "fantasy": 3,
-            "contemporary_romance": 2,
-            "young_adult": 2
-          }
+          "traits": {"fantasy": 5, "contemporary_romance": 4, "young_adult": 4, "historical_romance": 3, "science_fiction": 3, "dark_romance": 2, "suspense": 2, "psychological_thriller": 1, "literary_fiction": 1, "historical_fiction": 2, "self_help": 0, "memoir": 0}
         },
         {
           "text": "I want to explore the complexities and contradictions of human nature",
-          "traits": {
-            "literary_fiction": 3,
-            "psychological_thriller": 2,
-            "historical_fiction": 2
-          }
+          "traits": {"literary_fiction": 5, "psychological_thriller": 4, "historical_fiction": 3, "memoir": 3, "science_fiction": 2, "dark_romance": 2, "suspense": 1, "fantasy": 1, "contemporary_romance": 1, "young_adult": 1, "self_help": 1, "historical_romance": 1}
         },
         {
           "text": "I want to create thrilling experiences that keep readers on edge",
-          "traits": {
-            "suspense": 3,
-            "thriller": 2,
-            "psychological_thriller": 2
-          }
+          "traits": {"suspense": 5, "psychological_thriller": 4, "dark_romance": 3, "science_fiction": 2, "fantasy": 2, "young_adult": 1, "literary_fiction": 0, "contemporary_romance": 0, "historical_fiction": 0, "self_help": 0, "memoir": 0, "historical_romance": 0}
         },
         {
           "text": "I want to celebrate love and the power of human connection",
-          "traits": {
-            "contemporary_romance": 3,
-            "historical_romance": 2,
-            "young_adult": 1
-          }
+          "traits": {"contemporary_romance": 5, "historical_romance": 4, "young_adult": 3, "memoir": 2, "literary_fiction": 2, "self_help": 2, "fantasy": 1, "dark_romance": 1, "science_fiction": 1, "psychological_thriller": 0, "historical_fiction": 1, "suspense": 0}
         }
       ]
     },
     {
-      "id": 13,
+  "question": "What kind of emotional journey do you want to take your readers on?",
+  "answers": [
+    {
+      "text": "From heartbreak to healing, showing that love can overcome past wounds",
+      "traits": {"contemporary_romance": 5, "historical_romance": 3, "memoir": 3, "young_adult": 2, "self_help": 2, "literary_fiction": 1, "dark_romance": 1, "fantasy": 1, "psychological_thriller": 0, "historical_fiction": 1, "suspense": 0, "science_fiction": 0}
+    },
+    {
+      "text": "From safety to danger, pushing boundaries and exploring forbidden desires",
+      "traits": {"dark_romance": 5, "psychological_thriller": 3, "suspense": 3, "fantasy": 2, "science_fiction": 1, "literary_fiction": 1, "historical_fiction": 1, "contemporary_romance": 0, "young_adult": 0, "memoir": 1, "self_help": 0, "historical_romance": 1}
+    },
+    {
+      "text": "From confusion to clarity, helping them understand themselves and their world better",
+      "traits": {"literary_fiction": 5, "memoir": 4, "self_help": 4, "psychological_thriller": 2, "historical_fiction": 2, "science_fiction": 2, "young_adult": 1, "contemporary_romance": 1, "dark_romance": 0, "fantasy": 1, "suspense": 0, "historical_romance": 1}
+    },
+    {
+      "text": "From ordinary to extraordinary, opening their minds to infinite possibilities",
+      "traits": {"fantasy": 5, "science_fiction": 4, "young_adult": 3, "historical_fiction": 2, "memoir": 1, "self_help": 1, "literary_fiction": 1, "contemporary_romance": 1, "dark_romance": 1, "psychological_thriller": 0, "suspense": 1, "historical_romance": 1}
+    },
+    {
+      "text": "From certainty to doubt, making them question everything they thought they knew",
+      "traits": {"psychological_thriller": 5, "suspense": 4, "literary_fiction": 3, "science_fiction": 2, "dark_romance": 2, "memoir": 2, "historical_fiction": 1, "fantasy": 1, "contemporary_romance": 0, "young_adult": 0, "self_help": 0, "historical_romance": 0}
+    }
+  ]
+},
+{
       "question": "How do you prefer to handle mature content in your writing?",
-      "choices": [
+      "answers": [
         {
           "text": "Explicit and detailed - I want readers to feel everything intensely",
-          "traits": {
-            "dark_romance": 3,
-            "erotic_romance": 2,
-            "contemporary_romance": 1
-          }
+          "traits": {"dark_romance": 5, "contemporary_romance": 2, "psychological_thriller": 2, "literary_fiction": 1, "suspense": 1, "memoir": 1, "historical_romance": 0, "young_adult": 0, "fantasy": 0, "historical_fiction": 0, "self_help": 0, "science_fiction": 0}
         },
         {
           "text": "Tastefully implied - emotional intimacy matters more than explicit details",
-          "traits": {
-            "contemporary_romance": 2,
-            "historical_romance": 3,
-            "young_adult": 2
-          }
+          "traits": {"historical_romance": 5, "contemporary_romance": 4, "young_adult": 3, "literary_fiction": 2, "fantasy": 2, "memoir": 1, "science_fiction": 1, "dark_romance": 0, "psychological_thriller": 1, "historical_fiction": 2, "suspense": 0, "self_help": 1}
         },
         {
           "text": "Mature themes are fine but sex isn't the focus of my stories",
-          "traits": {
-            "literary_fiction": 3,
-            "psychological_thriller": 2,
-            "fantasy": 2
-          }
+          "traits": {"literary_fiction": 5, "psychological_thriller": 4, "fantasy": 3, "science_fiction": 3, "historical_fiction": 3, "suspense": 2, "memoir": 2, "young_adult": 1, "contemporary_romance": 1, "dark_romance": 0, "self_help": 1, "historical_romance": 1}
         },
         {
           "text": "I prefer to keep things clean and focus on emotional connections",
-          "traits": {
-            "young_adult": 3,
-            "inspirational_fiction": 2,
-            "self_help": 2
-          }
+          "traits": {"young_adult": 5, "self_help": 4, "fantasy": 2, "contemporary_romance": 2, "memoir": 2, "science_fiction": 1, "literary_fiction": 1, "historical_romance": 2, "dark_romance": 0, "psychological_thriller": 0, "historical_fiction": 1, "suspense": 0}
         },
         {
           "text": "I'll include whatever serves the story, regardless of comfort levels",
-          "traits": {
-            "literary_fiction": 2,
-            "psychological_thriller": 2,
-            "historical_fiction": 2
-          }
+          "traits": {"literary_fiction": 4, "psychological_thriller": 3, "historical_fiction": 3, "science_fiction": 2, "dark_romance": 2, "suspense": 2, "memoir": 2, "fantasy": 1, "contemporary_romance": 1, "young_adult": 0, "self_help": 0, "historical_romance": 1}
         }
       ]
     },
     {
-      "id": 14,
       "question": "What aspect of character development interests you most?",
-      "choices": [
+      "answers": [
         {
           "text": "Healing from trauma and learning to trust and love again",
-          "traits": {
-            "contemporary_romance": 3,
-            "women_fiction": 2,
-            "literary_fiction": 2
-          }
+          "traits": {"contemporary_romance": 5, "memoir": 4, "literary_fiction": 3, "young_adult": 2, "self_help": 3, "dark_romance": 2, "historical_romance": 2, "fantasy": 1, "psychological_thriller": 2, "historical_fiction": 1, "suspense": 0, "science_fiction": 1}
         },
         {
           "text": "The gradual reveal of hidden darkness or psychological complexity",
-          "traits": {
-            "psychological_thriller": 3,
-            "dark_romance": 2,
-            "literary_fiction": 2
-          }
+          "traits": {"psychological_thriller": 5, "dark_romance": 4, "literary_fiction": 3, "suspense": 3, "science_fiction": 2, "memoir": 2, "historical_fiction": 1, "fantasy": 1, "contemporary_romance": 0, "young_adult": 0, "self_help": 0, "historical_romance": 0}
         },
         {
           "text": "Growing into power and learning to wield abilities responsibly",
-          "traits": {
-            "fantasy": 3,
-            "young_adult": 2,
-            "paranormal_romance": 1
-          }
+          "traits": {"fantasy": 5, "young_adult": 4, "science_fiction": 3, "literary_fiction": 1, "memoir": 1, "self_help": 2, "contemporary_romance": 0, "dark_romance": 1, "psychological_thriller": 0, "historical_fiction": 0, "suspense": 0, "historical_romance": 0}
         },
         {
           "text": "Overcoming limiting beliefs and achieving personal transformation",
-          "traits": {
-            "self_help": 3,
-            "literary_fiction": 2,
-            "inspirational_fiction": 2
-          }
+          "traits": {"self_help": 5, "memoir": 4, "literary_fiction": 3, "young_adult": 3, "contemporary_romance": 2, "historical_fiction": 1, "fantasy": 1, "science_fiction": 2, "dark_romance": 0, "psychological_thriller": 1, "suspense": 0, "historical_romance": 1}
         },
         {
           "text": "Navigating moral dilemmas and the consequences of difficult choices",
-          "traits": {
-            "literary_fiction": 3,
-            "historical_fiction": 2,
-            "psychological_thriller": 2
-          }
+          "traits": {"literary_fiction": 5, "historical_fiction": 4, "psychological_thriller": 3, "science_fiction": 3, "memoir": 2, "fantasy": 2, "suspense": 2, "dark_romance": 2, "contemporary_romance": 1, "young_adult": 1, "self_help": 0, "historical_romance": 1}
         }
       ]
     },
     {
-      "id": 15,
       "question": "What kind of dialogue do you enjoy writing most?",
-      "choices": [
+      "answers": [
         {
           "text": "Witty banter and sexual tension between romantic leads",
-          "traits": {
-            "contemporary_romance": 3,
-            "dark_romance": 2,
-            "historical_romance": 1
-          }
+          "traits": {"contemporary_romance": 5, "dark_romance": 3, "historical_romance": 2, "young_adult": 2, "fantasy": 1, "literary_fiction": 0, "psychological_thriller": 1, "historical_fiction": 0, "suspense": 0, "self_help": 0, "memoir": 0, "science_fiction": 0}
         },
         {
           "text": "Cryptic exchanges that hide deeper meanings and intentions",
-          "traits": {
-            "psychological_thriller": 3,
-            "suspense": 2,
-            "literary_fiction": 2
-          }
+          "traits": {"psychological_thriller": 5, "suspense": 4, "literary_fiction": 3, "dark_romance": 2, "science_fiction": 2, "fantasy": 1, "historical_fiction": 1, "memoir": 1, "contemporary_romance": 0, "young_adult": 0, "self_help": 0, "historical_romance": 0}
         },
         {
           "text": "Rich, period-appropriate speech that brings historical eras to life",
-          "traits": {
-            "historical_fiction": 3,
-            "historical_romance": 2,
-            "fantasy": 1
-          }
+          "traits": {"historical_fiction": 5, "historical_romance": 4, "fantasy": 2, "literary_fiction": 2, "science_fiction": 1, "memoir": 1, "contemporary_romance": 0, "dark_romance": 0, "psychological_thriller": 0, "young_adult": 0, "suspense": 0, "self_help": 0}
         },
         {
           "text": "Authentic teenage voices dealing with coming-of-age challenges",
-          "traits": {
-            "young_adult": 3,
-            "contemporary_romance": 1,
-            "literary_fiction": 1
-          }
+          "traits": {"young_adult": 5, "contemporary_romance": 2, "memoir": 2, "literary_fiction": 1, "fantasy": 1, "self_help": 1, "dark_romance": 0, "psychological_thriller": 0, "historical_fiction": 0, "suspense": 0, "historical_romance": 0, "science_fiction": 0}
         },
         {
           "text": "Clear, helpful conversations that educate and inspire",
-          "traits": {
-            "self_help": 3,
-            "memoir": 2,
-            "inspirational_fiction": 1
-          }
+          "traits": {"self_help": 5, "memoir": 4, "young_adult": 2, "contemporary_romance": 1, "literary_fiction": 1, "science_fiction": 1, "fantasy": 0, "dark_romance": 0, "psychological_thriller": 0, "historical_fiction": 0, "suspense": 0, "historical_romance": 0}
         }
       ]
     },
     {
-      "id": 16,
       "question": "What type of conflict drives your best story ideas?",
-      "choices": [
+      "answers": [
         {
           "text": "Person vs. self - internal struggles and emotional growth",
-          "traits": {
-            "literary_fiction": 3,
-            "contemporary_romance": 2,
-            "self_help": 2
-          }
+          "traits": {"literary_fiction": 5, "memoir": 4, "self_help": 4, "contemporary_romance": 3, "young_adult": 2, "psychological_thriller": 2, "dark_romance": 1, "historical_fiction": 2, "fantasy": 1, "suspense": 0, "historical_romance": 2, "science_fiction": 1}
         },
         {
           "text": "Person vs. person - intense relationships and interpersonal drama",
-          "traits": {
-            "psychological_thriller": 2,
-            "dark_romance": 3,
-            "contemporary_romance": 2
-          }
+          "traits": {"dark_romance": 5, "contemporary_romance": 4, "psychological_thriller": 3, "literary_fiction": 2, "historical_romance": 3, "young_adult": 2, "memoir": 2, "suspense": 2, "fantasy": 1, "historical_fiction": 1, "self_help": 0, "science_fiction": 1}
         },
         {
           "text": "Person vs. society - challenging systems and fighting for change",
-          "traits": {
-            "young_adult": 2,
-            "historical_fiction": 3,
-            "literary_fiction": 2
-          }
+          "traits": {"historical_fiction": 5, "young_adult": 4, "literary_fiction": 3, "science_fiction": 3, "memoir": 2, "fantasy": 2, "self_help": 2, "contemporary_romance": 1, "dark_romance": 0, "psychological_thriller": 1, "suspense": 0, "historical_romance": 1}
         },
         {
           "text": "Person vs. supernatural - battles against magical or otherworldly forces",
-          "traits": {
-            "fantasy": 3,
-            "paranormal_romance": 2,
-            "young_adult": 2
-          }
+          "traits": {"fantasy": 5, "young_adult": 4, "science_fiction": 3, "dark_romance": 1, "suspense": 1, "psychological_thriller": 0, "contemporary_romance": 0, "literary_fiction": 0, "historical_fiction": 0, "self_help": 0, "memoir": 0, "historical_romance": 0}
         },
         {
           "text": "Person vs. unknown - mysteries, secrets, and things that go bump in the night",
-          "traits": {
-            "suspense": 3,
-            "psychological_thriller": 2,
-            "thriller": 2
-          }
+          "traits": {"suspense": 5, "psychological_thriller": 4, "science_fiction": 2, "dark_romance": 2, "fantasy": 2, "literary_fiction": 1, "historical_fiction": 1, "memoir": 1, "contemporary_romance": 0, "young_adult": 1, "self_help": 0, "historical_romance": 0}
         }
       ]
     },
     {
-      "id": 17,
       "question": "How important is historical accuracy versus creative freedom in your writing?",
-      "choices": [
+      "answers": [
         {
           "text": "Historical accuracy is crucial - I want to honor the real experiences of the past",
-          "traits": {
-            "historical_fiction": 3,
-            "literary_fiction": 2,
-            "memoir": 1
-          }
+          "traits": {"historical_fiction": 5, "literary_fiction": 3, "memoir": 4, "historical_romance": 2, "science_fiction": 1, "self_help": 2, "contemporary_romance": 0, "dark_romance": 0, "psychological_thriller": 0, "young_adult": 0, "fantasy": 0, "suspense": 0}
         },
         {
           "text": "I'll bend history for a better love story, but keep the emotional truth",
-          "traits": {
-            "historical_romance": 3,
-            "historical_fiction": 1,
-            "contemporary_romance": 1
-          }
+          "traits": {"historical_romance": 5, "contemporary_romance": 2, "fantasy": 1, "young_adult": 1, "literary_fiction": 1, "dark_romance": 1, "historical_fiction": 0, "psychological_thriller": 0, "suspense": 0, "self_help": 0, "memoir": 1, "science_fiction": 0}
         },
         {
           "text": "I prefer creating my own worlds where I can control all the rules",
-          "traits": {
-            "fantasy": 3,
-            "science_fiction": 2,
-            "young_adult": 1
-          }
+          "traits": {"fantasy": 5, "science_fiction": 4, "young_adult": 2, "dark_romance": 1, "contemporary_romance": 1, "psychological_thriller": 1, "literary_fiction": 1, "suspense": 1, "historical_fiction": 0, "self_help": 0, "memoir": 0, "historical_romance": 0}
         },
         {
           "text": "I like contemporary settings where I can focus on current issues and relationships",
-          "traits": {
-            "contemporary_romance": 3,
-            "literary_fiction": 2,
-            "psychological_thriller": 1
-          }
+          "traits": {"contemporary_romance": 5, "literary_fiction": 3, "psychological_thriller": 3, "young_adult": 3, "memoir": 2, "self_help": 2, "suspense": 2, "dark_romance": 2, "fantasy": 0, "historical_fiction": 0, "historical_romance": 0, "science_fiction": 1}
         },
         {
           "text": "Factual accuracy matters most - truth is stranger than fiction",
-          "traits": {
-            "self_help": 3,
-            "memoir": 3,
-            "literary_fiction": 1
-          }
+          "traits": {"self_help": 5, "memoir": 5, "literary_fiction": 2, "historical_fiction": 2, "science_fiction": 1, "contemporary_romance": 0, "dark_romance": 0, "psychological_thriller": 1, "young_adult": 0, "fantasy": 0, "suspense": 1, "historical_romance": 0}
         }
       ]
     },
     {
-      "id": 18,
       "question": "What reader response do you most want to achieve?",
-      "choices": [
+      "answers": [
         {
           "text": "I want them to feel hopeful and believe in the power of love",
-          "traits": {
-            "contemporary_romance": 3,
-            "young_adult": 2,
-            "inspirational_fiction": 2
-          }
+          "traits": {"contemporary_romance": 5, "young_adult": 4, "historical_romance": 4, "self_help": 3, "memoir": 2, "fantasy": 2, "literary_fiction": 1, "science_fiction": 1, "dark_romance": 0, "psychological_thriller": 0, "historical_fiction": 1, "suspense": 0}
         },
         {
           "text": "I want them to question everything they thought they knew",
-          "traits": {
-            "psychological_thriller": 3,
-            "literary_fiction": 2,
-            "suspense": 2
-          }
+          "traits": {"psychological_thriller": 5, "literary_fiction": 4, "suspense": 4, "science_fiction": 3, "memoir": 2, "dark_romance": 2, "historical_fiction": 2, "fantasy": 1, "contemporary_romance": 0, "young_adult": 0, "self_help": 1, "historical_romance": 0}
         },
         {
           "text": "I want them to escape into a world more magical than their own",
-          "traits": {
-            "fantasy": 3,
-            "paranormal_romance": 2,
-            "young_adult": 1
-          }
+          "traits": {"fantasy": 5, "young_adult": 3, "science_fiction": 3, "historical_romance": 2, "contemporary_romance": 2, "dark_romance": 1, "historical_fiction": 1, "literary_fiction": 0, "psychological_thriller": 0, "suspense": 0, "self_help": 0, "memoir": 0}
         },
         {
           "text": "I want them to gain insights that improve their real life",
-          "traits": {
-            "self_help": 3,
-            "memoir": 2,
-            "literary_fiction": 1
-          }
+          "traits": {"self_help": 5, "memoir": 4, "literary_fiction": 3, "young_adult": 2, "contemporary_romance": 2, "historical_fiction": 1, "science_fiction": 2, "fantasy": 0, "dark_romance": 0, "psychological_thriller": 1, "suspense": 0, "historical_romance": 0}
         },
         {
           "text": "I want them to feel deeply and think about what it means to be human",
-          "traits": {
-            "literary_fiction": 3,
-            "historical_fiction": 2,
-            "women_fiction": 2
-          }
+          "traits": {"literary_fiction": 5, "historical_fiction": 4, "memoir": 4, "science_fiction": 2, "psychological_thriller": 2, "contemporary_romance": 2, "young_adult": 1, "dark_romance": 1, "fantasy": 1, "suspense": 0, "self_help": 2, "historical_romance": 2}
         }
       ]
     },
     {
-      "id": 19,
       "question": "What draws you to read a book's first page?",
-      "choices": [
+      "answers": [
         {
           "text": "Beautiful, lyrical language that makes ordinary moments feel profound",
-          "traits": {
-            "literary_fiction": 3,
-            "historical_fiction": 2,
-            "poetry": 2
-          }
+          "traits": {"literary_fiction": 5, "historical_fiction": 3, "memoir": 3, "historical_romance": 2, "fantasy": 2, "young_adult": 1, "contemporary_romance": 1, "science_fiction": 1, "dark_romance": 1, "psychological_thriller": 1, "suspense": 0, "self_help": 0}
         },
         {
           "text": "An immediate sense of danger, mystery, or something being very wrong",
-          "traits": {
-            "psychological_thriller": 3,
-            "suspense": 3,
-            "thriller": 2
-          }
+          "traits": {"psychological_thriller": 5, "suspense": 5, "dark_romance": 3, "science_fiction": 2, "fantasy": 1, "young_adult": 1, "literary_fiction": 1, "historical_fiction": 0, "contemporary_romance": 0, "self_help": 0, "memoir": 0, "historical_romance": 0}
         },
         {
           "text": "A compelling character voice that feels authentic and relatable",
-          "traits": {
-            "contemporary_romance": 2,
-            "young_adult": 3,
-            "women_fiction": 2
-          }
+          "traits": {"young_adult": 5, "contemporary_romance": 4, "memoir": 4, "literary_fiction": 2, "self_help": 2, "dark_romance": 1, "historical_romance": 1, "fantasy": 1, "psychological_thriller": 1, "historical_fiction": 1, "suspense": 0, "science_fiction": 1}
         },
         {
           "text": "Rich world-building that immediately transports me somewhere new",
-          "traits": {
-            "fantasy": 3,
-            "historical_fiction": 2,
-            "science_fiction": 1
-          }
+          "traits": {"fantasy": 5, "science_fiction": 4, "historical_fiction": 3, "young_adult": 2, "historical_romance": 2, "dark_romance": 1, "literary_fiction": 1, "contemporary_romance": 0, "psychological_thriller": 0, "suspense": 0, "self_help": 0, "memoir": 0}
         },
         {
           "text": "A promise of practical wisdom or life-changing insights",
-          "traits": {
-            "self_help": 3,
-            "memoir": 2,
-            "inspirational_fiction": 1
-          }
+          "traits": {"self_help": 5, "memoir": 4, "literary_fiction": 2, "young_adult": 1, "contemporary_romance": 1, "science_fiction": 1, "fantasy": 0, "dark_romance": 0, "psychological_thriller": 0, "historical_fiction": 1, "suspense": 0, "historical_romance": 0}
         }
       ]
     },
     {
-      "id": 20,
       "question": "How do you handle pacing in your storytelling?",
-      "choices": [
+      "answers": [
         {
           "text": "Slow and steady - I like to savor character development and relationship building",
-          "traits": {
-            "literary_fiction": 3,
-            "historical_fiction": 2,
-            "contemporary_romance": 2
-          }
+          "traits": {"literary_fiction": 5, "historical_fiction": 4, "contemporary_romance": 4, "memoir": 3, "historical_romance": 3, "young_adult": 2, "fantasy": 2, "self_help": 2, "dark_romance": 1, "psychological_thriller": 1, "suspense": 0, "science_fiction": 1}
         },
         {
           "text": "Fast and intense - I want to keep readers breathless and turning pages",
-          "traits": {
-            "suspense": 3,
-            "thriller": 3,
-            "psychological_thriller": 2
-          }
+          "traits": {"suspense": 5, "psychological_thriller": 4, "dark_romance": 3, "science_fiction": 2, "young_adult": 2, "fantasy": 2, "contemporary_romance": 1, "literary_fiction": 0, "historical_fiction": 0, "self_help": 0, "memoir": 0, "historical_romance": 1}
         },
         {
           "text": "Variable pacing - quiet moments balanced with action and revelation",
-          "traits": {
-            "fantasy": 2,
-            "young_adult": 2,
-            "literary_fiction": 2
-          }
+          "traits": {"fantasy": 4, "young_adult": 4, "literary_fiction": 3, "science_fiction": 3, "historical_fiction": 2, "memoir": 2, "psychological_thriller": 2, "contemporary_romance": 2, "dark_romance": 1, "suspense": 1, "self_help": 0, "historical_romance": 2}
         },
         {
           "text": "Structured progression - clear steps toward growth and transformation",
-          "traits": {
-            "self_help": 3,
-            "contemporary_romance": 1,
-            "inspirational_fiction": 2
-          }
+          "traits": {"self_help": 5, "memoir": 3, "young_adult": 2, "contemporary_romance": 2, "literary_fiction": 2, "fantasy": 1, "historical_fiction": 1, "science_fiction": 1, "dark_romance": 0, "psychological_thriller": 0, "suspense": 0, "historical_romance": 1}
         },
         {
           "text": "Emotional pacing - speeding up and slowing down based on character needs",
-          "traits": {
-            "contemporary_romance": 3,
-            "women_fiction": 2,
-            "historical_romance": 2
-          }
+          "traits": {"contemporary_romance": 5, "memoir": 4, "historical_romance": 3, "literary_fiction": 3, "young_adult": 2, "dark_romance": 2, "fantasy": 1, "psychological_thriller": 1, "historical_fiction": 1, "suspense": 0, "self_help": 1, "science_fiction": 0}
         }
       ]
     },
     {
-      "id": 21,
       "question": "What kind of research rabbit holes do you find yourself falling into?",
-      "choices": [
+      "answers": [
         {
           "text": "Crime cases, forensics, and the psychology of criminals and victims",
-          "traits": {
-            "psychological_thriller": 3,
-            "suspense": 2,
-            "thriller": 2
-          }
+          "traits": {"psychological_thriller": 5, "suspense": 4, "dark_romance": 2, "science_fiction": 1, "literary_fiction": 1, "memoir": 1, "contemporary_romance": 0, "young_adult": 0, "fantasy": 0, "historical_fiction": 1, "self_help": 1, "historical_romance": 0}
         },
         {
           "text": "Ancient civilizations, mythology, and magical practices from different cultures",
-          "traits": {
-            "fantasy": 3,
-            "historical_fiction": 2,
-            "paranormal_romance": 1
-          }
+          "traits": {"fantasy": 5, "historical_fiction": 4, "science_fiction": 2, "young_adult": 2, "literary_fiction": 1, "historical_romance": 3, "dark_romance": 1, "contemporary_romance": 0, "psychological_thriller": 0, "suspense": 0, "self_help": 0, "memoir": 0}
         },
         {
           "text": "Relationship psychology, attachment styles, and healing from trauma",
-          "traits": {
-            "contemporary_romance": 3,
-            "self_help": 2,
-            "women_fiction": 2
-          }
+          "traits": {"contemporary_romance": 5, "self_help": 4, "memoir": 4, "young_adult": 3, "literary_fiction": 2, "dark_romance": 2, "psychological_thriller": 2, "historical_romance": 1, "fantasy": 0, "historical_fiction": 1, "suspense": 0, "science_fiction": 1}
         },
         {
           "text": "Historical events, daily life in past eras, and social movements",
-          "traits": {
-            "historical_fiction": 3,
-            "historical_romance": 2,
-            "literary_fiction": 1
-          }
+          "traits": {"historical_fiction": 5, "historical_romance": 4, "literary_fiction": 2, "memoir": 2, "science_fiction": 1, "young_adult": 1, "fantasy": 1, "contemporary_romance": 0, "dark_romance": 0, "psychological_thriller": 0, "suspense": 0, "self_help": 0}
         },
         {
           "text": "Personal development, neuroscience, and evidence-based wellness practices",
-          "traits": {
-            "self_help": 3,
-            "memoir": 2,
-            "literary_fiction": 1
-          }
+          "traits": {"self_help": 5, "memoir": 4, "science_fiction": 3, "literary_fiction": 2, "contemporary_romance": 2, "young_adult": 1, "psychological_thriller": 2, "dark_romance": 0, "fantasy": 0, "historical_fiction": 0, "suspense": 0, "historical_romance": 0}
         }
       ]
     },
     {
-      "id": 22,
       "question": "What type of stakes feel most compelling to you as a writer?",
-      "choices": [
+      "answers": [
         {
           "text": "Life or death - physical survival and protecting loved ones",
-          "traits": {
-            "suspense": 3,
-            "thriller": 3,
-            "fantasy": 2
-          }
+          "traits": {"suspense": 5, "fantasy": 4, "science_fiction": 3, "psychological_thriller": 2, "dark_romance": 2, "young_adult": 2, "historical_fiction": 1, "literary_fiction": 1, "contemporary_romance": 0, "self_help": 0, "memoir": 0, "historical_romance": 1}
         },
         {
           "text": "Love or loss - finding connection or facing eternal loneliness",
-          "traits": {
-            "contemporary_romance": 3,
-            "dark_romance": 2,
-            "young_adult": 2
-          }
+          "traits": {"contemporary_romance": 5, "dark_romance": 4, "young_adult": 4, "historical_romance": 4, "memoir": 2, "literary_fiction": 2, "fantasy": 1, "psychological_thriller": 1, "historical_fiction": 1, "suspense": 0, "self_help": 1, "science_fiction": 1}
         },
         {
           "text": "Truth or delusion - understanding reality versus living in false beliefs",
-          "traits": {
-            "psychological_thriller": 3,
-            "literary_fiction": 2,
-            "self_help": 2
-          }
+          "traits": {"psychological_thriller": 5, "literary_fiction": 4, "self_help": 3, "memoir": 3, "science_fiction": 2, "suspense": 2, "dark_romance": 1, "fantasy": 1, "contemporary_romance": 0, "young_adult": 1, "historical_fiction": 1, "historical_romance": 0}
         },
         {
           "text": "Freedom or oppression - breaking chains versus accepting subjugation",
-          "traits": {
-            "young_adult": 2,
-            "historical_fiction": 3,
-            "fantasy": 2
-          }
+          "traits": {"historical_fiction": 5, "young_adult": 4, "fantasy": 3, "science_fiction": 3, "literary_fiction": 2, "memoir": 2, "dark_romance": 2, "suspense": 1, "contemporary_romance": 1, "psychological_thriller": 1, "self_help": 1, "historical_romance": 2}
         },
         {
           "text": "Growth or stagnation - evolving into your best self versus staying stuck",
-          "traits": {
-            "self_help": 3,
-            "literary_fiction": 2,
-            "contemporary_romance": 2
-          }
+          "traits": {"self_help": 5, "memoir": 4, "literary_fiction": 4, "contemporary_romance": 3, "young_adult": 3, "historical_fiction": 2, "fantasy": 1, "science_fiction": 2, "dark_romance": 1, "psychological_thriller": 1, "suspense": 0, "historical_romance": 2}
         }
       ]
     },
     {
-      "id": 23,
       "question": "How do you prefer to reveal information to your readers?",
-      "choices": [
+      "answers": [
         {
           "text": "Gradual reveals through character introspection and emotional discoveries",
-          "traits": {
-            "literary_fiction": 3,
-            "contemporary_romance": 2,
-            "women_fiction": 2
-          }
+          "traits": {"literary_fiction": 5, "contemporary_romance": 4, "memoir": 4, "young_adult": 2, "historical_fiction": 2, "self_help": 2, "historical_romance": 2, "dark_romance": 1, "fantasy": 1, "psychological_thriller": 1, "suspense": 0, "science_fiction": 1}
         },
         {
           "text": "Strategic withholding and shocking reveals that recontextualize everything",
-          "traits": {
-            "psychological_thriller": 3,
-            "suspense": 3,
-            "thriller": 2
-          }
+          "traits": {"psychological_thriller": 5, "suspense": 5, "dark_romance": 2, "science_fiction": 2, "fantasy": 1, "literary_fiction": 1, "memoir": 1, "contemporary_romance": 0, "young_adult": 0, "historical_fiction": 0, "self_help": 0, "historical_romance": 0}
         },
         {
           "text": "Rich exposition woven throughout adventure and world exploration",
-          "traits": {
-            "fantasy": 3,
-            "historical_fiction": 2,
-            "science_fiction": 1
-          }
+          "traits": {"fantasy": 5, "science_fiction": 4, "historical_fiction": 3, "young_adult": 2, "historical_romance": 2, "literary_fiction": 1, "dark_romance": 1, "contemporary_romance": 0, "psychological_thriller": 0, "suspense": 0, "self_help": 0, "memoir": 0}
         },
         {
           "text": "Clear, direct communication that prioritizes understanding over mystery",
-          "traits": {
-            "self_help": 3,
-            "young_adult": 2,
-            "contemporary_romance": 1
-          }
+          "traits": {"self_help": 5, "young_adult": 4, "contemporary_romance": 3, "memoir": 2, "science_fiction": 1, "literary_fiction": 1, "fantasy": 1, "dark_romance": 0, "psychological_thriller": 0, "historical_fiction": 0, "suspense": 0, "historical_romance": 1}
         },
         {
           "text": "Layered storytelling where each re-read reveals new depths",
-          "traits": {
-            "literary_fiction": 3,
-            "historical_fiction": 2,
-            "psychological_thriller": 1
-          }
+          "traits": {"literary_fiction": 5, "historical_fiction": 3, "psychological_thriller": 3, "science_fiction": 2, "fantasy": 2, "memoir": 2, "dark_romance": 1, "suspense": 1, "contemporary_romance": 0, "young_adult": 0, "self_help": 0, "historical_romance": 1}
         }
       ]
     },
     {
-      "id": 24,
-      "question": "What role does hope play in your storytelling?",
-      "choices": [
-        {
-          "text": "Hope is essential - even dark stories should ultimately inspire",
-          "traits": {
-            "contemporary_romance": 3,
-            "young_adult": 2,
-            "self_help": 3
-          }
-        },
-        {
-          "text": "Hope must be earned through struggle and genuine character growth",
-          "traits": {
-            "literary_fiction": 3,
-            "historical_fiction": 2,
-            "fantasy": 2
-          }
-        },
-        {
-          "text": "Hope can be false - sometimes the most honest ending is bleak",
-          "traits": {
-            "psychological_thriller": 2,
-            "literary_fiction": 2,
-            "suspense": 1
-          }
-        },
-        {
-          "text": "Hope emerges from love conquering seemingly impossible obstacles",
-          "traits": {
-            "dark_romance": 2,
-            "historical_romance": 3,
-            "paranormal_romance": 2
-          }
-        },
-        {
-          "text": "Hope is realistic - based on practical strategies and proven methods",
-          "traits": {
-            "self_help": 3,
-            "memoir": 2,
-            "contemporary_romance": 1
-          }
-        }
-      ]
-    },
-    {
-      "id": 25,
       "question": "What legacy do you want your writing to leave?",
-      "choices": [
+      "answers": [
         {
           "text": "I want to help people believe in love and their capacity for happiness",
-          "traits": {
-            "contemporary_romance": 3,
-            "historical_romance": 2,
-            "inspirational_fiction": 2
-          }
+          "traits": {"contemporary_romance": 5, "historical_romance": 4, "young_adult": 3, "self_help": 3, "memoir": 2, "fantasy": 1, "literary_fiction": 1, "dark_romance": 0, "psychological_thriller": 0, "historical_fiction": 1, "suspense": 0, "science_fiction": 1}
         },
         {
           "text": "I want to challenge readers and expand their understanding of what fiction can do",
-          "traits": {
-            "literary_fiction": 3,
-            "experimental_fiction": 2,
-            "psychological_thriller": 1
-          }
+          "traits": {"literary_fiction": 5, "psychological_thriller": 3, "science_fiction": 3, "historical_fiction": 2, "memoir": 2, "fantasy": 2, "dark_romance": 1, "suspense": 1, "contemporary_romance": 0, "young_adult": 0, "self_help": 1, "historical_romance": 0}
         },
         {
           "text": "I want to create escapist worlds that readers return to for comfort and wonder",
-          "traits": {
-            "fantasy": 3,
-            "young_adult": 2,
-            "paranormal_romance": 1
-          }
+          "traits": {"fantasy": 5, "young_adult": 4, "science_fiction": 3, "historical_romance": 2, "contemporary_romance": 2, "dark_romance": 1, "historical_fiction": 1, "literary_fiction": 0, "psychological_thriller": 0, "suspense": 0, "self_help": 0, "memoir": 0}
         },
         {
           "text": "I want to provide practical tools that genuinely improve people's lives",
-          "traits": {
-            "self_help": 3,
-            "memoir": 2,
-            "inspirational_fiction": 1
-          }
+          "traits": {"self_help": 5, "memoir": 4, "young_adult": 2, "contemporary_romance": 1, "literary_fiction": 1, "science_fiction": 1, "fantasy": 0, "dark_romance": 0, "psychological_thriller": 0, "historical_fiction": 0, "suspense": 0, "historical_romance": 0}
         },
         {
           "text": "I want to illuminate the dark corners of human experience with unflinching honesty",
-          "traits": {
-            "psychological_thriller": 2,
-            "literary_fiction": 2,
-            "dark_romance": 3
-          }
+          "traits": {"psychological_thriller": 4, "dark_romance": 5, "literary_fiction": 4, "memoir": 3, "historical_fiction": 2, "science_fiction": 1, "suspense": 2, "fantasy": 0, "contemporary_romance": 0, "young_adult": 0, "self_help": 0, "historical_romance": 0}
         }
       ]
     }
   ],
-  "traits": {
+  "results": {
     "contemporary_romance": {
-      "name": "Contemporary Romance Writer",
-      "short_description": "You're destined to write love stories that heal hearts and restore faith in happily ever after.",
-      "detailed_description": "Your creative soul is drawn to the transformative power of love in modern settings. You understand that the best contemporary romance isn't just about finding 'the one'—it's about two flawed, real people choosing to grow together and heal each other's wounds. Your stories would likely feature relatable characters dealing with real-world challenges like career pressures, family dynamics, past trauma, or personal insecurities. You excel at creating heroes and heroines who feel like people readers could actually meet, with authentic jobs, realistic problems, and genuine emotional baggage that makes their journey to love feel earned rather than inevitable.\n\nYou have an instinct for emotional authenticity and the patience to develop relationships that feel genuine rather than rushed. Your writing voice would naturally lean toward accessible yet emotionally rich prose that makes readers feel deeply connected to your characters. You're drawn to the slow burn of building tension through meaningful conversations, shared experiences, and gradually deepening trust. You understand that the most satisfying romantic payoffs come after readers have watched characters work through their individual issues and learn to be vulnerable with each other.\n\nYour plots would likely focus on realistic obstacles that modern couples actually face—career conflicts, family disapproval, past relationships, personal insecurities, or simply the challenge of opening your heart after being hurt. You'd excel at showing how love doesn't magically solve all problems but rather gives people the strength and motivation to solve them together. Your dialogue would crackle with chemistry and authenticity, capturing the way people really talk when they're falling in love, having arguments, and making up.\n\nYour endings would be hopeful and healing, showing that love really can conquer the obstacles that matter most. You believe in second chances, personal growth, and the idea that the right person can help us become our best selves. Your readers would close your books feeling optimistic about their own capacity for love and happiness, having experienced a story that reminds them that lasting love is possible even in our complicated modern world. The contemporary romance market is vast and welcoming, with readers who are passionate, loyal, and always hungry for their next emotional escape.",
-      "in_depth_analysis": "As a contemporary romance writer, you possess the rare gift of understanding both the universal human need for connection and the specific challenges facing people in today's world. Your stories would serve as both entertainment and emotional therapy, providing readers with hope and healing through the transformative power of love. You understand that romance isn't just about escapism—it's about showing readers that they deserve love, that healing is possible, and that two people can choose to build something beautiful together despite their flaws and past mistakes.\n\nYour strength lies in creating authentic, flawed characters who feel like real people rather than idealized fantasies. You understand that the most compelling romance comes from watching two individuals choose to be vulnerable with each other, to grow together, and to fight for their relationship when things get difficult. Your heroes and heroines would have careers, families, past relationships, and personal struggles that readers can relate to and learn from. You'd excel at showing how love can exist within the messy reality of modern life, complete with demanding jobs, complicated families, and the challenge of maintaining individual identity while building a partnership.\n\nYour writing process would likely involve deep character development and careful attention to emotional pacing. You'd excel at the slow burn—building sexual and emotional tension over time until the payoff feels both inevitable and deeply satisfying. Your dialogue would be sharp and authentic, capturing the unique voice of each character while maintaining the emotional honesty that makes readers feel like they're witnessing real conversations between real people. You'd have an intuitive understanding of how to balance conflict with tenderness, passion with emotional depth.\n\nThe contemporary romance genre offers incredible diversity and opportunity for innovation. You could explore workplace romance, second-chance love, enemies-to-lovers, fake relationships that become real, single parent romance, or any number of other popular tropes. You might focus on specific communities, professions, or social issues, tackling important contemporary topics while never losing sight of the central love story. Your books could feature diverse characters dealing with modern challenges like social media, long-distance relationships, blended families, or career pressures that previous generations never faced.\n\nYour ultimate goal would be to leave readers feeling hopeful about love and more confident in their own worth and capacity for happiness. In a world that often feels dark and divided, your stories would remind people that connection, growth, and lasting love are not only possible but worth fighting for. You'd be contributing to a genre that has helped millions of readers through difficult times, provided comfort during loneliness, and inspired people to believe in their own capacity for love and happiness."
+      "title": "Contemporary Romance Writer",
+      "description": "You're destined to write love stories that heal hearts and restore faith in happily ever after. Your creative soul is drawn to the transformative power of love in modern settings.",
+      "extended": "Your creative soul is drawn to the transformative power of love in modern settings. You understand that the best contemporary romance isn't just about finding 'the one' - it's about two flawed, real people choosing to grow together and heal each other's wounds. Your stories would likely feature relatable characters dealing with real-world challenges like career pressures, family dynamics, past trauma, or personal insecurities.\n\nYou have an instinct for emotional authenticity and the patience to develop relationships that feel genuine rather than rushed. Your writing voice would naturally lean toward accessible yet emotionally rich prose that makes readers feel deeply connected to your characters. You're drawn to the slow burn of building tension through meaningful conversations, shared experiences, and gradually deepening trust.\n\nYour plots would likely focus on realistic obstacles that modern couples actually face - career conflicts, family disapproval, past relationships, personal insecurities, or simply the challenge of opening your heart after being hurt. You'd excel at showing how love doesn't magically solve all problems but rather gives people the strength and motivation to solve them together.\n\nYour endings would be hopeful and healing, showing that love really can conquer the obstacles that matter most. You believe in second chances, personal growth, and the idea that the right person can help us become our best selves. Your readers would close your books feeling optimistic about their own capacity for love and happiness."
     },
     "dark_romance": {
-      "name": "Dark Romance Writer", 
-      "short_description": "You're called to explore the shadows of desire, writing love stories that dance on the edge of danger.",
-      "detailed_description": "Your creative instincts are drawn to the complex, morally ambiguous territory where passion meets peril. Dark romance isn't about glorifying toxicity—it's about exploring the full spectrum of human desire, including the parts that polite society prefers to ignore. Your stories would feature intense, all-consuming relationships that challenge conventional notions of healthy love while ultimately affirming the transformative power of connection. You're fascinated by the psychology of attraction to dangerous people and the ways that love can bloom even in the darkest circumstances.\n\nYou're naturally drawn to antiheroes and morally gray characters who do questionable things for understandable reasons. Your heroes might be criminals with strict codes of honor, damaged soldiers haunted by their past, powerful men whose love comes with strings attached, or anyone whose capacity for violence is matched only by their capacity for devotion. Your heroines would be strong enough to match this intensity—not victims waiting to be saved, but complex women who choose to love dangerous men and have the strength to handle whatever that choice brings.\n\nYour writing would be atmospheric and emotionally charged, creating a sense of tension and anticipation that keeps readers breathless. You understand that controversial elements must serve the emotional story, not overshadow it—every dark moment should ultimately serve the characters' journey toward healing and connection. You'd excel at creating sexual tension that's heightened by danger, forbidden attraction that feels genuinely irresistible, and emotional stakes that make readers desperate for the couple to find their way to each other.\n\nYour endings would be hopeful but hard-won, showing that even damaged people can find redemption through love, though the path is never easy. You believe that some of the most powerful love stories emerge from the darkest places, and that healing is possible even for people who have done terrible things or survived unspeakable trauma. The dark romance audience is passionate and devoted, seeking stories that push boundaries while still delivering the emotional satisfaction of true love conquering all obstacles, no matter how dark those obstacles might be.",
-      "in_depth_analysis": "Dark romance writing requires a sophisticated understanding of psychology, power dynamics, and the complex ways that trauma and healing intersect with love and desire. You would be exploring some of the most challenging and controversial territory in fiction, which demands both courage and responsibility as a storyteller. Your work would push boundaries while maintaining the essential elements that make romance satisfying—consent, character growth, and ultimately hopeful endings where love conquers darkness.\n\nYour strength would lie in your ability to create morally complex characters who feel real despite their extreme circumstances. You understand that truly compelling dark romance isn't about glorifying abuse or unhealthy relationships—it's about exploring how love can exist and even flourish in difficult, dangerous, or unconventional situations. Your antiheroes would be genuinely dangerous but not irredeemable, while your heroines would be strong enough to handle that danger without losing themselves. You'd excel at showing the difference between toxic relationships and relationships that involve risk but are ultimately healing.\n\nYour writing process would require careful attention to the emotional journey of your characters and the psychological realism of their relationship development. You'd need to research trauma, healing, psychology, and often specific subcultures or criminal worlds to ensure authenticity. Your prose would be intense and atmospheric, capable of creating both fear and desire, often simultaneously. You'd have to master the delicate balance between pushing boundaries and maintaining the romantic elements that make readers invested in the relationship.\n\nThe dark romance market has exploded in recent years, with readers seeking increasingly complex and boundary-pushing stories. You could explore mafia romance, motorcycle club romance, military or law enforcement settings, BDSM relationships, captive scenarios, or any number of other dark themes. The key would be maintaining the essential romance elements—character growth, emotional connection, and ultimately hopeful endings—while exploring the darker aspects of human nature and desire. Your stories would need to show that while love doesn't excuse bad behavior, it can inspire people to become better versions of themselves.\n\nYour ultimate goal would be to create stories that satisfy readers' desire for intensity and danger while still affirming that love can conquer even the darkest circumstances. Your readers would be seeking catharsis, emotional intensity, and the thrill of experiencing dangerous situations safely through fiction. You'd need to balance pushing boundaries with maintaining the emotional core that makes romance satisfying and transformative, showing that even people who live in darkness can find light through love and connection."
+      "title": "Dark Romance Writer",
+      "description": "You're called to explore the shadows of desire, writing love stories that dance on the edge of danger. Your creative instincts are drawn to the complex, morally ambiguous territory where passion meets peril.",
+      "extended": "Your creative instincts are drawn to the complex, morally ambiguous territory where passion meets peril. Dark romance isn't about glorifying toxicity - it's about exploring the full spectrum of human desire, including the parts that polite society prefers to ignore. Your stories would feature intense, all-consuming relationships that challenge conventional notions of healthy love while ultimately affirming the transformative power of connection.\n\nYou're naturally drawn to antiheroes and morally gray characters who do questionable things for understandable reasons. Your heroes might be criminals with strict codes of honor, damaged soldiers haunted by their past, powerful men whose love comes with strings attached, or anyone whose capacity for violence is matched only by their capacity for devotion.\n\nYour writing would be atmospheric and emotionally charged, creating a sense of tension and anticipation that keeps readers breathless. You understand that controversial elements must serve the emotional story, not overshadow it - every dark moment should ultimately serve the characters' journey toward healing and connection.\n\nYour endings would be hopeful but hard-won, showing that even damaged people can find redemption through love, though the path is never easy. You believe that some of the most powerful love stories emerge from the darkest places, and that healing is possible even for people who have done terrible things or survived unspeakable trauma."
     },
     "psychological_thriller": {
-      "name": "Psychological Thriller Writer",
-      "short_description": "You're meant to craft mind-bending stories that explore the dark labyrinth of the human psyche.",
-      "detailed_description": "Your creative mind is fascinated by the unreliable nature of memory, perception, and truth itself. Psychological thrillers are your calling because you understand that the most terrifying monsters are often the ones that live inside our own minds. Your stories would focus on character psychology rather than external action, creating suspense through doubt, paranoia, and the gradual revelation that nothing is quite what it seems. You're drawn to exploring themes like gaslighting, memory manipulation, identity disorders, and the thin line between sanity and madness.\n\nYou excel at creating unreliable narrators whose grip on reality becomes increasingly tenuous as the story progresses. Your plots would be intricate puzzles where every clue matters and the final revelation recontextualizes everything the reader thought they knew. You understand how to plant seeds of doubt that grow throughout the narrative, making readers question not only what's happening to your characters but also their own perceptions and assumptions. Your characters might be therapist and patient, married couples with dark secrets, or anyone whose version of reality becomes compromised.\n\nYour writing voice would be precise and atmospheric, capable of conveying subtle shifts in mental state and building dread through seemingly ordinary details. You understand that the most effective psychological horror comes from making readers feel like they're losing their grip on reality alongside your characters. You'd excel at creating that creeping sense of unease that starts small and builds to genuine terror, not through gore or violence, but through the systematic destruction of certainty and trust.\n\nYour endings might be shocking, ambiguous, or deeply unsettling—but always psychologically satisfying in the sense that they provide answers while potentially raising new questions about the nature of truth and reality. You believe that the best psychological thrillers don't just entertain but actually change how readers think about memory, identity, and the reliability of their own perceptions. Readers of psychological thrillers are intelligent, engaged audiences who enjoy being challenged and don't mind having their assumptions shattered—they're looking for books that stay with them long after the final page.",
-      "in_depth_analysis": "Psychological thriller writing demands a deep understanding of human psychology, mental health, memory, and the various ways that reality can be distorted or manipulated. You would be creating stories that operate on multiple levels, challenging readers intellectually while delivering the emotional satisfaction of a well-constructed mystery that explores the darkest corners of the human mind.\n\nYour greatest strength would be your ability to get inside your characters' heads and convey their mental states with precision and authenticity. You'd need to research psychology, mental health conditions, memory formation, trauma responses, and often criminal psychology to create believable scenarios that feel both terrifying and plausible. Your plots would be carefully constructed puzzles where every detail serves a purpose and misdirection is an art form—readers should be able to solve the mystery on a second reading by picking up clues they missed the first time.\n\nYour writing process would likely involve extensive planning and careful attention to consistency—when you're dealing with unreliable narrators and shifting realities, every detail must be deliberately placed. You'd excel at subtle foreshadowing, layered storytelling, and creating atmosphere through carefully chosen details that seem innocent but become sinister in retrospect. Your dialogue would be particularly important, as characters often reveal more through what they don't say than what they do, and subtext becomes crucial when dealing with deception and manipulation.\n\nThe psychological thriller market appreciates sophisticated storytelling and complex characters who aren't simply good or evil but psychologically realistic in their motivations and actions. You could explore themes like memory manipulation, identity disorders, gaslighting in relationships, the psychology of violence, or the thin line between sanity and madness. Your stories might feature therapists and patients, married couples with dark secrets, twins with confused identities, or anyone whose perception of reality becomes compromised through trauma, manipulation, or mental illness.\n\nYour ultimate goal would be to create stories that challenge readers intellectually while delivering genuine thrills and emotional impact. You'd want your books to be the kind that readers discuss with friends, trying to piece together clues they missed and debating the true meaning of ambiguous endings. Your stories would explore fundamental questions about the nature of truth, memory, and identity that resonate long after the book is finished, potentially changing how readers think about their own minds and perceptions."
+      "title": "Psychological Thriller Writer",
+      "description": "You're meant to craft mind-bending stories that explore the dark labyrinth of the human psyche. Your creative mind is fascinated by the unreliable nature of memory, perception, and truth itself.",
+      "extended": "Your creative mind is fascinated by the unreliable nature of memory, perception, and truth itself. Psychological thrillers are your calling because you understand that the most terrifying monsters are often the ones that live inside our own minds. Your stories would focus on character psychology rather than external action, creating suspense through doubt, paranoia, and the gradual revelation that nothing is quite what it seems.\n\nYou excel at creating unreliable narrators whose grip on reality becomes increasingly tenuous as the story progresses. Your plots would be intricate puzzles where every clue matters and the final revelation recontextualizes everything the reader thought they knew. You understand how to plant seeds of doubt that grow throughout the narrative, making readers question not only what's happening to your characters but also their own perceptions and assumptions.\n\nYour writing voice would be precise and atmospheric, capable of conveying subtle shifts in mental state and building dread through seemingly ordinary details. You understand that the most effective psychological horror comes from making readers feel like they're losing their grip on reality alongside your characters.\n\nYour endings might be shocking, ambiguous, or deeply unsettling - but always psychologically satisfying in the sense that they provide answers while potentially raising new questions about the nature of truth and reality. You believe that the best psychological thrillers don't just entertain but actually change how readers think about memory, identity, and the reliability of their own perceptions."
     },
     "fantasy": {
-      "name": "Fantasy Writer",
-      "short_description": "You're destined to build magical worlds where anything is possible and epic stories unfold.",
-      "detailed_description": "Your imagination is vast and untethered by the limitations of reality. Fantasy writing calls to you because you have the rare ability to create entire worlds from scratch—complete with their own histories, cultures, magic systems, and mythologies. You're not just telling a story; you're creating a universe where readers can lose themselves completely. Your mind naturally thinks in terms of world-building, considering how magic would affect society, what kinds of creatures might exist in different environments, and how political systems would develop in worlds where some people have supernatural powers.\n\nYou're drawn to epic quests, chosen ones, magical creatures, and the eternal battle between good and evil, but you also understand that the best fantasy is grounded in real human emotions and struggles. Your characters might wield magic or face dragons, but their fears, hopes, and relationships would feel authentically human. You excel at creating magic systems that feel both wondrous and internally consistent, with rules and limitations that create interesting story possibilities rather than easy solutions to every problem.\n\nYour writing would be rich and immersive, painting vivid pictures of landscapes that exist nowhere but in your imagination. You have the patience for detailed world-building and the creativity to develop cultures, languages, and mythologies that feel authentic and lived-in. Your stories would likely span multiple books, allowing you to explore the full depth and complexity of your created worlds. You understand that fantasy readers want to feel completely transported to somewhere else, and you're willing to do the extensive work required to make that transportation feel seamless and believable.\n\nYour plots would likely involve high stakes—the fate of kingdoms, the balance between magical forces, or epic conflicts that determine the future of entire worlds. You believe in the power of hope, friendship, and courage to overcome even the darkest evil, though you understand that victory should never come easily or without significant cost. Fantasy readers are among the most devoted in all of literature, willing to invest in long series and deeply committed to the worlds they love. They're looking for complete escape and the satisfaction of epic storytelling where good ultimately triumphs, though the path to victory is never simple.",
-      "in_depth_analysis": "Fantasy writing represents one of the most challenging and rewarding forms of storytelling because it requires you to be not just a writer, but also a world-builder, mythologist, and cultural anthropologist for societies that exist only in your imagination. You would be creating complete alternate realities that feel authentic and lived-in despite being entirely fictional.\n\nYour strength lies in your ability to balance limitless creativity with internal consistency and emotional truth. The best fantasy writers understand that magic must have rules, that cultures must have logical foundations, and that even in worlds where anything is possible, characters must still face real stakes and genuine emotional challenges. You'd excel at creating the kind of detailed, immersive worlds that readers want to visit again and again.\n\nYour writing process would involve extensive world-building, often requiring you to develop languages, religions, political systems, histories, and magic systems before you even begin the actual story. You'd need to research everything from medieval technology to mythology to ecology to create believable fantasy worlds. Your prose would be descriptive and evocative, capable of making readers see, smell, and feel places that don't exist.\n\nThe fantasy market is vast and diverse, ranging from epic high fantasy to urban fantasy to cozy fantasy. You could write sweeping epics about the fate of kingdoms, intimate character studies set in magical worlds, or anything in between. The genre welcomes both traditional elements and innovative twists on familiar tropes. Many fantasy series span multiple books, giving you the opportunity to develop complex, long-term story arcs.\n\nYour ultimate goal would be to create worlds so compelling and characters so engaging that readers become completely absorbed in your fictional reality. You'd want to provide the kind of escapism that doesn't just entertain but actually enriches readers' lives, giving them a place to retreat to when the real world becomes too overwhelming. Your stories would explore timeless themes of good versus evil, growth and sacrifice, and the power of friendship and courage."
+      "title": "Fantasy Writer",
+      "description": "You're destined to build magical worlds where anything is possible and epic stories unfold. Your imagination is vast and untethered by the limitations of reality.",
+      "extended": "Your imagination is vast and untethered by the limitations of reality. Fantasy writing calls to you because you have the rare ability to create entire worlds from scratch - complete with their own histories, cultures, magic systems, and mythologies. You're not just telling a story; you're creating a universe where readers can lose themselves completely.\n\nYour mind naturally thinks in terms of world-building, considering how magic would affect society, what kinds of creatures might exist in different environments, and how political systems would develop in worlds where some people have supernatural powers. You're drawn to epic quests, chosen ones, magical creatures, and the eternal battle between good and evil, but you also understand that the best fantasy is grounded in real human emotions and struggles.\n\nYour writing would be rich and immersive, painting vivid pictures of landscapes that exist nowhere but in your imagination. You have the patience for detailed world-building and the creativity to develop cultures, languages, and mythologies that feel authentic and lived-in. Your stories would likely span multiple books, allowing you to explore the full depth and complexity of your created worlds.\n\nYour plots would likely involve high stakes - the fate of kingdoms, the balance between magical forces, or epic conflicts that determine the future of entire worlds. You believe in the power of hope, friendship, and courage to overcome even the darkest evil, though you understand that victory should never come easily or without significant cost."
     },
     "literary_fiction": {
-      "name": "Literary Fiction Writer",
-      "short_description": "You're called to illuminate the human condition through beautiful language and profound insight.",
-      "detailed_description": "Your creative soul is drawn to the complexities of human existence and the power of language to reveal universal truths. Literary fiction calls to you because you understand that the best stories aren't just about what happens, but about what it means—both to your characters and to the broader human experience. You're fascinated by the subtle ways people change and grow, the moral ambiguities that define real life, and the small moments that reveal profound truths about who we are as human beings.\n\nYou excel at creating layered, complex characters whose internal landscapes are as important as their external circumstances. Your protagonists would be flawed, realistic people grappling with questions that don't have easy answers—questions about identity, purpose, mortality, love, loss, and what it means to live a meaningful life. You understand that the most compelling conflicts are often internal, playing out in the space between what people want and what they need, what they believe and what they discover, what they hope for and what they fear.\n\nYour writing voice would be distinctive and carefully crafted, with attention to the rhythm and music of language as well as its meaning. You believe that how something is said is just as important as what is said, and you'd excel at finding fresh ways to express timeless human experiences. Your prose would likely be rich with symbolism, metaphor, and subtext, rewarding readers who pay attention to nuance and deeper meaning.",
-      "in_depth_analysis": "Literary fiction writing requires a deep understanding of human psychology, social dynamics, and the complex ways that meaning emerges from everyday experience. You would be creating stories that operate on multiple levels, offering both immediate narrative satisfaction and deeper philosophical exploration of what it means to be human in all its complexity and contradiction.\n\nYour greatest strength would be your ability to find profound meaning in ordinary moments and to create characters whose internal lives feel as real and complex as those of actual people. You'd excel at showing how small choices ripple outward to create large consequences, how past trauma shapes present behavior, and how people can surprise themselves with their capacity for growth, cruelty, or grace. Your plots would be character-driven, focusing on internal transformation rather than external action.\n\nYour writing process would likely involve extensive revision and careful attention to language, style, and structure. You'd need to research not just facts but emotions, studying how people actually think, speak, and behave in order to create authentic characters and situations. Your dialogue would be subtle and realistic, revealing character through what people don't say as much as what they do. You'd excel at creating atmosphere and mood through carefully chosen details and imagery.\n\nThe literary fiction market values originality, beautiful language, and stories that offer new insights into the human condition. You could explore themes like identity and belonging, family dynamics, social justice, environmental issues, or any aspect of contemporary life that deserves deeper examination. Your work might be set in any time period or location, but would always focus on the universal human experiences that connect us all.\n\nYour ultimate goal would be to create stories that change how readers see themselves and the world around them, offering new perspectives on familiar experiences and illuminating aspects of human nature that might otherwise go unexamined. You'd want your books to be the kind that readers return to, finding new layers of meaning with each reading and carrying insights from your stories into their own lives."
+      "title": "Literary Fiction Writer",
+      "description": "You're called to illuminate the human condition through beautiful language and profound insight. Your creative soul is drawn to the complexities of human existence and the power of language to reveal universal truths.",
+      "extended": "Your creative soul is drawn to the complexities of human existence and the power of language to reveal universal truths. Literary fiction calls to you because you understand that the best stories aren't just about what happens, but about what it means - both to your characters and to the broader human experience. You're fascinated by the subtle ways people change and grow, the moral ambiguities that define real life, and the small moments that reveal profound truths about who we are as human beings.\n\nYou excel at creating layered, complex characters whose internal landscapes are as important as their external circumstances. Your protagonists would be flawed, realistic people grappling with questions that don't have easy answers - questions about identity, purpose, mortality, love, loss, and what it means to live a meaningful life.\n\nYour writing voice would be distinctive and carefully crafted, with attention to the rhythm and music of language as well as its meaning. You believe that how something is said is just as important as what is said, and you'd excel at finding fresh ways to express timeless human experiences. Your prose would likely be rich with symbolism, metaphor, and subtext, rewarding readers who pay attention to nuance and deeper meaning.\n\nYour stories would explore the full complexity of human nature, examining both our capacity for cruelty and our potential for grace. You understand that the most compelling conflicts are often internal, playing out in the space between what people want and what they need, what they believe and what they discover, what they hope for and what they fear."
     },
     "young_adult": {
-      "name": "Young Adult Writer", 
-      "short_description": "You're meant to capture the intensity and possibility of young adulthood in stories that inspire and empower.",
-      "detailed_description": "Your creative instincts are perfectly attuned to the unique challenges and possibilities of adolescence and young adulthood. You understand that this period of life is characterized by intense emotions, rapid change, and the exciting but terrifying process of discovering who you are and what you want from life. Your stories would speak directly to readers who are navigating the transition between childhood and adulthood, offering both escape and guidance during one of life's most transformative periods.\n\nYou excel at creating authentic teenage voices that capture the way young people actually think and speak without condescending or oversimplifying their experiences. Your protagonists would be coming-of-age, dealing with issues like identity formation, first love, friendship drama, family expectations, academic pressure, and the overwhelming question of what to do with their lives. You understand that these concerns, while they might seem small to adults, feel monumentally important to young people experiencing them.\n\nYour writing would balance relatability with escapism, grounding fantastical or dramatic elements in the very real emotional experiences of growing up. Whether you're writing contemporary realistic fiction, fantasy, science fiction, or romance, your stories would always center on themes of self-discovery, finding your place in the world, and learning to trust your own voice and instincts.",
-      "in_depth_analysis": "Young adult writing requires a deep understanding of adolescent psychology and the unique challenges facing young people in today's world. You would be creating stories that serve as both entertainment and guides for readers navigating one of the most complex and formative periods of human development.\n\nYour strength lies in your ability to remember and authentically capture the intensity of teenage emotions and experiences. You understand that what adults might dismiss as 'teenage drama' feels genuinely life-or-death important to young people experiencing it. You'd excel at creating protagonists who feel real and relatable while still being aspirational—characters that young readers can see themselves in but also look up to.\n\nYour writing process would involve staying current with youth culture, technology, and the specific pressures facing young people today. You'd need to balance timeless coming-of-age themes with contemporary issues like social media, college pressure, climate anxiety, and social justice. Your dialogue would be particularly important, capturing authentic teenage speech patterns without relying on slang that quickly becomes dated.\n\nThe young adult market is incredibly diverse, spanning every genre from contemporary realism to high fantasy. You could write about first love, family dysfunction, school pressures, supernatural adventures, dystopian futures, or any combination thereof. The key would be maintaining focus on the internal journey of self-discovery that defines this life stage.\n\nYour ultimate goal would be to create stories that validate young people's experiences while inspiring them to believe in their own power to shape their futures. You'd want your books to be the kind that help readers feel less alone, more understood, and more confident in their ability to navigate the challenges and opportunities ahead of them."
+      "title": "Young Adult Writer",
+      "description": "You're meant to capture the intensity and possibility of young adulthood in stories that inspire and empower. Your creative instincts are perfectly attuned to the unique challenges and possibilities of adolescence.",
+      "extended": "Your creative instincts are perfectly attuned to the unique challenges and possibilities of adolescence and young adulthood. You understand that this period of life is characterized by intense emotions, rapid change, and the exciting but terrifying process of discovering who you are and what you want from life. Your stories would speak directly to readers who are navigating the transition between childhood and adulthood, offering both escape and guidance during one of life's most transformative periods.\n\nYou excel at creating authentic teenage voices that capture the way young people actually think and speak without condescending or oversimplifying their experiences. Your protagonists would be coming-of-age, dealing with issues like identity formation, first love, friendship drama, family expectations, academic pressure, and the overwhelming question of what to do with their lives.\n\nYour writing would balance relatability with escapism, grounding fantastical or dramatic elements in the very real emotional experiences of growing up. Whether you're writing contemporary realistic fiction, fantasy, science fiction, or romance, your stories would always center on themes of self-discovery, finding your place in the world, and learning to trust your own voice and instincts.\n\nYour characters would face real stakes that matter deeply to young people - the fear of not belonging, the pressure to make life-defining decisions, the intensity of first love, the pain of betrayal by friends, and the challenge of standing up for what you believe in. Your stories would validate the very real struggles of young people while inspiring them to believe in their own power to shape their futures."
     },
     "historical_fiction": {
-      "name": "Historical Fiction Writer",
-      "short_description": "You're drawn to bringing the past to life through meticulously researched and emotionally resonant stories.",
-      "detailed_description": "Your imagination is captivated by the rich tapestry of human history and your desire to transport readers to different eras. Historical fiction calls to you because you understand that the past isn't really past—that the struggles, triumphs, and emotions of people who lived centuries ago are fundamentally similar to our own. You're fascinated by how people lived, loved, and survived in times very different from our own, and you have the patience and dedication required to research and authentically recreate historical periods.\n\nYou excel at balancing historical accuracy with compelling storytelling, understanding that readers want both education and entertainment. Your characters would be products of their time while still feeling relatable and human to modern audiences. You're drawn to exploring how major historical events affected ordinary people, showing the human cost and triumph of wars, social movements, cultural shifts, and technological changes.",
-      "in_depth_analysis": "Historical fiction writing demands extensive research skills and the ability to synthesize vast amounts of information into authentic, engaging narratives. You would be serving as both entertainer and educator, bringing historical periods to life in ways that textbooks never could.\n\nYour strength lies in your ability to make the past feel immediate and relevant while respecting historical accuracy and context. You'd excel at showing how people in different eras faced universal human challenges—love, loss, ambition, survival—within the specific constraints and opportunities of their time period. Your characters would think and act like people of their era while still being psychologically accessible to modern readers.\n\nYour writing process would involve extensive research into everything from daily life details to major historical events, political systems, social customs, technology, clothing, food, and language patterns of your chosen time period. You'd need to balance accuracy with readability, making informed choices about which historical details to include and how to present them naturally within your narrative.\n\nThe historical fiction market spans all time periods and geographic locations, offering endless possibilities for exploration. You could write about ancient civilizations, medieval kingdoms, colonial America, Victorian England, World War II, or any other era that captures your imagination. The key would be finding the human stories within the historical backdrop.\n\nYour ultimate goal would be to make history feel alive and relevant, helping readers understand that people in the past were just as complex, passionate, and human as we are today. You'd want your stories to illuminate both the differences and similarities between past and present, perhaps offering insights into contemporary issues through historical perspective."
+      "title": "Historical Fiction Writer",
+      "description": "You're drawn to bringing the past to life through meticulously researched and emotionally resonant stories. Your imagination is captivated by the rich tapestry of human history.",
+      "extended": "Your imagination is captivated by the rich tapestry of human history and your desire to transport readers to different eras. Historical fiction calls to you because you understand that the past isn't really past - that the struggles, triumphs, and emotions of people who lived centuries ago are fundamentally similar to our own. You're fascinated by how people lived, loved, and survived in times very different from our own, and you have the patience and dedication required to research and authentically recreate historical periods.\n\nYou excel at balancing historical accuracy with compelling storytelling, understanding that readers want both education and entertainment. Your characters would be products of their time while still feeling relatable and human to modern audiences. You're drawn to exploring how major historical events affected ordinary people, showing the human cost and triumph of wars, social movements, cultural shifts, and technological changes.\n\nYour writing would be rich with period detail but never at the expense of emotional authenticity. You'd excel at showing how historical constraints could create unique challenges and opportunities for your characters, making their struggles feel both foreign and familiar to modern readers.\n\nYour stories would likely explore themes of social change, cultural conflict, and the ways that individual choices intersect with larger historical forces. You understand that the best historical fiction doesn't just recreate the past but helps readers understand how history continues to shape our present and future."
     },
     "suspense": {
-      "name": "Suspense Writer",
-      "short_description": "You're meant to master the art of keeping readers on the edge of their seats, breathless with anticipation.",
-      "detailed_description": "Your creative instincts are perfectly tuned to the delicate art of building and maintaining tension. Suspense writing calls to you because you understand that the most thrilling stories aren't necessarily about what happens, but about the anticipation of what might happen. You excel at creating that page-turning quality that makes readers stay up all night because they simply can't put your book down. You're drawn to plots that unfold gradually, revealing information strategically while building toward explosive climaxes.\n\nYou have an intuitive understanding of pacing and timing, knowing exactly when to reveal crucial information and when to hold it back. Your stories would likely feature ordinary people thrust into extraordinary circumstances, creating immediate reader identification and investment. You understand that the best suspense comes from making readers care deeply about your characters and then putting those characters in increasingly dangerous or uncertain situations.",
-      "in_depth_analysis": "Suspense writing requires masterful control of pacing, information reveal, and reader psychology. You would be creating stories that function like expertly designed roller coasters, building tension gradually before delivering satisfying payoffs that leave readers both relieved and eager for more.\n\nYour greatest strength would be your understanding of how to manipulate time and information to create maximum emotional impact. You'd excel at creating multiple plot threads that weave together in surprising but logical ways, and at developing characters whose personal stakes make every danger feel personal to readers. Your plots would likely involve races against time, hidden threats, or gradually revealed conspiracies.\n\nYour writing process would involve careful plotting and attention to the emotional journey you're creating for readers. You'd need to research various professional fields, technologies, or specialized knowledge areas to create believable scenarios. Your prose style would likely be clean and fast-paced, designed to keep readers moving through the story without getting bogged down in unnecessary description.\n\nThe suspense market includes everything from domestic thrillers to international espionage to medical mysteries. You could write about missing persons, corporate conspiracies, family secrets, or any scenario where the stakes are high and time is running out. The key would be maintaining that sense of urgency and uncertainty that defines great suspense.\n\nYour ultimate goal would be to create books that readers simply can't put down, stories that generate genuine anxiety and relief as plot threads resolve. You'd want your readers to feel like they've been on an emotional journey, exhausted but satisfied by the experience of living through your carefully orchestrated tension and release."
+      "title": "Suspense Writer",
+      "description": "You're meant to master the art of keeping readers on the edge of their seats, breathless with anticipation. Your creative instincts are perfectly tuned to the delicate art of building and maintaining tension.",
+      "extended": "Your creative instincts are perfectly tuned to the delicate art of building and maintaining tension. Suspense writing calls to you because you understand that the most thrilling stories aren't necessarily about what happens, but about the anticipation of what might happen. You excel at creating that page-turning quality that makes readers stay up all night because they simply can't put your book down.\n\nYou have an intuitive understanding of pacing and timing, knowing exactly when to reveal crucial information and when to hold it back. Your stories would likely feature ordinary people thrust into extraordinary circumstances, creating immediate reader identification and investment. You understand that the best suspense comes from making readers care deeply about your characters and then putting those characters in increasingly dangerous or uncertain situations.\n\nYour writing would be lean and efficient, designed to keep readers moving through the story without getting bogged down in unnecessary description. You'd excel at creating believable threats and equally believable heroes capable of facing those threats, often involving real-world concerns like terrorism, corporate corruption, or international conflict.\n\nYour plots would likely involve races against time, hidden conspiracies, or gradually revealed threats that become increasingly urgent as the story progresses. You understand that effective suspense requires not just external danger but also internal stakes that make readers emotionally invested in the outcome."
     },
     "self_help": {
-      "name": "Self-Help Writer",
-      "short_description": "You're called to share wisdom and practical strategies that genuinely improve people's lives.",
-      "detailed_description": "Your creative drive is fueled by a genuine desire to help others overcome challenges and achieve their potential. Self-help writing calls to you because you understand that knowledge without application is useless, and you have both the insight and communication skills necessary to translate complex concepts into actionable advice. You're drawn to exploring how people can break through limiting beliefs, develop healthier relationships, build confidence, or create more fulfilling lives.\n\nYou excel at breaking down overwhelming problems into manageable steps and presenting information in ways that feel accessible rather than preachy. Your writing would likely combine research-based strategies with relatable examples and exercises that readers can actually implement. You understand that real change requires more than just understanding—it requires sustained action and often a fundamental shift in mindset.",
-      "in_depth_analysis": "Self-help writing requires a unique combination of expertise, empathy, and practical wisdom. You would be serving as both teacher and guide, helping readers navigate personal challenges while avoiding the trap of offering simplistic solutions to complex problems.\n\nYour strength lies in your ability to translate abstract concepts into concrete, actionable advice that readers can actually implement in their daily lives. You'd excel at understanding what prevents people from making positive changes and addressing those obstacles directly. Your approach would likely be evidence-based but also deeply human, acknowledging that change is difficult and often non-linear.\n\nYour writing process would involve extensive research into psychology, neuroscience, sociology, and other relevant fields, as well as collection of real-world examples and case studies. You'd need to balance authority with relatability, presenting yourself as knowledgeable without being condescending. Your prose would be clear, direct, and motivational without being overly cheerful or dismissive of real struggles.\n\nThe self-help market covers every aspect of human experience, from relationships and career development to mental health and spiritual growth. You could focus on specific demographics, particular challenges, or broad life skills. The key would be offering genuine value rather than quick fixes, helping readers develop sustainable strategies for long-term growth.\n\nYour ultimate goal would be to create books that actually change lives, providing readers with tools and insights they can use long after they finish reading. You'd want your work to be the kind that readers return to repeatedly, finding new applications for your advice as they grow and face new challenges."
+      "title": "Self-Help Writer",
+      "description": "You're called to share wisdom and practical strategies that genuinely improve people's lives. Your creative drive is fueled by a genuine desire to help others overcome challenges and achieve their potential.",
+      "extended": "Your creative drive is fueled by a genuine desire to help others overcome challenges and achieve their potential. Self-help writing calls to you because you understand that knowledge without application is useless, and you have both the insight and communication skills necessary to translate complex concepts into actionable advice. You're drawn to exploring how people can break through limiting beliefs, develop healthier relationships, build confidence, or create more fulfilling lives.\n\nYou excel at breaking down overwhelming problems into manageable steps and presenting information in ways that feel accessible rather than preachy. Your writing would likely combine research-based strategies with relatable examples and exercises that readers can actually implement. You understand that real change requires more than just understanding - it requires sustained action and often a fundamental shift in mindset.\n\nYour approach would likely be evidence-based but also deeply human, acknowledging that change is difficult and often non-linear. You'd excel at understanding what prevents people from making positive changes and addressing those obstacles directly. Your writing voice would be encouraging but realistic, offering hope without making promises that can't be kept.\n\nYour ultimate goal would be to create books that actually change lives, providing readers with tools and insights they can use long after they finish reading. You believe that with the right guidance and support, people can overcome significant obstacles and create meaningful positive change in their lives."
     },
     "memoir": {
-      "name": "Memoir Writer", 
-      "short_description": "You're meant to transform your life experiences into universal stories that inspire and connect.",
-      "detailed_description": "Your creative instincts are drawn to the power of personal narrative to illuminate universal truths. Memoir writing calls to you because you understand that your own experiences, when thoughtfully examined and skillfully told, can offer insights and comfort to others facing similar challenges. You have both significant life experiences worth sharing and the self-awareness necessary to examine those experiences with honesty and nuance.\n\nYou excel at finding meaning in personal struggles and triumphs, understanding that the value of memoir lies not just in what happened to you, but in what you learned from those experiences and how you've grown as a result. Your writing would be deeply personal yet universally relatable, showing how individual experiences connect to broader human themes like resilience, love, loss, identity, and transformation. You understand that the best memoirs don't just tell what happened—they explore why it mattered and what it means for both the author and the reader.\n\nYour voice would be authentic and vulnerable, willing to examine your own flaws and mistakes as well as your victories. You'd excel at recreating scenes with vivid detail while also providing the mature perspective that comes from having lived through and reflected on difficult experiences. Your stories would likely focus on pivotal moments, relationships, or periods of significant change that shaped who you became.\n\nYour writing would offer hope without minimizing pain, showing readers that it's possible to not only survive difficult experiences but to find meaning and even growth through them. You believe that sharing our stories honestly can help others feel less alone in their own struggles and perhaps avoid some of the mistakes you made along the way.",
-      "in_depth_analysis": "Memoir writing requires exceptional courage, self-awareness, and literary skill. You would be mining your own life for material while crafting it into a narrative that serves readers rather than just serving your own need to be heard. This demands both emotional intelligence and storytelling ability.\n\nYour strength lies in your ability to examine your own experiences with both honesty and compassion, finding universal themes within personal details. You'd excel at balancing vulnerability with boundaries, sharing enough to create connection without oversharing in ways that make readers uncomfortable. Your narrative would likely follow a clear arc of transformation, showing how specific experiences led to growth and change.\n\nYour writing process would involve both remembering and researching your own life, perhaps interviewing family members, looking through old documents, or visiting important places from your past. You'd need to consider legal and ethical issues around writing about other people, making decisions about what to include and how to protect others' privacy while still telling your truth.\n\nThe memoir market spans every type of human experience, from addiction recovery to career changes to family dynamics to spiritual journeys. You could write about overcoming trauma, navigating major life transitions, pursuing unconventional paths, or any experience that taught you something valuable about life. The key would be focusing on experiences that have broader relevance beyond just your personal story.\n\nYour ultimate goal would be to transform your personal experiences into something that serves others—offering hope, insight, practical wisdom, or simply the comfort of knowing they're not alone in their struggles. You'd want your memoir to be the kind of book that readers feel grateful to have found, one that changes their perspective or gives them strength to face their own challenges."
+      "title": "Memoir Writer",
+      "description": "You're meant to transform your life experiences into universal stories that inspire and connect. Your creative instincts are drawn to the power of personal narrative to illuminate universal truths.",
+      "extended": "Your creative instincts are drawn to the power of personal narrative to illuminate universal truths. Memoir writing calls to you because you understand that your own experiences, when thoughtfully examined and skillfully told, can offer insights and comfort to others facing similar challenges. You have both significant life experiences worth sharing and the self-awareness necessary to examine those experiences with honesty and nuance.\n\nYou excel at finding meaning in personal struggles and triumphs, understanding that the value of memoir lies not just in what happened to you, but in what you learned from those experiences and how you've grown as a result. Your writing would be deeply personal yet universally relatable, showing how individual experiences connect to broader human themes like resilience, love, loss, identity, and transformation.\n\nYour voice would be authentic and vulnerable, willing to examine your own flaws and mistakes as well as your victories. You'd excel at recreating scenes with vivid detail while also providing the mature perspective that comes from having lived through and reflected on difficult experiences.\n\nYour stories would likely focus on pivotal moments, relationships, or periods of significant change that shaped who you became. Your writing would offer hope without minimizing pain, showing readers that it's possible to not only survive difficult experiences but to find meaning and even growth through them."
     },
     "historical_romance": {
-      "name": "Historical Romance Writer",
-      "short_description": "You're destined to weave passionate love stories against the rich tapestry of bygone eras.",
-      "detailed_description": "Your creative soul is captivated by both the sweep of history and the timeless power of romantic love. Historical romance calls to you because you understand that love stories become even more compelling when set against the backdrop of different eras, with their unique social constraints, cultural expectations, and historical events. You're drawn to exploring how people found love and fought for happiness within the specific limitations and opportunities of their time periods.\n\nYou excel at creating authentic historical settings that feel lived-in and real while never losing sight of the central love story. Your heroes and heroines would be products of their time but also relatable to modern readers, navigating both the universal challenges of falling in love and the specific obstacles created by historical circumstances. You understand how to use historical elements—social rules, family expectations, economic pressures, or major events—to create compelling conflict and tension.\n\nYour writing would be rich with period detail but never at the expense of emotional authenticity. You'd excel at showing how historical constraints could intensify romantic feelings, making stolen moments more precious and hard-won victories more satisfying. Your love stories would feel both historically grounded and emotionally timeless, reminding readers that passion and connection transcend time and culture.",
-      "in_depth_analysis": "Historical romance writing requires the research skills of historical fiction combined with the emotional intelligence of contemporary romance. You would be creating love stories that honor both historical accuracy and romantic fantasy, serving readers who want both escapism and education.\n\nYour strength lies in your ability to use historical settings to enhance rather than overshadow the romantic elements of your story. You'd excel at finding the perfect balance between historical authenticity and romantic idealization, creating worlds that feel real enough to be believable but romantic enough to be satisfying. Your research would need to cover everything from daily life details to major historical events, social customs, and the specific ways that historical circumstances would affect romantic relationships.\n\nYour writing process would involve extensive historical research followed by careful plotting of how historical elements can create and resolve romantic conflict. You'd need to understand the social rules and expectations of your chosen time period well enough to know how and when your characters might rebel against them. Your dialogue would need to feel period-appropriate without being difficult for modern readers to understand.\n\nThe historical romance market spans every time period and geographic location, from ancient Rome to Victorian England to the American Old West. You could write about arranged marriages that become love matches, forbidden romances across class lines, second chances after loss, or any romantic scenario enhanced by historical setting. The key would be making historical elements serve the romance rather than overwhelming it.\n\nYour ultimate goal would be to create love stories that feel both historically authentic and romantically satisfying, transporting readers to different eras while reminding them that love is universal and timeless. You'd want your books to be the kind that romance readers treasure for their perfect blend of historical detail and emotional payoff."
+      "title": "Historical Romance Writer",
+      "description": "You're destined to weave passionate love stories against the rich tapestry of bygone eras. Your creative soul is captivated by both the sweep of history and the timeless power of romantic love.",
+      "extended": "Your creative soul is captivated by both the sweep of history and the timeless power of romantic love. Historical romance calls to you because you understand that love stories become even more compelling when set against the backdrop of different eras, with their unique social constraints, cultural expectations, and historical events. You're drawn to exploring how people found love and fought for happiness within the specific limitations and opportunities of their time periods.\n\nYou excel at creating authentic historical settings that feel lived-in and real while never losing sight of the central love story. Your heroes and heroines would be products of their time but also relatable to modern readers, navigating both the universal challenges of falling in love and the specific obstacles created by historical circumstances.\n\nYour writing would be rich with period detail but never at the expense of emotional authenticity. You'd excel at showing how historical constraints could intensify romantic feelings, making stolen moments more precious and hard-won victories more satisfying. Your love stories would feel both historically grounded and emotionally timeless, reminding readers that passion and connection transcend time and culture.\n\nYour plots would likely involve conflicts between personal desire and social expectation, forbidden romances across class lines, arranged marriages that become love matches, or second chances after loss. You understand how to use historical elements to create compelling romantic conflict while ensuring that love ultimately triumphs over the obstacles of the past."
     },
     "science_fiction": {
-      "name": "Science Fiction Writer",
-      "short_description": "You're called to explore the infinite possibilities of the future and the impact of technology on humanity.",
-      "detailed_description": "Your imagination is drawn to the endless possibilities of scientific advancement and its impact on human society. Science fiction calls to you because you understand that the best sci-fi isn't really about technology—it's about how technology changes us, challenges us, and forces us to confront fundamental questions about what it means to be human. You're fascinated by extrapolating current trends into possible futures and exploring the ethical, social, and personal implications of scientific progress.\n\nYou excel at creating believable future worlds based on logical extensions of current scientific knowledge while never losing sight of the human element. Your stories would likely explore themes like artificial intelligence, space exploration, genetic engineering, virtual reality, environmental change, or social evolution. You understand that the most compelling science fiction uses technological or scientific concepts as catalysts for examining timeless human concerns about identity, morality, survival, and connection.\n\nYour writing would balance scientific plausibility with narrative excitement, creating worlds that feel both fantastic and believable. You'd excel at exploring the unintended consequences of scientific advancement and the ways that technology can both solve old problems and create new ones.",
-      "in_depth_analysis": "Science fiction writing requires both scientific literacy and philosophical depth. You would be serving as both entertainer and social commentator, using speculative scenarios to explore contemporary issues and future possibilities.\n\nYour strength lies in your ability to extrapolate current scientific and social trends into compelling future scenarios while maintaining focus on human stories and concerns. You'd excel at creating technology that feels both advanced and plausible, and at exploring the complex ways that scientific advancement might affect individual lives and society as a whole.\n\nYour writing process would involve staying current with scientific research and technological development, as well as understanding the social and ethical implications of emerging technologies. You'd need to balance scientific accuracy with narrative needs, creating believable future worlds without getting bogged down in technical exposition.\n\nThe science fiction market includes everything from hard science fiction focused on scientific accuracy to space opera emphasizing adventure and romance to dystopian fiction exploring social and political issues. You could write about space exploration, artificial intelligence, time travel, genetic engineering, or any scientific concept that captures your imagination.\n\nYour ultimate goal would be to create stories that both entertain and provoke thought about the future we're creating and the choices we're making today. You'd want your work to inspire wonder about possibilities while also encouraging careful consideration of the consequences of scientific progress."
-    },
-    "thriller": {
-      "name": "Thriller Writer",
-      "short_description": "You're meant to create heart-pounding adventures where heroes race against time to prevent catastrophe.",
-      "detailed_description": "Your creative instincts are perfectly suited to high-stakes storytelling where every second counts. Thriller writing calls to you because you understand how to create and sustain intense excitement, building stories around urgent threats that must be stopped before terrible consequences unfold. You're drawn to plots involving conspiracies, international intrigue, deadly chases, and heroes who must use all their skills and resources to save lives and prevent disasters.\n\nYou excel at creating fast-paced narratives with multiple plot threads, unexpected twists, and escalating stakes. Your protagonists would likely be skilled professionals—agents, soldiers, doctors, lawyers, or experts in specialized fields—who find themselves in extraordinary circumstances where their expertise becomes crucial for survival. You understand how to balance action with character development, creating heroes readers care about even as they're swept along by relentless pacing.\n\nYour writing would be lean and efficient, designed to keep readers turning pages without pause. You'd excel at creating believable threats and equally believable heroes capable of facing those threats, often involving real-world concerns like terrorism, corporate corruption, or international conflict.",
-      "in_depth_analysis": "Thriller writing demands expert control of pacing and plot construction combined with deep research into specialized fields and real-world threats. You would be creating entertainment that feels both exciting and plausible, often drawing on contemporary fears and concerns.\n\nYour strength lies in your ability to create and maintain intense momentum while developing characters that readers care about enough to fear for their safety. You'd excel at plotting complex scenarios with multiple moving parts, creating stories where every chapter ends with a compelling reason to keep reading.\n\nYour writing process would involve extensive research into whatever specialized knowledge your story requires—technology, law enforcement, military procedures, corporate structures, or international politics. You'd need to understand how real professionals work in order to create believable heroes and realistic scenarios.\n\nThe thriller market includes everything from legal thrillers to medical thrillers to international espionage to domestic terrorism plots. You could write about cyber warfare, political conspiracies, serial killers, or any high-stakes scenario that captures your imagination and contemporary concerns.\n\nYour ultimate goal would be to create books that readers absolutely cannot put down, stories that generate genuine excitement and anxiety as heroes face seemingly impossible odds. You'd want your thrillers to feel both entertaining and believable, perhaps even educational about real-world threats and the people who work to counter them."
-    },
-    "women_fiction": {
-      "name": "Women's Fiction Writer",
-      "short_description": "You're destined to explore the rich complexity of women's lives, relationships, and personal journeys.",
-      "detailed_description": "Your creative vision is focused on the intricate emotional landscapes of women's experiences across all stages of life. Women's fiction calls to you because you understand that women's stories—their relationships, struggles, triumphs, and transformations—deserve center stage and careful exploration. You're drawn to examining how women navigate the complex interplay between personal desires and social expectations, individual growth and family responsibilities, professional ambitions and personal relationships.\n\nYou excel at creating multi-dimensional female characters whose internal lives are as important as their external circumstances. Your stories would likely explore themes like friendship, family dynamics, career challenges, motherhood, aging, divorce, loss, self-discovery, and the ways women support and sometimes compete with each other. You understand that women's experiences are diverse and complex, requiring nuanced storytelling that avoids stereotypes while honoring genuine struggles and celebrations.\n\nYour writing would be emotionally rich and character-driven, focusing on relationships and personal growth rather than external action. You'd excel at showing how women's lives intersect and influence each other, creating stories about female communities, multigenerational families, or individual women finding their voice and strength.",
-      "in_depth_analysis": "Women's fiction writing requires deep understanding of contemporary women's experiences and the ability to create authentic, complex female characters across different ages, backgrounds, and life circumstances. You would be serving an audience hungry for stories that reflect their own experiences and challenges.\n\nYour strength lies in your ability to capture the specific textures of women's emotional lives and relationships while avoiding both idealization and victimization. You'd excel at showing women as complex individuals capable of both strength and vulnerability, wisdom and mistakes, selflessness and selfishness—in other words, as fully human.\n\nYour writing process would involve deep observation of women's lives, relationships, and contemporary challenges. You'd need to stay current with issues affecting women while also understanding timeless themes around identity, relationships, and personal growth. Your character development would be particularly important, as readers expect to see themselves reflected authentically in women's fiction.\n\nThe women's fiction market covers every stage of life and type of experience, from young women finding their way to older women reinventing themselves. You could write about career women, stay-at-home mothers, empty nesters, divorcees, widows, or any woman navigating life's challenges and opportunities.\n\nYour ultimate goal would be to create stories that make women feel seen, understood, and less alone in their experiences. You'd want your books to be the kind that women recommend to their friends, that spark conversations about real-life issues, and that provide both entertainment and emotional validation."
-    },
-    "paranormal_romance": {
-      "name": "Paranormal Romance Writer",
-      "short_description": "You're meant to blend supernatural elements with passionate romance in otherworldly love stories.",
-      "detailed_description": "Your imagination is captivated by the intersection of the supernatural and the romantic, creating love stories that transcend the boundaries of ordinary reality. Paranormal romance calls to you because you understand that adding supernatural elements—vampires, werewolves, witches, angels, demons, or other magical beings—can intensify romantic tension and create unique obstacles and opportunities for love. You're drawn to exploring how immortal beings might experience love differently than humans, or how magical powers might complicate romantic relationships.\n\nYou excel at world-building that incorporates supernatural elements while maintaining believable romantic dynamics. Your characters would likely include both supernatural beings and humans, often exploring themes of forbidden love, dangerous attraction, and the challenges of loving someone whose nature is fundamentally different from your own. You understand how to use supernatural elements to heighten romantic stakes and create scenarios impossible in purely realistic fiction.",
-      "in_depth_analysis": "Paranormal romance writing requires both strong romance writing skills and creative world-building abilities. You would be serving readers who want the emotional satisfaction of romance combined with the excitement of supernatural adventure and the escape of fantasy elements.\n\nYour strength lies in your ability to balance supernatural elements with genuine romantic development, ensuring that magical aspects enhance rather than overshadow the love story. You'd excel at creating supernatural beings who feel both otherworldly and emotionally accessible, capable of generating both fear and desire.\n\nYour writing process would involve developing consistent rules for your supernatural world while crafting compelling romantic conflicts that grow naturally from those supernatural elements. You'd need to research mythology, folklore, and existing paranormal romance tropes while finding ways to make your supernatural elements feel fresh and interesting.\n\nThe paranormal romance market includes every type of supernatural being and magical scenario imaginable, from urban fantasy set in contemporary cities to historical paranormal to futuristic supernatural societies. You could write about vampires, werewolves, witches, angels, demons, psychics, or any supernatural concept that captures your imagination.\n\nYour ultimate goal would be to create love stories that feel both romantically satisfying and supernaturally exciting, offering readers escape into worlds where magic is real and love can conquer even supernatural obstacles."
+      "title": "Science Fiction Writer",
+      "description": "You're called to explore the infinite possibilities of the future and the impact of technology on humanity. Your imagination is drawn to the endless possibilities of scientific advancement and its impact on human society.",
+      "extended": "Your imagination is drawn to the endless possibilities of scientific advancement and its impact on human society. Science fiction calls to you because you understand that the best sci-fi isn't really about technology - it's about how technology changes us, challenges us, and forces us to confront fundamental questions about what it means to be human. You're fascinated by extrapolating current trends into possible futures and exploring the ethical, social, and personal implications of scientific progress.\n\nYou excel at creating believable future worlds based on logical extensions of current scientific knowledge while never losing sight of the human element. Your stories would likely explore themes like artificial intelligence, space exploration, genetic engineering, virtual reality, environmental change, or social evolution.\n\nYour writing would balance scientific plausibility with narrative excitement, creating worlds that feel both fantastic and believable. You'd excel at exploring the unintended consequences of scientific advancement and the ways that technology can both solve old problems and create new ones.\n\nYour stories would likely examine how scientific progress affects individual lives and relationships, showing that even in the most advanced future societies, people still struggle with love, identity, mortality, and purpose. You understand that the most compelling science fiction uses technological concepts as catalysts for examining timeless human concerns about survival, connection, and meaning."
     }
   }
 }

@@ -2,690 +2,665 @@
   "testId": "face_inventory",
   "title": "Face Inventory",
   "description": "How many versions of you exist?",
-  "backgroundImage": "assets/images/identity/bg12.png",
-  "backgroundMusic": "assets/audio/identity-bg-music.mp3",
+  "traits": {
+    "fractured": "Exists in broken pieces, each fragment reflecting different truths",
+    "actor": "Master performer who has forgotten their original role", 
+    "chameleon": "Shape-shifter who transforms completely based on environment",
+    "hollow": "Empty vessel that fills itself with echoes of others",
+    "legion": "Multiple distinct identities sharing one body"
+  },
   "questions": [
     {
-      "id": 1,
-      "question": "How many distinctly different versions of yourself do you recognize existing?",
-      "options": [
+      "question": "When you walk into a party where you don't know anyone, which version of you shows up?",
+      "answers": [
         {
-          "text": "Just one core self, broken into scattered pieces that don't always connect",
-          "weights": {"fractured": 5, "actor": 1, "chameleon": 0, "hollow": 2, "legion": 1}
+          "text": "A scattered mix of different pieces depending on who I talk to first",
+          "traits": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 1, "legion": 2}
         },
         {
-          "text": "A carefully curated collection, each designed for specific audiences and situations",
-          "weights": {"fractured": 1, "actor": 5, "chameleon": 3, "hollow": 0, "legion": 2}
+          "text": "Whoever I think will be most impressive or likeable to this crowd",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 3, "hollow": 1, "legion": 1}
         },
         {
-          "text": "A fluid, ever-changing self that adapts to whatever the moment requires",
-          "weights": {"fractured": 0, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
+          "text": "A version that rapidly adapts and shifts based on the energy I pick up",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
         },
         {
-          "text": "Multiple complete individuals sharing this body, each with their own lives",
-          "weights": {"fractured": 2, "actor": 1, "chameleon": 2, "hollow": 0, "legion": 5}
+          "text": "Whichever internal person volunteers to handle social situations",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
         },
         {
-          "text": "None - they're all illusions masking a fundamental emptiness",
-          "weights": {"fractured": 2, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 0}
+          "text": "An empty shell that borrows personality from whoever seems interesting",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 2, "hollow": 5, "legion": 1}
         }
       ]
     },
     {
-      "id": 2,
-      "question": "When someone tells you to 'just be yourself,' what is your immediate internal response?",
-      "options": [
+      "question": "Your dating profile probably makes you sound like a completely different person because:",
+      "answers": [
         {
-          "text": "Panic because I don't know which fragment they want to see",
-          "weights": {"fractured": 5, "actor": 2, "chameleon": 2, "hollow": 1, "legion": 3}
+          "text": "I can only show fragments of myself and they don't always match up",
+          "traits": {"fractured": 5, "actor": 2, "chameleon": 1, "hollow": 1, "legion": 2}
         },
         {
-          "text": "Amusement at the impossibility - there is no authentic self to be",
-          "weights": {"fractured": 2, "actor": 5, "chameleon": 2, "hollow": 3, "legion": 1}
+          "text": "I'm performing the role of 'ideal romantic partner' rather than being myself",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 1, "legion": 1}
         },
         {
-          "text": "Confusion about which version of myself would be appropriate for this context",
-          "weights": {"fractured": 1, "actor": 3, "chameleon": 5, "hollow": 0, "legion": 2}
+          "text": "I become whoever I think will attract the most interesting matches",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
         },
         {
-          "text": "An internal conference as different selves debate who should take control",
-          "weights": {"fractured": 3, "actor": 1, "chameleon": 1, "hollow": 0, "legion": 5}
+          "text": "Different parts of me wrote different sections and they don't coordinate",
+          "traits": {"fractured": 3, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
         },
         {
-          "text": "A hollow feeling as I realize there's nothing authentic to reveal",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 0}
+          "text": "I'm desperately trying to sound like someone who actually exists",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 1}
         }
       ]
     },
     {
-      "id": 3,
-      "question": "Describe the relationship between your work personality and your home personality:",
-      "options": [
+      "question": "When your family describes you to other people, you cringe because:",
+      "answers": [
         {
-          "text": "They're fragments of the same broken mirror, reflecting different angles",
-          "weights": {"fractured": 5, "actor": 2, "chameleon": 2, "hollow": 1, "legion": 2}
+          "text": "They're describing pieces of me that don't connect to who I am now",
+          "traits": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 1, "legion": 2}
         },
         {
-          "text": "Professional actors playing completely different roles in separate productions",
-          "weights": {"fractured": 2, "actor": 5, "chameleon": 2, "hollow": 1, "legion": 1}
+          "text": "They're talking about a character I played for them, not the real me",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 2, "legion": 1}
         },
         {
-          "text": "Fluid adaptations that shift so completely I sometimes forget which is real",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 2, "legion": 1}
+          "text": "That version of me only exists when I'm around them specifically",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
         },
         {
-          "text": "Distinct individuals who would be strangers if they met at a party",
-          "weights": {"fractured": 2, "actor": 1, "chameleon": 2, "hollow": 0, "legion": 5}
+          "text": "They're describing just one of many people who live in my body",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
         },
         {
-          "text": "Equally empty costumes draped over the same void",
-          "weights": {"fractured": 1, "actor": 3, "chameleon": 1, "hollow": 5, "legion": 0}
+          "text": "They're describing someone who doesn't actually exist anymore",
+          "traits": {"fractured": 2, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 1}
         }
       ]
     },
     {
-      "id": 4,
-      "question": "Looking at old photographs of yourself feels most like:",
-      "options": [
+      "question": "Your biggest fear during job interviews is:",
+      "answers": [
         {
-          "text": "Viewing a scattered timeline where different pieces of me existed at different times",
-          "weights": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 2, "legion": 2}
+          "text": "The different parts of my personality will contradict each other",
+          "traits": {"fractured": 5, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 3}
         },
         {
-          "text": "Watching a portfolio of different characters I've portrayed over the years",
-          "weights": {"fractured": 1, "actor": 5, "chameleon": 3, "hollow": 1, "legion": 1}
+          "text": "I'll break character and they'll see I'm just performing competence",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 2, "legion": 1}
         },
         {
-          "text": "Seeing evidence of my shape-shifting abilities across various life contexts",
-          "weights": {"fractured": 2, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
+          "text": "I'll adapt so much to what they want that I'll lose track of what I can actually do",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 2, "legion": 1}
         },
         {
-          "text": "Meeting old friends - different people who lived in my body before",
-          "weights": {"fractured": 2, "actor": 0, "chameleon": 1, "hollow": 1, "legion": 5}
+          "text": "The wrong internal person will show up to represent our qualifications",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
         },
         {
-          "text": "Looking at elaborate costumes that never quite concealed the nothingness beneath",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 0}
+          "text": "They'll realize there's nobody actually qualified hiding behind the performance",
+          "traits": {"fractured": 1, "actor": 3, "chameleon": 1, "hollow": 5, "legion": 1}
         }
       ]
     },
     {
-      "id": 5,
-      "question": "Your personality shifts and changes primarily based on:",
-      "options": [
+      "question": "When you're having a bad mental health day, it feels like:",
+      "answers": [
         {
-          "text": "Which broken piece of me is dominant in any given moment",
-          "weights": {"fractured": 5, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 3}
+          "text": "All my pieces are scattered and I can't put them back together",
+          "traits": {"fractured": 5, "actor": 1, "chameleon": 1, "hollow": 2, "legion": 2}
         },
         {
-          "text": "What role the situation demands and which character can deliver it best",
-          "weights": {"fractured": 1, "actor": 5, "chameleon": 3, "hollow": 0, "legion": 1}
+          "text": "I'm too exhausted to maintain any of my usual performances",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 3, "legion": 1}
         },
         {
-          "text": "The social environment and what adaptation will ensure survival and acceptance",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 0, "legion": 1}
+          "text": "I don't know who to be when I'm not adapting to someone else's needs",
+          "traits": {"fractured": 2, "actor": 2, "chameleon": 5, "hollow": 3, "legion": 1}
         },
         {
-          "text": "Which member of my internal community has stepped forward to handle things",
-          "weights": {"fractured": 2, "actor": 0, "chameleon": 1, "hollow": 0, "legion": 5}
+          "text": "There's chaos and conflict happening between my internal selves",
+          "traits": {"fractured": 3, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
         },
         {
-          "text": "Whatever temporary shape the void decides to take to fool observers",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 2, "hollow": 5, "legion": 0}
+          "text": "The emptiness becomes impossible to ignore or cover up",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 1}
         }
       ]
     },
     {
-      "id": 6,
-      "question": "When you're completely alone with no external expectations, you:",
-      "options": [
+      "question": "Your Spotify playlist makes no sense to other people because:",
+      "answers": [
         {
-          "text": "Feel the disconnected pieces of myself floating without coordination",
-          "weights": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 2, "legion": 2}
+          "text": "Different fragments of me love completely different music styles",
+          "traits": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 1, "legion": 3}
         },
         {
-          "text": "Continue performing for an imaginary audience because stopping feels impossible",
-          "weights": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 2, "legion": 0}
+          "text": "I've curated songs for different characters I need to embody",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 1, "legion": 1}
         },
         {
-          "text": "Feel lost without external cues to guide my adaptation",
-          "weights": {"fractured": 2, "actor": 2, "chameleon": 5, "hollow": 3, "legion": 0}
+          "text": "My taste in music changes based on who I've been hanging around",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
         },
         {
-          "text": "Experience internal conversations and negotiations between different selves",
-          "weights": {"fractured": 2, "actor": 0, "chameleon": 0, "hollow": 0, "legion": 5}
+          "text": "Each internal person has their own musical preferences and they're all mixed together",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
         },
         {
-          "text": "Confront the terrifying silence where a person should be",
-          "weights": {"fractured": 1, "actor": 1, "chameleon": 2, "hollow": 5, "legion": 0}
+          "text": "I don't actually like any of it, I just collected songs that seemed like things I should enjoy",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 2, "hollow": 5, "legion": 1}
         }
       ]
     },
     {
-      "id": 7,
-      "question": "If different friends were asked to describe your personality, they would:",
-      "options": [
+      "question": "When someone says 'just be yourself' on a first date, your internal reaction is:",
+      "answers": [
         {
-          "text": "Give descriptions that share common threads but emphasize different fragments",
-          "weights": {"fractured": 5, "actor": 2, "chameleon": 2, "hollow": 1, "legion": 2}
+          "text": "Panic about which fragmented version they want to see",
+          "traits": {"fractured": 5, "actor": 2, "chameleon": 2, "hollow": 1, "legion": 3}
         },
         {
-          "text": "Describe completely different people as if they'd met different actors",
-          "weights": {"fractured": 2, "actor": 5, "chameleon": 3, "hollow": 1, "legion": 1}
+          "text": "Amusement because there is no authentic self to reveal",
+          "traits": {"fractured": 2, "actor": 5, "chameleon": 2, "hollow": 3, "legion": 1}
         },
         {
-          "text": "Each describe the version of me that emerged in response to their energy",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 2}
+          "text": "Confusion about which adapted version would work best here",
+          "traits": {"fractured": 1, "actor": 3, "chameleon": 5, "hollow": 1, "legion": 2}
         },
         {
-          "text": "Be describing entirely different individuals who happen to live in the same body",
-          "weights": {"fractured": 2, "actor": 1, "chameleon": 2, "hollow": 0, "legion": 5}
+          "text": "An internal meeting to decide who should handle this date",
+          "traits": {"fractured": 3, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
         },
         {
-          "text": "Struggle to pin down anything concrete, sensing something missing or hollow",
-          "weights": {"fractured": 1, "actor": 1, "chameleon": 2, "hollow": 5, "legion": 0}
+          "text": "Terror because there's nothing authentic underneath to show them",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 1}
         }
       ]
     },
     {
-      "id": 8,
-      "question": "Your internal monologue most resembles:",
-      "options": [
+      "question": "Your biggest struggle with social media is:",
+      "answers": [
         {
-          "text": "Fractured conversations between disconnected parts of the same person",
-          "weights": {"fractured": 5, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 3}
+          "text": "Different aspects of my personality conflict in what I want to post",
+          "traits": {"fractured": 5, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 3}
         },
         {
-          "text": "A director constantly giving notes to the actor currently on stage",
-          "weights": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 1, "legion": 1}
+          "text": "Maintaining a consistent character across all my posts and interactions",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 1, "legion": 1}
         },
         {
-          "text": "A constantly shifting voice that mirrors whoever I'm currently around",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 2, "legion": 1}
+          "text": "My online personality shifts depending on who I think is watching",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 2, "legion": 1}
         },
         {
-          "text": "A lively committee meeting with distinct voices advocating different positions",
-          "weights": {"fractured": 3, "actor": 0, "chameleon": 1, "hollow": 0, "legion": 5}
+          "text": "Different internal selves want to use the account for completely different purposes",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
         },
         {
-          "text": "White noise punctuated by echoes of other people's thoughts",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 2, "hollow": 5, "legion": 0}
+          "text": "Everything I post feels fake because there's no real person behind it",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 2, "hollow": 5, "legion": 1}
         }
       ]
     },
     {
-      "id": 9,
-      "question": "If your childhood self met your current self, they would think:",
-      "options": [
+      "question": "When you look at photos of yourself from different time periods, it's like:",
+      "answers": [
         {
-          "text": "I became scattered and lost pieces of who I was supposed to be",
-          "weights": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 2, "legion": 1}
+          "text": "Seeing a timeline of fragmented selves that don't quite connect",
+          "traits": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 2, "legion": 2}
         },
         {
-          "text": "I became an expert at playing whatever game was required to survive",
-          "weights": {"fractured": 1, "actor": 5, "chameleon": 3, "hollow": 1, "legion": 1}
+          "text": "Reviewing a portfolio of different characters I've successfully portrayed",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 3, "hollow": 1, "legion": 1}
         },
         {
-          "text": "I learned to become whoever was needed in each moment",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
+          "text": "Watching my shape-shifting abilities evolve over different life phases",
+          "traits": {"fractured": 2, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
         },
         {
-          "text": "I multiplied into many people instead of growing into one",
-          "weights": {"fractured": 2, "actor": 0, "chameleon": 1, "hollow": 0, "legion": 5}
+          "text": "Meeting old friends who used to live in my body",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
         },
         {
-          "text": "I disappeared entirely, leaving only an elaborate illusion behind",
-          "weights": {"fractured": 2, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 0}
+          "text": "Looking at elaborate costumes that were never hiding a real person",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 1}
         }
       ]
     },
     {
-      "id": 10,
-      "question": "In romantic relationships, your biggest challenge is:",
-      "options": [
+      "question": "Your friends get confused when they hear stories about you from other friend groups because:",
+      "answers": [
         {
-          "text": "Showing someone all my broken pieces without overwhelming them",
-          "weights": {"fractured": 5, "actor": 2, "chameleon": 1, "hollow": 2, "legion": 2}
+          "text": "They're hearing about different broken pieces of who I am",
+          "traits": {"fractured": 5, "actor": 2, "chameleon": 2, "hollow": 1, "legion": 2}
         },
         {
-          "text": "Maintaining consistent character performance across intimate moments",
-          "weights": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 2, "legion": 1}
+          "text": "I perform completely different roles for different social circles",
+          "traits": {"fractured": 2, "actor": 5, "chameleon": 3, "hollow": 1, "legion": 1}
         },
         {
-          "text": "Not losing myself completely in adapting to what they want",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 2, "legion": 0}
+          "text": "I become an entirely different version of myself in each group",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 2}
         },
         {
-          "text": "Helping them understand they're in relationship with multiple people",
-          "weights": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 0, "legion": 5}
+          "text": "Different internal people take charge in different social contexts",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 2, "hollow": 1, "legion": 5}
         },
         {
-          "text": "The fear that intimacy will reveal there's nothing real to love",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 0}
+          "text": "I'm hollow enough that each group projects their own version onto me",
+          "traits": {"fractured": 1, "actor": 1, "chameleon": 2, "hollow": 5, "legion": 1}
         }
       ]
     },
     {
-      "id": 11,
-      "question": "Your emotions feel like they belong to:",
-      "options": [
+      "question": "When someone asks about your childhood personality, you:",
+      "answers": [
         {
-          "text": "Different aspects of the same fractured person, not always in communication",
-          "weights": {"fractured": 5, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 3}
+          "text": "Remember fragments that feel disconnected from who I became",
+          "traits": {"fractured": 5, "actor": 1, "chameleon": 1, "hollow": 2, "legion": 2}
         },
         {
-          "text": "Whatever character is currently performing, fitting the role requirements",
-          "weights": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 1, "legion": 1}
+          "text": "Realize that even as a kid I was performing for different audiences",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 1, "legion": 1}
         },
         {
-          "text": "The person I'm unconsciously mirroring or adapting to match",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 2, "legion": 0}
+          "text": "Remember being a different person in every situation even then",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
         },
         {
-          "text": "Specific individuals within me, each with their own emotional patterns",
-          "weights": {"fractured": 2, "actor": 0, "chameleon": 1, "hollow": 0, "legion": 5}
+          "text": "Can identify which current internal selves were present back then",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
         },
         {
-          "text": "Nobody in particular - borrowed feelings filling an empty space",
-          "weights": {"fractured": 1, "actor": 1, "chameleon": 2, "hollow": 5, "legion": 0}
+          "text": "Feel like I'm describing a character from a book I read once",
+          "traits": {"fractured": 2, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 1}
         }
       ]
     },
     {
-      "id": 12,
-      "question": "Making important life decisions is difficult because:",
-      "options": [
+      "question": "Your biggest relationship red flag is probably:",
+      "answers": [
+        {
+          "text": "I'll show you different fragments of myself and they might contradict each other",
+          "traits": {"fractured": 5, "actor": 2, "chameleon": 1, "hollow": 2, "legion": 2}
+        },
+        {
+          "text": "I'll become whoever I think you want me to be instead of being authentic",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 4, "hollow": 2, "legion": 1}
+        },
+        {
+          "text": "I'll adapt so completely to your energy that I'll lose myself in you",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 2, "legion": 1}
+        },
+        {
+          "text": "You'll have to navigate relationships with multiple people in one body",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
+        },
+        {
+          "text": "You'll fall in love with an illusion because there's nobody real underneath",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you're home alone with no plans, you:",
+      "answers": [
+        {
+          "text": "Feel my scattered pieces floating around without direction",
+          "traits": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 2, "legion": 2}
+        },
+        {
+          "text": "Keep performing for an imaginary audience because I can't stop",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 2, "legion": 1}
+        },
+        {
+          "text": "Feel lost without external cues telling me who to be",
+          "traits": {"fractured": 2, "actor": 2, "chameleon": 5, "hollow": 3, "legion": 1}
+        },
+        {
+          "text": "Have internal conversations between different aspects of myself",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
+        },
+        {
+          "text": "Confront the uncomfortable silence where a personality should be",
+          "traits": {"fractured": 1, "actor": 1, "chameleon": 2, "hollow": 5, "legion": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your therapist probably gets frustrated because:",
+      "answers": [
+        {
+          "text": "I bring different pieces of myself to different sessions",
+          "traits": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 1, "legion": 3}
+        },
+        {
+          "text": "I perform the role of 'good therapy client' instead of being real",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 3, "hollow": 2, "legion": 1}
+        },
+        {
+          "text": "I adapt to what I think they want to hear rather than sharing authentically",
+          "traits": {"fractured": 1, "actor": 3, "chameleon": 5, "hollow": 1, "legion": 1}
+        },
+        {
+          "text": "They're trying to treat multiple people with different needs and histories",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
+        },
+        {
+          "text": "There's no core self to heal or understand underneath all the performance",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you're drunk or high, the scariest thing is:",
+      "answers": [
+        {
+          "text": "All my fragmented pieces start talking at once and nothing makes sense",
+          "traits": {"fractured": 5, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 3}
+        },
+        {
+          "text": "I lose control of my performance and people see the chaos underneath",
+          "traits": {"fractured": 2, "actor": 5, "chameleon": 2, "hollow": 2, "legion": 1}
+        },
+        {
+          "text": "I can't read the room anymore so I don't know who to become",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 2, "legion": 1}
+        },
+        {
+          "text": "Different internal selves might take control without warning",
+          "traits": {"fractured": 3, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
+        },
+        {
+          "text": "The emptiness becomes impossible to hide or distract from",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your online shopping cart is chaotic because:",
+      "answers": [
+        {
+          "text": "Different fragments of me want completely different things",
+          "traits": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 1, "legion": 3}
+        },
+        {
+          "text": "I'm buying costumes and props for different characters I need to play",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 1, "legion": 1}
+        },
+        {
+          "text": "My style and preferences shift based on whose aesthetic I'm copying",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 2, "legion": 1}
+        },
+        {
+          "text": "Multiple internal people are adding items for their individual needs",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
+        },
+        {
+          "text": "I'm desperately buying things hoping they'll help me feel like a real person",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 2, "hollow": 5, "legion": 1}
+        }
+      ]
+    },
+    {
+      "question": "When someone compliments your personality, you think:",
+      "answers": [
+        {
+          "text": "Which broken piece of me were they seeing in that moment?",
+          "traits": {"fractured": 5, "actor": 2, "chameleon": 2, "hollow": 1, "legion": 2}
+        },
+        {
+          "text": "They're praising my acting skills without realizing it",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 2, "legion": 1}
+        },
+        {
+          "text": "They like the version of me that emerged in response to their energy",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
+        },
+        {
+          "text": "They met one of my internal selves and connected with them specifically",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
+        },
+        {
+          "text": "They're complimenting an illusion that doesn't actually exist",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 1}
+        }
+      ]
+    },
+    {
+      "question": "Your worst nightmare about being truly seen is:",
+      "answers": [
+        {
+          "text": "Someone realizing all my pieces don't add up to a whole person",
+          "traits": {"fractured": 5, "actor": 2, "chameleon": 2, "hollow": 2, "legion": 1}
+        },
+        {
+          "text": "Getting caught mid-performance and having my act completely exposed",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 3, "legion": 1}
+        },
+        {
+          "text": "Someone seeing through my adaptations to whatever nothing exists underneath",
+          "traits": {"fractured": 2, "actor": 2, "chameleon": 5, "hollow": 2, "legion": 1}
+        },
+        {
+          "text": "People being overwhelmed by discovering how many of us live in here",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
+        },
+        {
+          "text": "Someone looking for the real me and finding absolutely nothing there",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 1}
+        }
+      ]
+    },
+    {
+      "question": "When you try to make important life decisions, the biggest problem is:",
+      "answers": [
         {
           "text": "Different fragments of me want incompatible things",
-          "weights": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 1, "legion": 3}
+          "traits": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 1, "legion": 3}
         },
         {
-          "text": "I don't know which character should be making the choice",
-          "weights": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 2, "legion": 1}
+          "text": "I don't know which character should be making this choice",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 2, "legion": 1}
         },
         {
-          "text": "My preferences shift depending on who I'm consulting or what context I'm in",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
+          "text": "My preferences change depending on who I'm talking to about it",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
         },
         {
           "text": "I need to get consensus from multiple internal voices with different agendas",
-          "weights": {"fractured": 3, "actor": 0, "chameleon": 1, "hollow": 0, "legion": 5}
+          "traits": {"fractured": 3, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
         },
         {
-          "text": "Nothing feels authentically desired when there's no authentic self to want it",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 0}
+          "text": "Nothing feels authentically wanted when there's no authentic self to want it",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 1}
         }
       ]
     },
     {
-      "id": 13,
-      "question": "Your voice, mannerisms, and way of speaking change based on:",
-      "options": [
+      "question": "Your voice and mannerisms change so much that:",
+      "answers": [
         {
-          "text": "Which piece of my fractured self is currently dominant",
-          "weights": {"fractured": 5, "actor": 2, "chameleon": 2, "hollow": 0, "legion": 3}
+          "text": "People notice different aspects of my personality coming through",
+          "traits": {"fractured": 5, "actor": 2, "chameleon": 2, "hollow": 1, "legion": 3}
         },
         {
-          "text": "Which persona I'm channeling for this particular performance",
-          "weights": {"fractured": 1, "actor": 5, "chameleon": 3, "hollow": 1, "legion": 1}
+          "text": "I sound like different actors playing the same role",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 3, "hollow": 1, "legion": 1}
         },
         {
-          "text": "Unconscious mimicry of whoever I'm around or trying to connect with",
-          "weights": {"fractured": 0, "actor": 2, "chameleon": 5, "hollow": 2, "legion": 0}
+          "text": "I unconsciously mirror whoever I'm talking to or thinking about",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 2, "legion": 1}
         },
         {
-          "text": "Which member of my internal community is currently speaking",
-          "weights": {"fractured": 2, "actor": 0, "chameleon": 1, "hollow": 0, "legion": 5}
+          "text": "Different internal people have distinctly different ways of speaking",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
         },
         {
-          "text": "Whatever temporary voice seems most likely to convince people I exist",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 2, "hollow": 5, "legion": 0}
+          "text": "I cycle through voices hoping one will sound convincingly real",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 2, "hollow": 5, "legion": 1}
         }
       ]
     },
     {
-      "id": 14,
-      "question": "Your hobbies, interests, and passions:",
-      "options": [
+      "question": "When you're in a group chat, you:",
+      "answers": [
         {
-          "text": "Belong to different fragments and sometimes conflict with each other",
-          "weights": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 0, "legion": 3}
+          "text": "Let different pieces of my personality respond to different people",
+          "traits": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 1, "legion": 3}
         },
         {
-          "text": "Were consciously chosen to support various character portrayals",
-          "weights": {"fractured": 0, "actor": 5, "chameleon": 3, "hollow": 1, "legion": 1}
+          "text": "Carefully curate my responses to match the group's energy and expectations",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 3, "hollow": 1, "legion": 1}
         },
         {
-          "text": "Shift and evolve based on my social environment and the people I'm around",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
+          "text": "Adapt my communication style to whatever vibe is happening in the moment",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
         },
         {
-          "text": "Are distinct to different internal individuals, creating a rich but chaotic mix",
-          "weights": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 0, "legion": 5}
+          "text": "Have internal negotiations about who should respond to each message",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
         },
         {
-          "text": "Feel borrowed or adopted rather than authentically chosen",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 2, "hollow": 5, "legion": 0}
+          "text": "Type and delete responses because nothing feels authentically mine to say",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 2, "hollow": 5, "legion": 1}
         }
       ]
     },
     {
-      "id": 15,
-      "question": "When you look in mirrors, you most often see:",
-      "options": [
+      "question": "Your Google search history would confuse people because:",
+      "answers": [
         {
-          "text": "A kaleidoscope of different versions overlapping and competing for space",
-          "weights": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 1, "legion": 3}
+          "text": "It reflects the scattered interests of different aspects of myself",
+          "traits": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 1, "legion": 3}
         },
         {
-          "text": "Today's costume and character, wondering how convincing the performance is",
-          "weights": {"fractured": 0, "actor": 5, "chameleon": 2, "hollow": 2, "legion": 0}
+          "text": "I research how to convincingly portray different types of people",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 1, "legion": 1}
         },
         {
-          "text": "Whatever version of myself is emerging in response to the current context",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
+          "text": "My interests shift completely based on who I've been around lately",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
         },
         {
-          "text": "Different faces depending on who's looking back at that moment",
-          "weights": {"fractured": 2, "actor": 0, "chameleon": 1, "hollow": 0, "legion": 5}
+          "text": "Multiple internal people use it for completely different purposes",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
         },
         {
-          "text": "A very convincing mask over an absence that makes me uncomfortable",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 0}
+          "text": "I'm constantly searching for clues about how to be a convincing human being",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 2, "hollow": 5, "legion": 1}
         }
       ]
     },
     {
-      "id": 16,
-      "question": "Your memories feel like they:",
-      "options": [
+      "question": "When people ask what your 'type' is in romantic partners, you:",
+      "answers": [
         {
-          "text": "Belong to different versions of me, some more accessible than others",
-          "weights": {"fractured": 5, "actor": 1, "chameleon": 1, "hollow": 2, "legion": 3}
+          "text": "Realize different parts of me are attracted to completely different people",
+          "traits": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 1, "legion": 3}
         },
         {
-          "text": "Are scenes from various movies I've starred in over the years",
-          "weights": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 1, "legion": 1}
+          "text": "Know I'm attracted to people I can create compelling performances for",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 1, "legion": 1}
         },
         {
-          "text": "Shift in meaning and emotional tone depending on my current adaptation",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
+          "text": "Am drawn to whoever brings out the most interesting version of myself",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
         },
         {
-          "text": "Are owned by different internal people, like a shared photo album",
-          "weights": {"fractured": 2, "actor": 0, "chameleon": 0, "hollow": 0, "legion": 5}
+          "text": "Have multiple internal people with completely different romantic preferences",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
         },
         {
-          "text": "Are stories about nobody in particular, lacking a central protagonist",
-          "weights": {"fractured": 1, "actor": 1, "chameleon": 1, "hollow": 5, "legion": 0}
+          "text": "Am attracted to people who might make me feel like I actually exist",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 1}
         }
       ]
     },
     {
-      "id": 17,
-      "question": "When someone asks you to describe yourself, you:",
-      "options": [
+      "question": "If all your different selves had a group text, what would it look like?",
+      "answers": [
         {
-          "text": "Struggle to present a coherent picture from all the scattered pieces",
-          "weights": {"fractured": 5, "actor": 2, "chameleon": 2, "hollow": 1, "legion": 2}
+          "text": "Scattered messages that don't quite connect into coherent conversations",
+          "traits": {"fractured": 5, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 2}
         },
         {
-          "text": "Automatically assess what version they want to hear about",
-          "weights": {"fractured": 0, "actor": 5, "chameleon": 4, "hollow": 1, "legion": 0}
+          "text": "A director giving notes to various actors about their performances",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 1, "legion": 2}
         },
         {
-          "text": "Describe whoever I'm being in response to their energy and expectations",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
+          "text": "Messages that constantly shift tone and style mid-conversation",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 2, "legion": 1}
         },
         {
-          "text": "Wonder which member of my internal community should answer",
-          "weights": {"fractured": 2, "actor": 0, "chameleon": 1, "hollow": 0, "legion": 5}
+          "text": "A chaotic group chat with distinct personalities debating everything",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
         },
         {
-          "text": "Feel like I'm describing a fictional character that doesn't really exist",
-          "weights": {"fractured": 1, "actor": 3, "chameleon": 1, "hollow": 5, "legion": 0}
+          "text": "A bunch of empty profiles sending echo messages with no real content",
+          "traits": {"fractured": 1, "actor": 1, "chameleon": 1, "hollow": 5, "legion": 1}
         }
       ]
     },
     {
-      "id": 18,
-      "question": "Your sense of core identity could best be described as:",
-      "options": [
+      "question": "When you answer 'Who am I really?' the honest response is:",
+      "answers": [
         {
-          "text": "A shattered mirror where each piece reflects part of the whole truth",
-          "weights": {"fractured": 5, "actor": 1, "chameleon": 1, "hollow": 2, "legion": 2}
+          "text": "A puzzle with missing pieces that might never form a complete picture",
+          "traits": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 2, "legion": 2}
         },
         {
-          "text": "A master director coordinating multiple character performances",
-          "weights": {"fractured": 0, "actor": 5, "chameleon": 2, "hollow": 1, "legion": 2}
+          "text": "A master performer who has been acting for so long they forgot their original role",
+          "traits": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 1, "legion": 2}
         },
         {
-          "text": "A fluid intelligence that adapts its shape to survive any environment",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
+          "text": "A shape-shifter whose original form is lost in all the adaptations",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
         },
         {
-          "text": "A collective consciousness housing multiple complete individuals",
-          "weights": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 0, "legion": 5}
+          "text": "A collection of people sharing space who are still figuring out how to coexist",
+          "traits": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 5}
         },
         {
-          "text": "An elegant absence masquerading as presence",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 0}
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "question": "In group social settings, you tend to:",
-      "options": [
-        {
-          "text": "Let different fragments handle different people, creating a complex social mosaic",
-          "weights": {"fractured": 5, "actor": 2, "chameleon": 2, "hollow": 0, "legion": 3}
-        },
-        {
-          "text": "Perform a carefully chosen character that fits the group's energy and expectations",
-          "weights": {"fractured": 0, "actor": 5, "chameleon": 3, "hollow": 1, "legion": 1}
-        },
-        {
-          "text": "Become a social shapeshifter, adapting moment by moment to group dynamics",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
-        },
-        {
-          "text": "Experience internal negotiations about who should represent us in this context",
-          "weights": {"fractured": 2, "actor": 0, "chameleon": 1, "hollow": 0, "legion": 5}
-        },
-        {
-          "text": "Feel myself becoming more transparent until I'm barely there at all",
-          "weights": {"fractured": 1, "actor": 1, "chameleon": 2, "hollow": 5, "legion": 0}
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "question": "Your ideal version of yourself would be:",
-      "options": [
-        {
-          "text": "All my pieces integrated into one cohesive, whole person",
-          "weights": {"fractured": 5, "actor": 2, "chameleon": 2, "hollow": 2, "legion": 1}
-        },
-        {
-          "text": "The perfect method actor who could embody any role flawlessly",
-          "weights": {"fractured": 0, "actor": 5, "chameleon": 2, "hollow": 1, "legion": 1}
-        },
-        {
-          "text": "Someone who could adapt to any situation while maintaining a core sense of self",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
-        },
-        {
-          "text": "A harmonious collective where all internal voices cooperate and communicate well",
-          "weights": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 0, "legion": 5}
-        },
-        {
-          "text": "Actually real for once, instead of an elaborate simulation of personhood",
-          "weights": {"fractured": 2, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 0}
-        }
-      ]
-    },
-    {
-      "id": 21,
-      "question": "Sleep and rest are challenging because:",
-      "options": [
-        {
-          "text": "Different parts of me have different sleep needs and schedules",
-          "weights": {"fractured": 5, "actor": 1, "chameleon": 1, "hollow": 0, "legion": 4}
-        },
-        {
-          "text": "I can't stop performing even when there's no audience",
-          "weights": {"fractured": 0, "actor": 5, "chameleon": 2, "hollow": 2, "legion": 0}
-        },
-        {
-          "text": "Without external cues, I don't know who I'm supposed to be while sleeping",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 3, "legion": 0}
-        },
-        {
-          "text": "Internal conversations and negotiations continue even when I try to rest",
-          "weights": {"fractured": 3, "actor": 0, "chameleon": 0, "hollow": 0, "legion": 5}
-        },
-        {
-          "text": "The emptiness becomes most apparent when there are no distractions",
-          "weights": {"fractured": 1, "actor": 1, "chameleon": 1, "hollow": 5, "legion": 0}
-        }
-      ]
-    },
-    {
-      "id": 22,
-      "question": "Your greatest fear about identity is:",
-      "options": [
-        {
-          "text": "That my scattered pieces will never come together into a whole person",
-          "weights": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 2, "legion": 1}
-        },
-        {
-          "text": "That someone will see through all my performances to the emptiness behind them",
-          "weights": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 3, "legion": 0}
-        },
-        {
-          "text": "That I'll adapt so completely I'll lose track of any original self",
-          "weights": {"fractured": 2, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
-        },
-        {
-          "text": "That my internal community will fragment into conflict or someone will be lost",
-          "weights": {"fractured": 2, "actor": 0, "chameleon": 1, "hollow": 0, "legion": 5}
-        },
-        {
-          "text": "That there was never anyone there to begin with",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 0}
-        }
-      ]
-    },
-    {
-      "id": 23,
-      "question": "Most of your daily mental energy goes toward:",
-      "options": [
-        {
-          "text": "Managing conflicts and communication between different parts of myself",
-          "weights": {"fractured": 5, "actor": 1, "chameleon": 1, "hollow": 0, "legion": 4}
-        },
-        {
-          "text": "Maintaining consistent character performance across different contexts",
-          "weights": {"fractured": 0, "actor": 5, "chameleon": 2, "hollow": 1, "legion": 1}
-        },
-        {
-          "text": "Constantly reading and adapting to my environment and the people in it",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
-        },
-        {
-          "text": "Facilitating internal negotiations and decision-making processes",
-          "weights": {"fractured": 3, "actor": 0, "chameleon": 0, "hollow": 0, "legion": 5}
-        },
-        {
-          "text": "Maintaining the illusion of existence when I feel fundamentally empty",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 0}
-        }
-      ]
-    },
-    {
-      "id": 24,
-      "question": "If all your different faces/selves met in a room together, what would happen?",
-      "options": [
-        {
-          "text": "They'd struggle to communicate, like fragments trying to remember how to be whole",
-          "weights": {"fractured": 5, "actor": 1, "chameleon": 1, "hollow": 1, "legion": 2}
-        },
-        {
-          "text": "They'd compare notes on their performances and debate which approach works best",
-          "weights": {"fractured": 0, "actor": 5, "chameleon": 2, "hollow": 1, "legion": 2}
-        },
-        {
-          "text": "They'd shift and adapt to each other until nobody remembered their original form",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 2, "legion": 1}
-        },
-        {
-          "text": "They'd have a lively discussion like old friends with different specialties",
-          "weights": {"fractured": 2, "actor": 1, "chameleon": 1, "hollow": 0, "legion": 5}
-        },
-        {
-          "text": "The room would appear empty despite all the elaborate costumes on the chairs",
-          "weights": {"fractured": 1, "actor": 1, "chameleon": 1, "hollow": 5, "legion": 0}
-        }
-      ]
-    },
-    {
-      "id": 25,
-      "question": "When you try to answer the question 'Who am I really?', what happens?",
-      "options": [
-        {
-          "text": "I get fragments of answers that don't quite fit together into a complete picture",
-          "weights": {"fractured": 5, "actor": 1, "chameleon": 2, "hollow": 2, "legion": 2}
-        },
-        {
-          "text": "I realize I'm the director, not the actors - the one creating all the performances",
-          "weights": {"fractured": 1, "actor": 5, "chameleon": 2, "hollow": 1, "legion": 2}
-        },
-        {
-          "text": "The answer changes depending on when and where I ask the question",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 5, "hollow": 1, "legion": 1}
-        },
-        {
-          "text": "Multiple voices answer simultaneously, each giving a different but valid response",
-          "weights": {"fractured": 2, "actor": 0, "chameleon": 1, "hollow": 0, "legion": 5}
-        },
-        {
-          "text": "I encounter a profound silence where an answer should be",
-          "weights": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 0}
+          "text": "A question mark in human form, an absence pretending to be a presence",
+          "traits": {"fractured": 1, "actor": 2, "chameleon": 1, "hollow": 5, "legion": 1}
         }
       ]
     }
   ],
-  "traits": [
-    {
-      "id": "fractured",
+  "results": {
+    "fractured": {
       "title": "The Fractured Mirror",
-      "description": "Your identity exists in pieces, each fragment reflecting a different truth, none of them whole. You're not one person pretending to be many - you're many people fighting to be one. The cracks between your selves run deep, creating a mosaic of contradictions that somehow forms the pattern of your existence.",
-      "scoreRange": [85, 100]
+      "description": "Your identity exists in scattered pieces, each fragment reflecting a different truth. You're not one person pretending to be many - you're many pieces fighting to become whole.",
+      "extended": "Your identity exists as a collection of shattered fragments, each piece containing a different aspect of who you are, but none of them quite connecting into a complete whole. Unlike those who wear masks or perform roles, your different aspects feel genuinely disconnected from each other - sometimes conflicting, sometimes contradictory, always struggling to form a coherent sense of self.\n\nYou might notice that different situations bring out completely different versions of you, and these versions don't always recognize or understand each other. Your work self might make decisions your home self disagrees with, or your social self might commit to things your private self has no interest in following through on. This isn't conscious role-playing; it's more like different radio stations broadcasting on the same frequency, creating static and confusion.\n\nThe frustrating part is that each fragment contains genuine pieces of who you are - they're not fake or performed, just incomplete. You long for integration, for these scattered aspects to somehow communicate and coordinate, creating a unified sense of self that feels both coherent and authentic. The challenge is learning to see the pattern in the mosaic rather than mourning the cracks between the pieces.\n\nYour fragmentation isn't a flaw to be fixed but a complexity to be understood. Many people who feel fractured are actually highly sensitive individuals who have developed multiple coping strategies for different environments. The goal isn't to eliminate your various aspects but to help them work together more harmoniously, creating internal collaboration rather than competition."
     },
-    {
-      "id": "actor",
-      "title": "The Method Actor", 
-      "description": "Life is your stage, and you've forgotten which role was originally yours. Every interaction is a performance, every relationship a carefully scripted scene. You've become so good at being who others need that you've lost track of who you need to be for yourself.",
-      "scoreRange": [70, 84]
+    "actor": {
+      "title": "The Method Actor",
+      "description": "Life is your stage, and you've forgotten which role was originally yours. Every interaction is a performance, every relationship a carefully scripted scene where you've become the master of being whoever others need you to be.",
+      "extended": "You have developed such sophisticated skills in reading situations and becoming what's needed that performance has become your default mode of being. Unlike those who consciously choose to act differently in different situations, your transformations happen automatically - you assess what each interaction requires and seamlessly become that version of yourself without even thinking about it.\n\nYour performances are so convincing that even you sometimes believe them, but there's always a part of you that remains aware you're playing a role. You've become a master method actor, so deeply immersed in each character that you can genuinely feel their emotions and motivations. The problem is that you've been performing for so long that you're no longer sure where the acting ends and your authentic self begins.\n\nThis isn't simple people-pleasing or manipulation - it's a highly developed survival strategy that has likely served you well in many situations. You can navigate complex social dynamics, make others feel comfortable, and adapt to new environments with remarkable skill. However, the exhaustion of constant performance and the loneliness of feeling unseen for who you really are can be overwhelming.\n\nThe path forward involves gradually experimenting with moments of authenticity - small breaks in the performance where you allow your genuine reactions and preferences to show through. This doesn't mean abandoning your adaptive skills, but rather learning to choose when to perform and when to simply be. Your gift for reading others and adapting can become a conscious tool rather than an unconscious compulsion."
     },
-    {
-      "id": "chameleon",
+    "chameleon": {
       "title": "The Social Chameleon",
-      "description": "You don't just adapt - you transform. Your personality is liquid, flowing into whatever shape the moment requires. This isn't mere people-pleasing; it's survival through metamorphosis. You've evolved past having a fixed identity, becoming instead a living response to your environment.",
-      "scoreRange": [55, 69]
+      "description": "You don't just adapt - you transform completely. Your personality flows like liquid into whatever shape each moment requires, making you a master of social survival through constant metamorphosis.",
+      "extended": "Your adaptation goes far beyond surface-level adjustments - you undergo complete transformations that affect your interests, values, communication style, and even your emotional responses. You don't consciously decide to become different; instead, you unconsciously absorb and mirror the energy, preferences, and characteristics of whatever environment or people you're around.\n\nThis isn't mere people-pleasing but rather a sophisticated form of social intelligence that allows you to genuinely connect with almost anyone. You can become fascinated by topics you've never considered before if someone passionate introduces them to you, and you can shift your entire worldview based on compelling new perspectives you encounter. Your adaptability is so complete that you can feel authentic in many different versions of yourself.\n\nThe challenge lies in the fluidity itself - when you can become anyone, it becomes difficult to know who you are when you're alone. Your preferences, opinions, and even your sense of what you enjoy can shift so dramatically that you lose track of any consistent core identity. You might find yourself wondering which version of you is 'real' or whether there's an original self underneath all the adaptations.\n\nYour chameleon nature is actually a remarkable form of emotional and social intelligence, but it needs some grounding. The goal isn't to become rigid or stop adapting, but to develop a flexible core of values and preferences that can bend without breaking. Think of it as becoming a river rather than a puddle - maintaining flow and adaptability while having a consistent direction and character."
     },
-    {
-      "id": "hollow",
+    "hollow": {
       "title": "The Hollow Vessel",
-      "description": "Where others have identity, you have absence. You're not fractured or performing - you're fundamentally empty, a human-shaped void that fills itself with echoes of others. This isn't depression or dissociation; it's deeper - you suspect that if all the borrowed pieces were removed, there would be nothing left.",
-      "scoreRange": [40, 54]
+      "description": "Where others have identity, you have absence. You're not fractured or performing - you're fundamentally empty, a human-shaped void that fills itself with echoes of others while questioning whether you truly exist.",
+      "extended": "Your experience of identity is fundamentally different from most people - rather than feeling like you have a self that's hidden, fragmented, or performed, you experience yourself as essentially empty. This isn't depression or low self-esteem, but rather a profound sense that where other people have a core identity, you have a void. You feel like a container that takes the shape of whatever fills it, but remains empty when alone.\n\nThis hollowness often manifests as feeling like you're simulating human experiences rather than genuinely having them. Your emotions might feel borrowed from other people's lives, your interests adopted rather than authentic, and your reactions learned rather than spontaneous. You may sometimes wonder if you're actually a real person or just a very convincing imitation of one.\n\nThe existential weight of this experience can be profound - you're constantly questioning your own reality and authenticity in ways that most people never have to consider. Social interactions can feel like elaborate performances where you're desperately trying to convince others (and yourself) that there's someone actually home behind your eyes.\n\nYour emptiness, while painful, may actually be a different form of spiritual or psychological openness. Many wisdom traditions speak of emptiness as a state of pure potential rather than absence. Your void might be space for possibilities rather than evidence of deficiency. Instead of trying to fill the emptiness, consider whether learning to be comfortable with it might reveal a different kind of fullness - one based on presence rather than content."
     },
-    {
-      "id": "legion",
+    "legion": {
       "title": "The Legion Self",
-      "description": "You are not one, you are many. Not masks or fragments, but fully formed identities sharing a single body. Each has their own wants, fears, and memories. They negotiate for control, form alliances, wage internal wars. You're less a person than a democracy of selves.",
-      "scoreRange": [0, 39]
+      "description": "You are not one, you are many. Multiple distinct identities share your body, each with their own personalities, memories, and agendas. You're less a person than a democracy of selves trying to coexist.",
+      "extended": "Your internal experience is that of housing multiple complete individuals rather than different aspects of one person. These aren't masks or fragments but fully formed identities with their own personalities, preferences, memories, and ways of interacting with the world. You experience life as an internal community where different selves negotiate for time, make decisions collectively, and sometimes disagree about direction and priorities.\n\nYour different selves might have distinct relationships with the same people, separate interests and hobbies, and even different ways of speaking and moving through the world. You may find yourself having internal conversations, debates, or even conflicts between these various identities. Some may be more prominent in certain situations while others prefer to remain in the background.\n\nThis multiplicity can be both a gift and a challenge. On one hand, you have access to diverse perspectives, skills, and ways of being that can make you incredibly adaptable and resourceful. Different selves might excel in different areas, creating a rich internal resource system. On the other hand, coordination and decision-making can be complex when multiple voices need to be heard and considered.\n\nRather than viewing your plurality as something to eliminate, consider it as a unique form of consciousness that requires different management strategies than singular identity. Focus on developing good internal communication, establishing frameworks for decision-making, and creating cooperation rather than competition between your various selves. Your legion nature might be an evolution beyond traditional single-identity consciousness rather than a deviation from it."
     }
-  ]
+  }
 }

@@ -1,671 +1,696 @@
 {
-  "testInfo": {
-    "title": "Survivor Leadership Test",
-    "description": "Test your leadership skills in post-apocalyptic scenarios",
-    "backgroundImage": "assets/images/apoco/survivor_leadership.png"
+  "testId": "survivor-leadership",
+  "title": "Survivor Leadership Test",
+  "description": "When the world ends, what kind of leader will you become?",
+  "traits": {
+    "leadership": "Natural ability to take charge and guide others through crisis",
+    "independence": "Self-reliance and ability to function effectively alone",
+    "aggression": "Willingness to use force and confrontation to achieve goals",
+    "cooperation": "Skill at building consensus and working with others",
+    "decision_making": "Ability to make tough choices quickly under pressure",
+    "risk_taking": "Willingness to take calculated risks for potential gains",
+    "adaptability": "Flexibility to adjust strategies based on changing circumstances",
+    "resilience": "Mental toughness to bounce back from setbacks and trauma",
+    "strategic_thinking": "Long-term planning and systematic approach to problems",
+    "survival_drive": "Raw determination to stay alive at any cost"
   },
   "questions": [
     {
-      "id": 1,
-      "text": "Society has collapsed overnight. You're with a group of confused, scared people. What's your immediate response?",
-      "options": [
+      "question": "Society has collapsed overnight. You're with a group of confused, scared people. What's your immediate response?",
+      "answers": [
         {
-          "text": "Take charge immediately and start organizing everyone",
-          "weights": {"leadership": 9, "independence": 4, "aggression": 6, "cooperation": 6, "decision_making": 8, "risk_taking": 7, "adaptability": 6, "resilience": 7, "strategic_thinking": 7, "survival_drive": 6}
+          "text": "Take charge immediately and start organizing everyone into useful roles",
+          "traits": {"leadership": 5, "independence": 2, "aggression": 3, "cooperation": 4, "decision_making": 4, "risk_taking": 3, "adaptability": 3, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
-          "text": "Look for someone else who seems to know what they're doing",
-          "weights": {"leadership": 2, "independence": 3, "aggression": 2, "cooperation": 8, "decision_making": 3, "risk_taking": 3, "adaptability": 6, "resilience": 4, "strategic_thinking": 4, "survival_drive": 5}
+          "text": "Look for someone else who seems to know what they're doing and support them",
+          "traits": {"leadership": 1, "independence": 2, "aggression": 1, "cooperation": 5, "decision_making": 2, "risk_taking": 2, "adaptability": 3, "resilience": 2, "strategic_thinking": 2, "survival_drive": 3}
         },
         {
-          "text": "Focus on my own survival and let others figure themselves out",
-          "weights": {"leadership": 2, "independence": 9, "aggression": 5, "cooperation": 1, "decision_making": 6, "risk_taking": 6, "adaptability": 7, "resilience": 6, "strategic_thinking": 5, "survival_drive": 8}
+          "text": "Focus on my own survival first and let others figure themselves out",
+          "traits": {"leadership": 1, "independence": 5, "aggression": 3, "cooperation": 1, "decision_making": 3, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 3, "survival_drive": 5}
         },
         {
-          "text": "Try to calm everyone down and suggest we work together",
-          "weights": {"leadership": 6, "independence": 4, "aggression": 2, "cooperation": 9, "decision_making": 5, "risk_taking": 3, "adaptability": 6, "resilience": 5, "strategic_thinking": 5, "survival_drive": 5}
+          "text": "Try to calm everyone down and suggest we work together to assess the situation",
+          "traits": {"leadership": 3, "independence": 2, "aggression": 1, "cooperation": 5, "decision_making": 3, "risk_taking": 2, "adaptability": 3, "resilience": 3, "strategic_thinking": 3, "survival_drive": 3}
+        },
+        {
+          "text": "Start gathering information about threats and resources before making any moves",
+          "traits": {"leadership": 3, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 3, "risk_taking": 2, "adaptability": 4, "resilience": 3, "strategic_thinking": 5, "survival_drive": 3}
         }
       ]
     },
     {
-      "id": 2,
-      "text": "Your group encounters another survivor group competing for the same resources. How do you handle this?",
-      "options": [
+      "question": "Your group encounters another survivor group competing for the same resources. How do you handle this?",
+      "answers": [
         {
-          "text": "Negotiate a fair division of resources",
-          "weights": {"leadership": 7, "independence": 4, "aggression": 3, "cooperation": 8, "decision_making": 6, "risk_taking": 4, "adaptability": 7, "resilience": 5, "strategic_thinking": 7, "survival_drive": 5}
+          "text": "Negotiate a fair division of resources that benefits both groups",
+          "traits": {"leadership": 4, "independence": 2, "aggression": 2, "cooperation": 5, "decision_making": 3, "risk_taking": 2, "adaptability": 4, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
-          "text": "Prepare for conflict and take what we need by force",
-          "weights": {"leadership": 6, "independence": 5, "aggression": 9, "cooperation": 2, "decision_making": 7, "risk_taking": 8, "adaptability": 5, "resilience": 7, "strategic_thinking": 6, "survival_drive": 8}
+          "text": "Prepare for conflict and take what we need by force if necessary",
+          "traits": {"leadership": 3, "independence": 3, "aggression": 5, "cooperation": 1, "decision_making": 4, "risk_taking": 4, "adaptability": 2, "resilience": 4, "strategic_thinking": 3, "survival_drive": 5}
         },
         {
-          "text": "Avoid confrontation and look for resources elsewhere",
-          "weights": {"leadership": 3, "independence": 6, "aggression": 1, "cooperation": 5, "decision_making": 4, "risk_taking": 2, "adaptability": 7, "resilience": 4, "strategic_thinking": 6, "survival_drive": 6}
+          "text": "Avoid confrontation completely and look for resources elsewhere",
+          "traits": {"leadership": 2, "independence": 3, "aggression": 1, "cooperation": 3, "decision_making": 2, "risk_taking": 1, "adaptability": 4, "resilience": 2, "strategic_thinking": 3, "survival_drive": 3}
         },
         {
-          "text": "Suggest joining forces and sharing everything",
-          "weights": {"leadership": 5, "independence": 2, "aggression": 1, "cooperation": 9, "decision_making": 4, "risk_taking": 5, "adaptability": 6, "resilience": 5, "strategic_thinking": 5, "survival_drive": 4}
+          "text": "Suggest joining forces and sharing everything for mutual benefit",
+          "traits": {"leadership": 3, "independence": 1, "aggression": 1, "cooperation": 5, "decision_making": 2, "risk_taking": 3, "adaptability": 3, "resilience": 3, "strategic_thinking": 3, "survival_drive": 2}
+        },
+        {
+          "text": "Try to outmaneuver them strategically without direct confrontation",
+          "traits": {"leadership": 4, "independence": 3, "aggression": 3, "cooperation": 2, "decision_making": 4, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 5, "survival_drive": 4}
         }
       ]
     },
     {
-      "id": 3,
-      "text": "Someone in your group is slowing everyone down due to injury. The group is divided on what to do.",
-      "options": [
+      "question": "Someone in your group is slowing everyone down due to injury. The group is divided on what to do.",
+      "answers": [
         {
           "text": "Make the hard decision to leave them behind for group survival",
-          "weights": {"leadership": 8, "independence": 6, "aggression": 7, "cooperation": 2, "decision_making": 9, "risk_taking": 6, "adaptability": 6, "resilience": 8, "strategic_thinking": 8, "survival_drive": 9}
+          "traits": {"leadership": 4, "independence": 3, "aggression": 4, "cooperation": 1, "decision_making": 5, "risk_taking": 3, "adaptability": 3, "resilience": 4, "strategic_thinking": 4, "survival_drive": 5}
         },
         {
-          "text": "Insist we carry them and find ways to make it work",
-          "weights": {"leadership": 6, "independence": 3, "aggression": 2, "cooperation": 9, "decision_making": 5, "risk_taking": 7, "adaptability": 5, "resilience": 6, "strategic_thinking": 4, "survival_drive": 4}
+          "text": "Insist we carry them and find creative ways to make it work",
+          "traits": {"leadership": 3, "independence": 2, "aggression": 1, "cooperation": 5, "decision_making": 3, "risk_taking": 4, "adaptability": 3, "resilience": 3, "strategic_thinking": 2, "survival_drive": 2}
         },
         {
-          "text": "Let the group vote and abide by the majority decision",
-          "weights": {"leadership": 4, "independence": 4, "aggression": 3, "cooperation": 7, "decision_making": 6, "risk_taking": 4, "adaptability": 6, "resilience": 5, "strategic_thinking": 5, "survival_drive": 5}
+          "text": "Let the group vote democratically and abide by the majority decision",
+          "traits": {"leadership": 2, "independence": 2, "aggression": 2, "cooperation": 4, "decision_making": 3, "risk_taking": 2, "adaptability": 3, "resilience": 3, "strategic_thinking": 3, "survival_drive": 3}
         },
         {
-          "text": "Leave the group - I don't want to be part of this decision",
-          "weights": {"leadership": 2, "independence": 8, "aggression": 3, "cooperation": 2, "decision_making": 3, "risk_taking": 6, "adaptability": 6, "resilience": 4, "strategic_thinking": 3, "survival_drive": 6}
+          "text": "Leave the group entirely rather than be part of this decision",
+          "traits": {"leadership": 1, "independence": 5, "aggression": 2, "cooperation": 1, "decision_making": 2, "risk_taking": 3, "adaptability": 3, "resilience": 2, "strategic_thinking": 2, "survival_drive": 3}
+        },
+        {
+          "text": "Split the group so those who want to help can stay with the injured person",
+          "traits": {"leadership": 4, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 4, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         }
       ]
     },
     {
-      "id": 4,
-      "text": "Food supplies are running dangerously low. There's enough for maybe two more days. What's your approach?",
-      "options": [
+      "question": "Food supplies are running dangerously low. There's enough for maybe two more days. What's your approach?",
+      "answers": [
         {
-          "text": "Organize immediate rationing and search parties",
-          "weights": {"leadership": 8, "independence": 4, "aggression": 4, "cooperation": 7, "decision_making": 8, "risk_taking": 6, "adaptability": 7, "resilience": 7, "strategic_thinking": 9, "survival_drive": 7}
+          "text": "Organize immediate rationing and coordinate search parties for more food",
+          "traits": {"leadership": 5, "independence": 2, "aggression": 2, "cooperation": 4, "decision_making": 4, "risk_taking": 3, "adaptability": 3, "resilience": 4, "strategic_thinking": 5, "survival_drive": 4}
         },
         {
-          "text": "Secretly save extra food for myself and close allies",
-          "weights": {"leadership": 3, "independence": 7, "aggression": 5, "cooperation": 2, "decision_making": 6, "risk_taking": 5, "adaptability": 6, "resilience": 6, "strategic_thinking": 7, "survival_drive": 9}
+          "text": "Secretly save extra food for myself and my closest allies",
+          "traits": {"leadership": 2, "independence": 4, "aggression": 3, "cooperation": 1, "decision_making": 3, "risk_taking": 3, "adaptability": 3, "resilience": 3, "strategic_thinking": 4, "survival_drive": 5}
         },
         {
           "text": "Take risky action to raid well-stocked but dangerous areas",
-          "weights": {"leadership": 6, "independence": 6, "aggression": 8, "cooperation": 4, "decision_making": 7, "risk_taking": 9, "adaptability": 7, "resilience": 7, "strategic_thinking": 6, "survival_drive": 8}
+          "traits": {"leadership": 3, "independence": 3, "aggression": 4, "cooperation": 2, "decision_making": 4, "risk_taking": 5, "adaptability": 4, "resilience": 4, "strategic_thinking": 3, "survival_drive": 5}
         },
         {
-          "text": "Share everything equally and hope for the best",
-          "weights": {"leadership": 4, "independence": 3, "aggression": 2, "cooperation": 9, "decision_making": 4, "risk_taking": 3, "adaptability": 5, "resilience": 5, "strategic_thinking": 3, "survival_drive": 4}
+          "text": "Share everything equally among the group and hope for the best",
+          "traits": {"leadership": 2, "independence": 2, "aggression": 1, "cooperation": 5, "decision_making": 2, "risk_taking": 2, "adaptability": 2, "resilience": 3, "strategic_thinking": 2, "survival_drive": 2}
+        },
+        {
+          "text": "Send out scouts while maintaining strict rationing protocols",
+          "traits": {"leadership": 4, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 4, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 5, "survival_drive": 4}
         }
       ]
     },
     {
-      "id": 5,
-      "text": "The group's current leader is making decisions that you believe will get people killed. What do you do?",
-      "options": [
+      "question": "The group's current leader is making decisions that you believe will get people killed. What do you do?",
+      "answers": [
         {
-          "text": "Challenge them openly and demand leadership change",
-          "weights": {"leadership": 9, "independence": 6, "aggression": 7, "cooperation": 3, "decision_making": 8, "risk_taking": 8, "adaptability": 6, "resilience": 8, "strategic_thinking": 7, "survival_drive": 7}
+          "text": "Challenge them openly and demand immediate leadership change",
+          "traits": {"leadership": 5, "independence": 3, "aggression": 4, "cooperation": 2, "decision_making": 4, "risk_taking": 4, "adaptability": 3, "resilience": 4, "strategic_thinking": 3, "survival_drive": 4}
         },
         {
-          "text": "Work behind the scenes to undermine their authority",
-          "weights": {"leadership": 7, "independence": 6, "aggression": 6, "cooperation": 4, "decision_making": 7, "risk_taking": 6, "adaptability": 8, "resilience": 6, "strategic_thinking": 8, "survival_drive": 7}
+          "text": "Work behind the scenes to undermine their authority gradually",
+          "traits": {"leadership": 4, "independence": 3, "aggression": 3, "cooperation": 2, "decision_making": 4, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 5, "survival_drive": 4}
         },
         {
-          "text": "Follow orders but prepare to leave if things get worse",
-          "weights": {"leadership": 3, "independence": 8, "aggression": 3, "cooperation": 4, "decision_making": 6, "risk_taking": 5, "adaptability": 7, "resilience": 6, "strategic_thinking": 7, "survival_drive": 7}
+          "text": "Follow orders publicly but prepare to leave if things get worse",
+          "traits": {"leadership": 2, "independence": 5, "aggression": 2, "cooperation": 2, "decision_making": 3, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 4, "survival_drive": 4}
         },
         {
-          "text": "Try to influence them privately and diplomatically",
-          "weights": {"leadership": 5, "independence": 4, "aggression": 2, "cooperation": 8, "decision_making": 6, "risk_taking": 4, "adaptability": 7, "resilience": 5, "strategic_thinking": 7, "survival_drive": 5}
+          "text": "Try to influence them privately through diplomatic conversation",
+          "traits": {"leadership": 3, "independence": 2, "aggression": 1, "cooperation": 5, "decision_making": 3, "risk_taking": 2, "adaptability": 4, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
+        },
+        {
+          "text": "Build a coalition of supporters before making any moves",
+          "traits": {"leadership": 4, "independence": 2, "aggression": 2, "cooperation": 4, "decision_making": 4, "risk_taking": 3, "adaptability": 4, "resilience": 4, "strategic_thinking": 5, "survival_drive": 3}
         }
       ]
     },
     {
-      "id": 6,
-      "text": "Your group finds a well-defended safe zone, but they demand you give up all weapons to enter. How do you respond?",
-      "options": [
+      "question": "Your group finds a well-defended safe zone, but they demand you give up all weapons to enter. How do you respond?",
+      "answers": [
         {
-          "text": "Refuse entry - giving up weapons means giving up control",
-          "weights": {"leadership": 6, "independence": 8, "aggression": 6, "cooperation": 3, "decision_making": 7, "risk_taking": 6, "adaptability": 4, "resilience": 7, "strategic_thinking": 7, "survival_drive": 6}
+          "text": "Refuse entry because giving up weapons means giving up control",
+          "traits": {"leadership": 3, "independence": 5, "aggression": 3, "cooperation": 2, "decision_making": 4, "risk_taking": 3, "adaptability": 2, "resilience": 4, "strategic_thinking": 3, "survival_drive": 3}
         },
         {
-          "text": "Negotiate terms that allow some weapons for trusted members",
-          "weights": {"leadership": 8, "independence": 5, "aggression": 4, "cooperation": 6, "decision_making": 8, "risk_taking": 5, "adaptability": 8, "resilience": 6, "strategic_thinking": 9, "survival_drive": 6}
+          "text": "Negotiate terms that allow some weapons for trusted group members",
+          "traits": {"leadership": 5, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 5, "risk_taking": 3, "adaptability": 5, "resilience": 3, "strategic_thinking": 5, "survival_drive": 3}
         },
         {
-          "text": "Comply fully - safety is worth more than weapons",
-          "weights": {"leadership": 3, "independence": 3, "aggression": 2, "cooperation": 8, "decision_making": 5, "risk_taking": 3, "adaptability": 6, "resilience": 5, "strategic_thinking": 4, "survival_drive": 6}
+          "text": "Comply fully because safety is worth more than weapons",
+          "traits": {"leadership": 2, "independence": 2, "aggression": 1, "cooperation": 5, "decision_making": 3, "risk_taking": 2, "adaptability": 3, "resilience": 3, "strategic_thinking": 2, "survival_drive": 3}
         },
         {
           "text": "Pretend to comply while secretly keeping hidden weapons",
-          "weights": {"leadership": 5, "independence": 7, "aggression": 5, "cooperation": 4, "decision_making": 6, "risk_taking": 7, "adaptability": 8, "resilience": 6, "strategic_thinking": 8, "survival_drive": 7}
+          "traits": {"leadership": 3, "independence": 4, "aggression": 3, "cooperation": 2, "decision_making": 3, "risk_taking": 4, "adaptability": 4, "resilience": 3, "strategic_thinking": 4, "survival_drive": 4}
+        },
+        {
+          "text": "Scout the area thoroughly before making any commitment",
+          "traits": {"leadership": 3, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 4, "risk_taking": 2, "adaptability": 4, "resilience": 3, "strategic_thinking": 5, "survival_drive": 4}
         }
       ]
     },
     {
-      "id": 7,
-      "text": "A child in your group is crying loudly and attracting dangerous attention. The crying won't stop.",
-      "options": [
+      "question": "A child in your group is crying loudly and attracting dangerous attention. The crying won't stop.",
+      "answers": [
         {
           "text": "Find a way to muffle or quiet the child by any means necessary",
-          "weights": {"leadership": 6, "independence": 5, "aggression": 7, "cooperation": 3, "decision_making": 8, "risk_taking": 6, "adaptability": 6, "resilience": 7, "strategic_thinking": 6, "survival_drive": 8}
+          "traits": {"leadership": 3, "independence": 3, "aggression": 4, "cooperation": 2, "decision_making": 4, "risk_taking": 3, "adaptability": 3, "resilience": 4, "strategic_thinking": 3, "survival_drive": 5}
         },
         {
-          "text": "Split the group - those with the child go one way, others another",
-          "weights": {"leadership": 7, "independence": 6, "aggression": 4, "cooperation": 5, "decision_making": 7, "risk_taking": 7, "adaptability": 7, "resilience": 6, "strategic_thinking": 8, "survival_drive": 6}
+          "text": "Split the group with the child going one way, others another",
+          "traits": {"leadership": 4, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 4, "risk_taking": 4, "adaptability": 4, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
-          "text": "Accept the risk and try to comfort the child while moving",
-          "weights": {"leadership": 4, "independence": 3, "aggression": 2, "cooperation": 8, "decision_making": 4, "risk_taking": 5, "adaptability": 5, "resilience": 5, "strategic_thinking": 3, "survival_drive": 4}
+          "text": "Accept the risk and try to comfort the child while moving carefully",
+          "traits": {"leadership": 2, "independence": 2, "aggression": 1, "cooperation": 5, "decision_making": 2, "risk_taking": 3, "adaptability": 3, "resilience": 3, "strategic_thinking": 2, "survival_drive": 2}
         },
         {
           "text": "Leave the child and their guardian behind for group safety",
-          "weights": {"leadership": 5, "independence": 7, "aggression": 8, "cooperation": 1, "decision_making": 8, "risk_taking": 6, "adaptability": 6, "resilience": 8, "strategic_thinking": 7, "survival_drive": 9}
+          "traits": {"leadership": 3, "independence": 4, "aggression": 5, "cooperation": 1, "decision_making": 5, "risk_taking": 3, "adaptability": 3, "resilience": 5, "strategic_thinking": 3, "survival_drive": 5}
+        },
+        {
+          "text": "Create a distraction elsewhere to draw attention away from the group",
+          "traits": {"leadership": 4, "independence": 3, "aggression": 3, "cooperation": 4, "decision_making": 4, "risk_taking": 5, "adaptability": 4, "resilience": 4, "strategic_thinking": 4, "survival_drive": 4}
         }
       ]
     },
     {
-      "id": 8,
-      "text": "You discover one of your group members has been secretly hoarding supplies while others go hungry.",
-      "options": [
+      "question": "You discover one of your group members has been secretly hoarding supplies while others go hungry.",
+      "answers": [
         {
-          "text": "Confront them publicly and redistribute their hoarded supplies",
-          "weights": {"leadership": 8, "independence": 4, "aggression": 6, "cooperation": 7, "decision_making": 8, "risk_taking": 5, "adaptability": 5, "resilience": 6, "strategic_thinking": 6, "survival_drive": 6}
+          "text": "Confront them publicly and redistribute their hoarded supplies immediately",
+          "traits": {"leadership": 5, "independence": 2, "aggression": 3, "cooperation": 4, "decision_making": 4, "risk_taking": 3, "adaptability": 3, "resilience": 3, "strategic_thinking": 3, "survival_drive": 3}
         },
         {
-          "text": "Banish them from the group immediately",
-          "weights": {"leadership": 7, "independence": 5, "aggression": 8, "cooperation": 3, "decision_making": 8, "risk_taking": 6, "adaptability": 5, "resilience": 7, "strategic_thinking": 6, "survival_drive": 7}
+          "text": "Banish them from the group immediately as an example to others",
+          "traits": {"leadership": 4, "independence": 3, "aggression": 5, "cooperation": 2, "decision_making": 5, "risk_taking": 3, "adaptability": 3, "resilience": 4, "strategic_thinking": 3, "survival_drive": 4}
         },
         {
           "text": "Deal with them privately and give them a chance to make amends",
-          "weights": {"leadership": 6, "independence": 4, "aggression": 3, "cooperation": 7, "decision_making": 6, "risk_taking": 4, "adaptability": 7, "resilience": 5, "strategic_thinking": 7, "survival_drive": 5}
+          "traits": {"leadership": 3, "independence": 2, "aggression": 2, "cooperation": 4, "decision_making": 3, "risk_taking": 2, "adaptability": 4, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
-          "text": "Start hoarding supplies myself - everyone else is doing it",
-          "weights": {"leadership": 2, "independence": 8, "aggression": 4, "cooperation": 2, "decision_making": 5, "risk_taking": 5, "adaptability": 6, "resilience": 6, "strategic_thinking": 6, "survival_drive": 8}
+          "text": "Start hoarding supplies myself since everyone else is apparently doing it",
+          "traits": {"leadership": 1, "independence": 5, "aggression": 2, "cooperation": 1, "decision_making": 3, "risk_taking": 3, "adaptability": 3, "resilience": 3, "strategic_thinking": 3, "survival_drive": 5}
+        },
+        {
+          "text": "Use this as an opportunity to establish clear resource sharing rules",
+          "traits": {"leadership": 4, "independence": 2, "aggression": 2, "cooperation": 4, "decision_making": 4, "risk_taking": 2, "adaptability": 3, "resilience": 3, "strategic_thinking": 5, "survival_drive": 3}
         }
       ]
     },
     {
-      "id": 9,
-      "text": "Your group encounters a larger, better-armed faction that wants to absorb your people. What's your strategy?",
-      "options": [
+      "question": "Your group encounters a larger, better-armed faction that wants to absorb your people. What's your strategy?",
+      "answers": [
         {
-          "text": "Negotiate from a position of strength - demand equal partnership",
-          "weights": {"leadership": 9, "independence": 6, "aggression": 5, "cooperation": 6, "decision_making": 8, "risk_taking": 6, "adaptability": 7, "resilience": 7, "strategic_thinking": 9, "survival_drive": 6}
+          "text": "Negotiate from a position of strength and demand equal partnership",
+          "traits": {"leadership": 5, "independence": 3, "aggression": 3, "cooperation": 3, "decision_making": 5, "risk_taking": 3, "adaptability": 4, "resilience": 4, "strategic_thinking": 5, "survival_drive": 3}
         },
         {
-          "text": "Fight them even if we're outnumbered - freedom over safety",
-          "weights": {"leadership": 7, "independence": 8, "aggression": 9, "cooperation": 3, "decision_making": 6, "risk_taking": 9, "adaptability": 4, "resilience": 8, "strategic_thinking": 5, "survival_drive": 7}
+          "text": "Fight them even if we're outnumbered because freedom is worth dying for",
+          "traits": {"leadership": 4, "independence": 5, "aggression": 5, "cooperation": 2, "decision_making": 3, "risk_taking": 5, "adaptability": 2, "resilience": 5, "strategic_thinking": 3, "survival_drive": 4}
         },
         {
-          "text": "Accept absorption but work to maintain group identity",
-          "weights": {"leadership": 5, "independence": 4, "aggression": 3, "cooperation": 7, "decision_making": 6, "risk_taking": 4, "adaptability": 8, "resilience": 6, "strategic_thinking": 7, "survival_drive": 6}
+          "text": "Accept absorption but work to maintain our group's identity within theirs",
+          "traits": {"leadership": 3, "independence": 2, "aggression": 2, "cooperation": 4, "decision_making": 3, "risk_taking": 2, "adaptability": 5, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
-          "text": "Escape with whoever will come and avoid the confrontation",
-          "weights": {"leadership": 4, "independence": 7, "aggression": 2, "cooperation": 5, "decision_making": 5, "risk_taking": 6, "adaptability": 8, "resilience": 6, "strategic_thinking": 6, "survival_drive": 7}
+          "text": "Escape with whoever will come and avoid the confrontation entirely",
+          "traits": {"leadership": 2, "independence": 4, "aggression": 1, "cooperation": 3, "decision_making": 3, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 3, "survival_drive": 4}
+        },
+        {
+          "text": "Gather intelligence about them first before making any decisions",
+          "traits": {"leadership": 4, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 4, "risk_taking": 2, "adaptability": 4, "resilience": 3, "strategic_thinking": 5, "survival_drive": 4}
         }
       ]
     },
     {
-      "id": 10,
-      "text": "Winter is approaching and your group must choose between a risky move to better shelter or staying put in inadequate conditions.",
-      "options": [
+      "question": "Winter is approaching and your group must choose between a risky move to better shelter or staying put in inadequate conditions.",
+      "answers": [
         {
-          "text": "Plan and execute the move despite risks - leadership means making hard calls",
-          "weights": {"leadership": 9, "independence": 5, "aggression": 6, "cooperation": 6, "decision_making": 9, "risk_taking": 8, "adaptability": 7, "resilience": 7, "strategic_thinking": 8, "survival_drive": 7}
+          "text": "Plan and execute the move despite risks because leadership means making hard calls",
+          "traits": {"leadership": 5, "independence": 3, "aggression": 3, "cooperation": 3, "decision_making": 5, "risk_taking": 5, "adaptability": 4, "resilience": 4, "strategic_thinking": 4, "survival_drive": 4}
         },
         {
-          "text": "Put it to a group vote and abide by the majority",
-          "weights": {"leadership": 5, "independence": 3, "aggression": 3, "cooperation": 8, "decision_making": 5, "risk_taking": 5, "adaptability": 6, "resilience": 5, "strategic_thinking": 5, "survival_drive": 5}
+          "text": "Put it to a group vote and support whatever the majority chooses",
+          "traits": {"leadership": 3, "independence": 2, "aggression": 2, "cooperation": 5, "decision_making": 3, "risk_taking": 3, "adaptability": 3, "resilience": 3, "strategic_thinking": 3, "survival_drive": 3}
         },
         {
-          "text": "Stay put and improve current shelter - movement is too dangerous",
-          "weights": {"leadership": 6, "independence": 4, "aggression": 2, "cooperation": 6, "decision_making": 6, "risk_taking": 2, "adaptability": 5, "resilience": 7, "strategic_thinking": 7, "survival_drive": 6}
+          "text": "Stay put and improve current shelter because movement is too dangerous",
+          "traits": {"leadership": 3, "independence": 2, "aggression": 1, "cooperation": 3, "decision_making": 3, "risk_taking": 1, "adaptability": 2, "resilience": 4, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
-          "text": "Let someone else decide - I don't want that responsibility",
-          "weights": {"leadership": 1, "independence": 4, "aggression": 2, "cooperation": 6, "decision_making": 2, "risk_taking": 3, "adaptability": 5, "resilience": 3, "strategic_thinking": 3, "survival_drive": 4}
+          "text": "Let someone else decide because I don't want that responsibility",
+          "traits": {"leadership": 1, "independence": 2, "aggression": 1, "cooperation": 3, "decision_making": 1, "risk_taking": 2, "adaptability": 2, "resilience": 2, "strategic_thinking": 2, "survival_drive": 2}
+        },
+        {
+          "text": "Send scouts to assess the route and shelter options before deciding",
+          "traits": {"leadership": 4, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 4, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 5, "survival_drive": 4}
         }
       ]
     },
     {
-      "id": 11,
-      "text": "Your group captures someone who was spying on your settlement. They claim to be gathering intelligence for their starving family.",
-      "options": [
+      "question": "Your group captures someone who was spying on your settlement. They claim to be gathering intelligence for their starving family.",
+      "answers": [
         {
-          "text": "Interrogate them thoroughly, then decide based on useful information",
-          "weights": {"leadership": 7, "independence": 5, "aggression": 6, "cooperation": 4, "decision_making": 8, "risk_taking": 5, "adaptability": 6, "resilience": 6, "strategic_thinking": 9, "survival_drive": 6}
+          "text": "Interrogate them thoroughly, then decide based on the information gained",
+          "traits": {"leadership": 4, "independence": 3, "aggression": 3, "cooperation": 2, "decision_making": 4, "risk_taking": 3, "adaptability": 3, "resilience": 3, "strategic_thinking": 5, "survival_drive": 3}
         },
         {
           "text": "Execute them as an example to other potential spies",
-          "weights": {"leadership": 6, "independence": 5, "aggression": 9, "cooperation": 2, "decision_making": 7, "risk_taking": 6, "adaptability": 4, "resilience": 7, "strategic_thinking": 6, "survival_drive": 7}
+          "traits": {"leadership": 3, "independence": 3, "aggression": 5, "cooperation": 1, "decision_making": 4, "risk_taking": 3, "adaptability": 2, "resilience": 4, "strategic_thinking": 3, "survival_drive": 4}
         },
         {
           "text": "Help their family in exchange for information about their group",
-          "weights": {"leadership": 6, "independence": 4, "aggression": 3, "cooperation": 7, "decision_making": 6, "risk_taking": 5, "adaptability": 7, "resilience": 5, "strategic_thinking": 7, "survival_drive": 5}
+          "traits": {"leadership": 3, "independence": 2, "aggression": 2, "cooperation": 4, "decision_making": 3, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
-          "text": "Release them with a warning - everyone's just trying to survive",
-          "weights": {"leadership": 3, "independence": 4, "aggression": 2, "cooperation": 8, "decision_making": 4, "risk_taking": 6, "adaptability": 6, "resilience": 4, "strategic_thinking": 3, "survival_drive": 4}
+          "text": "Release them with a warning because everyone's just trying to survive",
+          "traits": {"leadership": 2, "independence": 2, "aggression": 1, "cooperation": 5, "decision_making": 2, "risk_taking": 3, "adaptability": 3, "resilience": 2, "strategic_thinking": 2, "survival_drive": 2}
+        },
+        {
+          "text": "Keep them under guard while we verify their story",
+          "traits": {"leadership": 3, "independence": 2, "aggression": 2, "cooperation": 3, "decision_making": 4, "risk_taking": 2, "adaptability": 3, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         }
       ]
     },
     {
-      "id": 12,
-      "text": "A deadly plague is spreading through survivor communities. Your group is still healthy but you encounter infected refugees seeking help.",
-      "options": [
+      "question": "A deadly plague is spreading through survivor communities. Your group is still healthy but you encounter infected refugees seeking help.",
+      "answers": [
         {
           "text": "Quarantine them at a distance and provide what help we safely can",
-          "weights": {"leadership": 7, "independence": 5, "aggression": 4, "cooperation": 6, "decision_making": 8, "risk_taking": 4, "adaptability": 7, "resilience": 6, "strategic_thinking": 8, "survival_drive": 6}
+          "traits": {"leadership": 4, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 4, "risk_taking": 2, "adaptability": 4, "resilience": 3, "strategic_thinking": 5, "survival_drive": 3}
         },
         {
-          "text": "Turn them away immediately - group survival comes first",
-          "weights": {"leadership": 6, "independence": 6, "aggression": 6, "cooperation": 2, "decision_making": 7, "risk_taking": 3, "adaptability": 5, "resilience": 7, "strategic_thinking": 7, "survival_drive": 9}
+          "text": "Turn them away immediately because group survival comes first",
+          "traits": {"leadership": 3, "independence": 3, "aggression": 3, "cooperation": 1, "decision_making": 4, "risk_taking": 2, "adaptability": 3, "resilience": 4, "strategic_thinking": 4, "survival_drive": 5}
         },
         {
-          "text": "Take them in and try to treat them - we're all human",
-          "weights": {"leadership": 4, "independence": 3, "aggression": 2, "cooperation": 9, "decision_making": 4, "risk_taking": 8, "adaptability": 5, "resilience": 5, "strategic_thinking": 3, "survival_drive": 3}
+          "text": "Take them in and try to treat them because we're all human",
+          "traits": {"leadership": 2, "independence": 2, "aggression": 1, "cooperation": 5, "decision_making": 2, "risk_taking": 5, "adaptability": 3, "resilience": 3, "strategic_thinking": 2, "survival_drive": 2}
         },
         {
           "text": "Use them to gather intelligence about the plague's spread",
-          "weights": {"leadership": 6, "independence": 5, "aggression": 5, "cooperation": 4, "decision_making": 7, "risk_taking": 5, "adaptability": 6, "resilience": 6, "strategic_thinking": 8, "survival_drive": 6}
+          "traits": {"leadership": 3, "independence": 3, "aggression": 3, "cooperation": 2, "decision_making": 3, "risk_taking": 3, "adaptability": 3, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
+        },
+        {
+          "text": "Set up a temporary aid station away from our main camp",
+          "traits": {"leadership": 4, "independence": 3, "aggression": 2, "cooperation": 4, "decision_making": 4, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         }
       ]
     },
     {
-      "id": 13,
-      "text": "Your settlement has grown successful, but success has attracted raiders. They demand tribute for 'protection.'",
-      "options": [
+      "question": "Your settlement has grown successful, but success has attracted raiders. They demand tribute for 'protection.'",
+      "answers": [
         {
-          "text": "Organize defenses and prepare for war - we don't negotiate with extortionists",
-          "weights": {"leadership": 8, "independence": 7, "aggression": 9, "cooperation": 5, "decision_making": 8, "risk_taking": 8, "adaptability": 5, "resilience": 8, "strategic_thinking": 7, "survival_drive": 7}
+          "text": "Organize defenses and prepare for war because we don't negotiate with extortionists",
+          "traits": {"leadership": 5, "independence": 4, "aggression": 5, "cooperation": 3, "decision_making": 4, "risk_taking": 5, "adaptability": 3, "resilience": 5, "strategic_thinking": 4, "survival_drive": 4}
         },
         {
           "text": "Pay the tribute while secretly planning to eliminate the threat",
-          "weights": {"leadership": 7, "independence": 5, "aggression": 6, "cooperation": 4, "decision_making": 8, "risk_taking": 6, "adaptability": 8, "resilience": 7, "strategic_thinking": 9, "survival_drive": 6}
+          "traits": {"leadership": 4, "independence": 3, "aggression": 3, "cooperation": 2, "decision_making": 4, "risk_taking": 3, "adaptability": 4, "resilience": 4, "strategic_thinking": 5, "survival_drive": 3}
         },
         {
           "text": "Negotiate reasonable tribute terms to avoid bloodshed",
-          "weights": {"leadership": 5, "independence": 4, "aggression": 3, "cooperation": 7, "decision_making": 6, "risk_taking": 4, "adaptability": 7, "resilience": 5, "strategic_thinking": 7, "survival_drive": 6}
+          "traits": {"leadership": 3, "independence": 2, "aggression": 2, "cooperation": 4, "decision_making": 3, "risk_taking": 2, "adaptability": 4, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
           "text": "Abandon the settlement and start over elsewhere",
-          "weights": {"leadership": 3, "independence": 6, "aggression": 2, "cooperation": 5, "decision_making": 5, "risk_taking": 6, "adaptability": 8, "resilience": 4, "strategic_thinking": 5, "survival_drive": 6}
+          "traits": {"leadership": 2, "independence": 3, "aggression": 1, "cooperation": 3, "decision_making": 3, "risk_taking": 3, "adaptability": 5, "resilience": 2, "strategic_thinking": 3, "survival_drive": 3}
+        },
+        {
+          "text": "Seek alliance with other settlements to fight them together",
+          "traits": {"leadership": 4, "independence": 2, "aggression": 3, "cooperation": 5, "decision_making": 4, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 5, "survival_drive": 3}
         }
       ]
     },
     {
-      "id": 14,
-      "text": "You discover that the apocalypse was caused by government experiments. Some survivors want revenge, others want to focus on rebuilding.",
-      "options": [
+      "question": "You discover that the apocalypse was caused by government experiments. Some survivors want revenge, others want to focus on rebuilding.",
+      "answers": [
         {
           "text": "Lead a mission to find responsible parties and bring them to justice",
-          "weights": {"leadership": 8, "independence": 5, "aggression": 7, "cooperation": 5, "decision_making": 7, "risk_taking": 7, "adaptability": 6, "resilience": 7, "strategic_thinking": 6, "survival_drive": 6}
+          "traits": {"leadership": 5, "independence": 3, "aggression": 4, "cooperation": 3, "decision_making": 4, "risk_taking": 4, "adaptability": 3, "resilience": 4, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
-          "text": "Focus entirely on rebuilding - revenge won't bring back the dead",
-          "weights": {"leadership": 6, "independence": 4, "aggression": 2, "cooperation": 8, "decision_making": 6, "risk_taking": 3, "adaptability": 6, "resilience": 6, "strategic_thinking": 7, "survival_drive": 5}
+          "text": "Focus entirely on rebuilding because revenge won't bring back the dead",
+          "traits": {"leadership": 3, "independence": 2, "aggression": 1, "cooperation": 5, "decision_making": 3, "risk_taking": 2, "adaptability": 3, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
           "text": "Use the information strategically to prevent future disasters",
-          "weights": {"leadership": 7, "independence": 5, "aggression": 4, "cooperation": 6, "decision_making": 8, "risk_taking": 5, "adaptability": 7, "resilience": 6, "strategic_thinking": 9, "survival_drive": 6}
+          "traits": {"leadership": 4, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 4, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 5, "survival_drive": 3}
         },
         {
           "text": "Keep the information secret to avoid causing more division",
-          "weights": {"leadership": 5, "independence": 6, "aggression": 3, "cooperation": 6, "decision_making": 6, "risk_taking": 4, "adaptability": 6, "resilience": 6, "strategic_thinking": 7, "survival_drive": 5}
+          "traits": {"leadership": 3, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 3, "risk_taking": 2, "adaptability": 3, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
+        },
+        {
+          "text": "Let the community decide democratically what to do with this knowledge",
+          "traits": {"leadership": 3, "independence": 2, "aggression": 2, "cooperation": 5, "decision_making": 3, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 3, "survival_drive": 3}
         }
       ]
     },
     {
-      "id": 15,
-      "text": "A charismatic newcomer is gaining influence in your group and undermining your leadership with promises of an easier life.",
-      "options": [
+      "question": "A charismatic newcomer is gaining influence in your group and undermining your leadership with promises of an easier life.",
+      "answers": [
         {
-          "text": "Confront them directly and expose their false promises",
-          "weights": {"leadership": 8, "independence": 5, "aggression": 7, "cooperation": 4, "decision_making": 7, "risk_taking": 6, "adaptability": 5, "resilience": 7, "strategic_thinking": 6, "survival_drive": 6}
+          "text": "Confront them directly and expose their false promises publicly",
+          "traits": {"leadership": 5, "independence": 3, "aggression": 4, "cooperation": 2, "decision_making": 4, "risk_taking": 3, "adaptability": 3, "resilience": 4, "strategic_thinking": 3, "survival_drive": 3}
         },
         {
           "text": "Outmaneuver them politically while maintaining group unity",
-          "weights": {"leadership": 8, "independence": 5, "aggression": 4, "cooperation": 6, "decision_making": 8, "risk_taking": 5, "adaptability": 8, "resilience": 6, "strategic_thinking": 9, "survival_drive": 6}
+          "traits": {"leadership": 5, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 4, "risk_taking": 3, "adaptability": 5, "resilience": 3, "strategic_thinking": 5, "survival_drive": 3}
         },
         {
-          "text": "Challenge them to prove their claims through actions",
-          "weights": {"leadership": 7, "independence": 5, "aggression": 5, "cooperation": 5, "decision_making": 7, "risk_taking": 6, "adaptability": 6, "resilience": 6, "strategic_thinking": 7, "survival_drive": 6}
+          "text": "Challenge them to prove their claims through concrete actions",
+          "traits": {"leadership": 4, "independence": 3, "aggression": 3, "cooperation": 3, "decision_making": 4, "risk_taking": 3, "adaptability": 3, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
           "text": "Step aside gracefully and see if they can deliver on their promises",
-          "weights": {"leadership": 3, "independence": 6, "aggression": 2, "cooperation": 7, "decision_making": 4, "risk_taking": 5, "adaptability": 7, "resilience": 5, "strategic_thinking": 5, "survival_drive": 4}
+          "traits": {"leadership": 2, "independence": 3, "aggression": 1, "cooperation": 4, "decision_making": 2, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 3, "survival_drive": 2}
+        },
+        {
+          "text": "Work to incorporate their ideas while maintaining overall control",
+          "traits": {"leadership": 4, "independence": 2, "aggression": 2, "cooperation": 4, "decision_making": 4, "risk_taking": 2, "adaptability": 5, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         }
       ]
     },
     {
-      "id": 16,
-      "text": "Your group finds a cache of military weapons, but they're in a dangerous area. Taking them means significant risk.",
-      "options": [
+      "question": "Your group finds a cache of military weapons, but they're in a dangerous area. Taking them means significant risk.",
+      "answers": [
         {
-          "text": "Plan a careful mission to secure the weapons - they're worth the risk",
-          "weights": {"leadership": 8, "independence": 5, "aggression": 6, "cooperation": 6, "decision_making": 8, "risk_taking": 7, "adaptability": 7, "resilience": 7, "strategic_thinking": 8, "survival_drive": 7}
+          "text": "Plan a careful mission to secure the weapons because they're worth the risk",
+          "traits": {"leadership": 5, "independence": 3, "aggression": 3, "cooperation": 3, "decision_making": 4, "risk_taking": 4, "adaptability": 4, "resilience": 4, "strategic_thinking": 5, "survival_drive": 4}
         },
         {
-          "text": "Go alone or with minimal backup to limit casualties",
-          "weights": {"leadership": 6, "independence": 8, "aggression": 6, "cooperation": 3, "decision_making": 7, "risk_taking": 9, "adaptability": 6, "resilience": 7, "strategic_thinking": 6, "survival_drive": 7}
+          "text": "Go alone or with minimal backup to limit potential casualties",
+          "traits": {"leadership": 3, "independence": 5, "aggression": 3, "cooperation": 2, "decision_making": 4, "risk_taking": 5, "adaptability": 3, "resilience": 4, "strategic_thinking": 3, "survival_drive": 4}
         },
         {
-          "text": "Leave them - the current threat level doesn't justify the risk",
-          "weights": {"leadership": 5, "independence": 5, "aggression": 2, "cooperation": 6, "decision_making": 6, "risk_taking": 2, "adaptability": 5, "resilience": 6, "strategic_thinking": 7, "survival_drive": 5}
+          "text": "Leave them because the current threat level doesn't justify the risk",
+          "traits": {"leadership": 3, "independence": 3, "aggression": 1, "cooperation": 3, "decision_making": 3, "risk_taking": 1, "adaptability": 3, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
           "text": "Send expendable group members to test the danger first",
-          "weights": {"leadership": 6, "independence": 5, "aggression": 8, "cooperation": 2, "decision_making": 7, "risk_taking": 5, "adaptability": 6, "resilience": 7, "strategic_thinking": 7, "survival_drive": 8}
+          "traits": {"leadership": 3, "independence": 3, "aggression": 5, "cooperation": 1, "decision_making": 4, "risk_taking": 3, "adaptability": 3, "resilience": 4, "strategic_thinking": 4, "survival_drive": 5}
+        },
+        {
+          "text": "Monitor the area and wait for a safer opportunity",
+          "traits": {"leadership": 3, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 3, "risk_taking": 2, "adaptability": 4, "resilience": 3, "strategic_thinking": 5, "survival_drive": 3}
         }
       ]
     },
     {
-      "id": 17,
-      "text": "Two factions within your group are on the verge of violent conflict over resource distribution. How do you handle this?",
-      "options": [
+      "question": "Two factions within your group are on the verge of violent conflict over resource distribution. How do you handle this?",
+      "answers": [
         {
           "text": "Impose martial law temporarily until tensions cool down",
-          "weights": {"leadership": 9, "independence": 5, "aggression": 7, "cooperation": 4, "decision_making": 8, "risk_taking": 6, "adaptability": 5, "resilience": 7, "strategic_thinking": 7, "survival_drive": 6}
+          "traits": {"leadership": 5, "independence": 3, "aggression": 4, "cooperation": 2, "decision_making": 5, "risk_taking": 3, "adaptability": 3, "resilience": 4, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
           "text": "Mediate between factions and find a compromise solution",
-          "weights": {"leadership": 7, "independence": 4, "aggression": 3, "cooperation": 8, "decision_making": 7, "risk_taking": 4, "adaptability": 7, "resilience": 6, "strategic_thinking": 8, "survival_drive": 5}
+          "traits": {"leadership": 4, "independence": 2, "aggression": 2, "cooperation": 5, "decision_making": 4, "risk_taking": 2, "adaptability": 4, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
           "text": "Let them fight it out and deal with whoever wins",
-          "weights": {"leadership": 3, "independence": 7, "aggression": 6, "cooperation": 2, "decision_making": 5, "risk_taking": 6, "adaptability": 6, "resilience": 6, "strategic_thinking": 5, "survival_drive": 6}
+          "traits": {"leadership": 2, "independence": 4, "aggression": 3, "cooperation": 1, "decision_making": 3, "risk_taking": 3, "adaptability": 3, "resilience": 3, "strategic_thinking": 3, "survival_drive": 3}
         },
         {
-          "text": "Split the group permanently - some conflicts can't be resolved",
-          "weights": {"leadership": 6, "independence": 6, "aggression": 4, "cooperation": 4, "decision_making": 7, "risk_taking": 5, "adaptability": 7, "resilience": 6, "strategic_thinking": 7, "survival_drive": 6}
+          "text": "Split the group permanently because some conflicts can't be resolved",
+          "traits": {"leadership": 3, "independence": 3, "aggression": 2, "cooperation": 2, "decision_making": 4, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
+        },
+        {
+          "text": "Restructure resource distribution to address underlying causes",
+          "traits": {"leadership": 4, "independence": 2, "aggression": 2, "cooperation": 4, "decision_making": 4, "risk_taking": 2, "adaptability": 4, "resilience": 3, "strategic_thinking": 5, "survival_drive": 3}
         }
       ]
     },
     {
-      "id": 18,
-      "text": "You're offered leadership of a large but poorly organized survivor community. Taking it means leaving your current, successful group.",
-      "options": [
+      "question": "You're offered leadership of a large but poorly organized survivor community. Taking it means leaving your current, successful group.",
+      "answers": [
         {
-          "text": "Accept the challenge - my leadership skills are needed where they'll do the most good",
-          "weights": {"leadership": 9, "independence": 6, "aggression": 5, "cooperation": 7, "decision_making": 8, "risk_taking": 7, "adaptability": 8, "resilience": 7, "strategic_thinking": 7, "survival_drive": 6}
+          "text": "Accept the challenge because my leadership skills are needed where they'll do the most good",
+          "traits": {"leadership": 5, "independence": 3, "aggression": 3, "cooperation": 4, "decision_making": 4, "risk_taking": 4, "adaptability": 4, "resilience": 4, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
-          "text": "Decline - loyalty to my current group comes first",
-          "weights": {"leadership": 5, "independence": 4, "aggression": 3, "cooperation": 8, "decision_making": 5, "risk_taking": 3, "adaptability": 4, "resilience": 6, "strategic_thinking": 5, "survival_drive": 5}
+          "text": "Decline because loyalty to my current group comes first",
+          "traits": {"leadership": 3, "independence": 2, "aggression": 2, "cooperation": 5, "decision_making": 3, "risk_taking": 2, "adaptability": 2, "resilience": 3, "strategic_thinking": 3, "survival_drive": 3}
         },
         {
           "text": "Negotiate to merge both groups under my leadership",
-          "weights": {"leadership": 8, "independence": 5, "aggression": 4, "cooperation": 6, "decision_making": 8, "risk_taking": 6, "adaptability": 8, "resilience": 6, "strategic_thinking": 9, "survival_drive": 6}
+          "traits": {"leadership": 5, "independence": 3, "aggression": 3, "cooperation": 3, "decision_making": 4, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 5, "survival_drive": 3}
         },
         {
           "text": "Take a small team with me to minimize disruption to both groups",
-          "weights": {"leadership": 7, "independence": 6, "aggression": 4, "cooperation": 7, "decision_making": 7, "risk_taking": 6, "adaptability": 7, "resilience": 6, "strategic_thinking": 8, "survival_drive": 6}
+          "traits": {"leadership": 4, "independence": 3, "aggression": 2, "cooperation": 4, "decision_making": 4, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
+        },
+        {
+          "text": "Help them remotely while staying with my current group",
+          "traits": {"leadership": 3, "independence": 3, "aggression": 2, "cooperation": 4, "decision_making": 3, "risk_taking": 2, "adaptability": 3, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         }
       ]
     },
     {
-      "id": 19,
-      "text": "Your community has thrived for two years, but younger members want to take more risks to expand faster while elders prefer caution.",
-      "options": [
+      "question": "Your community has thrived for two years, but younger members want to take more risks to expand faster while elders prefer caution.",
+      "answers": [
         {
           "text": "Support gradual expansion with careful risk management",
-          "weights": {"leadership": 7, "independence": 4, "aggression": 4, "cooperation": 7, "decision_making": 8, "risk_taking": 5, "adaptability": 6, "resilience": 7, "strategic_thinking": 9, "survival_drive": 6}
+          "traits": {"leadership": 4, "independence": 2, "aggression": 2, "cooperation": 4, "decision_making": 4, "risk_taking": 3, "adaptability": 3, "resilience": 4, "strategic_thinking": 5, "survival_drive": 3}
         },
         {
-          "text": "Back the youth - stagnation is death in this world",
-          "weights": {"leadership": 6, "independence": 5, "aggression": 6, "cooperation": 5, "decision_making": 6, "risk_taking": 8, "adaptability": 8, "resilience": 6, "strategic_thinking": 6, "survival_drive": 7}
+          "text": "Back the youth because stagnation is death in this world",
+          "traits": {"leadership": 3, "independence": 3, "aggression": 3, "cooperation": 3, "decision_making": 3, "risk_taking": 5, "adaptability": 4, "resilience": 3, "strategic_thinking": 3, "survival_drive": 4}
         },
         {
-          "text": "Side with the elders - we've survived this long by being careful",
-          "weights": {"leadership": 5, "independence": 4, "aggression": 2, "cooperation": 7, "decision_making": 6, "risk_taking": 2, "adaptability": 4, "resilience": 7, "strategic_thinking": 7, "survival_drive": 6}
+          "text": "Side with the elders because we've survived this long by being careful",
+          "traits": {"leadership": 3, "independence": 2, "aggression": 1, "cooperation": 4, "decision_making": 3, "risk_taking": 1, "adaptability": 2, "resilience": 4, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
           "text": "Let each faction pursue their own path and see what works",
-          "weights": {"leadership": 4, "independence": 6, "aggression": 3, "cooperation": 5, "decision_making": 5, "risk_taking": 6, "adaptability": 7, "resilience": 5, "strategic_thinking": 6, "survival_drive": 5}
+          "traits": {"leadership": 2, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 3, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 3, "survival_drive": 3}
+        },
+        {
+          "text": "Create a structured plan that incorporates both perspectives",
+          "traits": {"leadership": 5, "independence": 2, "aggression": 2, "cooperation": 4, "decision_making": 4, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 5, "survival_drive": 3}
         }
       ]
     },
     {
-      "id": 20,
-      "text": "You discover evidence that one of your trusted lieutenants has been planning to overthrow you and take control.",
-      "options": [
+      "question": "You discover evidence that one of your trusted lieutenants has been planning to overthrow you and take control.",
+      "answers": [
         {
           "text": "Confront them immediately and resolve this decisively",
-          "weights": {"leadership": 8, "independence": 5, "aggression": 7, "cooperation": 3, "decision_making": 8, "risk_taking": 7, "adaptability": 5, "resilience": 7, "strategic_thinking": 6, "survival_drive": 7}
+          "traits": {"leadership": 5, "independence": 3, "aggression": 4, "cooperation": 2, "decision_making": 5, "risk_taking": 4, "adaptability": 3, "resilience": 4, "strategic_thinking": 3, "survival_drive": 4}
         },
         {
           "text": "Gather more evidence and build a case before acting",
-          "weights": {"leadership": 7, "independence": 5, "aggression": 4, "cooperation": 5, "decision_making": 7, "risk_taking": 4, "adaptability": 6, "resilience": 6, "strategic_thinking": 9, "survival_drive": 6}
+          "traits": {"leadership": 4, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 4, "risk_taking": 2, "adaptability": 3, "resilience": 3, "strategic_thinking": 5, "survival_drive": 3}
         },
         {
           "text": "Test their loyalty with a fake crisis to confirm their intentions",
-          "weights": {"leadership": 7, "independence": 5, "aggression": 5, "cooperation": 4, "decision_making": 7, "risk_taking": 6, "adaptability": 7, "resilience": 6, "strategic_thinking": 8, "survival_drive": 6}
+          "traits": {"leadership": 4, "independence": 3, "aggression": 3, "cooperation": 2, "decision_making": 4, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 5, "survival_drive": 3}
         },
         {
           "text": "Step down gracefully and avoid a destructive power struggle",
-          "weights": {"leadership": 3, "independence": 6, "aggression": 2, "cooperation": 8, "decision_making": 4, "risk_taking": 5, "adaptability": 7, "resilience": 5, "strategic_thinking": 5, "survival_drive": 4}
+          "traits": {"leadership": 2, "independence": 3, "aggression": 1, "cooperation": 5, "decision_making": 2, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 3, "survival_drive": 2}
+        },
+        {
+          "text": "Quietly reassign them away from critical positions",
+          "traits": {"leadership": 4, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 4, "risk_taking": 2, "adaptability": 4, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         }
       ]
     },
     {
-      "id": 21,
-      "text": "A natural disaster destroys half your settlement. People are panicking and looking to you for answers you don't have.",
-      "options": [
+      "question": "A natural disaster destroys half your settlement. People are panicking and looking to you for answers you don't have.",
+      "answers": [
         {
           "text": "Project confidence and start immediate damage control efforts",
-          "weights": {"leadership": 9, "independence": 5, "aggression": 5, "cooperation": 7, "decision_making": 8, "risk_taking": 6, "adaptability": 8, "resilience": 8, "strategic_thinking": 7, "survival_drive": 7}
+          "traits": {"leadership": 5, "independence": 3, "aggression": 3, "cooperation": 4, "decision_making": 4, "risk_taking": 3, "adaptability": 4, "resilience": 5, "strategic_thinking": 4, "survival_drive": 4}
         },
         {
           "text": "Admit uncertainty but rally everyone to work together on solutions",
-          "weights": {"leadership": 6, "independence": 4, "aggression": 3, "cooperation": 8, "decision_making": 6, "risk_taking": 5, "adaptability": 7, "resilience": 6, "strategic_thinking": 6, "survival_drive": 6}
+          "traits": {"leadership": 3, "independence": 2, "aggression": 2, "cooperation": 5, "decision_making": 3, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 3, "survival_drive": 3}
         },
         {
           "text": "Focus on saving what can be saved and preparing to relocate",
-          "weights": {"leadership": 6, "independence": 6, "aggression": 4, "cooperation": 6, "decision_making": 7, "risk_taking": 5, "adaptability": 8, "resilience": 7, "strategic_thinking": 7, "survival_drive": 7}
+          "traits": {"leadership": 3, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 4, "risk_taking": 3, "adaptability": 5, "resilience": 4, "strategic_thinking": 4, "survival_drive": 4}
         },
         {
           "text": "Let others take charge while I process what just happened",
-          "weights": {"leadership": 2, "independence": 5, "aggression": 2, "cooperation": 5, "decision_making": 3, "risk_taking": 3, "adaptability": 5, "resilience": 3, "strategic_thinking": 3, "survival_drive": 3}
+          "traits": {"leadership": 1, "independence": 3, "aggression": 1, "cooperation": 3, "decision_making": 2, "risk_taking": 2, "adaptability": 3, "resilience": 2, "strategic_thinking": 2, "survival_drive": 2}
+        },
+        {
+          "text": "Organize teams to assess damage and prioritize recovery efforts",
+          "traits": {"leadership": 4, "independence": 2, "aggression": 2, "cooperation": 4, "decision_making": 4, "risk_taking": 3, "adaptability": 4, "resilience": 4, "strategic_thinking": 5, "survival_drive": 4}
         }
       ]
     },
     {
-      "id": 22,
-      "text": "Your settlement encounters a group of peaceful but primitive survivors who live sustainably but lack modern knowledge.",
-      "options": [
+      "question": "Your settlement encounters a group of peaceful but primitive survivors who live sustainably but lack modern knowledge.",
+      "answers": [
         {
           "text": "Share our knowledge to help them advance while learning their techniques",
-          "weights": {"leadership": 7, "independence": 4, "aggression": 2, "cooperation": 9, "decision_making": 6, "risk_taking": 4, "adaptability": 8, "resilience": 6, "strategic_thinking": 7, "survival_drive": 5}
+          "traits": {"leadership": 4, "independence": 2, "aggression": 1, "cooperation": 5, "decision_making": 3, "risk_taking": 2, "adaptability": 4, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
           "text": "Establish trade relationships that benefit both communities",
-          "weights": {"leadership": 6, "independence": 5, "aggression": 3, "cooperation": 8, "decision_making": 7, "risk_taking": 4, "adaptability": 7, "resilience": 6, "strategic_thinking": 8, "survival_drive": 6}
+          "traits": {"leadership": 3, "independence": 3, "aggression": 2, "cooperation": 4, "decision_making": 4, "risk_taking": 2, "adaptability": 4, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
           "text": "Absorb them into our community for mutual benefit",
-          "weights": {"leadership": 7, "independence": 4, "aggression": 4, "cooperation": 7, "decision_making": 6, "risk_taking": 5, "adaptability": 6, "resilience": 6, "strategic_thinking": 6, "survival_drive": 6}
+          "traits": {"leadership": 4, "independence": 2, "aggression": 2, "cooperation": 4, "decision_making": 3, "risk_taking": 3, "adaptability": 3, "resilience": 3, "strategic_thinking": 3, "survival_drive": 3}
         },
         {
-          "text": "Keep our distance - different communities should stay separate",
-          "weights": {"leadership": 4, "independence": 7, "aggression": 3, "cooperation": 3, "decision_making": 5, "risk_taking": 3, "adaptability": 4, "resilience": 6, "strategic_thinking": 5, "survival_drive": 5}
+          "text": "Keep our distance because different communities should stay separate",
+          "traits": {"leadership": 2, "independence": 4, "aggression": 2, "cooperation": 2, "decision_making": 3, "risk_taking": 2, "adaptability": 2, "resilience": 3, "strategic_thinking": 3, "survival_drive": 3}
+        },
+        {
+          "text": "Study their methods before deciding on long-term interaction",
+          "traits": {"leadership": 3, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 4, "risk_taking": 2, "adaptability": 4, "resilience": 3, "strategic_thinking": 5, "survival_drive": 3}
         }
       ]
     },
     {
-      "id": 23,
-      "text": "After three years of leadership, you're exhausted and considering stepping down. What's your approach?",
-      "options": [
+      "question": "After three years of leadership, you're exhausted and considering stepping down. What's your approach?",
+      "answers": [
         {
           "text": "Train a successor thoroughly before transferring power",
-          "weights": {"leadership": 8, "independence": 4, "aggression": 2, "cooperation": 8, "decision_making": 7, "risk_taking": 4, "adaptability": 6, "resilience": 6, "strategic_thinking": 8, "survival_drive": 5}
+          "traits": {"leadership": 4, "independence": 2, "aggression": 1, "cooperation": 5, "decision_making": 4, "risk_taking": 2, "adaptability": 3, "resilience": 3, "strategic_thinking": 5, "survival_drive": 3}
         },
         {
           "text": "Take a sabbatical but maintain ultimate authority",
-          "weights": {"leadership": 6, "independence": 5, "aggression": 3, "cooperation": 6, "decision_making": 5, "risk_taking": 4, "adaptability": 6, "resilience": 5, "strategic_thinking": 6, "survival_drive": 5}
+          "traits": {"leadership": 3, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 3, "risk_taking": 2, "adaptability": 3, "resilience": 3, "strategic_thinking": 3, "survival_drive": 3}
         },
         {
           "text": "Step down completely and become a regular community member",
-          "weights": {"leadership": 4, "independence": 6, "aggression": 2, "cooperation": 7, "decision_making": 5, "risk_taking": 5, "adaptability": 7, "resilience": 5, "strategic_thinking": 4, "survival_drive": 4}
+          "traits": {"leadership": 2, "independence": 3, "aggression": 1, "cooperation": 4, "decision_making": 3, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 2, "survival_drive": 2}
         },
         {
-          "text": "Push through the exhaustion - the community needs consistent leadership",
-          "weights": {"leadership": 8, "independence": 4, "aggression": 4, "cooperation": 6, "decision_making": 6, "risk_taking": 3, "adaptability": 4, "resilience": 8, "strategic_thinking": 6, "survival_drive": 7}
+          "text": "Push through the exhaustion because the community needs consistent leadership",
+          "traits": {"leadership": 4, "independence": 2, "aggression": 2, "cooperation": 3, "decision_making": 3, "risk_taking": 2, "adaptability": 2, "resilience": 5, "strategic_thinking": 3, "survival_drive": 4}
+        },
+        {
+          "text": "Create a leadership council to share the burden",
+          "traits": {"leadership": 4, "independence": 2, "aggression": 2, "cooperation": 4, "decision_making": 4, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         }
       ]
     },
     {
-      "id": 24,
-      "text": "Five years post-apocalypse, your community must choose between isolationist safety or engaging with the rebuilding world.",
-      "options": [
+      "question": "Five years post-apocalypse, your community must choose between isolationist safety or engaging with the rebuilding world.",
+      "answers": [
         {
           "text": "Lead the transition to active engagement with other survivors",
-          "weights": {"leadership": 8, "independence": 4, "aggression": 4, "cooperation": 8, "decision_making": 7, "risk_taking": 6, "adaptability": 8, "resilience": 6, "strategic_thinking": 7, "survival_drive": 6}
+          "traits": {"leadership": 5, "independence": 2, "aggression": 2, "cooperation": 5, "decision_making": 4, "risk_taking": 4, "adaptability": 5, "resilience": 3, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
           "text": "Maintain isolation while carefully monitoring outside developments",
-          "weights": {"leadership": 6, "independence": 7, "aggression": 3, "cooperation": 4, "decision_making": 6, "risk_taking": 3, "adaptability": 5, "resilience": 7, "strategic_thinking": 7, "survival_drive": 6}
+          "traits": {"leadership": 3, "independence": 4, "aggression": 2, "cooperation": 2, "decision_making": 3, "risk_taking": 2, "adaptability": 3, "resilience": 4, "strategic_thinking": 4, "survival_drive": 3}
         },
         {
           "text": "Let the community vote and support whatever they choose",
-          "weights": {"leadership": 5, "independence": 4, "aggression": 2, "cooperation": 8, "decision_making": 5, "risk_taking": 4, "adaptability": 6, "resilience": 5, "strategic_thinking": 5, "survival_drive": 5}
+          "traits": {"leadership": 3, "independence": 2, "aggression": 1, "cooperation": 5, "decision_making": 3, "risk_taking": 2, "adaptability": 3, "resilience": 3, "strategic_thinking": 3, "survival_drive": 3}
         },
         {
-          "text": "Split the community - let those who want engagement leave peacefully",
-          "weights": {"leadership": 5, "independence": 6, "aggression": 3, "cooperation": 6, "decision_making": 6, "risk_taking": 5, "adaptability": 7, "resilience": 6, "strategic_thinking": 6, "survival_drive": 5}
+          "text": "Split the community and let those who want engagement leave peacefully",
+          "traits": {"leadership": 3, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 3, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 3, "survival_drive": 3}
+        },
+        {
+          "text": "Gradually test the waters with limited outside contact first",
+          "traits": {"leadership": 4, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 4, "risk_taking": 3, "adaptability": 4, "resilience": 3, "strategic_thinking": 5, "survival_drive": 3}
         }
       ]
     },
     {
-      "id": 25,
-      "text": "Looking back on your survival journey, what do you believe was your most important contribution?",
-      "options": [
+      "question": "Looking back on your survival journey, what do you believe was your most important contribution?",
+      "answers": [
         {
           "text": "Making the hard decisions that others couldn't or wouldn't make",
-          "weights": {"leadership": 9, "independence": 6, "aggression": 6, "cooperation": 5, "decision_making": 9, "risk_taking": 7, "adaptability": 6, "resilience": 8, "strategic_thinking": 7, "survival_drive": 7}
+          "traits": {"leadership": 5, "independence": 3, "aggression": 3, "cooperation": 3, "decision_making": 5, "risk_taking": 4, "adaptability": 3, "resilience": 5, "strategic_thinking": 4, "survival_drive": 4}
         },
         {
           "text": "Building cooperation and unity among diverse survivors",
-          "weights": {"leadership": 7, "independence": 3, "aggression": 2, "cooperation": 9, "decision_making": 6, "risk_taking": 4, "adaptability": 7, "resilience": 6, "strategic_thinking": 6, "survival_drive": 5}
+          "traits": {"leadership": 4, "independence": 2, "aggression": 1, "cooperation": 5, "decision_making": 3, "risk_taking": 2, "adaptability": 4, "resilience": 3, "strategic_thinking": 3, "survival_drive": 3}
         },
         {
           "text": "Adapting quickly to changing threats and opportunities",
-          "weights": {"leadership": 6, "independence": 6, "aggression": 4, "cooperation": 6, "decision_making": 6, "risk_taking": 7, "adaptability": 9, "resilience": 7, "strategic_thinking": 7, "survival_drive": 7}
+          "traits": {"leadership": 3, "independence": 3, "aggression": 2, "cooperation": 3, "decision_making": 3, "risk_taking": 4, "adaptability": 5, "resilience": 4, "strategic_thinking": 4, "survival_drive": 4}
         },
         {
           "text": "Never giving up, no matter how impossible things seemed",
-          "weights": {"leadership": 6, "independence": 7, "aggression": 5, "cooperation": 5, "decision_making": 6, "risk_taking": 6, "adaptability": 6, "resilience": 9, "strategic_thinking": 5, "survival_drive": 9}
+          "traits": {"leadership": 3, "independence": 4, "aggression": 3, "cooperation": 3, "decision_making": 3, "risk_taking": 3, "adaptability": 3, "resilience": 5, "strategic_thinking": 3, "survival_drive": 5}
+        },
+        {
+          "text": "Creating systems and plans that outlasted individual crises",
+          "traits": {"leadership": 4, "independence": 3, "aggression": 2, "cooperation": 4, "decision_making": 4, "risk_taking": 2, "adaptability": 4, "resilience": 4, "strategic_thinking": 5, "survival_drive": 3}
         }
       ]
     }
   ],
-  "results": [
-    {
-      "id": "supreme_leader",
+  "results": {
+    "supreme_leader": {
       "title": "Supreme Leader",
-      "shortDescription": "You were born to lead in chaos. Your decisive leadership, strategic mind, and willingness to make hard choices have built thriving communities from the ashes of civilization.",
-      "extendedDescription": [
-        "When civilization collapsed, you didn't just survive - you became the architect of humanity's future. Your natural leadership abilities, combined with strategic thinking and decisive action, have made you the kind of leader that people follow not just out of necessity, but out of genuine respect and trust. You understand that leadership in the apocalypse isn't about popularity - it's about making the choices that keep people alive.",
-        "Your approach to survival is fundamentally about building something better from the ruins. You think in terms of long-term sustainability, community resilience, and social structures that can withstand both external threats and internal conflicts. Your ability to balance immediate survival needs with future planning has created communities that don't just endure, but thrive.",
-        "What sets you apart is your willingness to bear the psychological burden of leadership. You make the hard decisions that others can't handle emotionally, whether that's sacrificing resources for the greater good or determining who gets limited medical supplies. Your moral clarity and strategic vision provide the foundation that allows communities to maintain their humanity while adapting to harsh realities.",
-        "Your legacy will be the functioning societies you've built that prove human civilization can not only survive apocalyptic events but emerge stronger and more resilient. Your leadership style has created models for governance, resource management, and community building that will influence how humanity rebuilds for generations to come."
-      ]
+      "description": "You were born to lead in chaos. Your decisive leadership, strategic mind, and willingness to make hard choices have built thriving communities from the ashes of civilization.",
+      "extended": "When civilization collapsed, you didn't just survive - you became the architect of humanity's future. Your natural leadership abilities, combined with strategic thinking and decisive action, have made you the kind of leader that people follow not just out of necessity, but out of genuine respect and trust. You understand that leadership in the apocalypse isn't about popularity - it's about making the choices that keep people alive.\n\nYour approach to survival is fundamentally about building something better from the ruins. You think in terms of long-term sustainability, community resilience, and social structures that can withstand both external threats and internal conflicts. Your ability to balance immediate survival needs with future planning has created communities that don't just endure, but thrive.\n\nWhat sets you apart is your willingness to bear the psychological burden of leadership. You make the hard decisions that others can't handle emotionally, whether that's sacrificing resources for the greater good or determining who gets limited medical supplies. Your moral clarity and strategic vision provide the foundation that allows communities to maintain their humanity while adapting to harsh realities.\n\nYour legacy will be the functioning societies you've built that prove human civilization can not only survive apocalyptic events but emerge stronger and more resilient. Your leadership style has created models for governance, resource management, and community building that will influence how humanity rebuilds for generations to come."
     },
-    {
-      "id": "war_chief",
+    "war_chief": {
       "title": "War Chief",
-      "shortDescription": "You lead through strength and aggression. Your warrior mentality and tactical skills make you the leader people follow when violence is the only answer.",
-      "extendedDescription": [
-        "In a world where might makes right, you've become the ultimate warrior-leader. Your aggressive approach to survival, combined with tactical brilliance and fearless decision-making, has made you the kind of leader that communities turn to when diplomacy fails and violence becomes inevitable. You understand that sometimes survival requires becoming more dangerous than the threats you face.",
-        "Your leadership style is built on respect earned through combat effectiveness and proven results under fire. You lead from the front, never asking others to take risks you wouldn't take yourself. Your ability to make split-second tactical decisions and inspire others to fight when retreat isn't an option has turned hopeless situations into victories.",
-        "What makes you formidable is your combination of strategic thinking with willingness to use overwhelming force when necessary. You don't seek conflict, but you're utterly prepared for it when it comes. Your communities are disciplined, well-defended, and feared by raiders and hostile factions who know that attacking your people means facing a leader who treats war as both an art and a necessity.",
-        "Your legacy will be the secure territories you've carved out through superior tactics and the defensive strategies that allow peaceful communities to exist under the protection of your strength. Your warrior leadership provides the security that enables others to focus on rebuilding civilization while you handle the threats that would destroy their efforts."
-      ]
+      "description": "You lead through strength and aggression. Your warrior mentality and tactical skills make you the leader people follow when violence is the only answer.",
+      "extended": "In a world where might makes right, you've become the ultimate warrior-leader. Your aggressive approach to survival, combined with tactical brilliance and fearless decision-making, has made you the kind of leader that communities turn to when diplomacy fails and violence becomes inevitable. You understand that sometimes survival requires becoming more dangerous than the threats you face.\n\nYour leadership style is built on respect earned through combat effectiveness and proven results under fire. You lead from the front, never asking others to take risks you wouldn't take yourself. Your ability to make split-second tactical decisions and inspire others to fight when retreat isn't an option has turned hopeless situations into victories.\n\nWhat makes you formidable is your combination of strategic thinking with willingness to use overwhelming force when necessary. You don't seek conflict, but you're utterly prepared for it when it comes. Your communities are disciplined, well-defended, and feared by raiders and hostile factions who know that attacking your people means facing a leader who treats war as both an art and a necessity.\n\nYour legacy will be the secure territories you've carved out through superior tactics and the defensive strategies that allow peaceful communities to exist under the protection of your strength. Your warrior leadership provides the security that enables others to focus on rebuilding civilization while you handle the threats that would destroy their efforts."
     },
-    {
-      "id": "diplomatic_leader",
-      "title": "Diplomatic Leader",
-      "shortDescription": "You build bridges instead of walls. Your cooperative leadership and negotiation skills create alliances and peaceful solutions in a violent world.",
-      "extendedDescription": [
-        "When others respond to the apocalypse with violence and isolation, you've chosen the harder path of building cooperation and finding peaceful solutions. Your diplomatic skills, emotional intelligence, and talent for creating consensus have made you the kind of leader who can unite diverse groups and find common ground even in the most desperate circumstances.",
-        "Your approach to survival is fundamentally collaborative. You understand that long-term human survival depends not just on defeating immediate threats, but on rebuilding the social bonds and cooperative structures that make civilization possible. Your ability to mediate conflicts, negotiate fair agreements, and inspire trust has prevented countless wars and created lasting alliances.",
-        "What sets you apart is your belief that maintaining humanity is just as important as maintaining life. You've proven that even in the apocalypse, people can choose cooperation over competition, sharing over hoarding, and diplomacy over violence. Your leadership style creates communities that people actually want to live in, not just communities that keep them alive.",
-        "Your legacy will be the networks of allied communities and the diplomatic frameworks you've established that prove human cooperation can survive even the worst disasters. Your peaceful leadership has created models for conflict resolution and alliance building that will be essential as humanity works to rebuild a just and sustainable civilization."
-      ]
+    "diplomatic_leader": {
+      "title": "Diplomatic Leader", 
+      "description": "You build bridges instead of walls. Your cooperative leadership and negotiation skills create alliances and peaceful solutions in a violent world.",
+      "extended": "When others respond to the apocalypse with violence and isolation, you've chosen the harder path of building cooperation and finding peaceful solutions. Your diplomatic skills, emotional intelligence, and talent for creating consensus have made you the kind of leader who can unite diverse groups and find common ground even in the most desperate circumstances.\n\nYour approach to survival is fundamentally collaborative. You understand that long-term human survival depends not just on defeating immediate threats, but on rebuilding the social bonds and cooperative structures that make civilization possible. Your ability to mediate conflicts, negotiate fair agreements, and inspire trust has prevented countless wars and created lasting alliances.\n\nWhat sets you apart is your belief that maintaining humanity is just as important as maintaining life. You've proven that even in the apocalypse, people can choose cooperation over competition, sharing over hoarding, and diplomacy over violence. Your leadership style creates communities that people actually want to live in, not just communities that keep them alive.\n\nYour legacy will be the networks of allied communities and the diplomatic frameworks you've established that prove human cooperation can survive even the worst disasters. Your peaceful leadership has created models for conflict resolution and alliance building that will be essential as humanity works to rebuild a just and sustainable civilization."
     },
-    {
-      "id": "lone_wolf_alpha",
+    "lone_wolf_alpha": {
       "title": "Lone Wolf Alpha",
-      "shortDescription": "You lead when necessary but prefer independence. Your self-reliance and decisive action make you a reluctant but effective leader who values freedom above all.",
-      "extendedDescription": [
-        "You never wanted to be a leader, but the apocalypse has a way of forcing leadership on those who can actually handle it. Your independent nature and self-reliant skills have made you the kind of person others turn to in crisis, even though you'd rather handle things yourself. Your leadership is effective precisely because you don't seek power - you just do what needs to be done.",
-        "Your approach to leadership is pragmatic and results-oriented. You don't care about politics, popularity, or maintaining authority - you care about solving problems and keeping people alive. Your willingness to make unpopular decisions and your ability to function effectively without constant validation has earned you respect from followers who appreciate honest, competent leadership.",
-        "What makes you unique is your balance of leadership capability with personal independence. You can step up and take charge when communities need direction, but you're equally comfortable stepping back and letting others handle things when your particular skills aren't needed. Your flexibility and lack of ego make you the ideal leader for crisis situations.",
-        "Your legacy will be the communities you've guided through impossible situations and then left to function independently. Your leadership style teaches others to be self-reliant while still working together effectively, creating resilient groups that can function with or without strong central authority."
-      ]
+      "description": "You lead when necessary but prefer independence. Your self-reliance and decisive action make you a reluctant but effective leader who values freedom above all.",
+      "extended": "You never wanted to be a leader, but the apocalypse has a way of forcing leadership on those who can actually handle it. Your independent nature and self-reliant skills have made you the kind of person others turn to in crisis, even though you'd rather handle things yourself. Your leadership is effective precisely because you don't seek power - you just do what needs to be done.\n\nYour approach to leadership is pragmatic and results-oriented. You don't care about politics, popularity, or maintaining authority - you care about solving problems and keeping people alive. Your willingness to make unpopular decisions and your ability to function effectively without constant validation has earned you respect from followers who appreciate honest, competent leadership.\n\nWhat makes you unique is your balance of leadership capability with personal independence. You can step up and take charge when communities need direction, but you're equally comfortable stepping back and letting others handle things when your particular skills aren't needed. Your flexibility and lack of ego make you the ideal leader for crisis situations.\n\nYour legacy will be the communities you've guided through impossible situations and then left to function independently. Your leadership style teaches others to be self-reliant while still working together effectively, creating resilient groups that can function with or without strong central authority."
     },
-    {
-      "id": "strategic_mastermind",
+    "strategic_mastermind": {
       "title": "Strategic Mastermind",
-      "shortDescription": "You see the big picture that others miss. Your long-term planning and strategic thinking have built sustainable systems that outlast immediate crises.",
-      "extendedDescription": [
-        "While others react to immediate threats, you're already planning three moves ahead. Your strategic mind and long-term thinking have made you the architect of survival systems that not only handle current challenges but anticipate future problems. Your leadership is built on careful planning, resource management, and systematic approaches to complex survival challenges.",
-        "Your approach to the apocalypse is fundamentally about building sustainable systems rather than just responding to crises. You think in terms of supply chains, defensive strategies, social structures, and resource allocation that can function effectively over years rather than just weeks. Your systematic thinking has prevented countless disasters through proper preparation.",
-        "What sets you apart is your ability to balance immediate survival needs with long-term community building. You understand that true survival requires more than just staying alive today - it requires creating systems that can adapt, grow, and maintain themselves over time. Your strategic frameworks provide the foundation for rebuilding civilization methodically and sustainably.",
-        "Your legacy will be the robust systems and strategic plans you've developed that allow communities to not just survive disasters but thrive despite them. Your strategic leadership has created blueprints for sustainable community development that will guide humanity's reconstruction efforts for generations."
-      ]
+      "description": "You see the big picture that others miss. Your long-term planning and strategic thinking have built sustainable systems that outlast immediate crises.",
+      "extended": "While others react to immediate threats, you're already planning three moves ahead. Your strategic mind and long-term thinking have made you the architect of survival systems that not only handle current challenges but anticipate future problems. Your leadership is built on careful planning, resource management, and systematic approaches to complex survival challenges.\n\nYour approach to the apocalypse is fundamentally about building sustainable systems rather than just responding to crises. You think in terms of supply chains, defensive strategies, social structures, and resource allocation that can function effectively over years rather than just weeks. Your systematic thinking has prevented countless disasters through proper preparation.\n\nWhat sets you apart is your ability to balance immediate survival needs with long-term community building. You understand that true survival requires more than just staying alive today - it requires creating systems that can adapt, grow, and maintain themselves over time. Your strategic frameworks provide the foundation for rebuilding civilization methodically and sustainably.\n\nYour legacy will be the robust systems and strategic plans you've developed that allow communities to not just survive disasters but thrive despite them. Your strategic leadership has created blueprints for sustainable community development that will guide humanity's reconstruction efforts for generations."
     },
-    {
-      "id": "reluctant_follower",
+    "reluctant_follower": {
       "title": "Reluctant Follower",
-      "shortDescription": "You prefer to support good leaders rather than lead yourself. Your cooperative nature and team skills make you valuable support for stronger leadership personalities.",
-      "extendedDescription": [
-        "In a world full of people trying to be the alpha, you've found strength in being an excellent beta. Your ability to recognize good leadership, provide loyal support, and work effectively within team structures has made you invaluable to the leaders who actually know what they're doing. You understand that effective followership is just as important as effective leadership.",
-        "Your approach to survival is collaborative and supportive. You excel at implementing other people's plans, providing honest feedback to leaders, and maintaining group morale during difficult times. Your loyalty and reliability have made you the kind of person that good leaders depend on to turn their visions into reality.",
-        "What makes you valuable is your ego-free approach to survival. You don't need to be in charge to feel important, which allows you to focus on doing what's actually needed rather than what makes you look good. Your willingness to do necessary but unglamorous work has kept many communities functioning smoothly.",
-        "Your legacy will be the successful leaders you've supported and the communities you've helped build through dedicated service. Your followership has enabled others to achieve more than they could have alone, proving that great teams require great supporters as much as great leaders."
-      ]
+      "description": "You prefer to support good leaders rather than lead yourself. Your cooperative nature and team skills make you valuable support for stronger leadership personalities.",
+      "extended": "In a world full of people trying to be the alpha, you've found strength in being an excellent beta. Your ability to recognize good leadership, provide loyal support, and work effectively within team structures has made you invaluable to the leaders who actually know what they're doing. You understand that effective followership is just as important as effective leadership.\n\nYour approach to survival is collaborative and supportive. You excel at implementing other people's plans, providing honest feedback to leaders, and maintaining group morale during difficult times. Your loyalty and reliability have made you the kind of person that good leaders depend on to turn their visions into reality.\n\nWhat makes you valuable is your ego-free approach to survival. You don't need to be in charge to feel important, which allows you to focus on doing what's actually needed rather than what makes you look good. Your willingness to do necessary but unglamorous work has kept many communities functioning smoothly.\n\nYour legacy will be the successful leaders you've supported and the communities you've helped build through dedicated service. Your followership has enabled others to achieve more than they could have alone, proving that great teams require great supporters as much as great leaders."
     },
-    {
-      "id": "survival_pragmatist",
+    "survival_pragmatist": {
       "title": "Survival Pragmatist",
-      "shortDescription": "You do whatever works without getting caught up in ideology. Your flexible approach and practical solutions keep you alive when rigid thinking kills others.",
-      "extendedDescription": [
-        "You've learned that the apocalypse doesn't care about your principles, your preferences, or your comfort zone. Your pragmatic approach to survival means you're willing to adapt your methods, alliances, and strategies based on what actually works rather than what you wish would work. Your flexibility has kept you alive when more rigid survivors have fallen to preventable disasters.",
-        "Your survival strategy is built on evidence-based decision making and practical problem solving. You don't get attached to particular approaches or ideologies - you test what works, abandon what doesn't, and constantly refine your methods based on real results. Your willingness to change course when new information becomes available has prevented you from following failed strategies to their logical conclusion.",
-        "What sets you apart is your ability to learn from both success and failure without letting emotion cloud your judgment. You can work with people you don't like, use methods you'd prefer to avoid, and make alliances that serve your survival needs rather than your personal preferences. Your practical approach to relationships and resources has opened up opportunities that more idealistic survivors miss.",
-        "Your legacy will be the proof that flexible, evidence-based approaches to survival are more effective than rigid adherence to pre-apocalypse values. Your pragmatic methods have created templates for adaptive survival that others can follow when their original plans inevitably fail to match apocalyptic realities."
-      ]
+      "description": "You do whatever works without getting caught up in ideology. Your flexible approach and practical solutions keep you alive when rigid thinking kills others.",
+      "extended": "You've learned that the apocalypse doesn't care about your principles, your preferences, or your comfort zone. Your pragmatic approach to survival means you're willing to adapt your methods, alliances, and strategies based on what actually works rather than what you wish would work. Your flexibility has kept you alive when more rigid survivors have fallen to preventable disasters.\n\nYour survival strategy is built on evidence-based decision making and practical problem solving. You don't get attached to particular approaches or ideologies - you test what works, abandon what doesn't, and constantly refine your methods based on real results. Your willingness to change course when new information becomes available has prevented you from following failed strategies to their logical conclusion.\n\nWhat sets you apart is your ability to learn from both success and failure without letting emotion cloud your judgment. You can work with people you don't like, use methods you'd prefer to avoid, and make alliances that serve your survival needs rather than your personal preferences. Your practical approach to relationships and resources has opened up opportunities that more idealistic survivors miss.\n\nYour legacy will be the proof that flexible, evidence-based approaches to survival are more effective than rigid adherence to pre-apocalypse values. Your pragmatic methods have created templates for adaptive survival that others can follow when their original plans inevitably fail to match apocalyptic realities."
     },
-    {
-      "id": "community_builder",
+    "community_builder": {
       "title": "Community Builder",
-      "shortDescription": "You believe survival depends on human connection. Your focus on cooperation and mutual aid creates strong, supportive communities that thrive through teamwork.",
-      "extendedDescription": [
-        "When others focused on individual survival skills, you focused on the human connections that make survival meaningful and sustainable. Your talent for building trust, fostering cooperation, and creating supportive social structures has made you essential for communities that want to do more than just stay alive - they want to create lives worth living.",
-        "Your approach to the apocalypse is fundamentally about preserving and rebuilding human society. You understand that physical survival is only the first step - true success means maintaining the social bonds, cultural values, and cooperative structures that make humans more than just individual animals fighting for resources.",
-        "What makes you invaluable is your ability to inspire people to work for goals larger than their immediate self-interest. Your communities don't just share resources out of necessity - they genuinely care about each other's wellbeing and work together to create something better than what existed before the disaster.",
-        "Your legacy will be the strong, caring communities you've helped build that prove human compassion and cooperation can not only survive apocalyptic disasters but create something more resilient and humane than what existed before. Your community-building has created models for how society can emerge from disaster stronger and more connected than ever."
-      ]
+      "description": "You believe survival depends on human connection. Your focus on cooperation and mutual aid creates strong, supportive communities that thrive through teamwork.",
+      "extended": "When others focused on individual survival skills, you focused on the human connections that make survival meaningful and sustainable. Your talent for building trust, fostering cooperation, and creating supportive social structures has made you essential for communities that want to do more than just stay alive - they want to create lives worth living.\n\nYour approach to the apocalypse is fundamentally about preserving and rebuilding human society. You understand that physical survival is only the first step - true success means maintaining the social bonds, cultural values, and cooperative structures that make humans more than just individual animals fighting for resources.\n\nWhat makes you invaluable is your ability to inspire people to work for goals larger than their immediate self-interest. Your communities don't just share resources out of necessity - they genuinely care about each other's wellbeing and work together to create something better than what existed before the disaster.\n\nYour legacy will be the strong, caring communities you've helped build that prove human compassion and cooperation can not only survive apocalyptic disasters but create something more resilient and humane than what existed before. Your community-building has created models for how society can emerge from disaster stronger and more connected than ever."
     },
-    {
-      "id": "crisis_responder",
+    "crisis_responder": {
       "title": "Crisis Responder",
-      "shortDescription": "You excel when everything goes wrong. Your ability to stay calm and make good decisions under extreme pressure makes you the person others turn to when disaster strikes.",
-      "extendedDescription": [
-        "While others freeze up or panic when things go sideways, you become more focused and effective. Your ability to maintain clear thinking and decisive action during crisis situations has made you the person communities depend on when disasters hit and immediate action is required to prevent catastrophic losses.",
-        "Your strength lies in emergency response and damage control. You excel at triaging problems, managing resources during shortages, and coordinating responses to immediate threats. Your calm presence and practical problem-solving skills help others function effectively when stress and fear would otherwise paralyze them.",
-        "What sets you apart is your combination of stress tolerance with practical action. You don't just stay calm during emergencies - you actively work to solve problems and minimize damage while helping others manage their own stress and contribute effectively to crisis response efforts.",
-        "Your legacy will be the disasters you've helped communities survive and the emergency response systems you've developed that save lives when normal procedures fail. Your crisis leadership has created frameworks for emergency management that help communities not just survive disasters but recover from them more quickly and completely."
-      ]
+      "description": "You excel when everything goes wrong. Your ability to stay calm and make good decisions under extreme pressure makes you the person others turn to when disaster strikes.",
+      "extended": "While others freeze up or panic when things go sideways, you become more focused and effective. Your ability to maintain clear thinking and decisive action during crisis situations has made you the person communities depend on when disasters hit and immediate action is required to prevent catastrophic losses.\n\nYour strength lies in emergency response and damage control. You excel at triaging problems, managing resources during shortages, and coordinating responses to immediate threats. Your calm presence and practical problem-solving skills help others function effectively when stress and fear would otherwise paralyze them.\n\nWhat sets you apart is your combination of stress tolerance with practical action. You don't just stay calm during emergencies - you actively work to solve problems and minimize damage while helping others manage their own stress and contribute effectively to crisis response efforts.\n\nYour legacy will be the disasters you've helped communities survive and the emergency response systems you've developed that save lives when normal procedures fail. Your crisis leadership has created frameworks for emergency management that help communities not just survive disasters but recover from them more quickly and completely."
     },
-    {
-      "id": "survivor_drifter",
+    "survivor_drifter": {
       "title": "Survivor Drifter",
-      "shortDescription": "You go with the flow and survive through adaptability. Your flexible nature and ability to work with anyone keeps you alive when others get caught up in conflicts.",
-      "extendedDescription": [
-        "You've learned that in the apocalypse, the ability to adapt and go with the flow is often more valuable than rigid principles or strong opinions. Your flexible approach to survival means you can work with different types of leaders, fit into various communities, and adjust your role based on what's needed rather than what you prefer.",
-        "Your survival strategy is built on social adaptability and conflict avoidance. You understand how to read group dynamics, stay out of power struggles, and make yourself useful without threatening anyone's position. Your ability to be a valuable team member without being a disruptive force has kept you welcome in communities that might reject more assertive personalities.",
-        "What keeps you alive is your talent for finding your niche in any group and contributing meaningfully without creating friction. You're the person who fills gaps, supports others' initiatives, and helps maintain group cohesion through your easygoing nature and willingness to do whatever needs doing.",
-        "Your legacy will be the example you've set that survival doesn't require being the strongest, smartest, or most aggressive - sometimes it just requires being adaptable, cooperative, and persistently useful to whatever group you find yourself with."
-      ]
+      "description": "You go with the flow and survive through adaptability. Your flexible nature and ability to work with anyone keeps you alive when others get caught up in conflicts.",
+      "extended": "You've learned that in the apocalypse, the ability to adapt and go with the flow is often more valuable than rigid principles or strong opinions. Your flexible approach to survival means you can work with different types of leaders, fit into various communities, and adjust your role based on what's needed rather than what you prefer.\n\nYour survival strategy is built on social adaptability and conflict avoidance. You understand how to read group dynamics, stay out of power struggles, and make yourself useful without threatening anyone's position. Your ability to be a valuable team member without being a disruptive force has kept you welcome in communities that might reject more assertive personalities.\n\nWhat keeps you alive is your talent for finding your niche in any group and contributing meaningfully without creating friction. You're the person who fills gaps, supports others' initiatives, and helps maintain group cohesion through your easygoing nature and willingness to do whatever needs doing.\n\nYour legacy will be the example you've set that survival doesn't require being the strongest, smartest, or most aggressive - sometimes it just requires being adaptable, cooperative, and persistently useful to whatever group you find yourself with."
     }
-  ]
+  }
 }

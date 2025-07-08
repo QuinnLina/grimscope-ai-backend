@@ -1,1220 +1,708 @@
 {
-  "title": "5 Signs Your Boss Is A Dick",
-  "description": "Confirm what you already know about that corporate psycho",
+  "testId": "boss-dick-test",
+  "title": "Signs Your Boss Is A Dick",
+  "description": "Confirm what you already know about that office nightmare",
+  "traits": {
+    "micromanaging_nightmare": "Controls every tiny detail and can't delegate",
+    "passive_aggressive_master": "Never says what they mean but makes everyone uncomfortable",
+    "narcissistic_leader": "Everything revolves around them and their ego",
+    "blame_shifting_expert": "Nothing is ever their fault, masters of finger pointing",
+    "guilt_tripping_master": "Weaponizes guilt to control and manipulate people",
+    "power_tripping_bully": "Uses position to intimidate and demean others",
+    "two_faced_climber": "Sweet to superiors, terrible to subordinates", 
+    "empty_promise_specialist": "Makes promises they never intend to keep",
+    "drama_queen_boss": "Treats minor issues like catastrophic emergencies",
+    "boundary_stomping_maniac": "No respect for personal time or space",
+    "credit_stealing_parasite": "Takes credit for others' work and ideas",
+    "reasonable_boss": "Actually decent human being trying to do good job"
+  },
   "questions": [
     {
-      "id": 1,
-      "question": "When you ask your boss for feedback on your work, what's their typical response?",
-      "choices": [
+      "question": "You're 10 minutes late because of a car accident. Your boss's reaction?",
+      "answers": [
         {
-          "text": "They give constructive criticism and actually help you improve",
-          "traits": {
-            "reasonable_boss": 3,
-            "supportive_leader": 2,
-            "maybe_you_suck": 1
-          }
+          "text": "They ask if you're okay and tell you not to worry about it",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They nitpick every tiny detail while ignoring the bigger picture",
-          "traits": {
-            "micromanaging_nightmare": 3,
-            "control_freak": 2,
-            "impossible_standards": 2
-          }
+          "text": "They lecture you about time management like accidents are planned",
+          "traits": {"micromanaging_nightmare": 1}
         },
         {
-          "text": "They say 'fine' and walk away, leaving you more confused than before",
-          "traits": {
-            "communication_disaster": 3,
-            "passive_aggressive_master": 2,
-            "emotionally_unavailable": 2
-          }
+          "text": "They give you the silent treatment for the rest of the day",
+          "traits": {"passive_aggressive_master": 1}
         },
         {
-          "text": "They turn it into a lecture about how much harder things were back in their day",
-          "traits": {
-            "boomer_boss_from_hell": 3,
-            "ego_driven_maniac": 2,
-            "out_of_touch_dinosaur": 2
-          }
+          "text": "They make you feel guilty about how your accident inconvenienced them",
+          "traits": {"narcissistic_leader": 1}
         },
         {
-          "text": "They immediately get defensive and start listing all the things you do wrong",
-          "traits": {
-            "narcissistic_leader": 3,
-            "blame_shifting_expert": 2,
-            "toxic_communicator": 2
-          }
+          "text": "They publicly call you out in front of everyone as an example",
+          "traits": {"blame_shifting_expert": 1}
         }
       ]
     },
     {
-      "id": 2,
-      "question": "How does your boss handle it when you make a mistake?",
-      "choices": [
+      "question": "You overhear your boss talking trash about you to another manager. Next day they:",
+      "answers": [
         {
-          "text": "They help you figure out what went wrong and how to fix it going forward",
-          "traits": {
-            "reasonable_boss": 3,
-            "supportive_leader": 2,
-            "maybe_you_suck": 1
-          }
+          "text": "Act normal because they weren't actually trash talking",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They make you feel like you've personally ruined their entire day/week/life",
-          "traits": {
-            "drama_queen_boss": 3,
-            "emotional_manipulator": 2,
-            "toxic_communicator": 2
-          }
+          "text": "Act extra nice to you like nothing happened",
+          "traits": {"guilt_tripping_master": 1}
         },
         {
-          "text": "They bring it up in meetings, emails, and casual conversations for weeks",
-          "traits": {
-            "grudge_holding_psycho": 3,
-            "public_humiliation_specialist": 2,
-            "vindictive_asshole": 2
-          }
+          "text": "Start nitpicking everything you do",
+          "traits": {"power_tripping_bully": 1}
         },
         {
-          "text": "They act like it never happened but somehow you end up getting worse assignments",
-          "traits": {
-            "passive_aggressive_master": 3,
-            "sneaky_saboteur": 2,
-            "emotionally_unavailable": 2
-          }
+          "text": "Act cold and distant without explanation",
+          "traits": {"two_faced_climber": 1}
         },
         {
-          "text": "They blame you for things that clearly weren't your fault or responsibility",
-          "traits": {
-            "blame_shifting_expert": 3,
-            "gaslighting_genius": 2,
-            "narcissistic_leader": 2
-          }
+          "text": "Get defensive and blame you for 'eavesdropping'",
+          "traits": {"empty_promise_specialist": 1}
         }
       ]
     },
     {
-      "id": 3,
-      "question": "What's your boss's approach to work-life balance?",
-      "choices": [
+      "question": "It's 4:58 PM Friday. Your boss dumps a 3-hour project on you saying it's 'urgent.' You:",
+      "answers": [
         {
-          "text": "They respect boundaries and rarely contact you outside work hours",
-          "traits": {
-            "reasonable_boss": 3,
-            "supportive_leader": 2
-          }
+          "text": "They actually planned ahead so this never happens",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They text you at 11 PM about something that could wait until Monday",
-          "traits": {
-            "boundary_stomping_maniac": 3,
-            "control_freak": 2,
-            "workaholic_enabler": 2
-          }
+          "text": "Stay late and they disappear immediately",
+          "traits": {"drama_queen_boss": 1}
         },
         {
-          "text": "They expect you to be available 24/7 but disappear when you need them",
-          "traits": {
-            "selfish_hypocrite": 3,
-            "double_standard_king": 2,
-            "narcissistic_leader": 2
-          }
+          "text": "Question the timing and they act personally offended",
+          "traits": {"boundary_stomping_maniac": 1}
         },
         {
-          "text": "They guilt trip you for using your actual vacation days that you earned",
-          "traits": {
-            "guilt_tripping_master": 3,
-            "workaholic_enabler": 2,
-            "emotional_manipulator": 2
-          }
+          "text": "Try to negotiate and they make you feel guilty about work-life balance",
+          "traits": {"credit_stealing_parasite": 1}
         },
         {
-          "text": "They schedule 'urgent' meetings during your lunch break or right at 5 PM",
-          "traits": {
-            "time_terrorist": 3,
-            "boundary_stomping_maniac": 2,
-            "inconsiderate_prick": 2
-          }
+          "text": "Point out poor planning and they blame you for not anticipating their needs",
+          "traits": {"micromanaging_nightmare": 1}
         }
       ]
     },
     {
-      "id": 4,
-      "question": "How does your boss react when you bring up workplace concerns or suggestions?",
-      "choices": [
+      "question": "You catch a coworker stealing office supplies. You report it and your boss:",
+      "answers": [
         {
-          "text": "They listen thoughtfully and actually consider implementing good ideas",
-          "traits": {
-            "reasonable_boss": 3,
-            "supportive_leader": 2
-          }
+          "text": "Handles it professionally and thanks you for bringing it up",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They immediately shut you down and act like you're being 'difficult'",
-          "traits": {
-            "authoritarian_dictator": 3,
-            "ego_driven_maniac": 2,
-            "toxic_communicator": 2
-          }
+          "text": "Says they'll handle it but nothing ever happens",
+          "traits": {"passive_aggressive_master": 1}
         },
         {
-          "text": "They nod and say they'll 'look into it' but nothing ever changes",
-          "traits": {
-            "empty_promise_specialist": 3,
-            "passive_aggressive_master": 2,
-            "change_resistant_fossil": 2
-          }
+          "text": "Treats you like the problem for being a 'snitch'",
+          "traits": {"narcissistic_leader": 1}
         },
         {
-          "text": "They take your idea, present it as their own, and get all the credit",
-          "traits": {
-            "idea_stealing_parasite": 3,
-            "credit_hogging_narcissist": 2,
-            "manipulative_snake": 2
-          }
+          "text": "Accuses you of not being a team player",
+          "traits": {"blame_shifting_expert": 1}
         },
         {
-          "text": "They get personally offended like you just insulted their mother",
-          "traits": {
-            "thin_skinned_baby": 3,
-            "ego_driven_maniac": 2,
-            "emotionally_unstable": 2
-          }
+          "text": "Gets angry at you for creating 'drama'",
+          "traits": {"guilt_tripping_master": 1}
         }
       ]
     },
     {
-      "id": 5,
-      "question": "What's your boss's communication style during team meetings?",
-      "choices": [
+      "question": "The office printer breaks during a major deadline. Your boss:",
+      "answers": [
         {
-          "text": "They facilitate discussion and make sure everyone's voice is heard",
-          "traits": {
-            "reasonable_boss": 3,
-            "supportive_leader": 2
-          }
+          "text": "Calmly figures out a solution and keeps everyone focused",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They dominate every conversation and cut people off mid-sentence",
-          "traits": {
-            "attention_hogging_narcissist": 3,
-            "conversation_hijacker": 2,
-            "ego_driven_maniac": 2
-          }
+          "text": "Has a complete meltdown like it's the end of civilization",
+          "traits": {"power_tripping_bully": 1}
         },
         {
-          "text": "They single out individuals to embarrass them in front of the group",
-          "traits": {
-            "public_humiliation_specialist": 3,
-            "bullying_boss": 2,
-            "sadistic_pleasure_seeker": 2
-          }
+          "text": "Blames IT even though they warned about the old printer months ago",
+          "traits": {"two_faced_climber": 1}
         },
         {
-          "text": "They barely participate but somehow everything becomes about them",
-          "traits": {
-            "narcissistic_leader": 3,
-            "attention_vampire": 2,
-            "drama_queen_boss": 2
-          }
+          "text": "Micromanages everyone trying to fix it and makes it worse",
+          "traits": {"empty_promise_specialist": 1}
         },
         {
-          "text": "They ask for input but their body language screams 'hurry up and agree with me'",
-          "traits": {
-            "fake_democracy_advocate": 3,
-            "authoritarian_dictator": 2,
-            "passive_aggressive_master": 2
-          }
+          "text": "Disappears and leaves everyone to figure it out",
+          "traits": {"drama_queen_boss": 1}
         }
       ]
     },
     {
-      "id": 6,
-      "question": "How does your boss handle their own mistakes or shortcomings?",
-      "choices": [
+      "question": "You email your boss a detailed project update. Their response:",
+      "answers": [
         {
-          "text": "They own up to them and work to make things right",
-          "traits": {
-            "reasonable_boss": 3,
-            "accountable_leader": 2
-          }
+          "text": "They read it thoroughly and give helpful feedback",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They blame literally everyone else except themselves",
-          "traits": {
-            "blame_shifting_expert": 3,
-            "accountability_avoider": 2,
-            "narcissistic_leader": 2
-          }
+          "text": "They reply 'K' after you spent an hour writing it",
+          "traits": {"boundary_stomping_maniac": 1}
         },
         {
-          "text": "They pretend they never happened and gaslight you if you bring them up",
-          "traits": {
-            "gaslighting_genius": 3,
-            "reality_distorting_wizard": 2,
-            "manipulative_snake": 2
-          }
+          "text": "They nitpick the font and formatting instead of the content",
+          "traits": {"credit_stealing_parasite": 1}
         },
         {
-          "text": "They get angry and defensive when anyone even hints at their imperfection",
-          "traits": {
-            "fragile_ego_warrior": 3,
-            "thin_skinned_baby": 2,
-            "emotionally_unstable": 2
-          }
+          "text": "They forward it to their boss claiming it as their summary",
+          "traits": {"micromanaging_nightmare": 1}
         },
         {
-          "text": "They somehow turn their mistake into a teaching moment about your flaws",
-          "traits": {
-            "deflection_master": 3,
-            "narcissistic_leader": 2,
-            "manipulative_snake": 2
-          }
+          "text": "They respond with their own irrelevant story about a similar project",
+          "traits": {"passive_aggressive_master": 1}
         }
       ]
     },
     {
-      "id": 7,
-      "question": "What's your boss's attitude toward your professional development?",
-      "choices": [
+      "question": "Your department wins a company award. Your boss:",
+      "answers": [
         {
-          "text": "They actively support your growth and help you advance your career",
-          "traits": {
-            "reasonable_boss": 3,
-            "supportive_leader": 3,
-            "career_champion": 2
-          }
+          "text": "Makes sure the whole team gets recognized publicly",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They seem threatened by your potential and subtly sabotage your progress",
-          "traits": {
-            "insecure_saboteur": 3,
-            "career_blocking_demon": 2,
-            "threatened_tyrant": 2
-          }
+          "text": "Accepts the award and barely mentions the team",
+          "traits": {"narcissistic_leader": 1}
         },
         {
-          "text": "They promise opportunities but somehow they never materialize",
-          "traits": {
-            "empty_promise_specialist": 3,
-            "carrot_dangling_expert": 2,
-            "false_hope_peddler": 2
-          }
+          "text": "Acts like their leadership made it possible",
+          "traits": {"blame_shifting_expert": 1}
         },
         {
-          "text": "They act like investing in your growth is a personal favor to you",
-          "traits": {
-            "savior_complex_sufferer": 3,
-            "condescending_overlord": 2,
-            "ego_driven_maniac": 2
-          }
+          "text": "Downplays it because they weren't personally involved",
+          "traits": {"guilt_tripping_master": 1}
         },
         {
-          "text": "They pile on more work instead of actual development opportunities",
-          "traits": {
-            "exploitation_enthusiast": 3,
-            "growth_opportunity_faker": 2,
-            "workload_dumper": 2
-          }
+          "text": "Immediately starts planning how to top it next time",
+          "traits": {"power_tripping_bully": 1}
         }
       ]
     },
     {
-      "id": 8,
-      "question": "How does your boss treat people they consider 'beneath' them in the hierarchy?",
-      "choices": [
+      "question": "You request time off for your sister's wedding 6 weeks in advance. Your boss:",
+      "answers": [
         {
-          "text": "They treat everyone with respect regardless of their position",
-          "traits": {
-            "reasonable_boss": 3,
-            "egalitarian_leader": 2,
-            "decent_human": 2
-          }
+          "text": "Approves it immediately and asks you to have fun",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They're sweet to higher-ups but dismissive to everyone else",
-          "traits": {
-            "two_faced_climber": 3,
-            "hierarchy_worshipper": 2,
-            "kiss_up_kick_down_specialist": 2
-          }
+          "text": "Sighs dramatically and mentions how busy that week will be",
+          "traits": {"two_faced_climber": 1}
         },
         {
-          "text": "They barely acknowledge support staff and treat them like furniture",
-          "traits": {
-            "classist_snob": 3,
-            "empathy_deficient_robot": 2,
-            "basic_decency_lacking": 2
-          }
+          "text": "Approves it but makes passive-aggressive comments about dedication",
+          "traits": {"empty_promise_specialist": 1}
         },
         {
-          "text": "They use their position to make others feel small and powerless",
-          "traits": {
-            "power_tripping_bully": 3,
-            "insecurity_compensator": 2,
-            "sadistic_pleasure_seeker": 2
-          }
+          "text": "Acts personally inconvenienced by your family obligations",
+          "traits": {"drama_queen_boss": 1}
         },
         {
-          "text": "They expect others to be grateful for basic human treatment",
-          "traits": {
-            "entitled_overlord": 3,
-            "savior_complex_sufferer": 2,
-            "condescending_prick": 2
-          }
+          "text": "Questions whether you really need the whole day off",
+          "traits": {"boundary_stomping_maniac": 1}
         }
       ]
     },
     {
-      "id": 9,
-      "question": "What happens when your boss is under pressure or stress?",
-      "choices": [
+      "question": "During your performance review, your boss:",
+      "answers": [
         {
-          "text": "They handle it professionally and don't take it out on the team",
-          "traits": {
-            "reasonable_boss": 3,
-            "emotionally_mature": 2,
-            "stress_handler": 2
-          }
+          "text": "Gives balanced feedback and discusses your career growth",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They become a raging monster and everyone walks on eggshells",
-          "traits": {
-            "stress_monster": 3,
-            "emotional_vampire": 2,
-            "workplace_terrorist": 2
-          }
+          "text": "Spends most of the time talking about their own achievements",
+          "traits": {"credit_stealing_parasite": 1}
         },
         {
-          "text": "They disappear and leave everyone else to deal with the chaos",
-          "traits": {
-            "abandoning_captain": 3,
-            "responsibility_dodger": 2,
-            "crisis_avoider": 2
-          }
+          "text": "Brings up every minor mistake from the past year",
+          "traits": {"micromanaging_nightmare": 1}
         },
         {
-          "text": "They panic and make everything worse with their frantic micromanaging",
-          "traits": {
-            "panic_inducing_leader": 3,
-            "crisis_amplifier": 2,
-            "anxiety_spreader": 2
-          }
+          "text": "Makes vague promises about future opportunities",
+          "traits": {"passive_aggressive_master": 1}
         },
         {
-          "text": "They blame the team for the pressure they're under",
-          "traits": {
-            "blame_shifting_expert": 3,
-            "accountability_avoider": 2,
-            "scapegoat_creator": 2
-          }
+          "text": "Acts like giving you feedback is a huge personal favor",
+          "traits": {"narcissistic_leader": 1}
         }
       ]
     },
     {
-      "id": 10,
-      "question": "How does your boss handle confidential or sensitive information about employees?",
-      "choices": [
+      "question": "A client calls to compliment your work directly. Your boss:",
+      "answers": [
         {
-          "text": "They keep it confidential and only share what's necessary and appropriate",
-          "traits": {
-            "reasonable_boss": 3,
-            "trustworthy_leader": 2,
-            "professional_standard": 2
-          }
+          "text": "Passes along the compliment and celebrates your success",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They gossip about employees' personal lives with other staff members",
-          "traits": {
-            "office_gossip_queen": 3,
-            "boundary_violator": 2,
-            "unprofessional_mess": 2
-          }
+          "text": "Takes credit for training you so well",
+          "traits": {"blame_shifting_expert": 1}
         },
         {
-          "text": "They use personal information against employees during conflicts",
-          "traits": {
-            "manipulative_snake": 3,
-            "weaponized_information_user": 2,
-            "trust_betrayer": 2
-          }
+          "text": "Barely mentions it and changes the subject",
+          "traits": {"guilt_tripping_master": 1}
         },
         {
-          "text": "They share details about salaries and performance with people who shouldn't know",
-          "traits": {
-            "confidentiality_violator": 3,
-            "professional_boundary_ignorer": 2,
-            "loose_lipped_liability": 2
-          }
+          "text": "Uses it as an opportunity to criticize something else",
+          "traits": {"power_tripping_bully": 1}
         },
         {
-          "text": "They act like they're doing you a favor by keeping your 'secrets'",
-          "traits": {
-            "savior_complex_sufferer": 3,
-            "condescending_overlord": 2,
-            "manipulative_snake": 2
-          }
+          "text": "Warns you not to let it go to your head",
+          "traits": {"two_faced_climber": 1}
         }
       ]
     },
     {
-      "id": 11,
-      "question": "When you have a disagreement with your boss, how do they typically respond?",
-      "choices": [
+      "question": "You accidentally send an email to the wrong person (harmless mistake). Your boss:",
+      "answers": [
         {
-          "text": "They listen to your perspective and work toward a reasonable compromise",
-          "traits": {
-            "reasonable_boss": 3,
-            "conflict_resolver": 2,
-            "mature_communicator": 2
-          }
+          "text": "Laughs it off and reminds you to double-check recipients",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They shut down the conversation with 'because I said so' energy",
-          "traits": {
-            "authoritarian_dictator": 3,
-            "discussion_ender": 2,
-            "power_tripper": 2
-          }
+          "text": "Treats it like you just leaked state secrets",
+          "traits": {"empty_promise_specialist": 1}
         },
         {
-          "text": "They bring up every past mistake you've ever made to deflect",
-          "traits": {
-            "grudge_holding_psycho": 3,
-            "deflection_master": 2,
-            "past_weaponizer": 2
-          }
+          "text": "Demands a written explanation of what happened",
+          "traits": {"drama_queen_boss": 1}
         },
         {
-          "text": "They act wounded and make you feel guilty for questioning them",
-          "traits": {
-            "guilt_tripping_master": 3,
-            "victim_playing_expert": 2,
-            "emotional_manipulator": 2
-          }
+          "text": "Makes you feel terrible about embarrassing them",
+          "traits": {"boundary_stomping_maniac": 1}
         },
         {
-          "text": "They escalate it into a personal attack on your character or competence",
-          "traits": {
-            "personal_attack_specialist": 3,
-            "professional_line_crosser": 2,
-            "character_assassin": 2
-          }
+          "text": "Brings it up in meetings for the next month",
+          "traits": {"credit_stealing_parasite": 1}
         }
       ]
     },
     {
-      "id": 12,
-      "question": "How does your boss handle team recognition and credit for successes?",
-      "choices": [
+      "question": "You disagree with your boss in a team meeting. They:",
+      "answers": [
         {
-          "text": "They make sure the right people get credit and celebrate team wins",
-          "traits": {
-            "reasonable_boss": 3,
-            "credit_sharing_champion": 2,
-            "team_supporter": 2
-          }
+          "text": "Listen to your perspective and discuss it professionally",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They somehow insert themselves into every success story as the hero",
-          "traits": {
-            "credit_hogging_narcissist": 3,
-            "spotlight_stealer": 2,
-            "hero_complex_sufferer": 2
-          }
+          "text": "Shut you down immediately with authority vibes",
+          "traits": {"micromanaging_nightmare": 1}
         },
         {
-          "text": "They take credit for your work but blame you when things go wrong",
-          "traits": {
-            "credit_thief": 3,
-            "selective_ownership_expert": 2,
-            "double_standard_king": 2
-          }
+          "text": "Get visibly annoyed and defensive",
+          "traits": {"passive_aggressive_master": 1}
         },
         {
-          "text": "They downplay team achievements unless they look good to their boss",
-          "traits": {
-            "achievement_minimizer": 3,
-            "self_serving_leader": 2,
-            "team_spirit_killer": 2
-          }
+          "text": "Act hurt like you personally attacked them",
+          "traits": {"narcissistic_leader": 1}
         },
         {
-          "text": "They act like team successes happened despite your 'obstacles' and 'challenges'",
-          "traits": {
-            "backhanded_credit_giver": 3,
-            "passive_aggressive_master": 2,
-            "morale_crusher": 2
-          }
+          "text": "Give you the cold shoulder for the rest of the meeting",
+          "traits": {"blame_shifting_expert": 1}
         }
       ]
     },
     {
-      "id": 13,
-      "question": "What's your boss's approach to workplace policies and rules?",
-      "choices": [
+      "question": "You come in early to finish an important project. Your boss:",
+      "answers": [
         {
-          "text": "They apply policies fairly and consistently to everyone including themselves",
-          "traits": {
-            "reasonable_boss": 3,
-            "fair_rule_enforcer": 2,
-            "consistent_leader": 2
-          }
+          "text": "Appreciates the effort and makes sure you're recognized",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "Rules apply to everyone except them and their favorites",
-          "traits": {
-            "hypocritical_ruler": 3,
-            "favoritism_practitioner": 2,
-            "double_standard_king": 3
-          }
+          "text": "Acts like this should be your normal routine",
+          "traits": {"guilt_tripping_master": 1}
         },
         {
-          "text": "They make up new rules on the spot when it's convenient for them",
-          "traits": {
-            "arbitrary_rule_maker": 3,
-            "moving_goalpost_specialist": 2,
-            "convenience_driven_tyrant": 2
-          }
+          "text": "Doesn't acknowledge it at all",
+          "traits": {"power_tripping_bully": 1}
         },
         {
-          "text": "They ignore policies when enforcing them would require actual work",
-          "traits": {
-            "lazy_leader": 3,
-            "conflict_avoider": 2,
-            "responsibility_dodger": 2
-          }
+          "text": "Takes credit for motivating you to go above and beyond",
+          "traits": {"two_faced_climber": 1}
         },
         {
-          "text": "They weaponize policies to target people they don't like",
-          "traits": {
-            "rule_weaponizer": 3,
-            "vindictive_enforcer": 2,
-            "targeted_harassment_expert": 2
-          }
+          "text": "Questions why you couldn't finish it during normal hours",
+          "traits": {"empty_promise_specialist": 1}
         }
       ]
     },
     {
-      "id": 14,
-      "question": "How does your boss react when they receive criticism or negative feedback?",
-      "choices": [
+      "question": "Your boss promises you a promotion 'soon.' Six months later:",
+      "answers": [
         {
-          "text": "They consider it thoughtfully and make genuine efforts to improve",
-          "traits": {
-            "reasonable_boss": 3,
-            "growth_minded_leader": 2,
-            "feedback_receiver": 2
-          }
+          "text": "You actually get promoted as promised",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They immediately become defensive and explain why the criticism is wrong",
-          "traits": {
-            "defensive_reactor": 3,
-            "criticism_deflector": 2,
-            "excuse_generator": 2
-          }
+          "text": "They act like they never said that",
+          "traits": {"drama_queen_boss": 1}
         },
         {
-          "text": "They find ways to retaliate against whoever gave the feedback",
-          "traits": {
-            "revenge_seeker": 3,
-            "feedback_punisher": 2,
-            "vindictive_asshole": 3
-          }
+          "text": "They blame budget constraints they totally knew about",
+          "traits": {"boundary_stomping_maniac": 1}
         },
         {
-          "text": "They act like they're the victim of unfair treatment or a witch hunt",
-          "traits": {
-            "victim_complex_sufferer": 3,
-            "persecution_complex_owner": 2,
-            "accountability_avoider": 2
-          }
+          "text": "They make you feel ungrateful for bringing it up",
+          "traits": {"credit_stealing_parasite": 1}
         },
         {
-          "text": "They dismiss it as jealousy or ignorance from people who 'don't understand'",
-          "traits": {
-            "superiority_complex_carrier": 3,
-            "dismissive_overlord": 2,
-            "ego_protection_specialist": 2
-          }
+          "text": "They promote someone else and act surprised you're upset",
+          "traits": {"micromanaging_nightmare": 1}
         }
       ]
     },
     {
-      "id": 15,
-      "question": "How does your boss handle urgent deadlines and time-sensitive projects?",
-      "choices": [
+      "question": "You call in sick with the flu. Your boss:",
+      "answers": [
         {
-          "text": "They plan ahead, communicate clearly, and support the team through crunch time",
-          "traits": {
-            "reasonable_boss": 3,
-            "organized_leader": 2,
-            "crisis_manager": 2
-          }
+          "text": "Tells you to rest up and get better",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "Everything becomes a 'crisis' because they failed to plan properly",
-          "traits": {
-            "poor_planning_specialist": 3,
-            "artificial_crisis_creator": 2,
-            "chaos_generator": 2
-          }
+          "text": "Questions whether you're really sick",
+          "traits": {"passive_aggressive_master": 1}
         },
         {
-          "text": "They dump it all on you at the last minute and disappear",
-          "traits": {
-            "responsibility_dumper": 3,
-            "last_minute_panic_spreader": 2,
-            "abandoning_captain": 2
-          }
+          "text": "Makes you feel guilty about the timing",
+          "traits": {"narcissistic_leader": 1}
         },
         {
-          "text": "They micromanage every detail while somehow making everything take longer",
-          "traits": {
-            "efficiency_killer": 3,
-            "micromanaging_nightmare": 3,
-            "productivity_saboteur": 2
-          }
+          "text": "Calls/texts you constantly while you're recovering",
+          "traits": {"blame_shifting_expert": 1}
         },
         {
-          "text": "They stress everyone out with constant check-ins and status updates",
-          "traits": {
-            "anxiety_inducer": 3,
-            "helicopter_boss": 2,
-            "trust_deficient_leader": 2
-          }
+          "text": "Acts inconvenienced by your illness",
+          "traits": {"guilt_tripping_master": 1}
         }
       ]
     },
     {
-      "id": 16,
-      "question": "What's your boss's typical reaction when you ask for time off or flexibility?",
-      "choices": [
+      "question": "The company has layoffs but your department is safe. Your boss:",
+      "answers": [
         {
-          "text": "They accommodate reasonable requests and respect your work-life balance",
-          "traits": {
-            "reasonable_boss": 3,
-            "work_life_supporter": 2,
-            "flexible_leader": 2
-          }
+          "text": "Communicates clearly about job security and supports affected colleagues",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They act personally inconvenienced like you're ruining their life",
-          "traits": {
-            "drama_queen_boss": 3,
-            "personal_inconvenience_reactor": 2,
-            "guilt_tripping_master": 2
-          }
+          "text": "Uses it as leverage to demand more work from everyone",
+          "traits": {"power_tripping_bully": 1}
         },
         {
-          "text": "They approve it but make passive-aggressive comments about 'dedication'",
-          "traits": {
-            "passive_aggressive_master": 3,
-            "dedication_questioner": 2,
-            "guilt_inducing_expert": 2
-          }
+          "text": "Takes credit for protecting the department",
+          "traits": {"two_faced_climber": 1}
         },
         {
-          "text": "They find ways to punish you for taking time you're legally entitled to",
-          "traits": {
-            "petty_revenge_artist": 3,
-            "legal_boundary_ignorer": 2,
-            "vindictive_asshole": 2
-          }
+          "text": "Makes everyone feel guilty for being 'lucky' to keep their jobs",
+          "traits": {"empty_promise_specialist": 1}
         },
         {
-          "text": "They make you jump through hoops and provide detailed justifications",
-          "traits": {
-            "bureaucratic_nightmare": 3,
-            "control_freak": 2,
-            "trust_deficient_leader": 2
-          }
+          "text": "Acts dramatic about the stress they're under",
+          "traits": {"drama_queen_boss": 1}
         }
       ]
     },
     {
-      "id": 17,
-      "question": "How does your boss handle situations where they don't know something?",
-      "choices": [
+      "question": "You politely decline to work weekend overtime (you have plans). Your boss:",
+      "answers": [
         {
-          "text": "They admit they don't know and work to find the right answer",
-          "traits": {
-            "reasonable_boss": 3,
-            "humble_learner": 2,
-            "honest_communicator": 2
-          }
+          "text": "Respects your boundaries and finds another solution",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They pretend they know and give you completely wrong information",
-          "traits": {
-            "fake_it_specialist": 3,
-            "misinformation_spreader": 2,
-            "ego_protection_specialist": 2
-          }
+          "text": "Questions your commitment to the team",
+          "traits": {"boundary_stomping_maniac": 1}
         },
         {
-          "text": "They turn the question back on you like you should have known better",
-          "traits": {
-            "deflection_master": 3,
-            "responsibility_shifter": 2,
-            "blame_redirector": 2
-          }
+          "text": "Acts cold and disappointed without saying why",
+          "traits": {"credit_stealing_parasite": 1}
         },
         {
-          "text": "They get angry that you're asking them questions they can't answer",
-          "traits": {
-            "ignorance_defender": 3,
-            "insecurity_warrior": 2,
-            "question_resenter": 2
-          }
+          "text": "Makes it clear this will be remembered during reviews",
+          "traits": {"micromanaging_nightmare": 1}
         },
         {
-          "text": "They make you feel stupid for not knowing something they don't know either",
-          "traits": {
-            "projection_specialist": 3,
-            "superiority_faker": 2,
-            "condescending_hypocrite": 2
-          }
+          "text": "Acts personally hurt by your refusal",
+          "traits": {"passive_aggressive_master": 1}
         }
       ]
     },
     {
-      "id": 18,
-      "question": "What's your boss's communication style when giving you assignments?",
-      "choices": [
+      "question": "Your boss makes a mistake that affects the whole team. They:",
+      "answers": [
         {
-          "text": "They provide clear expectations, deadlines, and resources you need",
-          "traits": {
-            "reasonable_boss": 3,
-            "clear_communicator": 2,
-            "helpful_delegator": 2
-          }
+          "text": "Own up to it immediately and work to fix the problem",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They give vague instructions then get mad when you don't read their mind",
-          "traits": {
-            "mind_reading_expecter": 3,
-            "vague_instruction_giver": 2,
-            "clarity_avoider": 2
-          }
+          "text": "Blame everyone except themselves",
+          "traits": {"narcissistic_leader": 1}
         },
         {
-          "text": "They change requirements halfway through and act like you should have known",
-          "traits": {
-            "moving_goalpost_specialist": 3,
-            "requirement_changer": 2,
-            "confusion_creator": 2
-          }
+          "text": "Act like it never happened",
+          "traits": {"blame_shifting_expert": 1}
         },
         {
-          "text": "They pile on extra work at the last minute and call it 'urgent'",
-          "traits": {
-            "workload_dumper": 3,
-            "false_urgency_creator": 2,
-            "planning_failure_compensator": 2
-          }
+          "text": "Get defensive when anyone mentions it",
+          "traits": {"guilt_tripping_master": 1}
         },
         {
-          "text": "They explain it once, badly, then refuse to answer follow-up questions",
-          "traits": {
-            "one_shot_explainer": 3,
-            "question_avoider": 2,
-            "support_withholder": 2
-          }
+          "text": "Have a meltdown about how stressful everything is",
+          "traits": {"power_tripping_bully": 1}
         }
       ]
     },
     {
-      "id": 19,
-      "question": "How does your boss treat new employees during their adjustment period?",
-      "choices": [
+      "question": "Looking honestly at yourself, how would you rate your work performance?",
+      "answers": [
         {
-          "text": "They provide support, patience, and proper training to help them succeed",
-          "traits": {
-            "reasonable_boss": 3,
-            "supportive_trainer": 2,
-            "patient_mentor": 2
-          }
+          "text": "I do good work, communicate well, and contribute positively",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They expect instant perfection and get frustrated with the learning curve",
-          "traits": {
-            "unrealistic_expectation_holder": 3,
-            "impatience_incarnate": 2,
-            "learning_curve_denier": 2
-          }
+          "text": "I'm decent but could probably improve my attitude and effort",
+          "traits": {"two_faced_climber": 1}
         },
         {
-          "text": "They ignore new hires and leave them to figure everything out alone",
-          "traits": {
-            "sink_or_swim_advocate": 3,
-            "neglectful_leader": 2,
-            "support_withholder": 2
-          }
+          "text": "I sometimes mess up but it's usually not entirely my fault",
+          "traits": {"empty_promise_specialist": 1}
         },
         {
-          "text": "They use new people as scapegoats for existing problems",
-          "traits": {
-            "scapegoat_creator": 3,
-            "blame_shifter": 2,
-            "problem_projector": 2
-          }
+          "text": "I'm excellent and any problems are definitely management's fault",
+          "traits": {"drama_queen_boss": 1}
         },
         {
-          "text": "They play favorites and only help people they personally like",
-          "traits": {
-            "favoritism_practitioner": 3,
-            "selective_helper": 2,
-            "bias_driven_leader": 2
-          }
+          "text": "I probably challenge authority too much and can be difficult",
+          "traits": {"boundary_stomping_maniac": 1}
         }
       ]
     },
     {
-      "id": 20,
-      "question": "What happens when your boss promises something to the team?",
-      "choices": [
+      "question": "Your boss gives a presentation about the team's work to senior leadership. They:",
+      "answers": [
         {
-          "text": "They follow through and keep their commitments to the team",
-          "traits": {
-            "reasonable_boss": 3,
-            "promise_keeper": 2,
-            "reliable_leader": 2
-          }
+          "text": "Give proper credit to team members and highlight everyone's contributions",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They make grand promises but somehow never deliver on any of them",
-          "traits": {
-            "empty_promise_specialist": 3,
-            "false_hope_peddler": 2,
-            "commitment_avoider": 2
-          }
+          "text": "Make it all about their vision and leadership genius",
+          "traits": {"credit_stealing_parasite": 1}
         },
         {
-          "text": "They 'forget' about promises that would benefit you but remember ones that benefit them",
-          "traits": {
-            "selective_memory_expert": 3,
-            "self_serving_forgetter": 2,
-            "convenience_driven_amnesia": 2
-          }
+          "text": "Present your ideas as if they thought of them",
+          "traits": {"micromanaging_nightmare": 1}
         },
         {
-          "text": "They blame circumstances or other people when their promises fall through",
-          "traits": {
-            "excuse_generator": 3,
-            "accountability_avoider": 2,
-            "blame_shifter": 2
-          }
+          "text": "Barely mention the team and focus on company politics",
+          "traits": {"passive_aggressive_master": 1}
         },
         {
-          "text": "They act like you're being unreasonable for expecting them to keep their word",
-          "traits": {
-            "expectation_twister": 3,
-            "promise_gaslighter": 2,
-            "commitment_denier": 2
-          }
+          "text": "Somehow turn it into a complaint session about team performance",
+          "traits": {"narcissistic_leader": 1}
         }
       ]
     },
     {
-      "id": 21,
-      "question": "How does your boss handle your sick days or health issues?",
-      "choices": [
+      "question": "You solve a major problem that saves the company thousands of dollars. Your boss:",
+      "answers": [
         {
-          "text": "They show genuine concern and encourage you to take care of your health",
-          "traits": {
-            "reasonable_boss": 3,
-            "compassionate_leader": 2,
-            "health_prioritizer": 2
-          }
+          "text": "Makes sure upper management knows it was your achievement",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They act suspicious like you're lying and making excuses",
-          "traits": {
-            "trust_deficient_paranoid": 3,
-            "health_skeptic": 2,
-            "assumption_maker": 2
-          }
+          "text": "Takes full credit for 'developing your problem-solving skills'",
+          "traits": {"blame_shifting_expert": 1}
         },
         {
-          "text": "They guilt trip you about how your absence affects their workload",
-          "traits": {
-            "guilt_tripping_master": 3,
-            "self_centered_reactor": 2,
-            "empathy_lacking_boss": 2
-          }
+          "text": "Acts like it's no big deal and changes the subject",
+          "traits": {"guilt_tripping_master": 1}
         },
         {
-          "text": "They contact you constantly while you're supposed to be recovering",
-          "traits": {
-            "boundary_stomping_maniac": 3,
-            "recovery_interrupter": 2,
-            "respect_deficient_leader": 2
-          }
+          "text": "Questions why the problem existed in the first place",
+          "traits": {"power_tripping_bully": 1}
         },
         {
-          "text": "They somehow make your illness about how it inconveniences them personally",
-          "traits": {
-            "victim_complex_sufferer": 3,
-            "narcissistic_leader": 2,
-            "situation_hijacker": 2
-          }
+          "text": "Uses it as an example of what everyone else should be doing",
+          "traits": {"two_faced_climber": 1}
         }
       ]
     },
     {
-      "id": 22,
-      "question": "What's your boss's typical response when you exceed expectations or go above and beyond?",
-      "choices": [
+      "question": "You're on vacation and your boss texts you about work. When you don't respond immediately they:",
+      "answers": [
         {
-          "text": "They acknowledge your effort and make sure you're properly recognized",
-          "traits": {
-            "reasonable_boss": 3,
-            "appreciation_shower": 2,
-            "recognition_giver": 2
-          }
+          "text": "Don't text you at all because they respect your time off",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They immediately pile on more work because 'you can clearly handle it'",
-          "traits": {
-            "achievement_punisher": 3,
-            "workload_exploiter": 2,
-            "good_deed_punisher": 2
-          }
+          "text": "Send increasingly urgent messages about non-urgent things",
+          "traits": {"empty_promise_specialist": 1}
         },
         {
-          "text": "They act like that level of effort should be your normal baseline",
-          "traits": {
-            "bar_raiser": 3,
-            "appreciation_withholder": 2,
-            "expectation_escalator": 2
-          }
+          "text": "Call you multiple times and act frantic",
+          "traits": {"drama_queen_boss": 1}
         },
         {
-          "text": "They take credit for 'motivating' you to achieve such great results",
-          "traits": {
-            "credit_hijacker": 3,
-            "achievement_appropriator": 2,
-            "spotlight_redirector": 2
-          }
+          "text": "Make passive-aggressive comments when you return",
+          "traits": {"boundary_stomping_maniac": 1}
         },
         {
-          "text": "They barely acknowledge it or act like it's not that impressive",
-          "traits": {
-            "achievement_minimizer": 3,
-            "praise_withholder": 2,
-            "motivation_killer": 2
-          }
+          "text": "Act personally hurt that you're not available for them",
+          "traits": {"credit_stealing_parasite": 1}
         }
       ]
     },
     {
-      "id": 23,
-      "question": "How does your boss react when team morale is obviously low?",
-      "choices": [
+      "question": "Your boss promises to get you better equipment 'next quarter.' A year later:",
+      "answers": [
         {
-          "text": "They address the issues and work to improve the team's working conditions",
-          "traits": {
-            "reasonable_boss": 3,
-            "morale_improver": 2,
-            "problem_solver": 2
-          }
+          "text": "You actually have the new equipment they promised",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They pretend everything is fine and ignore all the obvious signs",
-          "traits": {
-            "reality_denier": 3,
-            "problem_ignorer": 2,
-            "ostrich_leader": 2
-          }
+          "text": "They act like they never made that promise",
+          "traits": {"micromanaging_nightmare": 1}
         },
         {
-          "text": "They blame the team for having 'bad attitudes' instead of addressing root causes",
-          "traits": {
-            "blame_shifting_expert": 3,
-            "root_cause_ignorer": 2,
-            "attitude_blamer": 2
-          }
+          "text": "They blame budget issues they totally saw coming",
+          "traits": {"passive_aggressive_master": 1}
         },
         {
-          "text": "They make things worse by organizing forced 'fun' activities nobody wants",
-          "traits": {
-            "forced_fun_inflict": 3,
-            "tone_deaf_leader": 2,
-            "superficial_solution_provider": 2
-          }
+          "text": "They say 'soon' again and look annoyed you brought it up",
+          "traits": {"narcissistic_leader": 1}
         },
         {
-          "text": "They get defensive and act like low morale is a personal attack on them",
-          "traits": {
-            "victim_complex_sufferer": 3,
-            "morale_personalizer": 2,
-            "defensive_reactor": 2
-          }
+          "text": "They make you feel ungrateful for expecting them to follow through",
+          "traits": {"blame_shifting_expert": 1}
         }
       ]
     },
     {
-      "id": 24,
-      "question": "What's your boss's approach to handling workplace conflicts between team members?",
-      "choices": [
+      "question": "You suggest a process improvement that could save time. Your boss:",
+      "answers": [
         {
-          "text": "They mediate fairly and help both parties find a professional resolution",
-          "traits": {
-            "reasonable_boss": 3,
-            "conflict_mediator": 2,
-            "fair_arbiter": 2
-          }
+          "text": "Listens thoughtfully and helps you implement it",
+          "traits": {"reasonable_boss": 1}
         },
         {
-          "text": "They pick sides based on who they like better, not who's actually right",
-          "traits": {
-            "favoritism_practitioner": 3,
-            "biased_judge": 2,
-            "fairness_ignorer": 2
-          }
+          "text": "Explains why their way is obviously superior",
+          "traits": {"guilt_tripping_master": 1}
         },
         {
-          "text": "They ignore the conflict and hope it goes away on its own",
-          "traits": {
-            "conflict_avoider": 3,
-            "problem_ignorer": 2,
-            "leadership_shirker": 2
-          }
+          "text": "Takes your idea and presents it as their brainchild",
+          "traits": {"power_tripping_bully": 1}
         },
         {
-          "text": "They somehow make the conflict worse by stirring the pot",
-          "traits": {
-            "drama_amplifier": 3,
-            "pot_stirrer": 2,
-            "chaos_creator": 2
-          }
+          "text": "Dismisses it without consideration",
+          "traits": {"two_faced_climber": 1}
         },
         {
-          "text": "They use the conflict as an excuse to assert their authority over everyone",
-          "traits": {
-            "power_tripper": 3,
-            "authority_flexer": 2,
-            "control_opportunist": 2
-          }
+          "text": "Says they'll consider it but never brings it up again",
+          "traits": {"empty_promise_specialist": 1}
         }
       ]
     },
     {
-      "id": 25,
-      "question": "When you think honestly about your work performance and behavior, how would you rate yourself as an employee?",
-      "choices": [
+      "question": "You need to leave 30 minutes early for a family emergency. Your boss:",
+      "answers": [
         {
-          "text": "I consistently meet expectations, communicate well, and contribute positively to the team",
-          "traits": {
-            "maybe_you_suck": -2,
-            "reasonable_boss": 2,
-            "good_employee_indicator": 3
-          }
+          "text": "Tells you to go and asks if you need anything else",
+          "traits": {"reasonable_boss": 2}
         },
         {
-          "text": "I do my job adequately but I could probably improve my attitude and effort",
-          "traits": {
-            "maybe_you_suck": 1,
-            "self_aware_employee": 2,
-            "improvement_needed": 2
-          }
+          "text": "Questions whether it's really an emergency",
+          "traits": {"drama_queen_boss": 2}
         },
         {
-          "text": "I sometimes miss deadlines, make excuses, or create drama but it's not entirely my fault",
-          "traits": {
-            "maybe_you_suck": 3,
-            "excuse_maker": 2,
-            "responsibility_avoider": 2
-          }
+          "text": "Sighs and mentions how busy the day is",
+          "traits": {"boundary_stomping_maniac": 2}
         },
         {
-          "text": "I'm perfect at my job and any problems are definitely because of management",
-          "traits": {
-            "maybe_you_suck": 3,
-            "self_awareness_lacking": 3,
-            "blame_everything_else": 2
-          }
+          "text": "Acts inconvenienced by your personal crisis",
+          "traits": {"credit_stealing_parasite": 2}
         },
         {
-          "text": "I probably challenge authority too much and could be seen as difficult to manage",
-          "traits": {
-            "maybe_you_suck": 2,
-            "authority_challenger": 2,
-            "difficult_employee_traits": 2
-          }
+          "text": "Demands to know exactly what the emergency is",
+          "traits": {"micromanaging_nightmare": 2}
         }
       ]
     }
   ],
-  "traits": {
+  "results": {
     "micromanaging_nightmare": {
-      "name": "The Micromanaging Nightmare",
-      "short_description": "Your boss is a control freak who can't delegate without hovering over every detail.",
-      "detailed_description": "This boss suffers from an acute case of trust deficiency and control addiction. They believe that if they're not personally involved in every microscopic detail of your work, the entire company will collapse into chaos. They hover over your shoulder, demand updates every thirty minutes, and probably know more about your daily tasks than you do because they've inserted themselves into every process.\n\nThey edit your emails before you send them, require approval for decisions you should be able to make independently, and somehow always find something 'wrong' with your approach even when the results are perfect. This isn't leadership—it's professional babysitting with a power trip twist.\n\nThe irony is that their constant interference actually makes everything less efficient and more stressful. They create the very problems they claim to be preventing, then pat themselves on the back for 'catching' issues that wouldn't exist if they'd just let you do your damn job.\n\nYour boss genuinely believes they're being helpful and thorough, but in reality, they're slowly crushing your soul and professional confidence. They're the reason you second-guess every decision and feel like you're walking on eggshells at work.",
-      "in_depth_analysis": "The micromanaging nightmare represents one of the most soul-crushing forms of workplace toxicity because it operates under the guise of 'caring about quality' and 'being thorough.' Your boss has likely convinced themselves—and possibly others—that their suffocating oversight is actually good management. This delusion makes them particularly dangerous because they're unlikely to change without serious intervention.\n\nPsychologically, micromanagers are driven by deep-seated insecurity and a pathological need for control. They may have been burned by delegation in the past, or they might be compensating for their own feelings of inadequacy by inserting themselves into every process. Some micromanagers are also secretly afraid that if employees become too independent, their own role will become obsolete.\n\nThe impact on your mental health and career development cannot be overstated. Constant micromanagement erodes your confidence, stifles your creativity, and prevents you from developing crucial decision-making skills. You're essentially being trained to be helpless, which serves their need for control but destroys your professional growth.\n\nThe most insidious aspect is how they gaslight you into thinking their behavior is normal or even beneficial. They frame their controlling behavior as 'mentoring' or 'maintaining standards,' making you question whether your frustration is justified. Spoiler alert: it absolutely is. No competent adult should need someone breathing down their neck to complete basic work tasks, and any boss who thinks otherwise is revealing more about their own limitations than yours."
+      "title": "The Micromanaging Nightmare",
+      "description": "Your boss suffers from terminal control addiction and believes civilization will collapse if they don't personally approve your bathroom breaks.",
+      "extended": "Your boss has a pathological need to control every microscopic detail of your existence. They hover over your shoulder like a corporate helicopter parent, demand updates every five minutes, and somehow find flaws in work that's objectively perfect. They require approval for decisions that a trained monkey could make independently.\n\nThis isn't leadership—it's professional babysitting with a power complex. They create the exact problems they claim to prevent, then congratulate themselves for catching issues that wouldn't exist if they'd just back off and let you work. Their constant interference turns simple tasks into elaborate approval processes that would make the DMV jealous.\n\nThey genuinely believe their suffocating oversight is 'being thorough' when really they're slowly murdering everyone's will to live. They've turned their team into nervous wrecks who second-guess making copies without written authorization. Every email becomes a collaborative effort because heaven forbid you send something without their precious input.\n\nThis boss will never change because they mistake controlling everything for being indispensable. They see autonomy as laziness and independence as insubordination. Working for them is like being trapped in a psychological prison where asking to use the bathroom requires a business case and three references."
     },
     "passive_aggressive_master": {
-      "name": "The Passive-Aggressive Master",
-      "short_description": "Your boss never says what they mean, but somehow you always know you've disappointed them.",
-      "detailed_description": "This boss has elevated indirect communication to an art form, and not in a good way. They never tell you directly what's wrong, but their sighs, eye rolls, and carefully crafted 'neutral' emails speak volumes. They're masters of the backhanded compliment and the loaded silence. When they say 'fine,' nothing is actually fine.\n\nThey'll agree to your face then undermine you behind the scenes. They make promises they never intend to keep, give you the silent treatment when they're upset, and somehow make you feel guilty for things that aren't even your fault. Their favorite phrases include 'I guess that's one way to do it,' 'interesting choice,' and 'well, it's your decision.'\n\nThe exhausting part is that you're constantly trying to decode their real meaning and anticipate their actual needs. They've trained you to be a mind reader, and when you inevitably fail at this impossible task, they act hurt and disappointed. They never engage in direct conflict but somehow make every interaction feel like a minefield.\n\nThis boss creates a toxic atmosphere where honest communication is impossible and everyone walks on eggshells trying to avoid triggering their mysterious displeasure.",
-      "in_depth_analysis": "Passive-aggressive behavior in leadership positions is particularly destructive because it undermines the entire foundation of workplace communication. Your boss has essentially weaponized ambiguity, creating an environment where clarity and directness—two essential elements of functional teams—become impossible.\n\nThis behavior pattern typically stems from an inability or unwillingness to engage in healthy conflict. Your boss likely learned early in life that direct confrontation was dangerous or unproductive, so they developed these indirect methods of expressing dissatisfaction. Unfortunately, what might have been a survival mechanism in their personal life becomes a torture device in a professional setting.\n\nThe psychological impact on employees is severe. You're forced into a constant state of hypervigilance, trying to interpret subtle cues and anticipate hidden meanings. This creates chronic stress and anxiety, as you never quite know where you stand or what's expected of you. The ambiguity is intentional—it keeps you off-balance and gives them plausible deniability when called out on their behavior.\n\nPerhaps most damaging is how passive-aggressive managers destroy trust and psychological safety within teams. When the person in charge can't model direct, honest communication, it creates a culture where everyone adopts similar dysfunctional patterns. Team members learn to communicate through hints and implications rather than clear, professional dialogue.\n\nThe tragedy is that addressing passive-aggressive behavior requires the very thing your boss is incapable of: direct, honest conversation about the problem. They'll likely deny the behavior, claim they're being 'subtle' or 'diplomatic,' or even turn it around to make you seem overly sensitive or confrontational for bringing it up."
+      "title": "The Passive-Aggressive Master",
+      "description": "Your boss has achieved black belt status in never saying what they actually mean while making everyone feel like garbage.",
+      "extended": "Your boss communicates exclusively through sighs, eye rolls, and sentences that sound innocent but land like psychological warfare. They've weaponized disappointment and turned 'fine' into the most terrifying word in the English language. They agree to your face then sabotage you behind the scenes with the skill of a corporate assassin.\n\nThey make promises with zero intention of keeping them, give the silent treatment when upset, and somehow make you feel guilty for things you didn't even do. Their specialty is the backhanded compliment delivered with surgical precision: 'Interesting approach' said with the enthusiasm of someone describing a root canal.\n\nWorking for them is like navigating an emotional minefield where everyone becomes amateur therapists, constantly trying to decode their actual feelings and anticipate their mysterious needs. They never engage in direct conflict but somehow make every interaction feel like you're disappointing your grandmother.\n\nThis boss has turned their inability to handle confrontation into a weapon of mass psychological destruction. They create an atmosphere where honest communication goes to die and everyone walks around wondering what they did wrong this time."
     },
     "narcissistic_leader": {
-      "name": "The Narcissistic Leader",
-      "short_description": "Everything revolves around them, and they genuinely believe they're God's gift to management.",
-      "detailed_description": "This boss operates from a fundamental belief that they are the most important person in every room, conversation, and decision. They have an inflated sense of their own importance and competence, coupled with a desperate need for constant admiration and validation. Every team success somehow becomes about their brilliant leadership, while every failure is obviously someone else's fault.\n\nThey dominate meetings with stories about their past achievements, name-drop constantly, and somehow redirect every conversation back to themselves. They expect praise for basic management tasks and get genuinely confused when people don't seem sufficiently grateful for their 'wisdom' and 'guidance.' They view employees as supporting characters in the epic story of their career.\n\nCriticism or feedback hits them like a personal attack because they cannot separate their professional performance from their identity. They surround themselves with yes-people and tend to view independent thinking as insubordination. They make decisions based on what makes them look good rather than what's best for the team or company.\n\nWorking for a narcissistic boss means your achievements will be minimized while your mistakes are magnified, especially if those mistakes make them look bad.",
-      "in_depth_analysis": "Narcissistic leadership represents one of the most psychologically damaging workplace dynamics because it fundamentally distorts the purpose and function of management. Instead of serving the team and organization, everything becomes about serving the boss's ego and self-image. This creates a toxic inversion where employees exist to make the boss feel important rather than the boss existing to support employee success.\n\nThe narcissistic boss operates from a place of deep insecurity masked by grandiose behavior. Their need for constant validation isn't confidence—it's compensation for profound self-doubt. This explains why they react so violently to criticism and why they need to take credit for others' work. Their self-worth is entirely dependent on external validation, making them incredibly fragile and dangerous when that validation is threatened.\n\nFor employees, working under narcissistic leadership creates a phenomenon psychologists call 'learned helplessness.' Your ideas are consistently dismissed or appropriated, your contributions are minimized, and your value is constantly questioned. Over time, you begin to doubt your own competence and worth, which is exactly what the narcissistic boss needs to maintain their sense of superiority.\n\nThe organizational damage extends far beyond individual employees. Narcissistic leaders make terrible strategic decisions because they're more concerned with appearing brilliant than being effective. They ignore valuable input from their teams, make impulsive choices to grab attention, and often alienate clients and partners with their self-centered behavior.\n\nPerhaps most insidiously, narcissistic bosses are often skilled at managing up while terrorizing down. They may be charming and impressive to their own superiors while being dismissive and cruel to their subordinates. This makes it particularly difficult to address their behavior through normal channels, as upper management may see a completely different person than the employees experience daily."
+      "title": "The Narcissistic Leader",
+      "description": "Your boss genuinely believes they're the main character in everyone's story and that the sun rises and sets on their management prowess.",
+      "extended": "Your boss operates under the delusion that they're the office messiah and everyone else exists solely to witness their brilliance. Every team success magically becomes a testament to their visionary leadership, while failures are obviously the result of subordinates failing to properly execute their perfect plans.\n\nThey dominate every conversation with tales of their past achievements and somehow make discussions about office supplies about their strategic thinking. They expect applause for basic management tasks and get genuinely confused when people aren't sufficiently grateful for their wisdom and guidance.\n\nCriticism bounces off them like bullets off Superman because they literally cannot compute that they might be wrong about anything. They surround themselves with yes-people and treat independent thinking like a personal attack on their character. Every decision is based on what makes them look good rather than what's actually best for anyone else.\n\nWorking for them means your accomplishments get minimized while your mistakes get magnified, especially if those mistakes make them look bad. They've turned the workplace into their personal fan club where genuine feedback is banned and ego-stroking is mandatory."
     },
     "blame_shifting_expert": {
-      "name": "The Blame-Shifting Expert",
-      "short_description": "Nothing is ever their fault, and they have a PhD in pointing fingers at everyone else.",
-      "detailed_description": "This boss has mastered the art of accountability evasion. When projects fail, they immediately look for someone else to pin it on. When mistakes happen, they have a ready arsenal of explanations that somehow involve everyone except themselves. They're like a professional responsibility dodger who never met a problem they couldn't trace back to someone else's incompetence.\n\nThey have selective memory when it comes to their own decisions and instructions. That terrible idea that blew up? They never suggested it. That deadline they set that was completely unrealistic? You must have misunderstood. That budget they approved that made no sense? Finance must have made an error. They're masters of revisionist history.\n\nWhen things go right, they're quick to take credit, but when things go wrong, they become forensic investigators determined to prove it's anyone's fault but theirs. They throw team members under the bus with Olympic-level precision and somehow always manage to emerge from disasters looking like the innocent victim of other people's failures.\n\nWorking for them means you're always one scapegoating session away from being blamed for problems you didn't create.",
-      "in_depth_analysis": "The blame-shifting expert represents a particularly toxic form of leadership because they actively undermine the psychological safety that healthy teams require to function. When employees know that any mistake or failure will be redirected onto them regardless of actual responsibility, they become paralyzed by fear and stop taking the risks necessary for innovation and growth.\n\nThis behavior pattern typically stems from a combination of insecurity and a fundamental misunderstanding of what leadership actually means. Your boss likely believes that admitting fault or taking responsibility for team failures would make them appear weak or incompetent. In reality, their desperate attempts to avoid accountability make them appear exactly that—weak, incompetent, and untrustworthy.\n\nThe psychological mechanism at work here is called 'defensive attribution,' where people attribute negative outcomes to external factors while claiming credit for positive ones. In your boss's case, this normal human tendency has been amplified to pathological levels, probably because they've never learned healthier ways to cope with failure or criticism.\n\nFor team members, working under a blame-shifter creates a constant state of anxiety and hypervigilance. You learn to document everything, anticipate being thrown under the bus, and develop elaborate self-protection strategies that should be unnecessary in a functional workplace. This energy that should be going toward productive work gets redirected toward defensive measures.\n\nThe organizational impact is devastating. Teams stop collaborating effectively because everyone is protecting themselves from potential blame. Innovation dies because taking risks means potentially being scapegoated for failures. Trust erodes not just between the boss and employees, but between team members who start seeing each other as potential threats rather than collaborators.\n\nMost tragically, blame-shifting bosses rob their teams of one of the most valuable aspects of failure: learning. When every mistake becomes a finger-pointing exercise rather than a growth opportunity, the entire organization becomes less resilient and less capable of adapting to challenges."
+      "title": "The Blame-Shifting Expert",
+      "description": "Your boss has a PhD in accountability evasion and could dodge responsibility for gravity if things started falling upward.",
+      "extended": "Your boss possesses supernatural abilities when it comes to avoiding blame for literally anything that goes wrong. They're like a corporate magician who can make their responsibility disappear faster than a politician's campaign promises. When projects explode, they immediately transform into investigators determined to prove it's anyone's fault but theirs.\n\nThey have selective amnesia about their own decisions and instructions, but somehow remember every minor mistake you made three years ago. That catastrophic idea that destroyed everything? They never suggested it. That impossible deadline they set? You must have misunderstood. That budget approval that made no sense? Finance must have screwed up.\n\nThey throw team members under the bus with Olympic-level precision and always emerge from disasters looking like the poor victim of everyone else's incompetence. Their favorite move is turning any criticism into an investigation of your work ethic, competence, or basic understanding of reality.\n\nWorking for them means you'll need to document everything like you're preparing for court because any failure will somehow become your fault regardless of actual responsibility. They've created an environment where covering your butt is more important than doing your job."
     },
     "guilt_tripping_master": {
-      "name": "The Guilt-Tripping Master",
-      "short_description": "They could make you feel guilty for using the bathroom during work hours.",
-      "detailed_description": "This boss has weaponized guilt to an extent that would impress a stereotypical overbearing mother. They have an uncanny ability to make you feel selfish and inconsiderate for having basic human needs like taking lunch breaks, using vacation time, or leaving at your scheduled time. They're masters of the wounded expression and the martyred sigh.\n\nThey frame every reasonable request as a personal burden they must bear. Need to leave early for a doctor's appointment? They'll mention how they'll have to stay late to cover for you. Want to use your earned vacation days? They'll talk about how stressful it is to manage without you. Ask for reasonable resources? They'll explain how tight the budget is and how they're doing their best with limited resources.\n\nThey love to compare your work ethic to others ('Sarah never complains about overtime') or to their own supposed dedication ('I haven't taken a real vacation in three years'). They make you feel like asking for anything is an imposition, and they're particularly skilled at making you feel ungrateful for the 'opportunities' they've given you.\n\nTheir guilt trips are so effective that you find yourself apologizing for things that are completely normal and reasonable.",
-      "in_depth_analysis": "The guilt-tripping master represents emotional manipulation disguised as leadership, and it's one of the most psychologically damaging management styles because it weaponizes empathy against employees. Your boss has figured out that decent people don't want to burden others or appear selfish, and they exploit this natural human tendency to manipulate behavior and avoid accountability.\n\nThis manipulation tactic is particularly insidious because it masquerades as caring or being personally invested in the work. Your boss frames their guilt trips as evidence of how much they care about the team's success or how hard they work themselves. This makes it difficult to call out the behavior without seeming ungrateful or selfish—which is exactly the point.\n\nPsychologically, guilt-tripping bosses often learned this behavior in dysfunctional family systems where emotional manipulation was normalized. They may genuinely believe that making people feel guilty is an effective motivational tool, not recognizing the long-term damage it causes to relationships and team dynamics.\n\nFor employees, constant guilt-tripping creates a toxic cocktail of resentment and self-doubt. You start questioning whether your perfectly reasonable needs and boundaries are actually selfish demands. You begin to internalize their messaging that dedication means sacrificing everything for work, which leads to burnout and deteriorating mental health.\n\nThe workplace impact extends beyond individual stress. Guilt-based management creates a culture where people are afraid to advocate for themselves or their teams. Innovation suffers because employees are too busy feeling guilty about taking time for creative thinking. Retention plummets because talented people eventually realize they don't need to tolerate emotional manipulation to earn a paycheck.\n\nPerhaps most destructively, guilt-tripping bosses prevent the development of healthy professional boundaries. Employees under this management style often struggle to maintain work-life balance even after leaving, having been conditioned to view self-care and reasonable limits as forms of selfishness or disloyalty."
+      "title": "The Guilt-Tripping Master",
+      "description": "Your boss could make Mother Teresa feel guilty for not working harder. They've weaponized guilt to a degree that would impress medieval clergy.",
+      "extended": "Your boss has transformed basic human needs into personal attacks on their well-being. Need a lunch break? They'll mention how they'll have to work through lunch to cover. Want to use earned vacation days? They'll explain how stressful it is to manage without you. Ask for reasonable resources? They'll launch into a speech about budget constraints and how hard they're trying.\n\nThey frame every request as a personal burden they must heroically bear, complete with wounded expressions and martyred sighs. They compare your work ethic to others and to their own supposed dedication, making you feel like asking for anything is an act of pure selfishness.\n\nThey've mastered the art of making their basic management responsibilities sound like personal favors you should be eternally grateful for. Need training? They're doing you a favor. Want feedback? They're taking time out of their busy schedule. Require basic resources to do your job? They're going above and beyond.\n\nTheir guilt trips are so effective that employees find themselves apologizing for things that are completely normal and reasonable. They've turned the workplace into a guilt factory where everyone feels bad for existing."
     },
     "power_tripping_bully": {
-      "name": "The Power-Tripping Bully",
-      "short_description": "They use their position to intimidate and demean people who can't fight back.",
-      "detailed_description": "This boss gets a genuine thrill from wielding power over people who are economically dependent on them. They love reminding you who's in charge and making sure you never forget your place in the hierarchy. They use intimidation tactics, public humiliation, and threats (subtle or direct) to maintain control and compliance.\n\nThey pick on people they perceive as vulnerable or unable to fight back, while being suspiciously respectful to those with more power or influence. They enjoy watching people squirm and seem to feed off the fear and anxiety they create. They make decisions based on what allows them to flex their authority rather than what makes business sense.\n\nThey love to play favorites and pit team members against each other, creating a competitive atmosphere where everyone is fighting for their approval. They use their control over schedules, assignments, and opportunities as weapons to reward loyalty and punish perceived insubordination.\n\nWorking for them feels like being trapped in a psychological prison where you're constantly walking on eggshells and anticipating the next power play.",
-      "in_depth_analysis": "The power-tripping bully represents the darkest aspect of workplace hierarchy abuse, where someone exploits their position not to achieve business objectives, but to satisfy personal psychological needs for dominance and control. This isn't management—it's psychological warfare with a paycheck involved.\n\nThis behavior typically stems from deep-seated insecurity and a history of feeling powerless in other areas of life. Your boss may have been bullied themselves, or they might be compensating for feeling ineffective or disrespected outside of work. Their workplace becomes a kingdom where they can finally be the one in control, regardless of the human cost.\n\nThe psychological impact on employees is severe and often long-lasting. Workplace bullying has been linked to PTSD-like symptoms, depression, anxiety, and a host of physical health problems. Employees under bullying bosses often experience sleep disturbances, digestive issues, and chronic stress-related conditions that can persist even after leaving the toxic environment.\n\nWhat makes workplace bullying particularly damaging is the power differential involved. Unlike peer-to-peer bullying, employees can't simply avoid or confront their bullying boss without risking their livelihood. This creates a sense of learned helplessness and trapped vulnerability that can fundamentally alter how people view themselves and their worth.\n\nThe organizational costs are staggering. Bullying bosses create hostile work environments that lead to massive turnover, decreased productivity, increased sick leave usage, and potential legal liability. They drive away talented employees while attracting only those who are either desperate enough to tolerate abuse or dysfunctional enough to participate in it.\n\nPerhaps most tragically, power-tripping bullies often justify their behavior as 'tough management' or 'keeping people accountable.' They may genuinely believe that fear-based leadership is effective, not understanding that while intimidation might produce compliance, it never produces excellence, innovation, or genuine loyalty."
+      "title": "The Power-Tripping Bully",
+      "description": "Your boss gets genuine satisfaction from wielding power over people who can't fight back. They're basically a playground bully with a business card.",
+      "extended": "Your boss discovered that management positions come with the legal right to make people miserable and they've embraced this opportunity with the enthusiasm of a kid in a candy store. They use intimidation, public humiliation, and threats to maintain control because actually leading people requires skills they don't possess.\n\nThey get visible satisfaction from watching people squirm under their authority and love making examples of anyone who dares question their decisions. They're sweet as pie to people with more power while treating subordinates like disposable objects that exist solely for their amusement.\n\nThey make decisions based on what allows them to flex their authority rather than what makes business sense. They love creating competitive atmospheres where everyone fights for their approval like gladiators in a corporate arena. They use their control over schedules, assignments, and opportunities as weapons to reward loyalty and punish independence.\n\nThis boss feeds off the fear and anxiety they create like an emotional vampire. They've turned their management position into a platform for psychological dominance rather than professional leadership. Working for them feels like being trapped in an abusive relationship with someone who holds your paycheck hostage."
     },
     "two_faced_climber": {
-      "name": "The Two-Faced Climber",
-      "short_description": "Sweet as pie to their superiors, but treats subordinates like disposable trash.",
-      "detailed_description": "This boss has perfected the art of selective personality deployment. Watch them interact with someone more senior, and you'll see charm, deference, and eager helpfulness. Watch them with you and your colleagues, and you'll see dismissiveness, impatience, and barely concealed contempt. They're Dr. Jekyll and Mr. Hyde, but the transformation is based entirely on power dynamics.\n\nThey'll throw you under the bus to make themselves look good to upper management without a second thought. They steal your ideas and present them upward while simultaneously criticizing your 'lack of initiative' downward. They're masters of managing up while crushing down.\n\nIn meetings with higher-ups, they're collaborative and solution-oriented. In meetings with just your team, they're demanding and critical. They save their worst behavior for when there are no witnesses who matter to their career advancement. They understand exactly how the organizational power structure works and exploit it ruthlessly.\n\nWorking for them means you're invisible when things go well and highly visible when someone needs to take the blame.",
-      "in_depth_analysis": "The two-faced climber represents one of the most calculated and strategic forms of workplace toxicity. Unlike bosses who are consistently terrible to everyone, these individuals have made a conscious choice to treat people differently based solely on their perceived value to their own career advancement. This isn't just bad management—it's sociopathic career strategy.\n\nThis behavior pattern reveals a fundamental character flaw: the complete absence of consistent values or authentic relationships. Your boss has reduced all human interactions to transactional calculations about personal benefit. They don't see subordinates as people deserving of respect; they see them as resources to be exploited or obstacles to be managed.\n\nPsychologically, two-faced climbers often suffer from what researchers call 'Machiavellian personality traits'—a willingness to manipulate and deceive others for personal gain. They typically have low empathy, high self-interest, and an instrumental view of relationships. They may also have narcissistic tendencies, viewing their success as more important than the well-being of those around them.\n\nFor employees, working under a two-faced climber creates a particularly insidious form of psychological damage. You're forced to watch someone you know is untrustworthy and manipulative be rewarded and promoted based on their performance with people who don't see their true nature. This can create profound cynicism about workplace fairness and meritocracy.\n\nThe organizational impact is devastating but often hidden. Upper management sees a competent, loyal employee who delivers results and manages their team effectively. They don't see the turnover, the demoralization, the lost innovation, and the ethical compromises happening below their line of sight. The two-faced climber has essentially created two different realities within the same organization.\n\nMost dangerously, these individuals often do advance in their careers, at least in the short term. Their willingness to sacrifice others for personal gain can be quite effective in dysfunctional organizations, which means they often gain more power and influence over time, expanding their capacity for harm while becoming increasingly difficult to hold accountable."
+      "title": "The Two-Faced Climber",
+      "description": "Your boss is basically two different people: a charming angel to superiors and a cold demon to everyone else. They've perfected the art of selective personality disorder.",
+      "extended": "Your boss should win an Academy Award for their performance as a completely different person depending on who they're talking to. Watch them with senior leadership and you'll see charm, enthusiasm, and eager collaboration. Watch them with direct reports and you'll see dismissiveness, impatience, and barely concealed contempt.\n\nThey'll sacrifice subordinates to make themselves look good to upper management without hesitation. They steal ideas and present them upward while simultaneously criticizing the lack of innovation from those below. They're masters of managing up while crushing down with ruthless efficiency.\n\nIn meetings with higher-ups, they're collaborative problem-solvers. In meetings with just their team, they're demanding dictators. They save their worst behavior for when there are no witnesses who matter to their career advancement. They understand organizational power structures like a political scientist and exploit them with surgical precision.\n\nThis boss views relationships as transactions and career advancement as their primary religion. They've made climbing the corporate ladder their life's mission, with treating people decently as an optional extra that depends entirely on what those people can do for their next promotion."
     },
     "empty_promise_specialist": {
-      "name": "The Empty Promise Specialist",
-      "short_description": "They're always going to fix things 'soon' but somehow that day never comes.",
-      "detailed_description": "This boss is a master of the non-committal commitment. They'll promise you promotions, raises, better working conditions, new equipment, additional staff, or whatever you need to hear to stop asking questions and keep working. But somehow, these promises exist in a perpetual state of 'soon' that never actually arrives.\n\nThey have an arsenal of excuses ready for why things haven't happened yet: budget freezes, corporate restructuring, timing issues, or the ever-popular 'I'm working on it behind the scenes.' They make you feel like you should be grateful for their efforts and patient with the process, even when there's clearly no process at all.\n\nThey use these false promises to manipulate your behavior and buy time when they're under pressure. Need better resources? They'll promise them next quarter. Frustrated with your role? They'll promise a promotion review soon. Overworked? They'll promise to hire help just as soon as HR approves it.\n\nWorking for them means living in a constant state of 'almost' where good things are always just around the corner but never actually materialize.",
-      "in_depth_analysis": "The empty promise specialist represents a particularly cruel form of manipulation because they exploit hope and patience—two of the most positive human qualities—to maintain an unsustainable status quo. They've discovered that making promises costs nothing and buys them significant time and compliance, regardless of their intention or ability to follow through.\n\nThis behavior pattern often stems from conflict avoidance and a desire to be seen as helpful and responsive without actually having to do the difficult work of addressing systemic problems. Your boss may genuinely want to help but lacks the courage, authority, or competence to make real changes. Rather than being honest about these limitations, they choose the easier path of making empty promises.\n\nPsychologically, repeated exposure to empty promises creates a phenomenon similar to intermittent reinforcement, which is actually one of the most addictive patterns in psychology. Just like gamblers who keep playing despite consistent losses because they're hoping for the next win, employees keep believing promises despite consistent disappointment because hope is incredibly powerful.\n\nFor employees, this creates a particularly frustrating form of psychological manipulation. You want to believe your boss is working in your interest, and their promises provide just enough hope to keep you engaged and prevent you from seeking alternatives. Meanwhile, your career stagnates and your working conditions remain unchanged while you wait for improvements that will never come.\n\nThe organizational impact includes decreased morale, increased cynicism, and eventual talent drain as employees finally realize the pattern and seek opportunities elsewhere. The empty promise specialist creates a culture where words have no meaning and commitments are worthless, which undermines trust throughout the organization.\n\nMost insidiously, these bosses often frame employee frustration with broken promises as impatience or unreasonable expectations. They gaslight their team into believing that pointing out unfulfilled commitments is somehow unprofessional or ungrateful, rather than a reasonable response to being repeatedly misled."
+      "title": "The Empty Promise Specialist",
+      "description": "Your boss has turned promise-making into performance art. They can pledge anything with a straight face while having zero intention of delivering.",
+      "extended": "Your boss promises promotions, raises, better conditions, new equipment, additional staff, and basically whatever people need to hear to stop asking questions and keep working. These promises exist in a permanent state of 'soon' that has the same energy as a software release date.\n\nThey have an impressive arsenal of excuses for why nothing has materialized yet: budget freezes, corporate restructuring, timing issues, or the classic 'I'm working on it behind the scenes.' They make people feel ungrateful for expecting them to actually follow through on their commitments.\n\nThey use false promises like emotional currency to buy compliance and maintain hope when people are getting frustrated. Need better resources? They'll promise them next quarter. Frustrated with your role? They'll promise a promotion review soon. Overworked? They'll promise to hire help as soon as HR gets their act together.\n\nThis boss has discovered that making promises costs nothing and buys significant time and compliance, regardless of their ability or intention to deliver. They've essentially turned hope into a management tool for maintaining the status quo while everyone waits for improvements that will never come."
     },
     "drama_queen_boss": {
-      "name": "The Drama Queen Boss",
-      "short_description": "Every minor issue becomes a catastrophic crisis that ruins their entire day.",
-      "detailed_description": "This boss treats every workplace hiccup like a personal tragedy worthy of a soap opera. A delayed email becomes a communication breakdown. A minor error becomes a quality crisis. A scheduling conflict becomes evidence that the entire team is falling apart. They have a flair for the dramatic that would be impressive if it weren't so exhausting to work with.\n\nThey react to normal business challenges with emotional responses that are wildly disproportionate to the actual impact. They use words like 'disaster,' 'catastrophe,' and 'nightmare' to describe situations that could be solved with a five-minute conversation. They seem to genuinely believe that their heightened emotional response somehow helps solve problems.\n\nThey love being the center of attention during any crisis (real or manufactured) and often seem more invested in processing their feelings about problems than actually solving them. They expect their emotional state to become everyone else's priority, and they're genuinely surprised when people don't share their level of distress about minor issues.\n\nWorking for them means you're constantly managing their emotions instead of focusing on actual work priorities.",
-      "in_depth_analysis": "The drama queen boss represents an exhausting form of emotional labor exploitation where employees are forced to become amateur therapists and crisis counselors rather than focusing on their actual job responsibilities. This type of boss has failed to develop the emotional regulation skills necessary for professional leadership, instead outsourcing their emotional management to their team.\n\nThis behavior often stems from a combination of anxiety, attention-seeking behavior, and poor emotional intelligence. Your boss may have learned that dramatic responses get attention and make them feel important, or they might genuinely experience normal workplace stress as overwhelming due to poor coping mechanisms and unrealistic expectations about how smooth business operations should be.\n\nPsychologically, drama queen bosses create what researchers call 'emotional contagion' in the workplace—their heightened emotional states spread to their team members, creating unnecessary stress and anxiety throughout the organization. Employees start to anticipate and prepare for their boss's dramatic reactions, which diverts mental energy away from productive work.\n\nFor team members, working under a drama queen boss is mentally and emotionally exhausting. You find yourself walking on eggshells to avoid triggering their next meltdown, spending time managing their emotional responses to normal business challenges, and often feeling like you need to be the adult in the relationship despite them being in the position of authority.\n\nThe organizational impact includes decreased productivity (because people spend time managing the boss's emotions), increased stress-related health issues among employees, and difficulty maintaining professional relationships with clients and partners who witness the dramatic behavior. It also creates a culture where problems are more likely to be hidden than addressed, since bringing issues to the drama queen boss's attention guarantees an outsized emotional response.\n\nMost problematically, drama queen bosses often frame their emotional volatility as 'passion' or 'caring deeply about the work.' They may genuinely believe that their dramatic reactions demonstrate commitment rather than poor emotional regulation, making them resistant to feedback about how their behavior affects others."
+      "title": "The Drama Queen Boss",
+      "description": "Your boss reacts to minor workplace hiccups like they're directing a disaster movie. Everything is a crisis worthy of an Emmy nomination.",
+      "extended": "Your boss treats normal business challenges with emotional responses that would be excessive for actual emergencies. A delayed email becomes a communication catastrophe. A minor scheduling conflict becomes evidence that the universe is conspiring against them. A small mistake becomes a threat to the company's very existence.\n\nThey use words like 'disaster,' 'catastrophe,' and 'nightmare' to describe situations that could be solved with a phone call. They seem genuinely convinced that their theatrical response somehow helps solve problems when really it just creates more stress for everyone else.\n\nThey love being the center of attention during any crisis and often seem more invested in processing their feelings about problems than actually fixing them. They expect their emotional state to become everyone's priority and are shocked when people don't share their level of distress about minor issues.\n\nThis boss never learned that emotional regulation is a basic job requirement for adults, let alone leaders. They've turned their workplace into their personal therapy session where everyone else has to manage their emotions while trying to get actual work done."
+    },
+    "boundary_stomping_maniac": {
+      "title": "The Boundary-Stomping Maniac",
+      "description": "Your boss treats your personal time, space, and sanity like optional suggestions rather than basic human rights.",
+      "extended": "Your boss genuinely cannot understand why you wouldn't want to receive work texts at midnight or discuss quarterly reports during your grandmother's funeral. They view boundaries as obstacles to overcome rather than reasonable limits to respect, and they take any attempt at work-life balance as a personal rejection of their leadership.\n\nThey contact you during vacations, schedule 'urgent' meetings during lunch breaks, and somehow always have critical requests right as you're walking out the door. They share inappropriate details about their personal life and expect the same level of uncomfortable oversharing from you.\n\nThey feel entitled to know details about your life that have nothing to do with work and get offended when you don't volunteer information. They read over your shoulder, go through your desk, and comment on personal items in your workspace like they're conducting a lifestyle audit.\n\nThis boss has never learned that respecting boundaries actually improves relationships and productivity. They mistake invasiveness for caring and boundary-crushing for dedication. Working for them is exhausting because you can never truly disconnect from work or feel safe in your personal space."
+    },
+    "credit_stealing_parasite": {
+      "title": "The Credit-Stealing Parasite",
+      "description": "Your boss could steal credit from the inventor of fire and somehow convince everyone they discovered combustion.",
+      "extended": "Your boss has supernatural abilities when it comes to absorbing credit for work they had nothing to do with. That innovative solution you developed overnight? They'll present it as their strategic vision. That successful project you managed while they were on vacation? They'll explain how their guidance made it possible.\n\nThey're masters of revisionist history who gradually edit their role in successes until they become the hero of every story. They use 'we' when taking credit and 'you' when assigning blame with the precision of a legal document. They have selective memory about who actually did the work but somehow always remember their contributions as being massive.\n\nThey steal ideas in meetings by rephrasing your suggestions and presenting them like they just had an epiphany. They take your written work, make cosmetic changes, and present it as collaborative effort. They attend your presentations and somehow become co-presenters without contributing any actual content.\n\nThis boss has built their entire reputation on other people's work while contributing the leadership equivalent of thoughts and prayers. They're professional parasites who drain recognition from their teams while inflating their own careers through stolen achievements."
     },
     "reasonable_boss": {
-      "name": "The Reasonable Boss",
-      "short_description": "Wait... your boss might actually be a decent human being trying to do a good job.",
-      "detailed_description": "Here's a plot twist: after going through all your responses, it appears your boss might actually be one of the rare ones who treats people with respect, communicates clearly, and manages fairly. They provide feedback constructively, handle conflicts professionally, and seem to genuinely care about both the work and the people doing it.\n\nThey acknowledge their mistakes, give credit where it's due, and don't let their personal moods become everyone else's problem. They set reasonable expectations, respect boundaries, and understand that managing people requires patience, empathy, and actual leadership skills. They're the kind of boss who makes work feel manageable and collaborative rather than adversarial.\n\nIf this is accurate, you've hit the workplace lottery. Good bosses are unfortunately rare, and many people go their entire careers without experiencing competent, respectful management. They exist, but they're overshadowed by the legions of power-trippers, micromanagers, and emotional disasters that somehow end up in leadership positions.\n\nThe fact that you took this test suggests you might have some concerns, but maybe those concerns are about workplace dynamics in general rather than your specific boss being a dick.",
-      "in_depth_analysis": "If your boss truly falls into the reasonable category, you're experiencing something that should be normal but has become remarkably rare: competent, ethical leadership. This represents what management should look like when people with appropriate skills, emotional intelligence, and genuine leadership capabilities are placed in positions of authority.\n\nReasonable bosses typically share several key characteristics: they have strong emotional regulation skills, they understand that their role is to support and develop their team rather than dominate them, they can separate their personal feelings from professional decisions, and they recognize that treating people well isn't just morally right—it's also more effective for achieving business objectives.\n\nPsychologically, working for a reasonable boss creates the conditions for optimal performance: psychological safety, clear expectations, appropriate autonomy, and genuine support for professional development. This environment allows employees to take reasonable risks, contribute ideas, admit mistakes, and focus their energy on productive work rather than self-protection and boss management.\n\nHowever, it's worth examining why you took this test in the first place. Even with good bosses, workplace stress can come from organizational dysfunction, unclear company direction, unrealistic demands from upper management, or simply the inherent challenges of modern work life. Sometimes the problem isn't your immediate boss but the systems and pressures they're operating within.\n\nIt's also possible that your boss is generally reasonable but has some specific behaviors or communication patterns that concern you. Good management isn't perfect management, and even competent bosses can have blind spots, bad days, or areas where they need to improve.\n\nIf you truly have a reasonable boss, consider yourself fortunate but don't become complacent. Good bosses can leave, get promoted, or burn out from dealing with the same organizational dysfunction that affects everyone else. Appreciate what you have while also continuing to develop your own skills and professional network, because the workplace lottery doesn't always stay in your favor."
-    },
-    "maybe_you_suck": {
-      "name": "The Problem Employee",
-      "short_description": "Plot twist: Maybe your boss isn't the dick here. Maybe you need to look in the mirror.",
-      "detailed_description": "This is going to sting, but based on your answers, there's a possibility that you might be the difficult one in this relationship. Your responses suggest patterns that could indicate you're not taking responsibility for your own performance, attitude, or behavior at work.\n\nGood employees typically don't have consistently negative experiences with reasonable management. If you find yourself frequently at odds with authority, making excuses for missed deadlines, or feeling like everyone else is the problem, it might be time for some honest self-reflection. Your boss's 'unreasonable' expectations might actually be completely normal professional standards.\n\nThis doesn't mean you're a terrible person—it means you might need to develop better work habits, communication skills, or professional attitudes. Many people struggle with workplace dynamics, and recognizing areas for improvement is actually the first step toward becoming a more valuable and satisfied employee.\n\nThe good news is that unlike changing your boss (which you can't do), you can absolutely change your own behavior and approach to work.",
-      "in_depth_analysis": "If you fall into this category, it's important to approach this feedback with curiosity rather than defensiveness. The fact that you took a test about your boss being a 'dick' suggests you're experiencing workplace frustration, but the root cause might be different than you initially thought.\n\nCommon patterns among problem employees include: consistently missing deadlines while blaming external factors, having difficulty accepting feedback or criticism, feeling like rules and expectations don't apply to them, creating drama or conflict with colleagues, having poor communication skills, or displaying entitlement about workplace benefits and opportunities.\n\nPsychologically, it's much easier to blame external factors (like a 'bad boss') than to examine our own contributions to workplace problems. This is a normal human tendency called the 'fundamental attribution error'—we attribute our own problems to circumstances while attributing others' problems to their character flaws.\n\nHowever, recognizing that you might be part of the problem is actually empowering because it means you have control over the solution. You can't change your boss's personality, but you can absolutely improve your own work performance, communication style, and professional behavior.\n\nSome areas to honestly evaluate: Are you meeting deadlines consistently? Do you communicate proactively about challenges? Do you accept feedback gracefully? Are you contributing positively to team dynamics? Do you take initiative appropriately? Are your expectations about work, management, and career advancement realistic?\n\nThe goal isn't to become a doormat or accept genuinely abusive treatment. The goal is to become the kind of employee that good bosses want to support and develop. When you demonstrate reliability, professionalism, and a positive attitude, you're much more likely to receive better treatment and opportunities.\n\nMost importantly, developing these skills will serve you throughout your career, regardless of who you work for. Being a strong employee gives you options and leverage that complaining about bad bosses never will."
+      "title": "The Reasonable Boss",
+      "description": "Holy cow, plot twist: Your boss might actually be a functional human being who treats people with basic dignity and competence.",
+      "extended": "After analyzing your responses, it appears your boss might be one of those mythical creatures who understands that management is about supporting people rather than crushing their souls for sport. They provide feedback without destroying self-esteem, handle conflicts without creating more drama, and seem to grasp that employees are humans with lives outside work.\n\nThey acknowledge their mistakes instead of blaming everyone else, give credit where it's due instead of stealing it, and don't let their personal emotional disasters become everyone else's problem. They set reasonable expectations, respect boundaries, and understand that leadership requires actual skills rather than just a title and a power complex.\n\nIf this assessment is accurate, you've basically won the workplace lottery. Functional bosses are rarer than unicorns in most industries, overshadowed by legions of micromanagers, narcissists, and emotional vampires who somehow convinced someone to give them authority over other humans.\n\nThe fact that you took this test suggests you might have concerns, but maybe those are about workplace dynamics in general rather than your specific boss being a psychological nightmare. Consider yourself lucky and use this experience to learn what competent leadership actually looks like, because you might never see it again."
     }
   }
 }

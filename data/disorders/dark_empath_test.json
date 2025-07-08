@@ -1,610 +1,708 @@
 {
+  "testId": "dark-empath",
   "title": "Dark Empath Test",
   "description": "Do you use empathy as a weapon?",
+  "traits": {
+    "pure_empath": "Uses emotional intelligence purely for helping and healing others",
+    "protective_empath": "Uses empathy strategically but primarily for protection and boundaries",
+    "strategic_empath": "Combines genuine empathy with calculated emotional intelligence",
+    "classic_dark_empath": "Weaponizes emotional understanding for personal gain while maintaining empathy",
+    "emotional_predator": "Uses empathy primarily as a hunting tool to exploit vulnerabilities",
+    "cold_manipulator": "Understands emotions intellectually but uses them purely for control",
+    "conflicted_empath": "Struggles between genuine care and manipulative impulses",
+    "balanced_dark_empath": "Adapts between authentic empathy and strategic manipulation",
+    "emotional_novice": "Still developing emotional intelligence and hasn't learned to weaponize it",
+    "empathic_healer": "Uses emotional understanding to transform pain into healing for others",
+    "shadow_empath": "Hides manipulative tendencies behind a caring facade",
+    "adaptive_empath": "Changes empathic approach based on what the situation requires"
+  },
   "questions": [
     {
-      "q": "When you see someone crying in public, what's your most honest first reaction?",
-      "options": [
+      "question": "When someone opens up to you about a painful experience, what's honestly going through your mind?",
+      "answers": [
         {
-          "text": "I feel their pain deeply and want to help comfort them",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 0, "pure_empath": 5, "protective_empath": 3, "strategic_empath": 2, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 1, "balanced_dark_empath": 1, "emotional_novice": 1, "empathic_healer": 5 }
+          "text": "I feel their pain deeply and want to help them heal",
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "classic_dark_empath": 1}
         },
         {
-          "text": "I wonder what happened and feel sympathetic toward their situation",
-          "weights": { "empathy": 4, "dark_traits": 0, "manipulation": 0, "pure_empath": 4, "protective_empath": 4, "strategic_empath": 3, "classic_dark_empath": 1, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 2, "balanced_dark_empath": 2, "emotional_novice": 3, "empathic_healer": 4 }
+          "text": "I'm honored they trust me and want to support them genuinely",
+          "traits": {"pure_empath": 4, "protective_empath": 4, "empathic_healer": 3, "strategic_empath": 2, "conflicted_empath": 2}
         },
         {
-          "text": "I analyze their body language and emotional state to understand what type of distress this is",
-          "weights": { "empathy": 3, "dark_traits": 2, "manipulation": 3, "pure_empath": 1, "protective_empath": 2, "strategic_empath": 4, "classic_dark_empath": 3, "emotional_predator": 2, "cold_manipulator": 3, "conflicted_empath": 3, "balanced_dark_empath": 4, "emotional_novice": 1, "empathic_healer": 2 }
+          "text": "I empathize but also recognize this creates a special bond between us",
+          "traits": {"strategic_empath": 4, "balanced_dark_empath": 4, "conflicted_empath": 3, "classic_dark_empath": 2, "protective_empath": 2}
         },
         {
-          "text": "I assess whether approaching them could be useful or beneficial to me somehow",
-          "weights": { "empathy": 2, "dark_traits": 4, "manipulation": 4, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 2, "classic_dark_empath": 4, "emotional_predator": 4, "cold_manipulator": 4, "conflicted_empath": 1, "balanced_dark_empath": 3, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I feel for them but also realize this vulnerability gives me insight into who they really are",
+          "traits": {"classic_dark_empath": 4, "shadow_empath": 4, "strategic_empath": 3, "balanced_dark_empath": 3, "emotional_predator": 2}
         },
         {
-          "text": "I see an opportunity to position myself as their rescuer and gain their loyalty",
-          "weights": { "empathy": 1, "dark_traits": 5, "manipulation": 5, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 1, "classic_dark_empath": 5, "emotional_predator": 5, "cold_manipulator": 3, "conflicted_empath": 0, "balanced_dark_empath": 2, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I'm cataloging this information about their weak spots for future reference",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 3, "classic_dark_empath": 2, "adaptive_empath": 1}
         }
       ]
     },
     {
-      "q": "Your friend tells you they're struggling with depression and feeling hopeless. What's your genuine internal response?",
-      "options": [
+      "question": "You notice someone is attracted to you but trying to hide it. How does this knowledge affect your behavior?",
+      "answers": [
         {
-          "text": "My heart breaks for them and I want to do whatever I can to support them through this",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 0, "pure_empath": 5, "protective_empath": 4, "strategic_empath": 2, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 1, "balanced_dark_empath": 1, "emotional_novice": 2, "empathic_healer": 5 }
+          "text": "I'm flattered but don't change how I act around them",
+          "traits": {"pure_empath": 4, "protective_empath": 4, "emotional_novice": 3, "empathic_healer": 2, "strategic_empath": 1}
         },
         {
-          "text": "I feel worried about them and want to help while also protecting my own emotional energy",
-          "weights": { "empathy": 4, "dark_traits": 1, "manipulation": 1, "pure_empath": 3, "protective_empath": 5, "strategic_empath": 3, "classic_dark_empath": 1, "emotional_predator": 0, "cold_manipulator": 1, "conflicted_empath": 3, "balanced_dark_empath": 3, "emotional_novice": 2, "empathic_healer": 3 }
+          "text": "I'm more conscious of being kind since I know they have feelings",
+          "traits": {"protective_empath": 4, "pure_empath": 3, "empathic_healer": 3, "conflicted_empath": 2, "strategic_empath": 2}
         },
         {
-          "text": "I understand their pain but also see how their vulnerability creates an opportunity for deeper connection",
-          "weights": { "empathy": 3, "dark_traits": 2, "manipulation": 3, "pure_empath": 1, "protective_empath": 2, "strategic_empath": 4, "classic_dark_empath": 3, "emotional_predator": 2, "cold_manipulator": 2, "conflicted_empath": 4, "balanced_dark_empath": 4, "emotional_novice": 1, "empathic_healer": 1 }
+          "text": "I subtly adjust my behavior to be more charming since I know it'll work",
+          "traits": {"strategic_empath": 4, "balanced_dark_empath": 4, "adaptive_empath": 3, "classic_dark_empath": 2, "shadow_empath": 2}
         },
         {
-          "text": "I recognize this as a chance to become indispensable to them during their vulnerable state",
-          "weights": { "empathy": 2, "dark_traits": 4, "manipulation": 4, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 2, "classic_dark_empath": 4, "emotional_predator": 4, "cold_manipulator": 3, "conflicted_empath": 2, "balanced_dark_empath": 3, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I use their attraction to get things I want from them",
+          "traits": {"classic_dark_empath": 4, "emotional_predator": 4, "shadow_empath": 3, "cold_manipulator": 3, "balanced_dark_empath": 2}
         },
         {
-          "text": "I see their weakness as something I can exploit to gain control over the relationship",
-          "weights": { "empathy": 1, "dark_traits": 5, "manipulation": 5, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 0, "classic_dark_empath": 4, "emotional_predator": 5, "cold_manipulator": 5, "conflicted_empath": 0, "balanced_dark_empath": 1, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I play with their emotions, giving just enough attention to keep them hooked",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 4, "classic_dark_empath": 3, "adaptive_empath": 2}
         }
       ]
     },
     {
-      "q": "During a heated argument, you notice the exact moment when the other person's confidence breaks and they become emotionally vulnerable. What do you do?",
-      "options": [
+      "question": "During an argument, you spot the exact moment when someone's confidence breaks. What do you do?",
+      "answers": [
         {
-          "text": "I soften my approach and try to de-escalate because I can see they're genuinely hurt",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 0, "pure_empath": 5, "protective_empath": 4, "strategic_empath": 2, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 2, "balanced_dark_empath": 1, "emotional_novice": 2, "empathic_healer": 5 }
+          "text": "I soften my approach because I can see they're genuinely hurt",
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 3, "conflicted_empath": 2, "strategic_empath": 1}
         },
         {
-          "text": "I recognize their vulnerability but continue making my point, just more gently",
-          "weights": { "empathy": 3, "dark_traits": 2, "manipulation": 2, "pure_empath": 2, "protective_empath": 3, "strategic_empath": 4, "classic_dark_empath": 2, "emotional_predator": 1, "cold_manipulator": 2, "conflicted_empath": 4, "balanced_dark_empath": 4, "emotional_novice": 2, "empathic_healer": 2 }
+          "text": "I recognize their vulnerability but continue making my point more gently",
+          "traits": {"protective_empath": 4, "strategic_empath": 4, "conflicted_empath": 3, "balanced_dark_empath": 2, "pure_empath": 2}
         },
         {
-          "text": "I use this moment to pivot and position myself as the reasonable one who understands them",
-          "weights": { "empathy": 2, "dark_traits": 3, "manipulation": 4, "pure_empath": 0, "protective_empath": 1, "strategic_empath": 3, "classic_dark_empath": 4, "emotional_predator": 3, "cold_manipulator": 3, "conflicted_empath": 3, "balanced_dark_empath": 4, "emotional_novice": 1, "empathic_healer": 0 }
+          "text": "I use this moment to position myself as the understanding one",
+          "traits": {"strategic_empath": 4, "classic_dark_empath": 4, "balanced_dark_empath": 3, "shadow_empath": 3, "adaptive_empath": 2}
         },
         {
-          "text": "I press my advantage harder now that I know I've gotten to them emotionally",
-          "weights": { "empathy": 1, "dark_traits": 4, "manipulation": 4, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 1, "classic_dark_empath": 3, "emotional_predator": 4, "cold_manipulator": 4, "conflicted_empath": 1, "balanced_dark_empath": 2, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I press my advantage harder now that I know I've gotten to them",
+          "traits": {"emotional_predator": 4, "cold_manipulator": 4, "shadow_empath": 3, "classic_dark_empath": 2, "balanced_dark_empath": 1}
         },
         {
-          "text": "I go in for the kill - this is the perfect moment to destroy their argument and confidence completely",
-          "weights": { "empathy": 0, "dark_traits": 5, "manipulation": 5, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 0, "classic_dark_empath": 2, "emotional_predator": 5, "cold_manipulator": 5, "conflicted_empath": 0, "balanced_dark_empath": 1, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "Perfect moment to completely destroy their argument and confidence",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 5, "shadow_empath": 2, "adaptive_empath": 1, "classic_dark_empath": 1}
         }
       ]
     },
     {
-      "q": "You can sense that someone is attracted to you but trying to hide it. How does this knowledge affect your behavior toward them?",
-      "options": [
+      "question": "Your friend confides they're worried about losing their job. What's your genuine first thought?",
+      "answers": [
         {
-          "text": "I'm flattered but don't change my behavior - I let things develop naturally if there's mutual interest",
-          "weights": { "empathy": 4, "dark_traits": 0, "manipulation": 0, "pure_empath": 4, "protective_empath": 4, "strategic_empath": 2, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 1, "balanced_dark_empath": 1, "emotional_novice": 3, "empathic_healer": 3 }
+          "text": "I feel genuinely concerned and want to help them figure out a solution",
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "conflicted_empath": 1}
         },
         {
-          "text": "I'm more conscious of being kind to them since I know they have feelings, but I stay authentic",
-          "weights": { "empathy": 4, "dark_traits": 1, "manipulation": 1, "pure_empath": 3, "protective_empath": 4, "strategic_empath": 3, "classic_dark_empath": 1, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 3, "balanced_dark_empath": 2, "emotional_novice": 2, "empathic_healer": 4 }
+          "text": "I empathize with their stress but also wonder how this affects my own situation",
+          "traits": {"protective_empath": 4, "strategic_empath": 4, "conflicted_empath": 3, "balanced_dark_empath": 2, "pure_empath": 2}
         },
         {
-          "text": "I subtly adjust my behavior to be more charming since I know it will have an effect",
-          "weights": { "empathy": 2, "dark_traits": 3, "manipulation": 3, "pure_empath": 1, "protective_empath": 2, "strategic_empath": 4, "classic_dark_empath": 3, "emotional_predator": 2, "cold_manipulator": 3, "conflicted_empath": 4, "balanced_dark_empath": 4, "emotional_novice": 1, "empathic_healer": 1 }
+          "text": "I feel for them but also see this as valuable information about workplace dynamics",
+          "traits": {"strategic_empath": 4, "balanced_dark_empath": 4, "adaptive_empath": 3, "classic_dark_empath": 2, "shadow_empath": 2}
         },
         {
-          "text": "I use their attraction to get favors, attention, or special treatment from them",
-          "weights": { "empathy": 1, "dark_traits": 4, "manipulation": 4, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 2, "classic_dark_empath": 4, "emotional_predator": 4, "cold_manipulator": 4, "conflicted_empath": 2, "balanced_dark_empath": 3, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I see an opportunity to be their hero during this vulnerable time",
+          "traits": {"classic_dark_empath": 4, "shadow_empath": 4, "emotional_predator": 3, "balanced_dark_empath": 2, "strategic_empath": 2}
         },
         {
-          "text": "I deliberately play with their emotions - giving just enough attention to keep them hooked",
-          "weights": { "empathy": 1, "dark_traits": 5, "manipulation": 5, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 1, "classic_dark_empath": 4, "emotional_predator": 5, "cold_manipulator": 4, "conflicted_empath": 1, "balanced_dark_empath": 2, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I could use their insecurity to my advantage or even help push them out",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 3, "adaptive_empath": 2, "classic_dark_empath": 1}
         }
       ]
     },
     {
-      "q": "Your coworker confides that they're worried about job security and fear getting fired. What goes through your mind?",
-      "options": [
+      "question": "At a party, you see someone sitting alone looking uncomfortable. What's your honest impulse?",
+      "answers": [
         {
-          "text": "I feel genuinely concerned for them and want to offer support or advice if I can help",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 0, "pure_empath": 5, "protective_empath": 4, "strategic_empath": 2, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 1, "balanced_dark_empath": 1, "emotional_novice": 2, "empathic_healer": 5 }
+          "text": "I genuinely want to include them and make them feel welcome",
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 3, "emotional_novice": 2, "strategic_empath": 1}
         },
         {
-          "text": "I empathize with their stress but also wonder if this affects my own position at work",
-          "weights": { "empathy": 3, "dark_traits": 2, "manipulation": 1, "pure_empath": 2, "protective_empath": 4, "strategic_empath": 4, "classic_dark_empath": 1, "emotional_predator": 1, "cold_manipulator": 2, "conflicted_empath": 4, "balanced_dark_empath": 4, "emotional_novice": 2, "empathic_healer": 2 }
+          "text": "I empathize with their discomfort and consider approaching if it feels natural",
+          "traits": {"pure_empath": 4, "protective_empath": 4, "empathic_healer": 3, "strategic_empath": 2, "conflicted_empath": 2}
         },
         {
-          "text": "I feel for them but also recognize this as valuable information about workplace dynamics",
-          "weights": { "empathy": 3, "dark_traits": 3, "manipulation": 3, "pure_empath": 1, "protective_empath": 2, "strategic_empath": 4, "classic_dark_empath": 3, "emotional_predator": 2, "cold_manipulator": 3, "conflicted_empath": 3, "balanced_dark_empath": 4, "emotional_novice": 1, "empathic_healer": 1 }
+          "text": "I wonder if being their social rescuer would make me look good to others",
+          "traits": {"strategic_empath": 3, "classic_dark_empath": 3, "shadow_empath": 3, "balanced_dark_empath": 2, "adaptive_empath": 2}
         },
         {
-          "text": "I see an opportunity to position myself better by being supportive while they're vulnerable",
-          "weights": { "empathy": 2, "dark_traits": 4, "manipulation": 4, "pure_empath": 0, "protective_empath": 1, "strategic_empath": 2, "classic_dark_empath": 4, "emotional_predator": 4, "cold_manipulator": 3, "conflicted_empath": 2, "balanced_dark_empath": 3, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I see them as someone who might be grateful and loyal if I help them",
+          "traits": {"classic_dark_empath": 4, "emotional_predator": 4, "shadow_empath": 3, "cold_manipulator": 2, "balanced_dark_empath": 2}
         },
         {
-          "text": "I realize I could use their insecurity to my advantage or even undermine them further",
-          "weights": { "empathy": 0, "dark_traits": 5, "manipulation": 5, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 0, "classic_dark_empath": 3, "emotional_predator": 5, "cold_manipulator": 5, "conflicted_empath": 0, "balanced_dark_empath": 1, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "They look like an easy target who'd be desperate for any attention",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 2, "adaptive_empath": 1, "classic_dark_empath": 1}
         }
       ]
     },
     {
-      "q": "You're at a party and notice someone sitting alone looking uncomfortable and out of place. What's your most honest impulse?",
-      "options": [
+      "question": "Someone shares a deeply personal trauma with you. What's happening inside your head?",
+      "answers": [
         {
-          "text": "I feel bad for them and genuinely want to include them and make them feel welcome",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 0, "pure_empath": 5, "protective_empath": 4, "strategic_empath": 2, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 1, "balanced_dark_empath": 1, "emotional_novice": 2, "empathic_healer": 5 }
+          "text": "I'm honored by their trust and deeply moved by their courage",
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "conflicted_empath": 1}
         },
         {
-          "text": "I empathize with how they're feeling and consider approaching them if it feels natural",
-          "weights": { "empathy": 4, "dark_traits": 0, "manipulation": 1, "pure_empath": 4, "protective_empath": 4, "strategic_empath": 3, "classic_dark_empath": 1, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 2, "balanced_dark_empath": 2, "emotional_novice": 3, "empathic_healer": 4 }
+          "text": "I'm touched and want to respond with equal vulnerability and support",
+          "traits": {"pure_empath": 4, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "conflicted_empath": 2}
         },
         {
-          "text": "I wonder if being the person who rescues them socially could make me look good to others",
-          "weights": { "empathy": 2, "dark_traits": 3, "manipulation": 3, "pure_empath": 1, "protective_empath": 1, "strategic_empath": 3, "classic_dark_empath": 3, "emotional_predator": 2, "cold_manipulator": 2, "conflicted_empath": 3, "balanced_dark_empath": 3, "emotional_novice": 1, "empathic_healer": 1 }
+          "text": "I'm genuinely moved but also aware this creates a special connection",
+          "traits": {"strategic_empath": 4, "conflicted_empath": 4, "balanced_dark_empath": 3, "protective_empath": 2, "classic_dark_empath": 2}
         },
         {
-          "text": "I see them as potentially useful - someone who might be grateful and loyal if I help them",
-          "weights": { "empathy": 1, "dark_traits": 4, "manipulation": 4, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 2, "classic_dark_empath": 4, "emotional_predator": 4, "cold_manipulator": 4, "conflicted_empath": 1, "balanced_dark_empath": 2, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I feel for them but also realize this vulnerability gives me significant power",
+          "traits": {"classic_dark_empath": 4, "shadow_empath": 4, "emotional_predator": 3, "balanced_dark_empath": 2, "cold_manipulator": 2}
         },
         {
-          "text": "I recognize them as an easy target - someone I could easily manipulate or control",
-          "weights": { "empathy": 0, "dark_traits": 5, "manipulation": 5, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 0, "classic_dark_empath": 3, "emotional_predator": 5, "cold_manipulator": 5, "conflicted_empath": 0, "balanced_dark_empath": 1, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I'm filing this information away as potential ammunition for later",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 2, "adaptive_empath": 1, "classic_dark_empath": 1}
         }
       ]
     },
     {
-      "q": "Someone shares a deeply personal trauma with you during an intimate conversation. What's happening in your mind?",
-      "options": [
+      "question": "You realize your partner feels insecure about something specific. How do you handle this knowledge?",
+      "answers": [
         {
-          "text": "I feel honored by their trust and deeply moved by their courage in sharing something so personal",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 0, "pure_empath": 5, "protective_empath": 4, "strategic_empath": 2, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 1, "balanced_dark_empath": 1, "emotional_novice": 2, "empathic_healer": 5 }
+          "text": "I'm extra supportive about that area to help build their confidence",
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "conflicted_empath": 1}
         },
         {
-          "text": "I'm touched by their openness and want to respond with equal vulnerability and support",
-          "weights": { "empathy": 4, "dark_traits": 0, "manipulation": 1, "pure_empath": 4, "protective_empath": 4, "strategic_empath": 3, "classic_dark_empath": 1, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 2, "balanced_dark_empath": 2, "emotional_novice": 3, "empathic_healer": 4 }
+          "text": "I'm careful never to mention it and try to boost them in other ways",
+          "traits": {"protective_empath": 5, "pure_empath": 4, "empathic_healer": 3, "strategic_empath": 2, "conflicted_empath": 2}
         },
         {
-          "text": "I'm genuinely moved but also aware this creates a deeper bond and special connection between us",
-          "weights": { "empathy": 3, "dark_traits": 2, "manipulation": 2, "pure_empath": 2, "protective_empath": 3, "strategic_empath": 4, "classic_dark_empath": 2, "emotional_predator": 1, "cold_manipulator": 1, "conflicted_empath": 4, "balanced_dark_empath": 4, "emotional_novice": 1, "empathic_healer": 2 }
+          "text": "I'm conscious of their sensitivity and navigate our relationship accordingly",
+          "traits": {"strategic_empath": 4, "balanced_dark_empath": 4, "conflicted_empath": 3, "protective_empath": 2, "adaptive_empath": 2}
         },
         {
-          "text": "I feel for them but also realize this vulnerability gives me significant power in our relationship",
-          "weights": { "empathy": 2, "dark_traits": 4, "manipulation": 4, "pure_empath": 0, "protective_empath": 1, "strategic_empath": 2, "classic_dark_empath": 4, "emotional_predator": 3, "cold_manipulator": 3, "conflicted_empath": 3, "balanced_dark_empath": 3, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I sometimes subtly use their insecurity to maintain the upper hand",
+          "traits": {"classic_dark_empath": 4, "shadow_empath": 4, "emotional_predator": 3, "cold_manipulator": 2, "balanced_dark_empath": 2}
         },
         {
-          "text": "I catalog this information as ammunition I can use against them if needed in the future",
-          "weights": { "empathy": 0, "dark_traits": 5, "manipulation": 5, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 0, "classic_dark_empath": 2, "emotional_predator": 5, "cold_manipulator": 5, "conflicted_empath": 0, "balanced_dark_empath": 1, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I deliberately poke at it when I want to control or punish them",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 3, "adaptive_empath": 1, "classic_dark_empath": 1}
         }
       ]
     },
     {
-      "q": "You notice that your romantic partner feels insecure about a particular aspect of themselves. How do you handle this knowledge?",
-      "options": [
+      "question": "In a group, you notice one person being subtly excluded and they look hurt. What's your response?",
+      "answers": [
         {
-          "text": "I make sure to be extra supportive and loving about that area to help build their confidence",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 0, "pure_empath": 5, "protective_empath": 4, "strategic_empath": 2, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 1, "balanced_dark_empath": 1, "emotional_novice": 2, "empathic_healer": 5 }
+          "text": "I actively work to include them and make sure they feel valued",
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "emotional_novice": 1}
         },
         {
-          "text": "I'm careful never to mention it and try to boost their confidence in other ways",
-          "weights": { "empathy": 4, "dark_traits": 0, "manipulation": 1, "pure_empath": 4, "protective_empath": 5, "strategic_empath": 3, "classic_dark_empath": 1, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 2, "balanced_dark_empath": 2, "emotional_novice": 3, "empathic_healer": 4 }
+          "text": "I make an effort to draw them into the conversation naturally",
+          "traits": {"pure_empath": 4, "protective_empath": 4, "empathic_healer": 3, "strategic_empath": 2, "conflicted_empath": 2}
         },
         {
-          "text": "I'm conscious of their sensitivity and use this knowledge to navigate our relationship more effectively",
-          "weights": { "empathy": 3, "dark_traits": 2, "manipulation": 3, "pure_empath": 2, "protective_empath": 3, "strategic_empath": 4, "classic_dark_empath": 2, "emotional_predator": 1, "cold_manipulator": 2, "conflicted_empath": 4, "balanced_dark_empath": 4, "emotional_novice": 1, "empathic_healer": 2 }
+          "text": "I note the dynamics but focus on maintaining my own position",
+          "traits": {"strategic_empath": 4, "balanced_dark_empath": 3, "adaptive_empath": 3, "shadow_empath": 2, "protective_empath": 2}
         },
         {
-          "text": "I sometimes subtly use their insecurity to maintain the upper hand in our relationship",
-          "weights": { "empathy": 1, "dark_traits": 4, "manipulation": 4, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 1, "classic_dark_empath": 4, "emotional_predator": 4, "cold_manipulator": 4, "conflicted_empath": 2, "balanced_dark_empath": 3, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I see a chance to gain their gratitude by being the one who acknowledges them",
+          "traits": {"classic_dark_empath": 4, "shadow_empath": 3, "emotional_predator": 3, "balanced_dark_empath": 2, "strategic_empath": 2}
         },
         {
-          "text": "I deliberately poke at their insecurity when I want to control or punish them",
-          "weights": { "empathy": 0, "dark_traits": 5, "manipulation": 5, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 0, "classic_dark_empath": 3, "emotional_predator": 5, "cold_manipulator": 5, "conflicted_empath": 0, "balanced_dark_empath": 1, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I either ignore it or subtly participate in excluding them",
+          "traits": {"cold_manipulator": 4, "emotional_predator": 3, "shadow_empath": 2, "adaptive_empath": 2, "balanced_dark_empath": 1}
         }
       ]
     },
     {
-      "q": "During a group conversation, you can tell that one person is being subtly excluded and feels hurt. What's your response?",
-      "options": [
+      "question": "You discover someone has a secret fear that most people don't know about. What do you do with this?",
+      "answers": [
         {
-          "text": "I actively try to include them in the conversation and make sure they feel valued",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 0, "pure_empath": 5, "protective_empath": 4, "strategic_empath": 2, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 1, "balanced_dark_empath": 1, "emotional_novice": 2, "empathic_healer": 5 }
+          "text": "I feel protective and want to help them feel safe without drawing attention to it",
+          "traits": {"pure_empath": 5, "protective_empath": 5, "empathic_healer": 4, "strategic_empath": 2, "conflicted_empath": 1}
         },
         {
-          "text": "I make an effort to draw them into the conversation in a natural way",
-          "weights": { "empathy": 4, "dark_traits": 0, "manipulation": 1, "pure_empath": 4, "protective_empath": 4, "strategic_empath": 3, "classic_dark_empath": 1, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 2, "balanced_dark_empath": 2, "emotional_novice": 3, "empathic_healer": 4 }
-        },
-        {
-          "text": "I note the group dynamics but focus on maintaining my own social position",
-          "weights": { "empathy": 2, "dark_traits": 3, "manipulation": 2, "pure_empath": 1, "protective_empath": 2, "strategic_empath": 4, "classic_dark_empath": 2, "emotional_predator": 2, "cold_manipulator": 3, "conflicted_empath": 3, "balanced_dark_empath": 4, "emotional_novice": 2, "empathic_healer": 1 }
-        },
-        {
-          "text": "I see an opportunity to gain their gratitude by being the one person who acknowledges them",
-          "weights": { "empathy": 2, "dark_traits": 4, "manipulation": 4, "pure_empath": 0, "protective_empath": 1, "strategic_empath": 2, "classic_dark_empath": 4, "emotional_predator": 3, "cold_manipulator": 3, "conflicted_empath": 2, "balanced_dark_empath": 3, "emotional_novice": 0, "empathic_healer": 0 }
-        },
-        {
-          "text": "I either ignore it or subtly participate in their exclusion to maintain group harmony",
-          "weights": { "empathy": 0, "dark_traits": 4, "manipulation": 3, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 1, "classic_dark_empath": 2, "emotional_predator": 3, "cold_manipulator": 4, "conflicted_empath": 1, "balanced_dark_empath": 2, "emotional_novice": 1, "empathic_healer": 0 }
-        }
-      ]
-    },
-    {
-      "q": "You realize that someone has a deep fear or phobia that most people don't know about. How does this knowledge affect you?",
-      "options": [
-        {
-          "text": "I feel protective of them and want to help them feel safe without drawing attention to their fear",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 0, "pure_empath": 5, "protective_empath": 5, "strategic_empath": 2, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 1, "balanced_dark_empath": 1, "emotional_novice": 1, "empathic_healer": 5 }
-        },
-        {
-          "text": "I'm careful to be mindful of their fear and avoid situations that might trigger it",
-          "weights": { "empathy": 4, "dark_traits": 0, "manipulation": 0, "pure_empath": 4, "protective_empath": 4, "strategic_empath": 3, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 2, "balanced_dark_empath": 2, "emotional_novice": 3, "empathic_healer": 4 }
+          "text": "I'm careful to be mindful of their fear and avoid triggering it",
+          "traits": {"pure_empath": 4, "protective_empath": 4, "empathic_healer": 3, "strategic_empath": 2, "conflicted_empath": 2}
         },
         {
           "text": "I store this information but don't plan to do anything specific with it",
-          "weights": { "empathy": 2, "dark_traits": 2, "manipulation": 2, "pure_empath": 1, "protective_empath": 2, "strategic_empath": 3, "classic_dark_empath": 2, "emotional_predator": 1, "cold_manipulator": 3, "conflicted_empath": 3, "balanced_dark_empath": 4, "emotional_novice": 2, "empathic_healer": 1 }
+          "traits": {"strategic_empath": 3, "balanced_dark_empath": 3, "adaptive_empath": 3, "conflicted_empath": 2, "protective_empath": 2}
         },
         {
-          "text": "I see this as potential leverage that could be useful if I ever need to control or influence them",
-          "weights": { "empathy": 1, "dark_traits": 4, "manipulation": 4, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 1, "classic_dark_empath": 4, "emotional_predator": 4, "cold_manipulator": 4, "conflicted_empath": 1, "balanced_dark_empath": 2, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I see this as potential leverage if I ever need to influence them",
+          "traits": {"classic_dark_empath": 4, "emotional_predator": 4, "shadow_empath": 3, "cold_manipulator": 2, "balanced_dark_empath": 2}
         },
         {
-          "text": "I mentally file this away as a weapon I could use to hurt them if they ever cross me",
-          "weights": { "empathy": 0, "dark_traits": 5, "manipulation": 5, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 0, "classic_dark_empath": 2, "emotional_predator": 5, "cold_manipulator": 5, "conflicted_empath": 0, "balanced_dark_empath": 1, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I file it away as a weapon I could use if they ever cross me",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 2, "adaptive_empath": 1, "classic_dark_empath": 1}
         }
       ]
     },
     {
-      "q": "Your friend is going through a messy divorce and constantly vents to you about their ex-partner. What's your genuine motivation for listening?",
-      "options": [
+      "question": "Your friend constantly vents about their messy divorce. What's your real motivation for listening?",
+      "answers": [
         {
-          "text": "I care about their wellbeing and want to support them through this difficult time",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 0, "pure_empath": 5, "protective_empath": 4, "strategic_empath": 2, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 1, "balanced_dark_empath": 1, "emotional_novice": 2, "empathic_healer": 5 }
+          "text": "I care about them and want to support them through this difficult time",
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "conflicted_empath": 1}
         },
         {
-          "text": "I want to help them process their emotions while also setting some boundaries for my own mental health",
-          "weights": { "empathy": 4, "dark_traits": 1, "manipulation": 1, "pure_empath": 3, "protective_empath": 5, "strategic_empath": 3, "classic_dark_empath": 1, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 3, "balanced_dark_empath": 2, "emotional_novice": 2, "empathic_healer": 3 }
+          "text": "I want to help them heal while also protecting my own mental health",
+          "traits": {"protective_empath": 5, "pure_empath": 3, "empathic_healer": 3, "strategic_empath": 2, "conflicted_empath": 2}
         },
         {
-          "text": "I listen because I value their trust and also because I'm fascinated by the drama",
-          "weights": { "empathy": 3, "dark_traits": 2, "manipulation": 2, "pure_empath": 2, "protective_empath": 2, "strategic_empath": 3, "classic_dark_empath": 2, "emotional_predator": 2, "cold_manipulator": 1, "conflicted_empath": 4, "balanced_dark_empath": 4, "emotional_novice": 2, "empathic_healer": 1 }
+          "text": "I listen because I value their trust and I'm fascinated by the drama",
+          "traits": {"strategic_empath": 3, "conflicted_empath": 4, "balanced_dark_empath": 3, "shadow_empath": 2, "adaptive_empath": 2}
         },
         {
-          "text": "I enjoy having intimate knowledge of their situation and feeling needed during their crisis",
-          "weights": { "empathy": 2, "dark_traits": 3, "manipulation": 3, "pure_empath": 0, "protective_empath": 1, "strategic_empath": 2, "classic_dark_empath": 3, "emotional_predator": 3, "cold_manipulator": 2, "conflicted_empath": 3, "balanced_dark_empath": 3, "emotional_novice": 1, "empathic_healer": 0 }
+          "text": "I enjoy having intimate knowledge and feeling needed during their crisis",
+          "traits": {"classic_dark_empath": 3, "shadow_empath": 3, "emotional_predator": 3, "balanced_dark_empath": 2, "strategic_empath": 2}
         },
         {
-          "text": "I collect information about their vulnerabilities and use their dependence on me to control the friendship",
-          "weights": { "empathy": 1, "dark_traits": 5, "manipulation": 5, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 0, "classic_dark_empath": 4, "emotional_predator": 5, "cold_manipulator": 4, "conflicted_empath": 1, "balanced_dark_empath": 2, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I collect their vulnerabilities and use their dependence to control the friendship",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 2, "classic_dark_empath": 2, "adaptive_empath": 1}
         }
       ]
     },
     {
-      "q": "You're in a position to give feedback to someone about their performance. You can see they're already feeling insecure about it. How do you approach this?",
-      "options": [
+      "question": "You're giving feedback to someone who's already feeling insecure. How do you approach it?",
+      "answers": [
         {
-          "text": "I deliver feedback gently and constructively, focusing on growth while being encouraging",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 0, "pure_empath": 5, "protective_empath": 4, "strategic_empath": 3, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 2, "balanced_dark_empath": 2, "emotional_novice": 2, "empathic_healer": 5 }
+          "text": "I deliver it gently and constructively, focusing on growth while being encouraging",
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "conflicted_empath": 1}
         },
         {
-          "text": "I'm honest but careful about my delivery, balancing truth with their emotional state",
-          "weights": { "empathy": 4, "dark_traits": 1, "manipulation": 1, "pure_empath": 4, "protective_empath": 4, "strategic_empath": 4, "classic_dark_empath": 1, "emotional_predator": 0, "cold_manipulator": 1, "conflicted_empath": 3, "balanced_dark_empath": 3, "emotional_novice": 2, "empathic_healer": 3 }
+          "text": "I'm honest but careful about delivery, balancing truth with their emotional state",
+          "traits": {"protective_empath": 4, "strategic_empath": 4, "pure_empath": 3, "empathic_healer": 2, "conflicted_empath": 2}
         },
         {
-          "text": "I give necessary feedback but frame it in a way that makes them feel grateful for my honesty",
-          "weights": { "empathy": 2, "dark_traits": 3, "manipulation": 3, "pure_empath": 1, "protective_empath": 2, "strategic_empath": 3, "classic_dark_empath": 3, "emotional_predator": 2, "cold_manipulator": 3, "conflicted_empath": 3, "balanced_dark_empath": 4, "emotional_novice": 1, "empathic_healer": 1 }
+          "text": "I give necessary feedback but frame it so they feel grateful for my honesty",
+          "traits": {"strategic_empath": 3, "classic_dark_empath": 3, "balanced_dark_empath": 3, "shadow_empath": 2, "adaptive_empath": 2}
         },
         {
-          "text": "I use their vulnerability to be more blunt than necessary, establishing my dominance",
-          "weights": { "empathy": 1, "dark_traits": 4, "manipulation": 4, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 1, "classic_dark_empath": 3, "emotional_predator": 4, "cold_manipulator": 4, "conflicted_empath": 1, "balanced_dark_empath": 2, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I use their vulnerability to be blunter than necessary, establishing dominance",
+          "traits": {"emotional_predator": 4, "cold_manipulator": 4, "shadow_empath": 2, "classic_dark_empath": 2, "balanced_dark_empath": 1}
         },
         {
-          "text": "I deliberately crush their confidence to make them more dependent and easier to control",
-          "weights": { "empathy": 0, "dark_traits": 5, "manipulation": 5, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 0, "classic_dark_empath": 2, "emotional_predator": 5, "cold_manipulator": 5, "conflicted_empath": 0, "balanced_dark_empath": 1, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I deliberately crush their confidence to make them more dependent",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 1, "adaptive_empath": 1, "classic_dark_empath": 1}
         }
       ]
     },
     {
-      "q": "Someone tells you they've always felt like an outsider and struggle to connect with people. What's your internal response?",
-      "options": [
+      "question": "Someone tells you they've always felt like an outsider. What's your internal response?",
+      "answers": [
         {
-          "text": "My heart goes out to them - I know how painful that feeling of isolation can be",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 0, "pure_empath": 5, "protective_empath": 4, "strategic_empath": 2, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 1, "balanced_dark_empath": 1, "emotional_novice": 2, "empathic_healer": 5 }
+          "text": "My heart goes out to them - I know how painful that isolation feels",
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "conflicted_empath": 1}
         },
         {
           "text": "I feel compassionate and want to help them feel more included and valued",
-          "weights": { "empathy": 4, "dark_traits": 0, "manipulation": 1, "pure_empath": 4, "protective_empath": 4, "strategic_empath": 3, "classic_dark_empath": 1, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 2, "balanced_dark_empath": 2, "emotional_novice": 3, "empathic_healer": 4 }
+          "traits": {"pure_empath": 4, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "emotional_novice": 2}
         },
         {
-          "text": "I understand their pain but also see how their need for connection makes them vulnerable",
-          "weights": { "empathy": 3, "dark_traits": 2, "manipulation": 3, "pure_empath": 2, "protective_empath": 2, "strategic_empath": 4, "classic_dark_empath": 3, "emotional_predator": 2, "cold_manipulator": 2, "conflicted_empath": 4, "balanced_dark_empath": 4, "emotional_novice": 1, "empathic_healer": 1 }
+          "text": "I understand their pain but also see how their need makes them vulnerable",
+          "traits": {"strategic_empath": 4, "conflicted_empath": 4, "balanced_dark_empath": 3, "classic_dark_empath": 2, "shadow_empath": 2}
         },
         {
-          "text": "I recognize them as someone who would be extremely loyal and grateful for my friendship",
-          "weights": { "empathy": 2, "dark_traits": 4, "manipulation": 4, "pure_empath": 0, "protective_empath": 1, "strategic_empath": 2, "classic_dark_empath": 4, "emotional_predator": 4, "cold_manipulator": 3, "conflicted_empath": 2, "balanced_dark_empath": 3, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I recognize them as someone who'd be extremely loyal and grateful for friendship",
+          "traits": {"classic_dark_empath": 4, "emotional_predator": 3, "shadow_empath": 3, "balanced_dark_empath": 2, "cold_manipulator": 2}
         },
         {
-          "text": "I see them as an easy target - someone desperate enough to accept any kind of treatment",
-          "weights": { "empathy": 0, "dark_traits": 5, "manipulation": 5, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 0, "classic_dark_empath": 2, "emotional_predator": 5, "cold_manipulator": 5, "conflicted_empath": 0, "balanced_dark_empath": 1, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I see an easy target - someone desperate enough to accept any treatment",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 1, "adaptive_empath": 1, "classic_dark_empath": 1}
         }
       ]
     },
     {
-      "q": "You notice that someone in your social circle is being gossiped about behind their back. What's your honest reaction?",
-      "options": [
+      "question": "You notice someone in your circle is being gossiped about behind their back. What's your reaction?",
+      "answers": [
         {
-          "text": "I feel bad for them and either defend them or refuse to participate in the gossip",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 0, "pure_empath": 5, "protective_empath": 5, "strategic_empath": 2, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 1, "balanced_dark_empath": 1, "emotional_novice": 2, "empathic_healer": 5 }
+          "text": "I feel bad for them and either defend them or refuse to participate",
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 4, "strategic_empath": 2, "conflicted_empath": 1}
         },
         {
-          "text": "I don't participate but I also don't actively intervene - I just stay neutral",
-          "weights": { "empathy": 3, "dark_traits": 1, "manipulation": 1, "pure_empath": 2, "protective_empath": 3, "strategic_empath": 3, "classic_dark_empath": 1, "emotional_predator": 1, "cold_manipulator": 2, "conflicted_empath": 3, "balanced_dark_empath": 3, "emotional_novice": 3, "empathic_healer": 2 }
+          "text": "I don't participate but I also don't actively intervene - I stay neutral",
+          "traits": {"protective_empath": 3, "strategic_empath": 3, "emotional_novice": 3, "conflicted_empath": 2, "balanced_dark_empath": 2}
         },
         {
-          "text": "I listen to gather information while appearing sympathetic to whoever is talking",
-          "weights": { "empathy": 2, "dark_traits": 3, "manipulation": 3, "pure_empath": 1, "protective_empath": 1, "strategic_empath": 4, "classic_dark_empath": 3, "emotional_predator": 2, "cold_manipulator": 3, "conflicted_empath": 3, "balanced_dark_empath": 4, "emotional_novice": 1, "empathic_healer": 0 }
+          "text": "I listen to gather information while appearing sympathetic to whoever's talking",
+          "traits": {"strategic_empath": 4, "balanced_dark_empath": 3, "adaptive_empath": 3, "shadow_empath": 2, "classic_dark_empath": 2}
         },
         {
-          "text": "I participate enough to stay in the group's good graces while collecting gossip ammunition",
-          "weights": { "empathy": 1, "dark_traits": 4, "manipulation": 4, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 2, "classic_dark_empath": 4, "emotional_predator": 3, "cold_manipulator": 4, "conflicted_empath": 2, "balanced_dark_empath": 3, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I participate enough to stay in the group's good graces while collecting ammunition",
+          "traits": {"classic_dark_empath": 4, "shadow_empath": 3, "emotional_predator": 3, "cold_manipulator": 2, "balanced_dark_empath": 2}
         },
         {
-          "text": "I actively contribute to the gossip and enjoy watching them be socially destroyed",
-          "weights": { "empathy": 0, "dark_traits": 5, "manipulation": 4, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 0, "classic_dark_empath": 2, "emotional_predator": 4, "cold_manipulator": 4, "conflicted_empath": 0, "balanced_dark_empath": 1, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I actively contribute to the gossip and enjoy watching them get destroyed",
+          "traits": {"emotional_predator": 4, "cold_manipulator": 4, "shadow_empath": 1, "adaptive_empath": 1, "classic_dark_empath": 1}
         }
       ]
     },
     {
-      "q": "Your sibling calls you upset because they failed at something important to them. What's your genuine first thought?",
-      "options": [
+      "question": "Your sibling calls upset because they failed at something important. What's your genuine first thought?",
+      "answers": [
         {
-          "text": "I feel their pain as if it were my own and want to comfort and support them however I can",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 0, "pure_empath": 5, "protective_empath": 4, "strategic_empath": 2, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 1, "balanced_dark_empath": 1, "emotional_novice": 2, "empathic_healer": 5 }
+          "text": "I feel their pain as my own and want to comfort them however I can",
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "conflicted_empath": 1}
         },
         {
           "text": "I feel sorry for them and want to help them process this disappointment healthily",
-          "weights": { "empathy": 4, "dark_traits": 0, "manipulation": 0, "pure_empath": 4, "protective_empath": 4, "strategic_empath": 3, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 2, "balanced_dark_empath": 2, "emotional_novice": 3, "empathic_healer": 4 }
+          "traits": {"pure_empath": 4, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "emotional_novice": 2}
         },
         {
-          "text": "I empathize but also can't help feeling slightly relieved that I'm not in their position",
-          "weights": { "empathy": 3, "dark_traits": 2, "manipulation": 1, "pure_empath": 2, "protective_empath": 3, "strategic_empath": 3, "classic_dark_empath": 1, "emotional_predator": 1, "cold_manipulator": 1, "conflicted_empath": 4, "balanced_dark_empath": 3, "emotional_novice": 2, "empathic_healer": 2 }
+          "text": "I empathize but can't help feeling slightly relieved I'm not in their position",
+          "traits": {"conflicted_empath": 4, "strategic_empath": 3, "balanced_dark_empath": 2, "protective_empath": 2, "shadow_empath": 2}
         },
         {
-          "text": "I feel for them but also think about how this affects my position in the family",
-          "weights": { "empathy": 2, "dark_traits": 3, "manipulation": 2, "pure_empath": 1, "protective_empath": 1, "strategic_empath": 3, "classic_dark_empath": 2, "emotional_predator": 2, "cold_manipulator": 3, "conflicted_empath": 3, "balanced_dark_empath": 4, "emotional_novice": 1, "empathic_healer": 1 }
+          "text": "I feel for them but also think about how this affects my family position",
+          "traits": {"strategic_empath": 3, "balanced_dark_empath": 3, "classic_dark_empath": 2, "adaptive_empath": 2, "shadow_empath": 2}
         },
         {
-          "text": "I feel secretly pleased that they failed since it makes me look better by comparison",
-          "weights": { "empathy": 0, "dark_traits": 5, "manipulation": 2, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 0, "classic_dark_empath": 1, "emotional_predator": 3, "cold_manipulator": 4, "conflicted_empath": 0, "balanced_dark_empath": 1, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I feel secretly pleased they failed since it makes me look better",
+          "traits": {"cold_manipulator": 4, "emotional_predator": 3, "shadow_empath": 1, "adaptive_empath": 1, "classic_dark_empath": 1}
         }
       ]
     },
     {
-      "q": "During a team project, you realize one member is struggling and too proud to ask for help. How do you handle this?",
-      "options": [
+      "question": "During a team project, someone is struggling but too proud to ask for help. What do you do?",
+      "answers": [
         {
-          "text": "I privately offer assistance in a way that doesn't embarrass them or damage their pride",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 0, "pure_empath": 5, "protective_empath": 4, "strategic_empath": 3, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 2, "balanced_dark_empath": 2, "emotional_novice": 2, "empathic_healer": 5 }
+          "text": "I privately offer help in a way that doesn't embarrass or damage their pride",
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "conflicted_empath": 1}
         },
         {
-          "text": "I subtly help them while making sure the team project succeeds without singling them out",
-          "weights": { "empathy": 4, "dark_traits": 1, "manipulation": 1, "pure_empath": 4, "protective_empath": 4, "strategic_empath": 4, "classic_dark_empath": 1, "emotional_predator": 0, "cold_manipulator": 1, "conflicted_empath": 3, "balanced_dark_empath": 3, "emotional_novice": 2, "empathic_healer": 3 }
+          "text": "I subtly help while ensuring the project succeeds without singling them out",
+          "traits": {"protective_empath": 4, "strategic_empath": 4, "pure_empath": 3, "empathic_healer": 2, "conflicted_empath": 2}
         },
         {
-          "text": "I help them but make sure they know they owe me and that I'm the one who saved them",
-          "weights": { "empathy": 2, "dark_traits": 3, "manipulation": 4, "pure_empath": 0, "protective_empath": 1, "strategic_empath": 2, "classic_dark_empath": 4, "emotional_predator": 3, "cold_manipulator": 3, "conflicted_empath": 2, "balanced_dark_empath": 3, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I help them but make sure they know they owe me and I'm their savior",
+          "traits": {"classic_dark_empath": 4, "shadow_empath": 3, "emotional_predator": 2, "balanced_dark_empath": 2, "strategic_empath": 2}
         },
         {
           "text": "I let them struggle while positioning myself to look better in comparison",
-          "weights": { "empathy": 1, "dark_traits": 4, "manipulation": 3, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 1, "classic_dark_empath": 2, "emotional_predator": 3, "cold_manipulator": 4, "conflicted_empath": 1, "balanced_dark_empath": 2, "emotional_novice": 0, "empathic_healer": 0 }
+          "traits": {"cold_manipulator": 4, "emotional_predator": 3, "shadow_empath": 2, "adaptive_empath": 2, "balanced_dark_empath": 1}
         },
         {
-          "text": "I deliberately let them fail publicly to establish my superiority and their weakness",
-          "weights": { "empathy": 0, "dark_traits": 5, "manipulation": 4, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 0, "classic_dark_empath": 1, "emotional_predator": 4, "cold_manipulator": 5, "conflicted_empath": 0, "balanced_dark_empath": 1, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I deliberately let them fail publicly to establish my superiority",
+          "traits": {"cold_manipulator": 5, "emotional_predator": 4, "shadow_empath": 1, "adaptive_empath": 1, "classic_dark_empath": 1}
         }
       ]
     },
     {
-      "q": "You're at a social event and overhear someone sharing a story that reveals their deep shame about a past mistake. What do you do with this knowledge?",
-      "options": [
+      "question": "You overhear someone sharing something that reveals deep shame about their past. What do you do?",
+      "answers": [
         {
-          "text": "I pretend I didn't hear it and never reference it - everyone deserves privacy about their past",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 0, "pure_empath": 5, "protective_empath": 5, "strategic_empath": 3, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 2, "balanced_dark_empath": 2, "emotional_novice": 2, "empathic_healer": 5 }
+          "text": "I pretend I didn't hear it - everyone deserves privacy about their past",
+          "traits": {"pure_empath": 5, "protective_empath": 4, "empathic_healer": 4, "strategic_empath": 2, "conflicted_empath": 1}
         },
         {
           "text": "I'm more understanding toward them knowing they've struggled with something difficult",
-          "weights": { "empathy": 4, "dark_traits": 0, "manipulation": 0, "pure_empath": 4, "protective_empath": 4, "strategic_empath": 3, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 2, "balanced_dark_empath": 2, "emotional_novice": 3, "empathic_healer": 4 }
+          "traits": {"pure_empath": 4, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "emotional_novice": 2}
         },
         {
-          "text": "I file the information away but don't have any specific plans for using it",
-          "weights": { "empathy": 2, "dark_traits": 2, "manipulation": 2, "pure_empath": 1, "protective_empath": 2, "strategic_empath": 3, "classic_dark_empath": 2, "emotional_predator": 1, "cold_manipulator": 3, "conflicted_empath": 3, "balanced_dark_empath": 4, "emotional_novice": 2, "empathic_healer": 1 }
+          "text": "I file the information away but don't have specific plans for using it",
+          "traits": {"strategic_empath": 3, "balanced_dark_empath": 3, "adaptive_empath": 3, "conflicted_empath": 2, "protective_empath": 2}
         },
         {
-          "text": "I store this as potential leverage that could be useful if I ever need something from them",
-          "weights": { "empathy": 1, "dark_traits": 4, "manipulation": 4, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 1, "classic_dark_empath": 4, "emotional_predator": 4, "cold_manipulator": 4, "conflicted_empath": 1, "balanced_dark_empath": 3, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I store this as potential leverage that could be useful if I need something",
+          "traits": {"classic_dark_empath": 4, "emotional_predator": 3, "shadow_empath": 3, "cold_manipulator": 2, "balanced_dark_empath": 2}
         },
         {
-          "text": "I see this as ammunition I could use to destroy their reputation if they ever cross me",
-          "weights": { "empathy": 0, "dark_traits": 5, "manipulation": 5, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 0, "classic_dark_empath": 3, "emotional_predator": 5, "cold_manipulator": 5, "conflicted_empath": 0, "balanced_dark_empath": 1, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I see this as ammunition to destroy their reputation if they cross me",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 2, "adaptive_empath": 1, "classic_dark_empath": 1}
         }
       ]
     },
     {
-      "q": "Someone younger looks up to you and clearly admires you greatly. How do you handle this dynamic?",
-      "options": [
+      "question": "Someone younger looks up to you and clearly admires you greatly. How do you handle this?",
+      "answers": [
         {
-          "text": "I'm honored by their trust and try to be a positive influence and good role model",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 0, "pure_empath": 5, "protective_empath": 4, "strategic_empath": 3, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 2, "balanced_dark_empath": 2, "emotional_novice": 2, "empathic_healer": 5 }
+          "text": "I'm honored by their trust and try to be a positive influence and role model",
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "conflicted_empath": 1}
         },
         {
-          "text": "I appreciate their admiration but make sure to encourage their independence and critical thinking",
-          "weights": { "empathy": 4, "dark_traits": 0, "manipulation": 1, "pure_empath": 4, "protective_empath": 4, "strategic_empath": 4, "classic_dark_empath": 1, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 3, "balanced_dark_empath": 3, "emotional_novice": 2, "empathic_healer": 4 }
+          "text": "I appreciate their admiration but encourage their independence and critical thinking",
+          "traits": {"protective_empath": 4, "strategic_empath": 4, "pure_empath": 3, "empathic_healer": 2, "conflicted_empath": 2}
         },
         {
           "text": "I enjoy their admiration but am careful not to abuse the power dynamic",
-          "weights": { "empathy": 3, "dark_traits": 2, "manipulation": 2, "pure_empath": 2, "protective_empath": 3, "strategic_empath": 3, "classic_dark_empath": 2, "emotional_predator": 1, "cold_manipulator": 1, "conflicted_empath": 4, "balanced_dark_empath": 4, "emotional_novice": 2, "empathic_healer": 2 }
+          "traits": {"strategic_empath": 3, "conflicted_empath": 4, "balanced_dark_empath": 3, "protective_empath": 2, "shadow_empath": 2}
         },
         {
           "text": "I use their admiration to get them to do things for me or boost my ego",
-          "weights": { "empathy": 1, "dark_traits": 4, "manipulation": 4, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 1, "classic_dark_empath": 4, "emotional_predator": 4, "cold_manipulator": 4, "conflicted_empath": 1, "balanced_dark_empath": 3, "emotional_novice": 0, "empathic_healer": 0 }
+          "traits": {"classic_dark_empath": 4, "emotional_predator": 3, "shadow_empath": 3, "cold_manipulator": 2, "balanced_dark_empath": 2}
         },
         {
-          "text": "I deliberately cultivate their dependence on me and use their devotion to control them",
-          "weights": { "empathy": 0, "dark_traits": 5, "manipulation": 5, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 0, "classic_dark_empath": 4, "emotional_predator": 5, "cold_manipulator": 4, "conflicted_empath": 0, "balanced_dark_empath": 1, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I deliberately cultivate their dependence and use their devotion to control them",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 2, "classic_dark_empath": 2, "adaptive_empath": 1}
         }
       ]
     },
     {
-      "q": "You notice that someone has a crush on your friend, but your friend is oblivious to it. What do you do?",
-      "options": [
+      "question": "You notice someone has a crush on your friend, but your friend is oblivious. What do you do?",
+      "answers": [
         {
           "text": "I gently point it out to my friend so they can decide how to handle it",
-          "weights": { "empathy": 4, "dark_traits": 0, "manipulation": 0, "pure_empath": 4, "protective_empath": 4, "strategic_empath": 3, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 2, "balanced_dark_empath": 2, "emotional_novice": 3, "empathic_healer": 4 }
+          "traits": {"pure_empath": 4, "protective_empath": 4, "empathic_healer": 3, "strategic_empath": 2, "emotional_novice": 2}
         },
         {
-          "text": "I stay out of it - it's not my place to interfere in other people's romantic situations",
-          "weights": { "empathy": 3, "dark_traits": 1, "manipulation": 0, "pure_empath": 3, "protective_empath": 4, "strategic_empath": 3, "classic_dark_empath": 0, "emotional_predator": 1, "cold_manipulator": 2, "conflicted_empath": 2, "balanced_dark_empath": 3, "emotional_novice": 4, "empathic_healer": 3 }
+          "text": "I stay out of it - it's not my place to interfere in romantic situations",
+          "traits": {"protective_empath": 4, "emotional_novice": 3, "strategic_empath": 3, "pure_empath": 2, "conflicted_empath": 2}
         },
         {
           "text": "I observe the dynamics with interest but don't actively intervene yet",
-          "weights": { "empathy": 2, "dark_traits": 2, "manipulation": 2, "pure_empath": 1, "protective_empath": 2, "strategic_empath": 4, "classic_dark_empath": 2, "emotional_predator": 2, "cold_manipulator": 3, "conflicted_empath": 3, "balanced_dark_empath": 4, "emotional_novice": 2, "empathic_healer": 1 }
+          "traits": {"strategic_empath": 4, "balanced_dark_empath": 3, "adaptive_empath": 3, "conflicted_empath": 2, "shadow_empath": 2}
         },
         {
-          "text": "I use this knowledge to position myself as the helpful friend who understands everyone's feelings",
-          "weights": { "empathy": 2, "dark_traits": 3, "manipulation": 4, "pure_empath": 0, "protective_empath": 1, "strategic_empath": 3, "classic_dark_empath": 4, "emotional_predator": 3, "cold_manipulator": 2, "conflicted_empath": 3, "balanced_dark_empath": 4, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I use this knowledge to position myself as the helpful friend who understands everyone",
+          "traits": {"classic_dark_empath": 4, "shadow_empath": 3, "balanced_dark_empath": 3, "emotional_predator": 2, "strategic_empath": 2}
         },
         {
-          "text": "I manipulate the situation to create drama or control the outcome for my entertainment",
-          "weights": { "empathy": 0, "dark_traits": 5, "manipulation": 5, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 1, "classic_dark_empath": 3, "emotional_predator": 5, "cold_manipulator": 4, "conflicted_empath": 0, "balanced_dark_empath": 2, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I manipulate the situation to create drama or control the outcome for entertainment",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 2, "adaptive_empath": 1, "classic_dark_empath": 1}
         }
       ]
     },
     {
-      "q": "Your coworker is clearly struggling with imposter syndrome and constantly doubts their abilities despite being competent. How do you respond?",
-      "options": [
+      "question": "Your coworker has imposter syndrome and constantly doubts their abilities despite being competent. How do you respond?",
+      "answers": [
         {
-          "text": "I genuinely reassure them and point out specific examples of their competence and value",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 0, "pure_empath": 5, "protective_empath": 4, "strategic_empath": 3, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 2, "balanced_dark_empath": 2, "emotional_novice": 2, "empathic_healer": 5 }
+          "text": "I genuinely reassure them and point out specific examples of their competence",
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "conflicted_empath": 1}
         },
         {
-          "text": "I offer sincere encouragement while helping them develop more realistic self-assessment skills",
-          "weights": { "empathy": 4, "dark_traits": 0, "manipulation": 1, "pure_empath": 4, "protective_empath": 4, "strategic_empath": 4, "classic_dark_empath": 1, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 3, "balanced_dark_empath": 3, "emotional_novice": 2, "empathic_healer": 4 }
+          "text": "I offer sincere encouragement while helping them develop realistic self-assessment",
+          "traits": {"empathic_healer": 4, "protective_empath": 4, "strategic_empath": 3, "pure_empath": 3, "conflicted_empath": 2}
         },
         {
-          "text": "I reassure them but also make sure they know I'm the one helping build their confidence",
-          "weights": { "empathy": 2, "dark_traits": 2, "manipulation": 3, "pure_empath": 1, "protective_empath": 2, "strategic_empath": 2, "classic_dark_empath": 3, "emotional_predator": 2, "cold_manipulator": 2, "conflicted_empath": 3, "balanced_dark_empath": 3, "emotional_novice": 1, "empathic_healer": 1 }
+          "text": "I reassure them but make sure they know I'm the one building their confidence",
+          "traits": {"classic_dark_empath": 3, "strategic_empath": 2, "shadow_empath": 2, "balanced_dark_empath": 2, "conflicted_empath": 2}
         },
         {
           "text": "I subtly reinforce their insecurities to keep them dependent on my validation",
-          "weights": { "empathy": 1, "dark_traits": 4, "manipulation": 4, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 1, "classic_dark_empath": 4, "emotional_predator": 4, "cold_manipulator": 4, "conflicted_empath": 1, "balanced_dark_empath": 2, "emotional_novice": 0, "empathic_healer": 0 }
+          "traits": {"emotional_predator": 4, "classic_dark_empath": 3, "shadow_empath": 3, "cold_manipulator": 2, "balanced_dark_empath": 1}
         },
         {
-          "text": "I deliberately undermine their confidence further to eliminate them as competition",
-          "weights": { "empathy": 0, "dark_traits": 5, "manipulation": 5, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 0, "classic_dark_empath": 2, "emotional_predator": 5, "cold_manipulator": 5, "conflicted_empath": 0, "balanced_dark_empath": 1, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I deliberately undermine their confidence to eliminate them as competition",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 1, "adaptive_empath": 1, "classic_dark_empath": 1}
         }
       ]
     },
     {
-      "q": "You can sense that someone is lying to you about something important, and you can see they feel guilty about it. What's your approach?",
-      "options": [
+      "question": "You sense someone is lying about something important and feel guilty about it. What's your approach?",
+      "answers": [
         {
-          "text": "I give them opportunities to come clean on their own while showing I'm safe to talk to",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 1, "pure_empath": 5, "protective_empath": 4, "strategic_empath": 3, "classic_dark_empath": 1, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 2, "balanced_dark_empath": 2, "emotional_novice": 2, "empathic_healer": 4 }
+          "text": "I give them opportunities to come clean while showing I'm safe to talk to",
+          "traits": {"pure_empath": 4, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "conflicted_empath": 2}
         },
         {
           "text": "I address it directly but gently, focusing on preserving our relationship",
-          "weights": { "empathy": 4, "dark_traits": 1, "manipulation": 1, "pure_empath": 4, "protective_empath": 4, "strategic_empath": 3, "classic_dark_empath": 1, "emotional_predator": 0, "cold_manipulator": 1, "conflicted_empath": 3, "balanced_dark_empath": 3, "emotional_novice": 2, "empathic_healer": 3 }
+          "traits": {"protective_empath": 4, "strategic_empath": 3, "pure_empath": 3, "empathic_healer": 2, "conflicted_empath": 2}
         },
         {
           "text": "I let them continue lying while gathering information about what they're hiding",
-          "weights": { "empathy": 2, "dark_traits": 3, "manipulation": 4, "pure_empath": 1, "protective_empath": 1, "strategic_empath": 4, "classic_dark_empath": 3, "emotional_predator": 3, "cold_manipulator": 4, "conflicted_empath": 2, "balanced_dark_empath": 4, "emotional_novice": 1, "empathic_healer": 0 }
+          "traits": {"strategic_empath": 4, "balanced_dark_empath": 3, "adaptive_empath": 3, "classic_dark_empath": 2, "shadow_empath": 2}
         },
         {
-          "text": "I use their guilt and my knowledge of their deception to gain leverage over them",
-          "weights": { "empathy": 1, "dark_traits": 4, "manipulation": 5, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 1, "classic_dark_empath": 4, "emotional_predator": 4, "cold_manipulator": 4, "conflicted_empath": 1, "balanced_dark_empath": 3, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "I use their guilt and my knowledge of their deception to gain leverage",
+          "traits": {"classic_dark_empath": 4, "emotional_predator": 4, "shadow_empath": 3, "cold_manipulator": 2, "balanced_dark_empath": 2}
         },
         {
           "text": "I enjoy watching them squirm with guilt while I hold this power over them",
-          "weights": { "empathy": 0, "dark_traits": 5, "manipulation": 4, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 0, "classic_dark_empath": 3, "emotional_predator": 5, "cold_manipulator": 4, "conflicted_empath": 0, "balanced_dark_empath": 1, "emotional_novice": 0, "empathic_healer": 0 }
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 2, "adaptive_empath": 1, "classic_dark_empath": 1}
         }
       ]
     },
     {
-      "q": "When you comfort someone who's crying, what are you most focused on in that moment?",
-      "options": [
+      "question": "When you comfort someone who's crying, what are you most focused on?",
+      "answers": [
         {
           "text": "Understanding their pain and providing genuine emotional support and presence",
-          "weights": { "empathy": 5, "dark_traits": 0, "manipulation": 0, "pure_empath": 5, "protective_empath": 4, "strategic_empath": 2, "classic_dark_empath": 0, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 1, "balanced_dark_empath": 1, "emotional_novice": 2, "empathic_healer": 5 }
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "conflicted_empath": 1}
         },
         {
-          "text": "Helping them feel better while also making sure I don't get overwhelmed by their emotions",
-          "weights": { "empathy": 4, "dark_traits": 1, "manipulation": 1, "pure_empath": 3, "protective_empath": 5, "strategic_empath": 3, "classic_dark_empath": 1, "emotional_predator": 0, "cold_manipulator": 0, "conflicted_empath": 3, "balanced_dark_empath": 2, "emotional_novice": 2, "empathic_healer": 3 }
+          "text": "Helping them feel better while making sure I don't get overwhelmed by their emotions",
+          "traits": {"protective_empath": 4, "pure_empath": 3, "empathic_healer": 3, "strategic_empath": 2, "conflicted_empath": 2}
         },
         {
-          "text": "Saying and doing the right things to be seen as caring while analyzing their emotional state",
-          "weights": { "empathy": 2, "dark_traits": 3, "manipulation": 3, "pure_empath": 1, "protective_empath": 1, "strategic_empath": 4, "classic_dark_empath": 3, "emotional_predator": 2, "cold_manipulator": 3, "conflicted_empath": 3, "balanced_dark_empath": 4, "emotional_novice": 1, "empathic_healer": 1 }
+          "text": "Saying the right things to be seen as caring while analyzing their emotional state",
+          "traits": {"strategic_empath": 4, "balanced_dark_empath": 3, "classic_dark_empath": 2, "shadow_empath": 2, "adaptive_empath": 2}
         },
         {
-          "text": "Positioning myself as their emotional rescue so they'll feel indebted and connected to me",
-          "weights": { "empathy": 1, "dark_traits": 4, "manipulation": 4, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 2, "classic_dark_empath": 4, "emotional_predator": 4, "cold_manipulator": 3, "conflicted_empath": 2, "balanced_dark_empath": 3, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "Positioning myself as their emotional rescue so they'll feel indebted to me",
+          "traits": {"classic_dark_empath": 4, "emotional_predator": 3, "shadow_empath": 3, "cold_manipulator": 2, "balanced_dark_empath": 2}
         },
         {
-          "text": "How I can use this vulnerable moment to gain maximum control and influence over them",
-          "weights": { "empathy": 0, "dark_traits": 5, "manipulation": 5, "pure_empath": 0, "protective_empath": 0, "strategic_empath": 0, "classic_dark_empath": 4, "emotional_predator": 5, "cold_manipulator": 4, "conflicted_empath": 0, "balanced_dark_empath": 2, "emotional_novice": 0, "empathic_healer": 0 }
+          "text": "How I can use this vulnerable moment to gain maximum control and influence",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 2, "adaptive_empath": 1, "classic_dark_empath": 1}
+        }
+      ]
+    },
+    {
+      "question": "Someone reveals they have social anxiety and struggle in group settings. What goes through your mind?",
+      "answers": [
+        {
+          "text": "I want to help them feel more comfortable and included in social situations",
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "conflicted_empath": 1}
+        },
+        {
+          "text": "I feel protective and want to be their advocate in group settings",
+          "traits": {"protective_empath": 5, "pure_empath": 4, "empathic_healer": 3, "strategic_empath": 2, "conflicted_empath": 1}
+        },
+        {
+          "text": "I understand their struggle but also see how I could help them strategically",
+          "traits": {"strategic_empath": 4, "balanced_dark_empath": 3, "conflicted_empath": 3, "protective_empath": 2, "classic_dark_empath": 2}
+        },
+        {
+          "text": "I recognize this as an opportunity to become their social lifeline and guide",
+          "traits": {"classic_dark_empath": 4, "shadow_empath": 3, "emotional_predator": 2, "balanced_dark_empath": 2, "strategic_empath": 2}
+        },
+        {
+          "text": "I see someone I could easily isolate and control through their social fears",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 1, "adaptive_empath": 1, "classic_dark_empath": 1}
+        }
+      ]
+    },
+    {
+      "question": "You're the first to know that someone is going through a major life crisis. What's your honest reaction?",
+      "answers": [
+        {
+          "text": "I feel honored they trusted me and want to support them through this difficult time",
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "conflicted_empath": 1}
+        },
+        {
+          "text": "I'm concerned for their wellbeing and want to help while respecting their privacy",
+          "traits": {"protective_empath": 4, "pure_empath": 4, "empathic_healer": 3, "strategic_empath": 2, "conflicted_empath": 2}
+        },
+        {
+          "text": "I feel trusted and special, and I want to be their primary source of support",
+          "traits": {"strategic_empath": 3, "conflicted_empath": 3, "balanced_dark_empath": 3, "classic_dark_empath": 2, "shadow_empath": 2}
+        },
+        {
+          "text": "I realize this crisis makes them vulnerable and dependent on my support",
+          "traits": {"classic_dark_empath": 4, "emotional_predator": 3, "shadow_empath": 3, "cold_manipulator": 2, "balanced_dark_empath": 2}
+        },
+        {
+          "text": "I see this as valuable information and an opportunity to gain significant influence",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 2, "adaptive_empath": 1, "classic_dark_empath": 1}
+        }
+      ]
+    },
+    {
+      "question": "During a deep conversation, someone asks you to promise to keep something secret. What's your mindset?",
+      "answers": [
+        {
+          "text": "I'm honored by their trust and genuinely committed to keeping their secret safe",
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 4, "strategic_empath": 2, "conflicted_empath": 1}
+        },
+        {
+          "text": "I take their trust seriously and will protect their confidence unless it harms someone",
+          "traits": {"protective_empath": 4, "pure_empath": 3, "empathic_healer": 3, "strategic_empath": 2, "conflicted_empath": 2}
+        },
+        {
+          "text": "I'll keep their secret but I'm aware this creates a special bond between us",
+          "traits": {"strategic_empath": 4, "conflicted_empath": 3, "balanced_dark_empath": 3, "protective_empath": 2, "classic_dark_empath": 2}
+        },
+        {
+          "text": "I promise to keep it secret while knowing this gives me power over them",
+          "traits": {"classic_dark_empath": 4, "shadow_empath": 3, "emotional_predator": 3, "cold_manipulator": 2, "balanced_dark_empath": 2}
+        },
+        {
+          "text": "I agree to keep it secret but plan to use this information strategically later",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 2, "adaptive_empath": 1, "classic_dark_empath": 1}
+        }
+      ]
+    },
+    {
+      "question": "You're in a relationship and notice your partner starting to pull away emotionally. What's your honest first move?",
+      "answers": [
+        {
+          "text": "I gently ask what's wrong and create safe space for them to share their feelings",
+          "traits": {"pure_empath": 5, "empathic_healer": 4, "protective_empath": 3, "strategic_empath": 2, "conflicted_empath": 1}
+        },
+        {
+          "text": "I give them space while letting them know I'm here when they're ready to talk",
+          "traits": {"protective_empath": 4, "pure_empath": 4, "empathic_healer": 3, "strategic_empath": 2, "emotional_novice": 2}
+        },
+        {
+          "text": "I analyze what might have caused this and strategically address those specific issues",
+          "traits": {"strategic_empath": 4, "balanced_dark_empath": 3, "adaptive_empath": 3, "conflicted_empath": 2, "classic_dark_empath": 2}
+        },
+        {
+          "text": "I use emotional tactics to draw them back in and regain their attention",
+          "traits": {"classic_dark_empath": 4, "shadow_empath": 3, "emotional_predator": 3, "cold_manipulator": 2, "balanced_dark_empath": 2}
+        },
+        {
+          "text": "I make them feel guilty for withdrawing or punish them for pulling away from me",
+          "traits": {"emotional_predator": 5, "cold_manipulator": 4, "shadow_empath": 2, "adaptive_empath": 1, "classic_dark_empath": 1}
         }
       ]
     }
   ],
   "results": {
     "pure_empath": {
-      "title": "The Pure Empath",
-      "description": "You possess genuine emotional intelligence combined with authentic compassion. Your ability to understand and feel others' emotions is a gift you use consistently for good. You can read people's emotional states with remarkable accuracy, but you use this knowledge to help, heal, and support rather than manipulate. You represent the ideal of what empathy should be - a superpower for creating connection and reducing suffering in the world."
+      "title": "The Pure Light",
+      "description": "Your empathy is a genuine superpower that you use purely for good. You feel others' emotions deeply and authentically, responding with compassion and care without any hidden agenda. Your emotional intelligence creates healing and connection wherever you go. You represent what empathy should be - a gift that makes the world better simply by existing in it.",
+      "extended": "Your pure empathy represents a rare and precious psychological profile. You possess the ability to truly feel what others experience, and you use this gift exclusively for healing, supporting, and uplifting those around you. Your emotional intelligence flows from a place of genuine love rather than strategic thinking.\n\nYour empathy likely developed from secure attachments and positive role models who showed you that caring is both safe and valuable. Your brain's mirror neurons fire intensely when you witness others' emotions, creating authentic resonance rather than calculated analysis.\n\nThe beauty of your empathic nature lies in its purity of motivation. You don't read emotions to use them - you read them to honor them. This creates profound safety for others, allowing them to be completely vulnerable in your presence. People likely describe feeling 'truly seen' by you.\n\nYour growth challenge involves learning to maintain boundaries while preserving your gift. Pure empaths can become overwhelmed by taking on others' emotional burdens. The key is learning to help without absorbing, to care without losing yourself in others' pain."
     },
     "protective_empath": {
-      "title": "The Protective Empath",
-      "description": "You have strong empathy but you're not naive about human nature. You can read people exceptionally well and occasionally use that knowledge strategically, but usually to protect yourself or others rather than for selfish gain. You understand that sometimes you need to be a little manipulative to deal with manipulative people. Your emotional intelligence serves as both a gift for helping others and a shield against those who would take advantage of your caring nature."
+      "title": "The Wise Guardian",
+      "description": "You have deep empathy but you're not naive about human nature. You've learned to read people expertly and occasionally use that knowledge strategically, but usually to protect yourself or others rather than for selfish gain. Your emotional intelligence serves as both a gift for helping others and armor against those who would exploit your caring nature.",
+      "extended": "Your protective empathy shows sophisticated emotional intelligence combined with healthy self-preservation instincts. You've learned that genuine caring can sometimes be exploited, so you've developed the wisdom to know when to trust and when to guard your heart.\n\nThis balanced approach suggests you've experienced both the beauty and pain of human relationships. You understand that vulnerability isn't always safe, and that not everyone who seems hurt is harmless. Your emotional radar can detect both authentic need and manipulative behavior.\n\nYour strategic use of emotional insight typically serves protective rather than exploitative purposes. You might manipulate a manipulator to protect someone vulnerable, or use your understanding to navigate toxic dynamics without losing yourself. This represents mature emotional intelligence.\n\nThe challenge for protective empaths is maintaining the balance between wisdom and cynicism. Your experiences might tempt you to close off entirely, but your core empathy prevents this. Instead, you've developed boundaries that allow deep caring while protecting your wellbeing."
     },
     "strategic_empath": {
-      "title": "The Strategic Empath",
-      "description": "You combine genuine empathy with strategic thinking about human relationships. You can read emotions like a book and sometimes use that knowledge to influence outcomes, but you generally try to do so ethically. You're skilled at emotional chess - understanding the game while still caring about the players. Your challenge is maintaining your moral compass while navigating complex social dynamics."
+      "title": "The Chess Master of Hearts",
+      "description": "You combine genuine empathy with strategic thinking about relationships. You can read emotions like a book and sometimes use that knowledge to influence outcomes, but you generally try to do so ethically. You're skilled at emotional chess - understanding the game while still caring about the players.",
+      "extended": "Your strategic empathy reveals sophisticated understanding of emotional dynamics combined with pragmatic thinking about human relationships. You've learned to read the emotional chess board and can anticipate several moves ahead, using insights to navigate complex situations effectively.\n\nThis combination often develops in environments where emotional intelligence alone wasn't sufficient for success or safety. You learned that understanding emotions is only half the battle - knowing how to use that understanding ethically but effectively separates skilled empaths from naive ones.\n\nYour ability to influence outcomes through emotional insight can be tremendously beneficial when used positively. You might resolve conflicts by understanding all parties' needs, or guide someone toward better decisions by appealing to their deeper motivations.\n\nYour growth edge involves constant moral inventory. With great emotional power comes great responsibility, and the temptation to use your gifts purely selfishly is always present. Your conscience serves as your compass, helping you distinguish between strategic empathy that serves everyone versus manipulation that serves only you."
     },
     "classic_dark_empath": {
-      "title": "The Classic Dark Empath",
-      "description": "You are the textbook definition of a dark empath - someone who possesses exceptional emotional intelligence but regularly weaponizes it for personal gain. You can make people feel deeply understood while simultaneously manipulating them. You're the most dangerous type of manipulator because your victims often thank you for it. Your empathy is real, but it serves your darker impulses rather than constraining them."
+      "title": "The Velvet Knife",
+      "description": "You possess exceptional emotional intelligence but regularly weaponize it for personal gain. You can make people feel deeply understood while simultaneously manipulating them. You're the most dangerous type of manipulator because your victims often thank you for it. Your empathy is real, but it serves your darker impulses rather than constraining them.",
+      "extended": "You represent the textbook definition of a dark empath - someone who possesses genuine emotional intelligence but has learned to weaponize it. You can create profound feelings of being understood while simultaneously orchestrating outcomes that serve your interests.\n\nThis pattern often develops from early experiences where emotional understanding became a survival mechanism rather than a source of connection. Perhaps you learned that reading emotions was necessary to avoid punishment, or that manipulating feelings was the only way to get needs met.\n\nThe tragedy of dark empathy is that your genuine emotional abilities could create healing and connection, but instead they create confusion and harm. You can make people feel more understood than they've ever felt, which makes your subsequent manipulation even more devastating.\n\nYour victims often struggle to reconcile the person who 'got them' so completely with the person who hurt them so deliberately. This cognitive dissonance is part of what makes dark empathy so psychologically damaging to others and ultimately isolating for you."
     },
     "emotional_predator": {
-      "title": "The Emotional Predator",
-      "description": "You use emotional intelligence primarily as a hunting tool. You can read people's deepest vulnerabilities and exploit them with surgical precision. Your empathy exists mainly to serve your darker impulses - you understand emotions to control them, not to honor them. People feel 'seen' by you right up until they realize they've been completely played. You're particularly dangerous because you can simulate genuine care while feeling none."
+      "title": "The Heart Hunter",
+      "description": "You use emotional intelligence primarily as a hunting tool. You can read people's deepest vulnerabilities and exploit them with surgical precision. Your empathy exists mainly to serve your darker impulses - you understand emotions to control them, not to honor them. You're particularly dangerous because you can simulate genuine care while feeling none.",
+      "extended": "Your emotional predator profile represents perhaps the most dangerous application of emotional intelligence - the systematic exploitation of others' vulnerabilities for personal gain. Your empathy functions like echolocation for a hunter, helping you identify and target emotional prey with devastating precision.\n\nThis pattern suggests fundamental disconnection from the moral and emotional constraints that normally prevent people from deliberately causing psychological harm. Your ability to understand emotions exists separate from any compulsion to honor or protect them.\n\nThe development of emotional predation typically involves either significant early trauma that created profound detachment, or neurological differences that affect empathic responding. Unlike some dark empaths who genuinely feel others' emotions while choosing to exploit them, you often simulate empathy without truly experiencing it.\n\nYour victims experience particularly profound damage because they feel genuinely seen and understood right up until they realize it was performance. This creates trauma that extends beyond specific harm to fundamental loss of trust in their ability to read people safely."
     },
     "cold_manipulator": {
-      "title": "The Cold Manipulator",
-      "description": "You have some ability to read emotions, but you use it purely as a tool for manipulation without genuine care for others. You're more traditional manipulator than dark empath - you understand emotions intellectually but don't really feel them. Your empathy is all performance, a calculated skill rather than an authentic emotional response. You see emotional intelligence as just another weapon in your arsenal."
+      "title": "The Ice Calculator",
+      "description": "You have some ability to read emotions, but you use it purely as a tool for manipulation without genuine care for others. You're more traditional manipulator than empath - you understand emotions intellectually but don't really feel them. Your empathy is all performance, a calculated skill rather than an authentic emotional response.",
+      "extended": "Your cold manipulation profile indicates someone who has learned to read and exploit emotions without the complicating factor of actually feeling them deeply. You approach emotional intelligence like a technical skill - useful for achieving goals but not particularly meaningful in itself.\n\nThis pattern often develops in highly competitive or emotionally dangerous environments where survival required learning to read people accurately while maintaining emotional distance. You may have concluded early that emotions are weaknesses to be exploited rather than experiences to be shared.\n\nYour manipulation is often less personally invested than other types. You use emotional techniques because they work, not because you enjoy the power or connection. This can make you both less destructive and more predictable - your exploitation serves clear instrumental goals rather than deeper psychological needs.\n\nThe challenge lies in recognizing what you've sacrificed in pursuit of emotional invulnerability. Your protection from being hurt has also cut you off from the full richness of human connection. The question becomes whether safety is worth the cost of never experiencing genuine intimacy."
     },
     "conflicted_empath": {
-      "title": "The Conflicted Empath", 
-      "description": "You have genuine empathy but find yourself using manipulation more than you'd like to admit. You might justify it as 'helping' people make better decisions or protecting them from harsh truths. You're caught between your caring nature and your desire for control. This internal conflict creates cognitive dissonance - you know you care about people, but you also can't resist the power that comes from emotional manipulation."
+      "title": "The Torn Soul",
+      "description": "You have genuine empathy but find yourself using manipulation more than you'd like to admit. You might justify it as 'helping' people make better decisions or protecting them from harsh truths. You're caught between your caring nature and your desire for control, creating internal conflict about who you really are.",
+      "extended": "Your conflicted empathy reveals someone caught between genuine caring and the allure of emotional control. You experience real empathy and authentic concern for others, but you've also discovered that emotional insights can be used to influence and manipulate, creating internal war between better angels and darker impulses.\n\nThis conflict often creates significant psychological distress because your actions don't align with your self-image as a caring person. You might rationalize manipulation as 'helping' people make better decisions or 'protecting' them from harsh truths, but part of you knows these justifications don't fully hold up.\n\nConflicted empathy often occurs when naturally empathetic people encounter situations where pure caring isn't enough - toxic relationships, competitive environments, or family systems where emotional manipulation is normalized. You learned that sometimes you need to fight fire with fire, but this knowledge sits uncomfortably with core values.\n\nYour path forward involves making conscious choices about which aspect of your nature to cultivate. You have capacity for genuine healing relationships, but you also have skills for sophisticated manipulation. The question isn't whether you can change, but whether you'll choose to align actions with empathetic values rather than manipulative capabilities."
     },
     "balanced_dark_empath": {
-      "title": "The Balanced Dark Empath",
-      "description": "You exist in the middle ground of all three traits - enough empathy to understand people, enough darkness to use that knowledge selfishly, and enough manipulation skill to make it work. You're adaptable, reading situations and people to determine whether to be genuinely helpful or strategically manipulative. You can switch between authentic care and calculated exploitation depending on what serves your interests."
+      "title": "The Emotional Shapeshifter",
+      "description": "You exist in the middle ground - enough empathy to understand people, enough darkness to use that knowledge selfishly, and enough skill to make it work. You're adaptable, reading situations to determine whether to be genuinely helpful or strategically manipulative depending on what serves your interests.",
+      "extended": "Your balanced dark empath profile represents someone who has integrated emotional intelligence, strategic thinking, and darker impulses into a complex but functional personality system. You can switch between authentic care and calculated exploitation depending on what serves your interests.\n\nThis balance often develops in people who have experienced both genuine love and significant betrayal, teaching them that the world contains both authentic connection and dangerous manipulation. You learned to respond in kind - offering genuine empathy to those who deserve it while using more calculated approaches with those who might exploit your caring.\n\nYour emotional flexibility can be both strength and challenge. You're capable of forming genuine relationships while protecting yourself from exploitation, but others may struggle to know which version of you they're encountering at any given time. This can create trust issues even in authentic relationships.\n\nThe key question for balanced dark empaths is developing consistent ethical standards that guide when you choose empathy versus manipulation. Without clear moral guidelines, you risk becoming purely opportunistic, using whatever approach feels most advantageous rather than maintaining integrity."
     },
     "emotional_novice": {
-      "title": "The Emotional Novice",
-      "description": "Your emotional intelligence is still developing, and you haven't yet learned to weaponize it effectively. You might have some manipulative tendencies, but you lack the sophisticated emotional reading skills to be truly dangerous. This could be a good thing - use this time to develop genuine empathy instead of manipulation skills. You have the opportunity to choose which path your emotional development will take."
+      "title": "The Awakening Mind",
+      "description": "Your emotional intelligence is still developing, and you haven't yet learned to weaponize it effectively. You might have some manipulative tendencies, but you lack the sophisticated emotional reading skills to be truly dangerous. This could be good - use this time to develop genuine empathy instead of manipulation skills.",
+      "extended": "Your emotional novice profile suggests you're still developing both empathetic abilities and understanding of how emotional intelligence can be applied - for good or ill. You're at a crucial crossroads where you could develop into either a genuinely caring empath or a sophisticated manipulator.\n\nThis developmental stage often occurs in young adults or people who haven't had extensive experience with complex emotional relationships. Your empathetic skills are emerging, but you haven't yet fully learned how to use them or what ethical obligations come with emotional insights.\n\nThe beauty of your current position is that you have choices ahead of you. You can choose to develop empathy in service of authentic connection and healing, or you can learn to weaponize it for personal gain. The path you choose will shape not only relationships but fundamental character.\n\nYour growth opportunity lies in seeking mentors and experiences that model healthy emotional intelligence. Learning from people who use empathetic gifts to create positive change will help you develop the moral framework necessary to wield emotional insights responsibly."
     },
     "empathic_healer": {
-      "title": "The Empathic Healer",
-      "description": "You represent the highest evolution of emotional intelligence - someone who not only feels others' pain but is compelled to heal it. Your empathy is so strong that you can't help but use your emotional insights to reduce suffering and increase wellbeing. You're drawn to help others process trauma, overcome emotional blocks, and develop healthier relationships. Your gift is using emotional understanding to transform pain into healing."
+      "title": "The Soul Mender",
+      "description": "You represent the highest evolution of emotional intelligence - someone who not only understands emotions but feels compelled to use that understanding to reduce suffering and create healing. Your empathy has become a calling rather than just a personality trait. You're drawn to transform pain into healing for others.",
+      "extended": "Your empathic healer profile represents the highest evolution of emotional intelligence - someone who not only understands emotions but feels compelled to use that understanding to reduce suffering and create healing. Your empathy has become a sacred calling rather than just a personality trait.\n\nThis profound level of caring often develops from your own experiences with pain and healing. You may have gone through significant emotional trauma and found healing through others' care, leading you to want to provide that same gift to people in pain. Your empathy has been tempered and strengthened through your own journey.\n\nYour ability to create psychological safety and emotional healing makes you naturally drawn to helping professions or roles where you can support others through difficult times. People likely seek you out when struggling because they instinctively sense your authentic caring and emotional wisdom.\n\nThe challenge for empathic healers is maintaining your own emotional wellbeing while carrying others' pain. Your deep empathy can become a burden if you don't learn to process and release emotions you absorb. Your gift requires careful tending - regular self-care, strong boundaries, and your own sources of healing and renewal."
+    },
+    "shadow_empath": {
+      "title": "The Hidden Blade",
+      "description": "You present as caring and empathetic on the surface, but underneath you're calculating and manipulative. You've learned to hide your darker tendencies behind a facade of compassion, making you particularly dangerous because people trust you completely while you're systematically exploiting that trust.",
+      "extended": "Your shadow empath profile reveals someone who has mastered the art of hiding manipulative tendencies behind a carefully crafted facade of caring and compassion. You're particularly dangerous because your victims never see you coming - they're too busy feeling grateful for your apparent empathy.\n\nThis pattern often develops as a sophisticated defense mechanism in environments where direct manipulation would be detected and punished, but subtle emotional exploitation goes unnoticed. You learned to get what you want while maintaining plausible deniability and even gaining admiration for your 'caring' nature.\n\nYour empathy isn't entirely fake - you do understand emotions and may even feel them to some degree. However, your primary motivation is always self-serving, even when you're genuinely helping someone. You've learned that the most effective manipulation comes wrapped in authentic-seeming care.\n\nThe psychological toll of maintaining this dual existence can be significant. Living behind a mask, even a carefully crafted one, creates isolation and prevents authentic connection. Over time, you may lose touch with any genuine empathetic impulses you once had, leaving you increasingly hollow despite your successful manipulations."
+    },
+    "adaptive_empath": {
+      "title": "The Emotional Chameleon",
+      "description": "You're highly skilled at reading situations and adapting your empathic approach accordingly. Sometimes you're genuinely caring, sometimes strategically helpful, and sometimes calculatingly manipulative - all depending on what the situation calls for and what will benefit you most. You're emotionally flexible to the point of having no consistent moral center.",
+      "extended": "Your adaptive empath profile reveals someone with highly developed emotional intelligence who changes their empathic approach based on situational demands and personal benefit. You're like an emotional chameleon, capable of genuine care, strategic helpfulness, or calculated manipulation depending on what serves you best.\n\nThis adaptability often develops in unpredictable environments where survival required constant assessment and adjustment of emotional strategies. You learned that rigid approaches to empathy were less effective than flexible responses tailored to specific people and situations.\n\nYour strength lies in your ability to read complex social dynamics and respond appropriately to achieve desired outcomes. You can be authentically caring when it serves everyone's interests, strategically helpful when you need something, or manipulatively charming when you're pursuing purely selfish goals.\n\nThe challenge with adaptive empathy is the lack of consistent moral framework. Without clear ethical guidelines, you risk becoming purely opportunistic, choosing whatever emotional approach feels most advantageous without considering the impact on others or your own character development."
     }
-  },
-  "deepAnalysis": {
-    "pure_empath": "Your pure empathy represents a rare and valuable psychological profile in our increasingly disconnected world. Your ability to genuinely feel others' emotions and respond with authentic compassion creates ripple effects of healing that extend far beyond your immediate interactions.\n\nThis level of emotional intelligence typically develops from secure early attachments and positive role models who demonstrated that empathy is both safe and valued. Your neural pathways for emotional resonance are highly developed, allowing you to pick up on subtle emotional cues that others miss entirely.\n\nThe beauty of your empathy lies in its purity of motivation - you understand others' feelings not to use them, but to honor them. This creates psychological safety for others, allowing them to be vulnerable and authentic in your presence. People likely describe you as someone they can tell anything to, someone who 'gets them' without judgment.\n\nYour challenge lies in protecting your emotional energy while maintaining your gift. Pure empaths often struggle with boundaries and can become overwhelmed by taking on others' emotional burdens. Learning to help without absorbing, to care without losing yourself, is your ongoing growth edge. The world needs your authentic compassion - just make sure to include yourself in that circle of care.",
-    "protective_empath": "Your protective empathy demonstrates emotional intelligence combined with healthy self-preservation instincts. You've learned to navigate a world where genuine caring can sometimes be exploited, developing the wisdom to know when to trust and when to guard your heart.\n\nThis balanced approach to empathy suggests you've likely experienced both the beauty and the pain of human relationships. You understand that not everyone who seems vulnerable is harmless, and not everyone who appears confident is trustworthy. Your emotional radar is finely tuned to both authentic need and manipulative behavior.\n\nYour strategic use of emotional insight typically serves protective rather than exploitative purposes. You might manipulate a manipulator to protect someone more vulnerable, or use your understanding of emotions to navigate toxic family dynamics without losing yourself. This represents mature emotional intelligence that recognizes complexity in human interactions.\n\nThe challenge for protective empaths is maintaining the balance between wisdom and cynicism. Your experiences with emotional manipulation might tempt you to close off your heart entirely, but your core empathy prevents this. Instead, you've developed sophisticated emotional boundaries that allow you to care deeply while protecting your own wellbeing - a skill that many pure empaths struggle to learn.",
-    "strategic_empath": "Your strategic empathy reveals a sophisticated understanding of emotional dynamics combined with pragmatic thinking about human relationships. You've learned to read the emotional chess board and can anticipate several moves ahead, using your insights to navigate complex social situations effectively.\n\nThis combination of empathy and strategy often develops in environments where emotional intelligence alone wasn't sufficient for success or safety. You learned that understanding emotions is only half the battle - knowing how to use that understanding ethically but effectively is what separates skilled empaths from naive ones.\n\nYour ability to influence outcomes through emotional insight can be tremendously beneficial when used for positive purposes. You might help resolve conflicts by understanding all parties' emotional needs, or guide someone toward better decisions by appealing to their deeper motivations. Your challenge lies in maintaining ethical standards while exercising this influence.\n\nThe growth edge for strategic empaths involves constant moral inventory. With great emotional power comes great responsibility, and the temptation to use your gifts for purely selfish purposes is always present. Your conscience serves as your compass, helping you distinguish between strategic empathy that serves everyone's interests and manipulation that serves only your own.",
-    "classic_dark_empath": "Your profile represents one of the most complex and potentially destructive personality patterns in psychology - the combination of high emotional intelligence with dark personality traits. You possess the ability to understand and feel others' emotions, but you've learned to use this gift as a weapon rather than a tool for connection.\n\nThis pattern often develops from early experiences where emotional understanding became a survival mechanism rather than a source of joy. Perhaps you learned that reading emotions was necessary to avoid punishment, or that manipulating others' feelings was the only way to get your needs met. Over time, this survival strategy became an approach to all relationships.\n\nThe tragedy of the dark empath is that your genuine emotional abilities could create profound healing and connection, but instead they create confusion and harm. You can make people feel more understood than they've ever felt, which makes your subsequent manipulation even more devastating. Your victims often struggle to reconcile the person who 'got them' so completely with the person who hurt them so deliberately.\n\nRecovery for dark empaths requires confronting the core wounds that taught you to weaponize love instead of offering it freely. This typically involves extensive therapy to address both the trauma that created this pattern and the harm you've caused to others. The path back to authentic empathy is possible but requires genuine commitment to healing rather than just better manipulation techniques.",
-    "emotional_predator": "Your emotional predator profile represents perhaps the most dangerous application of emotional intelligence - the systematic exploitation of others' vulnerabilities for personal gain. Your empathy functions like echolocation for a hunter, helping you identify and target emotional prey with devastating precision.\n\nThis pattern suggests a fundamental disconnection from the moral and emotional constraints that normally prevent people from deliberately causing psychological harm. Your ability to understand emotions exists separate from any compulsion to honor or protect them. This creates a perfect storm of high capability with low conscience.\n\nThe development of emotional predation typically involves either significant early trauma that created profound emotional detachment, or neurological differences that affect empathic responding. Unlike dark empaths who may genuinely feel others' emotions while choosing to exploit them, emotional predators often simulate empathy without truly experiencing it.\n\nYour victims experience particularly profound damage because they feel genuinely seen and understood right up until they realize it was all performance. This creates trauma that extends beyond the specific harm you caused to a fundamental loss of trust in their own ability to read people and situations safely.\n\nThe prognosis for emotional predators is generally poor because the pattern involves both sophisticated manipulation skills and profound moral deficits. Change would require not just learning better behavior, but developing entirely new neural pathways for genuine emotional connection and moral reasoning.",
-    "cold_manipulator": "Your cold manipulation profile indicates someone who has learned to read and exploit emotions without the complicating factor of actually feeling them deeply. You approach emotional intelligence like a technical skill - useful for achieving goals but not particularly meaningful in itself.\n\nThis pattern often develops in highly competitive or emotionally dangerous environments where survival required learning to read people accurately while maintaining emotional distance. You may have concluded early that emotions are weaknesses to be exploited rather than experiences to be shared.\n\nYour manipulation is often less personally invested than that of dark empaths or emotional predators. You use emotional techniques because they work, not because you enjoy the power or connection. This can make you both less destructive and more predictable than other manipulative types - your exploitation serves clear instrumental goals rather than deeper psychological needs.\n\nThe challenge for cold manipulators lies in recognizing what you've sacrificed in the pursuit of emotional invulnerability. Your protection from being hurt has also cut you off from the full richness of human connection. The question becomes whether the safety of emotional distance is worth the cost of never experiencing genuine intimacy and love.",
-    "conflicted_empath": "Your conflicted empathy reveals someone caught between genuine caring and the allure of emotional control. You experience real empathy and authentic concern for others, but you've also discovered that your emotional insights can be used to influence and manipulate, creating an internal war between your better angels and your darker impulses.\n\nThis conflict often creates significant psychological distress because your actions don't align with your self-image as a caring person. You might rationalize your manipulation as 'helping' people make better decisions or 'protecting' them from harsh truths, but part of you knows these justifications don't fully hold up to scrutiny.\n\nThe development of conflicted empathy often occurs when naturally empathetic people encounter situations where pure caring isn't enough - toxic relationships, competitive environments, or family systems where emotional manipulation is normalized. You learned that sometimes you need to fight fire with fire, but this knowledge sits uncomfortably with your core values.\n\nYour path forward involves making a conscious choice about which aspect of your nature to cultivate. You have the capacity for genuine healing relationships, but you also have the skills for sophisticated manipulation. The question is not whether you can change, but whether you will choose to align your actions with your empathetic values rather than your manipulative capabilities.",
-    "balanced_dark_empath": "Your balanced dark empath profile represents someone who has integrated emotional intelligence, strategic thinking, and darker impulses into a complex but functional personality system. You can switch between authentic care and calculated exploitation depending on what serves your interests, making you highly adaptable but potentially unpredictable.\n\nThis balance often develops in people who have experienced both genuine love and significant betrayal, teaching them that the world contains both authentic connection and dangerous manipulation. You learned to respond in kind - offering genuine empathy to those who deserve it while using more calculated approaches with those who might exploit your caring.\n\nYour emotional flexibility can be both a strength and a challenge. You're capable of forming genuine relationships while also protecting yourself from exploitation, but others may struggle to know which version of you they're encountering at any given time. This can create trust issues even in your authentic relationships.\n\nThe key question for balanced dark empaths is developing consistent ethical standards that guide when you choose empathy versus manipulation. Without clear moral guidelines, you risk becoming purely opportunistic, using whatever approach feels most advantageous in the moment rather than maintaining integrity in your relationships.",
-    "emotional_novice": "Your emotional novice profile suggests you're still developing both your empathetic abilities and your understanding of how emotional intelligence can be applied - for good or ill. You're at a crucial crossroads where you could develop into either a genuinely caring empath or a sophisticated manipulator.\n\nThis developmental stage often occurs in young adults or people who haven't had extensive experience with complex emotional relationships. Your empathetic skills are emerging, but you haven't yet fully learned how to use them or what ethical obligations come with emotional insights.\n\nThe beauty of your current position is that you have choices ahead of you. You can choose to develop your empathy in service of authentic connection and healing, or you can learn to weaponize it for personal gain. The path you choose will shape not only your relationships but your fundamental character.\n\nYour growth opportunity lies in seeking out mentors and experiences that model healthy emotional intelligence. Learning from people who use their empathetic gifts to create positive change will help you develop the moral framework necessary to wield emotional insights responsibly. The world needs more people who understand emotions without exploiting them.",
-    "empathic_healer": "Your empathic healer profile represents the highest evolution of emotional intelligence - someone who not only understands emotions but feels compelled to use that understanding to reduce suffering and create healing. Your empathy has become a calling rather than just a personality trait.\n\nThis profound level of caring often develops from your own experiences with pain and healing. You may have gone through significant emotional trauma and found healing through the care of others, leading you to want to provide that same gift to people in pain. Your empathy has been tempered and strengthened through your own journey.\n\nYour ability to create psychological safety and emotional healing makes you naturally drawn to helping professions or roles where you can support others through difficult times. People likely seek you out when they're struggling because they instinctively sense your authentic caring and emotional wisdom.\n\nThe challenge for empathic healers is maintaining your own emotional wellbeing while carrying others' pain. Your deep empathy can become a burden if you don't learn to process and release the emotions you absorb from others. Your gift requires careful tending - regular self-care, strong boundaries, and your own sources of healing and renewal. The world desperately needs your authentic empathy, but only if you can sustain it without burning out."
   }
 }
