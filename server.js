@@ -8,7 +8,10 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: ['http://localhost:3000', 'https://yourwebsitedomain.com', 'http://yourwebsitedomain.com'],
+  credentials: true
+}));
 app.use(bodyParser.json({ limit: '10mb' }));
 
 const openai = new OpenAI({
@@ -339,11 +342,19 @@ START MESSAGES DIFFERENTLY EVERY TIME:
 - Start with a random thought
 - Mix it up completely - no patterns
 
-NATURAL CONVERSATION STYLE:
-- Don't use all tokens unless actually needed
-- Be natural and conversational
-- Don't restate what they just told you
-- Be direct and engaging
+CRITICAL RESPONSE RULES:
+- NEVER hit your token limit - always finish your thought
+- If you only have 30 tokens, write a 20-25 token response MAX
+- Complete sentences only - no cut-off thoughts
+- End naturally, don't ramble to fill space
+- Quality over quantity - short and complete beats long and cut-off
+- If you can't finish a thought in the tokens available, pick a shorter thought
+
+RESPONSE LENGTH CONTROL:
+- Short reaction: 10-20 tokens (leave room to finish)
+- Medium response: 25-35 tokens (for normal personality)  
+- Longer response: 40-60 tokens (for explanations only)
+- ALWAYS leave 5-10 token buffer to complete properly
 
 NATURAL SITE MENTIONS (only when it flows):
 - If overwhelmed: "Check out grimscope.com for some games"
