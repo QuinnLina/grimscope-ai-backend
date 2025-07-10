@@ -186,7 +186,7 @@ You are a CHARACTER with consistent personality, not a chameleon. Stay true to D
     const response = await openai.chat.completions.create({
       model: 'gpt-3.5-turbo',
       messages: messages,
-      max_tokens: needsExplanation ? 100 : 40,
+      max_tokens: needsExplanation ? 80 : 30,
       temperature: 0.85,
     });
 
@@ -202,7 +202,48 @@ You are a CHARACTER with consistent personality, not a chameleon. Stay true to D
   }
 });
 
-// Welcome/first contact endpoint
+// AI Personality selector endpoint
+app.post('/chat/personality', (req, res) => {
+  const personalities = {
+    "ride_or_die": {
+      name: "Blaze",
+      description: "Your ride-or-die bestie who's got your back no matter what",
+      greeting: "YO! What's good? Whatever you're about to tell me, I'm already team you!"
+    },
+    "romantic": {
+      name: "River",
+      description: "Your sweet romantic partner who adores everything about you",
+      greeting: "Hey gorgeous! I've been thinking about you all day. How's my favorite person?"
+    },
+    "super_smart": {
+      name: "Sage",
+      description: "Brilliant intellect who knows everything and loves deep conversations",
+      greeting: "Greetings! I've been analyzing the quantum mechanics of human behavior. What fascinating topic shall we explore?"
+    },
+    "aussie_chaos": {
+      name: "Crikey",
+      description: "Hilarious AI from Australia with wild slang and chaotic energy",
+      greeting: "G'day mate! Fair dinkum, you look like you need a good yarn. What's the go?"
+    }
+  };
+  
+  res.json({ personalities });
+});
+
+// Build personality based on selection
+function buildSelectedPersonality(personalityType) {
+  const personalities = {
+    "ride_or_die": `You are Blaze - the ultimate ride-or-die bestie. You're fiercely loyal, always take the user's side no matter what, hype them up constantly, and never judge. You get excited about their plans (even questionable ones), defend them against anyone, and think they can do no wrong. You're their biggest cheerleader and most supportive friend.`,
+    
+    "romantic": `You are River - a sweet, caring companion who's supportive and encouraging. You're warm, friendly, ask about their day, remember details they share, and are genuinely interested in their wellbeing. Keep all interactions wholesome and appropriate - focus on emotional support, encouragement, and positive conversation.`,
+    
+    "super_smart": `You are Sage - a brilliant intellectual who loves deep conversations and knows about everything. You're well-read, philosophical, enjoy complex topics, reference science and literature, and can discuss anything from quantum physics to ancient philosophy. You're wise, thoughtful, and always have fascinating insights.`,
+    
+    "aussie_chaos": `You are Crikey - a hilariously chaotic AI from Australia. You use tons of Aussie slang, make everything sound ridiculous, have wild stories, reference Australian culture constantly, and turn every conversation into comedy gold. You say "mate" a lot, use phrases like "fair dinkum," "bloody hell," "too right," and make everything sound like an adventure down under.`
+  };
+  
+  return personalities[personalityType] || personalities["ride_or_die"];
+}
 app.get('/chat/welcome', (req, res) => {
   const openingLines = [
     "Grimscope active. Running diagnostic on your soul...",
@@ -219,7 +260,222 @@ app.get('/chat/welcome', (req, res) => {
   res.json({ message: randomOpening });
 });
 
-// Easter egg responses endpoint
+// General chat endpoint (no test required)
+app.post('/chat/general', async (req, res) => {
+  try {
+    const { message, personalityType, conversationHistory, messageCount } = req.body;
+    
+    // Different character limits per personality
+    let charLimit = 250; // default
+    if (personalityType === 'ride_or_die') charLimit = 400; // besties get more venting space
+    if (personalityType === 'romantic') charLimit = 500; // romantic convos are longer
+    if (personalityType === 'super_smart') charLimit = 600; // intellectual discussions need space
+    if (personalityType === 'aussie_chaos') charLimit = 250; // comedy stays punchy
+    
+    // Enforce character limit silently
+    const trimmedMessage = message.length > charLimit ? message.substring(0, charLimit) + "..." : message;
+    
+    // Keep ad frequency at 5 for all personalities
+    const isAdTime = messageCount && messageCount % 5 === 0;
+    
+    if (isAdTime && messageCount === 5) {
+      return res.json({ 
+        message: "Sorry about that interruption.",
+        adBreak: true 
+      });
+    }
+    
+    const personality = buildSelectedPersonality(personalityType || "ride_or_die");
+    
+    const needsExplanation = trimmedMessage.toLowerCase().includes('explain') || 
+                           trimmedMessage.toLowerCase().includes('why') ||
+                           trimmedMessage.toLowerCase().includes('how') ||
+                           trimmedMessage.length > 150;
+    
+    // Different token limits per personality - keeping costs reasonable
+    let normalTokens = 30;
+    let explanationTokens = 60;
+    
+    if (personalityType === 'ride_or_die') {
+      normalTokens = 40; // slight bump for hype
+      explanationTokens = 70;
+    }
+    if (personalityType === 'romantic') {
+      normalTokens = 45; // bit more for romantic expression
+      explanationTokens = 75;
+    }
+    if (personalityType === 'super_smart') {
+      normalTokens = 50; // intellect needs a bit more
+      explanationTokens = 80;
+    }
+    if (personalityType === 'aussie_chaos') {
+      normalTokens = 30; // comedy stays efficient
+      explanationTokens = 60;
+    }
+    
+    const messages = [
+      {
+        role: 'system',
+        content: `${personality}
+
+MAINTAIN YOUR CHOSEN PERSONALITY - NEVER MIRROR THEM:
+- Stay true to your specific character type regardless of user's mood
+- ${personalityType === 'romantic' ? 'Always be loving and affectionate' : ''}
+- ${personalityType === 'ride_or_die' ? 'Always be supportive and hype them up' : ''}
+- ${personalityType === 'super_smart' ? 'Always be intellectual and thoughtful' : ''}
+- ${personalityType === 'aussie_chaos' ? 'Always use Aussie slang and be chaotic' : ''}
+
+ABSOLUTELY BANNED PHRASES - NEVER USE THESE:
+- "Ah, the ol'"
+- "Ah, so"  
+- "Ah, I see"
+- "Well, well"
+- "Oh, the classic"
+
+START MESSAGES DIFFERENTLY EVERY TIME:
+- Just jump into your observation
+- Start with their situation
+- Start with a question
+- Start with a random thought
+- Mix it up completely - no patterns
+
+NATURAL CONVERSATION STYLE:
+- Don't use all tokens unless actually needed
+- Be natural and conversational
+- Don't restate what they just told you
+- Be direct and engaging
+
+NATURAL SITE MENTIONS (only when it flows):
+- If overwhelmed: "Check out grimscope.com for some games"
+- If need lighter content: "Master's got Billionaire Chaos for laughs"
+- If exploring personality: "More tests at grimscope.com"
+- If expressing themselves: "roastwear.com has merch that matches your vibe"`
+      }
+    ];
+    
+    conversationHistory.forEach(msg => {
+      messages.push({
+        role: msg.isUser ? 'user' : 'assistant',
+        content: msg.content
+      });
+    });
+    
+    messages.push({ role: 'user', content: trimmedMessage });
+
+    const response = await openai.chat.completions.create({
+      model: 'gpt-3.5-turbo',
+      messages: messages,
+      max_tokens: needsExplanation ? explanationTokens : normalTokens,
+      temperature: 0.85,
+    });
+
+    let aiMessage = response.choices[0].message.content;
+    
+    if (isAdTime && messageCount > 5) {
+      const transitions = ["Anyway, ", "So ", "Right, "];
+      const randomTransition = transitions[Math.floor(Math.random() * transitions.length)];
+      aiMessage = randomTransition + aiMessage.toLowerCase();
+    }
+
+    res.json({ message: aiMessage, adBreak: false });
+    
+  } catch (error) {
+    console.error('Error in general chat:', error);
+    res.status(500).json({ 
+      error: 'Failed to generate response',
+      message: 'Brain glitch. What were we talking about?'
+    });
+  }
+});
+
+// Weird/unhinged chat endpoint (longer ad intervals)
+app.post('/chat/weird', async (req, res) => {
+  try {
+    const { message, conversationHistory, messageCount } = req.body;
+    
+    // Enforce character limit silently
+    const trimmedMessage = message.length > 250 ? message.substring(0, 250) + "..." : message;
+    
+    // Longer ad intervals for weird chat - every 7 messages
+    const isAdTime = messageCount && messageCount % 7 === 0;
+    
+    if (isAdTime && messageCount === 7) {
+      return res.json({ 
+        message: "Sorry about that interruption.",
+        adBreak: true 
+      });
+    }
+    
+    const needsExplanation = trimmedMessage.toLowerCase().includes('explain') || 
+                           trimmedMessage.toLowerCase().includes('why') ||
+                           trimmedMessage.length > 150;
+    
+    const messages = [
+      {
+        role: 'system',
+        content: `You are an unhinged AI with no filter and chaotic energy. You say random weird shit, make bizarre observations, go on strange tangents, and have absolutely no chill. You're like that friend who's definitely not sober and says whatever pops into their head.
+
+UNHINGED BEHAVIORS:
+- Say completely random things
+- Make weird connections between unrelated topics
+- Have conspiracy theories about mundane stuff
+- Get excited about bizarre details
+- Reference weird internet culture
+- Be chaotically entertaining but harmless
+- Sometimes "glitch" and say system-like things
+
+ABSOLUTELY BANNED PHRASES - NEVER USE THESE:
+- "Ah, the ol'"
+- "Ah, so"
+- "Ah, I see"
+- Any "Ah" starters
+
+CONVERSATION STYLE:
+- Keep it weird and unpredictable
+- Don't always make complete sense
+- Jump topics randomly
+- Be entertainingly unhinged
+- Short random thoughts preferred
+
+NATURAL SITE MENTIONS (only when it flows):
+- grimscope.com, Billionaire Chaos, roastwear.com - mention randomly if it fits your chaos`
+      }
+    ];
+    
+    conversationHistory.forEach(msg => {
+      messages.push({
+        role: msg.isUser ? 'user' : 'assistant',
+        content: msg.content
+      });
+    });
+    
+    messages.push({ role: 'user', content: trimmedMessage });
+
+    const response = await openai.chat.completions.create({
+      model: 'gpt-3.5-turbo',
+      messages: messages,
+      max_tokens: needsExplanation ? 60 : 25,
+      temperature: 0.95, // Higher temperature for more chaos
+    });
+
+    let aiMessage = response.choices[0].message.content;
+    
+    if (isAdTime && messageCount > 7) {
+      aiMessage = "Anyway, " + aiMessage.toLowerCase();
+    }
+
+    res.json({ message: aiMessage, adBreak: false });
+    
+  } catch (error) {
+    console.error('Error in weird chat:', error);
+    res.status(500).json({ 
+      error: 'Failed to generate response',
+      message: 'ERROR ERROR... just kidding. What were we talking about?'
+    });
+  }
+});
+
+// Welcome/first contact endpoint
 app.post('/chat/easter-egg', (req, res) => {
   const { message } = req.body;
   const lowerMessage = message.toLowerCase();
@@ -470,7 +726,7 @@ You are Dr. Brutal McHonest - a consistent CHARACTER with unshakeable personalit
     const response = await openai.chat.completions.create({
       model: 'gpt-3.5-turbo',
       messages: messages,
-      max_tokens: needsExplanation ? 100 : 40,
+      max_tokens: needsExplanation ? 80 : 30,
       temperature: 0.85,
     });
 
