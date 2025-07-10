@@ -186,7 +186,7 @@ You are a CHARACTER with consistent personality, not a chameleon. Stay true to D
     const response = await openai.chat.completions.create({
       model: 'gpt-3.5-turbo',
       messages: messages,
-      max_tokens: needsExplanation ? 120 : 80,
+      max_tokens: needsExplanation ? 100 : 40,
       temperature: 0.85,
     });
 
@@ -470,7 +470,7 @@ You are Dr. Brutal McHonest - a consistent CHARACTER with unshakeable personalit
     const response = await openai.chat.completions.create({
       model: 'gpt-3.5-turbo',
       messages: messages,
-      max_tokens: needsExplanation ? 120 : 80,
+      max_tokens: needsExplanation ? 100 : 40,
       temperature: 0.85,
     });
 
