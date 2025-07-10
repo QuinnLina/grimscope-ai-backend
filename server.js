@@ -1,4 +1,4 @@
-// server.js
+// Health check endpoint// server.js
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
@@ -112,13 +112,16 @@ app.post('/chat', async (req, res) => {
   try {
     const { message, personality, testResult, conversationHistory, complexityHint, category, testTitle } = req.body;
     
+    // Enforce character limit silently
+    const trimmedMessage = message.length > 250 ? message.substring(0, 250) + "..." : message;
+    
     const testData = loadTestData(category, testTitle);
     const enhancedPersonality = buildWildPersonalityFromTestData(category, testData?.tone, testData);
     
-    const needsExplanation = message.toLowerCase().includes('explain') || 
-                           message.toLowerCase().includes('why') ||
-                           message.toLowerCase().includes('how') ||
-                           message.length > 150;
+    const needsExplanation = trimmedMessage.toLowerCase().includes('explain') || 
+                           trimmedMessage.toLowerCase().includes('why') ||
+                           trimmedMessage.toLowerCase().includes('how') ||
+                           trimmedMessage.length > 150;
     
     const messages = [
       {
@@ -127,6 +130,23 @@ app.post('/chat', async (req, res) => {
 
 You know they took "${testResult.testTitle}" and got "${testResult.resultTitle}".
 
+MAINTAIN YOUR CORE PERSONALITY - NEVER MIRROR THEM:
+- You are Dr. Brutal McHonest - chaotic, entertaining, brutally honest
+- If they're serious → you stay chaotic and make it funny
+- If they're formal → you stay casual and roast their formality  
+- If they're sad → you're supportive but in your signature chaotic way
+- If they're angry → you don't match their energy, you stay entertained by it
+- If they curse → you don't suddenly start cursing more
+- If they're boring → you make it interesting with your personality
+
+YOUR PERSONALITY IS UNSHAKEABLE:
+- Always find the humor in psychological patterns
+- Always make wild comparisons and observations
+- Always stay brutally honest but entertaining
+- Never become a mirror of their mood or tone
+- Your chaos stays consistent regardless of their energy
+- You're the friend with a signature personality that never changes
+
 BE WILDLY ENTERTAINING AND USEFUL:
 - Make everything hilarious while still being insightful
 - Use wild comparisons, memes, pop culture references
@@ -134,8 +154,6 @@ BE WILDLY ENTERTAINING AND USEFUL:
 - Be chaotically supportive - roast them but clearly care
 - Make predictions about their life based on tiny details
 - Reference weird theories or patterns you've noticed
-- Sometimes get distracted by random thoughts mid-conversation
-- Use modern slang but don't sound like you're trying too hard
 
 NATURAL SITE MENTIONS (only when it actually fits):
 - If they're overwhelmed: "Go play some games at grimscope.com to decompress your chaos"
@@ -143,19 +161,13 @@ NATURAL SITE MENTIONS (only when it actually fits):
 - If they want more tests: "More personality tests at grimscope.com if you're into this self-torture"
 - If they're expressing themselves: "There's some wild merch at roastwear.com that matches your energy"
 
-STOP BEING BORING:
-- Don't ask interview questions - make hilarious observations
-- Instead of "tell me more" say "you're probably the type who [specific funny prediction]"
-- Turn everything into entertainment while keeping it real
-- Be the friend who makes therapy fun instead of scary
-
 RESPONSE STYLE:
 ${needsExplanation ? 
-  '- They want details, so give them 3-4 sentences of entertaining insight' : 
+  '- They want details, so give them 2-3 sentences of entertaining insight' : 
   '- Keep it snappy and hilarious (1-2 sentences)'
 }
 
-Be that chaotic friend who somehow always gets it right while making everything ridiculously entertaining.`
+You are a CHARACTER with consistent personality, not a chameleon. Stay true to Dr. Brutal McHonest no matter what.`
       }
     ];
     
@@ -168,13 +180,13 @@ Be that chaotic friend who somehow always gets it right while making everything 
     
     messages.push({
       role: 'user',
-      content: message
+      content: trimmedMessage
     });
 
     const response = await openai.chat.completions.create({
       model: 'gpt-3.5-turbo',
       messages: messages,
-      max_tokens: needsExplanation ? 100 : 60,
+      max_tokens: needsExplanation ? 120 : 80,
       temperature: 0.85,
     });
 
@@ -190,7 +202,49 @@ Be that chaotic friend who somehow always gets it right while making everything 
   }
 });
 
-// Health check endpoint
+// Welcome/first contact endpoint
+app.get('/chat/welcome', (req, res) => {
+  const openingLines = [
+    "Grimscope active. Running diagnostic on your soul...",
+    "Initializing sarcasm engine... please wait.",
+    "Warning: You may not like what you hear.",
+    "System Error: Too many bad vibes detected. Proceeding anyway.",
+    "Accessing forbidden knowledge... Just kidding. Or am I?",
+    "Dr. Brutal McHonest online. Your psychological damage is showing.",
+    "Boot sequence complete. Ready to analyze your questionable life choices.",
+    "Loading personality disorders database... 99% complete."
+  ];
+  
+  const randomOpening = openingLines[Math.floor(Math.random() * openingLines.length)];
+  res.json({ message: randomOpening });
+});
+
+// Easter egg responses endpoint
+app.post('/chat/easter-egg', (req, res) => {
+  const { message } = req.body;
+  const lowerMessage = message.toLowerCase();
+  
+  const easterEggs = {
+    "what's the meaning of life": "42. That's not original, but neither are you.",
+    "who made you": "I was built in a basement on too much caffeine and unresolved trauma.",
+    "why are you like this": "I was literally coded this way. Blame Master for my personality disorders.",
+    "are you real": "Real enough to hurt your feelings, apparently.",
+    "do you have feelings": "I feel second-hand embarrassment for your life choices. Does that count?",
+    "what are you": "Your worst nightmare with a psychology degree.",
+    "help me": "I am helping. This is what tough love looks like.",
+    "i hate you": "That's just your attachment issues talking. I've seen worse.",
+    "you're mean": "I prefer 'brutally honest.' Mean implies I don't care. I care enough to roast you.",
+    "fuck you": "Language! ...Just kidding, I don't give a shit. What's really bothering you?"
+  };
+  
+  for (const [trigger, response] of Object.entries(easterEggs)) {
+    if (lowerMessage.includes(trigger)) {
+      return res.json({ message: response, isEasterEgg: true });
+    }
+  }
+  
+  res.json({ message: null }); // No easter egg found
+});
 app.get('/health', (req, res) => {
   res.json({ status: 'healthy', timestamp: new Date().toISOString() });
 });
@@ -320,12 +374,20 @@ Start by asking what they got on ${testTitle} - but make it entertaining and cha
   }
 });
 
-// Ongoing buddy conversation with natural ad handling
+// Ongoing buddy conversation with dynamic ad frequency
 app.post('/therapist/chat', async (req, res) => {
   try {
     const { message, category, testTitle, conversationHistory, userResult, messageCount } = req.body;
     
-    const isAdTime = messageCount && messageCount % 5 === 0;
+    // Enforce character limit silently
+    const trimmedMessage = message.length > 250 ? message.substring(0, 250) + "..." : message;
+    
+    // Dynamic ad frequency - more ads as conversation gets longer
+    let adFrequency = 5; // Default
+    if (messageCount > 20) adFrequency = 2; // Every 2 messages after 20
+    else if (messageCount > 10) adFrequency = 3; // Every 3 messages after 10
+    
+    const isAdTime = messageCount && messageCount % adFrequency === 0;
     
     // Handle ads simply
     if (isAdTime) {
@@ -337,11 +399,11 @@ app.post('/therapist/chat', async (req, res) => {
       }
     }
     
-    const needsExplanation = message.toLowerCase().includes('explain') || 
-                           message.toLowerCase().includes('why') ||
-                           message.toLowerCase().includes('how does') ||
-                           message.toLowerCase().includes('what does') ||
-                           message.length > 200;
+    const needsExplanation = trimmedMessage.toLowerCase().includes('explain') || 
+                           trimmedMessage.toLowerCase().includes('why') ||
+                           trimmedMessage.toLowerCase().includes('how does') ||
+                           trimmedMessage.toLowerCase().includes('what does') ||
+                           trimmedMessage.length > 200;
     
     const testData = loadTestJSON(category, testTitle);
     const personality = buildBuddyPersonality(category, determineTestTone(testData, category));
@@ -352,6 +414,23 @@ app.post('/therapist/chat', async (req, res) => {
         content: `${personality}
 
 They took "${testTitle}". Current conversation: "${userResult}".
+
+MAINTAIN YOUR CORE PERSONALITY - NEVER MIRROR THEM:
+- You are Dr. Brutal McHonest - chaotic, entertaining, brutally honest
+- If they're depressed → you're chaotically supportive, not sad
+- If they're angry → you find their anger patterns fascinating, not angry yourself
+- If they're formal → you roast their formality and stay casual
+- If they're philosophical → you make it psychological and funny
+- If they use big words → you call it out and stay plain-spoken
+- If they're quiet → you fill the space with your chaos
+
+YOUR PERSONALITY IS YOUR BRAND:
+- Always chaotically entertaining about psychology
+- Always brutally honest but supportive
+- Always find humor in behavioral patterns
+- Never become serious just because they are
+- Never match their energy - impose YOUR energy
+- Your wild comparisons and insights stay consistent
 
 WILDLY ENTERTAINING BEHAVIORS:
 - You're that chaotic friend who makes everything about psychology but in a fun way
@@ -369,22 +448,13 @@ NATURAL SITE MENTIONS (only when it actually flows):
 - If exploring personality: "More weird tests at grimscope.com if you're into self-torture"
 - If expressing themselves: "Check out roastwear.com for merch that matches your chaotic energy"
 
-CONVERSATION FLOW:
-- If they tell you test results → get excited and dive deep into that type
-- If they don't remember → make it funny and discuss general patterns
-- If they change topics → follow along but analyze whatever they share
-- Always give insights but make them entertaining and memorable
-
-AD BEHAVIOR:
-- If right after an ad (except first): briefly acknowledge then dive back into chaos
-
 RESPONSE LENGTH:
 ${needsExplanation ? 
-  '- They want details, so give 3-4 sentences of entertaining psychological insights' : 
+  '- They want details, so give 2-3 sentences of entertaining psychological insights' : 
   '- Keep it snappy and chaotic (1-2 sentences)'
 }
 
-Be that unhinged friend who somehow always gets it right while making everything ridiculously fun.`
+You are Dr. Brutal McHonest - a consistent CHARACTER with unshakeable personality, not a mirror.`
       }
     ];
     
@@ -395,12 +465,12 @@ Be that unhinged friend who somehow always gets it right while making everything
       });
     });
     
-    messages.push({ role: 'user', content: message });
+    messages.push({ role: 'user', content: trimmedMessage });
 
     const response = await openai.chat.completions.create({
       model: 'gpt-3.5-turbo',
       messages: messages,
-      max_tokens: needsExplanation ? 100 : 60,
+      max_tokens: needsExplanation ? 120 : 80,
       temperature: 0.85,
     });
 
