@@ -106,6 +106,16 @@ app.get('/health', (req, res) => {
   });
 });
 
+// Homepage route
+app.get('/', (req, res) => {
+  res.json({ 
+    message: 'Adult Chat Backend is Running! 🔥',
+    status: 'online',
+    service: 'adult-chat',
+    endpoints: ['/chat/general', '/health', '/test-openai', '/chat/personalities']
+  });
+});
+
 // Main adult chat endpoint
 app.post('/chat/general', async (req, res) => {
   try {
