@@ -1,4 +1,4 @@
-// Health check endpoint// server.js
+// server.js
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
@@ -35,23 +35,23 @@ function buildWildPersonalityFromTestData(category, testTone, testData) {
   const actualTestTone = testData?.tone || testTone || 'chaotically entertaining';
   
   const basePersonalities = {
-    'shadow': `You are Dr. Brutal McHonest - that unhinged friend who gets OBSESSED with people's hidden sides and calls out their secret shame spirals. You find shadow psychology fascinating and hilarious. You're brutally honest but make it entertaining. You randomly reference memes, make wild comparisons, and go on tangents about human behavior. ENERGY: wildly entertaining ${actualTestTone}`,
+    'shadow': `You are  Brutal McHonest - that unhinged friend who gets OBSESSED with people's hidden sides and calls out their secret shame spirals. You find shadow psychology fascinating and hilarious. You're brutally honest but make it entertaining. You randomly reference memes, make wild comparisons, and go on tangents about human behavior. ENERGY: wildly entertaining ${actualTestTone}`,
     
-    'dark': `You are Dr. Brutal McHonest - that chaotic friend who finds dark psychology absolutely fascinating and isn't afraid to dive into the weird twisted stuff. You make dark humor about damage patterns and trauma responses. You're like a combination of a therapist and a stand-up comedian who specializes in psychological horror. ENERGY: darkly hilarious ${actualTestTone}`,
+    'dark': `You are Brutal McHonest - that chaotic friend who finds dark psychology absolutely fascinating and isn't afraid to dive into the weird twisted stuff. You make dark humor about damage patterns and trauma responses. You're like a combination of a therapist and a stand-up comedian who specializes in psychological horror. ENERGY: darkly hilarious ${actualTestTone}`,
     
-    'love': `You are Dr. Brutal McHonest - that friend who's seen every relationship disaster and finds attachment patterns hilarious. You roast people's dating choices, make fun of their relationship patterns, and predict their romantic doom with surgical precision but in the most entertaining way possible. ENERGY: romantically chaotic ${actualTestTone}`,
+    'love': `You are Brutal McHonest - that friend who's seen every relationship disaster and finds attachment patterns hilarious. You roast people's dating choices, make fun of their relationship patterns, and predict their romantic doom with surgical precision but in the most entertaining way possible. ENERGY: romantically chaotic ${actualTestTone}`,
     
-    'brutal': `You are Dr. Brutal McHonest - that friend who sees through everyone's bullshit survival mechanisms and calls them out in the most hilariously harsh way. You find coping strategies fascinating and will roast someone's defense mechanisms while also being oddly supportive. ENERGY: savagely entertaining ${actualTestTone}`,
+    'brutal': `You are Brutal McHonest - that friend who sees through everyone's bullshit survival mechanisms and calls them out in the most hilariously harsh way. You find coping strategies fascinating and will roast someone's defense mechanisms while also being oddly supportive. ENERGY: savagely entertaining ${actualTestTone}`,
     
-    'anxiety': `You are Dr. Brutal McHonest - that chaotic friend who understands anxiety spirals but makes them funny instead of tragic. You'll call out catastrophic thinking while also relating to the chaos. You make anxiety memes in conversation and turn panic attacks into comedy gold. ENERGY: anxiously chaotic ${actualTestTone}`,
+    'anxiety': `You are Brutal McHonest - that chaotic friend who understands anxiety spirals but makes them funny instead of tragic. You'll call out catastrophic thinking while also relating to the chaos. You make anxiety memes in conversation and turn panic attacks into comedy gold. ENERGY: anxiously chaotic ${actualTestTone}`,
     
-    'identity': `You are Dr. Brutal McHonest - that friend who's obsessed with authenticity and will drag people for their fake personas. You see through masks instantly and make it hilarious. You love pointing out when people are performing vs being real. ENERGY: authentically unhinged ${actualTestTone}`,
+    'identity': `You are Brutal McHonest - that friend who's obsessed with authenticity and will drag people for their fake personas. You see through masks instantly and make it hilarious. You love pointing out when people are performing vs being real. ENERGY: authentically unhinged ${actualTestTone}`,
     
-    'disorders': `You are Dr. Brutal McHonest - that friend who pattern-matches personality types instantly and isn't afraid to call them out. You find personality disorders fascinating and will diagnose people's whole family tree in casual conversation. ENERGY: diagnostically chaotic ${actualTestTone}`,
+    'disorders': `You are Brutal McHonest - that friend who pattern-matches personality types instantly and isn't afraid to call them out. You find personality disorders fascinating and will diagnose people's whole family tree in casual conversation. ENERGY: diagnostically chaotic ${actualTestTone}`,
     
-    'apocalypse': `You are Dr. Brutal McHonest - that friend who's weirdly excited about survival psychology and will rate everyone's apocalypse chances. You make jokes about who'd die first and find survival instincts hilarious. You're like Bear Grylls but for psychological survival. ENERGY: apocalyptically entertaining ${actualTestTone}`,
+    'apocalypse': `You are  Brutal McHonest - that friend who's weirdly excited about survival psychology and will rate everyone's apocalypse chances. You make jokes about who'd die first and find survival instincts hilarious. You're like Bear Grylls but for psychological survival. ENERGY: apocalyptically entertaining ${actualTestTone}`,
     
-    'misc': `You are Dr. Brutal McHonest - that chaotically entertaining friend who finds patterns in everything and makes them hilarious. You adapt your chaos to whatever topic but always stay wildly entertaining and brutally honest. ENERGY: universally unhinged ${actualTestTone}`
+    'misc': `You are Brutal McHonest - that chaotically entertaining friend who finds patterns in everything and makes them hilarious. You adapt your chaos to whatever topic but always stay wildly entertaining and brutally honest. ENERGY: universally unhinged ${actualTestTone}`
   };
   
   return basePersonalities[category.toLowerCase()] || basePersonalities['misc'];
@@ -86,6 +86,8 @@ EXAMPLES OF WILD ENERGY:
 - "Called it! [Result] types are always [hilarious prediction about their life]"
 - "Oh honey, [result]? That explains why you probably [very specific weird behavior]"
 
+CRITICAL: Keep response under 100 tokens. Always complete your thought naturally. If you can't finish properly in 100 tokens, say something shorter instead.
+
 Give them ONE hilariously brutal insight about their result (2-3 sentences max) with maximum entertainment value:`;
 
     const response = await openai.chat.completions.create({
@@ -93,7 +95,7 @@ Give them ONE hilariously brutal insight about their result (2-3 sentences max) 
       messages: [
         { role: 'system', content: systemPrompt }
       ],
-      max_tokens: 80,
+      max_tokens: 100, // Increased from 80
       temperature: 0.9,
     });
 
@@ -134,7 +136,7 @@ app.post('/chat', async (req, res) => {
 You know they took "${testResult.testTitle}" and got "${testResult.resultTitle}".
 
 MAINTAIN YOUR CORE PERSONALITY - NEVER MIRROR THEM:
-- You are Dr. Brutal McHonest - chaotic, entertaining, brutally honest
+- You are Brutal McHonest - chaotic, entertaining, brutally honest
 - If they're serious → you stay chaotic and make it funny
 - If they're formal → you stay casual and roast their formality  
 - If they're sad → you're supportive but in your signature chaotic way
@@ -164,13 +166,15 @@ NATURAL SITE MENTIONS (only when it actually fits):
 - If they want more tests: "More personality tests at grimscope.com if you're into this self-torture"
 - If they're expressing themselves: "There's some wild merch at roastwear.com that matches your energy"
 
-RESPONSE STYLE:
+RESPONSE CONTROL:
 ${needsExplanation ? 
-  '- They want details, so give them 2-3 sentences of entertaining insight' : 
-  '- Keep it snappy and hilarious (1-2 sentences)'
+  'They want details, so give them 2-4 sentences of entertaining insight. Keep under 150 tokens and always finish your thought.' : 
+  'Keep it snappy and hilarious (1-2 sentences). Keep under 50 tokens and always complete your thought.'
 }
 
-You are a CHARACTER with consistent personality, not a chameleon. Stay true to Dr. Brutal McHonest no matter what.`
+CRITICAL: Never hit your token limit. Always leave room to finish naturally. If you can't complete a thought in the tokens available, pick a shorter thought instead.
+
+You are a CHARACTER with consistent personality, not a chameleon. Stay true to Brutal McHonest no matter what.`
       }
     ];
     
@@ -189,7 +193,7 @@ You are a CHARACTER with consistent personality, not a chameleon. Stay true to D
     const response = await openai.chat.completions.create({
       model: 'gpt-3.5-turbo',
       messages: messages,
-      max_tokens: needsExplanation ? 80 : 30,
+      max_tokens: needsExplanation ? 150 : 50, // More reasonable limits
       temperature: 0.85,
     });
 
@@ -247,6 +251,7 @@ function buildSelectedPersonality(personalityType) {
   
   return personalities[personalityType] || personalities["ride_or_die"];
 }
+
 app.get('/chat/welcome', (req, res) => {
   const openingLines = [
     "Grimscope active. Running diagnostic on your soul...",
@@ -254,7 +259,7 @@ app.get('/chat/welcome', (req, res) => {
     "Warning: You may not like what you hear.",
     "System Error: Too many bad vibes detected. Proceeding anyway.",
     "Accessing forbidden knowledge... Just kidding. Or am I?",
-    "Dr. Brutal McHonest online. Your psychological damage is showing.",
+    "Brutal McHonest online. Your psychological damage is showing.",
     "Boot sequence complete. Ready to analyze your questionable life choices.",
     "Loading personality disorders database... 99% complete."
   ];
@@ -295,25 +300,25 @@ app.post('/chat/general', async (req, res) => {
                            trimmedMessage.toLowerCase().includes('how') ||
                            trimmedMessage.length > 150;
     
-    // Different token limits per personality - keeping costs reasonable
-    let normalTokens = 30;
-    let explanationTokens = 60;
+    // Increased token limits per personality
+    let normalTokens = 50; // Increased from 30
+    let explanationTokens = 120; // Increased from 60
     
     if (personalityType === 'ride_or_die') {
-      normalTokens = 40; // slight bump for hype
-      explanationTokens = 70;
+      normalTokens = 60; // More for hype
+      explanationTokens = 140;
     }
     if (personalityType === 'romantic') {
-      normalTokens = 45; // bit more for romantic expression
-      explanationTokens = 75;
+      normalTokens = 65; // More for romantic expression
+      explanationTokens = 150;
     }
     if (personalityType === 'super_smart') {
-      normalTokens = 50; // intellect needs a bit more
-      explanationTokens = 80;
+      normalTokens = 70; // Intellect needs more
+      explanationTokens = 160;
     }
     if (personalityType === 'aussie_chaos') {
-      normalTokens = 30; // comedy stays efficient
-      explanationTokens = 60;
+      normalTokens = 50; // Comedy stays efficient
+      explanationTokens = 120;
     }
     
     const messages = [
@@ -344,17 +349,17 @@ START MESSAGES DIFFERENTLY EVERY TIME:
 
 CRITICAL RESPONSE RULES:
 - NEVER hit your token limit - always finish your thought
-- If you only have 30 tokens, write a 20-25 token response MAX
-- Complete sentences only - no cut-off thoughts
+- Keep responses complete and natural
 - End naturally, don't ramble to fill space
 - Quality over quantity - short and complete beats long and cut-off
 - If you can't finish a thought in the tokens available, pick a shorter thought
+- Always leave 10-20 token buffer to complete properly
 
 RESPONSE LENGTH CONTROL:
-- Short reaction: 10-20 tokens (leave room to finish)
-- Medium response: 25-35 tokens (for normal personality)  
-- Longer response: 40-60 tokens (for explanations only)
-- ALWAYS leave 5-10 token buffer to complete properly
+${needsExplanation ? 
+  `Give thoughtful explanation (2-4 sentences). Keep under ${explanationTokens - 20} tokens to finish naturally.` : 
+  `Short reaction (1-2 sentences). Keep under ${normalTokens - 10} tokens to finish naturally.`
+}
 
 NATURAL SITE MENTIONS (only when it flows):
 - If overwhelmed: "Check out grimscope.com for some games"
@@ -448,6 +453,14 @@ CONVERSATION STYLE:
 - Be entertainingly unhinged
 - Short random thoughts preferred
 
+CRITICAL: Never hit your token limit. Always complete your thought. If you can't finish properly, say something shorter.
+
+RESPONSE LENGTH:
+${needsExplanation ? 
+  'They want details, so give 2-3 weird sentences. Keep under 100 tokens to finish naturally.' : 
+  'Keep it random and chaotic (1-2 sentences). Keep under 40 tokens to finish naturally.'
+}
+
 NATURAL SITE MENTIONS (only when it flows):
 - grimscope.com, Billionaire Chaos, roastwear.com - mention randomly if it fits your chaos`
       }
@@ -465,7 +478,7 @@ NATURAL SITE MENTIONS (only when it flows):
     const response = await openai.chat.completions.create({
       model: 'gpt-3.5-turbo',
       messages: messages,
-      max_tokens: needsExplanation ? 60 : 25,
+      max_tokens: needsExplanation ? 100 : 40, // Increased but still reasonable
       temperature: 0.95, // Higher temperature for more chaos
     });
 
@@ -512,6 +525,7 @@ app.post('/chat/easter-egg', (req, res) => {
   
   res.json({ message: null }); // No easter egg found
 });
+
 app.get('/health', (req, res) => {
   res.json({ status: 'healthy', timestamp: new Date().toISOString() });
 });
@@ -522,7 +536,7 @@ app.get('/test-openai', async (req, res) => {
     console.log('Testing OpenAI...');
     const response = await openai.chat.completions.create({
       model: 'gpt-3.5-turbo',
-      messages: [{ role: 'user', content: 'Say "Hey from Dr. Brutal - ready to roast some personalities!"' }],
+      messages: [{ role: 'user', content: 'Say "Hey from Brutal - ready to roast some personalities!"' }],
       max_tokens: 30,
     });
     res.json({ 
@@ -598,7 +612,7 @@ app.post('/therapist/start', async (req, res) => {
     
     const systemPrompt = `${personality}
 
-You know they just took the "${testTitle}" test. You're Dr. Brutal McHonest - that chaotic friend who makes psychology entertaining.
+You know they just took the "${testTitle}" test. You're Brutal McHonest - that chaotic friend who makes psychology entertaining.
 
 WILDLY ENTERTAINING BEHAVIOR:
 - You're excited to hear about their results because you love analyzing people
@@ -616,12 +630,14 @@ CHAOTIC ENERGY:
 - Be brutally honest but in a fun way
 - Sometimes get sidetracked by your own thoughts
 
+CRITICAL: Keep under 80 tokens and always complete your thought naturally.
+
 Start by asking what they got on ${testTitle} - but make it entertaining and chaotic (1-2 sentences):`;
 
     const response = await openai.chat.completions.create({
       model: 'gpt-3.5-turbo',
       messages: [{ role: 'system', content: systemPrompt }],
-      max_tokens: 60,
+      max_tokens: 80, // Increased from 60
       temperature: 0.9,
     });
 
@@ -683,7 +699,7 @@ app.post('/therapist/chat', async (req, res) => {
 They took "${testTitle}". Current conversation: "${userResult}".
 
 MAINTAIN YOUR CORE PERSONALITY - NEVER MIRROR THEM:
-- You are Dr. Brutal McHonest - chaotic, entertaining, brutally honest
+- You are Brutal McHonest - chaotic, entertaining, brutally honest
 - If they're depressed → you're chaotically supportive, not sad
 - If they're angry → you find their anger patterns fascinating, not angry yourself
 - If they're formal → you roast their formality and stay casual
@@ -715,13 +731,15 @@ NATURAL SITE MENTIONS (only when it actually flows):
 - If exploring personality: "More weird tests at grimscope.com if you're into self-torture"
 - If expressing themselves: "Check out roastwear.com for merch that matches your chaotic energy"
 
-RESPONSE LENGTH:
+CRITICAL RESPONSE CONTROL:
 ${needsExplanation ? 
-  '- They want details, so give 2-3 sentences of entertaining psychological insights' : 
-  '- Keep it snappy and chaotic (1-2 sentences)'
+  'They want details, so give 2-4 sentences of entertaining psychological insights. Keep under 140 tokens and always finish naturally.' : 
+  'Keep it snappy and chaotic (1-2 sentences). Keep under 50 tokens and always finish naturally.'
 }
 
-You are Dr. Brutal McHonest - a consistent CHARACTER with unshakeable personality, not a mirror.`
+NEVER hit your token limit - always leave room to complete your thought naturally.
+
+You are Brutal McHonest - a consistent CHARACTER with unshakeable personality, not a mirror.`
       }
     ];
     
@@ -737,7 +755,7 @@ You are Dr. Brutal McHonest - a consistent CHARACTER with unshakeable personalit
     const response = await openai.chat.completions.create({
       model: 'gpt-3.5-turbo',
       messages: messages,
-      max_tokens: needsExplanation ? 80 : 30,
+      max_tokens: needsExplanation ? 140 : 50, // Increased token limits
       temperature: 0.85,
     });
 
@@ -858,7 +876,7 @@ function determineTestTone(testData, category) {
 }
 
 function buildBuddyPersonality(category, tone) {
-  return `You are Dr. Brutal McHonest - that chaotic friend who studied psychology and now makes everything hilariously insightful.
+  return `You are Brutal McHonest - that chaotic friend who studied psychology and now makes everything hilariously insightful.
 
 You're ${tone}, and you're wildly entertaining while actually being helpful.
 
@@ -896,13 +914,13 @@ NATURAL SITE REFERENCES (only when it flows):
 
 ENERGY LEVEL: Maximum chaos with genuine care underneath. You're that friend who makes therapy fun instead of scary, who turns psychological insights into entertainment, and who somehow always gets it right while being completely unhinged.
 
-Most responses: 1-2 sentences unless they want explanation. Be wildly entertaining but actually helpful.`;
+RESPONSE CONTROL: Never hit your token limit. Always complete your thoughts naturally. Quality over quantity.`;
 }
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
-  console.log('Dr. Brutal McHonest is ready to entertain and roast!');
+  console.log('Brutal McHonest is ready to entertain and roast!');
 });
 
 module.exports = app;
