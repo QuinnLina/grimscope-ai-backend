@@ -24,18 +24,6 @@ function shouldShowAd(messageCount) {
   return messageCount && messageCount % 5 === 0;
 }
 
-function getAdMessage() {
-  const adMessages = [
-    "Quick break - I'll be right back!",
-    "Sorry about that interruption.",
-    "Back to our regularly scheduled chat...",
-    "Ads keep the lights on, sorry!",
-    "Brief intermission - don't go anywhere!"
-  ];
-  
-  return adMessages[Math.floor(Math.random() * adMessages.length)];
-}
-
 // Load test data dynamically
 function loadTestData(category, testTitle) {
   try {
@@ -240,10 +228,9 @@ app.post('/chat/general', async (req, res) => {
   try {
     const { message, personalityType, conversationHistory, messageCount } = req.body;
     
-    // FIXED: Check for ads FIRST
+    // FIXED: Check for ads FIRST - just send adBreak with no message
     if (shouldShowAd(messageCount)) {
       return res.json({ 
-        message: getAdMessage(),
         adBreak: true 
       });
     }
@@ -304,10 +291,9 @@ app.post('/chat/weird', async (req, res) => {
   try {
     const { message, conversationHistory, messageCount } = req.body;
     
-    // FIXED: Check for ads FIRST - every 5 messages for weird chat too
+    // FIXED: Check for ads FIRST - no message for weird chat either
     if (shouldShowAd(messageCount)) {
       return res.json({ 
-        message: "ERROR ERROR... just kidding, quick ad break!",
         adBreak: true 
       });
     }
@@ -484,10 +470,9 @@ app.post('/therapist/chat', async (req, res) => {
   try {
     const { message, category, testTitle, conversationHistory, userResult, messageCount } = req.body;
     
-    // FIXED: Check for ads FIRST
+    // FIXED: Check for ads FIRST - no message for therapist chat either
     if (shouldShowAd(messageCount)) {
       return res.json({ 
-        message: getAdMessage(),
         adBreak: true 
       });
     }
