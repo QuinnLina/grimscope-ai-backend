@@ -18,6 +18,24 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
+// FIXED: Common ad logic for all chat types
+function shouldShowAd(messageCount) {
+  // Show ads every 5 messages starting from message 5
+  return messageCount && messageCount % 5 === 0;
+}
+
+function getAdMessage() {
+  const adMessages = [
+    "Quick break - I'll be right back!",
+    "Sorry about that interruption.",
+    "Back to our regularly scheduled chat...",
+    "Ads keep the lights on, sorry!",
+    "Brief intermission - don't go anywhere!"
+  ];
+  
+  return adMessages[Math.floor(Math.random() * adMessages.length)];
+}
+
 // Load test data dynamically
 function loadTestData(category, testTitle) {
   try {
@@ -217,10 +235,18 @@ app.get('/chat/welcome', (req, res) => {
   res.json({ message: randomOpening });
 });
 
-// General chat endpoint (no test required)
+// FIXED: General chat endpoint with proper ad logic
 app.post('/chat/general', async (req, res) => {
   try {
     const { message, personalityType, conversationHistory, messageCount } = req.body;
+    
+    // FIXED: Check for ads FIRST
+    if (shouldShowAd(messageCount)) {
+      return res.json({ 
+        message: getAdMessage(),
+        adBreak: true 
+      });
+    }
     
     // Different character limits per personality
     let charLimit = 250;
@@ -230,16 +256,6 @@ app.post('/chat/general', async (req, res) => {
     if (personalityType === 'aussie_chaos') charLimit = 250;
     
     const trimmedMessage = message.length > charLimit ? message.substring(0, charLimit) + "..." : message;
-    
-    // Keep ad frequency at 5 for all personalities
-    const isAdTime = messageCount && messageCount % 5 === 0;
-    
-    if (isAdTime && messageCount === 5) {
-      return res.json({ 
-        message: "Sorry about that interruption.",
-        adBreak: true 
-      });
-    }
     
     const personality = buildSelectedPersonality(personalityType || "ride_or_die");
     
@@ -270,13 +286,7 @@ Never start with "Ah," or "Well," or "Oh, the classic" - just respond naturally.
       temperature: 0.85,
     });
 
-    let aiMessage = response.choices[0].message.content;
-    
-    if (isAdTime && messageCount > 5) {
-      const transitions = ["Anyway, ", "So ", "Right, "];
-      const randomTransition = transitions[Math.floor(Math.random() * transitions.length)];
-      aiMessage = randomTransition + aiMessage.toLowerCase();
-    }
+    const aiMessage = response.choices[0].message.content;
 
     res.json({ message: aiMessage, adBreak: false });
     
@@ -289,21 +299,20 @@ Never start with "Ah," or "Well," or "Oh, the classic" - just respond naturally.
   }
 });
 
-// Weird/unhinged chat endpoint
+// FIXED: Weird/unhinged chat endpoint with proper ad logic
 app.post('/chat/weird', async (req, res) => {
   try {
     const { message, conversationHistory, messageCount } = req.body;
     
-    const trimmedMessage = message.length > 250 ? message.substring(0, 250) + "..." : message;
-    
-    const isAdTime = messageCount && messageCount % 7 === 0;
-    
-    if (isAdTime && messageCount === 7) {
+    // FIXED: Check for ads FIRST - every 5 messages for weird chat too
+    if (shouldShowAd(messageCount)) {
       return res.json({ 
-        message: "Sorry about that interruption.",
+        message: "ERROR ERROR... just kidding, quick ad break!",
         adBreak: true 
       });
     }
+    
+    const trimmedMessage = message.length > 250 ? message.substring(0, 250) + "..." : message;
     
     const messages = [
       {
@@ -328,11 +337,7 @@ app.post('/chat/weird', async (req, res) => {
       temperature: 0.95,
     });
 
-    let aiMessage = response.choices[0].message.content;
-    
-    if (isAdTime && messageCount > 7) {
-      aiMessage = "Anyway, " + aiMessage.toLowerCase();
-    }
+    const aiMessage = response.choices[0].message.content;
 
     res.json({ message: aiMessage, adBreak: false });
     
@@ -474,28 +479,20 @@ They just took the "${testTitle}" test. Ask them what they got in a casual, ente
   }
 });
 
-// Therapist chat endpoint
+// FIXED: Therapist chat endpoint with proper ad logic
 app.post('/therapist/chat', async (req, res) => {
   try {
     const { message, category, testTitle, conversationHistory, userResult, messageCount } = req.body;
     
-    const trimmedMessage = message.length > 250 ? message.substring(0, 250) + "..." : message;
-    
-    // Dynamic ad frequency
-    let adFrequency = 5;
-    if (messageCount > 20) adFrequency = 2;
-    else if (messageCount > 10) adFrequency = 3;
-    
-    const isAdTime = messageCount && messageCount % adFrequency === 0;
-    
-    if (isAdTime) {
-      if (messageCount === 5) {
-        return res.json({ 
-          message: "Sorry about that interruption.",
-          adBreak: true 
-        });
-      }
+    // FIXED: Check for ads FIRST
+    if (shouldShowAd(messageCount)) {
+      return res.json({ 
+        message: getAdMessage(),
+        adBreak: true 
+      });
     }
+    
+    const trimmedMessage = message.length > 250 ? message.substring(0, 250) + "..." : message;
     
     const testData = loadTestData(category, testTitle);
     const brutalPersonality = buildBrutalPersonality(category);
@@ -525,13 +522,7 @@ They took "${testTitle}". Just respond naturally - you're good at spotting patte
       temperature: 0.85,
     });
 
-    let aiMessage = response.choices[0].message.content;
-    
-    if (isAdTime && messageCount > 5) {
-      const transitions = ["Anyway, ", "So ", "Right, "];
-      const randomTransition = transitions[Math.floor(Math.random() * transitions.length)];
-      aiMessage = randomTransition + aiMessage.toLowerCase();
-    }
+    const aiMessage = response.choices[0].message.content;
 
     res.json({ 
       message: aiMessage,
